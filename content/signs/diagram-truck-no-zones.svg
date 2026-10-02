@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200">
+  <!-- three-lane road, truck heading right in the middle lane -->
+  <rect width="240" height="200" fill="#6DA544"/>
+  <rect x="0" y="24" width="240" height="152" fill="#666"/>
+  <line x1="0" y1="26" x2="240" y2="26" stroke="#fff" stroke-width="3"/>
+  <line x1="0" y1="174" x2="240" y2="174" stroke="#fff" stroke-width="3"/>
+  <line x1="0" y1="74" x2="240" y2="74" stroke="#fff" stroke-width="3" stroke-dasharray="14 10"/>
+  <line x1="0" y1="126" x2="240" y2="126" stroke="#fff" stroke-width="3" stroke-dasharray="14 10"/>
+
+  <!-- No-Zones (translucent red) -->
+  <g fill="#E53935" fill-opacity="0.5" stroke="#C8102E" stroke-width="2">
+    <!-- front -->
+    <rect x="186" y="80" width="38" height="40" rx="4"/>
+    <!-- left side (smaller) -->
+    <path d="M120 74 L182 74 L182 30 L120 30 Z"/>
+    <!-- right side (larger) -->
+    <path d="M80 126 L186 126 L186 170 L80 170 Z"/>
+    <!-- rear (long) -->
+    <path d="M66 80 L66 120 L4 136 L4 64 Z"/>
+  </g>
+
+  <!-- tractor-trailer, top view -->
+  <rect x="70" y="80" width="84" height="40" rx="3" fill="#EEE" stroke="#111" stroke-width="3"/>
+  <rect x="156" y="82" width="28" height="36" rx="5" fill="#F47920" stroke="#111" stroke-width="3"/>
+  <rect x="174" y="86" width="8" height="28" rx="2" fill="#BFE3FF"/>
+  <rect x="160" y="76" width="5" height="6" fill="#111"/>
+  <rect x="160" y="118" width="5" height="6" fill="#111"/>
+
+  <text x="30" y="104" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="13" fill="#fff" text-anchor="middle">NO</text>
+  <text x="30" y="118" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="13" fill="#fff" text-anchor="middle">ZONE</text>
+</svg>

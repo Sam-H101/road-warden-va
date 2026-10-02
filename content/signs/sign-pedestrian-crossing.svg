@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <title>Pedestrian Crossing</title>
+  <path d="M100 4 L196 100 L100 196 L4 100 Z" fill="#C6E000" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M100 14 L186 100 L100 186 L14 100 Z" fill="none" stroke="#111" stroke-width="7" stroke-linejoin="round"/>
+  <g fill="none" stroke="#111" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="103" cy="52" r="11" fill="#111" stroke="none"/>
+    <path d="M100 72 L94 104" stroke-width="17"/>
+    <path d="M98 76 L84 92 L80 106" stroke-width="9"/>
+    <path d="M100 76 L114 90 L124 96" stroke-width="9"/>
+    <path d="M93 106 L80 128 L74 146" stroke-width="11"/>
+    <path d="M95 106 L108 126 L120 142" stroke-width="11"/>
+  </g>
+</svg>

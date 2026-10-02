@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <title>Divided Highway Ends</title>
+  <path d="M100 4 L196 100 L100 196 L4 100 Z" fill="#FFD100" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M100 14 L186 100 L100 186 L14 100 Z" fill="none" stroke="#111" stroke-width="7" stroke-linejoin="round"/>
+  <g fill="none" stroke="#111" stroke-width="10" stroke-linejoin="round">
+    <path d="M82 48 L82 82 L64 110 L64 138"/>
+    <path d="M118 48 L118 82 L136 110 L136 138"/>
+  </g>
+  <path d="M100 100 L111 114 L111 138 L89 138 L89 114 Z" fill="#111" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+</svg>

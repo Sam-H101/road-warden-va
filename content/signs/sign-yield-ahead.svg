@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <title>Yield Ahead</title>
+  <path d="M100 4 L196 100 L100 196 L4 100 Z" fill="#FFD100" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M100 14 L186 100 L100 186 L14 100 Z" fill="none" stroke="#111" stroke-width="7" stroke-linejoin="round"/>
+  <polygon points="68,54 132,54 100,108" fill="#C8102E" stroke="#fff" stroke-width="3" stroke-linejoin="round"/>
+  <polygon points="85,63.5 115,63.5 100,89.3" fill="#fff"/>
+  <polygon points="100,114 83,134 117,134" fill="#111"/>
+  <rect x="92" y="132" width="16" height="36" fill="#111"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <title>Warning</title>
+  <path d="M100 4 L196 100 L100 196 L4 100 Z" fill="#FFD100" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M100 14 L186 100 L100 186 L14 100 Z" fill="none" stroke="#111" stroke-width="7" stroke-linejoin="round"/>
+  <rect x="89" y="46" width="22" height="78" rx="9" fill="#111"/>
+  <circle cx="100" cy="148" r="12" fill="#111"/>
+</svg>

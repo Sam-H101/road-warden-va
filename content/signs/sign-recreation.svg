@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160">
+  <rect x="4" y="24" width="232" height="112" rx="12" fill="#6E3A1E"/>
+  <rect x="10" y="30" width="220" height="100" rx="8" fill="none" stroke="#fff" stroke-width="4"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle" fill="#fff" font-size="32">
+    <text x="120" y="74">HISTORIC</text>
+    <text x="120" y="116">SITE</text>
+  </g>
+</svg>

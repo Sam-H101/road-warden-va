@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 200">
+  <rect x="54" y="8" width="52" height="186" rx="12" fill="#111" stroke="#444" stroke-width="2"/>
+  <circle cx="80" cy="32" r="17" fill="#333"/>
+  <g><polygon points="66.4,32 78.3,21.5 78.3,42.5" fill="#444"/><rect x="76.6" y="28.3" width="17.0" height="7.5" fill="#444"/></g>
+  <circle cx="80" cy="77" r="17" fill="#333"/>
+  <g><polygon points="66.4,77 78.3,66.5 78.3,87.5" fill="#444"/><rect x="76.6" y="73.3" width="17.0" height="7.5" fill="#444"/></g>
+  <circle cx="80" cy="122" r="27" fill="#FFC400" fill-opacity="0.3"/>
+    <g stroke="#FFC400" stroke-width="5" stroke-linecap="round">
+      <line x1="106.0" y1="122.0" x2="115.0" y2="122.0"/>
+      <line x1="98.4" y1="140.4" x2="104.7" y2="146.7"/>
+      <line x1="80.0" y1="148.0" x2="80.0" y2="157.0"/>
+      <line x1="61.6" y1="140.4" x2="55.3" y2="146.7"/>
+      <line x1="54.0" y1="122.0" x2="45.0" y2="122.0"/>
+      <line x1="61.6" y1="103.6" x2="55.3" y2="97.3"/>
+      <line x1="80.0" y1="96.0" x2="80.0" y2="87.0"/>
+      <line x1="98.4" y1="103.6" x2="104.7" y2="97.3"/>
+    </g>
+  <circle cx="80" cy="122" r="17" fill="#1c1c1c"/>
+  <g><polygon points="66.4,122 78.3,111.5 78.3,132.5" fill="#FFC400"/><rect x="76.6" y="118.3" width="17.0" height="7.5" fill="#FFC400"/></g>
+  <circle cx="80" cy="167" r="17" fill="#333"/>
+  <g><polygon points="66.4,167 78.3,156.5 78.3,177.5" fill="#444"/><rect x="76.6" y="163.3" width="17.0" height="7.5" fill="#444"/></g>
+</svg>

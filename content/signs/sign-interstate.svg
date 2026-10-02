@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <path d="M30 18 Q65 30 100 14 Q135 30 170 18 Q196 60 190 104 Q180 160 100 190 Q20 160 10 104 Q4 60 30 18 Z" fill="#fff" stroke="#111" stroke-width="2"/>
+  <path d="M34 26 Q67 37 100 22 Q133 37 166 26 Q188 62 182 104 Q173 154 100 181 Q27 154 18 104 Q12 62 34 26 Z" fill="#003DA5"/>
+  <path d="M34 26 Q67 37 100 22 Q133 37 166 26 Q177 44 181 63.5 L19 63.5 Q23 44 34 26 Z" fill="#C8102E"/>
+  <line x1="19" y1="63.5" x2="181" y2="63.5" stroke="#fff" stroke-width="5"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle" fill="#fff">
+    <text x="100" y="55" font-size="16">INTERSTATE</text>
+    <text x="100" y="150" font-size="80">95</text>
+  </g>
+</svg>

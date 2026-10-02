@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <polygon points="100,8 192,100 100,192 8,100" fill="#FFD100" stroke="#FFD100" stroke-width="8" stroke-linejoin="round"/>
+  <polygon points="100,15 185,100 100,185 15,100" fill="none" stroke="#111" stroke-width="6" stroke-linejoin="round"/>
+  <g fill="none" stroke="#111" stroke-width="22" stroke-linejoin="miter">
+    <polyline points="74,60 100,108 100,160"/>
+    <polyline points="126,60 100,108"/>
+  </g>
+</svg>

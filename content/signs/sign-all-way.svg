@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 200">
+  <rect x="76" y="132" width="8" height="16" fill="#888"/>
+  <polygon points="53.98,9.18 106.02,9.18 142.82,45.98 142.82,98.02 106.02,134.82 53.98,134.82 17.18,98.02 17.18,45.98" fill="#C8102E"/>
+  <polygon points="55.89,13.79 104.11,13.79 138.21,47.89 138.21,96.11 104.11,130.21 55.89,130.21 21.79,96.11 21.79,47.89" fill="#fff"/>
+  <polygon points="57.42,17.49 102.58,17.49 134.51,49.42 134.51,94.58 102.58,126.51 57.42,126.51 25.49,94.58 25.49,49.42" fill="#C8102E"/>
+  <text x="80" y="85" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="36" text-anchor="middle" fill="#fff">STOP</text>
+  <rect x="26" y="146" width="108" height="46" rx="6" fill="#C8102E"/>
+  <rect x="31" y="151" width="98" height="36" rx="4" fill="none" stroke="#fff" stroke-width="3"/>
+  <text x="80" y="178" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="21" text-anchor="middle" fill="#fff">ALL WAY</text>
+</svg>

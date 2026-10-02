@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <polygon points="100,4 196,100 100,196 4,100" fill="#F47920"/>
+  <polygon points="100,15 185,100 100,185 15,100" fill="none" stroke="#111" stroke-width="6" stroke-linejoin="round"/>
+  <text x="100" y="96" font-size="26" font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle" fill="#111">UNEVEN</text>
+  <text x="100" y="128" font-size="26" font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle" fill="#111">LANES</text>
+</svg>

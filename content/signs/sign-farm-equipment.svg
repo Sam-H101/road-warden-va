@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <title>Tractors and Farm Equipment</title>
+  <path d="M100 4 L196 100 L100 196 L4 100 Z" fill="#FFD100" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M100 14 L186 100 L100 186 L14 100 Z" fill="none" stroke="#111" stroke-width="7" stroke-linejoin="round"/>
+  <g fill="#111">
+    <rect x="58" y="98" width="56" height="18" rx="3"/>
+    <rect x="75" y="76" width="6" height="24" rx="1"/>
+    <path d="M98 98 L98 86 L132 86 L132 98 Z"/>
+    <circle cx="116" cy="68" r="8"/>
+    <path d="M108 78 L124 78 L126 92 L108 92 Z"/>
+    <path d="M100 82 L110 90" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="122" cy="116" r="23"/>
+    <circle cx="70" cy="126" r="13"/>
+  </g>
+  <circle cx="122" cy="116" r="8" fill="#FFD100"/>
+  <circle cx="70" cy="126" r="5" fill="#FFD100"/>
+</svg>

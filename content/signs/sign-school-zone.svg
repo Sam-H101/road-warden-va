@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <title>School Zone / School Crossing</title>
+  <path d="M100 6 L194 70 L194 194 L6 194 L6 70 Z" fill="#C6E000" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M100 17 L184 74 L184 184 L16 184 L16 74 Z" fill="none" stroke="#111" stroke-width="7" stroke-linejoin="round"/>
+  <g fill="none" stroke="#111" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="76" cy="80" r="12" fill="#111" stroke="none"/>
+    <path d="M76 98 L72 134" stroke-width="18"/>
+    <path d="M74 104 L58 124 L54 136" stroke-width="9"/>
+    <path d="M78 104 L96 118 L106 120" stroke-width="9"/>
+    <path d="M70 134 L58 156 L50 172" stroke-width="10"/>
+    <path d="M74 134 L86 154 L96 170" stroke-width="10"/>
+    <circle cx="128" cy="98" r="10" fill="#111" stroke="none"/>
+    <path d="M128 113 L125 142" stroke-width="15"/>
+    <path d="M126 118 L110 122" stroke-width="8"/>
+    <path d="M130 118 L144 132 L146 142" stroke-width="8"/>
+    <path d="M123 142 L114 158 L108 172" stroke-width="9"/>
+    <path d="M127 142 L138 158 L146 172" stroke-width="9"/>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 200">
+  <rect x="6" y="4" width="148" height="192" rx="12" fill="#fff" stroke="#111" stroke-width="3"/>
+  <rect x="14" y="12" width="132" height="176" rx="8" fill="none" stroke="#111" stroke-width="5"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle" fill="#111" font-size="21">
+    <text x="80" y="44">RESERVED</text>
+    <text x="80" y="70">PARKING</text>
+  </g>
+  <rect x="34" y="84" width="92" height="92" rx="6" fill="#003DA5"/>
+  <g fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="74" cy="148" r="18" stroke-width="6"/>
+    <path d="M74 108 L72 136 L98 136 L106 158 L114 158"/>
+    <path d="M73 120 L94 120"/>
+  </g>
+  <circle cx="76" cy="97" r="7" fill="#fff"/>
+</svg>

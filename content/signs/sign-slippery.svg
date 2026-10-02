@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <title>Slippery When Wet</title>
+  <path d="M100 4 L196 100 L100 196 L4 100 Z" fill="#FFD100" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M100 14 L186 100 L100 186 L14 100 Z" fill="none" stroke="#111" stroke-width="7" stroke-linejoin="round"/>
+  <g fill="#111">
+    <path d="M80 62 L87 42 Q88 40 91 40 L109 40 Q112 40 113 42 L120 62 Z"/>
+    <rect x="68" y="60" width="64" height="32" rx="7"/>
+    <rect x="71" y="88" width="14" height="14" rx="3"/>
+    <rect x="115" y="88" width="14" height="14" rx="3"/>
+  </g>
+  <path d="M90 59 L94 47 L106 47 L110 59 Z" fill="#FFD100"/>
+  <rect x="74" y="68" width="12" height="7" rx="2" fill="#FFD100"/>
+  <rect x="114" y="68" width="12" height="7" rx="2" fill="#FFD100"/>
+  <g fill="none" stroke="#111" stroke-width="7" stroke-linecap="round">
+    <path d="M78 108 C62 120 94 130 78 146"/>
+    <path d="M122 108 C106 120 138 130 122 146"/>
+  </g>
+</svg>

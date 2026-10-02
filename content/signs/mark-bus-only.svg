@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200">
+  <rect x="0" y="0" width="240" height="200" fill="#7FB069"/>
+  <rect x="20" y="0" width="200" height="200" fill="#4A4A4A"/>
+  <rect x="124" y="0" width="90" height="200" fill="#B3262B"/>
+  <line x1="26" y1="0" x2="26" y2="200" stroke="#FFD100" stroke-width="4"/>
+  <line x1="122" y1="0" x2="122" y2="200" stroke="#fff" stroke-width="5"/>
+  <line x1="214" y1="0" x2="214" y2="200" stroke="#fff" stroke-width="4"/>
+  <text x="169" y="78" font-size="34" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle">BUS</text>
+  <text x="169" y="140" font-size="28" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle">ONLY</text>
+  <g>
+    <rect x="61" y="108" width="26" height="44" rx="7" fill="#2B6CB0" stroke="#111" stroke-width="2"/>
+    <rect x="64" y="118" width="20" height="9" rx="2" fill="#1C2733"/>
+    <rect x="64" y="140" width="20" height="6" rx="2" fill="#1C2733"/>
+  </g>
+</svg>

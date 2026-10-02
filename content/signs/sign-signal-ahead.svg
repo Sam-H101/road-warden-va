@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <title>Signal Ahead</title>
+  <path d="M100 4 L196 100 L100 196 L4 100 Z" fill="#FFD100" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M100 14 L186 100 L100 186 L14 100 Z" fill="none" stroke="#111" stroke-width="7" stroke-linejoin="round"/>
+  <rect x="78" y="44" width="44" height="112" rx="10" fill="#111"/>
+  <circle cx="100" cy="67" r="14" fill="#C8102E"/>
+  <circle cx="100" cy="100" r="14" fill="#FFD100" stroke="#fff" stroke-width="1.5"/>
+  <circle cx="100" cy="133" r="14" fill="#00A651"/>
+</svg>

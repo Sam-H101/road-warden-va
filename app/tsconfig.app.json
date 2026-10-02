@@ -14,6 +14,9 @@
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
     "noEmit": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "paths": { "@content/*": ["../content/*"] },
     "jsx": "react-jsx",
 
     /* Linting */

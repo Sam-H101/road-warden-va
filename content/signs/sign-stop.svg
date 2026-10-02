@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <polygon points="63.26,11.31 136.74,11.31 188.69,63.26 188.69,136.74 136.74,188.69 63.26,188.69 11.31,136.74 11.31,63.26" fill="#C8102E"/>
+  <polygon points="65.94,17.77 134.06,17.77 182.23,65.94 182.23,134.06 134.06,182.23 65.94,182.23 17.77,134.06 17.77,65.94" fill="#fff"/>
+  <polygon points="68.24,23.32 131.76,23.32 176.68,68.24 176.68,131.76 131.76,176.68 68.24,176.68 23.32,131.76 23.32,68.24" fill="#C8102E"/>
+  <text x="100" y="118" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="50" text-anchor="middle" fill="#fff">STOP</text>
+</svg>

@@ -1,111 +1,105 @@
+@import '@fontsource/lexend/400.css';
+@import '@fontsource/lexend/600.css';
+@import '@fontsource/lexend/800.css';
+@import 'tailwindcss';
+
+/*
+  Theme tokens. The game is dark-first (night-drive arcade look).
+  Accessibility settings toggle classes on <html>:
+   .big-text, .high-contrast, .reduced-motion, .font-system
+*/
+@theme {
+  --font-game: 'Lexend', ui-rounded, system-ui, sans-serif;
+  --color-ink: #0b1020;
+  --color-panel: #141a2e;
+  --color-panel2: #1c2440;
+  --color-line: #2a3558;
+  --color-text: #eef2ff;
+  --color-dim: #a5b0d0;
+  --color-gold: #fbbf24;
+  --color-good: #22c55e;
+  --color-bad: #f43f5e;
+  --color-info: #38bdf8;
+  --color-nitro: #a78bfa;
+}
+
 :root {
-  --text: #6b6375;
-  --text-h: #08060d;
-  --bg: #fff;
-  --border: #e5e4e7;
-  --code-bg: #f4f3ec;
-  --accent: #aa3bff;
-  --accent-bg: rgba(170, 59, 255, 0.1);
-  --accent-border: rgba(170, 59, 255, 0.5);
-  --social-bg: rgba(244, 243, 236, 0.5);
-  --shadow:
-    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
-
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --mono: ui-monospace, Consolas, monospace;
-
-  font: 18px/145% var(--sans);
-  letter-spacing: 0.18px;
-  color-scheme: light dark;
-  color: var(--text);
-  background: var(--bg);
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-  @media (max-width: 1024px) {
-    font-size: 16px;
-  }
+  color-scheme: dark;
+  --ui-scale: 1;
+  font-family: var(--font-game);
+  font-size: calc(16px * var(--ui-scale));
+  background: var(--color-ink);
+  color: var(--color-text);
+  -webkit-tap-highlight-color: transparent;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text: #9ca3af;
-    --text-h: #f3f4f6;
-    --bg: #16171d;
-    --border: #2e303a;
-    --code-bg: #1f2028;
-    --accent: #c084fc;
-    --accent-bg: rgba(192, 132, 252, 0.15);
-    --accent-border: rgba(192, 132, 252, 0.5);
-    --social-bg: rgba(47, 48, 58, 0.5);
-    --shadow:
-      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
-  }
-
-  #social .button-icon {
-    filter: invert(1) brightness(2);
-  }
+html.big-text {
+  --ui-scale: 1.2;
 }
-
-#root {
-  width: 1126px;
-  max-width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  border-inline: 1px solid var(--border);
-  min-height: 100svh;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
+html.font-system {
+  --font-game: ui-sans-serif, system-ui, 'Segoe UI', Arial, sans-serif;
+}
+html.high-contrast {
+  --color-ink: #000000;
+  --color-panel: #0a0a0a;
+  --color-panel2: #151515;
+  --color-line: #ffffff;
+  --color-text: #ffffff;
+  --color-dim: #e5e5e5;
+}
+html.reduced-motion *,
+html.reduced-motion *::before,
+html.reduced-motion *::after {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
 }
 
 body {
   margin: 0;
+  min-height: 100dvh;
+  background: var(--color-ink);
+  overscroll-behavior: none;
 }
 
-h1,
-h2 {
-  font-family: var(--heading);
-  font-weight: 500;
-  color: var(--text-h);
+#root {
+  min-height: 100dvh;
 }
 
-h1 {
-  font-size: 56px;
-  letter-spacing: -1.68px;
-  margin: 32px 0;
-  @media (max-width: 1024px) {
-    font-size: 36px;
-    margin: 20px 0;
-  }
-}
-h2 {
-  font-size: 24px;
-  line-height: 118%;
-  letter-spacing: -0.24px;
-  margin: 0 0 8px;
-  @media (max-width: 1024px) {
-    font-size: 20px;
-  }
-}
-p {
-  margin: 0;
+button {
+  font-family: inherit;
 }
 
-code,
-.counter {
-  font-family: var(--mono);
-  display: inline-flex;
-  border-radius: 4px;
-  color: var(--text-h);
+/* Arcade text glow for big numbers and titles. */
+.glow {
+  text-shadow: 0 0 12px rgb(251 191 36 / 0.55);
 }
 
-code {
-  font-size: 15px;
-  line-height: 135%;
-  padding: 4px 8px;
-  background: var(--code-bg);
+@keyframes pop-in {
+  0% { transform: scale(0.6); opacity: 0; }
+  60% { transform: scale(1.08); opacity: 1; }
+  100% { transform: scale(1); }
 }
+.animate-pop { animation: pop-in 0.35s ease-out both; }
+
+@keyframes rise {
+  0% { transform: translateY(12px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+.animate-rise { animation: rise 0.3s ease-out both; }
+
+@keyframes shine {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.shine {
+  background-image: linear-gradient(110deg, transparent 30%, rgb(255 255 255 / 0.25) 50%, transparent 70%);
+  background-size: 200% 100%;
+  animation: shine 2.2s linear infinite;
+}
+
+@keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 rgb(251 191 36 / 0.6); }
+  100% { box-shadow: 0 0 0 18px rgb(251 191 36 / 0); }
+}
+.pulse-ring { animation: pulse-ring 1.4s ease-out infinite; }

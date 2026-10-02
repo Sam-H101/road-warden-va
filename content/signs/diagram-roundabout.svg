@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="4" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#fff"/>
+    </marker>
+  </defs>
+
+  <!-- roads and circular roadway, top view -->
+  <rect width="240" height="200" fill="#6DA544"/>
+  <rect x="96" y="0" width="48" height="200" fill="#666"/>
+  <rect x="0" y="76" width="240" height="48" fill="#666"/>
+  <circle cx="120" cy="100" r="66" fill="#666"/>
+
+  <!-- center lines on the approaches -->
+  <g stroke="#FFD100" stroke-width="3">
+    <line x1="120" y1="0" x2="120" y2="30"/>
+    <line x1="120" y1="170" x2="120" y2="200"/>
+    <line x1="0" y1="100" x2="50" y2="100"/>
+    <line x1="190" y1="100" x2="240" y2="100"/>
+  </g>
+
+  <!-- yield lines at each entry -->
+  <g fill="#fff">
+    <path d="M121 168 L128 168 L124.5 176 Z M129 168 L136 168 L132.5 176 Z M137 168 L144 168 L140.5 176 Z"/>
+    <path transform="rotate(180 120 100)" d="M121 168 L128 168 L124.5 176 Z M129 168 L136 168 L132.5 176 Z M137 168 L144 168 L140.5 176 Z"/>
+    <path transform="rotate(-90 120 100)" d="M121 168 L128 168 L124.5 176 Z M129 168 L136 168 L132.5 176 Z M137 168 L144 168 L140.5 176 Z"/>
+    <path transform="rotate(90 120 100)" d="M121 168 L128 168 L124.5 176 Z M129 168 L136 168 L132.5 176 Z M137 168 L144 168 L140.5 176 Z"/>
+  </g>
+
+  <!-- center island -->
+  <circle cx="120" cy="100" r="28" fill="#4E8A2E" stroke="#DDD" stroke-width="4"/>
+
+  <!-- counter-clockwise travel -->
+  <g fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" marker-end="url(#ah)">
+    <path d="M136.1 144.2 A47 47 0 0 0 164.2 116.1"/>
+    <path d="M164.2 83.9 A47 47 0 0 0 136.1 55.8"/>
+    <path d="M103.9 55.8 A47 47 0 0 0 75.8 83.9"/>
+    <path d="M75.8 116.1 A47 47 0 0 0 103.9 144.2"/>
+  </g>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200">
+  <!-- sky, road, ground -->
+  <rect width="240" height="200" fill="#EAF4FB"/>
+  <rect x="0" y="152" width="240" height="48" fill="#6DA544"/>
+  <rect x="0" y="152" width="240" height="22" fill="#555"/>
+  <line x1="0" y1="163" x2="240" y2="163" stroke="#fff" stroke-width="2.5" stroke-dasharray="14 10"/>
+
+  <!-- stopwatch -->
+  <rect x="64" y="12" width="12" height="8" rx="2" fill="#111"/>
+  <circle cx="70" cy="52" r="30" fill="#fff" stroke="#111" stroke-width="6"/>
+  <line x1="70" y1="52" x2="70" y2="30" stroke="#C8102E" stroke-width="5" stroke-linecap="round"/>
+  <line x1="70" y1="52" x2="86" y2="60" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="70" cy="52" r="4" fill="#111"/>
+  <text x="166" y="60" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="34" fill="#111" text-anchor="middle">2-4</text>
+  <text x="166" y="82" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="16" fill="#111" text-anchor="middle">SECONDS</text>
+
+  <!-- fixed mark: a sign post the lead car just passed -->
+  <line x1="146" y1="104" x2="146" y2="153" stroke="#555" stroke-width="4"/>
+  <rect x="133" y="92" width="26" height="16" rx="2" fill="#006B3F" stroke="#fff" stroke-width="2"/>
+
+  <!-- gap to count -->
+  <line x1="102" y1="128" x2="136" y2="128" stroke="#C8102E" stroke-width="4"/>
+  <polygon points="94,128 104,121 104,135" fill="#C8102E"/>
+  <polygon points="144,128 134,121 134,135" fill="#C8102E"/>
+
+  <!-- following car -->
+  <g transform="translate(56 152) scale(0.75)">
+    <path d="M-48 -12 L-48 -26 Q-48 -30 -44 -30 L-26 -30 L-16 -46 L18 -46 L30 -30 L44 -30 Q48 -30 48 -26 L48 -12 Z" fill="#1F6FD1" stroke="#111" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M-13 -42 L-1 -42 L-1 -31 L-21 -31 Z" fill="#BFE3FF"/>
+    <path d="M3 -42 L16 -42 L24 -31 L3 -31 Z" fill="#BFE3FF"/>
+    <circle cx="-28" cy="-10" r="10" fill="#111"/>
+    <circle cx="-28" cy="-10" r="4" fill="#AAA"/>
+    <circle cx="28" cy="-10" r="10" fill="#111"/>
+    <circle cx="28" cy="-10" r="4" fill="#AAA"/>
+  </g>
+
+  <!-- lead car -->
+  <g transform="translate(192 152) scale(0.75)">
+    <path d="M-48 -12 L-48 -26 Q-48 -30 -44 -30 L-26 -30 L-16 -46 L18 -46 L30 -30 L44 -30 Q48 -30 48 -26 L48 -12 Z" fill="#D7263D" stroke="#111" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M-13 -42 L-1 -42 L-1 -31 L-21 -31 Z" fill="#BFE3FF"/>
+    <path d="M3 -42 L16 -42 L24 -31 L3 -31 Z" fill="#BFE3FF"/>
+    <circle cx="-28" cy="-10" r="10" fill="#111"/>
+    <circle cx="-28" cy="-10" r="4" fill="#AAA"/>
+    <circle cx="28" cy="-10" r="10" fill="#111"/>
+    <circle cx="28" cy="-10" r="4" fill="#AAA"/>
+  </g>
+</svg>

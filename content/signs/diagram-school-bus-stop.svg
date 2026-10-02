@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200">
+  <!-- two-lane road, top view -->
+  <rect width="240" height="200" fill="#6DA544"/>
+  <rect x="0" y="56" width="240" height="88" fill="#666"/>
+  <line x1="0" y1="58" x2="240" y2="58" stroke="#fff" stroke-width="3"/>
+  <line x1="0" y1="142" x2="240" y2="142" stroke="#fff" stroke-width="3"/>
+  <line x1="0" y1="98" x2="240" y2="98" stroke="#FFD100" stroke-width="2.5"/>
+  <line x1="0" y1="102" x2="240" y2="102" stroke="#FFD100" stroke-width="2.5"/>
+
+  <!-- school bus heading right, lower lane -->
+  <rect x="88" y="106" width="84" height="32" rx="4" fill="#FFB81C" stroke="#111" stroke-width="3"/>
+  <rect x="160" y="110" width="9" height="24" rx="2" fill="#BFE3FF" stroke="#111" stroke-width="1.5"/>
+  <line x1="100" y1="114" x2="152" y2="114" stroke="#111" stroke-width="2"/>
+  <line x1="100" y1="130" x2="152" y2="130" stroke="#111" stroke-width="2"/>
+
+  <!-- flashing red lights -->
+  <g fill="#FF2A2A">
+    <circle cx="94" cy="110" r="9" fill-opacity="0.35"/>
+    <circle cx="94" cy="134" r="9" fill-opacity="0.35"/>
+    <circle cx="166" cy="110" r="9" fill-opacity="0.35"/>
+    <circle cx="166" cy="134" r="9" fill-opacity="0.35"/>
+    <circle cx="94" cy="110" r="4"/>
+    <circle cx="94" cy="134" r="4"/>
+    <circle cx="166" cy="110" r="4"/>
+    <circle cx="166" cy="134" r="4"/>
+  </g>
+
+  <!-- stop arm out on the driver side -->
+  <line x1="150" y1="106" x2="150" y2="96" stroke="#111" stroke-width="3"/>
+  <polygon points="145,74 155,74 162,81 162,91 155,98 145,98 138,91 138,81" fill="#C8102E" stroke="#fff" stroke-width="2"/>
+
+  <!-- car behind the bus, stopped -->
+  <g transform="translate(46 122) rotate(90)">
+    <rect x="-9" y="-16" width="18" height="32" rx="5" fill="#D7263D" stroke="#111" stroke-width="2"/>
+    <rect x="-6.5" y="-9" width="13" height="6" rx="1.5" fill="#BFE3FF"/>
+    <rect x="-6.5" y="7" width="13" height="4" rx="1.5" fill="#BFE3FF"/>
+  </g>
+  <rect x="68" y="108" width="5" height="28" fill="#fff"/>
+
+  <!-- oncoming car, stopped -->
+  <g transform="translate(206 78) rotate(-90)">
+    <rect x="-9" y="-16" width="18" height="32" rx="5" fill="#D7263D" stroke="#111" stroke-width="2"/>
+    <rect x="-6.5" y="-9" width="13" height="6" rx="1.5" fill="#BFE3FF"/>
+    <rect x="-6.5" y="7" width="13" height="4" rx="1.5" fill="#BFE3FF"/>
+  </g>
+  <rect x="181" y="64" width="5" height="28" fill="#fff"/>
+
+  <text x="120" y="34" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="18" fill="#fff" text-anchor="middle">BOTH WAYS STOP</text>
+  <text x="120" y="182" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="14" fill="#fff" text-anchor="middle">NO MEDIAN</text>
+</svg>

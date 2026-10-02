@@ -1,0 +1,1771 @@
+{
+  "district": "d02-shapes",
+  "items": [
+    {
+      "id": "shape-fog-shape-first",
+      "district": "d02-shapes",
+      "kind": "rule",
+      "title": "Shape and color come first",
+      "simple": "In heavy fog, you may see only a sign's shape. From far away, you see the color before you can read the words. Shape and color tell you the message early.",
+      "official": "In poor visibility conditions, such as heavy fog, you may be able to make out only the shape of a sign. As you approach a sign and while still distant, you may see the color long before you can read the message or see the symbol, giving you some advance information.",
+      "image": "sign-stop",
+      "mnemonic": "Shape in the fog, color from far, words up close.",
+      "manualRef": "Section 2, p. 6"
+    },
+    {
+      "id": "shape-red-white",
+      "district": "d02-shapes",
+      "kind": "sign",
+      "title": "Red and white: stop or no",
+      "simple": "Red with white means stop, yield, do not, or no. Stop signs, Yield signs, Do Not Enter signs and Wrong Way signs are all red and white.",
+      "official": "Red used with white conveys stop, yield, do not, and no. Stop signs, yield signs, do not enter or wrong way signs, the circle and slash in a no turn sign, and the restrictions in a parking sign are examples.",
+      "image": "sign-do-not-enter",
+      "mnemonic": "Red means STOP or NO.",
+      "manualRef": "Section 2, p. 6"
+    },
+    {
+      "id": "shape-black-white",
+      "district": "d02-shapes",
+      "kind": "sign",
+      "title": "Black and white: the law",
+      "simple": "Black with white means a rule set by law. Speed limit, Do Not Pass and no-turn signs are black and white. You must obey them.",
+      "official": "Black used with white conveys regulatory information. Speed limit, do not pass, no turns are examples where the operation is regulated by law and the black and white sign would be found. Regulatory signs inform you of the law; you must obey their instructions.",
+      "image": "sign-speed-limit",
+      "mnemonic": "Black and white, like a rule book.",
+      "manualRef": "Section 2, p. 6-7"
+    },
+    {
+      "id": "shape-yellow-black",
+      "district": "d02-shapes",
+      "kind": "sign",
+      "title": "Yellow and black: warning",
+      "simple": "Yellow with black means warning. It tells you about something ahead, like a curve, a stop ahead, a low overpass, or a slippery road.",
+      "official": "Yellow used with black conveys a warning. Curve ahead, stop ahead, overhead clearances, slippery when wet, are all examples.",
+      "image": "sign-slippery",
+      "mnemonic": "Yellow means yikes, look out!",
+      "manualRef": "Section 2, p. 6"
+    },
+    {
+      "id": "shape-yellow-green",
+      "district": "d02-shapes",
+      "kind": "sign",
+      "title": "Yellow-green: people nearby",
+      "simple": "A bright yellow-green sign is a special warning. It means a school zone, people walking, or people on bikes may be near. Watch for them.",
+      "official": "A specialized class of warning signs uses a strong yellow/green color with black to advise of school zone, pedestrian and/or bicyclist activities.",
+      "image": "sign-pedestrian-crossing",
+      "mnemonic": "Bright yellow-green: look for people.",
+      "manualRef": "Section 2, p. 6"
+    },
+    {
+      "id": "shape-green-guide",
+      "district": "d02-shapes",
+      "kind": "sign",
+      "title": "Green: where to go",
+      "simple": "A green and white sign gives helpful information. It tells you about places you are going, like the cities on this sign.",
+      "official": "Green and white, blue and white, and brown and white signs are used to provide helpful information. The green sign is used to provide destination types of information.",
+      "image": "sign-guide-destination",
+      "mnemonic": "Green means go places.",
+      "manualRef": "Section 2, p. 6"
+    },
+    {
+      "id": "shape-blue-services",
+      "district": "d02-shapes",
+      "kind": "sign",
+      "title": "Blue: services for drivers",
+      "simple": "A blue and white sign tells you about services for drivers, like the gas pump and bed shown on this sign.",
+      "official": "Green and white, blue and white, and brown and white signs are used to provide helpful information. The blue sign is used to inform regarding motorists services.",
+      "image": "sign-services",
+      "mnemonic": "Blue is for services for you.",
+      "manualRef": "Section 2, p. 6"
+    },
+    {
+      "id": "shape-brown-recreation",
+      "district": "d02-shapes",
+      "kind": "sign",
+      "title": "Brown: history and culture",
+      "simple": "A brown and white sign tells you about a place of history or culture in the area, like a historic site.",
+      "official": "The brown sign is used to advise of historical or cultural interests that might exist in the area.",
+      "image": "sign-recreation",
+      "mnemonic": "Brown, like an old history book.",
+      "manualRef": "Section 2, p. 6"
+    },
+    {
+      "id": "shape-orange-workzone",
+      "district": "d02-shapes",
+      "kind": "sign",
+      "title": "Orange: construction work zone",
+      "simple": "Orange with black means construction. You are in a work zone. Slow down and be alert. Black and white signs there may show extra work zone rules.",
+      "official": "Orange and black and pink and black signs are used to advise and warn in construction (orange) and incident (pink) areas. They are used with black and white signs that convey regulations that might exist only because of the construction effort or the incident.",
+      "image": "sign-road-work-ahead",
+      "mnemonic": "Orange cones, orange signs: work zone.",
+      "manualRef": "Section 2, p. 6"
+    },
+    {
+      "id": "shape-pink-incident",
+      "district": "d02-shapes",
+      "kind": "sign",
+      "title": "Pink: incident area",
+      "simple": "A pink and black sign warns you about an incident area ahead. Slow down and use care as you drive through.",
+      "official": "Orange and black and pink and black signs are used to advise and warn in construction (orange) and incident (pink) areas.",
+      "image": "sign-incident",
+      "mnemonic": "Pink is incident. Orange is construction.",
+      "manualRef": "Section 2, p. 6"
+    },
+    {
+      "id": "shape-octagon",
+      "district": "d02-shapes",
+      "kind": "sign",
+      "title": "Octagon: always stop",
+      "simple": "A sign with 8 sides always means stop. Stop all the way at the sign, stop line, crosswalk or curb. Wait until the way is clear.",
+      "official": "Octagon (Stop): This eight-sided shape always means stop. You must come to a complete stop at the sign, stop line, pedestrian crosswalk or curb. Wait for any vehicle or pedestrian to clear the way.",
+      "image": "sign-stop",
+      "mnemonic": "8 sides, full stop.",
+      "manualRef": "Section 2, p. 6"
+    },
+    {
+      "id": "shape-triangle",
+      "district": "d02-shapes",
+      "kind": "sign",
+      "title": "Triangle: yield",
+      "simple": "A triangle sign means yield. Slow down as you come to the crossing. Be ready to stop. Let cars, people walking and bikes go first.",
+      "official": "Triangle (Yield): You must slow down as you come to the intersection. Be prepared to stop. Let any vehicles, pedestrians or bicyclists safely pass before you proceed.",
+      "image": "sign-yield",
+      "mnemonic": "Triangle points down: slow down.",
+      "manualRef": "Section 2, p. 6"
+    },
+    {
+      "id": "shape-rect-vertical",
+      "district": "d02-shapes",
+      "kind": "sign",
+      "title": "Tall rectangle: tells the law",
+      "simple": "A tall rectangle sign usually gives you an instruction or tells you the law. Speed Limit and Do Not Pass signs are tall rectangles.",
+      "official": "Rectangle (Regulatory or Guide): Vertical signs generally give instructions or tell you the law.",
+      "image": "sign-do-not-pass",
+      "mnemonic": "Tall sign tells the law.",
+      "manualRef": "Section 2, p. 7"
+    },
+    {
+      "id": "shape-rect-horizontal",
+      "district": "d02-shapes",
+      "kind": "sign",
+      "title": "Wide rectangle: directions",
+      "simple": "A wide rectangle sign may give you directions or information, like which way to go to a city.",
+      "official": "Rectangle (Regulatory or Guide): Horizontal signs may give directions or information.",
+      "image": "sign-guide-destination",
+      "mnemonic": "Wide sign shows which way.",
+      "manualRef": "Section 2, p. 7"
+    },
+    {
+      "id": "shape-diamond",
+      "district": "d02-shapes",
+      "kind": "sign",
+      "title": "Diamond: warning ahead",
+      "simple": "A diamond sign warns you of a special condition or hazard ahead. Slow down. Drive with care. Be ready to stop.",
+      "official": "Diamond (Warning): These signs warn you of special conditions or hazards ahead. Slow down and drive with caution. Be ready to stop.",
+      "image": "sign-warning-generic",
+      "mnemonic": "Diamond means danger ahead.",
+      "manualRef": "Section 2, p. 7"
+    },
+    {
+      "id": "shape-pentagon",
+      "district": "d02-shapes",
+      "kind": "sign",
+      "title": "Pentagon: school zone",
+      "simple": "A sign with 5 sides, shaped like a house, marks a school zone or a school crossing. Two signs may be used together to show where the crosswalk is.",
+      "official": "Pentagon (School Zone/School Crossing): This five-sided shape marks school zones and warns you about school crossings. Two signs may be used together to show the actual location of the crosswalk.",
+      "image": "sign-school-zone",
+      "mnemonic": "Five sides, like a schoolhouse.",
+      "manualRef": "Section 2, p. 7"
+    },
+    {
+      "id": "shape-red-slash",
+      "district": "d02-shapes",
+      "kind": "sign",
+      "title": "Red circle and slash: NO",
+      "simple": "A red circle with a slash means NO. Look at the picture inside the circle. That is the thing you may not do.",
+      "official": "Regulatory signs inform you of the law; you must obey their instructions. Remember that a red circle with a slash means NO; the symbol inside the circle tells you what is prohibited.",
+      "image": "sign-no-left-turn",
+      "mnemonic": "Slash means NO. The picture shows what.",
+      "manualRef": "Section 2, p. 7"
+    },
+    {
+      "id": "shape-pennant",
+      "district": "d02-shapes",
+      "kind": "sign",
+      "title": "Pennant: no passing zone",
+      "simple": "This yellow sign is shaped like a flag. It marks the start of a no passing zone. Do not pass cars ahead of you in your lane, even if the way is clear.",
+      "official": "No Passing Zone: This sign marks the beginning of a no passing zone. You may not pass cars ahead of you in your lane, even if the way is clear.",
+      "image": "sign-no-passing-zone",
+      "mnemonic": "Flag goes up, passing stops.",
+      "manualRef": "Section 2, p. 8"
+    },
+    {
+      "id": "shape-round-railroad",
+      "district": "d02-shapes",
+      "kind": "sign",
+      "title": "Round RR sign: tracks ahead",
+      "simple": "The round yellow sign with an X and two R's warns that a railroad crossing is ahead. Look, listen, slow down, and be ready to stop for trains.",
+      "official": "Railroad Crossing: Advance warning signs are placed before a railroad crossing. These signs warn you to look, listen, slow down and be prepared to stop for trains or any vehicles using the rails.",
+      "image": "sign-railroad-advance",
+      "mnemonic": "Round sign, rails ahead: look and listen.",
+      "manualRef": "Section 2, p. 9"
+    },
+    {
+      "id": "shape-crossbuck",
+      "district": "d02-shapes",
+      "kind": "sign",
+      "title": "Crossbuck: railroad crossing",
+      "simple": "The white X-shaped crossbuck marks a railroad crossing. Look, listen, slow down, and be ready to stop. Trains may come from either direction, on any track.",
+      "official": "Railroad Crossbuck: This sign is a warning of a railroad crossing. Look, listen, slow down and be prepared to stop for trains or any vehicles using the rails. Trains may be approaching from either direction. If there is more than one track, trains may be approaching from either direction on either track.",
+      "image": "sign-railroad-crossbuck",
+      "mnemonic": "X marks the tracks.",
+      "manualRef": "Section 2, p. 9"
+    }
+  ],
+  "events": [
+    {
+      "id": "ev-shape-fog-shape-first-1",
+      "item": "shape-fog-shape-first",
+      "kind": "action",
+      "prompt": "Thick fog. An eight-sided shape ahead.",
+      "sign": "sign-stop",
+      "weather": "fog",
+      "action": "stop",
+      "missLine": "In fog, the shape tells you. Eight sides means stop."
+    },
+    {
+      "id": "ev-shape-fog-shape-first-2",
+      "item": "shape-fog-shape-first",
+      "kind": "action",
+      "prompt": "Fog! A diamond shape is ahead.",
+      "sign": "sign-warning-generic",
+      "weather": "fog",
+      "action": "slow",
+      "missLine": "In fog, a diamond shape still means warning. Slow down and be ready to stop."
+    },
+    {
+      "id": "ev-shape-fog-shape-first-3",
+      "item": "shape-fog-shape-first",
+      "kind": "gates",
+      "prompt": "In heavy fog, what part of a sign shows?",
+      "choices": [
+        "The words",
+        "The shape",
+        "The symbol"
+      ],
+      "answer": 1,
+      "missLine": "In heavy fog, you may see only the sign's shape."
+    },
+    {
+      "id": "ev-shape-fog-shape-first-4",
+      "item": "shape-fog-shape-first",
+      "kind": "gates",
+      "prompt": "From far away, what do you see first?",
+      "choices": [
+        "The color",
+        "The words",
+        "The small symbol"
+      ],
+      "answer": 0,
+      "missLine": "You see a sign's color long before you can read it."
+    },
+    {
+      "id": "ev-shape-red-white-1",
+      "item": "shape-red-white",
+      "kind": "gates",
+      "prompt": "Red and white sign. What does it mean?",
+      "image": "sign-wrong-way",
+      "choices": [
+        "Warning ahead",
+        "Stop, yield or no",
+        "Services ahead"
+      ],
+      "answer": 1,
+      "missLine": "Red with white means stop, yield, do not, or no."
+    },
+    {
+      "id": "ev-shape-red-white-2",
+      "item": "shape-red-white",
+      "kind": "gates",
+      "prompt": "Which colors mean stop or no?",
+      "choices": [
+        "Yellow and black",
+        "Green and white",
+        "Red and white"
+      ],
+      "answer": 2,
+      "missLine": "Red with white means stop, yield, do not, or no."
+    },
+    {
+      "id": "ev-shape-red-white-3",
+      "item": "shape-red-white",
+      "kind": "action",
+      "prompt": "Red and white sign at the corner.",
+      "sign": "sign-stop",
+      "prop": "stop-line",
+      "action": "stop",
+      "missLine": "Red with white can mean stop. This is a stop sign, so stop fully."
+    },
+    {
+      "id": "ev-shape-black-white-1",
+      "item": "shape-black-white",
+      "kind": "gates",
+      "prompt": "Black and white signs tell you what?",
+      "image": "sign-speed-limit",
+      "choices": [
+        "Services nearby",
+        "Hazards ahead",
+        "The law"
+      ],
+      "answer": 2,
+      "missLine": "Black with white means a rule set by law."
+    },
+    {
+      "id": "ev-shape-black-white-2",
+      "item": "shape-black-white",
+      "kind": "gates",
+      "prompt": "Which sign is black and white?",
+      "choices": [
+        "Speed limit",
+        "Stop",
+        "Road work ahead"
+      ],
+      "answer": 0,
+      "missLine": "Speed limit signs are black and white. They tell you the law."
+    },
+    {
+      "id": "ev-shape-black-white-3",
+      "item": "shape-black-white",
+      "kind": "gates",
+      "prompt": "Must you obey black and white rule signs?",
+      "image": "sign-do-not-pass",
+      "choices": [
+        "Only at night",
+        "Yes, it is the law",
+        "Only if police are near"
+      ],
+      "answer": 1,
+      "missLine": "Regulatory signs tell you the law. You must obey them."
+    },
+    {
+      "id": "ev-shape-yellow-black-1",
+      "item": "shape-yellow-black",
+      "kind": "action",
+      "prompt": "Yellow and black sign ahead.",
+      "sign": "sign-slippery",
+      "action": "slow",
+      "missLine": "Yellow with black is a warning. Slow down and drive with care."
+    },
+    {
+      "id": "ev-shape-yellow-black-2",
+      "item": "shape-yellow-black",
+      "kind": "gates",
+      "prompt": "Yellow and black signs mean what?",
+      "image": "sign-stop-ahead",
+      "choices": [
+        "Warning",
+        "Services",
+        "Directions"
+      ],
+      "answer": 0,
+      "missLine": "Yellow with black means warning. Something is ahead."
+    },
+    {
+      "id": "ev-shape-yellow-black-3",
+      "item": "shape-yellow-black",
+      "kind": "gates",
+      "prompt": "Which sign is yellow and black?",
+      "choices": [
+        "Do not enter",
+        "Curve ahead",
+        "Historic site"
+      ],
+      "answer": 1,
+      "missLine": "Curve ahead is a yellow and black warning sign."
+    },
+    {
+      "id": "ev-shape-yellow-green-1",
+      "item": "shape-yellow-green",
+      "kind": "action",
+      "prompt": "Bright yellow-green walker sign ahead.",
+      "sign": "sign-pedestrian-crossing",
+      "prop": "pedestrian-crosswalk",
+      "action": "slow",
+      "missLine": "Yellow-green warns of people walking. Slow down and be ready to stop."
+    },
+    {
+      "id": "ev-shape-yellow-green-2",
+      "item": "shape-yellow-green",
+      "kind": "gates",
+      "prompt": "Bright yellow-green signs warn about what?",
+      "image": "sign-bicycle-crossing",
+      "choices": [
+        "Deer and tractors",
+        "Road work",
+        "Schools, walkers, bikes"
+      ],
+      "answer": 2,
+      "missLine": "Yellow-green warns of school zones, people walking and bikes."
+    },
+    {
+      "id": "ev-shape-yellow-green-3",
+      "item": "shape-yellow-green",
+      "kind": "gates",
+      "prompt": "Which color warns of schools and walkers?",
+      "choices": [
+        "Brown",
+        "Yellow-green",
+        "Blue"
+      ],
+      "answer": 1,
+      "missLine": "Strong yellow-green with black warns of schools, walkers and bikes."
+    },
+    {
+      "id": "ev-shape-green-guide-1",
+      "item": "shape-green-guide",
+      "kind": "gates",
+      "prompt": "What does a green sign tell you?",
+      "image": "sign-guide-destination",
+      "choices": [
+        "Where to go",
+        "A hazard ahead",
+        "Road work"
+      ],
+      "answer": 0,
+      "missLine": "Green signs give destination information."
+    },
+    {
+      "id": "ev-shape-green-guide-2",
+      "item": "shape-green-guide",
+      "kind": "gates",
+      "prompt": "Which color shows destinations?",
+      "choices": [
+        "Blue",
+        "Brown",
+        "Green"
+      ],
+      "answer": 2,
+      "missLine": "Green and white signs show destinations."
+    },
+    {
+      "id": "ev-shape-green-guide-3",
+      "item": "shape-green-guide",
+      "kind": "action",
+      "prompt": "Green city sign. The road is clear.",
+      "sign": "sign-guide-destination",
+      "action": "go",
+      "missLine": "A green sign only gives helpful information. Keep driving."
+    },
+    {
+      "id": "ev-shape-blue-services-1",
+      "item": "shape-blue-services",
+      "kind": "gates",
+      "prompt": "A blue sign tells you about what?",
+      "image": "sign-services",
+      "choices": [
+        "Hazards",
+        "Historic sites",
+        "Driver services"
+      ],
+      "answer": 2,
+      "missLine": "Blue and white signs tell you about motorist services."
+    },
+    {
+      "id": "ev-shape-blue-services-2",
+      "item": "shape-blue-services",
+      "kind": "gates",
+      "prompt": "Which color shows motorist services?",
+      "choices": [
+        "Blue",
+        "Orange",
+        "Pink"
+      ],
+      "answer": 0,
+      "missLine": "Blue signs are for motorist services."
+    },
+    {
+      "id": "ev-shape-blue-services-3",
+      "item": "shape-blue-services",
+      "kind": "action",
+      "prompt": "Blue services sign. The road is clear.",
+      "sign": "sign-services",
+      "action": "go",
+      "missLine": "A blue sign only gives helpful information. Keep driving."
+    },
+    {
+      "id": "ev-shape-brown-recreation-1",
+      "item": "shape-brown-recreation",
+      "kind": "gates",
+      "prompt": "Brown signs point out what?",
+      "image": "sign-recreation",
+      "choices": [
+        "Historic places",
+        "Gas and food",
+        "Lane closures"
+      ],
+      "answer": 0,
+      "missLine": "Brown signs tell you about history or culture in the area."
+    },
+    {
+      "id": "ev-shape-brown-recreation-2",
+      "item": "shape-brown-recreation",
+      "kind": "gates",
+      "prompt": "Which color marks history and culture?",
+      "choices": [
+        "Green",
+        "Brown",
+        "Yellow"
+      ],
+      "answer": 1,
+      "missLine": "Brown and white signs point out historical or cultural places."
+    },
+    {
+      "id": "ev-shape-orange-workzone-1",
+      "item": "shape-orange-workzone",
+      "kind": "action",
+      "prompt": "Orange sign: ROAD WORK AHEAD.",
+      "sign": "sign-road-work-ahead",
+      "prop": "work-zone-cones",
+      "action": "slow",
+      "missLine": "Orange means a work zone. Slow down and be alert."
+    },
+    {
+      "id": "ev-shape-orange-workzone-2",
+      "item": "shape-orange-workzone",
+      "kind": "gates",
+      "prompt": "Orange and black signs mean what?",
+      "image": "sign-road-work-ahead",
+      "choices": [
+        "Historic site",
+        "Construction area",
+        "School zone"
+      ],
+      "answer": 1,
+      "missLine": "Orange with black warns of construction."
+    },
+    {
+      "id": "ev-shape-orange-workzone-3",
+      "item": "shape-orange-workzone",
+      "kind": "gates",
+      "prompt": "Which color marks construction areas?",
+      "choices": [
+        "Pink",
+        "Brown",
+        "Orange"
+      ],
+      "answer": 2,
+      "missLine": "Orange is for construction. Pink is for incidents."
+    },
+    {
+      "id": "ev-shape-pink-incident-1",
+      "item": "shape-pink-incident",
+      "kind": "gates",
+      "prompt": "Pink and black signs warn of what?",
+      "image": "sign-incident",
+      "choices": [
+        "An incident area",
+        "A school zone",
+        "Gas ahead"
+      ],
+      "answer": 0,
+      "missLine": "Pink with black warns of an incident area."
+    },
+    {
+      "id": "ev-shape-pink-incident-2",
+      "item": "shape-pink-incident",
+      "kind": "gates",
+      "prompt": "Which color warns of an incident area?",
+      "choices": [
+        "Brown",
+        "Pink",
+        "Green"
+      ],
+      "answer": 1,
+      "missLine": "Pink is for incidents. Orange is for construction."
+    },
+    {
+      "id": "ev-shape-pink-incident-3",
+      "item": "shape-pink-incident",
+      "kind": "action",
+      "prompt": "Pink sign: INCIDENT AHEAD.",
+      "sign": "sign-incident",
+      "action": "slow",
+      "missLine": "Pink warns of an incident area. Slow down and use care."
+    },
+    {
+      "id": "ev-shape-octagon-1",
+      "item": "shape-octagon",
+      "kind": "action",
+      "prompt": "Eight-sided sign at the corner.",
+      "sign": "sign-stop",
+      "prop": "stop-line",
+      "action": "stop",
+      "missLine": "Eight sides always means stop. Stop fully at the line."
+    },
+    {
+      "id": "ev-shape-octagon-2",
+      "item": "shape-octagon",
+      "kind": "gates",
+      "prompt": "Eight-sided sign shape means what?",
+      "choices": [
+        "Yield",
+        "Stop",
+        "Warning"
+      ],
+      "answer": 1,
+      "missLine": "The eight-sided shape always means stop."
+    },
+    {
+      "id": "ev-shape-octagon-3",
+      "item": "shape-octagon",
+      "kind": "gates",
+      "prompt": "How many sides does a stop sign have?",
+      "image": "sign-stop",
+      "choices": [
+        "Five",
+        "Three",
+        "Eight"
+      ],
+      "answer": 2,
+      "missLine": "A stop sign is an octagon. It has eight sides."
+    },
+    {
+      "id": "ev-shape-triangle-1",
+      "item": "shape-triangle",
+      "kind": "action",
+      "prompt": "Triangle sign at the crossing ahead.",
+      "sign": "sign-yield",
+      "action": "slow",
+      "missLine": "A triangle means yield. Slow down and be ready to stop."
+    },
+    {
+      "id": "ev-shape-triangle-2",
+      "item": "shape-triangle",
+      "kind": "gates",
+      "prompt": "A triangle sign means what?",
+      "image": "sign-yield",
+      "choices": [
+        "Yield",
+        "Always stop",
+        "Speed up to merge"
+      ],
+      "answer": 0,
+      "missLine": "A triangle means yield. Slow down and let others go first."
+    },
+    {
+      "id": "ev-shape-triangle-3",
+      "item": "shape-triangle",
+      "kind": "gates",
+      "prompt": "At a yield sign, who goes first?",
+      "choices": [
+        "You do",
+        "Only trucks",
+        "Cars, walkers and bikes"
+      ],
+      "answer": 2,
+      "missLine": "At a yield sign, let cars, people walking and bikes pass first."
+    },
+    {
+      "id": "ev-shape-rect-vertical-1",
+      "item": "shape-rect-vertical",
+      "kind": "gates",
+      "prompt": "A tall rectangle sign usually gives what?",
+      "image": "sign-speed-limit",
+      "choices": [
+        "Instructions or law",
+        "A hazard warning",
+        "Historic sites"
+      ],
+      "answer": 0,
+      "missLine": "Tall rectangle signs give instructions or tell you the law."
+    },
+    {
+      "id": "ev-shape-rect-vertical-2",
+      "item": "shape-rect-vertical",
+      "kind": "gates",
+      "prompt": "Which shape usually tells you the law?",
+      "image": "sign-do-not-pass",
+      "choices": [
+        "Wide rectangle",
+        "Round",
+        "Tall rectangle"
+      ],
+      "answer": 2,
+      "missLine": "Tall rectangle signs usually tell you the law."
+    },
+    {
+      "id": "ev-shape-rect-horizontal-1",
+      "item": "shape-rect-horizontal",
+      "kind": "gates",
+      "prompt": "A wide rectangle sign may give what?",
+      "image": "sign-guide-destination",
+      "choices": [
+        "A stop order",
+        "Directions or info",
+        "A school warning"
+      ],
+      "answer": 1,
+      "missLine": "Wide rectangle signs may give directions or information."
+    },
+    {
+      "id": "ev-shape-rect-horizontal-2",
+      "item": "shape-rect-horizontal",
+      "kind": "gates",
+      "prompt": "Which shape may give directions?",
+      "choices": [
+        "Octagon",
+        "Triangle",
+        "Wide rectangle"
+      ],
+      "answer": 2,
+      "missLine": "Wide rectangle signs may give directions or information."
+    },
+    {
+      "id": "ev-shape-diamond-1",
+      "item": "shape-diamond",
+      "kind": "action",
+      "prompt": "Diamond-shaped sign ahead.",
+      "sign": "sign-warning-generic",
+      "action": "slow",
+      "missLine": "A diamond is a warning. Slow down and be ready to stop."
+    },
+    {
+      "id": "ev-shape-diamond-2",
+      "item": "shape-diamond",
+      "kind": "gates",
+      "prompt": "Diamond shape means what?",
+      "image": "sign-warning-generic",
+      "choices": [
+        "Stop",
+        "Yield",
+        "Warning"
+      ],
+      "answer": 2,
+      "missLine": "Diamond signs warn of special conditions or hazards ahead."
+    },
+    {
+      "id": "ev-shape-diamond-3",
+      "item": "shape-diamond",
+      "kind": "gates",
+      "prompt": "At a diamond sign, what should you do?",
+      "choices": [
+        "Slow, be ready to stop",
+        "Speed up",
+        "Honk your horn"
+      ],
+      "answer": 0,
+      "missLine": "At a diamond sign, slow down, use caution, be ready to stop."
+    },
+    {
+      "id": "ev-shape-pentagon-1",
+      "item": "shape-pentagon",
+      "kind": "action",
+      "prompt": "Five-sided school sign ahead.",
+      "sign": "sign-school-zone",
+      "action": "slow",
+      "missLine": "Five sides marks a school zone. Slow down and watch for children."
+    },
+    {
+      "id": "ev-shape-pentagon-2",
+      "item": "shape-pentagon",
+      "kind": "gates",
+      "prompt": "Five-sided sign shape means what?",
+      "choices": [
+        "Railroad",
+        "School zone",
+        "No passing"
+      ],
+      "answer": 1,
+      "missLine": "The five-sided pentagon marks school zones and school crossings."
+    },
+    {
+      "id": "ev-shape-pentagon-3",
+      "item": "shape-pentagon",
+      "kind": "gates",
+      "prompt": "How many sides does a school sign have?",
+      "image": "sign-school-zone",
+      "choices": [
+        "Eight",
+        "Three",
+        "Five"
+      ],
+      "answer": 2,
+      "missLine": "School zone signs are pentagons. They have five sides."
+    },
+    {
+      "id": "ev-shape-red-slash-1",
+      "item": "shape-red-slash",
+      "kind": "gates",
+      "prompt": "Red circle with a slash means what?",
+      "image": "sign-no-left-turn",
+      "choices": [
+        "Turn here",
+        "NO, not allowed",
+        "Slow down"
+      ],
+      "answer": 1,
+      "missLine": "A red circle with a slash means NO."
+    },
+    {
+      "id": "ev-shape-red-slash-2",
+      "item": "shape-red-slash",
+      "kind": "gates",
+      "prompt": "What does this sign say you may not do?",
+      "image": "sign-no-u-turn",
+      "choices": [
+        "U-turns",
+        "Right turns",
+        "Go straight"
+      ],
+      "answer": 0,
+      "missLine": "The picture inside the red circle and slash is what you may not do."
+    },
+    {
+      "id": "ev-shape-red-slash-3",
+      "item": "shape-red-slash",
+      "kind": "gates",
+      "prompt": "What is not allowed here?",
+      "image": "sign-no-right-turn",
+      "choices": [
+        "Left turns",
+        "U-turns",
+        "Right turns"
+      ],
+      "answer": 2,
+      "missLine": "The right-turn arrow under the slash means no right turns."
+    },
+    {
+      "id": "ev-shape-pennant-1",
+      "item": "shape-pennant",
+      "kind": "gates",
+      "prompt": "What does this flag-shaped sign mean?",
+      "image": "sign-no-passing-zone",
+      "choices": [
+        "Pass with care",
+        "No passing zone",
+        "Merge now"
+      ],
+      "answer": 1,
+      "missLine": "This sign marks the start of a no passing zone."
+    },
+    {
+      "id": "ev-shape-pennant-2",
+      "item": "shape-pennant",
+      "kind": "gates",
+      "prompt": "No passing zone, but the road looks clear. Pass?",
+      "choices": [
+        "No, do not pass",
+        "Yes, if it is clear",
+        "Yes, if you honk"
+      ],
+      "answer": 0,
+      "missLine": "In a no passing zone, do not pass, even if the way is clear."
+    },
+    {
+      "id": "ev-shape-pennant-3",
+      "item": "shape-pennant",
+      "kind": "action",
+      "prompt": "No passing zone sign. Slow truck ahead.",
+      "sign": "sign-no-passing-zone",
+      "prop": "truck-ahead",
+      "action": "slow",
+      "missLine": "Do not pass in a no passing zone. Slow down and stay behind."
+    },
+    {
+      "id": "ev-shape-round-railroad-1",
+      "item": "shape-round-railroad",
+      "kind": "action",
+      "prompt": "Round yellow RR sign ahead.",
+      "sign": "sign-railroad-advance",
+      "action": "slow",
+      "missLine": "A railroad crossing is ahead. Look, listen, slow down, be ready to stop."
+    },
+    {
+      "id": "ev-shape-round-railroad-2",
+      "item": "shape-round-railroad",
+      "kind": "gates",
+      "prompt": "What does this round sign warn of?",
+      "image": "sign-railroad-advance",
+      "choices": [
+        "Roundabout",
+        "School zone",
+        "Railroad crossing ahead"
+      ],
+      "answer": 2,
+      "missLine": "The round RR sign warns of a railroad crossing ahead."
+    },
+    {
+      "id": "ev-shape-round-railroad-3",
+      "item": "shape-round-railroad",
+      "kind": "gates",
+      "prompt": "At a round RR sign, what should you do?",
+      "choices": [
+        "Look, listen, slow",
+        "Speed up to cross",
+        "Honk and go"
+      ],
+      "answer": 0,
+      "missLine": "Look, listen, slow down and be ready to stop for trains."
+    },
+    {
+      "id": "ev-shape-crossbuck-1",
+      "item": "shape-crossbuck",
+      "kind": "action",
+      "prompt": "White X sign at the tracks.",
+      "sign": "sign-railroad-crossbuck",
+      "action": "slow",
+      "missLine": "A crossbuck marks a railroad crossing. Slow down and be ready to stop."
+    },
+    {
+      "id": "ev-shape-crossbuck-2",
+      "item": "shape-crossbuck",
+      "kind": "gates",
+      "prompt": "At a crossbuck, trains may come from where?",
+      "choices": [
+        "The left only",
+        "The right only",
+        "Either direction"
+      ],
+      "answer": 2,
+      "missLine": "Trains may come from either direction, on any track."
+    },
+    {
+      "id": "ev-shape-crossbuck-3",
+      "item": "shape-crossbuck",
+      "kind": "gates",
+      "prompt": "A white X-shaped sign means what?",
+      "image": "sign-railroad-crossbuck",
+      "choices": [
+        "Railroad crossing",
+        "Intersection",
+        "No parking"
+      ],
+      "answer": 0,
+      "missLine": "The white X crossbuck warns of a railroad crossing."
+    },
+    {
+      "id": "ev-shape-brown-recreation-3",
+      "item": "shape-brown-recreation",
+      "kind": "action",
+      "prompt": "Brown historic site sign. The road is clear.",
+      "sign": "sign-recreation",
+      "action": "go",
+      "missLine": "A brown sign only gives helpful information. Keep driving."
+    },
+    {
+      "id": "ev-shape-rect-vertical-3",
+      "item": "shape-rect-vertical",
+      "kind": "gates",
+      "prompt": "Speed limit sign shape?",
+      "image": "sign-speed-limit",
+      "choices": [
+        "Diamond",
+        "Tall rectangle",
+        "Pentagon"
+      ],
+      "answer": 1,
+      "missLine": "Speed limit signs are tall rectangles. They tell you the law."
+    },
+    {
+      "id": "ev-shape-rect-horizontal-3",
+      "item": "shape-rect-horizontal",
+      "kind": "gates",
+      "prompt": "Wide sign with city names. What is it for?",
+      "image": "sign-guide-destination",
+      "choices": [
+        "Giving directions",
+        "Warning of a hazard",
+        "Telling you to stop"
+      ],
+      "answer": 0,
+      "missLine": "Wide rectangle signs may give directions or information."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-shape-fog-shape-first-1",
+      "item": "shape-fog-shape-first",
+      "part": 2,
+      "prompt": "In heavy fog, you may be able to make out only a sign's:",
+      "choices": [
+        "Words",
+        "Symbol",
+        "Shape",
+        "Arrow"
+      ],
+      "answer": 2,
+      "explain": "In poor visibility like heavy fog, you may see only the shape of a sign."
+    },
+    {
+      "id": "q-shape-fog-shape-first-2",
+      "item": "shape-fog-shape-first",
+      "part": 2,
+      "prompt": "When a sign is still far away, you can often see its _____ long before you can read the message.",
+      "choices": [
+        "Color",
+        "Words",
+        "Small print",
+        "Arrow"
+      ],
+      "answer": 0,
+      "explain": "While a sign is still distant, you may see its color long before you can read it."
+    },
+    {
+      "id": "q-shape-fog-shape-first-3",
+      "item": "shape-fog-shape-first",
+      "part": 1,
+      "prompt": "In thick fog you can see only this sign's shape. It tells you to:",
+      "image": "sign-yield",
+      "choices": [
+        "Speed up",
+        "Stop every time",
+        "Pass the car ahead",
+        "Slow down and be ready to stop"
+      ],
+      "answer": 3,
+      "explain": "A triangle shape means yield: slow down and be prepared to stop."
+    },
+    {
+      "id": "q-shape-red-white-1",
+      "item": "shape-red-white",
+      "part": 1,
+      "prompt": "Red used with white on a road sign like this one means:",
+      "image": "sign-wrong-way",
+      "choices": [
+        "A warning of a hazard",
+        "Motorist services",
+        "Stop, yield, do not, or no",
+        "Construction ahead"
+      ],
+      "answer": 2,
+      "explain": "Red used with white conveys stop, yield, do not, and no."
+    },
+    {
+      "id": "q-shape-red-white-2",
+      "item": "shape-red-white",
+      "part": 2,
+      "prompt": "Which of these signs is red and white?",
+      "choices": [
+        "Speed limit",
+        "Curve ahead",
+        "Historic site",
+        "Do not enter"
+      ],
+      "answer": 3,
+      "explain": "Stop, yield, do not enter and wrong way signs are red and white."
+    },
+    {
+      "id": "q-shape-red-white-3",
+      "item": "shape-red-white",
+      "part": 2,
+      "prompt": "Stop signs, yield signs, do not enter signs and wrong way signs all use:",
+      "choices": [
+        "Red and white",
+        "Yellow and black",
+        "Black and white",
+        "Orange and black"
+      ],
+      "answer": 0,
+      "explain": "Red with white is used for stop, yield, do not and no."
+    },
+    {
+      "id": "q-shape-black-white-1",
+      "item": "shape-black-white",
+      "part": 1,
+      "prompt": "Black and white signs like this one give:",
+      "image": "sign-speed-limit",
+      "choices": [
+        "Warnings of hazards",
+        "Regulatory information (the law)",
+        "Destination information",
+        "Construction information"
+      ],
+      "answer": 1,
+      "explain": "Black used with white conveys regulatory information set by law."
+    },
+    {
+      "id": "q-shape-black-white-2",
+      "item": "shape-black-white",
+      "part": 2,
+      "prompt": "Regulatory signs:",
+      "choices": [
+        "Are only suggestions",
+        "Only apply to trucks",
+        "Only warn of hazards ahead",
+        "Tell you the law, and you must obey them"
+      ],
+      "answer": 3,
+      "explain": "Regulatory signs inform you of the law, and you must obey their instructions."
+    },
+    {
+      "id": "q-shape-black-white-3",
+      "item": "shape-black-white",
+      "part": 1,
+      "prompt": "This black and white sign is a type of:",
+      "image": "sign-do-not-pass",
+      "choices": [
+        "Warning sign",
+        "Guide sign",
+        "Regulatory sign",
+        "Service sign"
+      ],
+      "answer": 2,
+      "explain": "Do not pass is a black and white regulatory sign that tells you the law."
+    },
+    {
+      "id": "q-shape-yellow-black-1",
+      "item": "shape-yellow-black",
+      "part": 1,
+      "prompt": "A yellow and black sign like this one means:",
+      "image": "sign-slippery",
+      "choices": [
+        "A rule you must obey",
+        "Directions to a city",
+        "A warning",
+        "A work zone"
+      ],
+      "answer": 2,
+      "explain": "Yellow used with black conveys a warning."
+    },
+    {
+      "id": "q-shape-yellow-black-2",
+      "item": "shape-yellow-black",
+      "part": 2,
+      "prompt": "Which of these is a yellow and black warning sign?",
+      "choices": [
+        "Speed limit",
+        "Slippery when wet",
+        "Wrong way",
+        "Historic site"
+      ],
+      "answer": 1,
+      "explain": "Curve ahead, stop ahead, overhead clearance and slippery when wet are yellow and black warning signs."
+    },
+    {
+      "id": "q-shape-yellow-black-3",
+      "item": "shape-yellow-black",
+      "part": 1,
+      "prompt": "This yellow and black sign is a:",
+      "image": "sign-low-clearance",
+      "choices": [
+        "Warning sign",
+        "Regulatory sign",
+        "Guide sign",
+        "Incident sign"
+      ],
+      "answer": 0,
+      "explain": "Yellow with black is a warning, such as an overhead clearance ahead."
+    },
+    {
+      "id": "q-shape-yellow-green-1",
+      "item": "shape-yellow-green",
+      "part": 1,
+      "prompt": "This strong yellow-green sign warns of:",
+      "image": "sign-pedestrian-crossing",
+      "choices": [
+        "Construction",
+        "Pedestrians",
+        "Motorist services",
+        "A detour"
+      ],
+      "answer": 1,
+      "explain": "Strong yellow-green with black warns of school zone, pedestrian and bicyclist activity."
+    },
+    {
+      "id": "q-shape-yellow-green-2",
+      "item": "shape-yellow-green",
+      "part": 2,
+      "prompt": "A strong yellow-green color with black is used on signs for:",
+      "choices": [
+        "Rest areas and gas",
+        "Historic sites",
+        "Construction work",
+        "School zones, pedestrians and bicyclists"
+      ],
+      "answer": 3,
+      "explain": "A special class of warning signs uses strong yellow-green to advise of school zone, pedestrian and bicyclist activity."
+    },
+    {
+      "id": "q-shape-yellow-green-3",
+      "item": "shape-yellow-green",
+      "part": 1,
+      "prompt": "This yellow-green sign means:",
+      "image": "sign-bicycle-crossing",
+      "choices": [
+        "Bicycles may cross or ride beside traffic here",
+        "Bicycles are not allowed",
+        "A bike shop is ahead",
+        "Road work ahead"
+      ],
+      "answer": 0,
+      "explain": "Yellow-green signs warn of bicyclist activity; drive with caution."
+    },
+    {
+      "id": "q-shape-green-guide-1",
+      "item": "shape-green-guide",
+      "part": 1,
+      "prompt": "A green and white sign like this one gives:",
+      "image": "sign-guide-destination",
+      "choices": [
+        "Warnings",
+        "Motorist services",
+        "Destination information",
+        "Historical sites"
+      ],
+      "answer": 2,
+      "explain": "The green sign is used to provide destination information."
+    },
+    {
+      "id": "q-shape-green-guide-2",
+      "item": "shape-green-guide",
+      "part": 2,
+      "prompt": "Green and white, blue and white, and brown and white signs are used to:",
+      "choices": [
+        "Warn of hazards",
+        "Give regulations",
+        "Mark work zones",
+        "Provide helpful information"
+      ],
+      "answer": 3,
+      "explain": "Green, blue and brown signs provide helpful information."
+    },
+    {
+      "id": "q-shape-blue-services-1",
+      "item": "shape-blue-services",
+      "part": 1,
+      "prompt": "This blue and white sign tells you about:",
+      "image": "sign-services",
+      "choices": [
+        "A school zone",
+        "Motorist services",
+        "A detour",
+        "A historic site"
+      ],
+      "answer": 1,
+      "explain": "The blue sign is used to inform about motorist services."
+    },
+    {
+      "id": "q-shape-blue-services-2",
+      "item": "shape-blue-services",
+      "part": 2,
+      "prompt": "Blue and white signs are used for:",
+      "choices": [
+        "Construction",
+        "Warnings",
+        "Motorist services",
+        "Destinations"
+      ],
+      "answer": 2,
+      "explain": "Blue signs inform you about motorist services."
+    },
+    {
+      "id": "q-shape-brown-recreation-1",
+      "item": "shape-brown-recreation",
+      "part": 1,
+      "prompt": "A brown and white sign like this one tells you about:",
+      "image": "sign-recreation",
+      "choices": [
+        "Speed limits",
+        "Railroad crossings",
+        "Motorist services",
+        "Historical or cultural interests"
+      ],
+      "answer": 3,
+      "explain": "The brown sign advises of historical or cultural interests in the area."
+    },
+    {
+      "id": "q-shape-brown-recreation-2",
+      "item": "shape-brown-recreation",
+      "part": 2,
+      "prompt": "Signs that tell you about historical or cultural places are:",
+      "choices": [
+        "Brown and white",
+        "Blue and white",
+        "Green and white",
+        "Orange and black"
+      ],
+      "answer": 0,
+      "explain": "Brown and white signs advise of historical or cultural interests."
+    },
+    {
+      "id": "q-shape-orange-workzone-1",
+      "item": "shape-orange-workzone",
+      "part": 1,
+      "prompt": "An orange and black sign like this one warns of:",
+      "image": "sign-road-work-ahead",
+      "choices": [
+        "Construction",
+        "An incident",
+        "A school",
+        "Motorist services"
+      ],
+      "answer": 0,
+      "explain": "Orange and black signs advise and warn in construction areas."
+    },
+    {
+      "id": "q-shape-orange-workzone-2",
+      "item": "shape-orange-workzone",
+      "part": 2,
+      "prompt": "In a construction area, black and white signs may be used with orange signs to show:",
+      "choices": [
+        "Gas stations nearby",
+        "Rules that exist only because of the construction",
+        "Historic sites",
+        "Hospital locations"
+      ],
+      "answer": 1,
+      "explain": "Black and white signs in work zones convey regulations that exist only because of the construction."
+    },
+    {
+      "id": "q-shape-orange-workzone-3",
+      "item": "shape-orange-workzone",
+      "part": 2,
+      "prompt": "The color orange on a sign means:",
+      "choices": [
+        "Speed up to clear the area",
+        "A rest area",
+        "A railroad crossing",
+        "A work zone; slow down and be alert"
+      ],
+      "answer": 3,
+      "explain": "The color orange marks a work zone and means slow down and be alert."
+    },
+    {
+      "id": "q-shape-pink-incident-1",
+      "item": "shape-pink-incident",
+      "part": 1,
+      "prompt": "A pink and black sign like this one is used in:",
+      "image": "sign-incident",
+      "choices": [
+        "School zones",
+        "Historic areas",
+        "Incident areas",
+        "Rest areas"
+      ],
+      "answer": 2,
+      "explain": "Pink and black signs advise and warn in incident areas."
+    },
+    {
+      "id": "q-shape-pink-incident-2",
+      "item": "shape-pink-incident",
+      "part": 2,
+      "prompt": "Pink and black signs are used in ____ areas. Orange and black signs are used in ____ areas.",
+      "choices": [
+        "construction; incident",
+        "incident; construction",
+        "school; park",
+        "rest; toll"
+      ],
+      "answer": 1,
+      "explain": "Pink is used for incident areas and orange is used for construction areas."
+    },
+    {
+      "id": "q-shape-octagon-1",
+      "item": "shape-octagon",
+      "part": 1,
+      "prompt": "An eight-sided sign like this one always means:",
+      "image": "sign-stop",
+      "choices": [
+        "Slow down",
+        "Yield",
+        "Warning ahead",
+        "Stop"
+      ],
+      "answer": 3,
+      "explain": "The eight-sided octagon shape always means stop."
+    },
+    {
+      "id": "q-shape-octagon-2",
+      "item": "shape-octagon",
+      "part": 2,
+      "prompt": "At an eight-sided sign, you must come to a complete stop at the:",
+      "choices": [
+        "Sign, stop line, crosswalk or curb",
+        "Middle of the intersection",
+        "Far side of the intersection",
+        "Next traffic light"
+      ],
+      "answer": 0,
+      "explain": "You must stop completely at the sign, stop line, pedestrian crosswalk or curb."
+    },
+    {
+      "id": "q-shape-octagon-3",
+      "item": "shape-octagon",
+      "part": 1,
+      "prompt": "When you see this sign, you must:",
+      "image": "sign-stop",
+      "choices": [
+        "Slow down and go if clear",
+        "Come to a complete stop and wait for the way to clear",
+        "Stop only if cars are coming",
+        "Honk and proceed"
+      ],
+      "answer": 1,
+      "explain": "Come to a complete stop and wait for any vehicle or pedestrian to clear the way."
+    },
+    {
+      "id": "q-shape-triangle-1",
+      "item": "shape-triangle",
+      "part": 1,
+      "prompt": "This triangle-shaped sign means you must:",
+      "image": "sign-yield",
+      "choices": [
+        "Slow down, be ready to stop, and let others pass first",
+        "Stop completely every time",
+        "Speed up and merge",
+        "Pass the car ahead"
+      ],
+      "answer": 0,
+      "explain": "At a yield sign, slow down, be prepared to stop, and let others safely pass."
+    },
+    {
+      "id": "q-shape-triangle-2",
+      "item": "shape-triangle",
+      "part": 2,
+      "prompt": "At a yield sign, you must let ____ safely pass before you go.",
+      "choices": [
+        "Only vehicles",
+        "Only pedestrians",
+        "Only emergency vehicles",
+        "Vehicles, pedestrians and bicyclists"
+      ],
+      "answer": 3,
+      "explain": "Let any vehicles, pedestrians or bicyclists safely pass before you proceed."
+    },
+    {
+      "id": "q-shape-rect-vertical-1",
+      "item": "shape-rect-vertical",
+      "part": 1,
+      "prompt": "Vertical rectangle signs like this one generally:",
+      "image": "sign-do-not-pass",
+      "choices": [
+        "Give directions to cities",
+        "Warn of hazards",
+        "Give instructions or tell you the law",
+        "Mark school zones"
+      ],
+      "answer": 2,
+      "explain": "Vertical rectangle signs generally give instructions or tell you the law."
+    },
+    {
+      "id": "q-shape-rect-vertical-2",
+      "item": "shape-rect-vertical",
+      "part": 2,
+      "prompt": "Rectangle-shaped signs are used for:",
+      "choices": [
+        "Only warnings",
+        "Regulatory or guide information",
+        "Only railroad crossings",
+        "Only school zones"
+      ],
+      "answer": 1,
+      "explain": "Rectangles are regulatory or guide signs."
+    },
+    {
+      "id": "q-shape-rect-horizontal-1",
+      "item": "shape-rect-horizontal",
+      "part": 1,
+      "prompt": "Horizontal rectangle signs like this one may give:",
+      "image": "sign-guide-destination",
+      "choices": [
+        "Directions or information",
+        "Stop orders",
+        "Yield orders",
+        "School crossing warnings"
+      ],
+      "answer": 0,
+      "explain": "Horizontal rectangle signs may give directions or information."
+    },
+    {
+      "id": "q-shape-rect-horizontal-2",
+      "item": "shape-rect-horizontal",
+      "part": 2,
+      "prompt": "A vertical rectangle sign generally tells you the law. A horizontal rectangle sign may:",
+      "choices": [
+        "Mean stop",
+        "Warn of a curve",
+        "Mark a no passing zone",
+        "Give directions or information"
+      ],
+      "answer": 3,
+      "explain": "Horizontal signs may give directions or information."
+    },
+    {
+      "id": "q-shape-diamond-1",
+      "item": "shape-diamond",
+      "part": 1,
+      "prompt": "A diamond-shaped sign like this one means:",
+      "image": "sign-warning-generic",
+      "choices": [
+        "Stop",
+        "Regulatory information",
+        "Warning of special conditions or hazards ahead",
+        "Motorist services"
+      ],
+      "answer": 2,
+      "explain": "Diamond signs warn you of special conditions or hazards ahead."
+    },
+    {
+      "id": "q-shape-diamond-2",
+      "item": "shape-diamond",
+      "part": 1,
+      "prompt": "When you see a diamond-shaped sign like this, you should:",
+      "image": "sign-deer-crossing",
+      "choices": [
+        "Speed up to pass the area",
+        "Slow down, drive with caution and be ready to stop",
+        "Stop completely every time",
+        "Use your horn"
+      ],
+      "answer": 1,
+      "explain": "At a diamond warning sign, slow down, drive with caution and be ready to stop."
+    },
+    {
+      "id": "q-shape-diamond-3",
+      "item": "shape-diamond",
+      "part": 2,
+      "prompt": "Which shape is used for signs that warn of special conditions or hazards ahead?",
+      "choices": [
+        "Octagon",
+        "Triangle",
+        "Vertical rectangle",
+        "Diamond"
+      ],
+      "answer": 3,
+      "explain": "The diamond shape is used for warning signs."
+    },
+    {
+      "id": "q-shape-pentagon-1",
+      "item": "shape-pentagon",
+      "part": 1,
+      "prompt": "This five-sided sign marks:",
+      "image": "sign-school-zone",
+      "choices": [
+        "A railroad crossing",
+        "A no passing zone",
+        "A school zone or school crossing",
+        "A hospital"
+      ],
+      "answer": 2,
+      "explain": "The five-sided pentagon marks school zones and school crossings."
+    },
+    {
+      "id": "q-shape-pentagon-2",
+      "item": "shape-pentagon",
+      "part": 2,
+      "prompt": "What shape marks school zones and school crossings?",
+      "choices": [
+        "Pentagon (five sides)",
+        "Octagon (eight sides)",
+        "Triangle",
+        "Diamond"
+      ],
+      "answer": 0,
+      "explain": "A five-sided pentagon marks school zones and school crossings."
+    },
+    {
+      "id": "q-shape-pentagon-3",
+      "item": "shape-pentagon",
+      "part": 2,
+      "prompt": "When two school crossing signs are used together, they show:",
+      "choices": [
+        "The school's name",
+        "The actual location of the crosswalk",
+        "The speed limit",
+        "Where to park"
+      ],
+      "answer": 1,
+      "explain": "Two signs may be used together to show the actual location of the crosswalk."
+    },
+    {
+      "id": "q-shape-red-slash-1",
+      "item": "shape-red-slash",
+      "part": 1,
+      "prompt": "A red circle with a slash on a sign like this means:",
+      "image": "sign-no-left-turn",
+      "choices": [
+        "Caution",
+        "Turn here",
+        "Yield",
+        "NO; the action shown inside is not allowed"
+      ],
+      "answer": 3,
+      "explain": "A red circle with a slash means NO; the symbol inside shows what is prohibited."
+    },
+    {
+      "id": "q-shape-red-slash-2",
+      "item": "shape-red-slash",
+      "part": 1,
+      "prompt": "This road sign means:",
+      "image": "sign-no-u-turn",
+      "choices": [
+        "U-turns are allowed",
+        "No U-turns",
+        "Road curves ahead",
+        "Detour ahead"
+      ],
+      "answer": 1,
+      "explain": "The red circle and slash over the U-turn arrow means U-turns are not allowed."
+    },
+    {
+      "id": "q-shape-red-slash-3",
+      "item": "shape-red-slash",
+      "part": 2,
+      "prompt": "On a regulatory sign, the symbol inside a red circle with a slash tells you:",
+      "choices": [
+        "What is prohibited",
+        "Where to park",
+        "What is ahead",
+        "How fast to go"
+      ],
+      "answer": 0,
+      "explain": "The symbol inside the red circle with a slash tells you what is prohibited."
+    },
+    {
+      "id": "q-shape-pennant-1",
+      "item": "shape-pennant",
+      "part": 1,
+      "prompt": "This road sign means:",
+      "image": "sign-no-passing-zone",
+      "choices": [
+        "Passing is allowed when clear",
+        "The beginning of a no passing zone",
+        "The end of a no passing zone",
+        "Two-way traffic ahead"
+      ],
+      "answer": 1,
+      "explain": "This sign marks the beginning of a no passing zone."
+    },
+    {
+      "id": "q-shape-pennant-2",
+      "item": "shape-pennant",
+      "part": 2,
+      "prompt": "In a no passing zone, you may pass cars ahead of you in your lane:",
+      "choices": [
+        "When the way is clear",
+        "When you are late",
+        "Never, even if the way is clear",
+        "Only during daylight"
+      ],
+      "answer": 2,
+      "explain": "You may not pass cars ahead of you in your lane in a no passing zone, even if the way is clear."
+    },
+    {
+      "id": "q-shape-round-railroad-1",
+      "item": "shape-round-railroad",
+      "part": 1,
+      "prompt": "This round yellow sign means:",
+      "image": "sign-railroad-advance",
+      "choices": [
+        "Roundabout ahead",
+        "Railroad crossing ahead",
+        "Road closed",
+        "Rest area ahead"
+      ],
+      "answer": 1,
+      "explain": "This advance warning sign is placed before a railroad crossing."
+    },
+    {
+      "id": "q-shape-round-railroad-2",
+      "item": "shape-round-railroad",
+      "part": 1,
+      "prompt": "When you see this sign, you should:",
+      "image": "sign-railroad-advance",
+      "choices": [
+        "Speed up to cross the tracks quickly",
+        "Change lanes",
+        "Look, listen, slow down and be prepared to stop",
+        "Stop on the tracks"
+      ],
+      "answer": 2,
+      "explain": "Advance warning signs tell you to look, listen, slow down and be prepared to stop for trains."
+    },
+    {
+      "id": "q-shape-crossbuck-1",
+      "item": "shape-crossbuck",
+      "part": 1,
+      "prompt": "This sign is a warning of:",
+      "image": "sign-railroad-crossbuck",
+      "choices": [
+        "A crossroad",
+        "A hospital",
+        "A closed lane",
+        "A railroad crossing"
+      ],
+      "answer": 3,
+      "explain": "The crossbuck is a warning of a railroad crossing."
+    },
+    {
+      "id": "q-shape-crossbuck-2",
+      "item": "shape-crossbuck",
+      "part": 2,
+      "prompt": "At a railroad crossing with more than one track, trains may come from:",
+      "choices": [
+        "Either direction on either track",
+        "Only the left",
+        "Only the right",
+        "Only one direction at a time"
+      ],
+      "answer": 0,
+      "explain": "If there is more than one track, trains may be approaching from either direction on either track."
+    },
+    {
+      "id": "q-shape-triangle-3",
+      "item": "shape-triangle",
+      "part": 2,
+      "prompt": "What shape is a yield sign?",
+      "choices": [
+        "Octagon",
+        "Diamond",
+        "Triangle",
+        "Pentagon"
+      ],
+      "answer": 2,
+      "explain": "The triangle shape means yield."
+    },
+    {
+      "id": "q-shape-pennant-3",
+      "item": "shape-pennant",
+      "part": 1,
+      "prompt": "You see this sign and the road ahead looks clear. You may:",
+      "image": "sign-no-passing-zone",
+      "choices": [
+        "Pass if you go fast",
+        "Not pass cars ahead of you in your lane",
+        "Pass on the shoulder",
+        "Pass only trucks"
+      ],
+      "answer": 1,
+      "explain": "In a no passing zone you may not pass cars ahead of you in your lane, even if the way is clear."
+    },
+    {
+      "id": "q-shape-round-railroad-3",
+      "item": "shape-round-railroad",
+      "part": 2,
+      "prompt": "Railroad advance warning signs are placed:",
+      "choices": [
+        "After the tracks",
+        "Before a railroad crossing",
+        "Only at train stations",
+        "On the train itself"
+      ],
+      "answer": 1,
+      "explain": "Advance warning signs are placed before a railroad crossing."
+    },
+    {
+      "id": "q-shape-crossbuck-3",
+      "item": "shape-crossbuck",
+      "part": 1,
+      "prompt": "When you see this sign, you should:",
+      "image": "sign-railroad-crossbuck",
+      "choices": [
+        "Speed up to beat the train",
+        "Look, listen, slow down and be prepared to stop",
+        "Stop on the tracks to look",
+        "Honk and keep going"
+      ],
+      "answer": 1,
+      "explain": "At a crossbuck, look, listen, slow down and be prepared to stop for trains."
+    }
+  ]
+}

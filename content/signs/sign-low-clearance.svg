@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <title>Low Clearance</title>
+  <path d="M100 4 L196 100 L100 196 L4 100 Z" fill="#FFD100" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M100 14 L186 100 L100 186 L14 100 Z" fill="none" stroke="#111" stroke-width="7" stroke-linejoin="round"/>
+  <g fill="#111">
+    <polygon points="100,34 86,56 114,56"/>
+    <rect x="95" y="54" width="10" height="20"/>
+    <polygon points="100,166 86,144 114,144"/>
+    <rect x="95" y="126" width="10" height="20"/>
+  </g>
+  <text x="100" y="114" font-size="40" fill="#111" font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle">12&apos;-6&quot;</text>
+</svg>

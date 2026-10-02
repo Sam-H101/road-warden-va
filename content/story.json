@@ -1,0 +1,226 @@
+{
+  "mentorName": "Captain Rae",
+  "districts": [
+    {
+      "district": "d01-rookie",
+      "intro": [
+        "Welcome to the squad, rookie! I'm Captain Rae.",
+        "You're a road warden now. Your job: master Virginia roads.",
+        "First, we learn the controls and how the big test works.",
+        "Hands on the wheel. Eyes up. Let's roll!"
+      ],
+      "bossIntro": "The Gatekeeper guards the yard. Show it you know the basics, rookie!",
+      "outro": "Gate's open! You crushed the basics. The real roads are calling."
+    },
+    {
+      "district": "d02-shapes",
+      "intro": [
+        "Signs talk before you can even read them.",
+        "Here you learn what each shape and color means.",
+        "Spot the shape. Spot the color. Know the sign."
+      ],
+      "bossIntro": "The Shape Shifter keeps changing form. Read its shape and color to win!",
+      "outro": "Shape Shifter down! Your eyes are sharp now, warden."
+    },
+    {
+      "district": "d03-regulatory",
+      "intro": [
+        "This strip is all about rule signs.",
+        "These signs tell you the law. You must obey them.",
+        "Stop, yield, speed, no turns. Let's lock them in."
+      ],
+      "bossIntro": "The Enforcer only respects drivers who follow the rules. Prove it!",
+      "outro": "The Enforcer salutes you! You know the law of the road."
+    },
+    {
+      "district": "d04-warning",
+      "intro": [
+        "Welcome to Warning Hills. Lots of yellow out here.",
+        "Warning signs tell you what is coming up ahead.",
+        "We also cover railroad crossings. Stay sharp near the tracks!"
+      ],
+      "bossIntro": "The Hazard King throws danger at every turn. Read the warnings, warden!",
+      "outro": "Hazard King dethroned! Nothing ahead can surprise you now."
+    },
+    {
+      "district": "d05-workzone",
+      "intro": [
+        "Orange means work zone. Workers are out here!",
+        "You'll learn flaggers, work zone signs, and guide signs.",
+        "Guide signs help you find your way and find services."
+      ],
+      "bossIntro": "The Foreman runs this zone. Slow down, stay alert, and beat the crew!",
+      "outro": "Foreman cleared! You keep workers safe and always find your way."
+    },
+    {
+      "district": "d06-signals",
+      "intro": [
+        "Signal Junction! Lights, arrows, and lines everywhere.",
+        "Learn traffic lights, lane signals, and road paint.",
+        "Painted curbs have colors too. Every mark means something."
+      ],
+      "bossIntro": "The Signal Master flashes every light at once. Read them all, warden!",
+      "outro": "Signal Master beaten! Red, yellow, green, you own them all."
+    },
+    {
+      "district": "d07-rightofway",
+      "intro": [
+        "Big question here: who goes first?",
+        "You'll learn stopping, yielding, and roundabouts.",
+        "Plus school buses and emergency vehicles. Safety first, always."
+      ],
+      "bossIntro": "The Crossroads Judge decides who goes first. Make every call right!",
+      "outro": "Court adjourned! You know who goes first, every time."
+    },
+    {
+      "district": "d08-speed",
+      "intro": [
+        "Welcome to the highway, warden. Things move fast here.",
+        "Learn speed limits and how far it takes to stop.",
+        "Keep space around your car. Scan the road ahead."
+      ],
+      "bossIntro": "The Speed Demon wants you rushing. Keep your cool and your space!",
+      "outro": "Speed Demon outsmarted! Smart speed beats fast speed."
+    },
+    {
+      "district": "d09-lanes",
+      "intro": [
+        "Lane & Pass Parkway. Time for smooth moves.",
+        "Changing lanes, passing, turning, and using your signals.",
+        "Check blind spots. Learn backing up and parking too."
+      ],
+      "bossIntro": "The Lane Bandit cuts in everywhere. Signal, check, and move with care!",
+      "outro": "Lane Bandit caught! Your moves are clean and safe."
+    },
+    {
+      "district": "d10-sharing",
+      "intro": [
+        "The road is not just for cars, warden.",
+        "Watch for people walking, bikes, and motorcycles.",
+        "Big trucks and light rail share the road too."
+      ],
+      "bossIntro": "The Big Rig rolls in heavy. Give it room and share the road!",
+      "outro": "Big Rig handled! You look out for everyone on the road."
+    },
+    {
+      "district": "d11-conditions",
+      "intro": [
+        "Storm Pass. Rain, fog, snow, and dark nights ahead.",
+        "Learn when to use headlights and how to drive in bad weather.",
+        "Also deer, crashes, and what to do if police stop you."
+      ],
+      "bossIntro": "The Storm is here. Slow down, see clearly, and ride it out!",
+      "outro": "The Storm has passed! You stay calm in any weather."
+    },
+    {
+      "district": "d12-impaired",
+      "intro": [
+        "Zero Tolerance zone. This one is serious, warden.",
+        "Learn about angry, distracted, sleepy, and drunk driving.",
+        "Phones down. Eyes up. Clear head. Every time."
+      ],
+      "bossIntro": "The Distraction wants your eyes off the road. Stay focused and win!",
+      "outro": "Distraction defeated! Your focus is your superpower."
+    },
+    {
+      "district": "d13-belts",
+      "intro": [
+        "Buckle Bay! Time to talk safety gear.",
+        "Learn seat belts, air bags, and child safety seats.",
+        "Click it before you go. Let's do this."
+      ],
+      "bossIntro": "The Crash Test checks if everyone is buckled right. Pass it, warden!",
+      "outro": "Crash Test passed! Everyone rides safe with you."
+    },
+    {
+      "district": "d14-penalties",
+      "intro": [
+        "Court Street. Here we learn what happens when drivers break rules.",
+        "Suspensions, revocations, and demerit points.",
+        "Plus insurance rules. Know them so you never face them."
+      ],
+      "bossIntro": "The Judge knows every penalty. Answer clearly and keep your record clean!",
+      "outro": "Case closed! You know the rules and the price of breaking them."
+    },
+    {
+      "district": "d15-licensing",
+      "intro": [
+        "DMV Plaza. Last stop before the big day!",
+        "Learn testing rules, vision checks, and learner's permits.",
+        "Plus license types and other DMV rules."
+      ],
+      "bossIntro": "The Clerk checks every detail. Show you know the DMV rules!",
+      "outro": "The Clerk stamps your file. Exam Day is next, warden!"
+    },
+    {
+      "district": "d16-examday",
+      "intro": [
+        "This is it, warden. Exam Day.",
+        "First come the sign questions. Then the general questions.",
+        "No rush. Read each word. You trained for this."
+      ],
+      "bossIntro": "The DMV Exam awaits. Breathe, read every word, and show what you know.",
+      "outro": "You did it, road warden! Captain Rae is so proud of you!"
+    }
+  ],
+  "streakLines": [
+    "On fire, warden!",
+    "Nothing can stop you!",
+    "That's how it's done!",
+    "Streak rolling! Keep going!",
+    "Locked in!",
+    "Unstoppable!",
+    "You're in the zone!",
+    "Perfect run so far!",
+    "Road legend in training!",
+    "Sharp eyes, sharp mind!",
+    "Keep that streak alive!",
+    "Clean hit after clean hit!",
+    "Now we're cooking!",
+    "Total road boss!",
+    "Smooth and steady!",
+    "Squad's proud of you!",
+    "Can't miss today!",
+    "Brain at full speed!",
+    "You make this look easy!",
+    "Hot streak! Stay focused!"
+  ],
+  "missLines": [
+    "Shake it off. Watch the replay.",
+    "No sweat. Every miss teaches you.",
+    "Close one. You'll get it next time.",
+    "Reset. Breathe. Back in it.",
+    "Good try. Learn it, then crush it.",
+    "Misses make masters. Keep rolling.",
+    "That's okay. Read the tip and go.",
+    "Even pros miss. Stay with me.",
+    "Eyes up. Next one is yours.",
+    "Not yet. That's how learning works.",
+    "Slow down a bit. Read every word.",
+    "You've got this. Try again.",
+    "Mistakes now mean wins on test day.",
+    "Shake it off, warden. Next gate!",
+    "Every miss makes your brain stronger."
+  ],
+  "rankUpLines": [
+    "Rank up! Look at you go!",
+    "New rank, warden! You earned it.",
+    "Promotion time! The squad salutes you.",
+    "Level up! Your skills are growing.",
+    "Moving up the ranks. Nice work!",
+    "New stripes! Wear them proud.",
+    "You just leveled up. Keep climbing!",
+    "Higher rank, bigger roads. Let's go!",
+    "Rank up! Hard work pays off.",
+    "Another rank down. Exam Day is closer.",
+    "Captain's orders: celebrate that rank!",
+    "Rookie no more. You're the real deal."
+  ],
+  "examDayPepTalk": [
+    "The real DMV is quiet. That's okay. Take a slow breath.",
+    "Read every word of the question. Then read every answer.",
+    "No need to rush. Take your time on each one.",
+    "If one feels tricky, think of the road. You've seen it before.",
+    "You trained for this, warden. Trust what you know."
+  ]
+}

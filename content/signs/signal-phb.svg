@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <path d="M42 8 H158 A12 12 0 0 1 170 20 V58 A12 12 0 0 1 158 70 H128 V114 A12 12 0 0 1 116 126 H84 A12 12 0 0 1 72 114 V70 H42 A12 12 0 0 1 30 58 V20 A12 12 0 0 1 42 8 Z" fill="#111" stroke="#444" stroke-width="2"/>
+  <circle cx="66" cy="39" r="30" fill="#FF3B30" fill-opacity="0.3"/>
+  <circle cx="66" cy="39" r="20" fill="#FF3B30"/>
+  <circle cx="60.0" cy="33.0" r="6.0" fill="#fff" fill-opacity="0.35"/>
+  <circle cx="134" cy="39" r="30" fill="#FF3B30" fill-opacity="0.3"/>
+  <circle cx="134" cy="39" r="20" fill="#FF3B30"/>
+  <circle cx="128.0" cy="33.0" r="6.0" fill="#fff" fill-opacity="0.35"/>
+  <circle cx="100" cy="97" r="20" fill="#333"/>
+  <rect x="96" y="126" width="8" height="10" fill="#222"/>
+  <rect x="52" y="136" width="96" height="58" rx="6" fill="#fff" stroke="#111" stroke-width="4"/>
+  <text x="100" y="162" font-size="22" font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle" fill="#111">PED</text>
+  <text x="100" y="186" font-size="22" font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle" fill="#111">XING</text>
+</svg>
