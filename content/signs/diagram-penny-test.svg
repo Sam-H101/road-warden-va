@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" rx="12" fill="#EAF4FB"/>
+
+  <!-- penny, upside down, Lincoln's head pointing into the tread -->
+  <circle cx="100" cy="82" r="52" fill="#C46A2E" stroke="#8A4B1F" stroke-width="5"/>
+  <circle cx="100" cy="82" r="44" fill="none" stroke="#A85A26" stroke-width="2"/>
+  <path d="M70 50 Q72 72 90 84 L110 84 Q128 72 130 50 Z" fill="#8A4B1F"/>
+  <ellipse cx="100" cy="102" rx="15" ry="19" fill="#8A4B1F"/>
+  <polygon points="86,96 78,104 86,108" fill="#8A4B1F"/>
+
+  <!-- tire tread in front, covering the top of Lincoln's head -->
+  <rect x="0" y="112" width="200" height="88" rx="10" fill="#222"/>
+  <g fill="#3E3E3E">
+    <rect x="4" y="117" width="40" height="34" rx="5"/>
+    <rect x="50" y="117" width="40" height="34" rx="5"/>
+    <rect x="96" y="117" width="40" height="34" rx="5"/>
+    <rect x="142" y="117" width="40" height="34" rx="5"/>
+    <rect x="188" y="117" width="12" height="34" rx="5"/>
+    <rect x="0" y="157" width="21" height="36" rx="5"/>
+    <rect x="27" y="157" width="40" height="36" rx="5"/>
+    <rect x="73" y="157" width="40" height="36" rx="5"/>
+    <rect x="119" y="157" width="40" height="36" rx="5"/>
+    <rect x="165" y="157" width="35" height="36" rx="5"/>
+  </g>
+  <line x1="0" y1="113" x2="200" y2="113" stroke="#555" stroke-width="3"/>
+
+  <!-- head is covered: safe amount of tread -->
+  <circle cx="174" cy="26" r="20" fill="#2E9E44" stroke="#fff" stroke-width="3"/>
+  <path d="M164 26 L171 34 L185 18" fill="none" stroke="#fff" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

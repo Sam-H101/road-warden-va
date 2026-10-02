@@ -1,0 +1,658 @@
+{
+  "district": "d04-warning",
+  "items": [
+    {
+      "id": "warn-general",
+      "district": "d04-warning",
+      "kind": "rule",
+      "title": "Warning signs: hazards ahead",
+      "simple": "Yellow and black signs warn you. A hazard may be ahead. Slow down. Then watch for more signs, road markings, signals or work zones.",
+      "official": "Warning signs alert you to possible hazards ahead. Slow down and watch for other pavement markings, signs, signals or work zones that may follow.",
+      "image": "sign-winding-road",
+      "mnemonic": "Yellow and black means heads up: slow down.",
+      "manualRef": "Section 2, p. 8"
+    },
+    {
+      "id": "warn-advisory-speed",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "Advisory speed: safe exit speed",
+      "simple": "This yellow sign shows the top safe speed for a highway exit. Slow down to that speed before you take the exit.",
+      "official": "Advisory Speed: This sign indicates the maximum safe speed for a highway exit.",
+      "image": "sign-advisory-speed",
+      "manualRef": "Section 2, p. 8"
+    },
+    {
+      "id": "warn-stop-yield-ahead",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "Stop Ahead and Yield Ahead",
+      "simple": "This yellow sign shows a small stop or yield sign. It means a real stop or yield sign is coming up. Slow down. Get ready to stop.",
+      "official": "Stop Ahead/Yield Ahead: A stop sign or yield sign is ahead. Slow down and be ready to stop.",
+      "image": "sign-stop-ahead",
+      "mnemonic": "Ahead means coming soon. Slow now, so you are ready.",
+      "manualRef": "Section 2, p. 8"
+    },
+    {
+      "id": "warn-signal-ahead",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "Signal Ahead",
+      "simple": "A yellow sign with a traffic light on it means traffic lights are ahead. Slow down and be ready to stop.",
+      "official": "Signal Ahead: Traffic signals are ahead. Slow down and be ready to stop.",
+      "image": "sign-signal-ahead",
+      "manualRef": "Section 2, p. 8"
+    },
+    {
+      "id": "warn-no-passing-zone",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "No Passing Zone sign",
+      "simple": "This yellow flag-shaped sign marks the start of a no passing zone. Do not pass cars in your lane. Stay behind them, even when the road looks clear.",
+      "official": "No Passing Zone: This sign marks the beginning of a no passing zone. You may not pass cars ahead of you in your lane, even if the way is clear.",
+      "image": "sign-no-passing-zone",
+      "manualRef": "Section 2, p. 8"
+    },
+    {
+      "id": "warn-merge",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "Merge: two lanes become one",
+      "simple": "Two lanes going the same way will soon become one lane. Drivers in BOTH lanes must merge safely.",
+      "official": "Merge: Two lanes of traffic moving in the same direction are about to become one. Drivers in both lanes are responsible for merging safely.",
+      "image": "sign-merge",
+      "mnemonic": "Merge is a team job. Both lanes share it.",
+      "manualRef": "Section 2, p. 8"
+    },
+    {
+      "id": "warn-lane-reduction",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "Lane reduction: right lane ends",
+      "simple": "The right lane ends soon. In the right lane? Move left when there is space. In the left lane? Let other cars merge in smoothly.",
+      "official": "Lane Reduction: The right lane ends soon. Drivers in the right lane must merge left when space opens up. Drivers in the left lane should allow other vehicles to merge smoothly.",
+      "image": "sign-lane-reduction",
+      "mnemonic": "Right lane ends, so right lane bends left.",
+      "manualRef": "Section 2, p. 8"
+    },
+    {
+      "id": "warn-divided-highway",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "Divided highway begins or ends",
+      "simple": "Divided highway begins: a middle strip splits the road. Each side goes one way. Divided highway ends: no more middle strip, so cars go both ways. For both signs, keep right.",
+      "official": "Divided Highway Begins: The highway ahead is split into two separate roadways by a median or divider and each roadway is one-way. Keep right. Divided Highway Ends: The highway ahead no longer has a median or divider. Traffic goes in both directions. Keep right.",
+      "image": "sign-divided-highway-begins",
+      "mnemonic": "Begins or ends, the rule is the same: keep right.",
+      "manualRef": "Section 2, p. 8"
+    },
+    {
+      "id": "warn-slippery",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "Slippery When Wet",
+      "simple": "When the road is wet: slow down. Do not brake hard or turn the wheel suddenly. Leave more space between you and the car ahead.",
+      "official": "Slippery When Wet: When pavement is wet, reduce your speed. Do not brake hard or change direction suddenly. Increase the distance between your car and the one ahead of you.",
+      "image": "sign-slippery",
+      "mnemonic": "Wet road: Slow, Smooth, Space.",
+      "manualRef": "Section 2, p. 8"
+    },
+    {
+      "id": "warn-low-clearance",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "Low Clearance",
+      "simple": "The overpass ahead is low. The sign shows how much room is under it. Is your vehicle taller than that? Then do not go under.",
+      "official": "Low Clearance Sign: The overpass ahead has a low clearance. Do not proceed if your vehicle is taller than the height shown on the sign.",
+      "image": "sign-low-clearance",
+      "manualRef": "Section 2, p. 8"
+    },
+    {
+      "id": "warn-hill",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "Hill: steep grade ahead",
+      "simple": "A truck on a slope means a steep hill is ahead. Check your brakes.",
+      "official": "Hill: A steep grade is ahead. Check your brakes.",
+      "image": "sign-hill",
+      "manualRef": "Section 2, p. 8"
+    },
+    {
+      "id": "warn-deer-crossing",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "Deer Crossing",
+      "simple": "Deer cross the road in this area. Slow down. Stay alert. Be ready to stop.",
+      "official": "Deer Crossing: Deer cross the roadway in this area. Slow down, be alert and be ready to stop.",
+      "image": "sign-deer-crossing",
+      "manualRef": "Section 2, p. 8"
+    },
+    {
+      "id": "warn-horse-buggy",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "Horse-drawn buggies: no horn",
+      "simple": "Horse-drawn buggies often travel in this area. Slow down. Do not use your horn.",
+      "official": "Horse-Drawn Buggies: Regularly travel in this area. Slow down and don't use the horn.",
+      "image": "sign-horse-buggy",
+      "mnemonic": "Horse and buggy: slow and quiet.",
+      "manualRef": "Section 2, p. 8"
+    },
+    {
+      "id": "warn-buggy-three-feet",
+      "district": "d04-warning",
+      "kind": "number",
+      "title": "Pass buggies with 3 feet",
+      "simple": "When you pass a horse-drawn buggy, leave at least 3 feet of space. Pass only when the way is clear.",
+      "official": "State law requires motorists to pass with at least three feet of clearance when the way is clear.",
+      "image": "sign-horse-buggy",
+      "mnemonic": "Give a buggy a yardstick: 3 feet or more.",
+      "manualRef": "Section 2, p. 8"
+    },
+    {
+      "id": "warn-farm-equipment",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "Tractors and farm equipment",
+      "simple": "Tractors and farm machines often use this road. Be ready to slow down or stop. Pass only when the way is clear.",
+      "official": "Tractors and Farm Equipment: Regularly travel in this area. Be ready to slow down or stop. Only pass when the way is clear.",
+      "image": "sign-farm-equipment",
+      "manualRef": "Section 2, p. 8"
+    },
+    {
+      "id": "warn-pedestrian-crossing",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "Pedestrian Crossing",
+      "simple": "Watch for people crossing. They may walk, ride bikes or use other devices. Slow down and be ready to stop. A second sign with an arrow may point to the crosswalk.",
+      "official": "Pedestrian Crossing: Watch for people who are walking, riding bicycles or other devices entering a crosswalk or crossing your path. Slow down and be prepared to stop. A second sign with an arrow may show the actual location of the crosswalk.",
+      "image": "sign-pedestrian-crossing",
+      "manualRef": "Section 2, p. 8"
+    },
+    {
+      "id": "warn-bicycle-crossing",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "Bicycle Crossing",
+      "simple": "Bikes often cross the road or ride next to cars here. Drive with care. A second sign with an arrow may show where bikes cross.",
+      "official": "Bicycle Crossing/Bike Path: Bicycles regularly cross or ride beside traffic in this area. Drive with caution. A second sign with an arrow may show the actual location of the bike crossing.",
+      "image": "sign-bicycle-crossing",
+      "manualRef": "Section 2, p. 8"
+    },
+    {
+      "id": "warn-school-zone",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "School Zone / School Crossing",
+      "simple": "A five-sided sign with two kids means a school zone or crossing. Watch for children. Be ready to slow down or stop. Obey the speed limit and the crossing guards.",
+      "official": "School Zone/School Crossing: Watch out for children crossing the street or playing. Be ready to slow down or stop at school zones and surrounding areas. Obey the speed limit and signals from crossing guards.",
+      "image": "sign-school-zone",
+      "manualRef": "Section 2, p. 8"
+    },
+    {
+      "id": "warn-joints",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "Open joints and expansion joints",
+      "simple": "Joints are seams across the road on bridges or ramps. Slow down. Open joints can make a motorcycle rider lose control. Wide joints can make tires slip when wet.",
+      "official": "Open Joints: Slow down. Open joints on bridges or ramps could cause a motorcyclist to lose control of the motorcycle. Expansion Joints: This sign is used when a joint across lanes creates a bump or is wide enough to cause loss of traction in wet weather.",
+      "image": "sign-open-joints",
+      "manualRef": "Section 2, p. 9"
+    },
+    {
+      "id": "warn-intersection",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "Intersection (crossroad) ahead",
+      "simple": "A plus-shaped sign means a crossroad is ahead. Watch for cars coming onto your road.",
+      "official": "Intersections: An intersection is ahead. Be alert for vehicles entering the road on which you are traveling.",
+      "image": "sign-intersection",
+      "manualRef": "Section 2, p. 9"
+    },
+    {
+      "id": "warn-y-intersection",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "Y Intersection",
+      "simple": "A Y-shaped sign means the road splits ahead. You must bear right or left.",
+      "official": "Y Intersection: You must bear either right or left ahead.",
+      "image": "sign-y-intersection",
+      "manualRef": "Section 2, p. 9"
+    },
+    {
+      "id": "warn-t-intersection",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "T Intersection",
+      "simple": "A T-shaped sign means your road ends ahead at a stop sign. Let oncoming cars and people walking go first. Then turn right or left.",
+      "official": "T Intersection: The roadway you are traveling on ends ahead at a stop sign. You must turn right or left after yielding to oncoming traffic and pedestrians.",
+      "image": "sign-t-intersection",
+      "mnemonic": "T is for Turn: the road ends.",
+      "manualRef": "Section 2, p. 9"
+    },
+    {
+      "id": "warn-roundabout",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "Roundabout ahead",
+      "simple": "Arrows in a circle mean a roundabout is ahead. Yield to cars already in the circle. Then drive around counterclockwise.",
+      "official": "Roundabout: These signs indicate a circular intersection with an island in the center is ahead. Also called traffic circles, these intersections may have one or more lanes. Entering traffic must yield the right-of-way to traffic already in the circle and travel in a counter clockwise direction.",
+      "image": "sign-roundabout",
+      "mnemonic": "Circle cars go first. Then go around opposite the clock hands.",
+      "manualRef": "Section 2, p. 9"
+    },
+    {
+      "id": "warn-curve-side-road",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "Right curve with side road",
+      "simple": "The road curves right. A side road joins from the left inside the curve. Watch for cars coming onto your road.",
+      "official": "Right Curve – Side Road: The road ahead curves right and a side road joins from the left within the curve. Be alert for vehicles entering the roadway you are traveling on.",
+      "image": "sign-curve-side-road",
+      "manualRef": "Section 2, p. 9"
+    },
+    {
+      "id": "warn-curves",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "Curve and sharp turn signs",
+      "simple": "A smooth bending arrow means a curve. A square-cornered arrow means a sharp turn. Right-then-left arrows mean the road bends right, then left. For all of them, slow down.",
+      "official": "Sharp Right Turn: Slow down and be prepared for a sharp right turn in the road ahead. Sharp Right and Left Turns: Slow down and be prepared for the road ahead to turn sharply right, then left. Right and Left Curves: The road ahead curves right, then left. Slow down.",
+      "image": "sign-right-left-curves",
+      "manualRef": "Section 2, p. 9"
+    },
+    {
+      "id": "warn-curve-safe-speed",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "Curve with safe speed plaque",
+      "simple": "The road curves right. The small sign under it shows the safe speed for the curve. Slow down to that speed.",
+      "official": "Right Curve with Safe Speed Indicator: The road ahead curves right. Slow down to the safe speed indicated.",
+      "image": "sign-curve-safe-speed",
+      "manualRef": "Section 2, p. 9"
+    },
+    {
+      "id": "warn-winding-road",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "Winding Road",
+      "simple": "A wiggly arrow means the road has many turns or curves in a row. On all curves, slow down so you stay in control.",
+      "official": "Winding Road: The road ahead winds with a series of turns or curves. On all curves, slow down for better control.",
+      "image": "sign-winding-road",
+      "manualRef": "Section 2, p. 9"
+    },
+    {
+      "id": "warn-rr-low-ground",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "Low ground railroad crossing",
+      "simple": "The road has a steep slope where it crosses the train tracks. The bottom of a low vehicle can get caught or drag on the tracks.",
+      "official": "Low Ground Railroad Crossing: A steep slope where the railroad tracks cross the road may cause the bottom of low vehicles to get caught or drag on the tracks.",
+      "image": "sign-low-ground-railroad",
+      "manualRef": "Section 2, p. 9"
+    },
+    {
+      "id": "warn-rr-advance",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "Railroad advance warning sign",
+      "simple": "A round yellow sign with an X and two R's comes before a railroad crossing. Look, listen, and slow down. Be ready to stop for trains.",
+      "official": "Railroad Crossing: Advance warning signs are placed before a railroad crossing. These signs warn you to look, listen, slow down and be prepared to stop for trains or any vehicles using the rails.",
+      "image": "sign-railroad-advance",
+      "mnemonic": "Round RR sign: Look, Listen, Slow.",
+      "manualRef": "Section 2, p. 9"
+    },
+    {
+      "id": "warn-rr-crossbuck",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "Railroad crossbuck",
+      "simple": "A white X sign marks a railroad crossing. Look, listen, slow down, and be ready to stop. Trains can come from either way. With two or more tracks, a train can be on any track.",
+      "official": "Railroad Crossbuck: This sign is a warning of a railroad crossing. Look, listen, slow down and be prepared to stop for trains or any vehicles using the rails. If there is more than one track, trains may be approaching from either direction on either track.",
+      "image": "sign-railroad-crossbuck",
+      "manualRef": "Section 2, p. 9"
+    },
+    {
+      "id": "warn-rr-lights",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "Crossbuck with flashing lights",
+      "simple": "Red lights start to flash? Stop. Wait until the trains pass, the tracks are clear, and the lights stop. With more than one track, another train may come.",
+      "official": "Always stop when the light begins to flash and be alert for approaching trains. Do not proceed until all trains or any other vehicles using the rails have passed, the tracks are clear, and the lights are no longer flashing.",
+      "image": "sign-crossbuck-lights",
+      "manualRef": "Section 2, p. 9"
+    },
+    {
+      "id": "warn-rr-gate",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "Railroad gate: never go around",
+      "simple": "Stop when the lights start to flash, before the gate comes down. Stay stopped until the gates go up and the lights stop. Never drive around a lowered gate.",
+      "official": "Crossbuck, Flashing Lights and Gate: Stop when the lights begin to flash and before the gate lowers. Remain stopped until the gates are raised and the lights stop flashing. Do not attempt to drive around the lowered gate.",
+      "image": "sign-crossbuck-gate",
+      "mnemonic": "Gate down? Stay. Gate up and lights off? Go.",
+      "manualRef": "Section 2, p. 9"
+    },
+    {
+      "id": "warn-rr-pavement",
+      "district": "d04-warning",
+      "kind": "sign",
+      "title": "RR pavement marking",
+      "simple": "See a big X and RR painted on the road? A railroad crossing is coming up. Be alert. Trains can come at any time, from either way.",
+      "official": "Pavement markings, consisting of an X and RR, may be painted on the pavement at the approach to some crossings. When approaching railroad tracks, be alert. Trains may approach the crossing at any time and from either direction.",
+      "image": "mark-rr-crossing",
+      "manualRef": "Section 2, p. 10"
+    },
+    {
+      "id": "warn-rr-clear-tracks",
+      "district": "d04-warning",
+      "kind": "rule",
+      "title": "Only cross if you can clear",
+      "simple": "Never start across train tracks unless you can get all the way over. First make sure there is room for your car on the other side.",
+      "official": "Unless you can clear the tracks completely, never start across the tracks. Make sure there is room for your vehicle on the other side of the tracks before proceeding.",
+      "image": "sign-railroad-crossbuck",
+      "manualRef": "Section 2, p. 10"
+    },
+    {
+      "id": "warn-rr-school-bus",
+      "district": "d04-warning",
+      "kind": "rule",
+      "title": "School buses always stop at tracks",
+      "simple": "School buses must always stop at railroad crossings. They stop even when the lights are not flashing. Expect the bus ahead of you to stop there.",
+      "official": "Note: School buses must always stop at railroad crossings, even when the lights are not flashing.",
+      "manualRef": "Section 2, p. 10"
+    },
+    {
+      "id": "warn-rr-stall",
+      "district": "d04-warning",
+      "kind": "rule",
+      "title": "Stalled on tracks: get out",
+      "simple": "Your car stalls on the tracks? Get out right away. Do not wait. Run away from the tracks at an angle. Head toward where the train is coming from.",
+      "official": "If your car stalls on the tracks, don't hesitate. Get out of the car right away and run diagonally away from the tracks in the direction of the oncoming train.",
+      "image": "sign-railroad-crossbuck",
+      "mnemonic": "Stalled? Get out. Run at an angle toward the train.",
+      "manualRef": "Section 2, p. 10"
+    },
+    {
+      "id": "warn-rr-emergency-number",
+      "district": "d04-warning",
+      "kind": "rule",
+      "title": "Rail danger: call posted number",
+      "simple": "See a danger at a rail crossing? Call the number on the emergency sign. Tell them the crossing number posted there. Then the railroad can stop or reroute trains.",
+      "official": "If a dangerous condition exists at a rail crossing, call the number listed on the emergency sign. This will allow the rail company to stop or reroute approaching rail traffic until the hazard is removed. Be sure to give the posted crossing number so that the hazard can be identified correctly.",
+      "manualRef": "Section 2, p. 10"
+    }
+  ],
+  "events": [
+    {"id": "ev-warn-general-1", "item": "warn-general", "kind": "gates", "prompt": "Warning signs alert you to what?", "image": "sign-intersection", "choices": ["Places to eat", "Possible hazards ahead", "Parking rules"], "answer": 1, "missLine": "Warning signs alert you to possible hazards ahead."},
+    {"id": "ev-warn-general-2", "item": "warn-general", "kind": "gates", "prompt": "After a warning sign, watch for what?", "image": "sign-y-intersection", "choices": ["More signs or work zones", "Only police cars", "Only gas stations"], "answer": 0, "missLine": "After a warning sign, watch for more signs, markings, signals or work zones."},
+    {"id": "ev-warn-general-3", "item": "warn-general", "kind": "action", "prompt": "Yellow warning sign ahead.", "sign": "sign-winding-road", "action": "slow", "missLine": "Warning signs mean a hazard may be ahead. Slow down."},
+
+    {"id": "ev-warn-advisory-speed-1", "item": "warn-advisory-speed", "kind": "gates", "prompt": "This yellow exit sign shows what?", "image": "sign-advisory-speed", "choices": ["Safe speed for the exit", "Lowest speed allowed", "Highway speed limit"], "answer": 0, "missLine": "The yellow exit sign shows the top safe speed for that exit."},
+    {"id": "ev-warn-advisory-speed-2", "item": "warn-advisory-speed", "kind": "action", "prompt": "Exit ramp ahead. Safe speed 25 MPH.", "sign": "sign-advisory-speed", "action": "slow", "missLine": "Slow down to the safe speed shown before you take the exit."},
+    {"id": "ev-warn-advisory-speed-3", "item": "warn-advisory-speed", "kind": "gates", "prompt": "Exit sign says 25 MPH. Your top speed?", "image": "sign-advisory-speed", "choices": ["35 MPH", "45 MPH", "25 MPH or less"], "answer": 2, "missLine": "The exit sign speed is the top safe speed. Go no faster."},
+
+    {"id": "ev-warn-stop-yield-ahead-1", "item": "warn-stop-yield-ahead", "kind": "action", "prompt": "Stop Ahead sign on the right.", "sign": "sign-stop-ahead", "action": "slow", "missLine": "Stop Ahead means a stop sign is coming. Slow down and get ready."},
+    {"id": "ev-warn-stop-yield-ahead-2", "item": "warn-stop-yield-ahead", "kind": "gates", "prompt": "This sign warns of what?", "image": "sign-yield-ahead", "choices": ["Yield right here", "Yield sign ahead", "Merge ahead"], "answer": 1, "missLine": "This sign warns that a yield sign is ahead. Slow down."},
+    {"id": "ev-warn-stop-yield-ahead-3", "item": "warn-stop-yield-ahead", "kind": "gates", "prompt": "Stop Ahead sign. What should you do?", "image": "sign-stop-ahead", "choices": ["Slow, be ready to stop", "Stop right at this sign", "Speed up to beat it"], "answer": 0, "missLine": "Stop Ahead: slow down and be ready to stop at the stop sign."},
+
+    {"id": "ev-warn-signal-ahead-1", "item": "warn-signal-ahead", "kind": "action", "prompt": "Signal Ahead sign on the right.", "sign": "sign-signal-ahead", "action": "slow", "missLine": "Signal Ahead means traffic lights are coming. Slow down, be ready to stop."},
+    {"id": "ev-warn-signal-ahead-2", "item": "warn-signal-ahead", "kind": "gates", "prompt": "This sign warns you about what?", "image": "sign-signal-ahead", "choices": ["Railroad crossing ahead", "Traffic lights ahead", "Broken signal ahead"], "answer": 1, "missLine": "A traffic light on a yellow sign means traffic signals are ahead."},
+    {"id": "ev-warn-signal-ahead-3", "item": "warn-signal-ahead", "kind": "gates", "prompt": "Signal Ahead: be ready to do what?", "image": "sign-signal-ahead", "choices": ["Speed up", "Change lanes", "Stop"], "answer": 2, "missLine": "At Signal Ahead, slow down and be ready to stop."},
+
+    {"id": "ev-warn-no-passing-zone-1", "item": "warn-no-passing-zone", "kind": "gates", "prompt": "What does this sign mean?", "image": "sign-no-passing-zone", "choices": ["No passing zone starts", "Passing lane starts", "Slow traffic keep right"], "answer": 0, "missLine": "This flag-shaped sign marks the start of a no passing zone."},
+    {"id": "ev-warn-no-passing-zone-2", "item": "warn-no-passing-zone", "kind": "gates", "prompt": "Road looks clear. Can you pass here?", "image": "sign-no-passing-zone", "choices": ["No, stay behind", "Yes, if it is clear", "Yes, with a horn tap"], "answer": 0, "missLine": "Good try! In a no passing zone, stay behind, even if the road looks clear."},
+    {"id": "ev-warn-no-passing-zone-3", "item": "warn-no-passing-zone", "kind": "gates", "prompt": "Slow car ahead in a no passing zone. You:", "image": "sign-no-passing-zone", "choices": ["Pass on the left", "Pass on the right", "Stay behind it"], "answer": 2, "missLine": "No passing zone means stay in your lane behind the car."},
+
+    {"id": "ev-warn-merge-1", "item": "warn-merge", "kind": "gates", "prompt": "This sign means what is coming?", "image": "sign-merge", "choices": ["Two lanes become one", "Side road crossing", "Divided highway begins"], "answer": 0, "missLine": "Merge means two lanes going the same way become one."},
+    {"id": "ev-warn-merge-2", "item": "warn-merge", "kind": "gates", "prompt": "Who must merge safely here?", "image": "sign-merge", "choices": ["Only the joining driver", "Drivers in both lanes", "Only the main lane"], "answer": 1, "missLine": "Drivers in both lanes are responsible for merging safely."},
+    {"id": "ev-warn-merge-3", "item": "warn-merge", "kind": "action", "prompt": "Merge sign. Traffic joining your lane.", "sign": "sign-merge", "action": "slow", "missLine": "Merge sign: slow down. Drivers in both lanes must merge safely."},
+
+    {"id": "ev-warn-lane-reduction-1", "item": "warn-lane-reduction", "kind": "action", "prompt": "You are in the right lane. It ends!", "sign": "sign-lane-reduction", "action": "move-left", "missLine": "The right lane ends. Merge left when space opens up."},
+    {"id": "ev-warn-lane-reduction-2", "item": "warn-lane-reduction", "kind": "gates", "prompt": "This sign says which lane ends?", "image": "sign-lane-reduction", "choices": ["Right lane", "Left lane", "Both lanes"], "answer": 0, "missLine": "The right lane ends. Right lane drivers merge left."},
+    {"id": "ev-warn-lane-reduction-3", "item": "warn-lane-reduction", "kind": "gates", "prompt": "You are in the left lane. Cars must merge. You:", "image": "sign-lane-reduction", "choices": ["Speed up to block", "Honk to warn them", "Let them merge smoothly"], "answer": 2, "missLine": "Left lane drivers should let other cars merge in smoothly."},
+
+    {"id": "ev-warn-divided-highway-1", "item": "warn-divided-highway", "kind": "action", "prompt": "Divided highway ends. Two-way traffic ahead.", "sign": "sign-divided-highway-ends", "action": "move-right", "missLine": "Divided highway ends means traffic goes both ways. Keep right."},
+    {"id": "ev-warn-divided-highway-2", "item": "warn-divided-highway", "kind": "gates", "prompt": "Which sign is this?", "image": "sign-divided-highway-begins", "choices": ["Merge ahead", "Divided highway ends", "Divided highway begins"], "answer": 2, "missLine": "Divided highway begins: each side goes one way. Keep right."},
+    {"id": "ev-warn-divided-highway-3", "item": "warn-divided-highway", "kind": "gates", "prompt": "After this sign, traffic goes which way?", "image": "sign-divided-highway-ends", "choices": ["One way only", "Left lane only", "Both directions"], "answer": 2, "missLine": "When the divided highway ends, traffic goes both ways. Keep right."},
+
+    {"id": "ev-warn-slippery-1", "item": "warn-slippery", "kind": "action", "prompt": "Rain. Slippery When Wet sign.", "sign": "sign-slippery", "weather": "rain", "action": "slow", "missLine": "Wet road: slow down, no hard braking, and leave more space."},
+    {"id": "ev-warn-slippery-2", "item": "warn-slippery", "kind": "gates", "prompt": "Wet road. Which move is safe?", "image": "sign-slippery", "choices": ["Brake hard to test it", "Leave more space ahead", "Turn fast to dry spots"], "answer": 1, "missLine": "On wet roads, leave more space between you and the car ahead."},
+    {"id": "ev-warn-slippery-3", "item": "warn-slippery", "kind": "gates", "prompt": "Slippery road. How should you brake?", "image": "sign-slippery", "choices": ["Gently and smoothly", "Hard and fast", "Only parking brake"], "answer": 0, "missLine": "On a slippery road, do not brake hard or turn suddenly."},
+    {"id": "ev-warn-slippery-4", "item": "warn-slippery", "kind": "gates", "prompt": "Wet road. Following distance should be?", "image": "sign-slippery", "choices": ["Shorter", "The same", "Longer"], "answer": 2, "missLine": "When the road is wet, increase the space to the car ahead."},
+
+    {"id": "ev-warn-low-clearance-1", "item": "warn-low-clearance", "kind": "gates", "prompt": "This sign warns about what?", "image": "sign-low-clearance", "choices": ["Narrow bridge ahead", "Low overpass ahead", "Steep hill ahead"], "answer": 1, "missLine": "Low Clearance means the overpass ahead is low. Check the height."},
+    {"id": "ev-warn-low-clearance-2", "item": "warn-low-clearance", "kind": "gates", "prompt": "Your truck is taller than the sign. You:", "image": "sign-low-clearance", "choices": ["Stop, do not go under", "Go under slowly", "Go under quickly"], "answer": 0, "missLine": "If your vehicle is taller than the sign, do not go under."},
+    {"id": "ev-warn-low-clearance-3", "item": "warn-low-clearance", "kind": "action", "prompt": "Low Clearance sign ahead.", "sign": "sign-low-clearance", "action": "slow", "missLine": "Low overpass ahead. Slow down and check the height on the sign."},
+
+    {"id": "ev-warn-hill-1", "item": "warn-hill", "kind": "gates", "prompt": "A truck on a slope means what?", "image": "sign-hill", "choices": ["Steep hill ahead", "Truck route", "Trucks entering"], "answer": 0, "missLine": "A truck on a slope means a steep hill. Check your brakes."},
+    {"id": "ev-warn-hill-2", "item": "warn-hill", "kind": "gates", "prompt": "Steep hill sign. What should you check?", "image": "sign-hill", "choices": ["Your horn", "Your brakes", "Your turn signal"], "answer": 1, "missLine": "A steep grade is ahead. Check your brakes."},
+    {"id": "ev-warn-hill-3", "item": "warn-hill", "kind": "action", "prompt": "Steep hill sign ahead.", "sign": "sign-hill", "action": "slow", "missLine": "Steep hill ahead: slow down and check your brakes."},
+
+    {"id": "ev-warn-deer-crossing-1", "item": "warn-deer-crossing", "kind": "action", "prompt": "Night. Deer Crossing sign.", "sign": "sign-deer-crossing", "weather": "night", "action": "slow", "missLine": "Deer Crossing: slow down, be alert and be ready to stop."},
+    {"id": "ev-warn-deer-crossing-2", "item": "warn-deer-crossing", "kind": "gates", "prompt": "Deer Crossing sign. What should you do?", "image": "sign-deer-crossing", "choices": ["Speed up past the area", "Slow down, be alert", "Ignore it in daytime"], "answer": 1, "missLine": "At a deer sign, slow down, be alert and be ready to stop."},
+    {"id": "ev-warn-deer-crossing-3", "item": "warn-deer-crossing", "kind": "gates", "prompt": "A leaping deer sign means what?", "image": "sign-deer-crossing", "choices": ["Hunting area ahead", "Animal shelter ahead", "Deer cross here"], "answer": 2, "missLine": "A leaping deer means deer cross the road in this area."},
+
+    {"id": "ev-warn-horse-buggy-1", "item": "warn-horse-buggy", "kind": "action", "prompt": "Horse-drawn buggy sign ahead.", "sign": "sign-horse-buggy", "action": "slow", "missLine": "Buggies travel here. Slow down and do not use the horn."},
+    {"id": "ev-warn-horse-buggy-2", "item": "warn-horse-buggy", "kind": "gates", "prompt": "Buggy ahead. What about your horn?", "image": "sign-horse-buggy", "choices": ["Keep it quiet", "Honk to warn them", "One short tap"], "answer": 0, "missLine": "Near horse-drawn buggies, slow down and keep your horn quiet."},
+    {"id": "ev-warn-horse-buggy-3", "item": "warn-horse-buggy", "kind": "gates", "prompt": "This sign warns of what?", "image": "sign-horse-buggy", "choices": ["Horse race track", "Riding stable only", "Buggies travel here"], "answer": 2, "missLine": "This sign means horse-drawn buggies regularly travel in this area."},
+
+    {"id": "ev-warn-buggy-three-feet-1", "item": "warn-buggy-three-feet", "kind": "gates", "prompt": "Passing a buggy: at least how much space?", "image": "sign-horse-buggy", "choices": ["1 foot", "2 feet", "3 feet"], "answer": 2, "missLine": "Pass a horse-drawn buggy with at least 3 feet of space."},
+    {"id": "ev-warn-buggy-three-feet-2", "item": "warn-buggy-three-feet", "kind": "gates", "prompt": "Pass a buggy only when what?", "image": "sign-horse-buggy", "choices": ["You honk first", "The way is clear", "It is on a curve"], "answer": 1, "missLine": "Pass a buggy only when the way is clear, with 3 feet of space."},
+    {"id": "ev-warn-buggy-three-feet-3", "item": "warn-buggy-three-feet", "kind": "gates", "prompt": "Smallest legal gap when passing a buggy?", "choices": ["3 feet", "5 feet", "1 foot"], "answer": 0, "missLine": "State law says at least 3 feet when you pass a buggy."},
+
+    {"id": "ev-warn-farm-equipment-1", "item": "warn-farm-equipment", "kind": "action", "prompt": "Tractor sign. Farm machines use this road.", "sign": "sign-farm-equipment", "action": "slow", "missLine": "Tractors travel here. Be ready to slow down or stop."},
+    {"id": "ev-warn-farm-equipment-2", "item": "warn-farm-equipment", "kind": "gates", "prompt": "Tractor ahead. When can you pass?", "image": "sign-farm-equipment", "choices": ["On a curve", "When the way is clear", "Right away"], "answer": 1, "missLine": "Only pass farm equipment when the way is clear."},
+    {"id": "ev-warn-farm-equipment-3", "item": "warn-farm-equipment", "kind": "gates", "prompt": "This sign warns of what?", "image": "sign-farm-equipment", "choices": ["Farm machines on road", "Tractor sales ahead", "Farm entrance only"], "answer": 0, "missLine": "This sign means tractors and farm equipment travel in this area."},
+
+    {"id": "ev-warn-pedestrian-crossing-1", "item": "warn-pedestrian-crossing", "kind": "action", "prompt": "Pedestrian Crossing sign ahead.", "sign": "sign-pedestrian-crossing", "action": "slow", "missLine": "Pedestrian Crossing: slow down and be ready to stop."},
+    {"id": "ev-warn-pedestrian-crossing-2", "item": "warn-pedestrian-crossing", "kind": "action", "prompt": "Person stepping into the crosswalk!", "prop": "pedestrian-crosswalk", "sign": "sign-pedestrian-crossing", "action": "stop", "missLine": "Someone is entering the crosswalk. Stop and let them cross."},
+    {"id": "ev-warn-pedestrian-crossing-3", "item": "warn-pedestrian-crossing", "kind": "gates", "prompt": "A second sign with an arrow shows?", "image": "sign-pedestrian-crossing", "choices": ["Which way to turn", "Where the crosswalk is", "A detour route"], "answer": 1, "missLine": "The arrow sign shows the actual location of the crosswalk."},
+
+    {"id": "ev-warn-bicycle-crossing-1", "item": "warn-bicycle-crossing", "kind": "action", "prompt": "Bike crossing sign. Cyclist ahead.", "prop": "cyclist-ahead", "sign": "sign-bicycle-crossing", "action": "slow", "missLine": "Bikes cross and ride here. Slow down and drive with caution."},
+    {"id": "ev-warn-bicycle-crossing-2", "item": "warn-bicycle-crossing", "kind": "gates", "prompt": "What does this sign mean?", "image": "sign-bicycle-crossing", "choices": ["Bike shop ahead", "Bikes not allowed", "Bikes cross or ride here"], "answer": 2, "missLine": "This sign means bikes cross or ride beside traffic here."},
+    {"id": "ev-warn-bicycle-crossing-3", "item": "warn-bicycle-crossing", "kind": "gates", "prompt": "Bike crossing sign. How should you drive?", "image": "sign-bicycle-crossing", "choices": ["With caution", "Honk at each bike", "Faster to pass bikes"], "answer": 0, "missLine": "Bikes cross or ride beside traffic here. Drive with caution."},
+
+    {"id": "ev-warn-school-zone-1", "item": "warn-school-zone", "kind": "action", "prompt": "School zone sign. Kids nearby.", "sign": "sign-school-zone", "action": "slow", "missLine": "In a school zone, be ready to slow down or stop for children."},
+    {"id": "ev-warn-school-zone-2", "item": "warn-school-zone", "kind": "gates", "prompt": "Five-sided sign with two kids means?", "image": "sign-school-zone", "choices": ["Hiking trail", "School zone or crossing", "Bus stop"], "answer": 1, "missLine": "The five-sided sign marks a school zone or school crossing."},
+    {"id": "ev-warn-school-zone-3", "item": "warn-school-zone", "kind": "gates", "prompt": "Crossing guard signals you to stop. You:", "image": "sign-school-zone", "choices": ["Obey the guard", "Honk and go", "Go if light is green"], "answer": 0, "missLine": "In school zones, obey the signals from crossing guards."},
+
+    {"id": "ev-warn-joints-1", "item": "warn-joints", "kind": "action", "prompt": "Open joints on the bridge. Motorcycle ahead.", "prop": "motorcycle-ahead", "sign": "sign-open-joints", "action": "slow", "missLine": "Open joints: slow down. They can make motorcyclists lose control."},
+    {"id": "ev-warn-joints-2", "item": "warn-joints", "kind": "gates", "prompt": "Open joints are most dangerous for whom?", "image": "sign-open-joints", "choices": ["Buses", "Motorcyclists", "Trucks"], "answer": 1, "missLine": "Open joints on bridges or ramps can make a motorcyclist lose control."},
+    {"id": "ev-warn-joints-3", "item": "warn-joints", "kind": "gates", "prompt": "Wide expansion joint in rain. The risk?", "image": "sign-open-joints", "choices": ["Low clearance", "Falling rocks", "Tires slipping"], "answer": 2, "missLine": "Wide joints can make tires slip in wet weather. Slow down."},
+
+    {"id": "ev-warn-intersection-1", "item": "warn-intersection", "kind": "action", "prompt": "Crossroad sign ahead.", "sign": "sign-intersection", "action": "slow", "missLine": "Intersection ahead: slow down and watch for cars entering your road."},
+    {"id": "ev-warn-intersection-2", "item": "warn-intersection", "kind": "gates", "prompt": "A plus shape on this sign means?", "image": "sign-intersection", "choices": ["Hospital ahead", "Crossroad ahead", "Railroad ahead"], "answer": 1, "missLine": "A plus shape on a yellow sign means an intersection is ahead."},
+    {"id": "ev-warn-intersection-3", "item": "warn-intersection", "kind": "gates", "prompt": "At this sign, watch for what?", "image": "sign-intersection", "choices": ["Cars entering your road", "Low bridges", "Open joints"], "answer": 0, "missLine": "At an intersection, be alert for cars entering your road."},
+
+    {"id": "ev-warn-y-intersection-1", "item": "warn-y-intersection", "kind": "gates", "prompt": "Y sign. What must you do ahead?", "image": "sign-y-intersection", "choices": ["Go straight", "Make a U-turn", "Bear right or left"], "answer": 2, "missLine": "At a Y intersection, you must bear right or left."},
+    {"id": "ev-warn-y-intersection-2", "item": "warn-y-intersection", "kind": "action", "prompt": "Y Intersection sign ahead.", "sign": "sign-y-intersection", "action": "slow", "missLine": "The road splits ahead. Slow down and get ready to bear right or left."},
+    {"id": "ev-warn-y-intersection-3", "item": "warn-y-intersection", "kind": "gates", "prompt": "Which sign is this?", "image": "sign-y-intersection", "choices": ["T intersection", "Merge", "Y intersection"], "answer": 2, "missLine": "A Y shape means a Y intersection. Bear right or left."},
+
+    {"id": "ev-warn-t-intersection-1", "item": "warn-t-intersection", "kind": "action", "prompt": "T sign. Your road ends at a stop.", "sign": "sign-t-intersection", "prop": "stop-line", "action": "stop", "missLine": "At the T, your road ends at a stop sign. Stop, yield, then turn."},
+    {"id": "ev-warn-t-intersection-2", "item": "warn-t-intersection", "kind": "gates", "prompt": "T sign. At the end you must?", "image": "sign-t-intersection", "choices": ["Go straight", "Turn right or left", "Make a U-turn"], "answer": 1, "missLine": "At a T intersection, the road ends. Turn right or left."},
+    {"id": "ev-warn-t-intersection-3", "item": "warn-t-intersection", "kind": "gates", "prompt": "Before turning at the T, yield to whom?", "image": "sign-t-intersection", "choices": ["Oncoming cars and walkers", "Only trucks", "Only cars behind you"], "answer": 0, "missLine": "Yield to oncoming traffic and pedestrians before you turn at a T."},
+
+    {"id": "ev-warn-roundabout-1", "item": "warn-roundabout", "kind": "action", "prompt": "Roundabout sign ahead.", "sign": "sign-roundabout", "action": "slow", "missLine": "Roundabout ahead: slow down and yield to cars in the circle."},
+    {"id": "ev-warn-roundabout-2", "item": "warn-roundabout", "kind": "gates", "prompt": "Entering a roundabout, yield to whom?", "image": "sign-roundabout", "choices": ["Cars entering after you", "Cars already in circle", "Cars behind you"], "answer": 1, "missLine": "Yield to traffic already in the circle."},
+    {"id": "ev-warn-roundabout-4", "item": "warn-roundabout", "kind": "gates", "prompt": "A roundabout is also called a?", "image": "sign-roundabout", "choices": ["Cul-de-sac", "Cloverleaf", "Traffic circle"], "answer": 2, "missLine": "A roundabout is also called a traffic circle."},
+    {"id": "ev-warn-roundabout-3", "item": "warn-roundabout", "kind": "gates", "prompt": "Which way do you drive in a roundabout?", "image": "sign-roundabout", "choices": ["Counterclockwise", "Clockwise", "Either way"], "answer": 0, "missLine": "In a roundabout, go counterclockwise, opposite the clock hands."},
+
+    {"id": "ev-warn-curve-side-road-1", "item": "warn-curve-side-road", "kind": "action", "prompt": "Curve with side road ahead.", "sign": "sign-curve-side-road", "action": "slow", "missLine": "Slow down. A side road joins inside the curve."},
+    {"id": "ev-warn-curve-side-road-2", "item": "warn-curve-side-road", "kind": "gates", "prompt": "The side road joins from which side?", "image": "sign-curve-side-road", "choices": ["Right", "Left", "Both sides"], "answer": 1, "missLine": "The road curves right and a side road joins from the left."},
+    {"id": "ev-warn-curve-side-road-3", "item": "warn-curve-side-road", "kind": "gates", "prompt": "This sign tells you to watch for what?", "image": "sign-curve-side-road", "choices": ["Cars entering your road", "Falling rocks", "Trains"], "answer": 0, "missLine": "Be alert for cars entering your road from the side road."},
+
+    {"id": "ev-warn-curves-1", "item": "warn-curves", "kind": "action", "prompt": "Sharp right turn sign ahead.", "sign": "sign-sharp-right", "action": "slow", "missLine": "Sharp turn ahead. Slow down before you reach it."},
+    {"id": "ev-warn-curves-2", "item": "warn-curves", "kind": "action", "prompt": "Sharp right, then left, ahead.", "sign": "sign-sharp-right-left", "action": "slow", "missLine": "Sharp right then left: slow down and be prepared."},
+    {"id": "ev-warn-curves-3", "item": "warn-curves", "kind": "gates", "prompt": "This sign means the road does what?", "image": "sign-right-left-curves", "choices": ["Curves right, then left", "Turns sharp right only", "Ends at a T"], "answer": 0, "missLine": "This sign means the road curves right, then left. Slow down."},
+    {"id": "ev-warn-curves-4", "item": "warn-curves", "kind": "gates", "prompt": "What does this sign mean?", "image": "sign-sharp-right", "choices": ["Gentle curve right", "Right turn only lane", "Sharp right turn ahead"], "answer": 2, "missLine": "A square-cornered arrow means a sharp turn ahead. Slow down."},
+
+    {"id": "ev-warn-curve-safe-speed-1", "item": "warn-curve-safe-speed", "kind": "action", "prompt": "Curve ahead. Plaque says 35 MPH.", "sign": "sign-curve-safe-speed", "action": "slow", "missLine": "Slow down to the safe speed shown for the curve."},
+    {"id": "ev-warn-curve-safe-speed-2", "item": "warn-curve-safe-speed", "kind": "gates", "prompt": "The 35 MPH plaque under this sign means?", "image": "sign-curve-safe-speed", "choices": ["Safe speed for curve", "Minimum speed", "Limit for 35 miles"], "answer": 0, "missLine": "The plaque shows the safe speed for the curve."},
+    {"id": "ev-warn-curve-safe-speed-3", "item": "warn-curve-safe-speed", "kind": "gates", "prompt": "Plaque says 35 MPH. Take the curve at?", "image": "sign-curve-safe-speed", "choices": ["45 MPH", "35 MPH or less", "55 MPH"], "answer": 1, "missLine": "Take the curve no faster than the safe speed shown."},
+
+    {"id": "ev-warn-winding-road-1", "item": "warn-winding-road", "kind": "action", "prompt": "Winding Road sign. Rain falling.", "sign": "sign-winding-road", "weather": "rain", "action": "slow", "missLine": "Many curves ahead. Slow down for better control."},
+    {"id": "ev-warn-winding-road-2", "item": "warn-winding-road", "kind": "gates", "prompt": "What does this sign mean?", "image": "sign-winding-road", "choices": ["Slippery when wet", "Lane shift", "Winding road ahead"], "answer": 2, "missLine": "A wiggly arrow means a winding road with many curves."},
+    {"id": "ev-warn-winding-road-3", "item": "warn-winding-road", "kind": "gates", "prompt": "Why slow down on every curve?", "image": "sign-winding-road", "choices": ["Better control", "Save gas", "Read more signs"], "answer": 0, "missLine": "On all curves, slow down for better control."},
+
+    {"id": "ev-warn-rr-low-ground-1", "item": "warn-rr-low-ground", "kind": "action", "prompt": "Low ground railroad crossing ahead.", "sign": "sign-low-ground-railroad", "action": "slow", "missLine": "Steep tracks ahead. Slow down; low vehicles can drag or get caught."},
+    {"id": "ev-warn-rr-low-ground-2", "item": "warn-rr-low-ground", "kind": "gates", "prompt": "Low car at this crossing. The risk?", "image": "sign-low-ground-railroad", "choices": ["Hit a low bridge", "Get caught on tracks", "Slide on ice"], "answer": 1, "missLine": "A steep slope at the tracks can catch the bottom of low vehicles."},
+    {"id": "ev-warn-rr-low-ground-3", "item": "warn-rr-low-ground", "kind": "gates", "prompt": "Who is most at risk at this crossing?", "image": "sign-low-ground-railroad", "choices": ["Bicycles", "Motorcycles", "Low vehicles"], "answer": 2, "missLine": "Low vehicles can drag or get stuck on the steep tracks."},
+
+    {"id": "ev-warn-rr-advance-1", "item": "warn-rr-advance", "kind": "action", "prompt": "Round yellow RR sign ahead.", "sign": "sign-railroad-advance", "action": "slow", "missLine": "Railroad ahead: look, listen, slow down, be ready to stop."},
+    {"id": "ev-warn-rr-advance-2", "item": "warn-rr-advance", "kind": "gates", "prompt": "What does this round yellow sign mean?", "image": "sign-railroad-advance", "choices": ["Road repair ahead", "Railroad crossing ahead", "Rest area ahead"], "answer": 1, "missLine": "A round yellow sign with X and RR means railroad crossing ahead."},
+    {"id": "ev-warn-rr-advance-3", "item": "warn-rr-advance", "kind": "gates", "prompt": "At this sign, what should you do?", "image": "sign-railroad-advance", "choices": ["Speed up to cross", "Honk and go", "Look, listen, slow down"], "answer": 2, "missLine": "Look, listen, slow down and be ready to stop for trains."},
+
+    {"id": "ev-warn-rr-crossbuck-1", "item": "warn-rr-crossbuck", "kind": "action", "prompt": "Railroad crossbuck ahead. No lights.", "sign": "sign-railroad-crossbuck", "action": "slow", "missLine": "At a crossbuck, look, listen, slow down and be ready to stop."},
+    {"id": "ev-warn-rr-crossbuck-2", "item": "warn-rr-crossbuck", "kind": "gates", "prompt": "Trains at a crossbuck come from where?", "image": "sign-railroad-crossbuck", "choices": ["Left only", "Right only", "Either direction"], "answer": 2, "missLine": "Trains may come from either direction."},
+    {"id": "ev-warn-rr-crossbuck-3", "item": "warn-rr-crossbuck", "kind": "gates", "prompt": "Two tracks here. Where can trains come from?", "image": "sign-railroad-crossbuck", "choices": ["Either way, either track", "Only the near track", "Only the far track"], "answer": 0, "missLine": "With more than one track, trains can come either way on either track."},
+
+    {"id": "ev-warn-rr-lights-1", "item": "warn-rr-lights", "kind": "action", "prompt": "Railroad lights start flashing!", "prop": "railroad-lights-flashing", "sign": "sign-crossbuck-lights", "action": "stop", "missLine": "Always stop when railroad lights begin to flash."},
+    {"id": "ev-warn-rr-lights-2", "item": "warn-rr-lights", "kind": "gates", "prompt": "Train passed. Lights still flash. You:", "image": "sign-crossbuck-lights", "choices": ["Go now", "Keep waiting", "Go around slowly"], "answer": 1, "missLine": "Wait until the tracks are clear and the lights stop flashing."},
+    {"id": "ev-warn-rr-lights-3", "item": "warn-rr-lights", "kind": "gates", "prompt": "Many tracks. One train passed. Watch for?", "image": "sign-crossbuck-lights", "choices": ["A school bus", "A low bridge", "A second train"], "answer": 2, "missLine": "At multi-track crossings, a second train may come the other way."},
+
+    {"id": "ev-warn-rr-gate-1", "item": "warn-rr-gate", "kind": "action", "prompt": "Railroad gate is down!", "prop": "railroad-gate-down", "sign": "sign-crossbuck-gate", "action": "stop", "missLine": "Stop at a lowered gate. Never drive around it."},
+    {"id": "ev-warn-rr-gate-2", "item": "warn-rr-gate", "kind": "gates", "prompt": "Gate is down. No train in sight. You:", "image": "sign-crossbuck-gate", "choices": ["Stay stopped", "Go around the gate", "Lift it and go"], "answer": 0, "missLine": "Never drive around a lowered gate. Stay stopped."},
+    {"id": "ev-warn-rr-gate-3", "item": "warn-rr-gate", "kind": "gates", "prompt": "When may you go at a gate crossing?", "image": "sign-crossbuck-gate", "choices": ["Train is out of sight", "Gate starts to rise", "Gates up, lights stopped"], "answer": 2, "missLine": "Stay stopped until the gates are up and the lights stop flashing."},
+
+    {"id": "ev-warn-rr-pavement-1", "item": "warn-rr-pavement", "kind": "gates", "prompt": "X and RR painted on the road means?", "image": "mark-rr-crossing", "choices": ["Road repair ahead", "Railroad crossing ahead", "Right lane ends"], "answer": 1, "missLine": "An X and RR on the road mark a railroad crossing ahead."},
+    {"id": "ev-warn-rr-pavement-2", "item": "warn-rr-pavement", "kind": "gates", "prompt": "When can trains come to a crossing?", "image": "mark-rr-crossing", "choices": ["Only on weekdays", "Only in daytime", "Any time"], "answer": 2, "missLine": "Trains may come at any time, from either direction."},
+    {"id": "ev-warn-rr-pavement-3", "item": "warn-rr-pavement", "kind": "action", "prompt": "Round RR sign. X and RR painted ahead.", "sign": "sign-railroad-advance", "action": "slow", "missLine": "RR on the road means tracks ahead. Be alert and slow down."},
+
+    {"id": "ev-warn-rr-clear-tracks-1", "item": "warn-rr-clear-tracks", "kind": "action", "prompt": "Traffic stopped just past the tracks.", "prop": "truck-ahead", "sign": "sign-railroad-crossbuck", "action": "stop", "missLine": "No room past the tracks? Do not start across. Wait before them."},
+    {"id": "ev-warn-rr-clear-tracks-2", "item": "warn-rr-clear-tracks", "kind": "gates", "prompt": "Start across tracks only if what?", "choices": ["The light is green", "Room on the other side", "Car behind honks"], "answer": 1, "missLine": "Only start across if there is room for your car on the other side."},
+    {"id": "ev-warn-rr-clear-tracks-3", "item": "warn-rr-clear-tracks", "kind": "gates", "prompt": "Traffic backed up past the tracks. Wait where?", "choices": ["Before the tracks", "On the tracks", "Between two tracks"], "answer": 0, "missLine": "Never start across tracks unless you can clear them completely."},
+
+    {"id": "ev-warn-rr-school-bus-1", "item": "warn-rr-school-bus", "kind": "gates", "prompt": "When do school buses stop at railroad tracks?", "choices": ["Only if lights flash", "Always", "Only if a train is seen"], "answer": 1, "missLine": "School buses must always stop at railroad crossings."},
+    {"id": "ev-warn-rr-school-bus-2", "item": "warn-rr-school-bus", "kind": "action", "prompt": "School bus ahead is stopping at tracks.", "prop": "school-bus-stopped", "sign": "sign-railroad-crossbuck", "action": "stop", "missLine": "School buses always stop at railroad crossings. Stop behind it."},
+    {"id": "ev-warn-rr-school-bus-3", "item": "warn-rr-school-bus", "kind": "gates", "prompt": "No flashing lights. The school bus will?", "choices": ["Keep going", "Speed up", "Stop anyway"], "answer": 2, "missLine": "School buses stop at railroad crossings even when lights are not flashing."},
+
+    {"id": "ev-warn-rr-stall-1", "item": "warn-rr-stall", "kind": "gates", "prompt": "Your car stalls on the tracks. First?", "image": "sign-railroad-crossbuck", "choices": ["Keep trying to start", "Get out right away", "Call a tow truck"], "answer": 1, "missLine": "Stalled on tracks? Do not hesitate. Get out right away."},
+    {"id": "ev-warn-rr-stall-2", "item": "warn-rr-stall", "kind": "gates", "prompt": "Train coming. Which way do you run?", "image": "sign-railroad-crossbuck", "choices": ["Along the tracks", "Same way as the train", "Angled toward the train"], "answer": 2, "missLine": "Run diagonally away from the tracks, toward the oncoming train."},
+    {"id": "ev-warn-rr-stall-3", "item": "warn-rr-stall", "kind": "gates", "prompt": "Run from the tracks in what kind of path?", "choices": ["Diagonal (at an angle)", "Straight down the rails", "Back into the car"], "answer": 0, "missLine": "Get out and run diagonally away from the tracks."},
+
+    {"id": "ev-warn-rr-emergency-number-1", "item": "warn-rr-emergency-number", "kind": "gates", "prompt": "Danger at a rail crossing. Who do you call?", "choices": ["Number on emergency sign", "A tow truck", "Your insurance"], "answer": 0, "missLine": "Call the number listed on the emergency sign at the crossing."},
+    {"id": "ev-warn-rr-emergency-number-2", "item": "warn-rr-emergency-number", "kind": "gates", "prompt": "When you call, give the posted what?", "choices": ["Crossing number", "Speed limit", "Exit number"], "answer": 0, "missLine": "Give the posted crossing number so the hazard is found."},
+    {"id": "ev-warn-rr-emergency-number-3", "item": "warn-rr-emergency-number", "kind": "gates", "prompt": "Why call the emergency sign number?", "choices": ["To get a refund", "Railroad can stop trains", "To report a pothole"], "answer": 1, "missLine": "The call lets the railroad stop or reroute trains until it is safe."}
+  ],
+  "questions": [
+    {"id": "q-warn-general-1", "item": "warn-general", "part": 2, "prompt": "Warning signs alert you to:", "choices": ["Possible hazards ahead", "Speed limits you must obey", "Gas, food and lodging", "Historic and cultural sites"], "answer": 0, "explain": "Warning signs alert you to possible hazards ahead."},
+    {"id": "q-warn-general-2", "item": "warn-general", "part": 2, "prompt": "When you see a warning sign, you should slow down and watch for:", "choices": ["A place to park", "A police officer", "Other pavement markings, signs, signals or work zones that may follow", "The next exit only"], "answer": 2, "explain": "Slow down and watch for other pavement markings, signs, signals or work zones that may follow a warning sign."},
+
+    {"id": "q-warn-advisory-speed-1", "item": "warn-advisory-speed", "part": 1, "prompt": "This road sign means:", "image": "sign-advisory-speed", "choices": ["The minimum speed on the exit ramp", "The speed limit on the highway", "The maximum safe speed for the highway exit", "The exit is closed above 25 MPH"], "answer": 2, "explain": "An advisory speed sign shows the maximum safe speed for a highway exit."},
+    {"id": "q-warn-advisory-speed-2", "item": "warn-advisory-speed", "part": 1, "prompt": "You see this sign before a highway exit. You should:", "image": "sign-advisory-speed", "choices": ["Slow to 25 MPH or less for the exit", "Speed up to 25 MPH to exit", "Stop at the start of the ramp", "Keep highway speed until the ramp ends"], "answer": 0, "explain": "The advisory speed is the maximum safe speed for the exit, so slow down to it."},
+
+    {"id": "q-warn-stop-yield-ahead-1", "item": "warn-stop-yield-ahead", "part": 1, "prompt": "This road sign means:", "image": "sign-stop-ahead", "choices": ["Stop immediately at this sign", "Stop sign ahead; slow down and be ready to stop", "Traffic signal ahead", "Railroad crossing ahead"], "answer": 1, "explain": "Stop Ahead means a stop sign is ahead, so slow down and be ready to stop."},
+    {"id": "q-warn-stop-yield-ahead-2", "item": "warn-stop-yield-ahead", "part": 1, "prompt": "This road sign means:", "image": "sign-yield-ahead", "choices": ["Merge with traffic now", "Road narrows ahead", "No passing zone ahead", "Yield sign ahead; slow down and be ready to stop"], "answer": 3, "explain": "Yield Ahead means a yield sign is ahead, so slow down and be ready to stop."},
+
+    {"id": "q-warn-signal-ahead-1", "item": "warn-signal-ahead", "part": 1, "prompt": "This road sign means:", "image": "sign-signal-ahead", "choices": ["Traffic signals ahead", "Road work ahead", "Stop sign ahead", "Railroad crossing ahead"], "answer": 0, "explain": "Signal Ahead means traffic signals are ahead."},
+    {"id": "q-warn-signal-ahead-2", "item": "warn-signal-ahead", "part": 1, "prompt": "When you see this sign, you should:", "image": "sign-signal-ahead", "choices": ["Speed up to make the green light", "Turn on your hazard lights", "Change to the left lane", "Slow down and be ready to stop"], "answer": 3, "explain": "Traffic signals are ahead, so slow down and be ready to stop."},
+
+    {"id": "q-warn-no-passing-zone-1", "item": "warn-no-passing-zone", "part": 1, "prompt": "This road sign means:", "image": "sign-no-passing-zone", "choices": ["Passing lane ahead", "End of a no passing zone", "Beginning of a no passing zone", "Two-way traffic ahead"], "answer": 2, "explain": "This sign marks the beginning of a no passing zone."},
+    {"id": "q-warn-no-passing-zone-2", "item": "warn-no-passing-zone", "part": 1, "prompt": "After this sign, you may pass a car ahead of you in your lane:", "image": "sign-no-passing-zone", "choices": ["Only if the way is clear", "Never, while in the no passing zone", "Only if the car is going under the limit", "Only on the right shoulder"], "answer": 1, "explain": "You may not pass cars in your lane in a no passing zone, even if the way is clear."},
+
+    {"id": "q-warn-merge-1", "item": "warn-merge", "part": 1, "prompt": "This road sign means:", "image": "sign-merge", "choices": ["Two lanes moving the same way will become one", "Divided highway begins", "Right lane ends; merge right", "Crossroad ahead"], "answer": 0, "explain": "The merge sign means two lanes going the same direction are about to become one."},
+    {"id": "q-warn-merge-2", "item": "warn-merge", "part": 1, "prompt": "At this sign, who is responsible for merging safely?", "image": "sign-merge", "choices": ["Only drivers entering from the side", "Only drivers already on the main road", "The driver of the larger vehicle", "Drivers in both lanes"], "answer": 3, "explain": "Drivers in both lanes are responsible for merging safely."},
+
+    {"id": "q-warn-lane-reduction-1", "item": "warn-lane-reduction", "part": 1, "prompt": "This road sign means:", "image": "sign-lane-reduction", "choices": ["Lane ends soon, merge right", "Right lane ends soon, merge left", "Road curves to the right", "Divided highway ends"], "answer": 1, "explain": "The right lane ends soon, so drivers in the right lane merge left."},
+    {"id": "q-warn-lane-reduction-2", "item": "warn-lane-reduction", "part": 1, "prompt": "You are in the left lane and see this sign. You should:", "image": "sign-lane-reduction", "choices": ["Speed up so no one can merge", "Move into the right lane", "Allow other vehicles to merge smoothly", "Stop until the right lane is empty"], "answer": 2, "explain": "Drivers in the left lane should allow other vehicles to merge smoothly."},
+    {"id": "q-warn-lane-reduction-3", "item": "warn-lane-reduction", "part": 1, "prompt": "You are in the right lane and see this sign. You must:", "image": "sign-lane-reduction", "choices": ["Merge left when space opens up", "Stop at the end of the lane", "Drive on the shoulder", "Speed up and pass everyone"], "answer": 0, "explain": "Drivers in the right lane must merge left when space opens up."},
+
+    {"id": "q-warn-divided-highway-1", "item": "warn-divided-highway", "part": 1, "prompt": "This road sign means:", "image": "sign-divided-highway-begins", "choices": ["Divided highway ends; traffic goes both ways", "The highway ahead is split by a median; keep right", "Two lanes merge into one", "The road curves right, then left"], "answer": 1, "explain": "Divided Highway Begins means a median splits the road into two one-way roadways, so keep right."},
+    {"id": "q-warn-divided-highway-2", "item": "warn-divided-highway", "part": 1, "prompt": "This road sign means:", "image": "sign-divided-highway-ends", "choices": ["Divided highway begins", "Keep left of the island", "One-way road ahead", "The highway no longer has a median; traffic goes both ways; keep right"], "answer": 3, "explain": "Divided Highway Ends means there is no median and traffic goes both ways, so keep right."},
+    {"id": "q-warn-divided-highway-3", "item": "warn-divided-highway", "part": 2, "prompt": "On a divided highway, each roadway is:", "image": "sign-divided-highway-begins", "choices": ["Two-way", "For trucks only", "One-way", "Closed at night"], "answer": 2, "explain": "A divided highway is split by a median into two roadways, each one-way."},
+
+    {"id": "q-warn-slippery-1", "item": "warn-slippery", "part": 1, "prompt": "This road sign means:", "image": "sign-slippery", "choices": ["Winding road ahead", "Road is slippery when wet", "Sharp curves ahead", "Loose gravel ahead"], "answer": 1, "explain": "This sign warns that the road is slippery when wet."},
+    {"id": "q-warn-slippery-2", "item": "warn-slippery", "part": 1, "prompt": "When you see this sign and the road is wet, you should:", "image": "sign-slippery", "choices": ["Reduce your speed", "Avoid braking hard or changing direction suddenly", "Increase the distance to the car ahead", "All of these"], "answer": 3, "explain": "On wet pavement, slow down, avoid hard braking and sudden turns, and leave more space."},
+    {"id": "q-warn-slippery-3", "item": "warn-slippery", "part": 1, "prompt": "On wet pavement near this sign, you should:", "image": "sign-slippery", "choices": ["Brake hard and swerve if needed", "Speed up to get through quickly", "Slow down and increase the distance to the car ahead", "Follow closely to drive in the tracks of the car ahead"], "answer": 2, "explain": "When pavement is wet, reduce speed and increase the distance to the car ahead."},
+
+    {"id": "q-warn-low-clearance-1", "item": "warn-low-clearance", "part": 1, "prompt": "This road sign means:", "image": "sign-low-clearance", "choices": ["Narrow road ahead", "Minimum vehicle height", "Lane width ahead", "The overpass ahead has a low clearance"], "answer": 3, "explain": "This sign warns that the overpass ahead has a low clearance."},
+    {"id": "q-warn-low-clearance-2", "item": "warn-low-clearance", "part": 1, "prompt": "If your vehicle is taller than the height on this sign, you should:", "image": "sign-low-clearance", "choices": ["Drive under slowly", "Not proceed", "Drive in the center of the road", "Proceed if no traffic is coming"], "answer": 1, "explain": "Do not proceed if your vehicle is taller than the height shown on the sign."},
+
+    {"id": "q-warn-hill-1", "item": "warn-hill", "part": 1, "prompt": "This road sign means:", "image": "sign-hill", "choices": ["Truck crossing", "Trucks only lane", "Steep grade ahead; check your brakes", "Runaway truck ramp"], "answer": 2, "explain": "The hill sign means a steep grade is ahead, so check your brakes."},
+    {"id": "q-warn-hill-2", "item": "warn-hill", "part": 1, "prompt": "When you see this sign, you should:", "image": "sign-hill", "choices": ["Check your brakes", "Shift into neutral", "Speed up before the hill", "Turn on your high beams"], "answer": 0, "explain": "A steep grade is ahead, so check your brakes."},
+
+    {"id": "q-warn-deer-crossing-1", "item": "warn-deer-crossing", "part": 1, "prompt": "This road sign means:", "image": "sign-deer-crossing", "choices": ["Deer cross the roadway in this area", "Wildlife park ahead", "Hunting season is open", "Zoo entrance ahead"], "answer": 0, "explain": "The deer crossing sign means deer cross the road in this area."},
+    {"id": "q-warn-deer-crossing-2", "item": "warn-deer-crossing", "part": 1, "prompt": "When you see this sign, you should:", "image": "sign-deer-crossing", "choices": ["Speed up to get through the area", "Turn on your hazard lights", "Change lanes often", "Slow down, be alert and be ready to stop"], "answer": 3, "explain": "At a deer crossing, slow down, be alert and be ready to stop."},
+
+    {"id": "q-warn-horse-buggy-1", "item": "warn-horse-buggy", "part": 1, "prompt": "This road sign means:", "image": "sign-horse-buggy", "choices": ["Horse racing track ahead", "Riding trail crossing", "Horse-drawn buggies regularly travel in this area", "No horses allowed"], "answer": 2, "explain": "This sign means horse-drawn buggies regularly travel in the area."},
+    {"id": "q-warn-horse-buggy-2", "item": "warn-horse-buggy", "part": 1, "prompt": "When you see this sign, you should:", "image": "sign-horse-buggy", "choices": ["Honk so the driver knows you are there", "Slow down and do not use the horn", "Pass quickly with your high beams on", "Follow closely so you can pass fast"], "answer": 1, "explain": "Near horse-drawn buggies, slow down and do not use the horn."},
+
+    {"id": "q-warn-buggy-three-feet-1", "item": "warn-buggy-three-feet", "part": 2, "prompt": "When passing a horse-drawn buggy, state law requires at least:", "image": "sign-horse-buggy", "choices": ["1 foot of clearance", "2 feet of clearance", "3 feet of clearance", "10 feet of clearance"], "answer": 2, "explain": "State law requires at least three feet of clearance when passing a horse-drawn buggy."},
+    {"id": "q-warn-buggy-three-feet-2", "item": "warn-buggy-three-feet", "part": 2, "prompt": "You may pass a horse-drawn buggy when:", "choices": ["You honk first", "The way is clear and you can leave at least 3 feet", "The buggy is on a curve", "Never"], "answer": 1, "explain": "Pass a buggy only when the way is clear, with at least three feet of clearance."},
+
+    {"id": "q-warn-farm-equipment-1", "item": "warn-farm-equipment", "part": 1, "prompt": "This road sign means:", "image": "sign-farm-equipment", "choices": ["Farm market ahead", "No farm vehicles allowed", "Construction equipment working", "Tractors and farm equipment regularly travel in this area"], "answer": 3, "explain": "This sign means tractors and farm equipment regularly travel in the area."},
+    {"id": "q-warn-farm-equipment-2", "item": "warn-farm-equipment", "part": 1, "prompt": "When you see this sign, you should:", "image": "sign-farm-equipment", "choices": ["Be ready to slow down or stop, and pass only when the way is clear", "Pass any slow vehicle right away", "Honk so farm vehicles move over", "Speed up to get ahead of them"], "answer": 0, "explain": "Be ready to slow down or stop, and only pass when the way is clear."},
+
+    {"id": "q-warn-pedestrian-crossing-1", "item": "warn-pedestrian-crossing", "part": 1, "prompt": "This road sign means:", "image": "sign-pedestrian-crossing", "choices": ["Hiking trail ahead", "Watch for pedestrians crossing; slow down and be prepared to stop", "No pedestrians allowed", "Bus stop ahead"], "answer": 1, "explain": "The pedestrian crossing sign means watch for people crossing, slow down and be prepared to stop."},
+    {"id": "q-warn-pedestrian-crossing-2", "item": "warn-pedestrian-crossing", "part": 1, "prompt": "This sign warns you to watch for:", "image": "sign-pedestrian-crossing", "choices": ["Road work", "A slippery road", "A park entrance", "People walking or riding devices into a crosswalk"], "answer": 3, "explain": "Watch for people walking, riding bicycles or other devices entering a crosswalk or crossing your path."},
+    {"id": "q-warn-pedestrian-crossing-3", "item": "warn-pedestrian-crossing", "part": 1, "prompt": "A second sign with an arrow below this sign shows:", "image": "sign-pedestrian-crossing", "choices": ["The direction of a detour", "The actual location of the crosswalk", "Where to park", "Which lane to use"], "answer": 1, "explain": "A second sign with an arrow may show the actual location of the crosswalk."},
+
+    {"id": "q-warn-bicycle-crossing-1", "item": "warn-bicycle-crossing", "part": 1, "prompt": "This road sign means:", "image": "sign-bicycle-crossing", "choices": ["Bicycles may not use this road", "Bike rental ahead", "Bicycles regularly cross or ride beside traffic here", "Bike lane ends"], "answer": 2, "explain": "This sign means bicycles regularly cross or ride beside traffic in this area."},
+    {"id": "q-warn-bicycle-crossing-2", "item": "warn-bicycle-crossing", "part": 1, "prompt": "When you see this sign, you should:", "image": "sign-bicycle-crossing", "choices": ["Drive with caution", "Honk at every bicyclist", "Speed up to pass bikes", "Use only the left lane"], "answer": 0, "explain": "Bicycles cross or ride beside traffic here, so drive with caution."},
+
+    {"id": "q-warn-school-zone-1", "item": "warn-school-zone", "part": 1, "prompt": "This road sign means:", "image": "sign-school-zone", "choices": ["Pedestrian crossing", "Playground", "School zone or school crossing", "Bus stop"], "answer": 2, "explain": "The five-sided sign marks a school zone or warns of a school crossing."},
+    {"id": "q-warn-school-zone-2", "item": "warn-school-zone", "part": 1, "prompt": "In the area marked by this sign, you should:", "image": "sign-school-zone", "choices": ["Obey the speed limit and signals from crossing guards", "Honk to warn children", "Slow down only if you see a bus", "Pass slower cars"], "answer": 0, "explain": "In school zones, be ready to slow or stop and obey the speed limit and crossing guards."},
+
+    {"id": "q-warn-joints-1", "item": "warn-joints", "part": 1, "prompt": "This road sign means:", "image": "sign-open-joints", "choices": ["Bridge is closed", "Road work ahead", "Speed bumps in a parking lot", "Open joints on a bridge or ramp; slow down"], "answer": 3, "explain": "Open joints on bridges or ramps are ahead; slow down."},
+    {"id": "q-warn-joints-2", "item": "warn-joints", "part": 1, "prompt": "The hazard shown by this sign could cause:", "image": "sign-open-joints", "choices": ["Your engine to overheat", "A motorcyclist to lose control", "Your headlights to fail", "A train to stop"], "answer": 1, "explain": "Open joints on bridges or ramps could cause a motorcyclist to lose control."},
+    {"id": "q-warn-joints-3", "item": "warn-joints", "part": 2, "prompt": "An expansion joint sign warns of a joint across lanes that makes a bump or is wide enough to cause:", "image": "sign-open-joints", "choices": ["Low clearance", "A lane to end", "Loss of traction in wet weather", "A railroad crossing"], "answer": 2, "explain": "Expansion joint signs warn of a bump or a joint wide enough to cause loss of traction in wet weather."},
+
+    {"id": "q-warn-intersection-1", "item": "warn-intersection", "part": 1, "prompt": "This road sign means:", "image": "sign-intersection", "choices": ["Hospital ahead", "Railroad crossing", "Intersection ahead", "Church ahead"], "answer": 2, "explain": "A crossroad symbol means an intersection is ahead."},
+    {"id": "q-warn-intersection-2", "item": "warn-intersection", "part": 1, "prompt": "When you see this sign, be alert for:", "image": "sign-intersection", "choices": ["Vehicles entering the road you are on", "Trains", "Falling rocks", "A drawbridge"], "answer": 0, "explain": "At an intersection, be alert for vehicles entering your road."},
+
+    {"id": "q-warn-y-intersection-1", "item": "warn-y-intersection", "part": 1, "prompt": "This road sign means:", "image": "sign-y-intersection", "choices": ["Road ends; stop, then turn right or left", "You must bear right or left ahead", "Divided highway begins", "Merge ahead"], "answer": 1, "explain": "At a Y intersection you must bear either right or left."},
+    {"id": "q-warn-y-intersection-2", "item": "warn-y-intersection", "part": 1, "prompt": "This sign means the road ahead:", "image": "sign-y-intersection", "choices": ["Ends at a stop sign", "Becomes one-way", "Has a roundabout", "Splits; you must bear right or left"], "answer": 3, "explain": "The Y sign means you must bear right or left ahead."},
+
+    {"id": "q-warn-t-intersection-1", "item": "warn-t-intersection", "part": 1, "prompt": "This road sign means:", "image": "sign-t-intersection", "choices": ["Bear right or left; no stop needed", "Crossroad ahead", "The road you are on ends; turn right or left", "Truck crossing"], "answer": 2, "explain": "At a T intersection your road ends at a stop sign and you must turn right or left."},
+    {"id": "q-warn-t-intersection-2", "item": "warn-t-intersection", "part": 1, "prompt": "At the end of the road shown on this sign, you must:", "image": "sign-t-intersection", "choices": ["Turn right or left after yielding to oncoming traffic and pedestrians", "Go straight across", "Make a U-turn", "Turn left only"], "answer": 0, "explain": "You must turn right or left after yielding to oncoming traffic and pedestrians."},
+
+    {"id": "q-warn-roundabout-1", "item": "warn-roundabout", "part": 1, "prompt": "This road sign means:", "image": "sign-roundabout", "choices": ["Roundabout ahead", "U-turns allowed", "Recycling center", "Merge ahead"], "answer": 0, "explain": "This sign means a circular intersection with a center island is ahead."},
+    {"id": "q-warn-roundabout-2", "item": "warn-roundabout", "part": 1, "prompt": "When entering the intersection shown by this sign, you must:", "image": "sign-roundabout", "choices": ["Speed up and travel clockwise", "Stop inside the circle", "Expect cars in the circle to yield to you", "Yield to traffic already in the circle and travel counterclockwise"], "answer": 3, "explain": "Entering traffic yields to traffic in the circle and travels counterclockwise."},
+    {"id": "q-warn-roundabout-3", "item": "warn-roundabout", "part": 2, "prompt": "A roundabout is also called a traffic circle. It may have:", "image": "sign-roundabout", "choices": ["Only one lane", "One or more lanes", "No center island", "Traffic lights in the circle"], "answer": 1, "explain": "Roundabouts, also called traffic circles, have an island in the center and may have one or more lanes."},
+
+    {"id": "q-warn-curve-side-road-1", "item": "warn-curve-side-road", "part": 1, "prompt": "This road sign means:", "image": "sign-curve-side-road", "choices": ["Road curves left; side road on the right", "Road curves right and a side road joins from the left", "Sharp right turn", "Divided highway begins"], "answer": 1, "explain": "The road curves right and a side road joins from the left within the curve."},
+    {"id": "q-warn-curve-side-road-2", "item": "warn-curve-side-road", "part": 1, "prompt": "When you see this sign, be alert for:", "image": "sign-curve-side-road", "choices": ["Trains", "Low bridges", "Falling rocks", "Vehicles entering the roadway you are on"], "answer": 3, "explain": "Be alert for vehicles entering your road from the side road."},
+
+    {"id": "q-warn-curves-1", "item": "warn-curves", "part": 1, "prompt": "This road sign means:", "image": "sign-sharp-right", "choices": ["Right turn only", "Sharp right turn ahead; slow down", "Road curves right, then left", "Right lane ends"], "answer": 1, "explain": "Slow down and be prepared for a sharp right turn ahead."},
+    {"id": "q-warn-curves-2", "item": "warn-curves", "part": 1, "prompt": "This road sign means:", "image": "sign-sharp-right-left", "choices": ["The road turns sharply right, then left", "Winding road ahead", "Lane shift to the right", "Detour ahead"], "answer": 0, "explain": "Slow down and be prepared for the road to turn sharply right, then left."},
+    {"id": "q-warn-curves-3", "item": "warn-curves", "part": 1, "prompt": "This road sign means:", "image": "sign-right-left-curves", "choices": ["A series of many curves", "Divided highway begins", "Slippery when wet", "The road curves right, then left; slow down"], "answer": 3, "explain": "The road ahead curves right, then left, so slow down."},
+
+    {"id": "q-warn-curve-safe-speed-1", "item": "warn-curve-safe-speed", "part": 1, "prompt": "This road sign means:", "image": "sign-curve-safe-speed", "choices": ["The speed limit is 35 MPH for the next mile", "The minimum speed on the curve is 35 MPH", "The road curves right; slow to the safe speed shown", "Exit 35 is ahead"], "answer": 2, "explain": "The road curves right; slow down to the safe speed indicated."},
+    {"id": "q-warn-curve-safe-speed-2", "item": "warn-curve-safe-speed", "part": 1, "prompt": "The speed on the small plaque under this sign is:", "image": "sign-curve-safe-speed", "choices": ["The safe speed for the curve", "The minimum speed", "A speed for trucks only", "The speed limit after the curve"], "answer": 0, "explain": "The plaque shows the safe speed for the curve."},
+
+    {"id": "q-warn-winding-road-1", "item": "warn-winding-road", "part": 1, "prompt": "This road sign means:", "image": "sign-winding-road", "choices": ["A series of turns or curves ahead", "Slippery when wet", "One curve to the right", "Detour"], "answer": 0, "explain": "The winding road sign means a series of turns or curves ahead."},
+    {"id": "q-warn-winding-road-2", "item": "warn-winding-road", "part": 1, "prompt": "On the road shown by this sign, you should:", "image": "sign-winding-road", "choices": ["Speed up to keep traction", "Brake hard in the middle of each curve", "Drive on the center line", "Slow down for better control"], "answer": 3, "explain": "On all curves, slow down for better control."},
+
+    {"id": "q-warn-rr-low-ground-1", "item": "warn-rr-low-ground", "part": 1, "prompt": "This road sign means:", "image": "sign-low-ground-railroad", "choices": ["Low ground railroad crossing; low vehicles may get caught on the tracks", "Low clearance overpass", "Bumpy road ahead", "Flooded tracks"], "answer": 0, "explain": "A steep slope at the tracks may cause low vehicles to get caught or drag."},
+    {"id": "q-warn-rr-low-ground-2", "item": "warn-rr-low-ground", "part": 1, "prompt": "This sign warns that:", "image": "sign-low-ground-railroad", "choices": ["The road dips under a bridge", "Trains run below the road", "A steep slope at the tracks may cause low vehicles to drag or get caught", "The tracks are closed"], "answer": 2, "explain": "Low ground crossings have a steep slope that can catch the bottom of low vehicles."},
+
+    {"id": "q-warn-rr-advance-1", "item": "warn-rr-advance", "part": 1, "prompt": "This road sign means:", "image": "sign-railroad-advance", "choices": ["Railroad crossing ahead", "Road repair ahead", "Rest area ahead", "Right lane ends"], "answer": 0, "explain": "The round yellow RR sign is an advance warning of a railroad crossing."},
+    {"id": "q-warn-rr-advance-2", "item": "warn-rr-advance", "part": 1, "prompt": "When you see this sign, you should:", "image": "sign-railroad-advance", "choices": ["Look, listen, slow down and be prepared to stop", "Speed up to cross before a train", "Stop only if a train is on the tracks", "Honk your horn and keep going"], "answer": 0, "explain": "Advance warning signs tell you to look, listen, slow down and be prepared to stop."},
+    {"id": "q-warn-rr-advance-3", "item": "warn-rr-advance", "part": 1, "prompt": "Where is this sign placed?", "image": "sign-railroad-advance", "choices": ["Right on the tracks", "After the crossing", "Only at train stations", "Before a railroad crossing"], "answer": 3, "explain": "Advance warning signs are placed before a railroad crossing."},
+
+    {"id": "q-warn-rr-crossbuck-1", "item": "warn-rr-crossbuck", "part": 1, "prompt": "This road sign means:", "image": "sign-railroad-crossbuck", "choices": ["Four-way intersection", "Road closed", "Railroad crossing; look, listen, slow down and be prepared to stop", "No crossing allowed"], "answer": 2, "explain": "The crossbuck warns of a railroad crossing; look, listen, slow down and be prepared to stop."},
+    {"id": "q-warn-rr-crossbuck-2", "item": "warn-rr-crossbuck", "part": 1, "prompt": "At a crossing with this sign and more than one track, trains may come:", "image": "sign-railroad-crossbuck", "choices": ["Only from the left", "From either direction on either track", "Only on the first track", "Only during the day"], "answer": 1, "explain": "With more than one track, trains may approach from either direction on either track."},
+
+    {"id": "q-warn-rr-lights-1", "item": "warn-rr-lights", "part": 1, "prompt": "When the lights on this sign begin to flash, you must:", "image": "sign-crossbuck-lights", "choices": ["Speed up to cross", "Stop, and wait until trains pass, the tracks are clear and the lights stop", "Slow down and cross carefully", "Stop, then go if no train is visible"], "answer": 1, "explain": "Always stop when the lights flash and wait until trains pass, tracks are clear and lights stop."},
+    {"id": "q-warn-rr-lights-2", "item": "warn-rr-lights", "part": 1, "prompt": "A train has passed, but the lights on this sign are still flashing. You should:", "image": "sign-crossbuck-lights", "choices": ["Proceed carefully", "Drive around the crossbuck", "Remain stopped; another train could be coming", "Honk and go"], "answer": 2, "explain": "Do not proceed until the lights stop flashing; a second train could be coming."},
+
+    {"id": "q-warn-rr-gate-1", "item": "warn-rr-gate", "part": 1, "prompt": "At a crossing with this signal, you must:", "image": "sign-crossbuck-gate", "choices": ["Drive around the gate if no train is visible", "Stop when the lights flash, before the gate lowers, and stay stopped until gates rise and lights stop", "Stop only after the gate is fully down", "Cross quickly before the gate closes"], "answer": 1, "explain": "Stop when the lights flash and before the gate lowers; stay stopped until the gates rise and lights stop."},
+    {"id": "q-warn-rr-gate-2", "item": "warn-rr-gate", "part": 1, "prompt": "The gate at this crossing is down, but you see no train. You should:", "image": "sign-crossbuck-gate", "choices": ["Drive around the gate carefully", "Go once the train is out of sight", "Get out and lift the gate", "Remain stopped until the gates are raised and the lights stop flashing"], "answer": 3, "explain": "Never drive around a lowered gate; wait until the gates are raised and the lights stop."},
+
+    {"id": "q-warn-rr-pavement-1", "item": "warn-rr-pavement", "part": 2, "prompt": "This pavement marking means:", "image": "mark-rr-crossing", "choices": ["Road repair zone", "Reserved for rescue vehicles", "A railroad crossing is ahead", "Right lane ends"], "answer": 2, "explain": "An X and RR painted on the pavement mark the approach to a railroad crossing."},
+    {"id": "q-warn-rr-pavement-2", "item": "warn-rr-pavement", "part": 2, "prompt": "When approaching railroad tracks, trains may come:", "image": "mark-rr-crossing", "choices": ["Only at scheduled times", "At any time and from either direction", "Only from the left", "Only when lights are flashing"], "answer": 1, "explain": "Trains may approach the crossing at any time and from either direction."},
+
+    {"id": "q-warn-rr-clear-tracks-1", "item": "warn-rr-clear-tracks", "part": 2, "prompt": "You should never start across railroad tracks unless:", "choices": ["The car ahead has started across", "You honk first", "You can clear the tracks completely", "The tracks look dry"], "answer": 2, "explain": "Unless you can clear the tracks completely, never start across."},
+    {"id": "q-warn-rr-clear-tracks-2", "item": "warn-rr-clear-tracks", "part": 2, "prompt": "Before you cross railroad tracks, make sure:", "choices": ["There is room for your vehicle on the other side", "Your hazard lights are on", "You can speed across quickly", "You are in the left lane"], "answer": 0, "explain": "Make sure there is room for your vehicle on the other side before crossing."},
+
+    {"id": "q-warn-rr-school-bus-1", "item": "warn-rr-school-bus", "part": 2, "prompt": "School buses must stop at railroad crossings:", "choices": ["Only when the lights are flashing", "Only when a train is visible", "Always, even when the lights are not flashing", "Only when carrying children"], "answer": 2, "explain": "School buses must always stop at railroad crossings, even when the lights are not flashing."},
+    {"id": "q-warn-rr-school-bus-2", "item": "warn-rr-school-bus", "part": 2, "prompt": "Which vehicle must always stop at railroad crossings, even when the lights are not flashing?", "choices": ["School buses", "Motorcycles", "Pickup trucks", "Mopeds"], "answer": 0, "explain": "School buses must always stop at railroad crossings."},
+
+    {"id": "q-warn-rr-stall-1", "item": "warn-rr-stall", "part": 2, "prompt": "If your car stalls on railroad tracks, you should:", "choices": ["Stay in the car and keep trying to start it", "Get out right away and run diagonally away from the tracks toward the oncoming train", "Get out and push the car off the tracks", "Run away from the tracks in the same direction the train is going"], "answer": 1, "explain": "Get out right away and run diagonally away from the tracks in the direction of the oncoming train."},
+    {"id": "q-warn-rr-stall-2", "item": "warn-rr-stall", "part": 2, "prompt": "After leaving a car stalled on the tracks, you should run:", "image": "sign-railroad-crossbuck", "choices": ["Along the tracks, away from the train", "Back to the car to get your things", "Straight across to the far side of the tracks", "Diagonally away from the tracks in the direction of the oncoming train"], "answer": 3, "explain": "Run diagonally away from the tracks in the direction of the oncoming train."},
+
+    {"id": "q-warn-rr-emergency-number-1", "item": "warn-rr-emergency-number", "part": 2, "prompt": "If a dangerous condition exists at a railroad crossing, you should:", "choices": ["Drive around it quickly", "Wait for the next train to clear it", "Ignore it if no train is coming", "Call the number listed on the emergency sign"], "answer": 3, "explain": "Call the number on the emergency sign so the rail company can stop or reroute trains."},
+    {"id": "q-warn-rr-emergency-number-2", "item": "warn-rr-emergency-number", "part": 2, "prompt": "When you call about a hazard at a rail crossing, be sure to give:", "choices": ["Your driver's license number", "The posted crossing number", "The time of the next train", "The color of the crossbuck"], "answer": 1, "explain": "Give the posted crossing number so the hazard can be identified correctly."}
+  ]
+}

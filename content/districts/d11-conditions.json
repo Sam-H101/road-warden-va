@@ -1,0 +1,608 @@
+{
+  "district": "d11-conditions",
+  "items": [
+    {
+      "id": "cond-identify-risk",
+      "district": "d11-conditions",
+      "kind": "rule",
+      "title": "Biggest crash cause: missed risk",
+      "simple": "The biggest cause of crashes is missing a risk. Keep looking ahead, to the sides and behind you. Know where other cars are. Watch for people walking and riding bikes.",
+      "official": "The single biggest contributor to crashes is failing to identify a risk. Always know where other vehicles are positioned around you. You must look down the road, to the sides, and behind your vehicle. You must also be alert for unexpected events, especially pedestrians and bicyclists.",
+      "mnemonic": "Spot it to stop it.",
+      "manualRef": "Section 3, p. 22"
+    },
+    {
+      "id": "cond-headlights-500-feet",
+      "district": "d11-conditions",
+      "kind": "number",
+      "title": "Headlights at 500-foot visibility",
+      "simple": "Rain, fog, snow or sleet can make it hard to see. Can you see only 500 feet ahead? Then you must turn on your headlights. It is the law.",
+      "official": "Virginia law requires motorists to use headlights during inclement weather such as rain, fog, snow or sleet when visibility is reduced to 500 feet.",
+      "mnemonic": "Bad weather, 500 feet: lights on.",
+      "manualRef": "Section 3, p. 22"
+    },
+    {
+      "id": "cond-headlights-wipers",
+      "district": "d11-conditions",
+      "kind": "rule",
+      "title": "Wipers on means headlights on",
+      "simple": "Are your wipers on for bad weather? Then your headlights must be on too. Headlights help other drivers see you, even in the daytime.",
+      "official": "You must use your headlights whenever you use your windshield wipers as a result of bad weather. Using headlights at all times, including during the day, increases your vehicle's visibility.",
+      "mnemonic": "Wipers on, lights on.",
+      "manualRef": "Section 3, p. 22"
+    },
+    {
+      "id": "cond-headlights-hard-to-see",
+      "district": "d11-conditions",
+      "kind": "rule",
+      "title": "Headlights whenever it's hard to see",
+      "simple": "You must use your headlights at night. Use them any other time it is hard to see, too.",
+      "official": "You must use your headlights at night and at other times when it's hard to see.",
+      "mnemonic": "Hard to see? Lights on.",
+      "manualRef": "Section 3, p. 22"
+    },
+    {
+      "id": "cond-slow-first",
+      "district": "d11-conditions",
+      "kind": "rule",
+      "title": "Bad conditions: slow down first",
+      "simple": "It is risky to drive when you can't see well. It is risky when rain, snow or ice covers the road. Your first move is to slow down. Then turn on your headlights.",
+      "official": "Driving becomes hazardous when visibility is reduced or when the road surface is covered with rain, snow or ice. Reducing your speed should be your first response to decreased visibility and dangerous road conditions. Turn on your headlights.",
+      "mnemonic": "Slow first, lights second.",
+      "manualRef": "Section 3, p. 23"
+    },
+    {
+      "id": "cond-double-following",
+      "district": "d11-conditions",
+      "kind": "rule",
+      "title": "Double your following distance",
+      "simple": "Bad weather? Slick road? Leave twice your normal space behind the car ahead. More space gives you more time to stop.",
+      "official": "Increase your space cushion by doubling your normal following distance.",
+      "mnemonic": "Bad road? Double the gap.",
+      "manualRef": "Section 3, p. 23"
+    },
+    {
+      "id": "cond-sunset-sunrise",
+      "district": "d11-conditions",
+      "kind": "rule",
+      "title": "Headlights from sunset to sunrise",
+      "simple": "Turn on your headlights at sunset, as soon as it starts to get dark. Keep them on until sunrise. This helps other drivers see you.",
+      "official": "At sunset, as soon as light begins to fade, turn on your headlights to make your vehicle more visible to others. You must use headlights from sunset to sunrise.",
+      "mnemonic": "Sun goes down, lights go on.",
+      "manualRef": "Section 3, p. 23"
+    },
+    {
+      "id": "cond-low-beams-city",
+      "district": "d11-conditions",
+      "kind": "rule",
+      "title": "Low beams in town, for oncoming",
+      "simple": "Use low beams in cities and towns, unless the street has no lights. Is a car coming toward you? Switch to low beams so you don't blind the driver.",
+      "official": "Use low-beams when driving in cities and towns, except on streets where there is no lighting. Switch to low-beams whenever you meet oncoming traffic to avoid blinding the other driver.",
+      "mnemonic": "Car coming? Dim to low.",
+      "manualRef": "Section 3, p. 23"
+    },
+    {
+      "id": "cond-low-beams-200",
+      "district": "d11-conditions",
+      "kind": "number",
+      "title": "Following: low beams within 200 feet",
+      "simple": "Are you driving behind a car at night? Once you are within 200 feet of it, use your low beams.",
+      "official": "When following, use low-beams whenever you are within 200 feet of the vehicle ahead.",
+      "mnemonic": "Behind a car: 200 feet. Car coming at you: 500 feet.",
+      "manualRef": "Section 3, p. 23"
+    },
+    {
+      "id": "cond-high-beams-500",
+      "district": "d11-conditions",
+      "kind": "number",
+      "title": "High beams: dim within 500 feet",
+      "simple": "On dark highways, you can use high beams. A car is coming toward you? When it gets within 500 feet, switch to low beams.",
+      "official": "Use high-beam headlights on highways, unless another vehicle is within 500 feet coming toward you.",
+      "mnemonic": "Behind a car: 200 feet. Car coming at you: 500 feet.",
+      "manualRef": "Section 3, p. 23"
+    },
+    {
+      "id": "cond-oncoming-high-beams",
+      "district": "d11-conditions",
+      "kind": "rule",
+      "title": "Bright oncoming lights: look aside",
+      "simple": "A car coming at you has bright high beams? Don't stare at the lights. Glance at the side of the road, then look ahead. Repeat until you pass. Keep your own high beams off.",
+      "official": "If the high-beams of an oncoming car are on, avoid looking directly at the bright lights. Glance toward the side of the road, then look quickly ahead to determine the other vehicle's position. Keep doing this until you have passed the other vehicle. Even if the other driver does not dim his headlights, do not turn on your high-beam headlights.",
+      "mnemonic": "Look aside. Don't fight back.",
+      "manualRef": "Section 3, p. 23"
+    },
+    {
+      "id": "cond-fog-low-beams",
+      "district": "d11-conditions",
+      "kind": "rule",
+      "title": "Fog: low beams, edge, slow",
+      "simple": "Fog bounces light back into your eyes. Use low beams, not high beams. Follow the lines at the edge of the road. Even light fog makes distance hard to judge, so slow down.",
+      "official": "Fog reflects light and can reflect your own headlights back into your eyes. Use low-beam headlights in heavy fog and look for road edge markings to guide you. Even light fog reduces visibility and your ability to judge distances, so slow down.",
+      "mnemonic": "Fog: go low, find the edge, go slow.",
+      "manualRef": "Section 3, p. 23"
+    },
+    {
+      "id": "cond-rain-low-beams",
+      "district": "d11-conditions",
+      "kind": "rule",
+      "title": "Rain: low beams, check blind spots",
+      "simple": "Heavy rain can be as risky as fog, more so when it is windy. Cars behind you and in your blind spots are hard to see. Use low beams to see and be seen.",
+      "official": "Driving in heavy rain can be as hazardous as driving in fog, especially if the wind is blowing. Other vehicles to the rear and in blind spot areas are especially difficult to see when it's raining. Use your low-beam headlights to see and be seen.",
+      "mnemonic": "Rain or fog: low beams.",
+      "manualRef": "Section 3, p. 23"
+    },
+    {
+      "id": "cond-rain-wipers",
+      "district": "d11-conditions",
+      "kind": "rule",
+      "title": "Wipers and washer fluid",
+      "simple": "In light rain or drizzle, turn on your wipers to see better. Wipers on just a few sprinkles can smear the glass. Keep washer fluid in your car.",
+      "official": "In light rain or drizzle, turn on your windshield wipers to improve visibility; using wipers for sprinkles may smear the windshield and make it harder to see, so make sure you have windshield washer fluid.",
+      "manualRef": "Section 3, p. 23"
+    },
+    {
+      "id": "cond-rain-first-half-hour",
+      "district": "d11-conditions",
+      "kind": "number",
+      "title": "First half hour of rain",
+      "simple": "Rain just started? The road is extra slippery for the first half hour. Oil on the road mixes with the water. Slow down and take care.",
+      "official": "When rain begins, during the first half-hour, roads are more likely to be slippery due to oil on the road surface mixing with water.",
+      "image": "sign-slippery",
+      "mnemonic": "First 30 minutes of rain: oil slick.",
+      "manualRef": "Section 3, p. 23"
+    },
+    {
+      "id": "cond-ponded-water",
+      "district": "d11-conditions",
+      "kind": "rule",
+      "title": "Avoid ponded water",
+      "simple": "Standing water on the road can make your car hydroplane (slide on the water). You can lose control. Go around it if you can. If you can't, take care.",
+      "official": "Use caution when driving through ponded water, and avoid it if possible. Ponded water can cause vehicles to hydroplane or otherwise lose control.",
+      "manualRef": "Section 3, p. 23"
+    },
+    {
+      "id": "cond-snow-prep",
+      "district": "d11-conditions",
+      "kind": "rule",
+      "title": "Clear all snow before driving",
+      "simple": "Before you drive, clear snow and ice off your whole car. That means roof, hood, back, windows, mirrors and lights. Snow that flies off is a danger to others. Snow tires or chains help stop skids.",
+      "official": "Remove snow and ice from your entire car, including the roof, hood and rear of the vehicle, before you start driving. Snow and ice left on the car can fly off and create a hazard for other motorists. Clear all of your windows, mirrors and front and rear lights. Equip your car with all-weather snow tires or chains to help prevent skidding and reduce stopping distance.",
+      "manualRef": "Section 3, p. 23"
+    },
+    {
+      "id": "cond-slippery-braking",
+      "district": "d11-conditions",
+      "kind": "rule",
+      "title": "Ice or packed snow: brake gently",
+      "simple": "Packed snow is like ice. To stop, take your foot off the gas. Then brake gently. Slow down before you stop or turn. Your front tires grip best while they keep rolling.",
+      "official": "Driving on packed snow is similar to driving on ice. When you brake, apply the brakes gently. Slow down before stopping or turning. When driving on slippery surfaces and you need to stop, release the accelerator and apply brakes gently. You have the most traction and control when the front tires are rolling. Keeping a slow, steady speed, rather than hard braking, will allow you to control your vehicle.",
+      "mnemonic": "On ice: gentle feet, rolling wheels.",
+      "manualRef": "Section 3, p. 23"
+    },
+    {
+      "id": "cond-bridges-freeze",
+      "district": "d11-conditions",
+      "kind": "rule",
+      "title": "Bridges freeze first",
+      "simple": "Bridges freeze before other parts of the road. Shady spots can have ice too. In cold weather, slow down before a bridge.",
+      "official": "Watch for ice on bridges and in shady areas. Bridges freeze before other road surfaces.",
+      "mnemonic": "Bridge = ice first.",
+      "manualRef": "Section 3, p. 23"
+    },
+    {
+      "id": "cond-deer-dusk-dawn",
+      "district": "d11-conditions",
+      "kind": "rule",
+      "title": "Deer: dusk and dawn, fall",
+      "simple": "Watch for deer at dusk and dawn, most of all in the fall. A deer crossing sign means deer cross here. Slow down and be ready to stop.",
+      "official": "Be alert at dusk and dawn especially in the fall. Deer Crossing: Deer cross the roadway in this area. Slow down, be alert and be ready to stop.",
+      "image": "sign-deer-crossing",
+      "mnemonic": "Deer at dusk, dawn and fall.",
+      "manualRef": "Section 3, p. 25"
+    },
+    {
+      "id": "cond-deer-slow-horn",
+      "district": "d11-conditions",
+      "kind": "rule",
+      "title": "Deer near road: slow, honk",
+      "simple": "See a deer near the road? Slow down. Deer often travel in groups, so more are likely nearby. Use your horn to scare it away.",
+      "official": "Slow down if you see a large animal near or crossing the road. Large animals frequently travel in groups; there are likely others nearby. Use the horn to scare the animal away.",
+      "mnemonic": "See one deer? Expect more.",
+      "manualRef": "Section 3, p. 25"
+    },
+    {
+      "id": "cond-deer-no-swerve",
+      "district": "d11-conditions",
+      "kind": "rule",
+      "title": "Can't miss the deer? Don't swerve",
+      "simple": "Can't miss a deer? Do not swerve. Brake firmly, stay in your lane and come to a controlled stop. If you hit it, tell the police.",
+      "official": "If a collision with a deer or other animal is unavoidable, do not swerve. Brake firmly, stay in your lane, and come to a controlled stop. If you hit a large animal, report it to law enforcement.",
+      "mnemonic": "Don't swerve. Brake straight.",
+      "manualRef": "Section 3, p. 25"
+    },
+    {
+      "id": "cond-crash-stop",
+      "district": "d11-conditions",
+      "kind": "rule",
+      "title": "Crash: stop, clear the road",
+      "simple": "In a crash, you must stop at the scene or close to it. Don't block traffic. No one hurt and the cars can move? Move them off the road. Get out with care.",
+      "official": "Stop at the scene of the crash or as close to the scene as possible without blocking traffic. Drivers must move vehicles from the road immediately if the vehicles are able to be moved, no one is injured and the driver is capable of safely doing so. Be careful when exiting your vehicle. Keep your vehicle between you and moving traffic if possible.",
+      "mnemonic": "Stop, then clear the lane.",
+      "manualRef": "Section 3, p. 25"
+    },
+    {
+      "id": "cond-crash-injured",
+      "district": "d11-conditions",
+      "kind": "rule",
+      "title": "Help the injured, don't move them",
+      "simple": "Help anyone who is hurt in any way you can. Do not pull them out of the car. Move them only if there is danger, like fire, or you have medical training.",
+      "official": "Give any help you can if someone is injured. Do not attempt to move an injured person from a wrecked vehicle unless you have the necessary medical training or there is an immediate danger such as fire.",
+      "manualRef": "Section 3, p. 25"
+    },
+    {
+      "id": "cond-crash-report-police",
+      "district": "d11-conditions",
+      "kind": "rule",
+      "title": "Report crashes to police",
+      "simple": "Tell the police about a crash as soon as you can. You must report any crash with damage, injury or death.",
+      "official": "Report the crash to the police as quickly as possible. Motor vehicle crashes involving property damage, personal injury or death must be reported to the police.",
+      "manualRef": "Section 3, p. 25"
+    },
+    {
+      "id": "cond-crash-exchange-info",
+      "district": "d11-conditions",
+      "kind": "rule",
+      "title": "Swap info, call your insurance",
+      "simple": "After a crash, swap info. Get each driver's name, address, license number and plate number. Get names and addresses of anyone hurt and of witnesses. Get owners' insurance. Then call your insurance.",
+      "official": "Exchange information with other people involved in the crash as soon as possible: name, address and driver's license number of other drivers; license plate numbers of other vehicles; name and address of anyone who was injured; name and address of each witness; name, address and insurance policy number of other vehicle owners. Notify your insurance company immediately.",
+      "manualRef": "Section 3, p. 25"
+    },
+    {
+      "id": "cond-crash-3000",
+      "district": "d11-conditions",
+      "kind": "number",
+      "title": "DMV crash report: over $3,000",
+      "simple": "Police must send a written crash report to DMV if anyone is hurt or killed. They also send one if damage is more than $3,000. The crash goes on each driver's record.",
+      "official": "Law enforcement officers are required to forward a written crash report to DMV when a traffic crash results in injury or the death of any person or total property damage is in excess of $3,000. All crash information will be recorded on the DMV records of each driver involved in the crash.",
+      "mnemonic": "Hurt, killed, or over $3,000: DMV gets a report.",
+      "manualRef": "Section 3, p. 25"
+    },
+    {
+      "id": "cond-unattended-vehicle",
+      "district": "d11-conditions",
+      "kind": "number",
+      "title": "Parked car hit: note, report",
+      "simple": "Did you hit a parked car with no one in it? Try to find the owner. Can't? Leave a note: your name, phone, date, time and the damage. Tell police within 24 hours.",
+      "official": "You must make a reasonable effort to find the owner of an unattended vehicle or other property damaged in a crash. If you cannot locate anyone, leave a note that can be found easily at the scene of the crash. Include your name, telephone number, the date and time of the crash, and a description of the damage. You must also report the crash to the police within 24 hours.",
+      "mnemonic": "No owner? Leave a note. Tell police within 24 hours.",
+      "manualRef": "Section 3, p. 25"
+    },
+    {
+      "id": "cond-stop-pull-over",
+      "district": "d11-conditions",
+      "kind": "rule",
+      "title": "Police stop: pull over, stay in",
+      "simple": "Police stopping you? Stay calm. Pull to the side of the road in a safe place and park. Stay in your car unless the officer asks you to get out.",
+      "official": "If you are stopped by a police officer: Remain calm. Pull your vehicle to the side of the road in a safe location and park. Stay in your vehicle. Do not get out unless the officer asks you to.",
+      "manualRef": "Section 3, p. 26"
+    },
+    {
+      "id": "cond-stop-flashers-light",
+      "district": "d11-conditions",
+      "kind": "rule",
+      "title": "Police stop: flashers, inside light",
+      "simple": "After you pull over for police, turn on your flashers. At night, also turn on the light inside your car.",
+      "official": "Turn on your flashers. If you are pulled over at night, turn on your vehicle's interior lights.",
+      "manualRef": "Section 3, p. 26"
+    },
+    {
+      "id": "cond-stop-engine-window",
+      "district": "d11-conditions",
+      "kind": "rule",
+      "title": "Police stop: engine off, window down",
+      "simple": "Turn off your engine and radio. Turn off anything that makes it hard to talk. Roll down your window. The officer may walk up on either side of your car.",
+      "official": "Turn off your engine, radio, and any other device that could block communication with the officer. Roll down your window so that you can communicate with the officer. An officer may approach your vehicle on the driver or passenger side for safety reasons.",
+      "manualRef": "Section 3, p. 26"
+    },
+    {
+      "id": "cond-stop-belts-hands",
+      "district": "d11-conditions",
+      "kind": "rule",
+      "title": "Police stop: belts on, hands seen",
+      "simple": "Keep your seat belt on. Keep your hands on the wheel where the officer can see them. Don't reach around. Asked for papers? Say where they are. Reach slowly, one hand on the wheel.",
+      "official": "Keep your safety belt fastened and ask your passengers to keep their belts fastened. Keep your hands in plain view, preferably on the steering wheel. Ask your passengers to keep their hands in plain view also. Do not make any movement that will make the officer think you are hiding or reaching for something. If the officer asks for your license, registration and insurance documents, tell him where they are and reach for them slowly, keeping one hand on the steering wheel.",
+      "manualRef": "Section 3, p. 26"
+    },
+    {
+      "id": "cond-stop-carry-documents",
+      "district": "d11-conditions",
+      "kind": "rule",
+      "title": "Carry license, registration, insurance",
+      "simple": "Always carry three things when you drive. You need your driver's license and proof your car is registered. You also need proof of insurance. An officer may ask to see them.",
+      "official": "Carry proper identification: a valid driver's license, proof of vehicle registration and proof of insurance.",
+      "mnemonic": "3 papers: you (license), your car (registration), your coverage (insurance).",
+      "manualRef": "Section 3, p. 26"
+    },
+    {
+      "id": "cond-stop-unmarked-id",
+      "district": "d11-conditions",
+      "kind": "rule",
+      "title": "Unmarked car: ask for ID",
+      "simple": "Is the officer in an unmarked car? Not in uniform? You may ask to see the officer's ID.",
+      "official": "If the officer is driving an unmarked car or is not in uniform, you may ask to see his or her identification.",
+      "manualRef": "Section 3, p. 26"
+    },
+    {
+      "id": "cond-stop-sign-citation",
+      "district": "d11-conditions",
+      "kind": "rule",
+      "title": "Sign the ticket; argue in court",
+      "simple": "Answer the officer's questions clearly. Disagree? Don't argue now. You can make your case in court. Sign the ticket. Signing does not mean you admit guilt.",
+      "official": "Answer the officer's questions fully and clearly. If you disagree with the officer, do not discuss your point of view at that time. You will have your chance to make your case in court. Sign the citation; this is not an admission of guilt. Refusal to sign the citation may result in your arrest. Or, you may be required to go to the police station.",
+      "mnemonic": "Sign now, speak in court.",
+      "manualRef": "Section 3, p. 26"
+    }
+  ],
+  "events": [
+    { "id": "ev-cond-identify-risk-1", "item": "cond-identify-risk", "kind": "gates", "prompt": "Biggest cause of crashes?", "choices": ["Bad weather", "Missing a risk", "Old tires"], "answer": 1, "missLine": "The biggest crash cause is missing a risk. Keep scanning!" },
+    { "id": "ev-cond-identify-risk-2", "item": "cond-identify-risk", "kind": "gates", "prompt": "Where should you keep looking?", "choices": ["Ahead, sides and behind", "Straight ahead only", "Mostly in your mirror"], "answer": 0, "missLine": "Look down the road, to the sides, and behind you." },
+    { "id": "ev-cond-identify-risk-3", "item": "cond-identify-risk", "kind": "action", "prompt": "Night. Person stepping into the crosswalk!", "prop": "pedestrian-crosswalk", "weather": "night", "action": "stop", "missLine": "Stay alert for people walking. Stop and let them cross." },
+
+    { "id": "ev-cond-headlights-500-feet-1", "item": "cond-headlights-500-feet", "kind": "gates", "prompt": "Bad weather. Lights on when you see only:", "choices": ["200 feet", "500 feet", "1,000 feet"], "answer": 1, "missLine": "In bad weather, use headlights when you can see only 500 feet." },
+    { "id": "ev-cond-headlights-500-feet-2", "item": "cond-headlights-500-feet", "kind": "gates", "prompt": "Fog. You see only 500 feet. Headlights?", "choices": ["Off in daytime", "Parking lights only", "On, by law"], "answer": 2, "missLine": "Rain, fog, snow or sleet down to 500 feet? Headlights are the law." },
+    { "id": "ev-cond-headlights-500-feet-3", "item": "cond-headlights-500-feet", "kind": "gates", "prompt": "Which weather can mean headlights by law?", "choices": ["Rain, fog, snow, sleet", "Snow only", "Thunderstorms only"], "answer": 0, "missLine": "Rain, fog, snow or sleet down to 500 feet? Headlights on." },
+
+    { "id": "ev-cond-headlights-wipers-1", "item": "cond-headlights-wipers", "kind": "gates", "prompt": "Wipers on for rain. Headlights?", "choices": ["On", "Off in daytime", "High beams only"], "answer": 0, "missLine": "Wipers on for bad weather means headlights on." },
+    { "id": "ev-cond-headlights-wipers-2", "item": "cond-headlights-wipers", "kind": "gates", "prompt": "Daytime headlights do what?", "choices": ["Help others see you", "Blind other drivers", "Break the law"], "answer": 0, "missLine": "Headlights at all times help other drivers see you." },
+    { "id": "ev-cond-headlights-wipers-3", "item": "cond-headlights-wipers", "kind": "gates", "prompt": "Snow falling, wipers on. You must also:", "choices": ["Use hazard flashers", "Turn off the radio", "Turn on headlights"], "answer": 2, "missLine": "Wipers on for weather? Headlights on too." },
+
+    { "id": "ev-cond-headlights-hard-to-see-1", "item": "cond-headlights-hard-to-see", "kind": "gates", "prompt": "Daytime, but hard to see. Headlights?", "choices": ["Off until sunset", "On", "Parking lights only"], "answer": 1, "missLine": "Use headlights at night and any time it is hard to see." },
+    { "id": "ev-cond-headlights-hard-to-see-2", "item": "cond-headlights-hard-to-see", "kind": "gates", "prompt": "When must you use headlights?", "choices": ["Night or hard to see", "Only after midnight", "Only on highways"], "answer": 0, "missLine": "Headlights go on at night and whenever it is hard to see." },
+
+    { "id": "ev-cond-slow-first-1", "item": "cond-slow-first", "kind": "action", "prompt": "Snow covers the road ahead.", "prop": "truck-ahead", "weather": "snow", "action": "slow", "missLine": "On snow or ice, slowing down is your first move." },
+    { "id": "ev-cond-slow-first-2", "item": "cond-slow-first", "kind": "action", "prompt": "Thick fog. Bike rider ahead.", "prop": "cyclist-ahead", "weather": "fog", "action": "slow", "missLine": "When it is hard to see, slow down first." },
+    { "id": "ev-cond-slow-first-3", "item": "cond-slow-first", "kind": "gates", "prompt": "Hard to see. What do you do first?", "choices": ["Use high beams", "Change lanes", "Slow down"], "answer": 2, "missLine": "Can't see well? Slow down first." },
+
+    { "id": "ev-cond-double-following-1", "item": "cond-double-following", "kind": "gates", "prompt": "Slick road. Your following distance?", "choices": ["Same as normal", "Half as much", "Twice as much"], "answer": 2, "missLine": "In bad conditions, double your normal following distance." },
+    { "id": "ev-cond-double-following-2", "item": "cond-double-following", "kind": "action", "prompt": "Heavy rain. Truck close ahead.", "prop": "truck-ahead", "weather": "rain", "action": "slow", "missLine": "In bad weather, slow down and double your following distance." },
+    { "id": "ev-cond-double-following-3", "item": "cond-double-following", "kind": "action", "prompt": "Snowy road. Truck close ahead.", "prop": "truck-ahead", "weather": "snow", "action": "slow", "missLine": "On snow, leave double the normal space ahead." },
+
+    { "id": "ev-cond-sunset-sunrise-1", "item": "cond-sunset-sunrise", "kind": "gates", "prompt": "Headlights must be on from:", "choices": ["Sunset to midnight", "Sunset to sunrise", "Midnight to 5 a.m."], "answer": 1, "missLine": "You must use headlights from sunset to sunrise." },
+    { "id": "ev-cond-sunset-sunrise-2", "item": "cond-sunset-sunrise", "kind": "gates", "prompt": "Sun is setting. Light is fading. Headlights?", "choices": ["Parking lights only", "Wait until fully dark", "On now"], "answer": 2, "missLine": "Turn on headlights as soon as light begins to fade." },
+    { "id": "ev-cond-sunset-sunrise-3", "item": "cond-sunset-sunrise", "kind": "gates", "prompt": "Why turn on headlights at sunset?", "choices": ["So others see you", "To save the battery", "To warm the engine"], "answer": 0, "missLine": "Headlights at sunset make your car more visible to others." },
+
+    { "id": "ev-cond-low-beams-city-1", "item": "cond-low-beams-city", "kind": "gates", "prompt": "Night. Lit city street. Use:", "choices": ["High beams", "Low beams", "Parking lights"], "answer": 1, "missLine": "Use low beams in cities and towns with street lights." },
+    { "id": "ev-cond-low-beams-city-2", "item": "cond-low-beams-city", "kind": "gates", "prompt": "Oncoming car at night. Switch to:", "choices": ["Hazard flashers", "High beams", "Low beams"], "answer": 2, "missLine": "Switch to low beams when you meet oncoming traffic." },
+    { "id": "ev-cond-low-beams-city-3", "item": "cond-low-beams-city", "kind": "gates", "prompt": "Why dim your lights for oncoming cars?", "choices": ["So you don't blind them", "To save gas", "To signal a turn"], "answer": 0, "missLine": "Dim your lights so you do not blind the other driver." },
+
+    { "id": "ev-cond-low-beams-200-1", "item": "cond-low-beams-200", "kind": "gates", "prompt": "Following a car at night. Low beams within:", "choices": ["500 feet", "100 feet", "200 feet"], "answer": 2, "missLine": "Use low beams within 200 feet of the car ahead." },
+    { "id": "ev-cond-low-beams-200-2", "item": "cond-low-beams-200", "kind": "gates", "prompt": "Night. 150 feet behind a car. Use:", "choices": ["Low beams", "High beams", "No lights"], "answer": 0, "missLine": "Within 200 feet behind a car, use low beams." },
+    { "id": "ev-cond-low-beams-200-3", "item": "cond-low-beams-200", "kind": "gates", "prompt": "Behind a car. Use low beams within:", "choices": ["50 feet", "200 feet", "1,000 feet"], "answer": 1, "missLine": "Behind a car? Use low beams within 200 feet." },
+
+    { "id": "ev-cond-high-beams-500-1", "item": "cond-high-beams-500", "kind": "gates", "prompt": "Car coming at you. Dim high beams within:", "choices": ["500 feet", "200 feet", "100 feet"], "answer": 0, "missLine": "Dim your high beams when an oncoming car is within 500 feet." },
+    { "id": "ev-cond-high-beams-500-2", "item": "cond-high-beams-500", "kind": "gates", "prompt": "Dark highway, no cars near. Use:", "choices": ["Parking lights", "High beams", "Low beams"], "answer": 1, "missLine": "Use high beams on dark highways when no car is near." },
+    { "id": "ev-cond-high-beams-500-3", "item": "cond-high-beams-500", "kind": "gates", "prompt": "Car coming, 400 feet away. Your beams?", "choices": ["Keep them high", "Flash them", "Switch to low"], "answer": 2, "missLine": "Oncoming car within 500 feet? Switch to low beams." },
+
+    { "id": "ev-cond-oncoming-high-beams-1", "item": "cond-oncoming-high-beams", "kind": "gates", "prompt": "Bright lights coming at you. Look:", "choices": ["Right at the lights", "At the road's edge", "At your mirror"], "answer": 1, "missLine": "Glance toward the side of the road, then look quickly ahead." },
+    { "id": "ev-cond-oncoming-high-beams-2", "item": "cond-oncoming-high-beams", "kind": "gates", "prompt": "Other driver won't dim. You:", "choices": ["Keep low beams on", "Flash high beams back", "Stop in your lane"], "answer": 0, "missLine": "Even if they won't dim, keep your high beams off." },
+    { "id": "ev-cond-oncoming-high-beams-3", "item": "cond-oncoming-high-beams", "kind": "gates", "prompt": "Bright lights. You glanced aside. Now:", "choices": ["Keep looking aside", "Turn on high beams", "Look quickly ahead"], "answer": 2, "missLine": "Glance aside, then look quickly ahead to see where the car is." },
+    { "id": "ev-cond-oncoming-high-beams-4", "item": "cond-oncoming-high-beams", "kind": "gates", "prompt": "Glance aside, then ahead. Stop when:", "choices": ["Your eyes adjust", "The driver honks", "You pass the car"], "answer": 2, "missLine": "Keep glancing aside and ahead until you have passed the other car." },
+
+    { "id": "ev-cond-fog-low-beams-1", "item": "cond-fog-low-beams", "kind": "gates", "prompt": "Heavy fog. Which beams?", "choices": ["Low beams", "High beams", "Parking lights"], "answer": 0, "missLine": "Use low beams in fog. High beams bounce back into your eyes." },
+    { "id": "ev-cond-fog-low-beams-2", "item": "cond-fog-low-beams", "kind": "gates", "prompt": "Thick fog. What guides you?", "choices": ["Taillights ahead", "Your phone map", "Road edge lines"], "answer": 2, "missLine": "In heavy fog, follow the road edge markings." },
+    { "id": "ev-cond-fog-low-beams-3", "item": "cond-fog-low-beams", "kind": "action", "prompt": "Thick fog. Truck taillights ahead.", "prop": "truck-ahead", "weather": "fog", "action": "slow", "missLine": "Fog makes distance hard to judge. Slow down." },
+    { "id": "ev-cond-fog-low-beams-4", "item": "cond-fog-low-beams", "kind": "action", "prompt": "Light fog. Bike rider ahead.", "prop": "cyclist-ahead", "weather": "fog", "action": "slow", "missLine": "Even light fog cuts how well you see. Slow down." },
+
+    { "id": "ev-cond-rain-low-beams-1", "item": "cond-rain-low-beams", "kind": "gates", "prompt": "Heavy rain. Which beams?", "choices": ["High beams", "Low beams", "None in daytime"], "answer": 1, "missLine": "In rain, use low beams to see and be seen." },
+    { "id": "ev-cond-rain-low-beams-2", "item": "cond-rain-low-beams", "kind": "gates", "prompt": "Rain. Which cars are hardest to see?", "choices": ["Cars in front", "Parked cars", "Cars behind and beside"], "answer": 2, "missLine": "In rain, cars behind you and in blind spots are hard to see." },
+    { "id": "ev-cond-rain-low-beams-3", "item": "cond-rain-low-beams", "kind": "gates", "prompt": "Heavy rain and wind can be as risky as:", "choices": ["Fog", "A sunny day", "An empty road"], "answer": 0, "missLine": "Heavy rain, especially with wind, can be as risky as fog." },
+
+    { "id": "ev-cond-rain-wipers-1", "item": "cond-rain-wipers", "kind": "gates", "prompt": "Light drizzle starts. You:", "choices": ["Use high beams", "Turn on wipers", "Speed up to get home"], "answer": 1, "missLine": "In light rain or drizzle, turn on your wipers to see better." },
+    { "id": "ev-cond-rain-wipers-2", "item": "cond-rain-wipers", "kind": "gates", "prompt": "Wipers can smear the glass. Keep:", "choices": ["Washer fluid filled", "A spare tire", "Windows rolled down"], "answer": 0, "missLine": "Keep washer fluid so your wipers don't smear the windshield." },
+
+    { "id": "ev-cond-rain-first-half-hour-1", "item": "cond-rain-first-half-hour", "kind": "gates", "prompt": "Rain just started. Extra slippery for the first:", "choices": ["5 minutes", "10 minutes", "Half hour"], "answer": 2, "missLine": "The first half hour of rain is the most slippery. Slow down." },
+    { "id": "ev-cond-rain-first-half-hour-2", "item": "cond-rain-first-half-hour", "kind": "gates", "prompt": "Why is new rain so slippery?", "choices": ["Oil mixes with water", "Paint washes off", "Tires get cold"], "answer": 0, "missLine": "When rain starts, oil on the road mixes with water." },
+    { "id": "ev-cond-rain-first-half-hour-3", "item": "cond-rain-first-half-hour", "kind": "action", "prompt": "Rain just started. Road is slick.", "sign": "sign-slippery", "weather": "rain", "action": "slow", "missLine": "Fresh rain plus oil makes roads slick. Slow down." },
+
+    { "id": "ev-cond-ponded-water-1", "item": "cond-ponded-water", "kind": "action", "prompt": "Deep puddle on the right side!", "prop": "ponded-water", "weather": "rain", "action": "move-left", "missLine": "Avoid ponded water if you can. It can make you hydroplane." },
+    { "id": "ev-cond-ponded-water-2", "item": "cond-ponded-water", "kind": "action", "prompt": "Water pooled across the road.", "prop": "ponded-water", "weather": "rain", "action": "slow", "missLine": "Use caution in ponded water. It can make you lose control." },
+    { "id": "ev-cond-ponded-water-3", "item": "cond-ponded-water", "kind": "gates", "prompt": "Deep standing water can make you:", "choices": ["Grip better", "Hydroplane", "Stop faster"], "answer": 1, "missLine": "Ponded water can make your car hydroplane and lose control." },
+
+    { "id": "ev-cond-snow-prep-1", "item": "cond-snow-prep", "kind": "gates", "prompt": "Snow on your car. Clear off:", "choices": ["The windshield", "The whole car", "Front and back glass"], "answer": 1, "missLine": "Clear snow off your whole car: roof, hood, back, windows, mirrors, lights." },
+    { "id": "ev-cond-snow-prep-2", "item": "cond-snow-prep", "kind": "gates", "prompt": "Why clear snow off your roof?", "choices": ["It can fly off at others", "It looks messy", "It drains the battery"], "answer": 0, "missLine": "Snow left on the car can fly off and endanger other drivers." },
+    { "id": "ev-cond-snow-prep-3", "item": "cond-snow-prep", "kind": "gates", "prompt": "Snow tires or chains help you:", "choices": ["Go faster on ice", "Skip clearing snow", "Stop skids"], "answer": 2, "missLine": "Snow tires or chains help prevent skids and shorten stops." },
+
+    { "id": "ev-cond-slippery-braking-1", "item": "cond-slippery-braking", "kind": "action", "prompt": "Icy road. Stop sign ahead.", "sign": "sign-stop", "weather": "snow", "action": "stop", "missLine": "On ice, ease off the gas and brake gently to stop." },
+    { "id": "ev-cond-slippery-braking-2", "item": "cond-slippery-braking", "kind": "gates", "prompt": "Icy road. You need to stop. You:", "choices": ["Slam the brakes", "Brake gently", "Swerve aside"], "answer": 1, "missLine": "On ice or packed snow, release the gas and brake gently." },
+    { "id": "ev-cond-slippery-braking-3", "item": "cond-slippery-braking", "kind": "gates", "prompt": "On ice, best grip when front tires are:", "choices": ["Locked up", "Turned sharply", "Rolling"], "answer": 2, "missLine": "You have the most control when your front tires keep rolling." },
+    { "id": "ev-cond-slippery-braking-4", "item": "cond-slippery-braking", "kind": "action", "prompt": "Packed snow. Sharp turn ahead.", "sign": "sign-sharp-right", "weather": "snow", "action": "slow", "missLine": "On packed snow, slow down before you turn." },
+
+    { "id": "ev-cond-bridges-freeze-1", "item": "cond-bridges-freeze", "kind": "action", "prompt": "Cold day. Bridge ahead may be icy.", "prop": "icy-bridge", "weather": "snow", "action": "slow", "missLine": "Bridges freeze before other roads. Slow down." },
+    { "id": "ev-cond-bridges-freeze-2", "item": "cond-bridges-freeze", "kind": "gates", "prompt": "What freezes first?", "choices": ["Sunny roads", "Bridges", "Parking lots"], "answer": 1, "missLine": "Bridges freeze before other road surfaces." },
+    { "id": "ev-cond-bridges-freeze-3", "item": "cond-bridges-freeze", "kind": "gates", "prompt": "Where else does ice hide?", "choices": ["Sunny spots", "Busy lanes", "Shady spots"], "answer": 2, "missLine": "Watch for ice on bridges and in shady areas." },
+
+    { "id": "ev-cond-deer-dusk-dawn-1", "item": "cond-deer-dusk-dawn", "kind": "gates", "prompt": "When should you watch most for deer?", "choices": ["Dusk and dawn", "Midday", "Summer only"], "answer": 0, "missLine": "Be alert for deer at dusk and dawn." },
+    { "id": "ev-cond-deer-dusk-dawn-2", "item": "cond-deer-dusk-dawn", "kind": "gates", "prompt": "Watch extra for deer in which season?", "image": "sign-deer-crossing", "choices": ["Summer", "Spring", "Fall"], "answer": 2, "missLine": "Watch for deer at dusk and dawn, especially in the fall." },
+    { "id": "ev-cond-deer-dusk-dawn-3", "item": "cond-deer-dusk-dawn", "kind": "action", "prompt": "Dusk. Deer crossing sign ahead.", "sign": "sign-deer-crossing", "weather": "night", "action": "slow", "missLine": "Deer cross here. Slow down and be ready to stop." },
+
+    { "id": "ev-cond-deer-slow-horn-1", "item": "cond-deer-slow-horn", "kind": "action", "prompt": "Deer near the road!", "prop": "deer-on-road", "weather": "night", "action": "slow", "missLine": "Slow down for a deer. Others are likely nearby." },
+    { "id": "ev-cond-deer-slow-horn-2", "item": "cond-deer-slow-horn", "kind": "gates", "prompt": "One deer just crossed. Now:", "choices": ["Speed up, it's gone", "Expect more deer", "Flash high beams"], "answer": 1, "missLine": "Deer travel in groups. Expect more nearby." },
+    { "id": "ev-cond-deer-slow-horn-3", "item": "cond-deer-slow-horn", "kind": "gates", "prompt": "What can scare a deer away?", "choices": ["Your wipers", "Your flashers", "Your horn"], "answer": 2, "missLine": "Use your horn to scare a deer away." },
+
+    { "id": "ev-cond-deer-no-swerve-1", "item": "cond-deer-no-swerve", "kind": "action", "prompt": "Deer jumps in front of you!", "prop": "deer-on-road", "weather": "night", "action": "brake-straight", "missLine": "Don't swerve. Brake firmly and stay in your lane." },
+    { "id": "ev-cond-deer-no-swerve-2", "item": "cond-deer-no-swerve", "kind": "action", "prompt": "Deer frozen in your lane!", "prop": "deer-on-road", "weather": "fog", "action": "brake-straight", "missLine": "Can't miss the deer? Brake firmly and stay in your lane." },
+    { "id": "ev-cond-deer-no-swerve-3", "item": "cond-deer-no-swerve", "kind": "gates", "prompt": "You hit a deer. Report it to:", "choices": ["No one", "The police", "Your mechanic"], "answer": 1, "missLine": "Hit a large animal? Report it to the police." },
+
+    { "id": "ev-cond-crash-stop-1", "item": "cond-crash-stop", "kind": "gates", "prompt": "You're in a crash. You must:", "choices": ["Drive home, then call", "Stop at the scene", "Leave a note only"], "answer": 1, "missLine": "After a crash, stop at or near the scene." },
+    { "id": "ev-cond-crash-stop-2", "item": "cond-crash-stop", "kind": "gates", "prompt": "Small crash. No one hurt. Cars run. You:", "choices": ["Leave cars in the lane", "Wait for a tow truck", "Move cars off the road"], "answer": 2, "missLine": "If no one is hurt and cars can move, move them off the road." },
+    { "id": "ev-cond-crash-stop-3", "item": "cond-crash-stop", "kind": "gates", "prompt": "Getting out after a crash? Keep:", "choices": ["Your car between you & cars", "Your back to traffic", "Your doors wide open"], "answer": 0, "missLine": "Get out with care. Keep your car between you and traffic." },
+
+    { "id": "ev-cond-crash-injured-1", "item": "cond-crash-injured", "kind": "gates", "prompt": "Someone is hurt in a car. You:", "choices": ["Pull them out fast", "Help, but don't move them", "Walk away"], "answer": 1, "missLine": "Help the injured, but don't move them unless there is danger." },
+    { "id": "ev-cond-crash-injured-2", "item": "cond-crash-injured", "kind": "gates", "prompt": "When can you move a hurt person?", "choices": ["Any time you want", "Once police arrive", "If there's danger, like fire"], "answer": 2, "missLine": "Move a hurt person only for danger like fire, or with medical training." },
+
+    { "id": "ev-cond-crash-report-police-1", "item": "cond-crash-report-police", "kind": "gates", "prompt": "After a crash, report it to:", "choices": ["The police", "No one if minor", "A friend"], "answer": 0, "missLine": "Report crashes to the police as quickly as possible." },
+    { "id": "ev-cond-crash-report-police-2", "item": "cond-crash-report-police", "kind": "gates", "prompt": "When do you tell the police?", "choices": ["As soon as you can", "Within a month", "Only if someone died"], "answer": 0, "missLine": "Report a crash to the police as soon as you can." },
+
+    { "id": "ev-cond-crash-exchange-info-1", "item": "cond-crash-exchange-info", "kind": "gates", "prompt": "After a crash, get the other car's:", "choices": ["Paint color", "License plate number", "Price"], "answer": 1, "missLine": "Get names, addresses, license numbers and plate numbers." },
+    { "id": "ev-cond-crash-exchange-info-2", "item": "cond-crash-exchange-info", "kind": "gates", "prompt": "Get the name and address of each:", "choices": ["Witness", "Tow truck driver", "Store clerk"], "answer": 0, "missLine": "Get the name and address of each witness." },
+    { "id": "ev-cond-crash-exchange-info-3", "item": "cond-crash-exchange-info", "kind": "gates", "prompt": "After a crash, call your insurance:", "choices": ["Only if sued", "At renewal time", "Right away"], "answer": 2, "missLine": "Notify your insurance company right away after a crash." },
+
+    { "id": "ev-cond-crash-3000-1", "item": "cond-crash-3000", "kind": "gates", "prompt": "DMV gets a police report if damage is over:", "choices": ["$500", "$1,000", "$3,000"], "answer": 2, "missLine": "Damage over $3,000? Police send a report to DMV." },
+    { "id": "ev-cond-crash-3000-2", "item": "cond-crash-3000", "kind": "gates", "prompt": "The crash goes on whose DMV record?", "choices": ["Each driver in it", "The at-fault driver", "No one's"], "answer": 0, "missLine": "Crash information goes on the DMV record of each driver involved." },
+    { "id": "ev-cond-crash-3000-3", "item": "cond-crash-3000", "kind": "gates", "prompt": "DMV gets a police report if a crash causes:", "choices": ["A scratch", "Injury or death", "A flat tire"], "answer": 1, "missLine": "Injury, death or over $3,000 in damage means a report to DMV." },
+
+    { "id": "ev-cond-unattended-vehicle-1", "item": "cond-unattended-vehicle", "kind": "gates", "prompt": "Hit a parked car. No owner around. You:", "choices": ["Drive away", "Come back next week", "Leave a note"], "answer": 2, "missLine": "Can't find the owner? Leave a note that is easy to find." },
+    { "id": "ev-cond-unattended-vehicle-2", "item": "cond-unattended-vehicle", "kind": "gates", "prompt": "Hit a parked car. Tell police within:", "choices": ["24 hours", "3 days", "1 week"], "answer": 0, "missLine": "Tell the police within 24 hours. That's one day." },
+    { "id": "ev-cond-unattended-vehicle-3", "item": "cond-unattended-vehicle", "kind": "gates", "prompt": "What goes in your note?", "choices": ["Just 'Sorry!'", "Name, phone, damage", "Your car's color"], "answer": 1, "missLine": "Your note: name, phone, date, time and the damage." },
+
+    { "id": "ev-cond-stop-pull-over-1", "item": "cond-stop-pull-over", "kind": "action", "prompt": "Police lights flashing behind you!", "prop": "emergency-behind", "action": "pull-over", "missLine": "Stay calm. Pull to the side in a safe spot and park." },
+    { "id": "ev-cond-stop-pull-over-2", "item": "cond-stop-pull-over", "kind": "action", "prompt": "Night. Police car signals you over.", "prop": "emergency-behind", "weather": "night", "action": "pull-over", "missLine": "Pull to the side of the road in a safe place and park." },
+    { "id": "ev-cond-stop-pull-over-3", "item": "cond-stop-pull-over", "kind": "gates", "prompt": "Police pulled you over. You:", "choices": ["Walk to the police car", "Stay in your car", "Stand by your door"], "answer": 1, "missLine": "Stay in your car unless the officer asks you to get out." },
+
+    { "id": "ev-cond-stop-flashers-light-1", "item": "cond-stop-flashers-light", "kind": "gates", "prompt": "Pulled over by police. Turn on:", "choices": ["High beams", "Wipers", "Flashers"], "answer": 2, "missLine": "After you pull over for police, turn on your flashers." },
+    { "id": "ev-cond-stop-flashers-light-2", "item": "cond-stop-flashers-light", "kind": "gates", "prompt": "Pulled over at night. Also turn on:", "choices": ["Inside lights", "High beams", "The radio"], "answer": 0, "missLine": "At night, turn on the lights inside your car." },
+
+    { "id": "ev-cond-stop-engine-window-1", "item": "cond-stop-engine-window", "kind": "gates", "prompt": "Officer walking up. Your engine?", "choices": ["Keep it running", "Turn it off", "Rev it"], "answer": 1, "missLine": "Turn off your engine and radio during a traffic stop." },
+    { "id": "ev-cond-stop-engine-window-2", "item": "cond-stop-engine-window", "kind": "gates", "prompt": "Officer at your car. Your window?", "choices": ["Roll it down", "Keep it up", "Open your door"], "answer": 0, "missLine": "Roll down your window so you can talk with the officer." },
+    { "id": "ev-cond-stop-engine-window-3", "item": "cond-stop-engine-window", "kind": "gates", "prompt": "Which side may the officer walk to?", "choices": ["Driver side only", "Passenger side only", "Either side"], "answer": 2, "missLine": "An officer may come to the driver or passenger side." },
+
+    { "id": "ev-cond-stop-belts-hands-1", "item": "cond-stop-belts-hands", "kind": "gates", "prompt": "Officer walking up. Your hands?", "choices": ["In the glove box", "On the wheel", "Under the seat"], "answer": 1, "missLine": "Keep your hands where the officer can see them, on the wheel." },
+    { "id": "ev-cond-stop-belts-hands-2", "item": "cond-stop-belts-hands", "kind": "gates", "prompt": "Traffic stop. Your seat belt?", "choices": ["Stays on", "Comes off", "Up to you"], "answer": 0, "missLine": "Keep your seat belt on during a traffic stop." },
+    { "id": "ev-cond-stop-belts-hands-3", "item": "cond-stop-belts-hands", "kind": "gates", "prompt": "Officer asks for your license. You:", "choices": ["Grab it fast", "Get out to find it", "Say where, reach slowly"], "answer": 2, "missLine": "Say where it is. Reach slowly, one hand on the wheel." },
+
+    { "id": "ev-cond-stop-carry-documents-1", "item": "cond-stop-carry-documents", "kind": "gates", "prompt": "License, insurance, and proof of:", "choices": ["Home address", "Registration", "School grades"], "answer": 1, "missLine": "Carry 3 papers: license, registration and proof of insurance." },
+    { "id": "ev-cond-stop-carry-documents-2", "item": "cond-stop-carry-documents", "kind": "gates", "prompt": "License, registration, and proof of:", "choices": ["A spare key", "School ID", "Insurance"], "answer": 2, "missLine": "Carry 3 papers: license, registration and proof of insurance." },
+
+    { "id": "ev-cond-stop-unmarked-id-1", "item": "cond-stop-unmarked-id", "kind": "gates", "prompt": "Officer in plain clothes. You may:", "choices": ["Drive away", "Ask to see ID", "Keep your window up"], "answer": 1, "missLine": "Officer not in uniform? You may ask to see ID." },
+    { "id": "ev-cond-stop-unmarked-id-2", "item": "cond-stop-unmarked-id", "kind": "gates", "prompt": "Unmarked car pulls you over. You may:", "choices": ["Ask to see ID", "Speed off", "Ignore the officer"], "answer": 0, "missLine": "Unmarked car? You may ask to see the officer's ID." },
+
+    { "id": "ev-cond-stop-sign-citation-1", "item": "cond-stop-sign-citation", "kind": "gates", "prompt": "Officer hands you a ticket to sign. You:", "choices": ["Refuse to sign", "Sign it", "Argue first"], "answer": 1, "missLine": "Sign the ticket. If you refuse, you may be arrested." },
+    { "id": "ev-cond-stop-sign-citation-2", "item": "cond-stop-sign-citation", "kind": "gates", "prompt": "Does signing a ticket admit guilt?", "choices": ["Yes", "Only if you argue", "No"], "answer": 2, "missLine": "Signing a ticket does not mean you admit guilt. Just sign." },
+    { "id": "ev-cond-stop-sign-citation-3", "item": "cond-stop-sign-citation", "kind": "gates", "prompt": "You disagree with the officer. You:", "choices": ["Make your case in court", "Argue right now", "Refuse to answer"], "answer": 0, "missLine": "Stay calm at the stop. Make your case in court." }
+  ],
+  "questions": [
+    { "id": "q-cond-identify-risk-1", "item": "cond-identify-risk", "part": 2, "prompt": "The single biggest contributor to crashes is:", "choices": ["Driving in the rain", "Driving at night", "Failing to identify a risk", "Driving a large vehicle"], "answer": 2, "explain": "The single biggest contributor to crashes is failing to identify a risk." },
+    { "id": "q-cond-identify-risk-2", "item": "cond-identify-risk", "part": 2, "prompt": "To know where other vehicles are around you, you should look:", "choices": ["Only at the car in front of you", "Down the road, to the sides and behind your vehicle", "Mostly in your rearview mirror", "At the road just in front of your hood"], "answer": 1, "explain": "You must look down the road, to the sides, and behind your vehicle." },
+
+    { "id": "q-cond-headlights-500-feet-1", "item": "cond-headlights-500-feet", "part": 2, "prompt": "Virginia law requires you to use headlights in bad weather when visibility is reduced to:", "choices": ["100 feet", "200 feet", "500 feet", "1,000 feet"], "answer": 2, "explain": "Headlights are required in rain, fog, snow or sleet when visibility is reduced to 500 feet." },
+    { "id": "q-cond-headlights-500-feet-2", "item": "cond-headlights-500-feet", "part": 2, "prompt": "You must turn on your headlights when visibility is reduced to 500 feet by:", "choices": ["Rain, fog, snow or sleet", "Heavy traffic", "Bright sunlight", "Road construction"], "answer": 0, "explain": "Virginia law requires headlights in inclement weather such as rain, fog, snow or sleet when visibility is reduced to 500 feet." },
+
+    { "id": "q-cond-headlights-wipers-1", "item": "cond-headlights-wipers", "part": 2, "prompt": "When you use your windshield wipers because of bad weather, you must also:", "choices": ["Turn on your hazard flashers", "Use your high beams", "Turn on your headlights", "Drive in the left lane"], "answer": 2, "explain": "You must use your headlights whenever you use your wipers as a result of bad weather." },
+    { "id": "q-cond-headlights-wipers-2", "item": "cond-headlights-wipers", "part": 2, "prompt": "Using your headlights at all times, even during the day:", "choices": ["Is against the law", "Increases your vehicle's visibility", "Is only for motorcycles", "Blinds other drivers"], "answer": 1, "explain": "Using headlights at all times, including during the day, increases your vehicle's visibility." },
+
+    { "id": "q-cond-headlights-hard-to-see-1", "item": "cond-headlights-hard-to-see", "part": 2, "prompt": "You must use your headlights:", "choices": ["At night and at other times when it is hard to see", "Only on unlit highways", "Only when it is snowing", "Only when other cars have theirs on"], "answer": 0, "explain": "You must use your headlights at night and at other times when it's hard to see." },
+    { "id": "q-cond-headlights-hard-to-see-2", "item": "cond-headlights-hard-to-see", "part": 2, "prompt": "It is daytime, but it has become hard to see the road. You should:", "choices": ["Wait until sunset to turn on headlights", "Use only your parking lights", "Turn on your high beams in traffic", "Turn on your headlights"], "answer": 3, "explain": "Use your headlights at night and at other times when it's hard to see." },
+
+    { "id": "q-cond-slow-first-1", "item": "cond-slow-first", "part": 2, "prompt": "Your first response to reduced visibility or dangerous road conditions should be to:", "choices": ["Turn on your high beams", "Reduce your speed", "Pull off the road", "Use your hazard flashers"], "answer": 1, "explain": "Reducing your speed should be your first response to decreased visibility and dangerous road conditions." },
+    { "id": "q-cond-slow-first-2", "item": "cond-slow-first", "part": 2, "prompt": "Driving becomes hazardous when:", "choices": ["Visibility is reduced", "The road is covered with rain, snow or ice", "Both of these", "Neither of these"], "answer": 2, "explain": "Driving becomes hazardous when visibility is reduced or the road is covered with rain, snow or ice." },
+
+    { "id": "q-cond-double-following-1", "item": "cond-double-following", "part": 2, "prompt": "When visibility is reduced or roads are slippery, you should increase your space cushion by:", "choices": ["Keeping your normal following distance", "Following closer so you can see taillights", "Adding one car length", "Doubling your normal following distance"], "answer": 3, "explain": "In hazardous conditions, double your normal following distance." },
+    { "id": "q-cond-double-following-2", "item": "cond-double-following", "part": 2, "prompt": "On a snowy or icy road, your following distance should be:", "choices": ["Half of normal", "Twice your normal distance", "The same as on a dry road", "As close as needed to see the car ahead"], "answer": 1, "explain": "When the road is covered with snow or ice, double your normal following distance." },
+
+    { "id": "q-cond-sunset-sunrise-1", "item": "cond-sunset-sunrise", "part": 2, "prompt": "You must use your headlights:", "choices": ["Only after midnight", "Only on roads without streetlights", "Only on highways", "From sunset to sunrise"], "answer": 3, "explain": "You must use headlights from sunset to sunrise." },
+    { "id": "q-cond-sunset-sunrise-2", "item": "cond-sunset-sunrise", "part": 2, "prompt": "At sunset, when light begins to fade, you should:", "choices": ["Turn on your headlights", "Wait until it is fully dark", "Use only your parking lights", "Turn on your high beams in town"], "answer": 0, "explain": "As soon as light begins to fade, turn on your headlights so others can see you." },
+
+    { "id": "q-cond-low-beams-city-1", "item": "cond-low-beams-city", "part": 2, "prompt": "When driving at night on lighted streets in cities and towns, you should use:", "choices": ["High-beam headlights", "Low-beam headlights", "Parking lights only", "No headlights"], "answer": 1, "explain": "Use low beams in cities and towns, except on streets with no lighting." },
+    { "id": "q-cond-low-beams-city-2", "item": "cond-low-beams-city", "part": 2, "prompt": "You should switch to low-beam headlights whenever you:", "choices": ["Drive on an empty, unlit highway", "Pass a parked car", "Enter a well-lit parking lot", "Meet oncoming traffic"], "answer": 3, "explain": "Switch to low beams whenever you meet oncoming traffic so you do not blind the other driver." },
+    { "id": "q-cond-low-beams-city-3", "item": "cond-low-beams-city", "part": 2, "prompt": "You dim your headlights for oncoming traffic in order to:", "choices": ["Avoid blinding the other driver", "Save fuel", "Keep your battery charged", "Signal that you will turn"], "answer": 0, "explain": "Switch to low beams for oncoming traffic to avoid blinding the other driver." },
+
+    { "id": "q-cond-low-beams-200-1", "item": "cond-low-beams-200", "part": 2, "prompt": "When following another vehicle at night, use low beams when you are within:", "choices": ["500 feet", "300 feet", "100 feet", "200 feet"], "answer": 3, "explain": "When following, use low beams whenever you are within 200 feet of the vehicle ahead." },
+    { "id": "q-cond-low-beams-200-2", "item": "cond-low-beams-200", "part": 2, "prompt": "You are driving at night and come within 200 feet of the vehicle ahead. You should:", "choices": ["Switch to low-beam headlights", "Flash your high beams", "Turn off your headlights", "Keep your high beams on"], "answer": 0, "explain": "Use low beams when you are within 200 feet of the vehicle you are following." },
+
+    { "id": "q-cond-high-beams-500-1", "item": "cond-high-beams-500", "part": 2, "prompt": "On a highway at night, you must dim your high beams when an oncoming vehicle is within:", "choices": ["200 feet", "300 feet", "500 feet", "1,000 feet"], "answer": 2, "explain": "Use high beams on highways unless an oncoming vehicle is within 500 feet." },
+    { "id": "q-cond-high-beams-500-2", "item": "cond-high-beams-500", "part": 2, "prompt": "High-beam headlights should be used:", "choices": ["In cities and towns on lighted streets", "On highways, unless an oncoming vehicle is within 500 feet", "In heavy fog", "When following within 200 feet"], "answer": 1, "explain": "Use high beams on highways, unless another vehicle is within 500 feet coming toward you." },
+    { "id": "q-cond-high-beams-500-3", "item": "cond-high-beams-500", "part": 2, "prompt": "You are using high beams on a dark highway. A car coming toward you is less than 500 feet away. You should:", "choices": ["Keep your high beams on", "Flash your high beams twice", "Turn off all your lights", "Switch to low beams"], "answer": 3, "explain": "Dim to low beams when an oncoming vehicle is within 500 feet." },
+
+    { "id": "q-cond-oncoming-high-beams-1", "item": "cond-oncoming-high-beams", "part": 2, "prompt": "If an oncoming driver has high beams on, you should:", "choices": ["Look directly at the oncoming lights", "Turn on your own high beams", "Glance toward the side of the road, then look quickly ahead", "Stop in your lane until the car passes"], "answer": 2, "explain": "Avoid looking at the bright lights; glance toward the side of the road, then look quickly ahead." },
+    { "id": "q-cond-oncoming-high-beams-2", "item": "cond-oncoming-high-beams", "part": 2, "prompt": "An oncoming driver does not dim his high beams. You should:", "choices": ["Turn on your high beams to warn him", "Keep your low beams on", "Flash your high beams until he dims", "Speed up to pass quickly"], "answer": 1, "explain": "Even if the other driver does not dim his headlights, do not turn on your high beams." },
+    { "id": "q-cond-oncoming-high-beams-3", "item": "cond-oncoming-high-beams", "part": 2, "prompt": "When glare from an oncoming car's high beams bothers you, keep glancing toward the side of the road and then ahead until:", "choices": ["You have passed the other vehicle", "Your eyes stop watering", "You can flash your lights", "You reach a streetlight"], "answer": 0, "explain": "Glance aside, then quickly ahead, and keep doing this until you have passed the other vehicle." },
+
+    { "id": "q-cond-fog-low-beams-1", "item": "cond-fog-low-beams", "part": 2, "prompt": "When driving in heavy fog, you should use:", "choices": ["Low-beam headlights", "High-beam headlights", "Parking lights only", "Hazard flashers only"], "answer": 0, "explain": "Use low-beam headlights in heavy fog." },
+    { "id": "q-cond-fog-low-beams-2", "item": "cond-fog-low-beams", "part": 2, "prompt": "In heavy fog, what should you look for to guide you?", "choices": ["The taillights of the car ahead", "Streetlights", "The center of the road", "Road edge markings"], "answer": 3, "explain": "In heavy fog, look for road edge markings to guide you." },
+    { "id": "q-cond-fog-low-beams-3", "item": "cond-fog-low-beams", "part": 2, "prompt": "You should slow down even in light fog because:", "choices": ["Fog reduces visibility and your ability to judge distances", "Fog makes your brakes weaker", "Fog makes your engine run hot", "Fog lowers your tire pressure"], "answer": 0, "explain": "Even light fog reduces visibility and your ability to judge distances, so slow down." },
+    { "id": "q-cond-fog-low-beams-4", "item": "cond-fog-low-beams", "part": 2, "prompt": "High-beam headlights are a poor choice in fog because:", "choices": ["They use more fuel", "They are illegal at night", "Fog reflects your own light back into your eyes", "They make your car harder to see"], "answer": 2, "explain": "Fog reflects light and can reflect your own headlights back into your eyes." },
+
+    { "id": "q-cond-rain-low-beams-1", "item": "cond-rain-low-beams", "part": 2, "prompt": "When driving in rain, you should use:", "choices": ["Low-beam headlights", "High-beam headlights", "Parking lights only", "No lights during the day"], "answer": 0, "explain": "Use your low-beam headlights in rain to see and be seen." },
+    { "id": "q-cond-rain-low-beams-2", "item": "cond-rain-low-beams", "part": 2, "prompt": "When it is raining, which vehicles are especially hard to see?", "choices": ["Vehicles directly in front of you", "Vehicles to the rear and in blind spot areas", "Vehicles stopped at a red light", "Oncoming buses"], "answer": 1, "explain": "Vehicles to the rear and in blind spot areas are especially difficult to see in rain." },
+    { "id": "q-cond-rain-low-beams-3", "item": "cond-rain-low-beams", "part": 2, "prompt": "Driving in heavy rain can be as hazardous as driving in fog, especially when:", "choices": ["It is daytime", "You are using low beams", "You are on a city street", "The wind is blowing"], "answer": 3, "explain": "Heavy rain can be as hazardous as fog, especially if the wind is blowing." },
+
+    { "id": "q-cond-rain-wipers-1", "item": "cond-rain-wipers", "part": 2, "prompt": "Using wipers for only a few sprinkles may smear the windshield, so you should:", "choices": ["Never use wipers in light rain", "Make sure you have windshield washer fluid", "Drive with your window down", "Use your high beams"], "answer": 1, "explain": "Wipers used for sprinkles may smear the windshield, so make sure you have washer fluid." },
+    { "id": "q-cond-rain-wipers-2", "item": "cond-rain-wipers", "part": 2, "prompt": "In light rain or drizzle, you should:", "choices": ["Wait for heavy rain before using wipers", "Turn on your high beams", "Turn on your windshield wipers to improve visibility", "Pull off the road"], "answer": 2, "explain": "In light rain or drizzle, turn on your windshield wipers to improve visibility." },
+
+    { "id": "q-cond-rain-first-half-hour-1", "item": "cond-rain-first-half-hour", "part": 2, "prompt": "When rain begins, roads are more likely to be slippery during the first:", "choices": ["5 minutes", "Half-hour", "2 hours", "Day"], "answer": 1, "explain": "During the first half-hour of rain, roads are more likely to be slippery." },
+    { "id": "q-cond-rain-first-half-hour-2", "item": "cond-rain-first-half-hour", "part": 2, "prompt": "Roads are more slippery right after rain begins because:", "choices": ["The road paint gets wet", "Rain cools the road surface", "Oil on the road surface mixes with water", "Storm drains are blocked"], "answer": 2, "explain": "Oil on the road surface mixes with water when rain begins." },
+    { "id": "q-cond-rain-first-half-hour-3", "item": "cond-rain-first-half-hour", "part": 1, "prompt": "You see this sign and rain has just begun. You should:", "image": "sign-slippery", "choices": ["Speed up to get out of the rain", "Slow down; the road may be extra slippery", "Brake hard to test the road", "Change lanes quickly"], "answer": 1, "explain": "This sign warns that the road is slippery, and roads are more likely to be slippery in the first half-hour of rain." },
+
+    { "id": "q-cond-ponded-water-1", "item": "cond-ponded-water", "part": 2, "prompt": "Ponded water on the road can cause your vehicle to:", "choices": ["Hydroplane or lose control", "Get better traction", "Stop more quickly", "Use less fuel"], "answer": 0, "explain": "Ponded water can cause vehicles to hydroplane or otherwise lose control." },
+    { "id": "q-cond-ponded-water-2", "item": "cond-ponded-water", "part": 2, "prompt": "When you see ponded water on the road, you should:", "choices": ["Speed up to get through it quickly", "Brake hard in the middle of it", "Turn off your headlights", "Avoid it if possible, or use caution"], "answer": 3, "explain": "Use caution when driving through ponded water, and avoid it if possible." },
+
+    { "id": "q-cond-snow-prep-1", "item": "cond-snow-prep", "part": 2, "prompt": "Before driving after a snowfall, you should remove snow and ice from:", "choices": ["Only the windshield", "The windshield and side windows", "Your entire car, including roof, hood, rear, windows, mirrors and lights", "Only the front and rear lights"], "answer": 2, "explain": "Remove snow and ice from your entire car before you start driving." },
+    { "id": "q-cond-snow-prep-2", "item": "cond-snow-prep", "part": 2, "prompt": "All-weather snow tires or chains help:", "choices": ["Prevent skidding and reduce stopping distance", "Increase your top speed", "Make it safe to follow closely", "Replace the need to slow down"], "answer": 0, "explain": "Snow tires or chains help prevent skidding and reduce stopping distance." },
+    { "id": "q-cond-snow-prep-3", "item": "cond-snow-prep", "part": 2, "prompt": "Why should you clear snow off your roof before driving?", "choices": ["It helps your heater work", "It can fly off and create a hazard for other drivers", "It is needed to open your doors", "It improves your radio signal"], "answer": 1, "explain": "Snow and ice left on the car can fly off and create a hazard for other motorists." },
+
+    { "id": "q-cond-slippery-braking-1", "item": "cond-slippery-braking", "part": 2, "prompt": "If you are driving on an icy or slippery road and have to stop, you should:", "choices": ["Press the brakes firmly", "Apply the brakes in a normal way", "Release the gas and apply the brakes gently", "Shift to neutral and coast"], "answer": 2, "explain": "On slippery surfaces, release the accelerator and apply the brakes gently." },
+    { "id": "q-cond-slippery-braking-2", "item": "cond-slippery-braking", "part": 2, "prompt": "On slippery surfaces, you have the most traction and control when your front tires are:", "choices": ["Rolling", "Locked", "Turned sharply", "Spinning fast"], "answer": 0, "explain": "You have the most traction and control when the front tires are rolling." },
+    { "id": "q-cond-slippery-braking-3", "item": "cond-slippery-braking", "part": 2, "prompt": "Driving on packed snow is similar to driving on:", "choices": ["Dry pavement", "Gravel", "Fresh asphalt", "Ice"], "answer": 3, "explain": "Driving on packed snow is similar to driving on ice." },
+    { "id": "q-cond-slippery-braking-4", "item": "cond-slippery-braking", "part": 2, "prompt": "On a slippery road, what helps you control your vehicle best?", "choices": ["A slow, steady speed", "Hard braking", "Quick lane changes", "Speeding up through turns"], "answer": 0, "explain": "A slow, steady speed, rather than hard braking, lets you control your vehicle." },
+
+    { "id": "q-cond-bridges-freeze-1", "item": "cond-bridges-freeze", "part": 2, "prompt": "Which road surface freezes before other road surfaces?", "choices": ["Tunnels", "Roads in direct sun", "Gravel roads", "Bridges"], "answer": 3, "explain": "Bridges freeze before other road surfaces." },
+    { "id": "q-cond-bridges-freeze-2", "item": "cond-bridges-freeze", "part": 2, "prompt": "In freezing weather, you should watch for ice especially:", "choices": ["On bridges and in shady areas", "On sunny, straight roads", "On busy downtown streets", "Only at night"], "answer": 0, "explain": "Watch for ice on bridges and in shady areas." },
+
+    { "id": "q-cond-deer-dusk-dawn-1", "item": "cond-deer-dusk-dawn", "part": 1, "prompt": "You see this sign at dusk in the fall. You should:", "image": "sign-deer-crossing", "choices": ["Speed up to get past the area", "Slow down, be alert and be ready to stop", "Use the shoulder to drive around animals", "Turn off your headlights"], "answer": 1, "explain": "Deer cross in this area; slow down, be alert and be ready to stop, especially at dusk and dawn in the fall." },
+    { "id": "q-cond-deer-dusk-dawn-2", "item": "cond-deer-dusk-dawn", "part": 2, "prompt": "You should be especially alert for deer and other large animals:", "choices": ["At noon in the summer", "Only on interstates", "At dusk and dawn, especially in the fall", "Only when it snows"], "answer": 2, "explain": "Be alert at dusk and dawn, especially in the fall." },
+
+    { "id": "q-cond-deer-slow-horn-1", "item": "cond-deer-slow-horn", "part": 2, "prompt": "You see a deer cross the road ahead. You should:", "choices": ["Speed up before more deer come", "Slow down because others are likely nearby", "Stop and get out of your car", "Turn off your headlights"], "answer": 1, "explain": "Slow down; large animals often travel in groups, so others are likely nearby." },
+    { "id": "q-cond-deer-slow-horn-2", "item": "cond-deer-slow-horn", "part": 2, "prompt": "To scare a deer or other large animal away from the road, you can:", "choices": ["Flash your hazard lights", "Turn on your wipers", "Turn off your headlights", "Use your horn"], "answer": 3, "explain": "Use the horn to scare the animal away." },
+    { "id": "q-cond-deer-slow-horn-3", "item": "cond-deer-slow-horn", "part": 1, "prompt": "You pass this sign and one deer runs across the road. You should expect:", "image": "sign-deer-crossing", "choices": ["Other deer nearby", "No more deer", "The deer to stay off the road", "A traffic signal ahead"], "answer": 0, "explain": "Large animals frequently travel in groups, so there are likely others nearby." },
+
+    { "id": "q-cond-deer-no-swerve-1", "item": "cond-deer-no-swerve", "part": 2, "prompt": "If a collision with a deer is unavoidable, you should:", "choices": ["Swerve into the next lane to miss it", "Speed up to get past it", "Swerve onto the shoulder", "Brake firmly, stay in your lane and come to a controlled stop"], "answer": 3, "explain": "Do not swerve; brake firmly, stay in your lane and come to a controlled stop." },
+    { "id": "q-cond-deer-no-swerve-2", "item": "cond-deer-no-swerve", "part": 2, "prompt": "If you hit a large animal, you should:", "choices": ["Report it to law enforcement", "Drive away", "Move the animal yourself", "Report it only if your car is damaged"], "answer": 0, "explain": "If you hit a large animal, report it to law enforcement." },
+
+    { "id": "q-cond-crash-stop-1", "item": "cond-crash-stop", "part": 2, "prompt": "If you are involved in a crash, you must:", "choices": ["Take the injured person to the nearest hospital", "Continue home and file a crash report", "Stop, help any injured, report the crash to the police, exchange information and notify your insurance company", "Check your car for damage and leave"], "answer": 2, "explain": "After a crash you must stop, help the injured, report to police, exchange information and notify your insurance company." },
+    { "id": "q-cond-crash-stop-2", "item": "cond-crash-stop", "part": 2, "prompt": "After a crash where no one is hurt and the vehicles can be moved, drivers must:", "choices": ["Move the vehicles from the road immediately if they can do so safely", "Leave the vehicles where they are until police arrive", "Wait for a tow truck", "Leave the scene"], "answer": 0, "explain": "Drivers must move vehicles from the road immediately if they can be moved, no one is injured and it is safe." },
+    { "id": "q-cond-crash-stop-3", "item": "cond-crash-stop", "part": 2, "prompt": "When you get out of your car after a crash, you should:", "choices": ["Stand in the lane to warn others", "Walk along the travel lane", "Stand behind your car in the lane", "Keep your vehicle between you and moving traffic if possible"], "answer": 3, "explain": "Be careful exiting, and keep your vehicle between you and moving traffic if possible." },
+
+    { "id": "q-cond-crash-injured-1", "item": "cond-crash-injured", "part": 2, "prompt": "You should not move an injured person from a wrecked vehicle unless:", "choices": ["You want to drive them home", "There is an immediate danger, such as fire, or you have medical training", "The police are late", "The person asks for water"], "answer": 1, "explain": "Do not move an injured person unless you have medical training or there is an immediate danger such as fire." },
+    { "id": "q-cond-crash-injured-2", "item": "cond-crash-injured", "part": 2, "prompt": "At a crash scene where someone is injured, you should:", "choices": ["Pull the person out of the car right away", "Leave before police arrive", "Move the person into your car", "Give any help you can, without moving them unless there is immediate danger"], "answer": 3, "explain": "Give any help you can, but do not move an injured person unless there is immediate danger or you are trained." },
+
+    { "id": "q-cond-crash-report-police-1", "item": "cond-crash-report-police", "part": 2, "prompt": "Crashes involving property damage, personal injury or death:", "choices": ["Do not need to be reported", "Only need to be reported to your insurance", "Must be reported to the police", "Must be reported only if someone is killed"], "answer": 2, "explain": "Crashes involving property damage, personal injury or death must be reported to the police." },
+    { "id": "q-cond-crash-report-police-2", "item": "cond-crash-report-police", "part": 2, "prompt": "If you are involved in a traffic crash, you must report it to the police:", "choices": ["As quickly as possible", "Within 30 days", "Only if the other driver asks", "Only if your car cannot be driven"], "answer": 0, "explain": "Report the crash to the police as quickly as possible." },
+
+    { "id": "q-cond-crash-exchange-info-1", "item": "cond-crash-exchange-info", "part": 2, "prompt": "After a crash, you should get the following from the other drivers:", "choices": ["Only their phone number", "Name, address and driver's license number", "Their date of birth only", "Their employer's name"], "answer": 1, "explain": "Get the name, address and driver's license number of other drivers." },
+    { "id": "q-cond-crash-exchange-info-2", "item": "cond-crash-exchange-info", "part": 2, "prompt": "From the owners of the other vehicles in a crash, you should get their:", "choices": ["Name, address and insurance policy number", "Credit card number", "Social media name", "Car loan details"], "answer": 0, "explain": "Get the name, address and insurance policy number of other vehicle owners." },
+    { "id": "q-cond-crash-exchange-info-3", "item": "cond-crash-exchange-info", "part": 2, "prompt": "After a crash, you should notify your insurance company:", "choices": ["Within one year", "Only if you were at fault", "Only if police tell you to", "Immediately"], "answer": 3, "explain": "Notify your insurance company immediately after a crash." },
+
+    { "id": "q-cond-crash-3000-1", "item": "cond-crash-3000", "part": 2, "prompt": "Officers must send a written crash report to DMV when total property damage is more than:", "choices": ["$500", "$1,000", "$3,000", "$5,000"], "answer": 2, "explain": "A written crash report goes to DMV when property damage is over $3,000, or someone is injured or killed." },
+    { "id": "q-cond-crash-3000-2", "item": "cond-crash-3000", "part": 2, "prompt": "Crash information is recorded on:", "choices": ["Only the record of the driver at fault", "The DMV records of each driver involved", "No DMV record unless someone is hurt", "Only the vehicle owner's record"], "answer": 1, "explain": "All crash information is recorded on the DMV records of each driver involved." },
+    { "id": "q-cond-crash-3000-3", "item": "cond-crash-3000", "part": 2, "prompt": "A law enforcement officer must forward a written crash report to DMV when a crash results in:", "choices": ["Any damage at all", "Only damage to a mailbox", "A flat tire", "Injury or death of any person"], "answer": 3, "explain": "Officers forward a crash report to DMV for injury, death, or property damage over $3,000." },
+
+    { "id": "q-cond-unattended-vehicle-1", "item": "cond-unattended-vehicle", "part": 2, "prompt": "If you damage an unattended vehicle and cannot find the owner, you must leave a note and report the crash to the police within:", "choices": ["12 hours", "24 hours", "48 hours", "5 days"], "answer": 1, "explain": "You must report the crash to the police within 24 hours." },
+    { "id": "q-cond-unattended-vehicle-2", "item": "cond-unattended-vehicle", "part": 2, "prompt": "A note left on an unattended vehicle you damaged must include:", "choices": ["Your name, telephone number, the date and time of the crash, and a description of the damage", "Only your license plate number", "Only an apology", "Only your insurance company's name"], "answer": 0, "explain": "Include your name, phone number, the date and time of the crash, and a description of the damage." },
+    { "id": "q-cond-unattended-vehicle-3", "item": "cond-unattended-vehicle", "part": 2, "prompt": "If you hit a parked car and no one is around, you must first:", "choices": ["Drive away if the damage is small", "Wait 24 hours, then leave", "Make a reasonable effort to find the owner", "Move the parked car"], "answer": 2, "explain": "You must make a reasonable effort to find the owner of an unattended vehicle you damage." },
+
+    { "id": "q-cond-stop-pull-over-1", "item": "cond-stop-pull-over", "part": 2, "prompt": "If you are stopped by a police officer, you should:", "choices": ["Get out and walk to the police car", "Drive slowly to your home", "Stay in your vehicle unless the officer asks you to get out", "Stand next to your car"], "answer": 2, "explain": "Stay in your vehicle; do not get out unless the officer asks you to." },
+    { "id": "q-cond-stop-pull-over-2", "item": "cond-stop-pull-over", "part": 2, "prompt": "When a police officer signals you to stop, you should:", "choices": ["Remain calm and pull to the side of the road in a safe location", "Speed up to find a parking lot", "Stop in the travel lane", "Turn around"], "answer": 0, "explain": "Remain calm, pull to the side of the road in a safe location and park." },
+
+    { "id": "q-cond-stop-flashers-light-1", "item": "cond-stop-flashers-light", "part": 2, "prompt": "If you are pulled over by police at night, you should:", "choices": ["Turn on your high beams", "Turn on your vehicle's interior lights", "Turn off all your lights", "Get out with a flashlight"], "answer": 1, "explain": "If you are pulled over at night, turn on your vehicle's interior lights." },
+    { "id": "q-cond-stop-flashers-light-2", "item": "cond-stop-flashers-light", "part": 2, "prompt": "After pulling over for a police officer, you should turn on your:", "choices": ["Windshield wipers", "High beams", "Radio", "Flashers"], "answer": 3, "explain": "Turn on your flashers when you are stopped by a police officer." },
+
+    { "id": "q-cond-stop-engine-window-1", "item": "cond-stop-engine-window", "part": 2, "prompt": "During a traffic stop, you should:", "choices": ["Keep your engine and radio on", "Open your door to talk", "Keep your window closed", "Turn off your engine, radio and other devices"], "answer": 3, "explain": "Turn off your engine, radio and any device that could block communication with the officer." },
+    { "id": "q-cond-stop-engine-window-2", "item": "cond-stop-engine-window", "part": 2, "prompt": "Why should you roll down your window during a traffic stop?", "choices": ["To let fresh air in", "So the officer can reach your keys", "To communicate with the officer", "It is not needed"], "answer": 2, "explain": "Roll down your window so that you can communicate with the officer." },
+    { "id": "q-cond-stop-engine-window-3", "item": "cond-stop-engine-window", "part": 2, "prompt": "During a traffic stop, the officer may approach your vehicle:", "choices": ["Only on the driver side", "On the driver or passenger side", "Only from the front", "Only after you get out"], "answer": 1, "explain": "An officer may approach on the driver or passenger side for safety reasons." },
+
+    { "id": "q-cond-stop-belts-hands-1", "item": "cond-stop-belts-hands", "part": 2, "prompt": "During a traffic stop, keep your hands:", "choices": ["In your pockets", "Under the seat", "On the gear shift", "In plain view, preferably on the steering wheel"], "answer": 3, "explain": "Keep your hands in plain view, preferably on the steering wheel." },
+    { "id": "q-cond-stop-belts-hands-2", "item": "cond-stop-belts-hands", "part": 2, "prompt": "When an officer asks for your license, registration and proof of insurance, you should:", "choices": ["Tell the officer where they are and reach slowly, keeping one hand on the wheel", "Quickly dig through your glove box", "Get out and look in the trunk", "Hand over your whole bag"], "answer": 0, "explain": "Tell the officer where the documents are and reach for them slowly, keeping one hand on the steering wheel." },
+    { "id": "q-cond-stop-belts-hands-3", "item": "cond-stop-belts-hands", "part": 2, "prompt": "During a traffic stop, you and your passengers should:", "choices": ["Unbuckle to find documents", "Keep safety belts fastened", "Get out of the car", "Move to the back seat"], "answer": 1, "explain": "Keep your safety belt fastened and ask passengers to keep theirs fastened." },
+    { "id": "q-cond-stop-belts-hands-4", "item": "cond-stop-belts-hands", "part": 2, "prompt": "During a traffic stop, your passengers should:", "choices": ["Keep their hands in plain view", "Look for your documents", "Get out to talk to the officer", "Unbuckle their seat belts"], "answer": 0, "explain": "Ask your passengers to keep their hands in plain view and their belts fastened." },
+
+    { "id": "q-cond-stop-carry-documents-1", "item": "cond-stop-carry-documents", "part": 2, "prompt": "When you drive, you should carry:", "choices": ["Only your driver's license", "Your license and your car title", "A valid driver's license, proof of vehicle registration and proof of insurance", "Only proof of insurance"], "answer": 2, "explain": "Carry a valid driver's license, proof of vehicle registration and proof of insurance." },
+    { "id": "q-cond-stop-carry-documents-2", "item": "cond-stop-carry-documents", "part": 2, "prompt": "A police officer stops you and asks for your documents. Which should you have with you?", "choices": ["Your birth certificate and passport", "Your license, registration and proof of insurance", "Your repair receipts", "Your school records"], "answer": 1, "explain": "Carry proper identification: a valid driver's license, proof of vehicle registration and proof of insurance." },
+
+    { "id": "q-cond-stop-unmarked-id-1", "item": "cond-stop-unmarked-id", "part": 2, "prompt": "If the officer who stops you is driving an unmarked car or is not in uniform, you may:", "choices": ["Drive away", "Refuse to give your license", "Ask to see his or her identification", "Call a tow truck"], "answer": 2, "explain": "If the officer is in an unmarked car or not in uniform, you may ask to see identification." },
+    { "id": "q-cond-stop-unmarked-id-2", "item": "cond-stop-unmarked-id", "part": 2, "prompt": "You may ask to see a police officer's identification when the officer:", "choices": ["Is driving an unmarked car or is not in uniform", "Is in uniform in a marked car", "Writes you a ticket", "Asks for your license"], "answer": 0, "explain": "You may ask for identification if the officer is in an unmarked car or not in uniform." },
+
+    { "id": "q-cond-stop-sign-citation-1", "item": "cond-stop-sign-citation", "part": 2, "prompt": "Signing a traffic citation:", "choices": ["Is an admission of guilt", "Is not an admission of guilt", "Is optional and has no effect", "Means you must pay right away"], "answer": 1, "explain": "Sign the citation; this is not an admission of guilt." },
+    { "id": "q-cond-stop-sign-citation-2", "item": "cond-stop-sign-citation", "part": 2, "prompt": "Refusing to sign a traffic citation may result in:", "choices": ["Nothing at all", "A lower fine", "A warning only", "Your arrest"], "answer": 3, "explain": "Refusal to sign the citation may result in your arrest." },
+    { "id": "q-cond-stop-sign-citation-3", "item": "cond-stop-sign-citation", "part": 2, "prompt": "If you disagree with the officer during a traffic stop, you should:", "choices": ["Argue your point of view right away", "Wait and make your case in court", "Refuse to answer questions", "Drive away"], "answer": 1, "explain": "Do not discuss your point of view at the stop; you will have your chance in court." }
+  ]
+}

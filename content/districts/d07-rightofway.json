@@ -1,0 +1,2581 @@
+{
+  "district": "d07-rightofway",
+  "items": [
+    {
+      "id": "row-stop-red-signals",
+      "district": "d07-rightofway",
+      "kind": "sign",
+      "title": "Always stop: signs, red lights",
+      "simple": "Always stop at a stop sign. Always stop at a red light. A flashing red light means stop too. Stop all the way. Go only when it is safe.",
+      "official": "You must always stop your vehicle at all stop signs, red traffic lights and flashing red signals.",
+      "image": "signal-flashing-red",
+      "mnemonic": "Red means stop. Solid or flashing.",
+      "manualRef": "Section 3, p. 15"
+    },
+    {
+      "id": "row-driveway-stop",
+      "district": "d07-rightofway",
+      "kind": "rule",
+      "title": "Leaving a driveway: stop first",
+      "simple": "Coming out of a driveway, alley, building or parking lot? Stop before you cross the sidewalk or enter the street. Let all cars and people go first.",
+      "official": "You must always stop your vehicle when entering a street or crossing over a sidewalk from a driveway, alley, building or parking lot. When entering a roadway from a private road or driveway, you must stop and yield to all traffic and pedestrians.",
+      "mnemonic": "Driveway out? Stop and let everyone pass.",
+      "manualRef": "Section 3, p. 15-16"
+    },
+    {
+      "id": "row-stop-railroad-flashing",
+      "district": "d07-rightofway",
+      "kind": "sign",
+      "title": "Railroad lights flashing: stop",
+      "simple": "Lights are flashing at a railroad crossing? You must stop your vehicle. Always.",
+      "official": "You must always stop your vehicle at railroad crossings with flashing signals.",
+      "image": "sign-crossbuck-lights",
+      "manualRef": "Section 3, p. 15",
+      "mnemonic": "Lights flash at the tracks? Stop. Every time."
+    },
+    {
+      "id": "row-stop-flagger",
+      "district": "d07-rightofway",
+      "kind": "sign",
+      "title": "Flagger signals stop: stop",
+      "simple": "Flaggers direct traffic in some places. When a flagger signals you to stop, you must stop.",
+      "official": "You must always stop your vehicle when signaled by flaggers directing traffic.",
+      "image": "sign-flagger-paddle",
+      "manualRef": "Section 3, p. 15"
+    },
+    {
+      "id": "row-police-signal",
+      "district": "d07-rightofway",
+      "kind": "rule",
+      "title": "Police signal to stop: obey",
+      "simple": "A police officer signals you to stop? You must stop. If you drive away, the officer may chase you. If the officer dies in that chase, it is a Class 4 felony.",
+      "official": "You must always stop your vehicle at the direction of a police officer. If you don't obey a law enforcement officer's signal to stop and the officer pursues you and is killed as a direct result of the pursuit, you will be guilty of a Class 4 felony.",
+      "mnemonic": "Officer says stop? You stop.",
+      "manualRef": "Section 3, p. 15"
+    },
+    {
+      "id": "row-stop-crash-scene",
+      "district": "d07-rightofway",
+      "kind": "rule",
+      "title": "In a crash? Stop there",
+      "simple": "If you are in a crash, you must stop at the scene. Do not drive away.",
+      "official": "You must always stop your vehicle at the scene of a crash in which you are involved.",
+      "manualRef": "Section 3, p. 15",
+      "mnemonic": "In it? Stay at it."
+    },
+    {
+      "id": "row-stop-sign-car-ahead",
+      "district": "d07-rightofway",
+      "kind": "sign",
+      "title": "Car ahead went? You still stop",
+      "simple": "You are behind a car at a stop sign. That car stops and then goes. You still must stop at the sign yourself. Go when the way is clear.",
+      "official": "When approaching a stop sign and the car in front of you proceeds, stop at the sign and proceed when the way is clear.",
+      "image": "sign-stop",
+      "mnemonic": "Every car stops. Every time.",
+      "manualRef": "Section 3, p. 15"
+    },
+    {
+      "id": "row-school-bus-stop",
+      "district": "d07-rightofway",
+      "kind": "rule",
+      "title": "School bus red lights: stop",
+      "simple": "A stopped school bus has flashing red lights and its stop sign out. Stop, no matter which way you are coming from. Stay stopped until all people are clear and the bus moves.",
+      "official": "You must stop for stopped school buses with flashing red lights and an extended stop sign when you approach from any direction on a highway, private road or school driveway. Stop and remain stopped until all persons are clear and the bus moves again.",
+      "mnemonic": "Red lights, stop arm out: everyone stops.",
+      "manualRef": "Section 3, p. 15"
+    },
+    {
+      "id": "row-school-bus-no-lights",
+      "district": "d07-rightofway",
+      "kind": "rule",
+      "title": "Bus loading, no lights: stop",
+      "simple": "A school bus is letting people on or off. Its lights are not on. You must still stop.",
+      "official": "You must also stop if the bus is loading or unloading passengers and the signals are not on.",
+      "manualRef": "Section 3, p. 15",
+      "mnemonic": "People getting on or off the bus? Stop, lights or not."
+    },
+    {
+      "id": "row-school-bus-median",
+      "district": "d07-rightofway",
+      "kind": "rule",
+      "title": "Bus across a median: no stop",
+      "simple": "A median or barrier splits the road. The bus is on the other side. You are going the other way. You do not have to stop. Watch for people getting off the bus.",
+      "official": "You do not have to stop if you are traveling in the opposite direction on a roadway with a median or barrier dividing the road and the bus is on the opposite side of the median or barrier. However, be prepared for unexpected actions by persons exiting the school bus.",
+      "mnemonic": "Median between you? Go, but watch for kids.",
+      "manualRef": "Section 3, p. 15"
+    },
+    {
+      "id": "row-yield-means-stop",
+      "district": "d07-rightofway",
+      "kind": "sign",
+      "title": "Yield can also mean stop",
+      "simple": "Yield means let others go first. Can't merge safely into traffic? Then you must stop. Wait for a safe gap.",
+      "official": "Yield also means to stop if you cannot merge safely into the flow of traffic.",
+      "image": "sign-yield",
+      "mnemonic": "No gap? Yield becomes stop.",
+      "manualRef": "Section 3, p. 16"
+    },
+    {
+      "id": "row-first-to-arrive",
+      "district": "d07-rightofway",
+      "kind": "rule",
+      "title": "First to arrive goes first",
+      "simple": "Cars come to an intersection from different directions at different times. The car that gets there first goes first.",
+      "official": "When vehicles from different directions arrive at an intersection at different times, the vehicle that arrives first goes first.",
+      "mnemonic": "First there, first through.",
+      "manualRef": "Section 3, p. 16"
+    },
+    {
+      "id": "row-left-yields-right",
+      "district": "d07-rightofway",
+      "kind": "rule",
+      "title": "Same time: left yields to right",
+      "simple": "Two cars reach an intersection at the same time. There are no signs or signals. The driver on the left lets the driver on the right go first.",
+      "official": "When vehicles from different directions arrive at the same time at an intersection with no signs or signals, the driver on the left must allow the driver on the right to go first.",
+      "mnemonic": "A tie? The right goes first.",
+      "manualRef": "Section 3, p. 16"
+    },
+    {
+      "id": "row-signals-out",
+      "district": "d07-rightofway",
+      "kind": "sign",
+      "title": "Traffic lights out: all stop",
+      "simple": "The traffic lights are not working. Every car must stop. Then the driver on the left lets the driver on the right go first.",
+      "official": "If the traffic lights at an intersection are not working, all vehicles coming to the intersection must stop. The driver on the left must yield to the driver on the right.",
+      "image": "signal-out",
+      "mnemonic": "Lights out? Everyone stops. Then the right goes first.",
+      "manualRef": "Section 3, p. 16"
+    },
+    {
+      "id": "row-interstate-ramp",
+      "district": "d07-rightofway",
+      "kind": "rule",
+      "title": "Entrance ramp: yield to highway",
+      "simple": "On a ramp getting onto an interstate? Cars already on the highway go first. You must yield to them.",
+      "official": "Drivers entering an interstate from an entrance ramp must yield the right-of-way to traffic already on the highway.",
+      "manualRef": "Section 3, p. 16",
+      "mnemonic": "On the ramp? Highway cars go first."
+    },
+    {
+      "id": "row-already-in-intersection",
+      "district": "d07-rightofway",
+      "kind": "rule",
+      "title": "Yield to cars already in",
+      "simple": "Cars already in an intersection or roundabout go first. If you are entering, you must yield to them.",
+      "official": "Drivers entering any intersection or roundabout must yield to traffic already in it.",
+      "manualRef": "Section 3, p. 16",
+      "mnemonic": "Already in? They go first."
+    },
+    {
+      "id": "row-yield-pedestrians-bikes",
+      "district": "d07-rightofway",
+      "kind": "rule",
+      "title": "Walkers and bikers crossing: yield",
+      "simple": "People walking or biking across the street in a crosswalk go first. This includes intersections with no painted crosswalk. Stop and let them cross. Take extra care when turning on red.",
+      "official": "You must always stop for pedestrians attempting to cross the street at a crosswalk. You must yield to pedestrians or bicyclists who are crossing a street within a clearly marked crosswalk or at an unmarked intersection. Remember that turns on red are especially hazardous to pedestrians.",
+      "image": "sign-pedestrian-crossing",
+      "mnemonic": "Feet and pedals in the crosswalk go first.",
+      "manualRef": "Section 3, p. 15-16"
+    },
+    {
+      "id": "row-funeral-procession",
+      "district": "d07-rightofway",
+      "kind": "rule",
+      "title": "Funeral processions: yield",
+      "simple": "You must yield to a funeral procession. Do not cut through it, join it, or get in its way. Cars in the line may use hazard flashers.",
+      "official": "You must yield to funeral processions. Do not cut through, join or interfere with a funeral procession. Unless led by a police escort, the lead vehicle in a funeral procession must obey all traffic signs and signals. Other drivers in the procession may follow carefully without stopping and may use hazard lights (flashers) to indicate they are in the procession.",
+      "mnemonic": "Funeral line: don't cut in, don't join in.",
+      "manualRef": "Section 3, p. 16"
+    },
+    {
+      "id": "row-military-convoy",
+      "district": "d07-rightofway",
+      "kind": "rule",
+      "title": "Military convoys: yield",
+      "simple": "You must yield to all military convoys. Never cut through a convoy. Never join one.",
+      "official": "You must yield to all military convoys. Never cut through or join a military convoy.",
+      "manualRef": "Section 3, p. 16",
+      "mnemonic": "Convoy: don't cut in, don't join in."
+    },
+    {
+      "id": "row-move-over-stopped",
+      "district": "d07-rightofway",
+      "kind": "rule",
+      "title": "Stopped emergency or tow: move over",
+      "simple": "An emergency vehicle or tow truck is stopped with flashing lights. Move to a lane not next to it if you safely can. If you cannot, slow down and pass with care.",
+      "official": "Drivers must take specific actions when they see vehicles with flashing or blinking blue, red, amber (yellow) or white lights. When approaching a stationary emergency vehicle or tow truck with flashing lights on a highway, proceed with caution and, if reasonable, change to a lane not next to the vehicle. If you are unable to safely change lanes, reduce your speed and proceed with caution. Violations can result in court suspension of your driver's license and demerit points on your driving record.",
+      "mnemonic": "Lights on the shoulder? Move over or slow down.",
+      "manualRef": "Section 3, p. 16"
+    },
+    {
+      "id": "row-trash-truck",
+      "district": "d07-rightofway",
+      "kind": "number",
+      "title": "Trash truck: 10 MPH, 2 feet",
+      "simple": "Stopped trash truck ahead? 4 or more lanes: move to a lane not next to it. Fewer lanes, or can't move over? Slow to 10 MPH below the limit. Pass at least 2 feet to its left.",
+      "official": "When passing stationary vehicles in the process of trash collection on a highway of at least four lanes, change to a lane not next to the vehicle, if you can change lanes safely. If on a highway of fewer than four lanes or if you are unable to change lanes, slow down to 10 miles per hour below the posted speed limit and pass at least two feet to the left of the vehicle.",
+      "mnemonic": "Trash truck: 10 slower, 2 feet over.",
+      "manualRef": "Section 3, p. 16"
+    },
+    {
+      "id": "row-mail-vehicle",
+      "district": "d07-rightofway",
+      "kind": "rule",
+      "title": "Stopped mail truck: use caution",
+      "simple": "A mail vehicle is stopped on the road. Pass it with caution. Keep a safe speed for the road.",
+      "official": "When passing a stationary mail vehicle, proceed with caution and maintain a safe speed for highway conditions.",
+      "manualRef": "Section 3, p. 16"
+    },
+    {
+      "id": "row-hazard-flashers-flares",
+      "district": "d07-rightofway",
+      "kind": "rule",
+      "title": "Hazard lights or flares: change lanes",
+      "simple": "A stopped vehicle has hazard flashers on, caution signs out, or lit flares. You must change lanes and pass with caution.",
+      "official": "When passing stationary vehicles that have activated vehicular hazard warning signal flashers, displayed caution signs, or been marked with properly lit flares or torches, you are required to make a lane change and proceed with caution.",
+      "manualRef": "Section 3, p. 16",
+      "mnemonic": "Flashers, signs or flares? Change lanes."
+    },
+    {
+      "id": "row-fire-truck-parking",
+      "district": "d07-rightofway",
+      "kind": "number",
+      "title": "Fire trucks at alarm: 500 feet",
+      "simple": "Fire trucks are stopped to answer an alarm. You may not park within 500 feet of them.",
+      "official": "You may not park within 500 feet of where fire trucks or equipment are stopped answering an alarm.",
+      "mnemonic": "Fire alarm? Park 500 feet away. Same 500 as following an emergency vehicle.",
+      "manualRef": "Section 3, p. 16"
+    },
+    {
+      "id": "row-follow-emergency-500",
+      "district": "d07-rightofway",
+      "kind": "number",
+      "title": "Emergency vehicle ahead: 500 feet back",
+      "simple": "An emergency vehicle ahead has its lights flashing. Never follow it closer than 500 feet.",
+      "official": "Never follow an emergency vehicle closer than 500 feet when its lights are flashing.",
+      "mnemonic": "Flashing lights ahead? Stay 500 feet back. Same 500 as fire alarm parking.",
+      "manualRef": "Section 3, p. 16"
+    },
+    {
+      "id": "row-pull-over-emergency",
+      "district": "d07-rightofway",
+      "kind": "rule",
+      "title": "Siren behind you: pull over",
+      "simple": "A police car, fire truck, rescue vehicle or ambulance comes up behind you. It has a siren or flashing lights. Pull over to the right edge right away. Stop until it passes.",
+      "official": "When police, fire and rescue vehicles or ambulances approach you from behind your vehicle using a siren, flashing lights or both, you must immediately yield the right-of-way. Safely pull over to the right edge of the road and stop until the emergency vehicle has passed.",
+      "mnemonic": "Siren behind? Right side, stop.",
+      "manualRef": "Section 3, p. 16"
+    },
+    {
+      "id": "row-emergency-opposite",
+      "district": "d07-rightofway",
+      "kind": "rule",
+      "title": "Oncoming emergency, no median: stop",
+      "simple": "An emergency vehicle comes toward you in the other lane. The road has no median. Pull over to the edge of the road. Stop until it passes.",
+      "official": "When emergency vehicles approach you in the opposite lane on an undivided highway, you must pull over to the edge of the road and stop until the emergency vehicle passes.",
+      "manualRef": "Section 3, p. 16",
+      "mnemonic": "No median? Pull over for sirens coming or going."
+    },
+    {
+      "id": "row-work-zone-exception",
+      "district": "d07-rightofway",
+      "kind": "rule",
+      "title": "Work zones: pull-over exception",
+      "simple": "In a highway work zone, the pull-over rules do not apply. That goes for emergency vehicles behind you and emergency vehicles coming toward you.",
+      "official": "The requirements for emergency vehicles approaching from the same or opposite direction do not apply in highway work zones.",
+      "image": "sign-road-work-ahead",
+      "manualRef": "Section 3, p. 16"
+    },
+    {
+      "id": "row-roundabout-yield",
+      "district": "d07-rightofway",
+      "kind": "sign",
+      "title": "Entering a roundabout: yield",
+      "simple": "Every road into a roundabout has a yield sign. There may be a yield line too. Slow down. Let people walking, bikes, and cars already in the circle go first.",
+      "official": "Entering traffic must yield the right-of-way to pedestrians, and to traffic already in the circle. Each road approaching the roundabout is marked with a yield sign and may also have yield line markings on the pavement. When approaching a roundabout, slow down. When you arrive at the roundabout, yield the right-of-way to pedestrians and bicyclists.",
+      "image": "sign-roundabout",
+      "mnemonic": "Roundabout: slow, yield, then enter.",
+      "manualRef": "Section 3, p. 16-17"
+    },
+    {
+      "id": "row-roundabout-counterclockwise",
+      "district": "d07-rightofway",
+      "kind": "rule",
+      "title": "Roundabouts: drive counter-clockwise",
+      "simple": "A roundabout is a circle-shaped intersection with an island in the middle. Once inside, you drive counter-clockwise. That is the opposite way a clock's hands move.",
+      "official": "Roundabouts are circular intersections with an island in the center and have one or more lanes. After entering the roundabout, drivers must travel in a counter-clockwise direction.",
+      "image": "diagram-roundabout",
+      "mnemonic": "In the circle, counter the clock.",
+      "manualRef": "Section 3, p. 16"
+    },
+    {
+      "id": "row-roundabout-lanes",
+      "district": "d07-rightofway",
+      "kind": "rule",
+      "title": "Roundabout lanes: pick by exit",
+      "simple": "Turning right? Stay to the right as you enter. Turning left? Stay to the left. Going straight in a two-lane roundabout? Either lane is OK. Use your turn signals.",
+      "official": "Use your turn signals to indicate where you want to go. If you plan to turn right, stay to the right as you enter the roundabout. If you plan to go straight, you may stay in either lane (if it is a dual lane circular intersection). If you plan to turn left, stay to the left as you enter the roundabout.",
+      "mnemonic": "Right turn, right lane. Left turn, left lane.",
+      "manualRef": "Section 3, p. 16"
+    },
+    {
+      "id": "row-roundabout-exit",
+      "district": "d07-rightofway",
+      "kind": "rule",
+      "title": "Leaving a roundabout: right signal",
+      "simple": "Inside the roundabout, stay in your lane until you are ready to exit. Use your right turn signal to exit. Before you exit, glance over your shoulder for cars in your blind spot.",
+      "official": "While inside the roundabout, stay in your lane until you are ready to exit. Use your vehicle's right turn signal to let drivers around you know what you want to do. Do not change lanes or take an exit before checking for vehicles that may be continuing through the roundabout in the lane next to you or behind you. Quickly glance over your shoulder and check for any vehicles that may be in your blind spot.",
+      "mnemonic": "Exit right: right signal plus a shoulder check.",
+      "manualRef": "Section 3, p. 17"
+    },
+    {
+      "id": "row-roundabout-direction-signs",
+      "district": "d07-rightofway",
+      "kind": "rule",
+      "title": "Roundabout: read signs to pick exit",
+      "simple": "Coming up to a roundabout? Slow down. Look for street and direction signs before you get there. They help you know which exit to take.",
+      "official": "As you approach the roundabout, slow down; look for the street and direction signs. This will help you know which exit to take. These signs should be posted along the roadside before you reach the roundabout.",
+      "mnemonic": "Read the signs before the circle.",
+      "manualRef": "Section 3, p. 17"
+    },
+    {
+      "id": "row-roundabout-entry-control",
+      "district": "d07-rightofway",
+      "kind": "rule",
+      "title": "Roundabout entry: obey, enter when clear",
+      "simple": "Some roundabout entries have a stop sign, a yield sign or a traffic light. Obey it. Enter only when the way is clear.",
+      "official": "Sometimes your entry point will be controlled by a stop or yield sign, or traffic signal. When the way is clear, you may enter the roundabout.",
+      "manualRef": "Section 3, p. 17"
+    }
+  ],
+  "events": [
+    {
+      "id": "ev-row-stop-red-signals-1",
+      "item": "row-stop-red-signals",
+      "kind": "action",
+      "prompt": "Flashing red light ahead.",
+      "prop": "traffic-light-flashing-red",
+      "action": "stop",
+      "missLine": "You must always stop at a flashing red signal."
+    },
+    {
+      "id": "ev-row-stop-red-signals-2",
+      "item": "row-stop-red-signals",
+      "kind": "action",
+      "prompt": "Red light at the intersection.",
+      "prop": "traffic-light-red",
+      "weather": "rain",
+      "action": "stop",
+      "missLine": "Always stop at a red traffic light."
+    },
+    {
+      "id": "ev-row-stop-red-signals-3",
+      "item": "row-stop-red-signals",
+      "kind": "gates",
+      "prompt": "You must always stop at a...",
+      "choices": [
+        "Flashing yellow light",
+        "Flashing red light",
+        "Green light"
+      ],
+      "answer": 1,
+      "missLine": "Stop signs, red lights and flashing red signals always mean stop."
+    },
+    {
+      "id": "ev-row-driveway-stop-1",
+      "item": "row-driveway-stop",
+      "kind": "action",
+      "prompt": "Leaving a parking lot. Sidewalk ahead.",
+      "prop": "driveway-exit",
+      "action": "stop",
+      "missLine": "Stop before crossing a sidewalk from a driveway, alley or parking lot."
+    },
+    {
+      "id": "ev-row-driveway-stop-2",
+      "item": "row-driveway-stop",
+      "kind": "action",
+      "prompt": "Pulling out of a driveway onto the road.",
+      "prop": "driveway-exit",
+      "weather": "night",
+      "action": "stop",
+      "missLine": "From a driveway or private road, stop and yield to all traffic and people."
+    },
+    {
+      "id": "ev-row-driveway-stop-3",
+      "item": "row-driveway-stop",
+      "kind": "gates",
+      "prompt": "Pulling out of an alley. Who goes first?",
+      "choices": [
+        "You do",
+        "All traffic and walkers",
+        "Only cars on the left"
+      ],
+      "answer": 1,
+      "missLine": "Leaving a driveway or alley, stop and yield to all traffic and pedestrians."
+    },
+    {
+      "id": "ev-row-stop-railroad-flashing-1",
+      "item": "row-stop-railroad-flashing",
+      "kind": "action",
+      "prompt": "Railroad lights flashing ahead!",
+      "prop": "railroad-lights-flashing",
+      "action": "stop",
+      "missLine": "Always stop at a railroad crossing with flashing signals."
+    },
+    {
+      "id": "ev-row-stop-railroad-flashing-2",
+      "item": "row-stop-railroad-flashing",
+      "kind": "gates",
+      "prompt": "Railroad crossing lights are flashing. You must...",
+      "image": "sign-crossbuck-lights",
+      "choices": [
+        "Slow and look",
+        "Speed across",
+        "Stop"
+      ],
+      "answer": 2,
+      "missLine": "Always stop at a railroad crossing with flashing signals."
+    },
+    {
+      "id": "ev-row-stop-flagger-1",
+      "item": "row-stop-flagger",
+      "kind": "action",
+      "prompt": "Flagger holds up the STOP paddle.",
+      "prop": "flagger-stop",
+      "action": "stop",
+      "missLine": "When a flagger signals you to stop, you must stop."
+    },
+    {
+      "id": "ev-row-stop-flagger-2",
+      "item": "row-stop-flagger",
+      "kind": "gates",
+      "prompt": "A flagger signals you to stop. You...",
+      "image": "sign-flagger-paddle",
+      "choices": [
+        "Stop",
+        "Slow down",
+        "Go around"
+      ],
+      "answer": 0,
+      "missLine": "When a flagger signals you to stop, you must stop."
+    },
+    {
+      "id": "ev-row-police-signal-1",
+      "item": "row-police-signal",
+      "kind": "gates",
+      "prompt": "An officer signals you to stop. You...",
+      "choices": [
+        "Keep driving",
+        "Stop",
+        "Turn away"
+      ],
+      "answer": 1,
+      "missLine": "You must always stop when a police officer tells you to."
+    },
+    {
+      "id": "ev-row-police-signal-2",
+      "item": "row-police-signal",
+      "kind": "gates",
+      "prompt": "You flee police. The officer dies in the chase. It's...",
+      "choices": [
+        "A traffic warning",
+        "A misdemeanor",
+        "A Class 4 felony"
+      ],
+      "answer": 2,
+      "missLine": "Fleeing an officer who is killed in the chase is a Class 4 felony."
+    },
+    {
+      "id": "ev-row-police-signal-3",
+      "item": "row-police-signal",
+      "kind": "action",
+      "prompt": "Police car behind signals you to stop.",
+      "prop": "emergency-behind",
+      "action": "pull-over",
+      "missLine": "When police signal you to stop, pull to the right and stop."
+    },
+    {
+      "id": "ev-row-stop-crash-scene-1",
+      "item": "row-stop-crash-scene",
+      "kind": "gates",
+      "prompt": "You are in a crash. What must you do?",
+      "choices": [
+        "Stop at the scene",
+        "Drive home first",
+        "Leave if it is small"
+      ],
+      "answer": 0,
+      "missLine": "You must always stop at the scene of a crash you are in."
+    },
+    {
+      "id": "ev-row-stop-crash-scene-2",
+      "item": "row-stop-crash-scene",
+      "kind": "gates",
+      "prompt": "When must you stop at a crash scene?",
+      "choices": [
+        "Only if police come",
+        "When you are involved",
+        "Only if someone is hurt"
+      ],
+      "answer": 1,
+      "missLine": "If you are involved in a crash, you must stop at the scene."
+    },
+    {
+      "id": "ev-row-stop-sign-car-ahead-1",
+      "item": "row-stop-sign-car-ahead",
+      "kind": "action",
+      "prompt": "Car ahead just went. Stop sign is next.",
+      "prop": "stop-line",
+      "sign": "sign-stop",
+      "action": "stop",
+      "missLine": "Even if the car ahead goes, you must stop at the sign."
+    },
+    {
+      "id": "ev-row-stop-sign-car-ahead-2",
+      "item": "row-stop-sign-car-ahead",
+      "kind": "gates",
+      "prompt": "Car ahead left the stop sign. Now you...",
+      "image": "sign-stop",
+      "choices": [
+        "Follow it through",
+        "Slow and roll on",
+        "Stop at the sign"
+      ],
+      "answer": 2,
+      "missLine": "Every car must stop at the sign, even if the car ahead just went."
+    },
+    {
+      "id": "ev-row-school-bus-stop-1",
+      "item": "row-school-bus-stop",
+      "kind": "action",
+      "prompt": "School bus stopped, red lights flashing!",
+      "prop": "school-bus-stopped",
+      "action": "stop",
+      "missLine": "Stop for a school bus with flashing red lights until it moves again."
+    },
+    {
+      "id": "ev-row-school-bus-stop-2",
+      "item": "row-school-bus-stop",
+      "kind": "action",
+      "prompt": "Foggy road. School bus stopped, red lights on.",
+      "prop": "school-bus-stopped",
+      "weather": "fog",
+      "action": "stop",
+      "missLine": "Stop for a stopped school bus with flashing red lights."
+    },
+    {
+      "id": "ev-row-school-bus-stop-3",
+      "item": "row-school-bus-stop",
+      "kind": "gates",
+      "prompt": "Kids are clear. Bus is still stopped. You...",
+      "image": "diagram-school-bus-stop",
+      "choices": [
+        "Go around",
+        "Stay stopped",
+        "Honk and go"
+      ],
+      "answer": 1,
+      "missLine": "Stay stopped until all people are clear and the bus moves again."
+    },
+    {
+      "id": "ev-row-school-bus-no-lights-1",
+      "item": "row-school-bus-no-lights",
+      "kind": "gates",
+      "prompt": "Bus loading. Lights off. Do you stop?",
+      "missLine": "Stop for a school bus loading or unloading, even with its signals off.",
+      "choices": [
+        "Only if lights flash",
+        "Only on school roads",
+        "Yes, stop"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "ev-row-school-bus-no-lights-2",
+      "item": "row-school-bus-no-lights",
+      "kind": "gates",
+      "prompt": "Bus is loading kids. Its lights are off. You...",
+      "choices": [
+        "Stop",
+        "Pass slowly",
+        "Honk and pass"
+      ],
+      "answer": 0,
+      "missLine": "Stop for a loading school bus even if its signals are not on."
+    },
+    {
+      "id": "ev-row-school-bus-median-1",
+      "item": "row-school-bus-median",
+      "kind": "gates",
+      "prompt": "Median between you and the bus. You...",
+      "image": "diagram-school-bus-median",
+      "choices": [
+        "Stop",
+        "Go with care",
+        "Turn around"
+      ],
+      "answer": 1,
+      "missLine": "A median between you and the bus? You may go. Watch for people."
+    },
+    {
+      "id": "ev-row-school-bus-median-2",
+      "item": "row-school-bus-median",
+      "kind": "gates",
+      "prompt": "No median. Bus stopped in the opposite lane. You...",
+      "choices": [
+        "Go with care",
+        "Speed past",
+        "Stop"
+      ],
+      "answer": 2,
+      "missLine": "With no median or barrier, you must stop for a school bus from any direction."
+    },
+    {
+      "id": "ev-row-school-bus-median-3",
+      "item": "row-school-bus-median",
+      "kind": "gates",
+      "prompt": "Across a median from the bus, watch for...",
+      "choices": [
+        "People leaving the bus",
+        "Deer",
+        "Low bridges"
+      ],
+      "answer": 0,
+      "missLine": "Even across a median, be ready for people getting off the bus."
+    },
+    {
+      "id": "ev-row-yield-means-stop-1",
+      "item": "row-yield-means-stop",
+      "kind": "action",
+      "prompt": "Yield sign. Heavy traffic, no gap.",
+      "sign": "sign-yield",
+      "action": "stop",
+      "missLine": "Yield also means stop if you cannot merge safely."
+    },
+    {
+      "id": "ev-row-yield-means-stop-2",
+      "item": "row-yield-means-stop",
+      "kind": "gates",
+      "prompt": "Yield sign, no safe gap. You...",
+      "image": "sign-yield",
+      "choices": [
+        "Force your way in",
+        "Speed up to merge",
+        "Stop and wait"
+      ],
+      "answer": 2,
+      "missLine": "Yield also means stop if you cannot merge safely."
+    },
+    {
+      "id": "ev-row-first-to-arrive-1",
+      "item": "row-first-to-arrive",
+      "kind": "gates",
+      "prompt": "You arrive first. Who goes first?",
+      "choices": [
+        "You do",
+        "Car on your right",
+        "Biggest vehicle"
+      ],
+      "answer": 0,
+      "missLine": "The vehicle that arrives first goes first."
+    },
+    {
+      "id": "ev-row-first-to-arrive-2",
+      "item": "row-first-to-arrive",
+      "kind": "gates",
+      "prompt": "The other car arrives first. Who goes first?",
+      "choices": [
+        "You do",
+        "The other car",
+        "Whoever is faster"
+      ],
+      "answer": 1,
+      "missLine": "The vehicle that arrives first goes first."
+    },
+    {
+      "id": "ev-row-left-yields-right-1",
+      "item": "row-left-yields-right",
+      "kind": "gates",
+      "prompt": "Two cars arrive together. No signs. Who goes first?",
+      "choices": [
+        "Driver on the left",
+        "Driver on the right",
+        "Driver going faster"
+      ],
+      "answer": 1,
+      "missLine": "In a tie, the driver on the right goes first."
+    },
+    {
+      "id": "ev-row-left-yields-right-2",
+      "item": "row-left-yields-right",
+      "kind": "gates",
+      "prompt": "No signs, same time. Car on your right. You...",
+      "choices": [
+        "Go first",
+        "Honk and go",
+        "Let it go first"
+      ],
+      "answer": 2,
+      "missLine": "The driver on the left must let the driver on the right go first."
+    },
+    {
+      "id": "ev-row-left-yields-right-3",
+      "item": "row-left-yields-right",
+      "kind": "gates",
+      "prompt": "Tie, no signs. Car on your left. Who goes?",
+      "choices": [
+        "You go first",
+        "Car on your left",
+        "Both at once"
+      ],
+      "answer": 0,
+      "missLine": "You are on the right, so you go first."
+    },
+    {
+      "id": "ev-row-signals-out-1",
+      "item": "row-signals-out",
+      "kind": "action",
+      "prompt": "Traffic lights are not working.",
+      "prop": "traffic-light-out",
+      "action": "stop",
+      "missLine": "If the traffic lights are out, every vehicle must stop."
+    },
+    {
+      "id": "ev-row-signals-out-2",
+      "item": "row-signals-out",
+      "kind": "action",
+      "prompt": "Signal is dark at a busy corner.",
+      "prop": "traffic-light-out",
+      "weather": "night",
+      "action": "stop",
+      "missLine": "Lights not working? All vehicles stop first."
+    },
+    {
+      "id": "ev-row-signals-out-3",
+      "item": "row-signals-out",
+      "kind": "gates",
+      "prompt": "Lights out. Two cars tie. Who goes first?",
+      "image": "signal-out",
+      "choices": [
+        "Driver on the right",
+        "Driver on the left",
+        "Biggest vehicle"
+      ],
+      "answer": 0,
+      "missLine": "With lights out, the driver on the left yields to the driver on the right."
+    },
+    {
+      "id": "ev-row-interstate-ramp-1",
+      "item": "row-interstate-ramp",
+      "kind": "gates",
+      "prompt": "Merging from a ramp. Who goes first?",
+      "choices": [
+        "Ramp traffic",
+        "Highway traffic",
+        "Faster traffic"
+      ],
+      "answer": 1,
+      "missLine": "Traffic already on the highway has the right-of-way."
+    },
+    {
+      "id": "ev-row-interstate-ramp-2",
+      "item": "row-interstate-ramp",
+      "kind": "gates",
+      "prompt": "Entering the interstate. Highway traffic is coming. You...",
+      "image": "sign-merge",
+      "choices": [
+        "Yield to it",
+        "Make it move over",
+        "Cut in front"
+      ],
+      "answer": 0,
+      "missLine": "Entering from a ramp, yield to traffic already on the highway."
+    },
+    {
+      "id": "ev-row-already-in-intersection-1",
+      "item": "row-already-in-intersection",
+      "kind": "gates",
+      "prompt": "A car is already in the intersection. You...",
+      "choices": [
+        "Go first",
+        "Honk at it",
+        "Yield to it"
+      ],
+      "answer": 2,
+      "missLine": "Yield to traffic already in the intersection."
+    },
+    {
+      "id": "ev-row-already-in-intersection-2",
+      "item": "row-already-in-intersection",
+      "kind": "gates",
+      "prompt": "Entering a roundabout. Who goes first?",
+      "image": "diagram-roundabout",
+      "choices": [
+        "Cars entering",
+        "Cars already in",
+        "Bigger vehicles"
+      ],
+      "answer": 1,
+      "missLine": "Traffic already in a roundabout goes first."
+    },
+    {
+      "id": "ev-row-yield-pedestrians-bikes-1",
+      "item": "row-yield-pedestrians-bikes",
+      "kind": "action",
+      "prompt": "Person stepping into the crosswalk.",
+      "prop": "pedestrian-crosswalk",
+      "action": "stop",
+      "missLine": "Stop for pedestrians crossing at a crosswalk."
+    },
+    {
+      "id": "ev-row-yield-pedestrians-bikes-2",
+      "item": "row-yield-pedestrians-bikes",
+      "kind": "action",
+      "prompt": "Walker in the crosswalk ahead.",
+      "prop": "pedestrian-crosswalk",
+      "weather": "rain",
+      "action": "stop",
+      "missLine": "Yield to people crossing in a crosswalk. Let them cross safely."
+    },
+    {
+      "id": "ev-row-yield-pedestrians-bikes-3",
+      "item": "row-yield-pedestrians-bikes",
+      "kind": "gates",
+      "prompt": "Bike crossing where no crosswalk is painted. You...",
+      "choices": [
+        "Go around them",
+        "Yield to them",
+        "Honk at them"
+      ],
+      "answer": 1,
+      "missLine": "Yield to bikes crossing at an intersection, painted crosswalk or not."
+    },
+    {
+      "id": "ev-row-yield-pedestrians-bikes-4",
+      "item": "row-yield-pedestrians-bikes",
+      "kind": "gates",
+      "prompt": "Turning right on red. Watch extra for...",
+      "choices": [
+        "Trucks behind you",
+        "Parked cars",
+        "Pedestrians"
+      ],
+      "answer": 2,
+      "missLine": "Turns on red are especially dangerous for pedestrians."
+    },
+    {
+      "id": "ev-row-funeral-procession-1",
+      "item": "row-funeral-procession",
+      "kind": "action",
+      "prompt": "Funeral procession crossing ahead.",
+      "prop": "funeral-procession",
+      "action": "stop",
+      "missLine": "Yield to funeral processions. Never cut through them."
+    },
+    {
+      "id": "ev-row-funeral-procession-2",
+      "item": "row-funeral-procession",
+      "kind": "gates",
+      "prompt": "A funeral procession is passing. You...",
+      "choices": [
+        "Cut through a gap",
+        "Join the line",
+        "Wait for it to pass"
+      ],
+      "answer": 2,
+      "missLine": "Let a funeral procession pass. Don't cut through it or join it."
+    },
+    {
+      "id": "ev-row-funeral-procession-3",
+      "item": "row-funeral-procession",
+      "kind": "gates",
+      "prompt": "No police escort. Who obeys every signal?",
+      "choices": [
+        "The lead vehicle",
+        "The last vehicle",
+        "Nobody in it"
+      ],
+      "answer": 0,
+      "missLine": "With no police escort, the lead vehicle obeys all signs and signals."
+    },
+    {
+      "id": "ev-row-military-convoy-1",
+      "item": "row-military-convoy",
+      "kind": "gates",
+      "prompt": "A military convoy is passing. You...",
+      "choices": [
+        "Join the line",
+        "Yield to it",
+        "Cut through it"
+      ],
+      "answer": 1,
+      "missLine": "Yield to military convoys. Never cut through or join one."
+    },
+    {
+      "id": "ev-row-military-convoy-2",
+      "item": "row-military-convoy",
+      "kind": "gates",
+      "prompt": "Gap in a military convoy. Can you cut through?",
+      "choices": [
+        "Yes, if quick",
+        "Yes, with flashers",
+        "No, never"
+      ],
+      "answer": 2,
+      "missLine": "Never cut through or join a military convoy."
+    },
+    {
+      "id": "ev-row-move-over-stopped-1",
+      "item": "row-move-over-stopped",
+      "kind": "action",
+      "prompt": "Police car stopped on shoulder, lights on.",
+      "prop": "emergency-stopped",
+      "action": "move-left",
+      "missLine": "Move to a lane not next to a stopped emergency vehicle if you safely can."
+    },
+    {
+      "id": "ev-row-move-over-stopped-2",
+      "item": "row-move-over-stopped",
+      "kind": "action",
+      "prompt": "Tow truck stopped, lights flashing.",
+      "prop": "tow-truck-stopped",
+      "weather": "night",
+      "action": "move-left",
+      "missLine": "Move over for a stopped tow truck with flashing lights if you safely can."
+    },
+    {
+      "id": "ev-row-move-over-stopped-3",
+      "item": "row-move-over-stopped",
+      "kind": "gates",
+      "prompt": "Stopped ambulance, lights on. You can't change lanes. You...",
+      "choices": [
+        "Slow down, use care",
+        "Keep your speed",
+        "Stop in your lane"
+      ],
+      "answer": 0,
+      "missLine": "Can't move over safely? Slow down and pass with care."
+    },
+    {
+      "id": "ev-row-move-over-stopped-4",
+      "item": "row-move-over-stopped",
+      "kind": "gates",
+      "prompt": "Breaking the move-over law can bring...",
+      "choices": [
+        "A warning only",
+        "Suspension and points",
+        "No penalty at all"
+      ],
+      "answer": 1,
+      "missLine": "A court can suspend your license, and you can get demerit points."
+    },
+    {
+      "id": "ev-row-trash-truck-1",
+      "item": "row-trash-truck",
+      "kind": "action",
+      "prompt": "Trash truck stopped. Four-lane highway.",
+      "prop": "trash-truck-stopped",
+      "action": "move-left",
+      "missLine": "On 4 or more lanes, move to a lane not next to a trash truck."
+    },
+    {
+      "id": "ev-row-trash-truck-2",
+      "item": "row-trash-truck",
+      "kind": "action",
+      "prompt": "Trash truck stopped on a two-lane road.",
+      "prop": "trash-truck-stopped",
+      "action": "slow",
+      "missLine": "Can't change lanes? Slow to 10 MPH below the limit and pass 2 feet left."
+    },
+    {
+      "id": "ev-row-trash-truck-3",
+      "item": "row-trash-truck",
+      "kind": "gates",
+      "prompt": "Two-lane road, stopped trash truck. Slow to...",
+      "choices": [
+        "5 MPH below limit",
+        "10 MPH below limit",
+        "20 MPH below limit"
+      ],
+      "answer": 1,
+      "missLine": "Slow to 10 MPH below the posted limit when passing a trash truck."
+    },
+    {
+      "id": "ev-row-trash-truck-4",
+      "item": "row-trash-truck",
+      "kind": "gates",
+      "prompt": "Can't move over. Pass a trash truck by at least...",
+      "choices": [
+        "2 feet",
+        "3 feet",
+        "6 feet"
+      ],
+      "answer": 0,
+      "missLine": "Pass at least 2 feet to the left of a stopped trash truck."
+    },
+    {
+      "id": "ev-row-mail-vehicle-1",
+      "item": "row-mail-vehicle",
+      "kind": "gates",
+      "prompt": "Stopped mail truck ahead. You should...",
+      "choices": [
+        "Speed past it",
+        "Pass with caution",
+        "Honk and pass"
+      ],
+      "answer": 1,
+      "missLine": "Pass a stopped mail vehicle with caution at a safe speed."
+    },
+    {
+      "id": "ev-row-mail-vehicle-2",
+      "item": "row-mail-vehicle",
+      "kind": "gates",
+      "prompt": "Passing a stopped mail vehicle. Keep a...",
+      "choices": [
+        "Safe speed",
+        "Racing speed",
+        "Speed over the limit"
+      ],
+      "answer": 0,
+      "missLine": "Passing a stopped mail vehicle? Use caution and keep a safe speed."
+    },
+    {
+      "id": "ev-row-hazard-flashers-flares-1",
+      "item": "row-hazard-flashers-flares",
+      "kind": "gates",
+      "prompt": "Stopped car with flares behind it. You must...",
+      "choices": [
+        "Change lanes",
+        "Stop behind it",
+        "Keep your lane"
+      ],
+      "answer": 0,
+      "missLine": "Flares behind a stopped car? Change lanes and pass with care."
+    },
+    {
+      "id": "ev-row-hazard-flashers-flares-2",
+      "item": "row-hazard-flashers-flares",
+      "kind": "gates",
+      "prompt": "Car stopped with hazard flashers on. You...",
+      "choices": [
+        "Honk and pass",
+        "Change lanes, use care",
+        "Speed past"
+      ],
+      "answer": 1,
+      "missLine": "Hazard flashers on a stopped car? Change lanes and pass with care."
+    },
+    {
+      "id": "ev-row-hazard-flashers-flares-3",
+      "item": "row-hazard-flashers-flares",
+      "kind": "gates",
+      "prompt": "Stopped car with caution signs out. You...",
+      "choices": [
+        "Keep your speed",
+        "Pull up close",
+        "Change lanes, use care"
+      ],
+      "answer": 2,
+      "missLine": "Caution signs out by a stopped car? Change lanes and pass with care."
+    },
+    {
+      "id": "ev-row-fire-truck-parking-1",
+      "item": "row-fire-truck-parking",
+      "kind": "gates",
+      "prompt": "Fire trucks at an alarm. No parking within...",
+      "choices": [
+        "100 feet",
+        "500 feet",
+        "1,000 feet"
+      ],
+      "answer": 1,
+      "missLine": "Do not park within 500 feet of fire trucks answering an alarm."
+    },
+    {
+      "id": "ev-row-fire-truck-parking-2",
+      "item": "row-fire-truck-parking",
+      "kind": "gates",
+      "prompt": "Park 200 feet from fire trucks at an alarm?",
+      "choices": [
+        "No, too close",
+        "Yes, it is fine",
+        "Yes, with flashers"
+      ],
+      "answer": 0,
+      "missLine": "You may not park within 500 feet of fire trucks at an alarm."
+    },
+    {
+      "id": "ev-row-follow-emergency-500-1",
+      "item": "row-follow-emergency-500",
+      "kind": "gates",
+      "prompt": "Ambulance ahead, lights flashing. Stay back at least...",
+      "choices": [
+        "100 feet",
+        "300 feet",
+        "500 feet"
+      ],
+      "answer": 2,
+      "missLine": "Never follow an emergency vehicle with flashing lights closer than 500 feet."
+    },
+    {
+      "id": "ev-row-follow-emergency-500-2",
+      "item": "row-follow-emergency-500",
+      "kind": "gates",
+      "prompt": "Fire truck ahead, lights flashing. You're 200 feet back. You...",
+      "choices": [
+        "Drop back",
+        "Stay close",
+        "Pass it"
+      ],
+      "answer": 0,
+      "missLine": "Stay at least 500 feet behind an emergency vehicle with flashing lights."
+    },
+    {
+      "id": "ev-row-follow-emergency-500-3",
+      "item": "row-follow-emergency-500",
+      "kind": "gates",
+      "prompt": "Closest you may follow a flashing emergency vehicle?",
+      "choices": [
+        "2 seconds",
+        "500 feet",
+        "100 feet"
+      ],
+      "answer": 1,
+      "missLine": "Never follow an emergency vehicle with flashing lights closer than 500 feet."
+    },
+    {
+      "id": "ev-row-pull-over-emergency-1",
+      "item": "row-pull-over-emergency",
+      "kind": "action",
+      "prompt": "Siren and lights behind you!",
+      "prop": "emergency-behind",
+      "action": "pull-over",
+      "missLine": "Pull to the right edge and stop until it passes."
+    },
+    {
+      "id": "ev-row-pull-over-emergency-2",
+      "item": "row-pull-over-emergency",
+      "kind": "action",
+      "prompt": "Ambulance behind you, lights flashing.",
+      "prop": "emergency-behind",
+      "weather": "night",
+      "action": "pull-over",
+      "missLine": "Yield right away: pull right and stop until the emergency vehicle passes."
+    },
+    {
+      "id": "ev-row-pull-over-emergency-3",
+      "item": "row-pull-over-emergency",
+      "kind": "gates",
+      "prompt": "Siren behind you. Pull over to the...",
+      "choices": [
+        "Left edge",
+        "Right edge",
+        "Middle lane"
+      ],
+      "answer": 1,
+      "missLine": "Pull over to the right edge of the road and stop."
+    },
+    {
+      "id": "ev-row-pull-over-emergency-4",
+      "item": "row-pull-over-emergency",
+      "kind": "gates",
+      "prompt": "You pulled over for a siren. Go again...",
+      "choices": [
+        "When the siren stops",
+        "Right away",
+        "After it passes"
+      ],
+      "answer": 2,
+      "missLine": "Stay stopped until the emergency vehicle has passed."
+    },
+    {
+      "id": "ev-row-emergency-opposite-1",
+      "item": "row-emergency-opposite",
+      "kind": "gates",
+      "prompt": "Ambulance coming toward you. Road has no median. You...",
+      "choices": [
+        "Keep driving",
+        "Speed up",
+        "Pull over and stop"
+      ],
+      "answer": 2,
+      "missLine": "On an undivided road, pull over and stop for an oncoming emergency vehicle."
+    },
+    {
+      "id": "ev-row-emergency-opposite-2",
+      "item": "row-emergency-opposite",
+      "kind": "gates",
+      "prompt": "Fire truck coming toward you, lights on. No median. You...",
+      "choices": [
+        "Pull over and stop",
+        "Pass it slowly",
+        "Flash your lights"
+      ],
+      "answer": 0,
+      "missLine": "No median? Pull over and stop until it passes."
+    },
+    {
+      "id": "ev-row-work-zone-exception-1",
+      "item": "row-work-zone-exception",
+      "kind": "gates",
+      "prompt": "The pull-over rules have one exception. Where?",
+      "choices": [
+        "School zones",
+        "Highway work zones",
+        "Parking lots"
+      ],
+      "answer": 1,
+      "missLine": "The pull-over rules for emergency vehicles do not apply in highway work zones."
+    },
+    {
+      "id": "ev-row-work-zone-exception-2",
+      "item": "row-work-zone-exception",
+      "kind": "gates",
+      "prompt": "Do emergency pull-over rules apply in highway work zones?",
+      "image": "sign-road-work-ahead",
+      "choices": [
+        "Yes, always",
+        "Only at night",
+        "No"
+      ],
+      "answer": 2,
+      "missLine": "In highway work zones, the emergency pull-over rules do not apply."
+    },
+    {
+      "id": "ev-row-roundabout-yield-1",
+      "item": "row-roundabout-yield",
+      "kind": "action",
+      "prompt": "Roundabout ahead.",
+      "sign": "sign-roundabout",
+      "action": "slow",
+      "missLine": "When approaching a roundabout, slow down."
+    },
+    {
+      "id": "ev-row-roundabout-yield-2",
+      "item": "row-roundabout-yield",
+      "kind": "action",
+      "prompt": "Roundabout entry. Car in the circle, no gap.",
+      "sign": "sign-yield",
+      "action": "stop",
+      "missLine": "Yield to traffic already in the circle. Stop if there is no safe gap."
+    },
+    {
+      "id": "ev-row-roundabout-yield-3",
+      "item": "row-roundabout-yield",
+      "kind": "gates",
+      "prompt": "Walker crossing at the roundabout entry. You...",
+      "choices": [
+        "Yield to them",
+        "Go first",
+        "Honk at them"
+      ],
+      "answer": 0,
+      "missLine": "Yield to pedestrians and bicyclists when entering a roundabout."
+    },
+    {
+      "id": "ev-row-roundabout-counterclockwise-1",
+      "item": "row-roundabout-counterclockwise",
+      "kind": "gates",
+      "prompt": "Which way do you travel in a roundabout?",
+      "image": "diagram-roundabout",
+      "choices": [
+        "Clockwise",
+        "Counter-clockwise",
+        "Either way"
+      ],
+      "answer": 1,
+      "missLine": "After entering a roundabout, travel counter-clockwise."
+    },
+    {
+      "id": "ev-row-roundabout-counterclockwise-2",
+      "item": "row-roundabout-counterclockwise",
+      "kind": "gates",
+      "prompt": "Inside a roundabout, traffic flows...",
+      "choices": [
+        "Counter-clockwise",
+        "Clockwise",
+        "Any direction"
+      ],
+      "answer": 0,
+      "missLine": "Roundabout traffic always moves counter-clockwise."
+    },
+    {
+      "id": "ev-row-roundabout-counterclockwise-3",
+      "item": "row-roundabout-counterclockwise",
+      "kind": "gates",
+      "prompt": "What is in the center of a roundabout?",
+      "choices": [
+        "A traffic light",
+        "A stop sign",
+        "An island"
+      ],
+      "answer": 2,
+      "missLine": "A roundabout is a circular intersection with an island in the center."
+    },
+    {
+      "id": "ev-row-roundabout-lanes-1",
+      "item": "row-roundabout-lanes",
+      "kind": "gates",
+      "prompt": "Two-lane roundabout. Turning right. Enter the...",
+      "choices": [
+        "Left lane",
+        "Right lane",
+        "Either lane"
+      ],
+      "answer": 1,
+      "missLine": "To turn right, stay to the right as you enter."
+    },
+    {
+      "id": "ev-row-roundabout-lanes-2",
+      "item": "row-roundabout-lanes",
+      "kind": "gates",
+      "prompt": "Two-lane roundabout. Going straight. Enter the...",
+      "choices": [
+        "Either lane",
+        "Left lane only",
+        "Right lane only"
+      ],
+      "answer": 0,
+      "missLine": "To go straight in a two-lane roundabout, you may use either lane."
+    },
+    {
+      "id": "ev-row-roundabout-lanes-3",
+      "item": "row-roundabout-lanes",
+      "kind": "gates",
+      "prompt": "Two-lane roundabout. Turning left. Enter the...",
+      "choices": [
+        "Right lane",
+        "Either lane",
+        "Left lane"
+      ],
+      "answer": 2,
+      "missLine": "To turn left, stay to the left as you enter."
+    },
+    {
+      "id": "ev-row-roundabout-exit-1",
+      "item": "row-roundabout-exit",
+      "kind": "gates",
+      "prompt": "Ready to leave the roundabout. Which signal?",
+      "choices": [
+        "Left signal",
+        "Right signal",
+        "No signal"
+      ],
+      "answer": 1,
+      "missLine": "Use your right turn signal to exit a roundabout."
+    },
+    {
+      "id": "ev-row-roundabout-exit-2",
+      "item": "row-roundabout-exit",
+      "kind": "gates",
+      "prompt": "Inside a roundabout, you should...",
+      "choices": [
+        "Stay in your lane",
+        "Change lanes often",
+        "Weave past cars"
+      ],
+      "answer": 0,
+      "missLine": "Stay in your lane until you are ready to exit."
+    },
+    {
+      "id": "ev-row-roundabout-exit-3",
+      "item": "row-roundabout-exit",
+      "kind": "gates",
+      "prompt": "Before exiting the roundabout, check...",
+      "choices": [
+        "Your radio",
+        "The center island",
+        "Your blind spot"
+      ],
+      "answer": 2,
+      "missLine": "Glance over your shoulder for cars in your blind spot before exiting."
+    },
+    {
+      "id": "ev-row-roundabout-direction-signs-1",
+      "item": "row-roundabout-direction-signs",
+      "kind": "gates",
+      "prompt": "Nearing a roundabout. Direction signs help you pick...",
+      "choices": [
+        "Your parking spot",
+        "Your exit",
+        "Your radio station"
+      ],
+      "answer": 1,
+      "missLine": "Street and direction signs help you know which exit to take."
+    },
+    {
+      "id": "ev-row-roundabout-direction-signs-2",
+      "item": "row-roundabout-direction-signs",
+      "kind": "gates",
+      "prompt": "Where are roundabout direction signs posted?",
+      "choices": [
+        "On the center island",
+        "After the last exit",
+        "Before the roundabout"
+      ],
+      "answer": 2,
+      "missLine": "Look for direction signs along the road before you reach the roundabout."
+    },
+    {
+      "id": "ev-row-roundabout-entry-control-1",
+      "item": "row-roundabout-entry-control",
+      "kind": "action",
+      "prompt": "Stop sign at the roundabout entry.",
+      "prop": "stop-line",
+      "sign": "sign-stop",
+      "action": "stop",
+      "missLine": "Obey a stop sign at a roundabout entry. Enter when the way is clear."
+    },
+    {
+      "id": "ev-row-roundabout-entry-control-2",
+      "item": "row-roundabout-entry-control",
+      "kind": "gates",
+      "prompt": "At the roundabout entry. When may you enter?",
+      "choices": [
+        "When the way is clear",
+        "As soon as you arrive",
+        "When someone honks"
+      ],
+      "answer": 0,
+      "missLine": "Enter the roundabout only when the way is clear."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-row-stop-red-signals-1",
+      "item": "row-stop-red-signals",
+      "part": 1,
+      "prompt": "When you come to this flashing signal, you must:",
+      "image": "signal-flashing-red",
+      "choices": [
+        "Always stop your vehicle",
+        "Slow down but keep going",
+        "Stop only if cars are near",
+        "Speed up to clear it"
+      ],
+      "answer": 0,
+      "explain": "You must always stop at a flashing red signal."
+    },
+    {
+      "id": "q-row-stop-red-signals-2",
+      "item": "row-stop-red-signals",
+      "part": 2,
+      "prompt": "You must always stop your vehicle at:",
+      "choices": [
+        "Flashing yellow signals",
+        "Yield signs with no traffic",
+        "Green arrows",
+        "Red traffic lights"
+      ],
+      "answer": 3,
+      "explain": "You must always stop at stop signs, red traffic lights and flashing red signals."
+    },
+    {
+      "id": "q-row-stop-red-signals-3",
+      "item": "row-stop-red-signals",
+      "part": 1,
+      "prompt": "When this light is showing, you must:",
+      "image": "signal-red",
+      "choices": [
+        "Slow down and keep going",
+        "Stop your vehicle",
+        "Yield, but you do not need to stop",
+        "Speed up to beat it"
+      ],
+      "answer": 1,
+      "explain": "A red traffic light means you must stop."
+    },
+    {
+      "id": "q-row-driveway-stop-1",
+      "item": "row-driveway-stop",
+      "part": 2,
+      "prompt": "When you enter a street from a driveway, alley or parking lot, you must:",
+      "choices": [
+        "Slow down and merge",
+        "Stop only if a car is coming",
+        "Stop before crossing the sidewalk",
+        "Sound your horn and go"
+      ],
+      "answer": 2,
+      "explain": "You must stop when entering a street or crossing a sidewalk from a driveway, alley, building or parking lot."
+    },
+    {
+      "id": "q-row-driveway-stop-2",
+      "item": "row-driveway-stop",
+      "part": 2,
+      "prompt": "When entering a roadway from a private road or driveway, you must:",
+      "choices": [
+        "Stop and yield to all traffic and pedestrians",
+        "Yield only to vehicles on your right",
+        "Go first because you are turning",
+        "Stop only if there is a stop sign"
+      ],
+      "answer": 0,
+      "explain": "From a private road or driveway, you must stop and yield to all traffic and pedestrians."
+    },
+    {
+      "id": "q-row-stop-railroad-flashing-1",
+      "item": "row-stop-railroad-flashing",
+      "part": 1,
+      "prompt": "When the lights on this sign are flashing, you must:",
+      "image": "sign-crossbuck-lights",
+      "choices": [
+        "Slow down and look both ways",
+        "Cross quickly before the train",
+        "Stop your vehicle",
+        "Stop only if you see a train"
+      ],
+      "answer": 2,
+      "explain": "You must always stop at railroad crossings with flashing signals."
+    },
+    {
+      "id": "q-row-stop-railroad-flashing-2",
+      "item": "row-stop-railroad-flashing",
+      "part": 2,
+      "prompt": "You must always stop your vehicle at a railroad crossing when:",
+      "choices": [
+        "Its signals are flashing",
+        "It is after dark",
+        "The road is wet",
+        "You are driving a truck"
+      ],
+      "answer": 0,
+      "explain": "You must always stop at railroad crossings with flashing signals."
+    },
+    {
+      "id": "q-row-stop-flagger-1",
+      "item": "row-stop-flagger",
+      "part": 1,
+      "prompt": "A flagger directing traffic turns this paddle to STOP. You must:",
+      "image": "sign-flagger-paddle",
+      "choices": [
+        "Slow down and pass with care",
+        "Stop your vehicle",
+        "Change lanes and go",
+        "Honk, then go"
+      ],
+      "answer": 1,
+      "explain": "You must always stop when a flagger directing traffic signals you to stop."
+    },
+    {
+      "id": "q-row-stop-flagger-2",
+      "item": "row-stop-flagger",
+      "part": 2,
+      "prompt": "You must always stop your vehicle when:",
+      "choices": [
+        "You see a yield sign",
+        "You see a flashing yellow light",
+        "A car behind you flashes its lights",
+        "A flagger directing traffic signals you to stop"
+      ],
+      "answer": 3,
+      "explain": "You must always stop when signaled by flaggers directing traffic."
+    },
+    {
+      "id": "q-row-police-signal-1",
+      "item": "row-police-signal",
+      "part": 2,
+      "prompt": "If you do not obey a police officer's signal to stop, and the officer is killed as a direct result of chasing you, you are guilty of:",
+      "choices": [
+        "A Class 1 misdemeanor",
+        "Reckless driving",
+        "A Class 4 felony",
+        "A traffic infraction"
+      ],
+      "answer": 2,
+      "explain": "Refusing to stop for an officer who is then killed chasing you is a Class 4 felony."
+    },
+    {
+      "id": "q-row-police-signal-2",
+      "item": "row-police-signal",
+      "part": 2,
+      "prompt": "You must always stop your vehicle:",
+      "choices": [
+        "When a police officer directs you to stop",
+        "When a car behind you honks",
+        "When you see a speed limit sign",
+        "When a light turns green"
+      ],
+      "answer": 0,
+      "explain": "You must always stop at the direction of a police officer."
+    },
+    {
+      "id": "q-row-stop-crash-scene-1",
+      "item": "row-stop-crash-scene",
+      "part": 2,
+      "prompt": "You must stop your vehicle at the scene of a crash when:",
+      "choices": [
+        "Police are already there",
+        "It happens at night",
+        "It happens on an interstate",
+        "You are involved in the crash"
+      ],
+      "answer": 3,
+      "explain": "You must always stop at the scene of a crash in which you are involved."
+    },
+    {
+      "id": "q-row-stop-crash-scene-2",
+      "item": "row-stop-crash-scene",
+      "part": 2,
+      "prompt": "If you are involved in a crash, you must:",
+      "choices": [
+        "Leave if no one looks hurt",
+        "Stop at the scene",
+        "Drive to a police station first",
+        "Call your insurance before stopping"
+      ],
+      "answer": 1,
+      "explain": "You must always stop at the scene of a crash in which you are involved."
+    },
+    {
+      "id": "q-row-stop-sign-car-ahead-1",
+      "item": "row-stop-sign-car-ahead",
+      "part": 1,
+      "prompt": "You are behind a car at this sign. That car stops, then goes. You must:",
+      "image": "sign-stop",
+      "choices": [
+        "Follow the car without stopping",
+        "Stop at the sign, then go when clear",
+        "Slow down and roll through",
+        "Wait for a green light"
+      ],
+      "answer": 1,
+      "explain": "When the car ahead proceeds, you still stop at the sign and go when the way is clear."
+    },
+    {
+      "id": "q-row-stop-sign-car-ahead-2",
+      "item": "row-stop-sign-car-ahead",
+      "part": 2,
+      "prompt": "The car in front of you stops at a stop sign and then proceeds. You should:",
+      "choices": [
+        "Follow closely to keep traffic moving",
+        "Yield, but you do not need to stop",
+        "Stop only if a car is crossing",
+        "Stop at the sign and go when the way is clear"
+      ],
+      "answer": 3,
+      "explain": "Stop at the sign yourself, then proceed when the way is clear."
+    },
+    {
+      "id": "q-row-school-bus-stop-1",
+      "item": "row-school-bus-stop",
+      "part": 2,
+      "prompt": "You approach a stopped school bus with flashing red lights and its stop sign out. You must:",
+      "image": "diagram-school-bus-stop",
+      "choices": [
+        "Slow down and pass with care",
+        "Stop only if you are behind the bus",
+        "Stop, from any direction, until all are clear and the bus moves",
+        "Stop, then pass when children reach the sidewalk"
+      ],
+      "answer": 2,
+      "explain": "Stop from any direction and stay stopped until all persons are clear and the bus moves again."
+    },
+    {
+      "id": "q-row-school-bus-stop-2",
+      "item": "row-school-bus-stop",
+      "part": 2,
+      "prompt": "After stopping for a school bus with flashing red lights, you may go when:",
+      "choices": [
+        "The bus driver waves to you",
+        "All people are clear and the bus moves again",
+        "The last child steps off the bus",
+        "Traffic behind you starts to honk"
+      ],
+      "answer": 1,
+      "explain": "Remain stopped until all persons are clear and the bus moves again."
+    },
+    {
+      "id": "q-row-school-bus-stop-3",
+      "item": "row-school-bus-stop",
+      "part": 2,
+      "prompt": "You must stop for a stopped school bus with flashing red lights and its stop sign out on a:",
+      "choices": [
+        "Highway only",
+        "School driveway only",
+        "Highway or private road only",
+        "Highway, private road or school driveway"
+      ],
+      "answer": 3,
+      "explain": "The rule applies on a highway, private road or school driveway."
+    },
+    {
+      "id": "q-row-school-bus-no-lights-1",
+      "item": "row-school-bus-no-lights",
+      "part": 2,
+      "prompt": "A school bus is unloading children, but its warning lights are not on. You must:",
+      "choices": [
+        "Stop",
+        "Pass with care",
+        "Pass on the left only",
+        "Honk to warn the children"
+      ],
+      "answer": 0,
+      "explain": "You must stop if the bus is loading or unloading passengers, even when the signals are not on."
+    },
+    {
+      "id": "q-row-school-bus-no-lights-2",
+      "item": "row-school-bus-no-lights",
+      "part": 2,
+      "prompt": "You must stop for a school bus that is loading or unloading passengers:",
+      "choices": [
+        "Only when its red lights are flashing",
+        "Only when its stop arm is out",
+        "Even if its signals are not on",
+        "Only on school property"
+      ],
+      "answer": 2,
+      "explain": "You must also stop if the bus is loading or unloading and the signals are not on."
+    },
+    {
+      "id": "q-row-school-bus-median-1",
+      "item": "row-school-bus-median",
+      "part": 2,
+      "prompt": "A school bus with flashing red lights is stopped on the other side of a median. You are going the opposite way. You:",
+      "image": "diagram-school-bus-median",
+      "choices": [
+        "Must stop until the bus moves",
+        "Do not have to stop, but watch for people leaving the bus",
+        "Must stop only if children are crossing",
+        "Must change to the left lane"
+      ],
+      "answer": 1,
+      "explain": "With a median or barrier between you and the bus, you do not have to stop, but watch for people leaving the bus."
+    },
+    {
+      "id": "q-row-school-bus-median-2",
+      "item": "row-school-bus-median",
+      "part": 2,
+      "prompt": "When may you pass a stopped school bus with flashing red lights without stopping?",
+      "choices": [
+        "When no children are in sight",
+        "When you are behind the bus",
+        "On a two-lane road with no median",
+        "When a median or barrier divides you from the bus and you go the opposite way"
+      ],
+      "answer": 3,
+      "explain": "You need not stop only when going the opposite way with a median or barrier between you and the bus."
+    },
+    {
+      "id": "q-row-yield-means-stop-1",
+      "item": "row-yield-means-stop",
+      "part": 1,
+      "prompt": "At this sign, if you cannot merge safely into traffic, you must:",
+      "image": "sign-yield",
+      "choices": [
+        "Stop",
+        "Speed up",
+        "Honk and merge",
+        "Use the shoulder"
+      ],
+      "answer": 0,
+      "explain": "Yield also means to stop if you cannot merge safely."
+    },
+    {
+      "id": "q-row-yield-means-stop-2",
+      "item": "row-yield-means-stop",
+      "part": 2,
+      "prompt": "Yield also means:",
+      "choices": [
+        "Speed up to merge ahead of traffic",
+        "Stop if you cannot merge safely",
+        "Traffic must make room for you",
+        "Use your horn before merging"
+      ],
+      "answer": 1,
+      "explain": "Yield also means to stop if you cannot merge safely into the flow of traffic."
+    },
+    {
+      "id": "q-row-first-to-arrive-1",
+      "item": "row-first-to-arrive",
+      "part": 2,
+      "prompt": "When vehicles from different directions arrive at an intersection at different times:",
+      "choices": [
+        "The vehicle on the right goes first",
+        "The larger vehicle goes first",
+        "The vehicle that arrives first goes first",
+        "The vehicle turning left goes first"
+      ],
+      "answer": 2,
+      "explain": "The vehicle that arrives first goes first."
+    },
+    {
+      "id": "q-row-first-to-arrive-2",
+      "item": "row-first-to-arrive",
+      "part": 2,
+      "prompt": "A car from another direction reached the intersection before you. Who goes first?",
+      "choices": [
+        "The other car, because it arrived first",
+        "You, if you are going straight",
+        "Whoever has the bigger vehicle",
+        "You, if the other car is turning"
+      ],
+      "answer": 0,
+      "explain": "At different arrival times, the first to arrive goes first."
+    },
+    {
+      "id": "q-row-left-yields-right-1",
+      "item": "row-left-yields-right",
+      "part": 2,
+      "prompt": "Two vehicles arrive at the same time at an intersection with no signs or signals. Which driver must yield?",
+      "choices": [
+        "The driver on the right",
+        "The driver on the left",
+        "The driver going straight",
+        "The driver in the larger vehicle"
+      ],
+      "answer": 1,
+      "explain": "The driver on the left must allow the driver on the right to go first."
+    },
+    {
+      "id": "q-row-left-yields-right-2",
+      "item": "row-left-yields-right",
+      "part": 2,
+      "prompt": "At an intersection with no signs or signals, you and a car on your right arrive at the same time. You must:",
+      "choices": [
+        "Go first because you are on the left",
+        "Flash your lights and go",
+        "Go first if you are going straight",
+        "Let the driver on the right go first"
+      ],
+      "answer": 3,
+      "explain": "When you arrive together, the driver on the left yields to the driver on the right."
+    },
+    {
+      "id": "q-row-signals-out-1",
+      "item": "row-signals-out",
+      "part": 1,
+      "prompt": "When the traffic lights at an intersection are out like this, you must:",
+      "image": "signal-out",
+      "choices": [
+        "Slow down and keep going",
+        "Stop, and the driver on the left yields to the right",
+        "Go if you are on the main road",
+        "Stop only if cars are coming"
+      ],
+      "answer": 1,
+      "explain": "If the lights are not working, all vehicles must stop and the driver on the left yields to the right."
+    },
+    {
+      "id": "q-row-signals-out-2",
+      "item": "row-signals-out",
+      "part": 2,
+      "prompt": "If the traffic lights are not working at an intersection:",
+      "choices": [
+        "Main road traffic does not need to stop",
+        "Only vehicles turning left must stop",
+        "All vehicles must stop",
+        "Drivers on the right must stop"
+      ],
+      "answer": 2,
+      "explain": "All vehicles coming to the intersection must stop."
+    },
+    {
+      "id": "q-row-signals-out-3",
+      "item": "row-signals-out",
+      "part": 1,
+      "prompt": "The lights at this intersection are not working. You and a car on your left arrive at the same time. Who goes first?",
+      "image": "signal-out",
+      "choices": [
+        "The car on your left",
+        "Whoever honks first",
+        "Neither; wait for police",
+        "You do"
+      ],
+      "answer": 3,
+      "explain": "The driver on the left must yield to the driver on the right."
+    },
+    {
+      "id": "q-row-interstate-ramp-1",
+      "item": "row-interstate-ramp",
+      "part": 2,
+      "prompt": "Drivers entering an interstate from an entrance ramp must:",
+      "choices": [
+        "Expect highway traffic to let them in",
+        "Stop at the end of the ramp every time",
+        "Yield the right-of-way to traffic already on the highway",
+        "Use the shoulder to speed up"
+      ],
+      "answer": 2,
+      "explain": "Drivers on an entrance ramp must yield to traffic already on the highway."
+    },
+    {
+      "id": "q-row-interstate-ramp-2",
+      "item": "row-interstate-ramp",
+      "part": 2,
+      "prompt": "When you enter an interstate from a ramp, who has the right-of-way?",
+      "choices": [
+        "Traffic already on the highway",
+        "You, because you are merging",
+        "The fastest vehicle",
+        "Only trucks"
+      ],
+      "answer": 0,
+      "explain": "Traffic already on the highway has the right-of-way."
+    },
+    {
+      "id": "q-row-already-in-intersection-1",
+      "item": "row-already-in-intersection",
+      "part": 2,
+      "prompt": "When you enter any intersection or roundabout, you must yield to:",
+      "choices": [
+        "Traffic already in it",
+        "Only traffic on your left",
+        "Only traffic coming from the right",
+        "Vehicles waiting behind you"
+      ],
+      "answer": 0,
+      "explain": "Drivers entering any intersection or roundabout must yield to traffic already in it."
+    },
+    {
+      "id": "q-row-already-in-intersection-2",
+      "item": "row-already-in-intersection",
+      "part": 2,
+      "prompt": "A car is already inside the intersection when you arrive. Who has the right-of-way?",
+      "choices": [
+        "You, if you are going straight",
+        "You, if you are on the right",
+        "The car already in the intersection",
+        "Whoever is moving faster"
+      ],
+      "answer": 2,
+      "explain": "Traffic already in the intersection has the right-of-way."
+    },
+    {
+      "id": "q-row-yield-pedestrians-bikes-1",
+      "item": "row-yield-pedestrians-bikes",
+      "part": 2,
+      "prompt": "You must yield to pedestrians and bicyclists crossing the street:",
+      "choices": [
+        "Only at crosswalks with signals",
+        "In a marked crosswalk or at an unmarked intersection",
+        "Only when they have a walk signal",
+        "Only in school zones"
+      ],
+      "answer": 1,
+      "explain": "Yield to pedestrians or bicyclists in a clearly marked crosswalk or at an unmarked intersection."
+    },
+    {
+      "id": "q-row-yield-pedestrians-bikes-2",
+      "item": "row-yield-pedestrians-bikes",
+      "part": 2,
+      "prompt": "Turns on red are especially hazardous to:",
+      "choices": [
+        "Trucks",
+        "Motorcycles",
+        "Buses",
+        "Pedestrians"
+      ],
+      "answer": 3,
+      "explain": "Remember that turns on red are especially hazardous to pedestrians."
+    },
+    {
+      "id": "q-row-yield-pedestrians-bikes-3",
+      "item": "row-yield-pedestrians-bikes",
+      "part": 2,
+      "prompt": "A pedestrian is trying to cross the street at a crosswalk ahead. You must:",
+      "choices": [
+        "Stop and let them cross",
+        "Honk so they wait",
+        "Drive around them",
+        "Speed up to pass first"
+      ],
+      "answer": 0,
+      "explain": "You must always stop for pedestrians attempting to cross at a crosswalk."
+    },
+    {
+      "id": "q-row-yield-pedestrians-bikes-4",
+      "item": "row-yield-pedestrians-bikes",
+      "part": 1,
+      "prompt": "You see this sign and a person is crossing in the crosswalk. You must:",
+      "image": "sign-pedestrian-crossing",
+      "choices": [
+        "Speed up to pass first",
+        "Yield and let them cross",
+        "Honk and keep going",
+        "Flash your lights and go"
+      ],
+      "answer": 1,
+      "explain": "You must yield to pedestrians crossing in a crosswalk."
+    },
+    {
+      "id": "q-row-funeral-procession-1",
+      "item": "row-funeral-procession",
+      "part": 2,
+      "prompt": "When you meet a funeral procession, you must:",
+      "choices": [
+        "Pass it on the right",
+        "Join the end of the line",
+        "Yield and not cut through or join it",
+        "Honk to warn it"
+      ],
+      "answer": 2,
+      "explain": "You must yield to funeral processions and not cut through, join or interfere with them."
+    },
+    {
+      "id": "q-row-funeral-procession-2",
+      "item": "row-funeral-procession",
+      "part": 2,
+      "prompt": "Unless led by a police escort, the lead vehicle in a funeral procession must:",
+      "choices": [
+        "Use hazard lights only",
+        "Obey all traffic signs and signals",
+        "Drive through red lights",
+        "Drive in the left lane"
+      ],
+      "answer": 1,
+      "explain": "The lead vehicle must obey all traffic signs and signals unless a police escort leads."
+    },
+    {
+      "id": "q-row-funeral-procession-3",
+      "item": "row-funeral-procession",
+      "part": 2,
+      "prompt": "Other drivers in a funeral procession may:",
+      "choices": [
+        "Pass other cars in the procession",
+        "Drive on the shoulder",
+        "Ignore police directions",
+        "Follow carefully without stopping and use hazard flashers"
+      ],
+      "answer": 3,
+      "explain": "Drivers in the procession may follow carefully without stopping and may use hazard lights."
+    },
+    {
+      "id": "q-row-military-convoy-1",
+      "item": "row-military-convoy",
+      "part": 2,
+      "prompt": "When you meet a military convoy, you must:",
+      "choices": [
+        "Pass it on the right",
+        "Join it to stay safe",
+        "Yield and never cut through or join it",
+        "Honk so it moves over"
+      ],
+      "answer": 2,
+      "explain": "You must yield to all military convoys and never cut through or join one."
+    },
+    {
+      "id": "q-row-military-convoy-2",
+      "item": "row-military-convoy",
+      "part": 2,
+      "prompt": "You must always yield the right-of-way to:",
+      "choices": [
+        "Military convoys",
+        "Vehicles behind you",
+        "Cars in the left lane",
+        "Delivery trucks"
+      ],
+      "answer": 0,
+      "explain": "You must yield to all military convoys."
+    },
+    {
+      "id": "q-row-move-over-stopped-1",
+      "item": "row-move-over-stopped",
+      "part": 2,
+      "prompt": "When you approach a stopped emergency vehicle or tow truck with flashing lights on a highway, you should:",
+      "choices": [
+        "Speed up to pass it quickly",
+        "Change to a lane not next to it if you safely can",
+        "Stop behind it until it leaves",
+        "Honk to warn the workers"
+      ],
+      "answer": 1,
+      "explain": "If reasonable and safe, change to a lane not next to the stopped vehicle."
+    },
+    {
+      "id": "q-row-move-over-stopped-2",
+      "item": "row-move-over-stopped",
+      "part": 2,
+      "prompt": "If you cannot safely change lanes when passing a stopped tow truck with flashing lights, you must:",
+      "choices": [
+        "Stop in your lane",
+        "Pass on the shoulder",
+        "Keep your speed",
+        "Reduce your speed and proceed with caution"
+      ],
+      "answer": 3,
+      "explain": "If you cannot change lanes safely, reduce your speed and proceed with caution."
+    },
+    {
+      "id": "q-row-move-over-stopped-3",
+      "item": "row-move-over-stopped",
+      "part": 2,
+      "prompt": "Not moving over or slowing for a stopped emergency vehicle can result in:",
+      "choices": [
+        "Court suspension of your license and demerit points",
+        "A warning only",
+        "No penalty if no one is hurt",
+        "A free safety class"
+      ],
+      "answer": 0,
+      "explain": "Violations can result in court suspension of your license and demerit points."
+    },
+    {
+      "id": "q-row-move-over-stopped-4",
+      "item": "row-move-over-stopped",
+      "part": 2,
+      "prompt": "Drivers must take specific actions when they see vehicles with flashing lights that are:",
+      "choices": [
+        "Green only",
+        "Purple or pink",
+        "Blue, red, amber (yellow) or white",
+        "Blue only"
+      ],
+      "answer": 2,
+      "explain": "The rules cover flashing blue, red, amber (yellow) or white lights."
+    },
+    {
+      "id": "q-row-trash-truck-1",
+      "item": "row-trash-truck",
+      "part": 2,
+      "prompt": "On a highway with fewer than four lanes, when passing a stopped trash collection vehicle you must:",
+      "choices": [
+        "Keep your speed and pass at least 1 foot away",
+        "Slow to 10 MPH below the limit and pass at least 2 feet to its left",
+        "Slow to 5 MPH below the limit and pass at least 3 feet to its left",
+        "Stop until it moves"
+      ],
+      "answer": 1,
+      "explain": "Slow to 10 MPH below the posted limit and pass at least two feet to the left."
+    },
+    {
+      "id": "q-row-trash-truck-2",
+      "item": "row-trash-truck",
+      "part": 2,
+      "prompt": "On a highway of at least four lanes, when passing a stopped trash truck you should:",
+      "choices": [
+        "Stop behind it",
+        "Honk and pass",
+        "Change to a lane not next to it, if you can do so safely",
+        "Use the shoulder"
+      ],
+      "answer": 2,
+      "explain": "On four or more lanes, change to a lane not next to the trash truck if safe."
+    },
+    {
+      "id": "q-row-trash-truck-3",
+      "item": "row-trash-truck",
+      "part": 2,
+      "prompt": "When you cannot change lanes, you must pass a stopped trash truck at least how far to its left?",
+      "choices": [
+        "1 foot",
+        "2 feet",
+        "3 feet",
+        "5 feet"
+      ],
+      "answer": 1,
+      "explain": "Pass at least two feet to the left of the trash collection vehicle."
+    },
+    {
+      "id": "q-row-mail-vehicle-1",
+      "item": "row-mail-vehicle",
+      "part": 2,
+      "prompt": "When passing a stopped mail vehicle, you should:",
+      "choices": [
+        "Stop until it moves",
+        "Honk to warn the carrier",
+        "Speed up to get by quickly",
+        "Proceed with caution at a safe speed"
+      ],
+      "answer": 3,
+      "explain": "Proceed with caution and keep a safe speed for highway conditions."
+    },
+    {
+      "id": "q-row-mail-vehicle-2",
+      "item": "row-mail-vehicle",
+      "part": 2,
+      "prompt": "A mail vehicle is stopped along the road ahead. The law says to:",
+      "choices": [
+        "Stop behind it",
+        "Proceed with caution and keep a safe speed",
+        "Honk to warn the driver",
+        "Pass on the right"
+      ],
+      "answer": 1,
+      "explain": "When passing a stopped mail vehicle, proceed with caution at a safe speed."
+    },
+    {
+      "id": "q-row-hazard-flashers-flares-1",
+      "item": "row-hazard-flashers-flares",
+      "part": 2,
+      "prompt": "When passing a stopped vehicle that has its hazard flashers on, caution signs out or lit flares, you must:",
+      "choices": [
+        "Keep your lane and speed",
+        "Stop until help arrives",
+        "Change lanes and proceed with caution",
+        "Flash your headlights"
+      ],
+      "answer": 2,
+      "explain": "You are required to make a lane change and proceed with caution."
+    },
+    {
+      "id": "q-row-hazard-flashers-flares-2",
+      "item": "row-hazard-flashers-flares",
+      "part": 2,
+      "prompt": "Lit flares or torches behind a stopped vehicle mean you must:",
+      "choices": [
+        "Make a lane change and proceed with caution",
+        "Turn on your own flashers and stop",
+        "Pull over behind the vehicle",
+        "Drive on the shoulder"
+      ],
+      "answer": 0,
+      "explain": "Lit flares or torches behind a stopped vehicle mean you must change lanes and proceed with caution."
+    },
+    {
+      "id": "q-row-fire-truck-parking-1",
+      "item": "row-fire-truck-parking",
+      "part": 2,
+      "prompt": "You may not park within ___ feet of where fire trucks are stopped answering an alarm.",
+      "choices": [
+        "100",
+        "250",
+        "500",
+        "1,000"
+      ],
+      "answer": 2,
+      "explain": "You may not park within 500 feet of fire trucks or equipment answering an alarm."
+    },
+    {
+      "id": "q-row-fire-truck-parking-2",
+      "item": "row-fire-truck-parking",
+      "part": 2,
+      "prompt": "Where fire trucks or equipment are stopped answering an alarm, you may not park within:",
+      "choices": [
+        "50 feet",
+        "200 feet",
+        "300 feet",
+        "500 feet"
+      ],
+      "answer": 3,
+      "explain": "The no-parking distance near fire trucks answering an alarm is 500 feet."
+    },
+    {
+      "id": "q-row-follow-emergency-500-1",
+      "item": "row-follow-emergency-500",
+      "part": 2,
+      "prompt": "When an emergency vehicle has its lights flashing, you should never follow closer than:",
+      "choices": [
+        "500 feet",
+        "100 feet",
+        "250 feet",
+        "1,000 feet"
+      ],
+      "answer": 0,
+      "explain": "Never follow an emergency vehicle closer than 500 feet when its lights are flashing."
+    },
+    {
+      "id": "q-row-follow-emergency-500-2",
+      "item": "row-follow-emergency-500",
+      "part": 2,
+      "prompt": "You are driving behind a fire truck with flashing lights. You should:",
+      "choices": [
+        "Follow closely to get through traffic",
+        "Stay at least 500 feet behind it",
+        "Pass it on the right",
+        "Stay about 100 feet behind it"
+      ],
+      "answer": 1,
+      "explain": "Never follow an emergency vehicle closer than 500 feet when its lights are flashing."
+    },
+    {
+      "id": "q-row-pull-over-emergency-1",
+      "item": "row-pull-over-emergency",
+      "part": 2,
+      "prompt": "When an emergency vehicle using a siren or flashing lights approaches from behind, you must:",
+      "choices": [
+        "Speed up to stay ahead",
+        "Stop in your lane right away",
+        "Pull over to the right edge of the road and stop until it passes",
+        "Pull to the left and keep driving"
+      ],
+      "answer": 2,
+      "explain": "Pull over to the right edge of the road and stop until the emergency vehicle has passed."
+    },
+    {
+      "id": "q-row-pull-over-emergency-2",
+      "item": "row-pull-over-emergency",
+      "part": 2,
+      "prompt": "An ambulance with flashing lights but no siren is coming up behind you. You must yield:",
+      "choices": [
+        "Only if it also uses a siren",
+        "Immediately",
+        "After the next intersection",
+        "Only on highways"
+      ],
+      "answer": 1,
+      "explain": "A siren, flashing lights or both means you must immediately yield the right-of-way."
+    },
+    {
+      "id": "q-row-emergency-opposite-1",
+      "item": "row-emergency-opposite",
+      "part": 2,
+      "prompt": "When an emergency vehicle approaches from the opposite direction on an undivided highway, you must:",
+      "choices": [
+        "Keep driving at the same speed",
+        "Pull over to the edge of the road and stop until it passes",
+        "Only slow down",
+        "Flash your headlights"
+      ],
+      "answer": 1,
+      "explain": "On an undivided highway, pull over to the edge of the road and stop until it passes."
+    },
+    {
+      "id": "q-row-emergency-opposite-2",
+      "item": "row-emergency-opposite",
+      "part": 2,
+      "prompt": "You must pull over and stop for an emergency vehicle coming from the opposite direction when:",
+      "choices": [
+        "It is daytime",
+        "You are in the left lane",
+        "The other driver waves",
+        "The highway is undivided"
+      ],
+      "answer": 3,
+      "explain": "The pull-over rule for oncoming emergency vehicles applies on an undivided highway."
+    },
+    {
+      "id": "q-row-work-zone-exception-1",
+      "item": "row-work-zone-exception",
+      "part": 2,
+      "prompt": "The requirements to pull over and stop for approaching emergency vehicles do not apply:",
+      "choices": [
+        "In highway work zones",
+        "On interstates",
+        "At night",
+        "In school zones"
+      ],
+      "answer": 0,
+      "explain": "These requirements do not apply in highway work zones."
+    },
+    {
+      "id": "q-row-work-zone-exception-2",
+      "item": "row-work-zone-exception",
+      "part": 2,
+      "prompt": "In a highway work zone, the rules for pulling over for approaching emergency vehicles:",
+      "image": "sign-road-work-ahead",
+      "choices": [
+        "Still apply",
+        "Do not apply",
+        "Apply only at night",
+        "Apply only to trucks"
+      ],
+      "answer": 1,
+      "explain": "The emergency vehicle pull-over requirements do not apply in highway work zones."
+    },
+    {
+      "id": "q-row-roundabout-yield-1",
+      "item": "row-roundabout-yield",
+      "part": 1,
+      "prompt": "This sign warns of a roundabout ahead. When you enter the roundabout, you must yield to:",
+      "image": "sign-roundabout",
+      "choices": [
+        "No one; circle traffic yields to you",
+        "Pedestrians and traffic already in the circle",
+        "Only large trucks",
+        "Only traffic entering after you"
+      ],
+      "answer": 1,
+      "explain": "Entering traffic must yield to pedestrians and to traffic already in the circle."
+    },
+    {
+      "id": "q-row-roundabout-yield-2",
+      "item": "row-roundabout-yield",
+      "part": 2,
+      "prompt": "Each road approaching a roundabout is marked with a:",
+      "image": "diagram-roundabout",
+      "choices": [
+        "Yield sign",
+        "No Passing sign",
+        "School Zone sign",
+        "Do Not Enter sign"
+      ],
+      "answer": 0,
+      "explain": "Each road approaching a roundabout has a yield sign and may also have a yield line."
+    },
+    {
+      "id": "q-row-roundabout-yield-3",
+      "item": "row-roundabout-yield",
+      "part": 2,
+      "prompt": "As you approach a roundabout, you should:",
+      "choices": [
+        "Speed up to find a gap",
+        "Change lanes in the circle",
+        "Stop inside the circle",
+        "Slow down"
+      ],
+      "answer": 3,
+      "explain": "When approaching a roundabout, slow down."
+    },
+    {
+      "id": "q-row-roundabout-counterclockwise-1",
+      "item": "row-roundabout-counterclockwise",
+      "part": 2,
+      "prompt": "After entering a roundabout, drivers must travel:",
+      "image": "diagram-roundabout",
+      "choices": [
+        "Clockwise",
+        "In any direction",
+        "Toward the center island",
+        "Counter-clockwise"
+      ],
+      "answer": 3,
+      "explain": "After entering a roundabout, drivers must travel counter-clockwise."
+    },
+    {
+      "id": "q-row-roundabout-counterclockwise-2",
+      "item": "row-roundabout-counterclockwise",
+      "part": 2,
+      "prompt": "A roundabout is:",
+      "choices": [
+        "A circular intersection with an island in the center",
+        "A highway entrance ramp",
+        "A four-way stop",
+        "A U-turn area"
+      ],
+      "answer": 0,
+      "explain": "Roundabouts are circular intersections with an island in the center and one or more lanes."
+    },
+    {
+      "id": "q-row-roundabout-lanes-1",
+      "item": "row-roundabout-lanes",
+      "part": 2,
+      "prompt": "If you plan to turn left at a two-lane roundabout, you should:",
+      "choices": [
+        "Stay to the right as you enter",
+        "Stay to the left as you enter",
+        "Use either lane",
+        "Drive onto the center island"
+      ],
+      "answer": 1,
+      "explain": "If you plan to turn left, stay to the left as you enter the roundabout."
+    },
+    {
+      "id": "q-row-roundabout-lanes-2",
+      "item": "row-roundabout-lanes",
+      "part": 2,
+      "prompt": "If you plan to go straight through a dual-lane roundabout, you may:",
+      "choices": [
+        "Use only the left lane",
+        "Use only the right lane",
+        "Stay in either lane",
+        "Go around the circle twice"
+      ],
+      "answer": 2,
+      "explain": "To go straight in a dual-lane roundabout, you may stay in either lane."
+    },
+    {
+      "id": "q-row-roundabout-lanes-3",
+      "item": "row-roundabout-lanes",
+      "part": 2,
+      "prompt": "If you plan to turn right at a roundabout, you should:",
+      "image": "diagram-roundabout",
+      "choices": [
+        "Stay to the left as you enter",
+        "Use the lane closest to the island",
+        "Go around the whole circle first",
+        "Stay to the right as you enter"
+      ],
+      "answer": 3,
+      "explain": "If you plan to turn right, stay to the right as you enter the roundabout."
+    },
+    {
+      "id": "q-row-roundabout-exit-1",
+      "item": "row-roundabout-exit",
+      "part": 2,
+      "prompt": "When you are ready to exit a roundabout, you should:",
+      "choices": [
+        "Use your right turn signal",
+        "Use your left turn signal",
+        "Stop in the circle",
+        "Sound your horn"
+      ],
+      "answer": 0,
+      "explain": "Use your right turn signal to show you are exiting."
+    },
+    {
+      "id": "q-row-roundabout-exit-2",
+      "item": "row-roundabout-exit",
+      "part": 2,
+      "prompt": "While driving inside a roundabout, you should:",
+      "choices": [
+        "Stay in your lane until you are ready to exit",
+        "Change lanes often to find your exit",
+        "Stop to let cars enter",
+        "Pass vehicles on the left"
+      ],
+      "answer": 0,
+      "explain": "Stay in your lane until you are ready to exit."
+    },
+    {
+      "id": "q-row-roundabout-exit-3",
+      "item": "row-roundabout-exit",
+      "part": 2,
+      "prompt": "Before you change lanes or take an exit in a roundabout, you should:",
+      "choices": [
+        "Speed up",
+        "Turn on your hazard lights",
+        "Glance over your shoulder for vehicles in your blind spot",
+        "Look only in your rearview mirror"
+      ],
+      "answer": 2,
+      "explain": "Quickly glance over your shoulder to check for vehicles in your blind spot."
+    },
+    {
+      "id": "q-row-roundabout-direction-signs-1",
+      "item": "row-roundabout-direction-signs",
+      "part": 2,
+      "prompt": "As you approach a roundabout, street and direction signs help you:",
+      "choices": [
+        "Find a place to park",
+        "Know which exit to take",
+        "Know how fast other cars are going",
+        "Skip using your turn signals"
+      ],
+      "answer": 1,
+      "explain": "Looking for street and direction signs helps you know which exit to take."
+    },
+    {
+      "id": "q-row-roundabout-direction-signs-2",
+      "item": "row-roundabout-direction-signs",
+      "part": 2,
+      "prompt": "Street and direction signs for a roundabout should be posted:",
+      "choices": [
+        "On the center island only",
+        "After the last exit",
+        "On the pavement inside the circle",
+        "Along the roadside before you reach the roundabout"
+      ],
+      "answer": 3,
+      "explain": "These signs should be posted along the roadside before you reach the roundabout."
+    },
+    {
+      "id": "q-row-roundabout-entry-control-1",
+      "item": "row-roundabout-entry-control",
+      "part": 2,
+      "prompt": "You may enter a roundabout when:",
+      "choices": [
+        "You reach the yield line",
+        "A car in the circle honks at you",
+        "The way is clear",
+        "Your turn signal is on"
+      ],
+      "answer": 2,
+      "explain": "When the way is clear, you may enter the roundabout."
+    },
+    {
+      "id": "q-row-roundabout-entry-control-2",
+      "item": "row-roundabout-entry-control",
+      "part": 2,
+      "prompt": "The entry point to a roundabout may sometimes be controlled by:",
+      "choices": [
+        "A stop sign, yield sign or traffic signal",
+        "A flagger at all times",
+        "Only a railroad crossbuck",
+        "Nothing; you never slow down"
+      ],
+      "answer": 0,
+      "explain": "Sometimes the entry point is controlled by a stop or yield sign, or a traffic signal."
+    }
+  ]
+}

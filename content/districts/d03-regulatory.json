@@ -28,7 +28,7 @@
       "district": "d03-regulatory",
       "kind": "sign",
       "title": "All Way stop: right goes first",
-      "simple": "A sign under the stop sign may say ALL WAY or 4 WAY. Every car must stop. If you arrive at the same time, the driver on the left lets the driver on the right go first.",
+      "simple": "A sign under the stop sign may say ALL WAY or 4 WAY. Every car must stop. Two cars get there at the same time? The car on the left waits. The car on the right goes first.",
       "official": "At some intersections you'll find a sign beneath the stop sign that reads \"All Way\" or \"4 Way.\" At these intersections all vehicles on all roads leading into the intersection must stop. If you get to the intersection at the same time as other vehicles, the driver on the left must yield to the driver on the right.",
       "image": "sign-all-way",
       "mnemonic": "A tie? The right goes first.",
@@ -42,7 +42,7 @@
       "simple": "A triangle sign pointing down means YIELD. Slow down as you come to the intersection. Be ready to stop. Let cars, people and bikes pass safely before you go.",
       "official": "Triangle (Yield): You must slow down as you come to the intersection. Be prepared to stop. Let any vehicles, pedestrians or bicyclists safely pass before you proceed.",
       "image": "sign-yield",
-      "mnemonic": "Triangle: slow, look, let them pass.",
+      "mnemonic": "Points down? Slow down. Let them pass.",
       "manualRef": "Section 2, p. 6"
     },
     {
@@ -50,10 +50,10 @@
       "district": "d03-regulatory",
       "kind": "sign",
       "title": "Speed limit: top legal speed",
-      "simple": "A speed limit sign shows the fastest you may legally drive on that road. That number is for when the weather is good.",
+      "simple": "A speed limit sign shows the fastest you may drive on that road. That number is for good weather.",
       "official": "Speed Limit: These signs tell you the maximum legal speed that you may drive on the road where the sign is posted when weather conditions are good.",
       "image": "sign-speed-limit",
-      "mnemonic": "The limit is a ceiling, set for good weather.",
+      "mnemonic": "Speed limit = top speed in good weather.",
       "manualRef": "Section 2, p. 7"
     },
     {
@@ -74,7 +74,7 @@
       "simple": "In rain, snow or ice, you can get a ticket for driving too fast. This can happen even if you are at or under the speed limit. Slow down in bad weather.",
       "official": "During rain, snow and ice, you may receive a ticket for driving too fast for the conditions even if you are driving at or less than the posted speed limit.",
       "image": "sign-speed-limit",
-      "mnemonic": "Bad weather? The sign's number is too fast.",
+      "mnemonic": "Rain, snow, ice? The limit can still be too fast.",
       "manualRef": "Section 2, p. 7"
     },
     {
@@ -124,7 +124,7 @@
       "district": "d03-regulatory",
       "kind": "rule",
       "title": "U-turn counts as two lefts",
-      "simple": "In Virginia, a U-turn counts as two left turns. So if a NO LEFT TURN sign is posted, a U-turn is illegal there too.",
+      "simple": "In Virginia, a U-turn counts as two left turns. See a NO LEFT TURN sign? Then no U-turns there either.",
       "official": "In Virginia, U-turns are considered as two left turns and are illegal if this sign [No Left Turn] is posted.",
       "image": "sign-no-left-turn",
       "mnemonic": "U = 2 lefts. No left means no U.",
@@ -177,7 +177,7 @@
       "district": "d03-regulatory",
       "kind": "sign",
       "title": "Left Turn Yield on Green",
-      "simple": "This sign is used with a traffic light. On green, cars turning left do not have the right-of-way. Stop and look for oncoming cars. Then turn with care.",
+      "simple": "You see this sign at a traffic light. Turning left on green? You do not have the right-of-way. Oncoming cars go first. Stop and look for them. Then turn with care.",
       "official": "Left Turn Yield on Green: This sign is used with a traffic signal. It tells you that the traffic turning left at a green light does not have the right-of-way and must yield to traffic coming from the other direction. Stop and look for oncoming traffic, then proceed with caution.",
       "image": "sign-left-turn-yield-green",
       "mnemonic": "Green is not a free left. Oncoming cars go first.",
@@ -188,7 +188,7 @@
       "district": "d03-regulatory",
       "kind": "sign",
       "title": "Keep Right",
-      "simple": "KEEP RIGHT means a traffic island, median or barrier is ahead. Drive on the side the arrow points to.",
+      "simple": "KEEP RIGHT means an island, median or barrier is ahead. Drive on the side the arrow points to.",
       "official": "Keep Right: A traffic island, median or barrier is ahead. Keep to the side indicated by the arrow.",
       "image": "sign-keep-right",
       "manualRef": "Section 2, p. 7"
@@ -209,7 +209,7 @@
       "district": "d03-regulatory",
       "kind": "sign",
       "title": "HOV lane sign",
-      "simple": "HOV means High Occupancy Vehicle. An HOV lane is saved for buses and cars with a driver and one or more riders. The sign tells you how many.",
+      "simple": "HOV means High Occupancy Vehicle. An HOV lane is only for buses and cars with a driver plus one or more riders. The sign tells you how many riders you need.",
       "official": "High Occupancy Vehicle: These signs indicate lanes reserved for buses and vehicles with a driver and one or more passengers as specified on the sign.",
       "image": "sign-hov",
       "mnemonic": "HOV = more people in the car.",
@@ -220,10 +220,11 @@
       "district": "d03-regulatory",
       "kind": "sign",
       "title": "Disabled Parking",
-      "simple": "A wheelchair parking sign marks a space for people with a disabled parking permit. If you do not have the permit, do not park there.",
+      "simple": "A wheelchair parking sign marks a space for people with a disabled parking permit. No permit? Do not park there.",
       "official": "Disabled Parking: Parking spaces marked with these signs are reserved for people with disabled parking permits.",
       "image": "sign-disabled-parking",
-      "manualRef": "Section 2, p. 7"
+      "manualRef": "Section 2, p. 7",
+      "mnemonic": "No permit? Not your spot."
     },
     {
       "id": "reg-reduced-speed-ahead",
@@ -233,7 +234,8 @@
       "simple": "REDUCED SPEED LIMIT AHEAD means the speed limit will change soon. Get ready to slow down.",
       "official": "Reduced Speed Limit Ahead: Prepare to reduce your speed; the speed limit is changing ahead.",
       "image": "sign-reduced-speed-ahead",
-      "manualRef": "Section 2, p. 8"
+      "manualRef": "Section 2, p. 8",
+      "mnemonic": "AHEAD means soon. Ease off the gas."
     }
   ],
   "events": [
@@ -243,7 +245,11 @@
       "kind": "gates",
       "prompt": "A red circle with a slash means what?",
       "image": "sign-no-u-turn",
-      "choices": ["Caution", "NO", "Yield"],
+      "choices": [
+        "Caution",
+        "NO",
+        "Yield"
+      ],
       "answer": 1,
       "missLine": "A red circle with a slash means NO."
     },
@@ -252,7 +258,11 @@
       "item": "reg-red-slash-means-no",
       "kind": "gates",
       "prompt": "Regulatory signs tell you what?",
-      "choices": ["Directions to towns", "Hazards ahead", "The law you must obey"],
+      "choices": [
+        "Directions to towns",
+        "Hazards ahead",
+        "The law you must obey"
+      ],
       "answer": 2,
       "missLine": "Regulatory signs tell you the law. You must obey them."
     },
@@ -262,9 +272,13 @@
       "kind": "gates",
       "prompt": "The picture inside the red circle shows what?",
       "image": "sign-no-right-turn",
-      "choices": ["What you must not do", "What you should do", "What is up ahead"],
+      "choices": [
+        "What is banned",
+        "What to do",
+        "What is ahead"
+      ],
       "answer": 0,
-      "missLine": "The symbol inside the slashed circle is what is not allowed."
+      "missLine": "The picture inside the red circle shows what is banned."
     },
     {
       "id": "ev-reg-stop-sign-1",
@@ -282,8 +296,12 @@
       "kind": "gates",
       "prompt": "Where do you stop at this sign?",
       "image": "sign-stop",
-      "choices": ["Past the crosswalk", "At the stop line", "In the intersection"],
-      "answer": 1,
+      "choices": [
+        "At the stop line",
+        "Past the crosswalk",
+        "In the intersection"
+      ],
+      "answer": 0,
       "missLine": "Stop at the sign, stop line, crosswalk or curb."
     },
     {
@@ -300,11 +318,15 @@
       "id": "ev-reg-stop-sign-4",
       "item": "reg-stop-sign",
       "kind": "gates",
-      "prompt": "Is a rolling stop OK at this sign?",
+      "prompt": "How do you stop at this sign?",
       "image": "sign-stop",
-      "choices": ["Yes, if it is clear", "Only at night", "No, stop completely"],
+      "choices": [
+        "Roll through slowly",
+        "Stop if cars come",
+        "Full stop, every time"
+      ],
       "answer": 2,
-      "missLine": "Eight sides always means a complete stop."
+      "missLine": "Eight sides means a full stop, every time. You've got this."
     },
     {
       "id": "ev-reg-all-way-stop-1",
@@ -322,7 +344,11 @@
       "kind": "gates",
       "prompt": "Two cars arrive at once. Who goes first?",
       "image": "diagram-four-way-stop",
-      "choices": ["Driver on the left", "Driver on the right", "The bigger vehicle"],
+      "choices": [
+        "Driver on the left",
+        "Driver on the right",
+        "The bigger vehicle"
+      ],
       "answer": 1,
       "missLine": "Same time? The driver on the left yields to the driver on the right."
     },
@@ -332,7 +358,11 @@
       "kind": "gates",
       "prompt": "Who must stop at this intersection?",
       "image": "sign-all-way",
-      "choices": ["All vehicles", "Only side roads", "Only trucks"],
+      "choices": [
+        "All vehicles",
+        "Only side roads",
+        "Only trucks"
+      ],
       "answer": 0,
       "missLine": "All Way means all vehicles on all roads must stop."
     },
@@ -340,11 +370,15 @@
       "id": "ev-reg-all-way-stop-4",
       "item": "reg-all-way-stop",
       "kind": "gates",
-      "prompt": "At an all-way stop tie, who yields?",
+      "prompt": "You both arrive at once. Who must yield?",
       "image": "sign-all-way",
-      "choices": ["Driver on the right", "Nobody yields", "Driver on the left"],
+      "choices": [
+        "Driver on the right",
+        "Whoever is faster",
+        "Driver on the left"
+      ],
       "answer": 2,
-      "missLine": "The driver on the left yields to the driver on the right."
+      "missLine": "Same time? The driver on the left yields to the driver on the right."
     },
     {
       "id": "ev-reg-yield-sign-1",
@@ -361,8 +395,12 @@
       "kind": "gates",
       "prompt": "What do you do at this sign?",
       "image": "sign-yield",
-      "choices": ["Speed up to merge", "Slow, be ready to stop", "Honk and go"],
-      "answer": 1,
+      "choices": [
+        "Slow, be ready to stop",
+        "Speed up to merge",
+        "Honk and go"
+      ],
+      "answer": 0,
       "missLine": "Yield: slow down, be ready to stop, let others pass."
     },
     {
@@ -371,9 +409,13 @@
       "kind": "gates",
       "prompt": "Who do you let pass at a yield sign?",
       "image": "sign-yield",
-      "choices": ["Only trucks", "No one", "Cars, people and bikes"],
+      "choices": [
+        "Only trucks",
+        "Only buses",
+        "Cars, people and bikes"
+      ],
       "answer": 2,
-      "missLine": "Let vehicles, pedestrians and bicyclists pass safely first."
+      "missLine": "At a yield sign, let cars, people and bikes pass safely before you go."
     },
     {
       "id": "ev-reg-speed-limit-1",
@@ -381,17 +423,25 @@
       "kind": "gates",
       "prompt": "What does this sign show?",
       "image": "sign-speed-limit",
-      "choices": ["Minimum speed", "Suggested speed", "Maximum legal speed"],
+      "choices": [
+        "Lowest speed",
+        "Suggested speed",
+        "Top legal speed"
+      ],
       "answer": 2,
-      "missLine": "A speed limit sign shows the maximum legal speed."
+      "missLine": "A speed limit sign shows the top legal speed."
     },
     {
       "id": "ev-reg-speed-limit-2",
       "item": "reg-speed-limit",
       "kind": "gates",
-      "prompt": "This limit is set for what weather?",
+      "prompt": "This limit is for what weather?",
       "image": "sign-speed-limit",
-      "choices": ["Good weather", "Snow and ice", "Heavy fog"],
+      "choices": [
+        "Good weather",
+        "Snow and ice",
+        "Heavy fog"
+      ],
       "answer": 0,
       "missLine": "The posted limit is the top speed when the weather is good."
     },
@@ -399,8 +449,12 @@
       "id": "ev-reg-speed-electronic-1",
       "item": "reg-speed-electronic",
       "kind": "gates",
-      "prompt": "Electronic speed signs change based on what?",
-      "choices": ["Time of year only", "Weather or traffic", "Your car's size"],
+      "prompt": "Electronic speed signs change with what?",
+      "choices": [
+        "Time of year only",
+        "Weather or traffic",
+        "Your car's size"
+      ],
       "answer": 1,
       "missLine": "Electronic speed limit signs change with weather or traffic."
     },
@@ -408,11 +462,15 @@
       "id": "ev-reg-speed-electronic-2",
       "item": "reg-speed-electronic",
       "kind": "gates",
-      "prompt": "Can an electronic speed limit change?",
+      "prompt": "An electronic speed limit number can:",
       "image": "sign-speed-limit",
-      "choices": ["Yes, weather or traffic", "No, never", "Only on holidays"],
-      "answer": 0,
-      "missLine": "Yes. Electronic limits change based on weather or traffic."
+      "choices": [
+        "Stay the same forever",
+        "Change only on holidays",
+        "Change for weather, traffic"
+      ],
+      "answer": 2,
+      "missLine": "Electronic speed limits can change with weather or traffic."
     },
     {
       "id": "ev-reg-too-fast-conditions-1",
@@ -438,9 +496,13 @@
       "id": "ev-reg-too-fast-conditions-3",
       "item": "reg-too-fast-conditions",
       "kind": "gates",
-      "prompt": "Driving at the limit on ice. Ticket possible?",
-      "choices": ["No, never", "Only if you crash", "Yes, too fast for ice"],
-      "answer": 2,
+      "prompt": "Icy road. You drive at the limit. Ticket possible?",
+      "choices": [
+        "Yes, too fast for ice",
+        "Only if you crash",
+        "Only if over the limit"
+      ],
+      "answer": 0,
       "missLine": "Yes. In rain, snow or ice, the limit can still be too fast."
     },
     {
@@ -449,7 +511,11 @@
       "kind": "gates",
       "prompt": "What does this sign mean?",
       "image": "sign-do-not-enter",
-      "choices": ["Slow down", "Do not drive this way", "Stop, then go"],
+      "choices": [
+        "Slow down",
+        "Do not drive this way",
+        "Stop, then go"
+      ],
       "answer": 1,
       "missLine": "Do Not Enter means you cannot drive in that direction."
     },
@@ -459,9 +525,22 @@
       "kind": "gates",
       "prompt": "Drive past this sign and you risk what?",
       "image": "sign-do-not-enter",
-      "choices": ["A head-on crash", "A flat tire", "Nothing at all"],
+      "choices": [
+        "A head-on crash",
+        "A flat tire",
+        "A parking ticket"
+      ],
       "answer": 0,
-      "missLine": "Past this sign you face oncoming cars and a head-on crash."
+      "missLine": "Past this sign, cars come right at you. That means a head-on crash."
+    },
+    {
+      "id": "ev-reg-do-not-enter-3",
+      "item": "reg-do-not-enter",
+      "kind": "action",
+      "prompt": "You drove past DO NOT ENTER!",
+      "sign": "sign-do-not-enter",
+      "action": "pull-over",
+      "missLine": "Past this sign? Slow down, pull over, then carefully turn around."
     },
     {
       "id": "ev-reg-wrong-way-1",
@@ -476,9 +555,13 @@
       "id": "ev-reg-wrong-way-2",
       "item": "reg-wrong-way",
       "kind": "gates",
-      "prompt": "You just passed this sign. What first?",
+      "prompt": "You passed this sign. What do you do first?",
       "image": "sign-wrong-way",
-      "choices": ["Speed up to exit", "Honk and keep going", "Slow down, pull over"],
+      "choices": [
+        "Speed up to exit",
+        "Honk and keep going",
+        "Slow down, pull over"
+      ],
       "answer": 2,
       "missLine": "Right away, slow down and pull over."
     },
@@ -486,11 +569,15 @@
       "id": "ev-reg-wrong-way-3",
       "item": "reg-wrong-way",
       "kind": "gates",
-      "prompt": "Pulled over after going the wrong way. Now?",
+      "prompt": "Wrong way. You pulled over. What next?",
       "image": "sign-wrong-way",
-      "choices": ["Carefully turn around", "Back up quickly", "Keep driving slowly"],
+      "choices": [
+        "Carefully turn around",
+        "Back up quickly",
+        "Keep driving slowly"
+      ],
       "answer": 0,
-      "missLine": "After pulling over, cautiously turn around."
+      "missLine": "After you pull over, carefully turn around."
     },
     {
       "id": "ev-reg-one-way-1",
@@ -498,7 +585,11 @@
       "kind": "gates",
       "prompt": "Which way does traffic flow here?",
       "image": "sign-one-way",
-      "choices": ["Both ways", "Way the arrow points", "Opposite the arrow"],
+      "choices": [
+        "Both ways",
+        "Way the arrow points",
+        "Opposite the arrow"
+      ],
       "answer": 1,
       "missLine": "One Way: traffic flows only in the direction of the arrow."
     },
@@ -508,7 +599,11 @@
       "kind": "gates",
       "prompt": "What does this sign tell you?",
       "image": "sign-one-way",
-      "choices": ["One lane ahead", "Turn here only", "Traffic goes one way"],
+      "choices": [
+        "One lane ahead",
+        "Turn here only",
+        "Traffic goes one way"
+      ],
       "answer": 2,
       "missLine": "All traffic on this road goes one way: the arrow's way."
     },
@@ -516,9 +611,13 @@
       "id": "ev-reg-no-left-turn-1",
       "item": "reg-no-left-turn",
       "kind": "gates",
-      "prompt": "What does this sign mean?",
+      "prompt": "Name this sign.",
       "image": "sign-no-left-turn",
-      "choices": ["Left turn only", "No left turn", "Keep left"],
+      "choices": [
+        "Left turn only",
+        "No left turn",
+        "Keep left"
+      ],
       "answer": 1,
       "missLine": "Red slash over a left arrow: left turns are against the law."
     },
@@ -528,7 +627,11 @@
       "kind": "gates",
       "prompt": "You want to turn left here. Can you?",
       "image": "sign-no-left-turn",
-      "choices": ["Yes, if it is clear", "Only on a green light", "No, it is illegal"],
+      "choices": [
+        "Yes, if it is clear",
+        "Only on a green light",
+        "No, it is illegal"
+      ],
       "answer": 2,
       "missLine": "With this sign posted, left turns are illegal."
     },
@@ -538,8 +641,12 @@
       "kind": "gates",
       "prompt": "Can you make a U-turn here?",
       "image": "sign-no-left-turn",
-      "choices": ["Yes, if it is clear", "Only on green", "No, it is illegal"],
-      "answer": 2,
+      "choices": [
+        "Yes, U-turns are OK",
+        "No, it counts as 2 lefts",
+        "Only on a green light"
+      ],
+      "answer": 1,
       "missLine": "A U-turn is two left turns, so No Left Turn bans it too."
     },
     {
@@ -547,7 +654,11 @@
       "item": "reg-u-turn-two-lefts",
       "kind": "gates",
       "prompt": "In Virginia, a U-turn counts as what?",
-      "choices": ["Two left turns", "One right turn", "A lane change"],
+      "choices": [
+        "Two left turns",
+        "One right turn",
+        "A lane change"
+      ],
       "answer": 0,
       "missLine": "In Virginia, a U-turn counts as two left turns."
     },
@@ -556,7 +667,11 @@
       "item": "reg-u-turn-two-lefts",
       "kind": "gates",
       "prompt": "A U-turn equals how many left turns?",
-      "choices": ["One", "Two", "Three"],
+      "choices": [
+        "One",
+        "Two",
+        "Three"
+      ],
       "answer": 1,
       "missLine": "A U-turn counts as two left turns in Virginia."
     },
@@ -564,9 +679,13 @@
       "id": "ev-reg-no-right-turn-1",
       "item": "reg-no-right-turn",
       "kind": "gates",
-      "prompt": "What does this sign mean?",
+      "prompt": "This sign says:",
       "image": "sign-no-right-turn",
-      "choices": ["No right turn", "Right turn only", "Keep right"],
+      "choices": [
+        "No right turn",
+        "Right turn only",
+        "Keep right"
+      ],
       "answer": 0,
       "missLine": "Red slash over a right arrow: right turns are illegal."
     },
@@ -576,7 +695,11 @@
       "kind": "gates",
       "prompt": "You want to turn right here. Can you?",
       "image": "sign-no-right-turn",
-      "choices": ["Yes, after stopping", "No, it is illegal", "Yes, if it is clear"],
+      "choices": [
+        "Yes, after stopping",
+        "No, it is illegal",
+        "Yes, if it is clear"
+      ],
       "answer": 1,
       "missLine": "Do not make a right turn when you see this sign."
     },
@@ -584,9 +707,13 @@
       "id": "ev-reg-no-u-turn-1",
       "item": "reg-no-u-turn",
       "kind": "gates",
-      "prompt": "What does this sign mean?",
+      "prompt": "Which sign is this?",
       "image": "sign-no-u-turn",
-      "choices": ["No left turn", "Dead end road", "No U-turn"],
+      "choices": [
+        "No left turn",
+        "Dead end road",
+        "No U-turn"
+      ],
       "answer": 2,
       "missLine": "A slashed U-shaped arrow means U-turns are illegal."
     },
@@ -596,9 +723,22 @@
       "kind": "gates",
       "prompt": "Missed your street. Turn around here?",
       "image": "sign-no-u-turn",
-      "choices": ["Yes, a U-turn is fine", "No, U-turns are illegal", "Yes, if it is clear"],
+      "choices": [
+        "Yes, a U-turn is fine",
+        "No, U-turns are illegal",
+        "Yes, if it is clear"
+      ],
       "answer": 1,
-      "missLine": "Do not make a U-turn when you see this sign."
+      "missLine": "This sign means no U-turns. Keep going instead."
+    },
+    {
+      "id": "ev-reg-no-u-turn-3",
+      "item": "reg-no-u-turn",
+      "kind": "action",
+      "prompt": "Missed your turn. No U-Turn sign here.",
+      "sign": "sign-no-u-turn",
+      "action": "go",
+      "missLine": "No U-turns here. Keep driving. Do not turn around at this sign."
     },
     {
       "id": "ev-reg-no-turn-on-red-1",
@@ -616,7 +756,11 @@
       "kind": "gates",
       "prompt": "Light is red. You want to turn. You:",
       "image": "sign-no-turn-on-red",
-      "choices": ["Turn after stopping", "Wait for green", "Turn if it is clear"],
+      "choices": [
+        "Turn after stopping",
+        "Wait for green",
+        "Turn if it is clear"
+      ],
       "answer": 1,
       "missLine": "You may not turn on red here. Wait for green."
     },
@@ -626,7 +770,11 @@
       "kind": "gates",
       "prompt": "When may you turn here?",
       "image": "sign-no-turn-on-red",
-      "choices": ["On red after a stop", "Any time it is clear", "When the light is green"],
+      "choices": [
+        "On red after a stop",
+        "Any time it is clear",
+        "When the light is green"
+      ],
       "answer": 2,
       "missLine": "Wait for the signal to turn green, then turn."
     },
@@ -636,7 +784,11 @@
       "kind": "gates",
       "prompt": "Slow car ahead, road clear. Pass?",
       "image": "sign-do-not-pass",
-      "choices": ["Yes, road is clear", "No, stay behind", "Yes, if quick"],
+      "choices": [
+        "Yes, road is clear",
+        "No, stay behind",
+        "Yes, if quick"
+      ],
       "answer": 1,
       "missLine": "Do Not Pass means no passing, even if the way is clear."
     },
@@ -646,19 +798,23 @@
       "kind": "gates",
       "prompt": "This sign marks what?",
       "image": "sign-do-not-pass",
-      "choices": ["Start of no-pass zone", "End of no-pass zone", "A stop ahead"],
+      "choices": [
+        "Start of no-pass zone",
+        "End of no-pass zone",
+        "A stop ahead"
+      ],
       "answer": 0,
       "missLine": "This sign marks the beginning of a no passing zone."
     },
     {
       "id": "ev-reg-do-not-pass-3",
       "item": "reg-do-not-pass",
-      "kind": "gates",
-      "prompt": "Can you pass here if no cars are coming?",
-      "image": "sign-do-not-pass",
-      "choices": ["Yes", "Only on the right", "No"],
-      "answer": 2,
-      "missLine": "No passing in this zone, even when the way is clear."
+      "kind": "action",
+      "prompt": "Do Not Pass sign. Slow truck ahead.",
+      "sign": "sign-do-not-pass",
+      "prop": "truck-ahead",
+      "action": "slow",
+      "missLine": "No passing here, even if it looks clear. Slow down and stay behind."
     },
     {
       "id": "ev-reg-left-turn-yield-green-1",
@@ -676,19 +832,27 @@
       "kind": "gates",
       "prompt": "Turning left on green. Who goes first?",
       "image": "sign-left-turn-yield-green",
-      "choices": ["You do", "Oncoming traffic", "Cars behind you"],
+      "choices": [
+        "You do",
+        "Oncoming traffic",
+        "Cars behind you"
+      ],
       "answer": 1,
-      "missLine": "Left turners on green yield to traffic from the other direction."
+      "missLine": "Turning left on green? Let oncoming cars go first."
     },
     {
       "id": "ev-reg-left-turn-yield-green-3",
       "item": "reg-left-turn-yield-green",
       "kind": "gates",
-      "prompt": "Do left turners on green have the right-of-way?",
+      "prompt": "Left on green. Do you have the right-of-way?",
       "image": "sign-left-turn-yield-green",
-      "choices": ["No, they must yield", "Yes, always", "Only if there first"],
+      "choices": [
+        "No, you must yield",
+        "Yes, green means go",
+        "Only if you got there first"
+      ],
       "answer": 0,
-      "missLine": "No. Traffic turning left on green must yield to oncoming traffic."
+      "missLine": "No. Turning left on green, you yield to oncoming traffic."
     },
     {
       "id": "ev-reg-keep-right-1",
@@ -705,7 +869,11 @@
       "kind": "gates",
       "prompt": "What is ahead when you see this sign?",
       "image": "sign-keep-right",
-      "choices": ["An island or median", "A sharp curve", "A dead end"],
+      "choices": [
+        "An island or median",
+        "A sharp curve",
+        "A dead end"
+      ],
       "answer": 0,
       "missLine": "Keep Right warns of a traffic island, median or barrier ahead."
     },
@@ -715,7 +883,11 @@
       "kind": "gates",
       "prompt": "Which side of the island do you use?",
       "image": "sign-keep-right",
-      "choices": ["The left side", "Either side", "Side the arrow shows"],
+      "choices": [
+        "The left side",
+        "Either side",
+        "Side the arrow shows"
+      ],
       "answer": 2,
       "missLine": "Keep to the side the arrow points to."
     },
@@ -725,7 +897,11 @@
       "kind": "gates",
       "prompt": "Your lane's arrow says left only. You must:",
       "image": "sign-lane-use-control",
-      "choices": ["Go straight", "Turn left", "Turn right"],
+      "choices": [
+        "Go straight",
+        "Turn left",
+        "Turn right"
+      ],
       "answer": 1,
       "missLine": "Traffic in the lane must turn the way its arrow points."
     },
@@ -735,7 +911,11 @@
       "kind": "gates",
       "prompt": "What do these lane arrows tell you?",
       "image": "sign-lane-use-control",
-      "choices": ["The speed per lane", "Where to park", "Which way each lane goes"],
+      "choices": [
+        "The speed per lane",
+        "Where to park",
+        "Which way each lane goes"
+      ],
       "answer": 2,
       "missLine": "Lane use signs show the turn each lane must make."
     },
@@ -745,7 +925,11 @@
       "kind": "gates",
       "prompt": "Who may use this lane?",
       "image": "sign-hov",
-      "choices": ["Trucks only", "Buses and carpools", "Any car at all"],
+      "choices": [
+        "Trucks only",
+        "Buses, cars with riders",
+        "Any car at all"
+      ],
       "answer": 1,
       "missLine": "HOV lanes are for buses and cars with the riders the sign shows."
     },
@@ -755,7 +939,11 @@
       "kind": "gates",
       "prompt": "What does HOV stand for?",
       "image": "sign-hov",
-      "choices": ["High Occupancy Vehicle", "Heavy Oversize Vehicle", "Highway Only Vehicle"],
+      "choices": [
+        "High Occupancy Vehicle",
+        "Heavy Oversize Vehicle",
+        "Highway Only Vehicle"
+      ],
       "answer": 0,
       "missLine": "HOV means High Occupancy Vehicle: more people per car."
     },
@@ -763,11 +951,15 @@
       "id": "ev-reg-hov-3",
       "item": "reg-hov",
       "kind": "gates",
-      "prompt": "Who sets how many people are needed?",
+      "prompt": "What tells you how many riders you need?",
       "image": "sign-hov",
-      "choices": ["The driver", "The car's size", "The HOV sign"],
+      "choices": [
+        "You decide",
+        "Your car's size",
+        "The HOV sign"
+      ],
       "answer": 2,
-      "missLine": "The sign tells you how many passengers you need."
+      "missLine": "The HOV sign tells you how many riders you need."
     },
     {
       "id": "ev-reg-disabled-parking-1",
@@ -775,7 +967,11 @@
       "kind": "gates",
       "prompt": "Who may park in this space?",
       "image": "sign-disabled-parking",
-      "choices": ["Anyone, if quick", "Disabled permit holders", "Delivery trucks"],
+      "choices": [
+        "Anyone, if quick",
+        "Disabled permit holders",
+        "Delivery trucks"
+      ],
       "answer": 1,
       "missLine": "These spaces are for people with disabled parking permits."
     },
@@ -785,7 +981,11 @@
       "kind": "gates",
       "prompt": "No disabled permit. Can you park here?",
       "image": "sign-disabled-parking",
-      "choices": ["Yes, if quick", "Only at night", "No"],
+      "choices": [
+        "Yes, if quick",
+        "Only at night",
+        "No, find another spot"
+      ],
       "answer": 2,
       "missLine": "No permit, no parking in this space."
     },
@@ -804,9 +1004,13 @@
       "kind": "gates",
       "prompt": "What should you get ready to do?",
       "image": "sign-reduced-speed-ahead",
-      "choices": ["Slow down", "Speed up", "Pass the car ahead"],
+      "choices": [
+        "Slow down",
+        "Speed up",
+        "Pass the car ahead"
+      ],
       "answer": 0,
-      "missLine": "Prepare to reduce your speed. The limit is changing ahead."
+      "missLine": "A lower limit is coming. Get ready to slow down."
     }
   ],
   "questions": [
@@ -814,20 +1018,30 @@
       "id": "q-reg-red-slash-means-no-1",
       "item": "reg-red-slash-means-no",
       "part": 1,
-      "prompt": "On a regulatory sign like this one, a red circle with a slash means:",
+      "prompt": "On a sign like this one, a red circle with a slash means:",
       "image": "sign-no-u-turn",
-      "choices": ["Caution", "Yield", "NO: the action shown is not allowed", "Road work ahead"],
+      "choices": [
+        "Use caution ahead",
+        "Yield to traffic on the right",
+        "The action shown is prohibited",
+        "The road ends ahead"
+      ],
       "answer": 2,
-      "explain": "A red circle with a slash means NO; the symbol inside shows what is prohibited."
+      "explain": "A red circle with a slash means NO, and the picture inside shows what is not allowed."
     },
     {
       "id": "q-reg-red-slash-means-no-2",
       "item": "reg-red-slash-means-no",
       "part": 2,
       "prompt": "Regulatory signs:",
-      "choices": ["Warn you of hazards ahead", "Give directions to places", "Show motorist services", "Tell you the law, and you must obey them"],
+      "choices": [
+        "Warn you of hazards on the road ahead",
+        "Give directions to places",
+        "Show motorist services",
+        "Tell you the law you must obey"
+      ],
       "answer": 3,
-      "explain": "Regulatory signs inform you of the law, and you must obey their instructions."
+      "explain": "Regulatory signs tell you the law, and you must obey them."
     },
     {
       "id": "q-reg-red-slash-means-no-3",
@@ -835,9 +1049,14 @@
       "part": 1,
       "prompt": "The symbol inside the red circle and slash on this sign tells you:",
       "image": "sign-no-right-turn",
-      "choices": ["What is prohibited", "What is required", "Where the nearest exit is", "How fast to go"],
+      "choices": [
+        "What is prohibited",
+        "What is required",
+        "Where the nearest exit is",
+        "How fast to go"
+      ],
       "answer": 0,
-      "explain": "The symbol inside the red circle with a slash shows what is prohibited."
+      "explain": "The picture inside the red circle with a slash shows what is not allowed."
     },
     {
       "id": "q-reg-stop-sign-1",
@@ -845,7 +1064,12 @@
       "part": 1,
       "prompt": "This road sign means:",
       "image": "sign-stop",
-      "choices": ["Slow down and go if clear", "Come to a complete stop", "Yield to cars on the right", "Stop only if cars are coming"],
+      "choices": [
+        "Slow down and go if clear",
+        "Come to a complete stop",
+        "Yield to cars on the right",
+        "Stop only if cars are coming"
+      ],
       "answer": 1,
       "explain": "An eight-sided sign always means come to a complete stop."
     },
@@ -855,9 +1079,14 @@
       "part": 1,
       "prompt": "When you see this sign, where must you stop?",
       "image": "sign-stop",
-      "choices": ["At the sign, stop line, pedestrian crosswalk or curb", "In the middle of the intersection", "Only past the crosswalk", "Anywhere, as long as you slow down"],
-      "answer": 0,
-      "explain": "You must come to a complete stop at the sign, stop line, pedestrian crosswalk or curb."
+      "choices": [
+        "In the middle of the intersection",
+        "At the sign, stop line, crosswalk or curb",
+        "Just past the crosswalk",
+        "Anywhere, if you slow down first"
+      ],
+      "answer": 1,
+      "explain": "Stop completely at the sign, stop line, crosswalk or curb."
     },
     {
       "id": "q-reg-stop-sign-3",
@@ -865,17 +1094,27 @@
       "part": 1,
       "prompt": "After you come to a complete stop at this sign, you should:",
       "image": "sign-stop",
-      "choices": ["Go right away", "Honk and go", "Back up before going", "Wait for any vehicle or pedestrian to clear the way"],
+      "choices": [
+        "Go right away, since you already stopped",
+        "Honk to warn others, then drive through",
+        "Back up a little, then drive through",
+        "Let vehicles and pedestrians clear the way"
+      ],
       "answer": 3,
-      "explain": "After stopping, wait for any vehicle or pedestrian to clear the way."
+      "explain": "After you stop, wait for any vehicle or pedestrian to clear the way."
     },
     {
       "id": "q-reg-stop-sign-4",
       "item": "reg-stop-sign",
       "part": 2,
       "prompt": "An eight-sided (octagon) sign always means:",
-      "choices": ["Yield", "Warning", "Stop", "School zone"],
-      "answer": 2,
+      "choices": [
+        "Stop",
+        "Yield",
+        "Warning",
+        "School zone"
+      ],
+      "answer": 0,
       "explain": "The eight-sided shape always means stop."
     },
     {
@@ -884,9 +1123,14 @@
       "part": 1,
       "prompt": "This sign means:",
       "image": "sign-all-way",
-      "choices": ["Only drivers on the main road must stop", "All vehicles on all roads into the intersection must stop", "Stop only when turning", "Stop only if a car is on your right"],
-      "answer": 1,
-      "explain": "With an All Way or 4 Way sign, all vehicles on all roads leading into the intersection must stop."
+      "choices": [
+        "Only drivers on the main road must stop",
+        "Only drivers who are turning must stop",
+        "Stop only if a car is on your right",
+        "All vehicles on all roads must stop"
+      ],
+      "answer": 3,
+      "explain": "At an All Way or 4 Way stop, every vehicle on every road must stop."
     },
     {
       "id": "q-reg-all-way-stop-2",
@@ -894,7 +1138,12 @@
       "part": 2,
       "prompt": "At an all-way stop, you and another vehicle arrive at the same time. Which driver must yield?",
       "image": "diagram-four-way-stop",
-      "choices": ["The driver on the right yields to the driver on the left", "The faster vehicle yields", "The driver on the left yields to the driver on the right", "Neither driver has to yield"],
+      "choices": [
+        "The driver on the right yields to the driver on the left",
+        "The faster vehicle yields",
+        "The driver on the left yields to the driver on the right",
+        "Neither driver has to yield"
+      ],
       "answer": 2,
       "explain": "If vehicles arrive at the same time, the driver on the left must yield to the driver on the right."
     },
@@ -904,8 +1153,13 @@
       "part": 1,
       "prompt": "You stop at this sign at the same time as a car to your right. You should:",
       "image": "sign-all-way",
-      "choices": ["Go first because you are on the left", "Let the car on your right go first", "Honk and go together", "Wait until no cars are in sight on any road"],
-      "answer": 1,
+      "choices": [
+        "Let the car on your right go first",
+        "Go first because you are on the left",
+        "Honk and go together",
+        "Wait until no cars are in sight on any road"
+      ],
+      "answer": 0,
       "explain": "At an all-way stop, the driver on the left yields to the driver on the right."
     },
     {
@@ -914,9 +1168,14 @@
       "part": 1,
       "prompt": "This road sign means:",
       "image": "sign-yield",
-      "choices": ["Stop completely every time", "Speed up and merge", "No passing zone", "Slow down, be ready to stop, and let others pass first"],
-      "answer": 3,
-      "explain": "At a yield sign, slow down, be prepared to stop, and let others pass safely before you go."
+      "choices": [
+        "Stop every time, even if no one is coming",
+        "Speed up and merge ahead of traffic",
+        "Slow down, be ready to stop, and let others pass",
+        "A no passing zone is ahead"
+      ],
+      "answer": 2,
+      "explain": "At a yield sign, slow down, be ready to stop, and let others pass safely first."
     },
     {
       "id": "q-reg-yield-sign-2",
@@ -924,9 +1183,14 @@
       "part": 1,
       "prompt": "At this sign, who must you let pass safely before you go?",
       "image": "sign-yield",
-      "choices": ["Any vehicles, pedestrians or bicyclists", "Only vehicles on your left", "Only emergency vehicles", "No one; you have the right-of-way"],
-      "answer": 0,
-      "explain": "A yield sign means let any vehicles, pedestrians or bicyclists safely pass before you proceed."
+      "choices": [
+        "Only vehicles coming from your left side",
+        "Only emergency vehicles with lights on",
+        "No one, since you have the right-of-way",
+        "Any vehicles, pedestrians or bicyclists"
+      ],
+      "answer": 3,
+      "explain": "At a yield sign, let any vehicles, pedestrians or bicyclists pass safely before you go."
     },
     {
       "id": "q-reg-yield-sign-3",
@@ -934,7 +1198,12 @@
       "part": 1,
       "prompt": "As you come to an intersection with this sign, you must:",
       "image": "sign-yield",
-      "choices": ["Keep your speed", "Slow down and be prepared to stop", "Speed up to get ahead of traffic", "Flash your headlights"],
+      "choices": [
+        "Keep your speed",
+        "Slow down and be prepared to stop",
+        "Speed up to get ahead of traffic",
+        "Flash your headlights"
+      ],
       "answer": 1,
       "explain": "At a yield sign you must slow down and be prepared to stop."
     },
@@ -944,9 +1213,14 @@
       "part": 1,
       "prompt": "This sign tells you:",
       "image": "sign-speed-limit",
-      "choices": ["The minimum speed allowed", "The safe speed for a highway exit", "The maximum legal speed when weather conditions are good", "The speed you must drive at all times"],
-      "answer": 2,
-      "explain": "Speed limit signs show the maximum legal speed on that road when weather conditions are good."
+      "choices": [
+        "The minimum speed allowed on the road",
+        "The maximum legal speed in good weather",
+        "The safe speed for the next exit ramp",
+        "The speed you must drive at all times"
+      ],
+      "answer": 1,
+      "explain": "A speed limit sign shows the maximum legal speed on that road in good weather."
     },
     {
       "id": "q-reg-speed-limit-2",
@@ -954,9 +1228,14 @@
       "part": 1,
       "prompt": "The number on this sign is the top legal speed:",
       "image": "sign-speed-limit",
-      "choices": ["When weather conditions are good", "In any weather, at all times", "Only at night", "Only for trucks"],
-      "answer": 0,
-      "explain": "The posted speed limit is the maximum legal speed when weather conditions are good."
+      "choices": [
+        "Only when it is raining or snowing",
+        "Only at night, when roads are empty",
+        "Only for large trucks and buses",
+        "When weather conditions are good"
+      ],
+      "answer": 3,
+      "explain": "The posted limit is the maximum legal speed when the weather is good."
     },
     {
       "id": "q-reg-speed-electronic-1",
@@ -964,27 +1243,42 @@
       "part": 1,
       "prompt": "Some roads have electronic versions of this sign. They:",
       "image": "sign-speed-limit",
-      "choices": ["Never change", "Only show minimum speeds", "Are only advice, not the law", "Can change based on weather or traffic conditions"],
-      "answer": 3,
-      "explain": "Electronic speed limit signs change based on weather or traffic conditions."
+      "choices": [
+        "Never change once they are set",
+        "Change with weather or traffic",
+        "Only show minimum speeds",
+        "Are advice only, not the law"
+      ],
+      "answer": 1,
+      "explain": "Electronic speed limit signs can change with weather or traffic."
     },
     {
       "id": "q-reg-speed-electronic-2",
       "item": "reg-speed-electronic",
       "part": 2,
       "prompt": "An electronic speed limit sign may change its speed limit because of:",
-      "choices": ["The day of the week", "Weather or traffic conditions", "The number of police nearby", "The time the road was paved"],
+      "choices": [
+        "The day of the week",
+        "Weather or traffic conditions",
+        "The number of police nearby",
+        "The time the road was paved"
+      ],
       "answer": 1,
-      "explain": "Electronic speed limit signs change based on weather or traffic conditions."
+      "explain": "Electronic speed limit signs can change with weather or traffic."
     },
     {
       "id": "q-reg-too-fast-conditions-1",
       "item": "reg-too-fast-conditions",
       "part": 2,
       "prompt": "During rain, snow or ice, you may get a ticket for driving too fast for conditions:",
-      "choices": ["Even if you are at or below the posted speed limit", "Only if you are over the speed limit", "Only on interstate highways", "Only if you cause a crash"],
-      "answer": 0,
-      "explain": "In rain, snow and ice you can be ticketed for driving too fast for conditions even at or below the posted limit."
+      "choices": [
+        "Only if you are over the speed limit",
+        "Only on interstate highways",
+        "Even at or below the posted limit",
+        "Only if you cause a crash"
+      ],
+      "answer": 2,
+      "explain": "In rain, snow or ice, you can get a ticket for going too fast even at or below the limit."
     },
     {
       "id": "q-reg-too-fast-conditions-2",
@@ -992,18 +1286,28 @@
       "part": 1,
       "prompt": "It is snowing, and you are driving exactly the speed shown on this sign. Which is true?",
       "image": "sign-speed-limit",
-      "choices": ["You cannot get a ticket", "You must speed up to keep traffic moving", "The sign does not apply in snow", "You may still get a ticket for driving too fast for conditions"],
-      "answer": 3,
-      "explain": "In snow you may be ticketed for driving too fast for conditions even at the posted limit."
+      "choices": [
+        "You cannot get a ticket at the limit",
+        "You can still get a ticket",
+        "You must keep that speed for traffic",
+        "The sign does not apply in snow"
+      ],
+      "answer": 1,
+      "explain": "In snow, you can get a ticket for going too fast even at the posted limit."
     },
     {
       "id": "q-reg-too-fast-conditions-3",
       "item": "reg-too-fast-conditions",
       "part": 2,
       "prompt": "Driving at the posted speed limit on an icy road:",
-      "choices": ["Is always legal", "Can still get you a ticket for driving too fast for conditions", "Is required by law", "Is only a problem for trucks"],
-      "answer": 1,
-      "explain": "During rain, snow and ice, you may receive a ticket even at or below the posted speed limit."
+      "choices": [
+        "Is always legal",
+        "Is required by law",
+        "Is only a problem for trucks",
+        "Can still get you a ticket"
+      ],
+      "answer": 3,
+      "explain": "On ice, you can get a ticket for going too fast even at the posted limit."
     },
     {
       "id": "q-reg-do-not-enter-1",
@@ -1011,7 +1315,12 @@
       "part": 1,
       "prompt": "This road sign means:",
       "image": "sign-do-not-enter",
-      "choices": ["You may enter if no cars are coming", "Enter slowly with caution", "You cannot drive in that direction", "The road is closed to trucks only"],
+      "choices": [
+        "You may enter if no cars are coming",
+        "Enter slowly with caution",
+        "You cannot drive in that direction",
+        "The road is closed to trucks only"
+      ],
       "answer": 2,
       "explain": "Do Not Enter means you cannot drive in that direction."
     },
@@ -1021,9 +1330,28 @@
       "part": 1,
       "prompt": "If you drive past this sign, you:",
       "image": "sign-do-not-enter",
-      "choices": ["Are entering a bus-only lane", "Are going the wrong way and could crash head-on", "Are entering a school zone", "Must pay a toll"],
+      "choices": [
+        "Are entering a slow school zone",
+        "Must stop ahead and pay a road toll",
+        "Are entering a lane for buses only",
+        "Could crash head-on with oncoming cars"
+      ],
+      "answer": 3,
+      "explain": "Past a Do Not Enter sign, you are going the wrong way and could crash head-on."
+    },
+    {
+      "id": "q-reg-do-not-enter-3",
+      "item": "reg-do-not-enter",
+      "part": 2,
+      "prompt": "You realize you have driven past a Do Not Enter sign. You should:",
+      "choices": [
+        "Keep going until you reach the next exit",
+        "Slow down, pull over, and carefully turn around",
+        "Speed up to get off the road quickly",
+        "Stop in your lane and back up slowly"
+      ],
       "answer": 1,
-      "explain": "Past a Do Not Enter sign you are going the wrong direction and could get into a head-on crash."
+      "explain": "If you pass a Do Not Enter sign, slow down, pull over, and carefully turn around."
     },
     {
       "id": "q-reg-wrong-way-1",
@@ -1031,9 +1359,14 @@
       "part": 1,
       "prompt": "If you see this sign, you should:",
       "image": "sign-wrong-way",
-      "choices": ["Keep going and exit at the next ramp", "Immediately slow down, pull over, and cautiously turn around", "Speed up to get out of the way", "Stop in your lane and wait"],
-      "answer": 1,
-      "explain": "If you pass a Wrong Way sign, immediately slow down, pull over, and cautiously turn around."
+      "choices": [
+        "Keep going and get off at the next exit ramp",
+        "Speed up to get out of the way of traffic",
+        "Stop in your lane and wait for help",
+        "Slow down, pull over, and carefully turn around"
+      ],
+      "answer": 3,
+      "explain": "If you pass a Wrong Way sign, slow down right away, pull over, and carefully turn around."
     },
     {
       "id": "q-reg-wrong-way-2",
@@ -1041,18 +1374,28 @@
       "part": 1,
       "prompt": "This sign means:",
       "image": "sign-wrong-way",
-      "choices": ["Wrong lane for trucks", "Road work ahead", "Detour to the right", "You are driving in the wrong direction"],
-      "answer": 3,
-      "explain": "A Wrong Way sign means you cannot drive in that direction and are going the wrong way."
+      "choices": [
+        "Trucks must use another lane",
+        "Road work is ahead",
+        "You are going the wrong way",
+        "Detour to the right"
+      ],
+      "answer": 2,
+      "explain": "A Wrong Way sign means you cannot drive in that direction."
     },
     {
       "id": "q-reg-wrong-way-3",
       "item": "reg-wrong-way",
       "part": 2,
       "prompt": "You have just driven past a Wrong Way sign. Why must you act right away?",
-      "choices": ["You might miss your exit", "You could get into a head-on crash with vehicles headed your way", "You will be late", "Your car could run out of gas"],
+      "choices": [
+        "You could miss your exit and get lost",
+        "You could crash head-on with oncoming cars",
+        "You could get lost on the way home",
+        "You could block a bus-only lane ahead"
+      ],
       "answer": 1,
-      "explain": "Driving the wrong direction can cause a head-on crash, so slow down, pull over and turn around."
+      "explain": "Going the wrong way can cause a head-on crash, so slow down, pull over and turn around."
     },
     {
       "id": "q-reg-one-way-1",
@@ -1060,9 +1403,14 @@
       "part": 1,
       "prompt": "This road sign means:",
       "image": "sign-one-way",
-      "choices": ["Turn right only", "Detour ahead", "Keep right of the island", "Traffic flows only in the direction of the arrow"],
-      "answer": 3,
-      "explain": "One Way means traffic flows only in the direction of the arrow."
+      "choices": [
+        "Traffic goes only the arrow's way",
+        "Turn right only at this corner",
+        "A detour is ahead on this road",
+        "Keep to the right of the island"
+      ],
+      "answer": 0,
+      "explain": "One Way means traffic moves only in the direction of the arrow."
     },
     {
       "id": "q-reg-one-way-2",
@@ -1070,8 +1418,13 @@
       "part": 1,
       "prompt": "On a street with this sign, you may drive:",
       "image": "sign-one-way",
-      "choices": ["In either direction", "Only in the direction of the arrow", "Only against the arrow", "Only in the left lane"],
-      "answer": 1,
+      "choices": [
+        "In either direction you choose",
+        "Only the opposite way from the arrow",
+        "Only in the left lane of the road",
+        "Only in the direction of the arrow"
+      ],
+      "answer": 3,
       "explain": "On a one-way street, traffic flows only in the direction of the arrow."
     },
     {
@@ -1080,8 +1433,13 @@
       "part": 1,
       "prompt": "This road sign means:",
       "image": "sign-no-left-turn",
-      "choices": ["Left turn only", "Keep left", "Left lane ends", "No left turn"],
-      "answer": 3,
+      "choices": [
+        "Left turn only",
+        "No left turn",
+        "Keep left",
+        "Left lane ends"
+      ],
+      "answer": 1,
       "explain": "This sign means left turns are against the law."
     },
     {
@@ -1090,7 +1448,12 @@
       "part": 1,
       "prompt": "When you see this sign at an intersection, you:",
       "image": "sign-no-left-turn",
-      "choices": ["May turn left after stopping", "Must turn left", "Must not turn left", "May turn left only on a green light"],
+      "choices": [
+        "May turn left after stopping",
+        "Must turn left",
+        "Must not turn left",
+        "May turn left only on a green light"
+      ],
       "answer": 2,
       "explain": "Left turns are against the law where this sign is posted."
     },
@@ -1100,18 +1463,28 @@
       "part": 1,
       "prompt": "Where this sign is posted, a U-turn is:",
       "image": "sign-no-left-turn",
-      "choices": ["Allowed if no cars are coming", "Allowed only on a green arrow", "Allowed after a full stop", "Illegal, because a U-turn counts as two left turns"],
-      "answer": 3,
-      "explain": "In Virginia a U-turn counts as two left turns, so it is illegal where No Left Turn is posted."
+      "choices": [
+        "Allowed if no cars are coming",
+        "Allowed only on a green arrow",
+        "Illegal; it counts as two left turns",
+        "Allowed after a full stop"
+      ],
+      "answer": 2,
+      "explain": "In Virginia a U-turn counts as two left turns, so No Left Turn also means no U-turn."
     },
     {
       "id": "q-reg-u-turn-two-lefts-2",
       "item": "reg-u-turn-two-lefts",
       "part": 2,
       "prompt": "In Virginia, a U-turn is considered:",
-      "choices": ["One right turn", "A lane change", "Two left turns", "A legal move at any intersection"],
-      "answer": 2,
-      "explain": "In Virginia, U-turns are considered two left turns."
+      "choices": [
+        "Two left turns",
+        "One right turn",
+        "A lane change",
+        "A legal move at any intersection"
+      ],
+      "answer": 0,
+      "explain": "In Virginia, a U-turn counts as two left turns."
     },
     {
       "id": "q-reg-no-right-turn-1",
@@ -1119,8 +1492,13 @@
       "part": 1,
       "prompt": "This road sign means:",
       "image": "sign-no-right-turn",
-      "choices": ["Right turn only", "Keep right", "Right lane ends", "Right turns are illegal"],
-      "answer": 3,
+      "choices": [
+        "Right turn only",
+        "Right turns are illegal",
+        "Keep right",
+        "Right lane ends"
+      ],
+      "answer": 1,
       "explain": "This sign means right turns are illegal."
     },
     {
@@ -1129,7 +1507,12 @@
       "part": 1,
       "prompt": "At an intersection with this sign, you may:",
       "image": "sign-no-right-turn",
-      "choices": ["Turn right after a full stop", "Turn right only on red", "Not make a right turn", "Turn right if no one is coming"],
+      "choices": [
+        "Turn right after a full stop",
+        "Turn right only on red",
+        "Not make a right turn",
+        "Turn right if no one is coming"
+      ],
       "answer": 2,
       "explain": "Do not make a right turn when you see this sign."
     },
@@ -1139,7 +1522,12 @@
       "part": 1,
       "prompt": "This road sign means:",
       "image": "sign-no-u-turn",
-      "choices": ["No U-turn", "No left turn", "Road curves ahead", "Dead end"],
+      "choices": [
+        "No U-turn",
+        "No left turn",
+        "Road curves ahead",
+        "Dead end"
+      ],
       "answer": 0,
       "explain": "This sign means U-turns are illegal."
     },
@@ -1149,7 +1537,12 @@
       "part": 1,
       "prompt": "When this sign is posted, you:",
       "image": "sign-no-u-turn",
-      "choices": ["May make a U-turn if no cars are coming", "May make a U-turn on a green light", "Must not make a U-turn", "Must make a U-turn"],
+      "choices": [
+        "May make a U-turn if no cars are coming",
+        "May make a U-turn on a green light",
+        "Must not make a U-turn",
+        "Must make a U-turn"
+      ],
       "answer": 2,
       "explain": "Do not make a U-turn when you see this sign."
     },
@@ -1159,9 +1552,14 @@
       "part": 1,
       "prompt": "This sign means:",
       "image": "sign-no-turn-on-red",
-      "choices": ["You may turn on red after stopping", "You may not turn on a red light; wait for green", "No turns at any time", "Turns are allowed only on red"],
-      "answer": 1,
-      "explain": "No Turn on Red means you may not turn on the red light; wait for the signal to turn green."
+      "choices": [
+        "You may turn on red after stopping",
+        "No turns are allowed at any time",
+        "Turns are allowed only on red",
+        "Do not turn on red; wait for green"
+      ],
+      "answer": 3,
+      "explain": "No Turn on Red means you may not turn on red; wait for the green light."
     },
     {
       "id": "q-reg-no-turn-on-red-2",
@@ -1169,9 +1567,14 @@
       "part": 1,
       "prompt": "You are stopped at a red light where this sign is posted. You want to turn right. You must:",
       "image": "sign-no-turn-on-red",
-      "choices": ["Turn when the way is clear", "Honk, then turn", "Turn if no pedestrians are waiting", "Wait for the signal to turn green"],
-      "answer": 3,
-      "explain": "With this sign you may not turn on red; wait for the signal to turn green."
+      "choices": [
+        "Turn when the way is clear",
+        "Wait for the signal to turn green",
+        "Honk, then turn",
+        "Turn if no pedestrians are waiting"
+      ],
+      "answer": 1,
+      "explain": "With this sign, you may not turn on red; wait for green."
     },
     {
       "id": "q-reg-do-not-pass-1",
@@ -1179,9 +1582,14 @@
       "part": 1,
       "prompt": "This sign means:",
       "image": "sign-do-not-pass",
-      "choices": ["The start of a no passing zone; do not pass cars ahead in your lane", "You may pass if the way is clear", "Do not pass trucks only", "Passing is allowed on the right only"],
-      "answer": 0,
-      "explain": "Do Not Pass marks the beginning of a no passing zone; you may not pass cars ahead of you in your lane."
+      "choices": [
+        "You may pass if the way is clear",
+        "Trucks may not pass here",
+        "A no passing zone begins here",
+        "Passing is allowed only at night"
+      ],
+      "answer": 2,
+      "explain": "This sign marks the start of a no passing zone, so do not pass cars ahead in your lane."
     },
     {
       "id": "q-reg-do-not-pass-2",
@@ -1189,9 +1597,14 @@
       "part": 1,
       "prompt": "After you pass this sign, you may pass the car ahead of you in your lane:",
       "image": "sign-do-not-pass",
-      "choices": ["Only if the way is clear", "Only if it is going under the speed limit", "Not at all, even if the way is clear", "Only on the right"],
-      "answer": 2,
-      "explain": "In a no passing zone you may not pass cars ahead of you in your lane, even if the way is clear."
+      "choices": [
+        "Only if the way is clear",
+        "Not at all, even if the way is clear",
+        "Only if it is going under the speed limit",
+        "Only if you honk first"
+      ],
+      "answer": 1,
+      "explain": "In a no passing zone, you may not pass cars ahead in your lane, even if the way is clear."
     },
     {
       "id": "q-reg-left-turn-yield-green-1",
@@ -1199,9 +1612,14 @@
       "part": 1,
       "prompt": "This sign means:",
       "image": "sign-left-turn-yield-green",
-      "choices": ["Left turns have the right-of-way on green", "Left turns on green must yield to traffic from the other direction", "No left turns on green", "Left turns only on a green arrow"],
-      "answer": 1,
-      "explain": "Traffic turning left at a green light does not have the right-of-way and must yield to oncoming traffic."
+      "choices": [
+        "Left turns on green have the right-of-way",
+        "Left turns are not allowed on green",
+        "Left turns on green must yield to oncoming traffic",
+        "Left turns are allowed only on a green arrow"
+      ],
+      "answer": 2,
+      "explain": "When you turn left on green, you do not have the right-of-way and must yield to oncoming traffic."
     },
     {
       "id": "q-reg-left-turn-yield-green-2",
@@ -1209,9 +1627,14 @@
       "part": 1,
       "prompt": "At a green light with this sign, before you turn left you should:",
       "image": "sign-left-turn-yield-green",
-      "choices": ["Turn quickly before oncoming cars arrive", "Honk to warn oncoming cars", "Wait for the light to turn red", "Stop and look for oncoming traffic, then proceed with caution"],
-      "answer": 3,
-      "explain": "Stop and look for oncoming traffic, then proceed with caution."
+      "choices": [
+        "Turn quickly before the oncoming cars arrive",
+        "Stop and look for oncoming cars, then turn",
+        "Honk to warn oncoming cars, then turn",
+        "Wait for the light to turn red, then turn"
+      ],
+      "answer": 1,
+      "explain": "Stop and look for oncoming traffic, then turn with caution."
     },
     {
       "id": "q-reg-left-turn-yield-green-3",
@@ -1219,7 +1642,12 @@
       "part": 2,
       "prompt": "The Left Turn Yield on Green sign is used together with:",
       "image": "sign-left-turn-yield-green",
-      "choices": ["A traffic signal", "A railroad crossing", "A school zone sign", "A work zone flagger"],
+      "choices": [
+        "A traffic signal",
+        "A railroad crossing",
+        "A school zone sign",
+        "A work zone flagger"
+      ],
       "answer": 0,
       "explain": "The Left Turn Yield on Green sign is used with a traffic signal."
     },
@@ -1229,9 +1657,14 @@
       "part": 1,
       "prompt": "This sign means:",
       "image": "sign-keep-right",
-      "choices": ["Right lane ends", "A traffic island, median or barrier is ahead; keep to the side the arrow shows", "Right turn only", "The road curves to the right"],
-      "answer": 1,
-      "explain": "Keep Right means a traffic island, median or barrier is ahead; keep to the side shown by the arrow."
+      "choices": [
+        "The right lane ends; merge left ahead",
+        "Right turns only from this lane",
+        "An island, median or barrier is ahead",
+        "The road curves to the right ahead"
+      ],
+      "answer": 2,
+      "explain": "Keep Right means an island, median or barrier is ahead, so keep to the side the arrow shows."
     },
     {
       "id": "q-reg-keep-right-2",
@@ -1239,9 +1672,14 @@
       "part": 1,
       "prompt": "This sign warns of a traffic island ahead. You should:",
       "image": "sign-keep-right",
-      "choices": ["Pass it on either side", "Stop before it", "Keep to the side shown by the arrow", "Turn around"],
-      "answer": 2,
-      "explain": "Keep to the side of the island, median or barrier indicated by the arrow."
+      "choices": [
+        "Pass it on whichever side is open",
+        "Stop before it, then go around",
+        "Turn around and find another road",
+        "Keep to the side shown by the arrow"
+      ],
+      "answer": 3,
+      "explain": "Keep to the side of the island that the arrow shows."
     },
     {
       "id": "q-reg-lane-use-control-1",
@@ -1249,9 +1687,14 @@
       "part": 1,
       "prompt": "This sign means:",
       "image": "sign-lane-use-control",
-      "choices": ["Traffic in each lane must move in the direction of that lane's arrow", "A lane is closed ahead", "Keep right of the island", "Any lane may turn any way"],
+      "choices": [
+        "Each lane must go the way its arrow points",
+        "A lane is closed ahead",
+        "Keep right of the island",
+        "Drivers in any lane may turn any way"
+      ],
       "answer": 0,
-      "explain": "Lane use control signs show where turns are required; traffic in the lane must turn in the direction of the arrow."
+      "explain": "Traffic in each lane must turn the way that lane's arrow points."
     },
     {
       "id": "q-reg-lane-use-control-2",
@@ -1259,9 +1702,14 @@
       "part": 1,
       "prompt": "You are in a lane that this sign marks with a left-turn-only arrow. You must:",
       "image": "sign-lane-use-control",
-      "choices": ["Go straight", "Turn right", "Turn left", "Change lanes in the intersection"],
+      "choices": [
+        "Go straight",
+        "Turn right",
+        "Turn left",
+        "Change lanes in the intersection"
+      ],
       "answer": 2,
-      "explain": "Traffic in the lane must turn in the direction of the arrow."
+      "explain": "Traffic in the lane must turn the way the arrow points."
     },
     {
       "id": "q-reg-hov-1",
@@ -1269,17 +1717,27 @@
       "part": 1,
       "prompt": "This sign means the lane is reserved for:",
       "image": "sign-hov",
-      "choices": ["Trucks and trailers only", "Emergency vehicles only", "Buses and vehicles with a driver and one or more passengers, as the sign shows", "Motorcycles only"],
-      "answer": 2,
-      "explain": "HOV lanes are reserved for buses and vehicles with a driver and one or more passengers as specified on the sign."
+      "choices": [
+        "Buses and carpools, as the sign shows",
+        "Large trucks and trailers only",
+        "Emergency vehicles on calls only",
+        "Taxis and ride services only"
+      ],
+      "answer": 0,
+      "explain": "HOV lanes are for buses and vehicles with a driver and the number of passengers the sign shows."
     },
     {
       "id": "q-reg-hov-2",
       "item": "reg-hov",
       "part": 2,
       "prompt": "HOV stands for:",
-      "choices": ["Heavy Oversize Vehicle", "High Occupancy Vehicle", "Highway Only Vehicle", "Half Occupied Vehicle"],
-      "answer": 1,
+      "choices": [
+        "Heavy Oversize Vehicle",
+        "Highway Only Vehicle",
+        "Half Occupied Vehicle",
+        "High Occupancy Vehicle"
+      ],
+      "answer": 3,
       "explain": "HOV means High Occupancy Vehicle."
     },
     {
@@ -1288,7 +1746,12 @@
       "part": 1,
       "prompt": "Parking spaces marked with this sign are reserved for:",
       "image": "sign-disabled-parking",
-      "choices": ["People with disabled parking permits", "Compact cars", "Electric cars", "Visitors"],
+      "choices": [
+        "People with disabled parking permits",
+        "Small compact cars only",
+        "Electric cars that are charging",
+        "Visitors to the building"
+      ],
       "answer": 0,
       "explain": "Spaces with this sign are reserved for people with disabled parking permits."
     },
@@ -1298,9 +1761,14 @@
       "part": 1,
       "prompt": "You do not have a disabled parking permit. At a space with this sign, you:",
       "image": "sign-disabled-parking",
-      "choices": ["May park for a short time", "May park if the lot is full", "May not park there", "May park at night"],
-      "answer": 2,
-      "explain": "These spaces are reserved for people with disabled parking permits."
+      "choices": [
+        "May park for a short time",
+        "May park if the lot is full",
+        "May park at night",
+        "May not park there"
+      ],
+      "answer": 3,
+      "explain": "These spaces are only for people with disabled parking permits."
     },
     {
       "id": "q-reg-reduced-speed-ahead-1",
@@ -1308,9 +1776,14 @@
       "part": 1,
       "prompt": "This sign means:",
       "image": "sign-reduced-speed-ahead",
-      "choices": ["The speed limit is going up", "Prepare to reduce your speed; the speed limit is changing ahead", "Stop ahead", "The road ends ahead"],
-      "answer": 1,
-      "explain": "Reduced Speed Limit Ahead means prepare to reduce your speed; the speed limit is changing ahead."
+      "choices": [
+        "Prepare to slow; the limit drops ahead",
+        "The speed limit is going up ahead",
+        "A stop sign is just ahead",
+        "The road ends just ahead"
+      ],
+      "answer": 0,
+      "explain": "This sign means get ready to slow down because the speed limit drops ahead."
     },
     {
       "id": "q-reg-reduced-speed-ahead-2",
@@ -1318,9 +1791,14 @@
       "part": 1,
       "prompt": "When you see this sign, you should:",
       "image": "sign-reduced-speed-ahead",
-      "choices": ["Keep your current speed", "Pass the car ahead quickly", "Stop at the sign", "Prepare to slow down for a lower speed limit ahead"],
-      "answer": 3,
-      "explain": "Prepare to reduce your speed because the speed limit is changing ahead."
+      "choices": [
+        "Keep your speed until the next sign",
+        "Pass slower cars before the limit drops",
+        "Get ready to slow down for a lower limit",
+        "Stop at the sign, then continue"
+      ],
+      "answer": 2,
+      "explain": "Get ready to slow down because a lower speed limit is coming."
     }
   ]
 }

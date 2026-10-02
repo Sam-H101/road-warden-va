@@ -1,0 +1,2658 @@
+{
+  "district": "d10-sharing",
+  "items": [
+    {
+      "id": "share-vulnerable-users",
+      "district": "d10-sharing",
+      "kind": "rule",
+      "title": "Protect vulnerable road users",
+      "simple": "People walking, biking, skating or in wheelchairs can get badly hurt. Driving distracted or careless around them is against the law. Drive so you can avoid other people's mistakes.",
+      "official": "Drivers also share the road with vulnerable road users including pedestrians and those on bicycles, wheel chairs, skateboards, roller skates, scooters, animals and animal-drawn vehicles. It is illegal to drive distracted and carelessly around vulnerable road users. It is your responsibility to adjust your driving to avoid others' mistakes and assure everyone's safety. Pedestrians are especially prone to serious injury when struck. Be careful around schools, playgrounds and in residential areas where people may be playing or crossing the street.",
+      "manualRef": "Section 3, p. 20"
+    },
+    {
+      "id": "share-ped-turning",
+      "district": "d10-sharing",
+      "kind": "rule",
+      "title": "Turning? Pedestrians go first",
+      "simple": "When you turn right or left, people walking have the right-of-way. Wait until they have crossed the street all the way. Then make your turn.",
+      "official": "Be especially aware of pedestrians when making a right or left turn. They have the right-of-way. Allow pedestrians to completely cross the street before beginning your turn.",
+      "mnemonic": "Turning? Walkers win.",
+      "manualRef": "Section 3, p. 20"
+    },
+    {
+      "id": "share-ped-crosswalk-pass",
+      "district": "d10-sharing",
+      "kind": "rule",
+      "title": "Never pass at a crosswalk",
+      "simple": "Do not pass another car at a crosswalk. It is against the law. The other car may hide a person walking in front of it.",
+      "official": "Passing at a crosswalk is illegal. You may not see pedestrians crossing the road in front of other vehicles.",
+      "manualRef": "Section 3, p. 20"
+    },
+    {
+      "id": "share-ped-stop-lane",
+      "district": "d10-sharing",
+      "kind": "rule",
+      "title": "Stay stopped for pedestrians",
+      "simple": "Watch for people crossing the road. Stop and stay stopped until they have passed your lane. Do not creep forward while they are in front of you.",
+      "official": "Be alert for pedestrians crossing the road. Stop and remain stopped until pedestrians have passed the lane in which your vehicle is stopped.",
+      "manualRef": "Section 3, p. 20"
+    },
+    {
+      "id": "share-ped-blind",
+      "district": "d10-sharing",
+      "kind": "rule",
+      "title": "Cane or guide dog: full stop",
+      "simple": "A cane or guide dog means the person may be blind or not see well. You must come to a full stop. Older people and people with disabilities may move slowly.",
+      "official": "Drivers are required to come to a full stop for a pedestrian using a cane or guide dog, as this indicates blindness or vision impairment. Remember that the elderly and people with disabilities may move slowly.",
+      "mnemonic": "Cane or dog? Full stop.",
+      "manualRef": "Section 3, p. 20"
+    },
+    {
+      "id": "share-ped-class1",
+      "district": "d10-sharing",
+      "kind": "rule",
+      "title": "Not stopping: Class 1 misdemeanor",
+      "simple": "You must come to a full stop for people crossing the road legally. If you don't stop, you could badly hurt or kill someone. That can be a Class 1 misdemeanor.",
+      "official": "Drivers are required to come to a full stop for pedestrians who are lawfully crossing a roadway. Failing to stop and causing serious bodily damage or death can result in a Class 1 misdemeanor.",
+      "mnemonic": "Walkers come first. Skip the stop and hurt someone: Class 1.",
+      "manualRef": "Section 3, p. 20"
+    },
+    {
+      "id": "share-bike-right-of-way",
+      "district": "d10-sharing",
+      "kind": "rule",
+      "title": "Bicycles: same right-of-way",
+      "simple": "A bike rider on the road has the same right-of-way as a car. Bike riders follow many of the same laws. Some may not know or obey the rules. Slow down near them.",
+      "official": "Bicyclists on a roadway generally has the same right-of-way as the driver of a motor vehicle. Bicyclists are subject to many of the same laws as drivers, however, some may not know or obey the rules. Slow down when you approach bicyclists.",
+      "manualRef": "Section 3, p. 20",
+      "mnemonic": "Same road, same right-of-way."
+    },
+    {
+      "id": "share-bike-center-lane",
+      "district": "d10-sharing",
+      "kind": "rule",
+      "title": "Bikes may use center of lane",
+      "simple": "A bike rider may ride in the middle of the lane when needed. They may do this when about to turn left. They may also do it when the lane is too narrow to share.",
+      "official": "Bicyclists are allowed to ride in the center of the lane, when necessary, such as when they are about to turn left or when the lane is too narrow to share side-by-side with a car.",
+      "image": "mark-sharrow",
+      "manualRef": "Section 3, p. 20"
+    },
+    {
+      "id": "share-bike-no-interstate",
+      "district": "d10-sharing",
+      "kind": "rule",
+      "title": "Bikes: not on interstates",
+      "simple": "Bike riders may use all public roads except interstates and most freeways. Watch for bikes going either way on sidewalks, shared-use paths and two-way bike lanes.",
+      "official": "Bicyclists are legally allowed on all public roads except interstates and most freeways (limited access highways). Drivers should be aware of bicyclists riding in either direction on sidewalks, shared-use paths, or two-way separated bike lanes.",
+      "manualRef": "Section 3, p. 20"
+    },
+    {
+      "id": "share-bike-lane-off-limits",
+      "district": "d10-sharing",
+      "kind": "rule",
+      "title": "Never pass in a bike lane",
+      "simple": "Never drive in a marked bike lane to pass someone. Keep your car in your own lane. You may enter a bike lane only when you must, to turn left or right.",
+      "official": "Using marked bicycle lanes is prohibited by motor vehicles, including while passing. (Section 2: Drivers should not drive in the bicycle lane except when necessary to turn left or right.)",
+      "image": "mark-bike-lane",
+      "manualRef": "Section 3, p. 20"
+    },
+    {
+      "id": "share-bike-3-feet",
+      "district": "d10-sharing",
+      "kind": "number",
+      "title": "Pass bikes by 3+ feet",
+      "simple": "Pass a bike rider with at least 3 feet of space. If the lane is too narrow for 3 feet, change lanes to pass. Give bikes plenty of room and be ready to stop suddenly.",
+      "official": "State law requires motorists to pass cyclists with at least three feet of clearance. If the lane is not wide enough to allow for a three-foot clearance, the motorist must change lanes to pass safely. Give bicyclists plenty of room when passing and be prepared to stop suddenly.",
+      "mnemonic": "Give bikes a yard: 3 feet.",
+      "manualRef": "Section 3, p. 20"
+    },
+    {
+      "id": "share-small-blind-spot",
+      "district": "d10-sharing",
+      "kind": "rule",
+      "title": "Check for bikes and motorcycles",
+      "simple": "Bikes and motorcycles are small. They slip into your blind spot easily. Look for them before you pull out, change lanes or turn. Look again before you back up, open your door or cross an intersection.",
+      "official": "A bicycle's small size allows it to slip into your blind spot easily. Always check for bicyclists before you pull out, change lanes, turn, back up, open the door, or proceed through an intersection. A motorcycle's size allows it to slip into your blind spot easily. Always check for motorcycles before you pull out, change lanes, turn, back up or proceed through an intersection.",
+      "image": "diagram-blind-spot",
+      "manualRef": "Section 3, p. 20"
+    },
+    {
+      "id": "share-moto-look-twice",
+      "district": "d10-sharing",
+      "kind": "number",
+      "title": "Look twice for motorcycles",
+      "simple": "More than half of deadly motorcycle crashes involve cars. Often the driver did not see the motorcycle until too late. Look twice. Check twice before you pull out in front of one.",
+      "official": "More than half of all fatal motorcycle crashes involve automobiles. Many crashes are caused by the motorist's failure to see a motorcycle in traffic. Look twice for motorcyclists. In more than half of all crashes involving motorcycles and automobiles, the other driver didn't see the motorcycle until it was too late. Drivers are conditioned to look for four-wheeled vehicles; but they don't expect to see two-wheeled vehicles. The size of a motorcycle can cause you to misjudge the motorcycle's speed and distance. Before pulling out into traffic, check twice for motorcycles and use extra caution before you pull out in front of one.",
+      "mnemonic": "Two wheels? Look two times.",
+      "manualRef": "Section 3, p. 20"
+    },
+    {
+      "id": "share-moto-following",
+      "district": "d10-sharing",
+      "kind": "number",
+      "title": "Motorcycle: add 1 second",
+      "simple": "Never tailgate a motorcycle. Use the normal following distance rule, then add one more second. In bad weather, double that distance.",
+      "official": "Never tailgate a motorcycle (or any other vehicle). Allow yourself plenty of braking distance by adding an extra second to the following distance rule. In inclement weather, double this distance.",
+      "mnemonic": "Motorcycle: plus 1 second. Bad weather: times 2.",
+      "manualRef": "Section 3, p. 20"
+    },
+    {
+      "id": "share-moto-same-lane",
+      "district": "d10-sharing",
+      "kind": "rule",
+      "title": "Never share a motorcycle's lane",
+      "simple": "A motorcycle rider uses the whole lane. Small bumps or trash on the road can make them move suddenly. Never drive beside a motorcycle in the same lane.",
+      "official": "Although a motorcycle is not as wide as the lane, the rider will use the entire lane as traffic situations and road conditions change. A slight change or debris on the road surface can be a major obstacle for a motorcyclist. Expect the motorcycle to make sudden moves within the lane. Never drive beside a motorcycle in the same lane.",
+      "manualRef": "Section 3, p. 20",
+      "mnemonic": "One motorcycle, one whole lane."
+    },
+    {
+      "id": "share-tide-light-rail",
+      "district": "d10-sharing",
+      "kind": "rule",
+      "title": "The Tide: Norfolk light rail",
+      "simple": "Norfolk has a light rail train called The Tide. It shares the road with cars and bikes. Never drive around lowered gates. Expect a train on any track at any time.",
+      "official": "There is a light rail train system in Norfolk called The Tide. Light rail trains share the road with motor vehicles and bicyclists, and they intersect with motor vehicle traffic at 27 locations along the 7.4 mile route. Pay attention to changing traffic patterns and always follow the roadway. Never drive around lowered crossing gates. Always look both ways before turning across train tracks. Expect trains on any track at any time. Always obey signs and traffic signals.",
+      "image": "sign-crossbuck-gate",
+      "manualRef": "Section 3, p. 20-21",
+      "mnemonic": "Norfolk rides The Tide."
+    },
+    {
+      "id": "share-tide-tracks",
+      "district": "d10-sharing",
+      "kind": "rule",
+      "title": "Never stop on train tracks",
+      "simple": "Never stop, pass or shift gears on train tracks. Cross only when there is room to get all the way over. You must clear the tracks without stopping.",
+      "official": "Never stop, pass or shift on train tracks. Don't cross train tracks unless you have enough room to cross without stopping and can clear the tracks to a safe distance.",
+      "manualRef": "Section 3, p. 21",
+      "mnemonic": "Clear it all, or don't start at all."
+    },
+    {
+      "id": "share-lsv-speed",
+      "district": "d10-sharing",
+      "kind": "number",
+      "title": "Low speed vehicles: 21-25 MPH",
+      "simple": "A low speed vehicle has four wheels and runs on electric or gas power. Its top speed is 21 to 25 MPH.",
+      "official": "These electrically- or gas-powered four-wheel vehicles have a maximum speed ranging from 21 to 25 MPH.",
+      "mnemonic": "LSV tops out at 25.",
+      "manualRef": "Section 3, p. 21"
+    },
+    {
+      "id": "share-lsv-roads",
+      "district": "d10-sharing",
+      "kind": "number",
+      "title": "LSVs: roads 35 MPH or less",
+      "simple": "Low speed vehicles may use roads with speed limits of 35 MPH or less. The driver needs a license. A permit holder may drive one with a licensed driver along.",
+      "official": "Low speed vehicles may be operated on public roads with speed limits of 35 MPH or less by licensed drivers or learner's permit holders accompanied by a licensed driver. Low speed vehicles must comply with all federal safety standards and must meet Virginia's requirements for passenger vehicle registration and insurance coverage.",
+      "mnemonic": "LSV: top speed 25, road limit 35.",
+      "manualRef": "Section 3, p. 21"
+    },
+    {
+      "id": "share-lsv-golf-cart",
+      "district": "d10-sharing",
+      "kind": "rule",
+      "title": "Golf carts are not LSVs",
+      "simple": "A golf cart is not a low speed vehicle. Don't mix them up. Low speed vehicles have four wheels. Their top speed is 21 to 25 MPH.",
+      "official": "Golf carts are not classified as low speed vehicles.",
+      "manualRef": "Section 3, p. 21"
+    },
+    {
+      "id": "share-truck-no-zones",
+      "district": "d10-sharing",
+      "kind": "rule",
+      "title": "Truck No-Zones",
+      "simple": "Trucks, buses and RVs have danger areas around them called No-Zones. They are on the sides, front and back. The driver may not see you there. Stay out of No-Zones.",
+      "official": "Trucks, tractor-trailers, buses and recreational vehicles (RVs) are longer, higher and wider than other vehicles. They accelerate slowly and require greater stopping and turning distances. Plus, there are danger areas around these vehicles where crashes are more likely to occur. These areas are called No-Zones. No-Zones on the side, front and rear also include blind spots where your car disappears from the driver's view.",
+      "image": "diagram-truck-no-zones",
+      "manualRef": "Section 3, p. 21",
+      "mnemonic": "No-Zone means no-see zone."
+    },
+    {
+      "id": "share-truck-mirror",
+      "district": "d10-sharing",
+      "kind": "rule",
+      "title": "Mirror rule: see the driver's face",
+      "simple": "Trucks have big blind spots on both sides. Look at the truck's side mirror. If you cannot see the driver's face in it, the driver cannot see you.",
+      "official": "Trucks, tractor-trailers, buses and RVs have big No-Zones on both sides that are dangerous because these vehicles must make wide turns. These No-Zones or blind spots are much larger than your car's blind spots. If you can't see the driver's face in his side view mirror, then he can't see you.",
+      "mnemonic": "See his face, or leave that place.",
+      "manualRef": "Section 3, p. 21"
+    },
+    {
+      "id": "share-truck-rear",
+      "district": "d10-sharing",
+      "kind": "rule",
+      "title": "Rear No-Zone: don't tailgate trucks",
+      "simple": "A truck driver cannot see your car right behind the truck. You cannot see traffic ahead of it. If the truck stops fast, you have nowhere to go. Keep a safe following distance.",
+      "official": "Trucks, tractor-trailers, buses and RVs have huge No-Zones directly behind them. The driver can't see your car behind his vehicle and you can't see what's happening in traffic ahead of his vehicle. If the truck, bus or RV brakes or stops suddenly, you have no place to go and could crash into the vehicle's rear-end. Always maintain a safe following distance.",
+      "manualRef": "Section 3, p. 21"
+    },
+    {
+      "id": "share-truck-pass-front",
+      "district": "d10-sharing",
+      "kind": "rule",
+      "title": "Passing a truck: see its front",
+      "simple": "After you pass a truck, do not cut in too soon. Wait until you see the whole front of the truck in your rearview mirror. Then pull in and keep your speed.",
+      "official": "You could get rear-ended by a truck, bus or RV if you cut in front too soon after passing the vehicle or if you cut in front and then suddenly slow down. When passing, look for the entire front of the truck in your rearview mirror before pulling in front. And then, maintain your speed.",
+      "mnemonic": "Whole truck front in the mirror? Now pull in.",
+      "manualRef": "Section 3, p. 21"
+    },
+    {
+      "id": "share-truck-stop-distance",
+      "district": "d10-sharing",
+      "kind": "number",
+      "title": "Trucks need twice the stopping room",
+      "simple": "Trucks, buses and RVs are slow to stop. They need nearly twice the time and room a car needs. If you cut in and slow down, the truck may not stop in time.",
+      "official": "These vehicles need nearly twice the time and room to stop as cars.",
+      "mnemonic": "Big truck, double the stop.",
+      "manualRef": "Section 3, p. 21"
+    },
+    {
+      "id": "share-truck-length-pass",
+      "district": "d10-sharing",
+      "kind": "number",
+      "title": "Truck length and passing room",
+      "simple": "A truck and its trailer can be up to 65 feet long. Passing one can take more than half a mile of clear road. Be sure you have the room before you pass.",
+      "official": "A truck and its trailer may be as long as 65 feet and it may take you more than half a mile of clear road to pass.",
+      "mnemonic": "65 feet long, half a mile to pass.",
+      "manualRef": "Section 3, p. 21"
+    },
+    {
+      "id": "share-truck-wide-turns",
+      "district": "d10-sharing",
+      "kind": "rule",
+      "title": "Trucks swing wide to turn",
+      "simple": "Big trucks, buses and RVs may swing wide to the left or right to turn. They can't see cars right behind or beside them. Never squeeze between a truck and the curb or another car.",
+      "official": "Trucks, buses and RVs sometimes need to swing wide to the left or right to safely make a turn. They can't see the cars directly behind or beside them. Never try to squeeze between a truck, bus or RV and the curb or another vehicle.",
+      "manualRef": "Section 3, p. 21",
+      "mnemonic": "Wide turn? Wait your turn."
+    },
+    {
+      "id": "share-truck-blind-feet",
+      "district": "d10-sharing",
+      "kind": "number",
+      "title": "Blind spots: 20 front, 200 back",
+      "simple": "A truck's blind spot can reach up to 20 feet in front of the cab. Behind the truck, it can reach about 200 feet. Stay out of them.",
+      "official": "In fact, their blind spots may stretch up to 20 feet in front of the cab and approximately 200 feet behind the vehicle.",
+      "mnemonic": "20 in front, 200 behind. Add a zero for the back.",
+      "manualRef": "Section 3, p. 21"
+    },
+    {
+      "id": "share-trailer-twice",
+      "district": "d10-sharing",
+      "kind": "number",
+      "title": "Towing: twice as long",
+      "simple": "Towing a trailer puts extra stress on your vehicle. It takes twice as long to pass, stop, speed up and turn. Large side mirrors help you see. Remember the No-Zones.",
+      "official": "These trailers are attached to mid-sized cars and trucks with safety chains and a trailer hitch. Large side mirrors are generally needed to increase visibility. Towing a trailer places additional stress on the vehicle; it takes the vehicle twice as long to pass, stop, accelerate and turn.",
+      "mnemonic": "Trailer = times two.",
+      "manualRef": "Section 3, p. 21"
+    },
+    {
+      "id": "share-trailer-inspection",
+      "district": "d10-sharing",
+      "kind": "rule",
+      "title": "Trailer safety check every trip",
+      "simple": "Check your trailer before every trip. Make sure the hitch pin, coupler and safety chains are secure. Check the plug and all the lights. Practice first in an empty parking lot.",
+      "official": "Before driving a vehicle with a light to medium trailer attached, perform a safety inspection before each trip. Ensure: the pin securing the ball mount to the receiver is intact; the hitch coupler is secured; safety chains are properly attached; the electrical plug is properly installed; brake lights, turn signals, and license plate lights are functioning properly. Before pulling a trailer on public roads, find a location such as a vacant parking lot to practice.",
+      "manualRef": "Section 3, p. 21"
+    },
+    {
+      "id": "share-trailer-sway",
+      "district": "d10-sharing",
+      "kind": "rule",
+      "title": "Trailer sways? Slow down",
+      "simple": "If your trailer starts to sway, slow down. Your trailer makes your vehicle longer. Allow for that extra length when you change lanes.",
+      "official": "When driving a vehicle with a light to medium trailer attached: always allow for the added length of the trailer when you change lanes; if your trailer starts to sway, slow down.",
+      "mnemonic": "Sway means slow.",
+      "manualRef": "Section 3, p. 21"
+    },
+    {
+      "id": "share-trailer-backing",
+      "district": "d10-sharing",
+      "kind": "rule",
+      "title": "Backing a trailer: hand at bottom",
+      "simple": "To back up a trailer, put your hand on the bottom of the steering wheel. Move the wheel left to send the trailer left. Move it right to send it right. Can't see? Get a helper.",
+      "official": "When backing up, place your hand on the bottom of the steering wheel. If you cannot see where you are backing up, have someone outside to help guide you. To back the trailer to the left, use your left hand to move the wheel left. To back the trailer to the right, use your right hand to move the wheel to the right.",
+      "mnemonic": "Hand at the bottom: the trailer goes where your hand goes.",
+      "manualRef": "Section 3, p. 21"
+    }
+  ],
+  "events": [
+    {
+      "id": "ev-share-vulnerable-users-1",
+      "item": "share-vulnerable-users",
+      "kind": "gates",
+      "prompt": "Driving distracted near people walking is:",
+      "choices": [
+        "Legal if you are slow",
+        "Illegal",
+        "Legal on side streets"
+      ],
+      "answer": 1,
+      "missLine": "Driving distracted or careless around walkers and bike riders is against the law."
+    },
+    {
+      "id": "ev-share-vulnerable-users-2",
+      "item": "share-vulnerable-users",
+      "kind": "action",
+      "prompt": "School and playground area ahead.",
+      "sign": "sign-school-zone",
+      "action": "slow",
+      "missLine": "Near schools and playgrounds, slow down and watch for people."
+    },
+    {
+      "id": "ev-share-vulnerable-users-3",
+      "item": "share-vulnerable-users",
+      "kind": "gates",
+      "prompt": "Who is a vulnerable road user?",
+      "choices": [
+        "Truck driver",
+        "Bus driver",
+        "Person on a skateboard"
+      ],
+      "answer": 2,
+      "missLine": "People walking, biking, skating or in wheelchairs are vulnerable road users."
+    },
+    {
+      "id": "ev-share-ped-turning-1",
+      "item": "share-ped-turning",
+      "kind": "action",
+      "prompt": "Turning right. Person crossing the street.",
+      "prop": "pedestrian-crosswalk",
+      "action": "stop",
+      "missLine": "Pedestrians have the right-of-way when you turn. Wait until they fully cross."
+    },
+    {
+      "id": "ev-share-ped-turning-2",
+      "item": "share-ped-turning",
+      "kind": "gates",
+      "prompt": "Turning left, a person is crossing. Who goes first?",
+      "choices": [
+        "The person walking",
+        "You do",
+        "Whoever is faster"
+      ],
+      "answer": 0,
+      "missLine": "When you turn, pedestrians have the right-of-way."
+    },
+    {
+      "id": "ev-share-ped-turning-3",
+      "item": "share-ped-turning",
+      "kind": "gates",
+      "prompt": "A walker is crossing as you turn. When do you go?",
+      "choices": [
+        "When they're halfway",
+        "Right after you honk",
+        "After they fully cross"
+      ],
+      "answer": 2,
+      "missLine": "Let pedestrians cross the street completely before you begin your turn."
+    },
+    {
+      "id": "ev-share-ped-crosswalk-pass-1",
+      "item": "share-ped-crosswalk-pass",
+      "kind": "action",
+      "prompt": "Car in next lane stopped at crosswalk.",
+      "prop": "pedestrian-crosswalk",
+      "action": "stop",
+      "missLine": "Never pass a car stopped at a crosswalk. A person may be in front of it."
+    },
+    {
+      "id": "ev-share-ped-crosswalk-pass-2",
+      "item": "share-ped-crosswalk-pass",
+      "kind": "gates",
+      "prompt": "Passing another car at a crosswalk is:",
+      "choices": [
+        "Illegal",
+        "Allowed if you honk",
+        "Allowed if no one is seen"
+      ],
+      "answer": 0,
+      "missLine": "Never pass at a crosswalk. A car can hide someone crossing."
+    },
+    {
+      "id": "ev-share-ped-crosswalk-pass-3",
+      "item": "share-ped-crosswalk-pass",
+      "kind": "gates",
+      "prompt": "Why is passing at a crosswalk dangerous?",
+      "choices": [
+        "It annoys other drivers",
+        "The car may hide a walker",
+        "It slows down traffic"
+      ],
+      "answer": 1,
+      "missLine": "A stopped car can hide a person crossing in front of it."
+    },
+    {
+      "id": "ev-share-ped-stop-lane-1",
+      "item": "share-ped-stop-lane",
+      "kind": "action",
+      "prompt": "Person crossing in front of you.",
+      "prop": "pedestrian-crosswalk",
+      "action": "stop",
+      "missLine": "Stop and stay stopped until the person has passed your lane."
+    },
+    {
+      "id": "ev-share-ped-stop-lane-2",
+      "item": "share-ped-stop-lane",
+      "kind": "gates",
+      "prompt": "How long do you stay stopped for a walker?",
+      "choices": [
+        "Until they pass your lane",
+        "Until they wave at you",
+        "Until they are halfway"
+      ],
+      "answer": 0,
+      "missLine": "Stay stopped until the person has passed the lane you are in."
+    },
+    {
+      "id": "ev-share-ped-stop-lane-3",
+      "item": "share-ped-stop-lane",
+      "kind": "gates",
+      "prompt": "A person is crossing in front of you. You:",
+      "choices": [
+        "Honk and go",
+        "Stop and stay stopped",
+        "Creep forward slowly"
+      ],
+      "answer": 1,
+      "missLine": "Stop and stay stopped until the walker has passed your lane."
+    },
+    {
+      "id": "ev-share-ped-blind-1",
+      "item": "share-ped-blind",
+      "kind": "action",
+      "prompt": "Person with a guide dog crossing.",
+      "prop": "blind-pedestrian",
+      "action": "stop",
+      "missLine": "Always come to a full stop for a person using a cane or guide dog."
+    },
+    {
+      "id": "ev-share-ped-blind-2",
+      "item": "share-ped-blind",
+      "kind": "action",
+      "prompt": "Person with a cane stepping into the street.",
+      "prop": "blind-pedestrian",
+      "weather": "night",
+      "action": "stop",
+      "missLine": "A cane may mean the person cannot see. Come to a full stop."
+    },
+    {
+      "id": "ev-share-ped-blind-3",
+      "item": "share-ped-blind",
+      "kind": "gates",
+      "prompt": "A cane or guide dog usually means the person:",
+      "choices": [
+        "Is in a hurry",
+        "Is directing traffic",
+        "Is blind or can't see well"
+      ],
+      "answer": 2,
+      "missLine": "A cane or guide dog means the person may be blind or have low vision."
+    },
+    {
+      "id": "ev-share-ped-class1-1",
+      "item": "share-ped-class1",
+      "kind": "gates",
+      "prompt": "Skip the stop and badly hurt a walker. That can be:",
+      "choices": [
+        "A parking ticket",
+        "A Class 1 misdemeanor",
+        "Just a warning"
+      ],
+      "answer": 1,
+      "missLine": "Not stopping and badly hurting a walker can be a Class 1 misdemeanor."
+    },
+    {
+      "id": "ev-share-ped-class1-2",
+      "item": "share-ped-class1",
+      "kind": "action",
+      "prompt": "Pedestrian crossing legally ahead.",
+      "prop": "pedestrian-crosswalk",
+      "action": "stop",
+      "missLine": "Always come to a full stop for people crossing the road legally."
+    },
+    {
+      "id": "ev-share-ped-class1-3",
+      "item": "share-ped-class1",
+      "kind": "gates",
+      "prompt": "For walkers lawfully crossing, you must:",
+      "choices": [
+        "Slow to a crawl",
+        "Honk twice",
+        "Come to a full stop"
+      ],
+      "answer": 2,
+      "missLine": "You must come to a full stop for people crossing legally."
+    },
+    {
+      "id": "ev-share-bike-right-of-way-1",
+      "item": "share-bike-right-of-way",
+      "kind": "gates",
+      "prompt": "On the road, a bike rider's right-of-way is:",
+      "choices": [
+        "The same as a car's",
+        "Less than a car's",
+        "More than a car's"
+      ],
+      "answer": 0,
+      "missLine": "A bike rider on the road has the same right-of-way as a car."
+    },
+    {
+      "id": "ev-share-bike-right-of-way-2",
+      "item": "share-bike-right-of-way",
+      "kind": "action",
+      "prompt": "Bicycle on the road ahead.",
+      "prop": "cyclist-ahead",
+      "action": "slow",
+      "missLine": "Slow down when you come up on a bike rider."
+    },
+    {
+      "id": "ev-share-bike-right-of-way-3",
+      "item": "share-bike-right-of-way",
+      "kind": "gates",
+      "prompt": "Bike riders on the road must follow:",
+      "choices": [
+        "No traffic laws",
+        "Only sidewalk rules",
+        "Many of the same laws"
+      ],
+      "answer": 2,
+      "missLine": "Bike riders follow many of the same laws as drivers."
+    },
+    {
+      "id": "ev-share-bike-center-lane-1",
+      "item": "share-bike-center-lane",
+      "kind": "action",
+      "prompt": "Cyclist riding in the middle of your lane.",
+      "prop": "cyclist-ahead",
+      "action": "slow",
+      "missLine": "Bike riders may use the center of the lane when needed. Slow down."
+    },
+    {
+      "id": "ev-share-bike-center-lane-2",
+      "item": "share-bike-center-lane",
+      "kind": "gates",
+      "prompt": "May a bike ride in the center of the lane?",
+      "choices": [
+        "Yes, when needed",
+        "Never",
+        "Only on interstates"
+      ],
+      "answer": 0,
+      "missLine": "Bike riders may use the center of the lane when needed."
+    },
+    {
+      "id": "ev-share-bike-center-lane-3",
+      "item": "share-bike-center-lane",
+      "kind": "gates",
+      "prompt": "A bike may take the center of the lane to:",
+      "choices": [
+        "Get a better view",
+        "Turn left",
+        "Slow cars down"
+      ],
+      "answer": 1,
+      "missLine": "Bike riders may use the center of the lane to turn left or when it is narrow."
+    },
+    {
+      "id": "ev-share-bike-no-interstate-1",
+      "item": "share-bike-no-interstate",
+      "kind": "gates",
+      "prompt": "Bikes may use all public roads except:",
+      "choices": [
+        "Interstates",
+        "City streets",
+        "Country roads"
+      ],
+      "answer": 0,
+      "missLine": "Bikes may use all public roads except interstates and most freeways."
+    },
+    {
+      "id": "ev-share-bike-no-interstate-2",
+      "item": "share-bike-no-interstate",
+      "kind": "gates",
+      "prompt": "On a shared-use path, bikes may come from:",
+      "choices": [
+        "One direction only",
+        "Either direction",
+        "The left side only"
+      ],
+      "answer": 1,
+      "missLine": "Bike riders may ride either way on sidewalks and shared-use paths."
+    },
+    {
+      "id": "ev-share-bike-no-interstate-3",
+      "item": "share-bike-no-interstate",
+      "kind": "action",
+      "prompt": "Bike path crosses the road ahead.",
+      "sign": "sign-bicycle-crossing",
+      "action": "slow",
+      "missLine": "Slow down near bikes. On paths, they may come from either direction."
+    },
+    {
+      "id": "ev-share-bike-lane-off-limits-1",
+      "item": "share-bike-lane-off-limits",
+      "kind": "gates",
+      "prompt": "Can you drive in this lane to pass?",
+      "image": "mark-bike-lane",
+      "choices": [
+        "Yes, if it is empty",
+        "Yes, if you signal",
+        "No, it is a bike lane"
+      ],
+      "answer": 2,
+      "missLine": "Cars may not use a marked bike lane, even to pass."
+    },
+    {
+      "id": "ev-share-bike-lane-off-limits-2",
+      "item": "share-bike-lane-off-limits",
+      "kind": "gates",
+      "prompt": "Slow car ahead. Pass using the bike lane?",
+      "choices": [
+        "Yes, if no bikes",
+        "No, never",
+        "Yes, if it is quick"
+      ],
+      "answer": 1,
+      "missLine": "Using a bike lane to pass is against the law."
+    },
+    {
+      "id": "ev-share-bike-3-feet-1",
+      "item": "share-bike-3-feet",
+      "kind": "gates",
+      "prompt": "Passing a bike. Leave at least how much space?",
+      "choices": [
+        "1 foot",
+        "3 feet",
+        "10 feet"
+      ],
+      "answer": 1,
+      "missLine": "Leave at least 3 feet when you pass a bike rider."
+    },
+    {
+      "id": "ev-share-bike-3-feet-2",
+      "item": "share-bike-3-feet",
+      "kind": "action",
+      "prompt": "Bike ahead. Lane too narrow for 3 feet.",
+      "prop": "cyclist-ahead",
+      "action": "move-left",
+      "missLine": "If you cannot give 3 feet, change lanes to pass the bike."
+    },
+    {
+      "id": "ev-share-bike-3-feet-3",
+      "item": "share-bike-3-feet",
+      "kind": "gates",
+      "prompt": "Lane too narrow for 3 feet. You should:",
+      "choices": [
+        "Honk until it moves",
+        "Squeeze past slowly",
+        "Change lanes to pass"
+      ],
+      "answer": 2,
+      "missLine": "If the lane is too narrow for 3 feet, change lanes to pass."
+    },
+    {
+      "id": "ev-share-small-blind-spot-1",
+      "item": "share-small-blind-spot",
+      "kind": "gates",
+      "prompt": "Before you open your car door, you should:",
+      "choices": [
+        "Look for bikes first",
+        "Open it quickly",
+        "Signal, then open"
+      ],
+      "answer": 0,
+      "missLine": "Look for bikes, cars and walkers before you open your door."
+    },
+    {
+      "id": "ev-share-small-blind-spot-2",
+      "item": "share-small-blind-spot",
+      "kind": "gates",
+      "prompt": "Why do bikes slip into blind spots?",
+      "choices": [
+        "They are loud",
+        "They ride at night",
+        "They are small"
+      ],
+      "answer": 2,
+      "missLine": "Bikes and motorcycles are small, so they slip into blind spots."
+    },
+    {
+      "id": "ev-share-small-blind-spot-3",
+      "item": "share-small-blind-spot",
+      "kind": "action",
+      "prompt": "Pulling out. Bike coming along the road.",
+      "prop": "driveway-exit",
+      "action": "stop",
+      "missLine": "Always check for bikes before you pull out. Let them pass."
+    },
+    {
+      "id": "ev-share-moto-look-twice-1",
+      "item": "share-moto-look-twice",
+      "kind": "gates",
+      "prompt": "Deadly motorcycle crashes: how many involve cars?",
+      "choices": [
+        "More than half",
+        "Very few",
+        "Almost none"
+      ],
+      "answer": 0,
+      "missLine": "More than half of deadly motorcycle crashes involve cars."
+    },
+    {
+      "id": "ev-share-moto-look-twice-2",
+      "item": "share-moto-look-twice",
+      "kind": "action",
+      "prompt": "Pulling out. Motorcycle approaching.",
+      "prop": "driveway-exit",
+      "action": "stop",
+      "missLine": "Check twice for motorcycles and let them pass before you pull out."
+    },
+    {
+      "id": "ev-share-moto-look-twice-3",
+      "item": "share-moto-look-twice",
+      "kind": "gates",
+      "prompt": "Why do drivers often miss motorcycles?",
+      "choices": [
+        "Motorcycles are loud",
+        "They expect 4 wheels",
+        "They ride on shoulders"
+      ],
+      "answer": 1,
+      "missLine": "Drivers look for four wheels and miss two. Look twice for motorcycles."
+    },
+    {
+      "id": "ev-share-moto-look-twice-4",
+      "item": "share-moto-look-twice",
+      "kind": "gates",
+      "prompt": "A motorcycle's small size makes you misjudge its:",
+      "choices": [
+        "Speed and distance",
+        "Color",
+        "Engine size"
+      ],
+      "answer": 0,
+      "missLine": "A motorcycle's size can fool you about its speed and distance."
+    },
+    {
+      "id": "ev-share-moto-following-1",
+      "item": "share-moto-following",
+      "kind": "action",
+      "prompt": "Motorcycle ahead in your lane.",
+      "prop": "motorcycle-ahead",
+      "action": "slow",
+      "missLine": "Never tailgate a motorcycle. Add an extra second of following distance."
+    },
+    {
+      "id": "ev-share-moto-following-2",
+      "item": "share-moto-following",
+      "kind": "action",
+      "prompt": "Rain. Motorcycle ahead.",
+      "prop": "motorcycle-ahead",
+      "weather": "rain",
+      "action": "slow",
+      "missLine": "In bad weather, double your following distance behind a motorcycle."
+    },
+    {
+      "id": "ev-share-moto-following-3",
+      "item": "share-moto-following",
+      "kind": "gates",
+      "prompt": "Behind a motorcycle, add how much following time?",
+      "choices": [
+        "Nothing extra",
+        "Half a second",
+        "1 extra second"
+      ],
+      "answer": 2,
+      "missLine": "Add an extra second to your following distance behind a motorcycle."
+    },
+    {
+      "id": "ev-share-moto-following-4",
+      "item": "share-moto-following",
+      "kind": "gates",
+      "prompt": "Rain, behind a motorcycle. Your following distance?",
+      "choices": [
+        "Keep it the same",
+        "Double it",
+        "Cut it in half"
+      ],
+      "answer": 1,
+      "missLine": "In bad weather, double your following distance behind a motorcycle."
+    },
+    {
+      "id": "ev-share-moto-same-lane-1",
+      "item": "share-moto-same-lane",
+      "kind": "gates",
+      "prompt": "Drive beside a motorcycle in its lane?",
+      "choices": [
+        "Yes, it is narrow",
+        "Only to pass",
+        "Never"
+      ],
+      "answer": 2,
+      "missLine": "Never drive beside a motorcycle in the same lane."
+    },
+    {
+      "id": "ev-share-moto-same-lane-2",
+      "item": "share-moto-same-lane",
+      "kind": "action",
+      "prompt": "Motorcycle swerving around debris ahead.",
+      "prop": "motorcycle-ahead",
+      "action": "slow",
+      "missLine": "Expect sudden moves from motorcycles. Slow down and give them the whole lane."
+    },
+    {
+      "id": "ev-share-moto-same-lane-3",
+      "item": "share-moto-same-lane",
+      "kind": "gates",
+      "prompt": "A motorcycle rider may use:",
+      "choices": [
+        "Only the right half",
+        "The entire lane",
+        "Only the shoulder"
+      ],
+      "answer": 1,
+      "missLine": "A motorcycle rider may use the whole lane. Give them all of it."
+    },
+    {
+      "id": "ev-share-tide-light-rail-1",
+      "item": "share-tide-light-rail",
+      "kind": "action",
+      "prompt": "Crossing gates down at train tracks.",
+      "prop": "railroad-gate-down",
+      "action": "stop",
+      "missLine": "Never drive around lowered crossing gates. Wait for them to go up."
+    },
+    {
+      "id": "ev-share-tide-light-rail-2",
+      "item": "share-tide-light-rail",
+      "kind": "gates",
+      "prompt": "The Tide light rail runs in which city?",
+      "choices": [
+        "Richmond",
+        "Roanoke",
+        "Norfolk"
+      ],
+      "answer": 2,
+      "missLine": "The Tide is the light rail train system in Norfolk."
+    },
+    {
+      "id": "ev-share-tide-light-rail-3",
+      "item": "share-tide-light-rail",
+      "kind": "gates",
+      "prompt": "Turning across train tracks. First you:",
+      "choices": [
+        "Look both ways",
+        "Speed up",
+        "Honk once"
+      ],
+      "answer": 0,
+      "missLine": "Always look both ways before turning across train tracks."
+    },
+    {
+      "id": "ev-share-tide-light-rail-4",
+      "item": "share-tide-light-rail",
+      "kind": "action",
+      "prompt": "Light rail signal lights flashing.",
+      "prop": "railroad-lights-flashing",
+      "action": "stop",
+      "missLine": "Always obey light rail signals. Stop and wait."
+    },
+    {
+      "id": "ev-share-tide-tracks-1",
+      "item": "share-tide-tracks",
+      "kind": "action",
+      "prompt": "Tracks ahead. Cars stopped just past them.",
+      "action": "stop",
+      "missLine": "Do not start across tracks unless you can clear them without stopping.",
+      "sign": "sign-railroad-crossbuck"
+    },
+    {
+      "id": "ev-share-tide-tracks-2",
+      "item": "share-tide-tracks",
+      "kind": "gates",
+      "prompt": "Stopping on train tracks is:",
+      "choices": [
+        "Fine for a moment",
+        "Fine if traffic is stuck",
+        "Never OK"
+      ],
+      "answer": 2,
+      "missLine": "Never stop, pass or shift gears on train tracks."
+    },
+    {
+      "id": "ev-share-tide-tracks-3",
+      "item": "share-tide-tracks",
+      "kind": "gates",
+      "prompt": "Cars are stopped just past the tracks. You:",
+      "choices": [
+        "Wait before the tracks",
+        "Pull onto the tracks",
+        "Go around them"
+      ],
+      "answer": 0,
+      "missLine": "Wait before the tracks. Cross only when you have room to clear them."
+    },
+    {
+      "id": "ev-share-lsv-speed-1",
+      "item": "share-lsv-speed",
+      "kind": "gates",
+      "prompt": "A low speed vehicle's top speed is:",
+      "choices": [
+        "35-45 MPH",
+        "10-15 MPH",
+        "21-25 MPH"
+      ],
+      "answer": 2,
+      "missLine": "Low speed vehicles have a top speed of 21 to 25 MPH."
+    },
+    {
+      "id": "ev-share-lsv-speed-2",
+      "item": "share-lsv-speed",
+      "kind": "gates",
+      "prompt": "How many wheels does a low speed vehicle have?",
+      "choices": [
+        "4",
+        "3",
+        "2"
+      ],
+      "answer": 0,
+      "missLine": "A low speed vehicle has four wheels."
+    },
+    {
+      "id": "ev-share-lsv-roads-1",
+      "item": "share-lsv-roads",
+      "kind": "gates",
+      "prompt": "LSVs may drive on roads with limits up to:",
+      "choices": [
+        "25 MPH",
+        "35 MPH",
+        "45 MPH"
+      ],
+      "answer": 1,
+      "missLine": "Low speed vehicles may use roads with limits of 35 MPH or less."
+    },
+    {
+      "id": "ev-share-lsv-roads-2",
+      "item": "share-lsv-roads",
+      "kind": "gates",
+      "prompt": "Who may drive a low speed vehicle on a road?",
+      "choices": [
+        "Anyone, no license",
+        "Licensed drivers",
+        "Only farm workers"
+      ],
+      "answer": 1,
+      "missLine": "Licensed drivers, or permit holders with a licensed driver, may drive LSVs."
+    },
+    {
+      "id": "ev-share-lsv-roads-3",
+      "item": "share-lsv-roads",
+      "kind": "gates",
+      "prompt": "Must a low speed vehicle be registered and insured?",
+      "choices": [
+        "Yes",
+        "No",
+        "Only if gas powered"
+      ],
+      "answer": 0,
+      "missLine": "Low speed vehicles must meet Virginia's registration and insurance rules."
+    },
+    {
+      "id": "ev-share-lsv-golf-cart-1",
+      "item": "share-lsv-golf-cart",
+      "kind": "gates",
+      "prompt": "Is a golf cart a low speed vehicle?",
+      "choices": [
+        "Yes",
+        "No",
+        "Only if electric"
+      ],
+      "answer": 1,
+      "missLine": "Golf carts are not low speed vehicles."
+    },
+    {
+      "id": "ev-share-lsv-golf-cart-2",
+      "item": "share-lsv-golf-cart",
+      "kind": "gates",
+      "prompt": "Which is NOT a low speed vehicle?",
+      "choices": [
+        "Golf cart",
+        "4-wheel 25 MPH electric car",
+        "4-wheel 21 MPH gas car"
+      ],
+      "answer": 0,
+      "missLine": "A golf cart is not a low speed vehicle."
+    },
+    {
+      "id": "ev-share-truck-no-zones-1",
+      "item": "share-truck-no-zones",
+      "kind": "gates",
+      "prompt": "What are the danger areas around a truck called?",
+      "image": "diagram-truck-no-zones",
+      "choices": [
+        "Safe zones",
+        "Pass lanes",
+        "No-Zones"
+      ],
+      "answer": 2,
+      "missLine": "Danger areas around trucks, buses and RVs are called No-Zones."
+    },
+    {
+      "id": "ev-share-truck-no-zones-2",
+      "item": "share-truck-no-zones",
+      "kind": "gates",
+      "prompt": "Truck No-Zones are on the:",
+      "choices": [
+        "Front only",
+        "Sides, front and rear",
+        "Rear only"
+      ],
+      "answer": 1,
+      "missLine": "No-Zones are on the sides, front and rear of big vehicles."
+    },
+    {
+      "id": "ev-share-truck-no-zones-3",
+      "item": "share-truck-no-zones",
+      "kind": "gates",
+      "prompt": "Compared to cars, big trucks speed up:",
+      "choices": [
+        "Faster",
+        "The same",
+        "More slowly"
+      ],
+      "answer": 2,
+      "missLine": "Trucks, buses and RVs speed up slowly and need more room to stop and turn."
+    },
+    {
+      "id": "ev-share-truck-mirror-1",
+      "item": "share-truck-mirror",
+      "kind": "gates",
+      "prompt": "You can't see the driver's face in the truck mirror. So:",
+      "choices": [
+        "He can't see you",
+        "He sees you fine",
+        "You are safe there"
+      ],
+      "answer": 0,
+      "missLine": "If you can't see the driver's face in his mirror, he can't see you."
+    },
+    {
+      "id": "ev-share-truck-mirror-2",
+      "item": "share-truck-mirror",
+      "kind": "gates",
+      "prompt": "Truck side blind spots, compared to a car's, are:",
+      "choices": [
+        "Smaller",
+        "About the same",
+        "Much larger"
+      ],
+      "answer": 2,
+      "missLine": "Truck side No-Zones are much larger than a car's blind spots."
+    },
+    {
+      "id": "ev-share-truck-mirror-3",
+      "item": "share-truck-mirror",
+      "kind": "action",
+      "prompt": "Beside a truck. Can't see driver in mirror.",
+      "prop": "truck-ahead",
+      "action": "slow",
+      "missLine": "Can't see the driver's face in his mirror? He can't see you. Drop back."
+    },
+    {
+      "id": "ev-share-truck-rear-1",
+      "item": "share-truck-rear",
+      "kind": "action",
+      "prompt": "Riding close behind a big truck.",
+      "prop": "truck-ahead",
+      "action": "slow",
+      "missLine": "Right behind a truck, the driver can't see you. Drop back."
+    },
+    {
+      "id": "ev-share-truck-rear-2",
+      "item": "share-truck-rear",
+      "kind": "gates",
+      "prompt": "Close behind a truck, the driver can see you:",
+      "choices": [
+        "Not at all",
+        "Clearly",
+        "In his side mirror"
+      ],
+      "answer": 0,
+      "missLine": "A truck driver can't see your car right behind the truck."
+    },
+    {
+      "id": "ev-share-truck-rear-3",
+      "item": "share-truck-rear",
+      "kind": "gates",
+      "prompt": "Close behind a truck, what can't YOU see?",
+      "choices": [
+        "The truck",
+        "Traffic ahead of it",
+        "The lane lines"
+      ],
+      "answer": 1,
+      "missLine": "Close behind a truck, you can't see traffic ahead of it."
+    },
+    {
+      "id": "ev-share-truck-pass-front-1",
+      "item": "share-truck-pass-front",
+      "kind": "gates",
+      "prompt": "Passed a truck. When can you pull in front?",
+      "choices": [
+        "Whole front in your mirror",
+        "Once your bumper clears",
+        "Right away"
+      ],
+      "answer": 0,
+      "missLine": "Pull in only when you see the truck's whole front in your rearview mirror."
+    },
+    {
+      "id": "ev-share-truck-pass-front-2",
+      "item": "share-truck-pass-front",
+      "kind": "gates",
+      "prompt": "After pulling in front of a truck, you should:",
+      "choices": [
+        "Brake to slow down",
+        "Keep your speed",
+        "Pull onto the shoulder"
+      ],
+      "answer": 1,
+      "missLine": "After you pull in front of a truck, keep your speed."
+    },
+    {
+      "id": "ev-share-truck-stop-distance-1",
+      "item": "share-truck-stop-distance",
+      "kind": "gates",
+      "prompt": "A truck needs how much room to stop?",
+      "choices": [
+        "Half a car's",
+        "Same as a car",
+        "Nearly twice a car's"
+      ],
+      "answer": 2,
+      "missLine": "Trucks need nearly twice the time and room to stop as cars."
+    },
+    {
+      "id": "ev-share-truck-stop-distance-2",
+      "item": "share-truck-stop-distance",
+      "kind": "gates",
+      "prompt": "Why leave room when you cut in front of a truck?",
+      "choices": [
+        "It speeds up fast",
+        "Its lights are dim",
+        "It needs more room to stop"
+      ],
+      "answer": 2,
+      "missLine": "A truck needs nearly twice the room to stop. Don't cut in close."
+    },
+    {
+      "id": "ev-share-truck-length-pass-1",
+      "item": "share-truck-length-pass",
+      "kind": "gates",
+      "prompt": "A truck and trailer can be up to:",
+      "choices": [
+        "35 feet long",
+        "65 feet long",
+        "100 feet long"
+      ],
+      "answer": 1,
+      "missLine": "A truck and its trailer may be as long as 65 feet."
+    },
+    {
+      "id": "ev-share-truck-length-pass-2",
+      "item": "share-truck-length-pass",
+      "kind": "gates",
+      "prompt": "Passing a big truck may take more than:",
+      "choices": [
+        "100 feet",
+        "5 miles",
+        "Half a mile"
+      ],
+      "answer": 2,
+      "missLine": "Passing a truck may take more than half a mile of clear road."
+    },
+    {
+      "id": "ev-share-truck-length-pass-3",
+      "item": "share-truck-length-pass",
+      "kind": "gates",
+      "prompt": "Before passing a truck, you need:",
+      "choices": [
+        "High beams on",
+        "Lots of clear road",
+        "A quick honk"
+      ],
+      "answer": 1,
+      "missLine": "Passing a truck can take more than half a mile of clear road."
+    },
+    {
+      "id": "ev-share-truck-wide-turns-1",
+      "item": "share-truck-wide-turns",
+      "kind": "action",
+      "prompt": "Truck swinging wide to turn right.",
+      "prop": "truck-ahead",
+      "action": "slow",
+      "missLine": "Never squeeze between a turning truck and the curb. Stay back."
+    },
+    {
+      "id": "ev-share-truck-wide-turns-2",
+      "item": "share-truck-wide-turns",
+      "kind": "gates",
+      "prompt": "Gap between a turning truck and the curb. You:",
+      "choices": [
+        "Squeeze through",
+        "Honk and go",
+        "Stay back and wait"
+      ],
+      "answer": 2,
+      "missLine": "Never squeeze between a truck and the curb."
+    },
+    {
+      "id": "ev-share-truck-wide-turns-3",
+      "item": "share-truck-wide-turns",
+      "kind": "gates",
+      "prompt": "Why do trucks swing wide on turns?",
+      "choices": [
+        "To turn safely",
+        "To block cars",
+        "To let you pass"
+      ],
+      "answer": 0,
+      "missLine": "Trucks, buses and RVs need to swing wide to turn safely."
+    },
+    {
+      "id": "ev-share-truck-blind-feet-1",
+      "item": "share-truck-blind-feet",
+      "kind": "gates",
+      "prompt": "A truck's front blind spot can reach up to:",
+      "choices": [
+        "2 feet",
+        "20 feet",
+        "200 feet"
+      ],
+      "answer": 1,
+      "missLine": "A truck's blind spot can reach up to 20 feet in front of the cab."
+    },
+    {
+      "id": "ev-share-truck-blind-feet-2",
+      "item": "share-truck-blind-feet",
+      "kind": "gates",
+      "prompt": "A truck's rear blind spot can reach about:",
+      "choices": [
+        "20 feet",
+        "50 feet",
+        "200 feet"
+      ],
+      "answer": 2,
+      "missLine": "A truck's blind spot can reach about 200 feet behind it."
+    },
+    {
+      "id": "ev-share-truck-blind-feet-3",
+      "item": "share-truck-blind-feet",
+      "kind": "action",
+      "prompt": "Following a big truck too close.",
+      "prop": "truck-ahead",
+      "weather": "fog",
+      "action": "slow",
+      "missLine": "A truck's blind spot reaches about 200 feet behind it. Drop back."
+    },
+    {
+      "id": "ev-share-trailer-twice-1",
+      "item": "share-trailer-twice",
+      "kind": "gates",
+      "prompt": "Towing a trailer, stopping takes:",
+      "choices": [
+        "Half as long",
+        "The same time",
+        "Twice as long"
+      ],
+      "answer": 2,
+      "missLine": "With a trailer, it takes twice as long to pass, stop, speed up and turn."
+    },
+    {
+      "id": "ev-share-trailer-twice-2",
+      "item": "share-trailer-twice",
+      "kind": "gates",
+      "prompt": "Towing a trailer, what takes twice as long?",
+      "choices": [
+        "Only parking",
+        "Only signaling",
+        "Passing and stopping"
+      ],
+      "answer": 2,
+      "missLine": "With a trailer, passing, stopping, speeding up and turning take twice as long."
+    },
+    {
+      "id": "ev-share-trailer-twice-3",
+      "item": "share-trailer-twice",
+      "kind": "gates",
+      "prompt": "Towing a trailer, you often need:",
+      "choices": [
+        "Large side mirrors",
+        "Smaller tires",
+        "High beams on"
+      ],
+      "answer": 0,
+      "missLine": "When you tow a trailer, you usually need large side mirrors to see."
+    },
+    {
+      "id": "ev-share-trailer-inspection-1",
+      "item": "share-trailer-inspection",
+      "kind": "gates",
+      "prompt": "How often do you inspect a trailer?",
+      "choices": [
+        "Once a year",
+        "Before each trip",
+        "Only if it sways"
+      ],
+      "answer": 1,
+      "missLine": "Do a trailer safety check before each trip."
+    },
+    {
+      "id": "ev-share-trailer-inspection-2",
+      "item": "share-trailer-inspection",
+      "kind": "gates",
+      "prompt": "Which is on the trailer safety checklist?",
+      "choices": [
+        "Safety chains attached",
+        "Full gas tank",
+        "Spare key in car"
+      ],
+      "answer": 0,
+      "missLine": "Check the hitch pin, coupler, safety chains, plug and lights before each trip."
+    },
+    {
+      "id": "ev-share-trailer-inspection-3",
+      "item": "share-trailer-inspection",
+      "kind": "gates",
+      "prompt": "Where should you first practice towing?",
+      "choices": [
+        "Busy highway",
+        "Empty parking lot",
+        "School zone"
+      ],
+      "answer": 1,
+      "missLine": "Practice towing first in a place like an empty parking lot."
+    },
+    {
+      "id": "ev-share-trailer-sway-1",
+      "item": "share-trailer-sway",
+      "kind": "gates",
+      "prompt": "Your trailer starts to sway. You should:",
+      "choices": [
+        "Speed up",
+        "Swerve hard",
+        "Slow down"
+      ],
+      "answer": 2,
+      "missLine": "If your trailer sways, slow down."
+    },
+    {
+      "id": "ev-share-trailer-sway-2",
+      "item": "share-trailer-sway",
+      "kind": "gates",
+      "prompt": "Changing lanes with a trailer, allow for:",
+      "choices": [
+        "Less room than usual",
+        "Its added length",
+        "Nothing extra"
+      ],
+      "answer": 1,
+      "missLine": "Allow for the trailer's added length when you change lanes."
+    },
+    {
+      "id": "ev-share-trailer-backing-1",
+      "item": "share-trailer-backing",
+      "kind": "gates",
+      "prompt": "Backing a trailer: where does your hand go?",
+      "choices": [
+        "Top of the wheel",
+        "On the gear shift",
+        "Bottom of the wheel"
+      ],
+      "answer": 2,
+      "missLine": "When backing a trailer, put your hand on the bottom of the steering wheel."
+    },
+    {
+      "id": "ev-share-trailer-backing-2",
+      "item": "share-trailer-backing",
+      "kind": "gates",
+      "prompt": "Hand at the bottom. To back the trailer left, turn:",
+      "choices": [
+        "Left",
+        "Right",
+        "Not at all"
+      ],
+      "answer": 0,
+      "missLine": "With your hand at the bottom, move the wheel left to back the trailer left."
+    },
+    {
+      "id": "ev-share-trailer-backing-3",
+      "item": "share-trailer-backing",
+      "kind": "gates",
+      "prompt": "Can't see behind your trailer. You should:",
+      "choices": [
+        "Get a helper outside",
+        "Back up fast",
+        "Use only mirrors"
+      ],
+      "answer": 0,
+      "missLine": "If you can't see where you are backing, have someone outside guide you."
+    },
+    {
+      "id": "ev-share-bike-3-feet-4",
+      "item": "share-bike-3-feet",
+      "kind": "gates",
+      "prompt": "Passing a bike, be ready to:",
+      "choices": [
+        "Speed up",
+        "Stop suddenly",
+        "Honk loudly"
+      ],
+      "answer": 1,
+      "missLine": "Give bikes plenty of room and be ready to stop suddenly."
+    },
+    {
+      "id": "ev-share-truck-no-zones-4",
+      "item": "share-truck-no-zones",
+      "kind": "gates",
+      "prompt": "Do RVs and buses have No-Zones too?",
+      "choices": [
+        "No, only trucks",
+        "Only buses",
+        "Yes"
+      ],
+      "answer": 2,
+      "missLine": "Trucks, buses and RVs all have No-Zones."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-share-vulnerable-users-1",
+      "item": "share-vulnerable-users",
+      "part": 2,
+      "prompt": "It is illegal to drive distracted or carelessly around:",
+      "choices": [
+        "Only school buses",
+        "Only police cars",
+        "Vulnerable road users such as pedestrians and bicyclists",
+        "Only trucks on the interstate"
+      ],
+      "answer": 2,
+      "explain": "Virginia law makes it illegal to drive distracted and carelessly around vulnerable road users."
+    },
+    {
+      "id": "q-share-vulnerable-users-2",
+      "item": "share-vulnerable-users",
+      "part": 2,
+      "prompt": "Which of these is a vulnerable road user?",
+      "choices": [
+        "A person in a wheelchair",
+        "A tractor-trailer driver",
+        "A city bus driver",
+        "A motor home driver"
+      ],
+      "answer": 0,
+      "explain": "Pedestrians and people on bicycles, wheelchairs, skateboards, roller skates and scooters are vulnerable road users."
+    },
+    {
+      "id": "q-share-vulnerable-users-3",
+      "item": "share-vulnerable-users",
+      "part": 2,
+      "prompt": "Who is responsible for adjusting their driving to avoid other people's mistakes?",
+      "choices": [
+        "Only the pedestrian",
+        "Only the police",
+        "Only the other driver",
+        "You, the driver"
+      ],
+      "answer": 3,
+      "explain": "It is your responsibility to adjust your driving to avoid others' mistakes and keep everyone safe."
+    },
+    {
+      "id": "q-share-ped-turning-1",
+      "item": "share-ped-turning",
+      "part": 2,
+      "prompt": "When you make a right or left turn and a pedestrian is crossing, you must:",
+      "choices": [
+        "Turn quickly before the pedestrian reaches you",
+        "Let the pedestrian completely cross the street before you turn",
+        "Honk so the pedestrian moves faster",
+        "Drive slowly around the pedestrian"
+      ],
+      "answer": 1,
+      "explain": "Pedestrians have the right-of-way when you turn, so let them completely cross first."
+    },
+    {
+      "id": "q-share-ped-turning-2",
+      "item": "share-ped-turning",
+      "part": 2,
+      "prompt": "When you are turning, pedestrians crossing the street:",
+      "choices": [
+        "Must wait for you",
+        "Must yield to turning cars",
+        "Have the right-of-way only at night",
+        "Have the right-of-way"
+      ],
+      "answer": 3,
+      "explain": "Be especially aware of pedestrians when turning; they have the right-of-way."
+    },
+    {
+      "id": "q-share-ped-turning-3",
+      "item": "share-ped-turning",
+      "part": 1,
+      "prompt": "The light is green and you want to turn right. A pedestrian is crossing. You must:",
+      "image": "signal-green",
+      "choices": [
+        "Wait until the pedestrian has completely crossed",
+        "Turn because the light is green",
+        "Honk and then turn",
+        "Turn behind the pedestrian"
+      ],
+      "answer": 0,
+      "explain": "When turning, let pedestrians completely cross the street before you begin your turn."
+    },
+    {
+      "id": "q-share-ped-crosswalk-pass-1",
+      "item": "share-ped-crosswalk-pass",
+      "part": 2,
+      "prompt": "Passing another vehicle at a crosswalk is:",
+      "choices": [
+        "Legal if you signal first",
+        "Legal if no pedestrians are in view",
+        "Illegal",
+        "Legal on one-way streets"
+      ],
+      "answer": 2,
+      "explain": "Passing at a crosswalk is illegal."
+    },
+    {
+      "id": "q-share-ped-crosswalk-pass-2",
+      "item": "share-ped-crosswalk-pass",
+      "part": 2,
+      "prompt": "Why should you never pass a vehicle that is stopped at a crosswalk?",
+      "choices": [
+        "The other driver may get angry",
+        "You may not see a pedestrian crossing in front of it",
+        "Crosswalks are only for bicycles",
+        "You must always stay in the left lane"
+      ],
+      "answer": 1,
+      "explain": "Another vehicle can block your view of pedestrians crossing in front of it."
+    },
+    {
+      "id": "q-share-ped-stop-lane-1",
+      "item": "share-ped-stop-lane",
+      "part": 2,
+      "prompt": "When a pedestrian is crossing in front of your stopped vehicle, you must:",
+      "choices": [
+        "Stay stopped until they have passed your lane",
+        "Honk to hurry them along",
+        "Drive slowly around them",
+        "Go when they are halfway across your lane"
+      ],
+      "answer": 0,
+      "explain": "Stop and remain stopped until pedestrians have passed the lane in which your vehicle is stopped."
+    },
+    {
+      "id": "q-share-ped-stop-lane-2",
+      "item": "share-ped-stop-lane",
+      "part": 2,
+      "prompt": "You stopped for a pedestrian. You may move again when:",
+      "choices": [
+        "The pedestrian steps off the curb",
+        "The car behind you honks",
+        "The pedestrian looks at you",
+        "The pedestrian has passed the lane you are stopped in"
+      ],
+      "answer": 3,
+      "explain": "Remain stopped until pedestrians have passed your lane."
+    },
+    {
+      "id": "q-share-ped-stop-lane-3",
+      "item": "share-ped-stop-lane",
+      "part": 1,
+      "prompt": "This sign warns of a pedestrian crossing. If a person is crossing in front of you, you must:",
+      "image": "sign-pedestrian-crossing",
+      "choices": [
+        "Slow down and pass behind them",
+        "Stop and stay stopped until they pass your lane",
+        "Honk to warn them",
+        "Go around them on the left"
+      ],
+      "answer": 1,
+      "explain": "Stop and remain stopped until pedestrians have passed the lane you are stopped in."
+    },
+    {
+      "id": "q-share-ped-blind-1",
+      "item": "share-ped-blind",
+      "part": 2,
+      "prompt": "When you see a pedestrian using a cane or a guide dog, you must:",
+      "choices": [
+        "Slow down and honk",
+        "Pass carefully on the left",
+        "Come to a full stop",
+        "Flash your headlights"
+      ],
+      "answer": 2,
+      "explain": "Drivers must come to a full stop for a pedestrian using a cane or guide dog."
+    },
+    {
+      "id": "q-share-ped-blind-2",
+      "item": "share-ped-blind",
+      "part": 2,
+      "prompt": "A pedestrian using a cane or guide dog most likely:",
+      "choices": [
+        "Is a police officer",
+        "Is directing traffic",
+        "Is blind or has a vision impairment",
+        "Is a school crossing guard"
+      ],
+      "answer": 2,
+      "explain": "A cane or guide dog means the person is blind or has a vision impairment."
+    },
+    {
+      "id": "q-share-ped-blind-3",
+      "item": "share-ped-blind",
+      "part": 2,
+      "prompt": "Which pedestrians may move slowly when crossing the street?",
+      "choices": [
+        "The elderly and people with disabilities",
+        "Only joggers",
+        "Only crossing guards",
+        "Only people with bicycles"
+      ],
+      "answer": 0,
+      "explain": "Remember that the elderly and people with disabilities may move slowly."
+    },
+    {
+      "id": "q-share-ped-class1-1",
+      "item": "share-ped-class1",
+      "part": 2,
+      "prompt": "Failing to stop for a pedestrian lawfully crossing, and causing serious injury or death, can result in:",
+      "choices": [
+        "A written warning only",
+        "Only a parking ticket",
+        "No penalty if you honked",
+        "A Class 1 misdemeanor"
+      ],
+      "answer": 3,
+      "explain": "Failing to stop and causing serious bodily injury or death can result in a Class 1 misdemeanor."
+    },
+    {
+      "id": "q-share-ped-class1-2",
+      "item": "share-ped-class1",
+      "part": 2,
+      "prompt": "Drivers are required to come to a full stop for pedestrians who are:",
+      "choices": [
+        "Standing at a bus stop",
+        "Lawfully crossing the roadway",
+        "Walking on the sidewalk",
+        "Waiting in a parking lot"
+      ],
+      "answer": 1,
+      "explain": "You must come to a full stop for pedestrians lawfully crossing a roadway."
+    },
+    {
+      "id": "q-share-bike-right-of-way-1",
+      "item": "share-bike-right-of-way",
+      "part": 2,
+      "prompt": "A bicyclist riding on the roadway generally has:",
+      "choices": [
+        "No right-of-way",
+        "The right-of-way only on sidewalks",
+        "The right-of-way only in bike lanes",
+        "The same right-of-way as a motor vehicle driver"
+      ],
+      "answer": 3,
+      "explain": "Bicyclists on a roadway generally have the same right-of-way as drivers of motor vehicles."
+    },
+    {
+      "id": "q-share-bike-right-of-way-2",
+      "item": "share-bike-right-of-way",
+      "part": 2,
+      "prompt": "When you approach a bicyclist, you should:",
+      "choices": [
+        "Slow down",
+        "Honk so they move over",
+        "Speed up to pass quickly",
+        "Follow closely behind them"
+      ],
+      "answer": 0,
+      "explain": "Slow down when you approach bicyclists; some may not know or obey the rules."
+    },
+    {
+      "id": "q-share-bike-right-of-way-3",
+      "item": "share-bike-right-of-way",
+      "part": 1,
+      "prompt": "This sign warns of bicycles. On the road, a bicyclist generally has:",
+      "image": "sign-bicycle-crossing",
+      "choices": [
+        "Less right-of-way than a car",
+        "No right to use the road",
+        "The same right-of-way as a car",
+        "The right-of-way only at night"
+      ],
+      "answer": 2,
+      "explain": "Bicyclists on the road generally have the same right-of-way as motor vehicles."
+    },
+    {
+      "id": "q-share-bike-center-lane-1",
+      "item": "share-bike-center-lane",
+      "part": 2,
+      "prompt": "A bicyclist may ride in the center of the lane when:",
+      "choices": [
+        "They are riding on an interstate",
+        "The lane is too narrow to share side-by-side with a car",
+        "They want to race cars",
+        "Never; bicyclists must always ride on the shoulder"
+      ],
+      "answer": 1,
+      "explain": "Bicyclists may ride in the center of the lane when necessary, such as when the lane is too narrow to share."
+    },
+    {
+      "id": "q-share-bike-center-lane-2",
+      "item": "share-bike-center-lane",
+      "part": 2,
+      "prompt": "You see this marking. A bicyclist ahead is riding in the middle of your narrow lane. This is:",
+      "image": "mark-sharrow",
+      "choices": [
+        "Allowed when the lane is too narrow to share",
+        "Illegal; the bicyclist must move to the curb",
+        "Allowed only at night",
+        "Allowed only on interstates"
+      ],
+      "answer": 0,
+      "explain": "Bicyclists may use the center of the lane when it is too narrow to share side-by-side with a car."
+    },
+    {
+      "id": "q-share-bike-center-lane-3",
+      "item": "share-bike-center-lane",
+      "part": 2,
+      "prompt": "A bicyclist moves to the center of the lane just before an intersection. The rider is probably:",
+      "choices": [
+        "Breaking the law",
+        "About to stop and park",
+        "Trying to block you",
+        "About to turn left"
+      ],
+      "answer": 3,
+      "explain": "Bicyclists may ride in the center of the lane when they are about to turn left."
+    },
+    {
+      "id": "q-share-bike-no-interstate-1",
+      "item": "share-bike-no-interstate",
+      "part": 2,
+      "prompt": "Bicyclists are legally allowed on all public roads except:",
+      "choices": [
+        "Two-lane country roads",
+        "Interstates and most freeways",
+        "Residential streets",
+        "Roads with bike lanes"
+      ],
+      "answer": 1,
+      "explain": "Bicyclists may use all public roads except interstates and most freeways."
+    },
+    {
+      "id": "q-share-bike-no-interstate-2",
+      "item": "share-bike-no-interstate",
+      "part": 2,
+      "prompt": "On sidewalks, shared-use paths and two-way separated bike lanes, expect bicyclists:",
+      "choices": [
+        "Only going the same way as traffic",
+        "Only on weekends",
+        "Riding in either direction",
+        "Never; bicycles must stay on the road"
+      ],
+      "answer": 2,
+      "explain": "Be aware of bicyclists riding in either direction on sidewalks, shared-use paths and two-way bike lanes."
+    },
+    {
+      "id": "q-share-bike-lane-off-limits-1",
+      "item": "share-bike-lane-off-limits",
+      "part": 2,
+      "prompt": "Driving a motor vehicle in this marked lane to pass another car is:",
+      "image": "mark-bike-lane",
+      "choices": [
+        "Allowed if no bicycles are in it",
+        "Allowed if you use your turn signal",
+        "Prohibited",
+        "Allowed during rush hour"
+      ],
+      "answer": 2,
+      "explain": "Motor vehicles may not use marked bicycle lanes, including while passing."
+    },
+    {
+      "id": "q-share-bike-lane-off-limits-2",
+      "item": "share-bike-lane-off-limits",
+      "part": 2,
+      "prompt": "Which is true about marked bicycle lanes?",
+      "choices": [
+        "Cars may not use them, even to pass",
+        "Cars may use them to pass slow traffic",
+        "Cars may park in them for short stops",
+        "Cars may use them when they are empty"
+      ],
+      "answer": 0,
+      "explain": "Using marked bicycle lanes is prohibited for motor vehicles, including while passing."
+    },
+    {
+      "id": "q-share-bike-3-feet-1",
+      "item": "share-bike-3-feet",
+      "part": 2,
+      "prompt": "When passing a bicyclist, Virginia law requires at least:",
+      "choices": [
+        "1 foot of clearance",
+        "2 feet of clearance",
+        "3 feet of clearance",
+        "5 feet of clearance"
+      ],
+      "answer": 2,
+      "explain": "State law requires passing bicyclists with at least three feet of clearance."
+    },
+    {
+      "id": "q-share-bike-3-feet-2",
+      "item": "share-bike-3-feet",
+      "part": 2,
+      "prompt": "If a lane is too narrow to pass a bicyclist with three feet of clearance, you must:",
+      "choices": [
+        "Pass anyway at a slow speed",
+        "Use the bike lane to pass",
+        "Honk so the bicyclist moves onto the shoulder",
+        "Change lanes to pass safely"
+      ],
+      "answer": 3,
+      "explain": "If the lane is not wide enough for three feet of clearance, change lanes to pass."
+    },
+    {
+      "id": "q-share-bike-3-feet-3",
+      "item": "share-bike-3-feet",
+      "part": 1,
+      "prompt": "You see this sign and a bicyclist ahead. When you pass, you must leave at least:",
+      "image": "sign-bicycle-crossing",
+      "choices": [
+        "3 feet",
+        "1 foot",
+        "2 feet",
+        "6 inches"
+      ],
+      "answer": 0,
+      "explain": "Pass bicyclists with at least three feet of clearance."
+    },
+    {
+      "id": "q-share-small-blind-spot-1",
+      "item": "share-small-blind-spot",
+      "part": 2,
+      "prompt": "You should always check for bicyclists before you:",
+      "choices": [
+        "Pull out or change lanes",
+        "Turn or back up",
+        "Open your car door",
+        "All of these"
+      ],
+      "answer": 3,
+      "explain": "Always check for bicyclists before you pull out, change lanes, turn, back up, open the door or go through an intersection."
+    },
+    {
+      "id": "q-share-small-blind-spot-2",
+      "item": "share-small-blind-spot",
+      "part": 2,
+      "prompt": "Bicycles and motorcycles are easy to miss because:",
+      "choices": [
+        "They always ride on the sidewalk",
+        "Their small size lets them slip into your blind spot",
+        "They never use lights",
+        "They are only on the road at night"
+      ],
+      "answer": 1,
+      "explain": "A bicycle's or motorcycle's small size allows it to slip into your blind spot easily."
+    },
+    {
+      "id": "q-share-small-blind-spot-3",
+      "item": "share-small-blind-spot",
+      "part": 2,
+      "prompt": "A motorcycle can easily hide in the area shown. Before you change lanes, you should:",
+      "image": "diagram-blind-spot",
+      "choices": [
+        "Only check your rearview mirror",
+        "Speed up and change lanes quickly",
+        "Flash your headlights",
+        "Check your blind spot by glancing over your shoulder"
+      ],
+      "answer": 3,
+      "explain": "Motorcycles slip into blind spots easily, so check over your shoulder before changing lanes."
+    },
+    {
+      "id": "q-share-moto-look-twice-1",
+      "item": "share-moto-look-twice",
+      "part": 2,
+      "prompt": "More than half of all fatal motorcycle crashes involve:",
+      "choices": [
+        "Automobiles",
+        "Bicycles",
+        "Pedestrians",
+        "Deer"
+      ],
+      "answer": 0,
+      "explain": "More than half of all fatal motorcycle crashes involve automobiles."
+    },
+    {
+      "id": "q-share-moto-look-twice-2",
+      "item": "share-moto-look-twice",
+      "part": 2,
+      "prompt": "In more than half of crashes between motorcycles and cars, the car driver:",
+      "choices": [
+        "Was speeding on an interstate",
+        "Was driving in fog",
+        "Did not see the motorcycle until it was too late",
+        "Was following too far behind"
+      ],
+      "answer": 2,
+      "explain": "In more than half of these crashes, the other driver didn't see the motorcycle until it was too late."
+    },
+    {
+      "id": "q-share-moto-look-twice-3",
+      "item": "share-moto-look-twice",
+      "part": 2,
+      "prompt": "Before pulling out into traffic, you should check for motorcycles:",
+      "choices": [
+        "Never; they will yield to you",
+        "Twice",
+        "Only at night",
+        "Only in the right lane"
+      ],
+      "answer": 1,
+      "explain": "Check twice for motorcycles and use extra caution before pulling out in front of one."
+    },
+    {
+      "id": "q-share-moto-look-twice-4",
+      "item": "share-moto-look-twice",
+      "part": 2,
+      "prompt": "Why is it easy to misjudge a motorcycle's speed and distance?",
+      "choices": [
+        "Its small size",
+        "Its loud engine",
+        "Its bright headlight",
+        "Its wide tires"
+      ],
+      "answer": 0,
+      "explain": "The size of a motorcycle can cause you to misjudge its speed and distance."
+    },
+    {
+      "id": "q-share-moto-following-1",
+      "item": "share-moto-following",
+      "part": 2,
+      "prompt": "When following a motorcycle, you should:",
+      "choices": [
+        "Follow closer so the rider can see you",
+        "Follow closer because motorcycles stop slowly",
+        "Flash your lights so the rider moves over",
+        "Add an extra second to the following distance rule"
+      ],
+      "answer": 3,
+      "explain": "Allow plenty of braking distance by adding an extra second to the following distance rule."
+    },
+    {
+      "id": "q-share-moto-following-2",
+      "item": "share-moto-following",
+      "part": 2,
+      "prompt": "When following a motorcycle in bad weather, you should:",
+      "choices": [
+        "Keep your normal following distance",
+        "Double your following distance",
+        "Drive beside the motorcycle instead",
+        "Cut your following distance in half"
+      ],
+      "answer": 1,
+      "explain": "In inclement weather, double the following distance behind a motorcycle."
+    },
+    {
+      "id": "q-share-moto-same-lane-1",
+      "item": "share-moto-same-lane",
+      "part": 2,
+      "prompt": "Which is true about sharing a lane with a motorcycle?",
+      "choices": [
+        "You may drive beside it because it is narrow",
+        "You may share the lane if you signal",
+        "Never drive beside a motorcycle in the same lane",
+        "You may share the lane on highways"
+      ],
+      "answer": 2,
+      "explain": "Never drive beside a motorcycle in the same lane."
+    },
+    {
+      "id": "q-share-moto-same-lane-2",
+      "item": "share-moto-same-lane",
+      "part": 2,
+      "prompt": "Why might a motorcycle make sudden moves within its lane?",
+      "choices": [
+        "The rider is showing off",
+        "Motorcycles cannot ride straight",
+        "Debris or small changes in the road surface",
+        "To let cars share the lane"
+      ],
+      "answer": 2,
+      "explain": "A slight change or debris on the road can be a major obstacle for a motorcyclist."
+    },
+    {
+      "id": "q-share-tide-light-rail-1",
+      "item": "share-tide-light-rail",
+      "part": 1,
+      "prompt": "At this light rail crossing, the gates are down. You must:",
+      "image": "sign-crossbuck-gate",
+      "choices": [
+        "Stop and never drive around the lowered gates",
+        "Drive around the gates if no train is in sight",
+        "Slow down and cross carefully",
+        "Honk and cross quickly"
+      ],
+      "answer": 0,
+      "explain": "Never drive around lowered crossing gates."
+    },
+    {
+      "id": "q-share-tide-light-rail-2",
+      "item": "share-tide-light-rail",
+      "part": 2,
+      "prompt": "The Tide is a light rail train system in:",
+      "choices": [
+        "Richmond",
+        "Alexandria",
+        "Roanoke",
+        "Norfolk"
+      ],
+      "answer": 3,
+      "explain": "There is a light rail train system in Norfolk called The Tide."
+    },
+    {
+      "id": "q-share-tide-light-rail-3",
+      "item": "share-tide-light-rail",
+      "part": 2,
+      "prompt": "When driving near light rail tracks, you should:",
+      "choices": [
+        "Expect trains only during rush hour",
+        "Expect trains only on the left track",
+        "Assume the train will stop for you",
+        "Expect trains on any track at any time"
+      ],
+      "answer": 3,
+      "explain": "Expect trains on any track at any time."
+    },
+    {
+      "id": "q-share-tide-tracks-1",
+      "item": "share-tide-tracks",
+      "part": 2,
+      "prompt": "When crossing light rail or train tracks, you should never:",
+      "choices": [
+        "Look both ways",
+        "Stop, pass or shift gears on the tracks",
+        "Obey traffic signals",
+        "Cross when you have room to clear the tracks"
+      ],
+      "answer": 1,
+      "explain": "Never stop, pass or shift on train tracks."
+    },
+    {
+      "id": "q-share-tide-tracks-2",
+      "item": "share-tide-tracks",
+      "part": 2,
+      "prompt": "You should not start across train tracks unless:",
+      "choices": [
+        "You can see the train",
+        "The car ahead is already on the tracks",
+        "You honk first",
+        "You have room to cross without stopping and clear the tracks"
+      ],
+      "answer": 3,
+      "explain": "Don't cross train tracks unless you have enough room to cross without stopping and clear them."
+    },
+    {
+      "id": "q-share-tide-tracks-3",
+      "item": "share-tide-tracks",
+      "part": 1,
+      "prompt": "Traffic ahead is stopped just past this crossing. You should:",
+      "image": "sign-crossbuck-lights",
+      "choices": [
+        "Wait before the tracks until there is room to clear them",
+        "Stop on the tracks behind the last car",
+        "Shift gears on the tracks",
+        "Pass the stopped cars on the tracks"
+      ],
+      "answer": 0,
+      "explain": "Never stop on train tracks; cross only when you can clear them."
+    },
+    {
+      "id": "q-share-lsv-speed-1",
+      "item": "share-lsv-speed",
+      "part": 2,
+      "prompt": "Low speed vehicles have a maximum speed of:",
+      "choices": [
+        "15 to 20 MPH",
+        "21 to 25 MPH",
+        "30 to 35 MPH",
+        "40 to 45 MPH"
+      ],
+      "answer": 1,
+      "explain": "Low speed vehicles have a maximum speed ranging from 21 to 25 MPH."
+    },
+    {
+      "id": "q-share-lsv-speed-2",
+      "item": "share-lsv-speed",
+      "part": 2,
+      "prompt": "A low speed vehicle is:",
+      "choices": [
+        "A three-wheel gas scooter",
+        "A golf cart",
+        "A four-wheel electric or gas vehicle with a top speed of 21 to 25 MPH",
+        "A moped"
+      ],
+      "answer": 2,
+      "explain": "Low speed vehicles are electric- or gas-powered four-wheel vehicles with a top speed of 21 to 25 MPH."
+    },
+    {
+      "id": "q-share-lsv-roads-1",
+      "item": "share-lsv-roads",
+      "part": 2,
+      "prompt": "Low speed vehicles may be driven on public roads with speed limits of:",
+      "choices": [
+        "25 MPH or less",
+        "45 MPH or less",
+        "55 MPH or less",
+        "35 MPH or less"
+      ],
+      "answer": 3,
+      "explain": "Low speed vehicles may be operated on public roads with speed limits of 35 MPH or less."
+    },
+    {
+      "id": "q-share-lsv-roads-2",
+      "item": "share-lsv-roads",
+      "part": 2,
+      "prompt": "Which statement about low speed vehicles is true?",
+      "choices": [
+        "They need no registration or insurance",
+        "A learner's permit holder may drive one with a licensed driver along",
+        "They may be driven on interstates",
+        "They are the same as golf carts"
+      ],
+      "answer": 1,
+      "explain": "Licensed drivers, or learner's permit holders accompanied by a licensed driver, may operate low speed vehicles."
+    },
+    {
+      "id": "q-share-lsv-roads-3",
+      "item": "share-lsv-roads",
+      "part": 2,
+      "prompt": "Low speed vehicles must meet Virginia's requirements for:",
+      "choices": [
+        "Passenger vehicle registration and insurance",
+        "Commercial truck licensing",
+        "Motorcycle helmets",
+        "Nothing; they are exempt"
+      ],
+      "answer": 0,
+      "explain": "Low speed vehicles must meet Virginia's requirements for passenger vehicle registration and insurance."
+    },
+    {
+      "id": "q-share-lsv-golf-cart-1",
+      "item": "share-lsv-golf-cart",
+      "part": 2,
+      "prompt": "Golf carts are:",
+      "choices": [
+        "Classified as low speed vehicles",
+        "Allowed on all public roads",
+        "Classified as motorcycles",
+        "Not classified as low speed vehicles"
+      ],
+      "answer": 3,
+      "explain": "Golf carts are not classified as low speed vehicles."
+    },
+    {
+      "id": "q-share-lsv-golf-cart-2",
+      "item": "share-lsv-golf-cart",
+      "part": 2,
+      "prompt": "Which of these is NOT a low speed vehicle?",
+      "choices": [
+        "A four-wheel electric vehicle with a top speed of 25 MPH",
+        "A four-wheel gas vehicle with a top speed of 21 MPH",
+        "A four-wheel electric vehicle with a top speed of 23 MPH",
+        "A golf cart"
+      ],
+      "answer": 3,
+      "explain": "Golf carts are not classified as low speed vehicles."
+    },
+    {
+      "id": "q-share-truck-no-zones-1",
+      "item": "share-truck-no-zones",
+      "part": 2,
+      "prompt": "The shaded areas around this truck are called:",
+      "image": "diagram-truck-no-zones",
+      "choices": [
+        "Passing zones",
+        "No-Zones",
+        "Safety cushions",
+        "Merge areas"
+      ],
+      "answer": 1,
+      "explain": "Danger areas around trucks, buses and RVs where crashes are more likely are called No-Zones."
+    },
+    {
+      "id": "q-share-truck-no-zones-2",
+      "item": "share-truck-no-zones",
+      "part": 2,
+      "prompt": "Compared to cars, trucks, buses and RVs:",
+      "choices": [
+        "Speed up faster and stop in less distance",
+        "Have smaller blind spots",
+        "Speed up slowly and need more distance to stop and turn",
+        "Can always see cars behind them"
+      ],
+      "answer": 2,
+      "explain": "These vehicles accelerate slowly and require greater stopping and turning distances."
+    },
+    {
+      "id": "q-share-truck-mirror-1",
+      "item": "share-truck-mirror",
+      "part": 2,
+      "prompt": "If you cannot see a truck driver's face in his side view mirror:",
+      "choices": [
+        "You are at a safe distance",
+        "The truck driver can see you clearly",
+        "The truck driver cannot see you",
+        "You should stay there and honk"
+      ],
+      "answer": 2,
+      "explain": "If you can't see the driver's face in his side view mirror, then he can't see you."
+    },
+    {
+      "id": "q-share-truck-mirror-2",
+      "item": "share-truck-mirror",
+      "part": 2,
+      "prompt": "The blind spots on the sides of trucks, buses and RVs are:",
+      "choices": [
+        "Much larger than a car's blind spots",
+        "Smaller than a car's blind spots",
+        "The same as a car's blind spots",
+        "Only on the left side"
+      ],
+      "answer": 0,
+      "explain": "Side No-Zones on large vehicles are much larger than your car's blind spots."
+    },
+    {
+      "id": "q-share-truck-rear-1",
+      "item": "share-truck-rear",
+      "part": 2,
+      "prompt": "Following too closely behind a truck is dangerous because:",
+      "choices": [
+        "Trucks always speed up quickly",
+        "Trucks stop in less distance than cars",
+        "The truck driver can always see you in the mirror",
+        "The truck driver can't see you and you can't see traffic ahead"
+      ],
+      "answer": 3,
+      "explain": "In the rear No-Zone the driver can't see you and you can't see traffic ahead of the truck."
+    },
+    {
+      "id": "q-share-truck-rear-2",
+      "item": "share-truck-rear",
+      "part": 2,
+      "prompt": "Trucks, buses and RVs have a huge No-Zone:",
+      "choices": [
+        "Only on the left side",
+        "Directly behind them",
+        "Only in front of them",
+        "Nowhere, because they have large mirrors"
+      ],
+      "answer": 1,
+      "explain": "Trucks, buses and RVs have huge No-Zones directly behind them."
+    },
+    {
+      "id": "q-share-truck-pass-front-1",
+      "item": "share-truck-pass-front",
+      "part": 2,
+      "prompt": "After passing a truck, you should pull back in front of it when:",
+      "choices": [
+        "Your back bumper passes its front bumper",
+        "The truck driver flashes his lights",
+        "You are one car length ahead",
+        "You can see the entire front of the truck in your rearview mirror"
+      ],
+      "answer": 3,
+      "explain": "Look for the entire front of the truck in your rearview mirror before pulling in front."
+    },
+    {
+      "id": "q-share-truck-pass-front-2",
+      "item": "share-truck-pass-front",
+      "part": 2,
+      "prompt": "After you pass a truck and pull in front of it, you should:",
+      "choices": [
+        "Maintain your speed",
+        "Slow down quickly",
+        "Turn on your hazard lights",
+        "Move onto the shoulder"
+      ],
+      "answer": 0,
+      "explain": "After pulling in front of a truck, maintain your speed."
+    },
+    {
+      "id": "q-share-truck-pass-front-3",
+      "item": "share-truck-pass-front",
+      "part": 2,
+      "prompt": "You could be rear-ended by a truck if you:",
+      "choices": [
+        "Cut in too soon after passing it",
+        "Cut in front and then suddenly slow down",
+        "Both of these",
+        "Neither of these"
+      ],
+      "answer": 2,
+      "explain": "Cutting in too soon or cutting in and then slowing down can get you rear-ended by a truck."
+    },
+    {
+      "id": "q-share-truck-stop-distance-1",
+      "item": "share-truck-stop-distance",
+      "part": 2,
+      "prompt": "Compared to cars, trucks, buses and RVs need about how much time and room to stop?",
+      "choices": [
+        "Half as much",
+        "About the same",
+        "Nearly twice as much",
+        "Ten times as much"
+      ],
+      "answer": 2,
+      "explain": "These vehicles need nearly twice the time and room to stop as cars."
+    },
+    {
+      "id": "q-share-truck-stop-distance-2",
+      "item": "share-truck-stop-distance",
+      "part": 2,
+      "prompt": "Why is it dangerous to cut in front of a large truck and then slow down?",
+      "choices": [
+        "The truck can stop faster than you",
+        "Trucks have smaller blind spots than cars",
+        "The truck needs nearly twice the room to stop as a car",
+        "It is not dangerous"
+      ],
+      "answer": 2,
+      "explain": "Trucks need nearly twice the time and room to stop as cars."
+    },
+    {
+      "id": "q-share-truck-length-pass-1",
+      "item": "share-truck-length-pass",
+      "part": 2,
+      "prompt": "A truck and its trailer may be as long as:",
+      "choices": [
+        "40 feet",
+        "50 feet",
+        "65 feet",
+        "85 feet"
+      ],
+      "answer": 2,
+      "explain": "A truck and its trailer may be as long as 65 feet."
+    },
+    {
+      "id": "q-share-truck-length-pass-2",
+      "item": "share-truck-length-pass",
+      "part": 2,
+      "prompt": "Passing a truck may take you more than ___ of clear road.",
+      "choices": [
+        "100 feet",
+        "500 feet",
+        "Two miles",
+        "Half a mile"
+      ],
+      "answer": 3,
+      "explain": "It may take more than half a mile of clear road to pass a truck."
+    },
+    {
+      "id": "q-share-truck-wide-turns-1",
+      "item": "share-truck-wide-turns",
+      "part": 2,
+      "prompt": "A truck ahead is swinging wide to make a right turn. You should:",
+      "choices": [
+        "Pass it on the right",
+        "Stay back and never squeeze between the truck and the curb",
+        "Squeeze between the truck and the curb",
+        "Honk and pass quickly"
+      ],
+      "answer": 1,
+      "explain": "Never try to squeeze between a truck, bus or RV and the curb or another vehicle."
+    },
+    {
+      "id": "q-share-truck-wide-turns-2",
+      "item": "share-truck-wide-turns",
+      "part": 2,
+      "prompt": "Trucks, buses and RVs sometimes swing wide when turning because:",
+      "choices": [
+        "They need the room to turn safely",
+        "The drivers are careless",
+        "They want to block traffic",
+        "They have no mirrors"
+      ],
+      "answer": 0,
+      "explain": "These vehicles sometimes need to swing wide to the left or right to safely make a turn."
+    },
+    {
+      "id": "q-share-truck-blind-feet-1",
+      "item": "share-truck-blind-feet",
+      "part": 2,
+      "prompt": "A truck's blind spot may stretch up to how far in front of the cab?",
+      "choices": [
+        "20 feet",
+        "5 feet",
+        "10 feet",
+        "50 feet"
+      ],
+      "answer": 0,
+      "explain": "Truck blind spots may stretch up to 20 feet in front of the cab."
+    },
+    {
+      "id": "q-share-truck-blind-feet-2",
+      "item": "share-truck-blind-feet",
+      "part": 2,
+      "prompt": "A large truck's blind spot behind it may stretch approximately:",
+      "choices": [
+        "20 feet",
+        "50 feet",
+        "100 feet",
+        "200 feet"
+      ],
+      "answer": 3,
+      "explain": "Truck blind spots may stretch approximately 200 feet behind the vehicle."
+    },
+    {
+      "id": "q-share-trailer-twice-1",
+      "item": "share-trailer-twice",
+      "part": 2,
+      "prompt": "Towing a light to medium trailer makes it take how long to pass, stop, accelerate and turn?",
+      "choices": [
+        "The same time",
+        "Half as long",
+        "Twice as long",
+        "Three times as long"
+      ],
+      "answer": 2,
+      "explain": "Towing a trailer makes it take twice as long to pass, stop, accelerate and turn."
+    },
+    {
+      "id": "q-share-trailer-twice-2",
+      "item": "share-trailer-twice",
+      "part": 2,
+      "prompt": "Light to medium trailers are attached to a vehicle with:",
+      "choices": [
+        "Only a tow strap",
+        "Only the bumper",
+        "Only a rope",
+        "Safety chains and a trailer hitch"
+      ],
+      "answer": 3,
+      "explain": "These trailers are attached with safety chains and a trailer hitch."
+    },
+    {
+      "id": "q-share-trailer-inspection-1",
+      "item": "share-trailer-inspection",
+      "part": 2,
+      "prompt": "Before each trip with a trailer, you should check that:",
+      "choices": [
+        "The safety chains are properly attached",
+        "The hitch coupler is secured",
+        "The brake lights and turn signals work",
+        "All of these"
+      ],
+      "answer": 3,
+      "explain": "Before each trip, check the hitch pin, coupler, safety chains, electrical plug and lights."
+    },
+    {
+      "id": "q-share-trailer-inspection-2",
+      "item": "share-trailer-inspection",
+      "part": 2,
+      "prompt": "Before pulling a trailer on public roads, it is a good idea to:",
+      "choices": [
+        "Practice on the interstate",
+        "Practice in a place like a vacant parking lot",
+        "Remove the safety chains",
+        "Unplug the trailer lights"
+      ],
+      "answer": 1,
+      "explain": "Practice in a location such as a vacant parking lot before towing on public roads."
+    },
+    {
+      "id": "q-share-trailer-inspection-3",
+      "item": "share-trailer-inspection",
+      "part": 2,
+      "prompt": "A trailer safety inspection should be done:",
+      "choices": [
+        "Once a year",
+        "Only before long trips",
+        "Before each trip",
+        "Only after a crash"
+      ],
+      "answer": 2,
+      "explain": "Perform a trailer safety inspection before each trip."
+    },
+    {
+      "id": "q-share-trailer-sway-1",
+      "item": "share-trailer-sway",
+      "part": 2,
+      "prompt": "If the trailer you are towing starts to sway, you should:",
+      "choices": [
+        "Speed up to straighten it",
+        "Turn the wheel sharply",
+        "Slow down",
+        "Swerve to the shoulder"
+      ],
+      "answer": 2,
+      "explain": "If your trailer starts to sway, slow down."
+    },
+    {
+      "id": "q-share-trailer-sway-2",
+      "item": "share-trailer-sway",
+      "part": 2,
+      "prompt": "When changing lanes while towing a trailer, you should:",
+      "choices": [
+        "Allow for the added length of the trailer",
+        "Change lanes faster than usual",
+        "Use less space than usual",
+        "Skip your turn signal"
+      ],
+      "answer": 0,
+      "explain": "Always allow for the added length of the trailer when you change lanes."
+    },
+    {
+      "id": "q-share-trailer-backing-1",
+      "item": "share-trailer-backing",
+      "part": 2,
+      "prompt": "When backing up with a trailer, place your hand:",
+      "choices": [
+        "On the top of the steering wheel",
+        "On the gear shift",
+        "Out the window",
+        "On the bottom of the steering wheel"
+      ],
+      "answer": 3,
+      "explain": "When backing up with a trailer, place your hand on the bottom of the steering wheel."
+    },
+    {
+      "id": "q-share-trailer-backing-2",
+      "item": "share-trailer-backing",
+      "part": 2,
+      "prompt": "To back a trailer to the right, you should:",
+      "choices": [
+        "Use your left hand to move the wheel left",
+        "Use your right hand to move the wheel to the right",
+        "Turn the wheel hard left with both hands",
+        "Keep the wheel straight"
+      ],
+      "answer": 1,
+      "explain": "To back the trailer to the right, use your right hand to move the wheel to the right."
+    },
+    {
+      "id": "q-share-trailer-backing-3",
+      "item": "share-trailer-backing",
+      "part": 2,
+      "prompt": "If you cannot see where you are backing up with a trailer, you should:",
+      "choices": [
+        "Back up quickly",
+        "Rely only on your mirrors",
+        "Sound your horn and keep backing",
+        "Have someone outside help guide you"
+      ],
+      "answer": 3,
+      "explain": "If you cannot see where you are backing up, have someone outside help guide you."
+    },
+    {
+      "id": "q-share-bike-3-feet-4",
+      "item": "share-bike-3-feet",
+      "part": 2,
+      "prompt": "When passing a bicyclist, you should give plenty of room and be prepared to:",
+      "choices": [
+        "Honk the whole time",
+        "Use the bike lane",
+        "Stop suddenly",
+        "Speed up quickly"
+      ],
+      "answer": 2,
+      "explain": "Give bicyclists plenty of room when passing and be prepared to stop suddenly."
+    },
+    {
+      "id": "q-share-truck-no-zones-3",
+      "item": "share-truck-no-zones",
+      "part": 2,
+      "prompt": "Which of these vehicles have No-Zones where your car can disappear from the driver's view?",
+      "choices": [
+        "Tractor-trailers",
+        "Buses",
+        "Motor homes and campers",
+        "All of these"
+      ],
+      "answer": 3,
+      "explain": "Trucks, tractor-trailers, buses and RVs, such as motor homes and campers, all have No-Zones."
+    },
+    {
+      "id": "q-share-tide-light-rail-4",
+      "item": "share-tide-light-rail",
+      "part": 2,
+      "prompt": "When driving around The Tide light rail, you should:",
+      "choices": [
+        "Follow the train closely",
+        "Pay attention to changing traffic patterns and follow the roadway",
+        "Drive on the tracks to pass traffic",
+        "Ignore signals when no train is near"
+      ],
+      "answer": 1,
+      "explain": "Pay attention to changing traffic patterns and always follow the roadway near The Tide."
+    },
+    {
+      "id": "q-share-vulnerable-users-4",
+      "item": "share-vulnerable-users",
+      "part": 2,
+      "prompt": "You should be especially careful near schools, playgrounds and residential areas because:",
+      "choices": [
+        "People may be playing or crossing the street",
+        "Speed limits are higher there",
+        "Trucks use those roads most",
+        "Bicycles are not allowed there"
+      ],
+      "answer": 0,
+      "explain": "Be careful around schools, playgrounds and residential areas where people may be playing or crossing the street."
+    }
+  ]
+}

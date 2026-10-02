@@ -5,8 +5,8 @@
       "id": "rook-exam-two-parts",
       "district": "d01-rookie",
       "kind": "rule",
-      "title": "The test has two parts",
-      "simple": "The knowledge test has two parts. Part one is about road signs. Part two is about driving rules and safety. You take it on a computer. All the questions come from the driver's manual.",
+      "title": "The exam has two parts",
+      "simple": "The knowledge exam has two parts. Part one is road signs. Part two is driving laws and safety. You take it on a computer. Every question comes from the driver's manual.",
       "official": "The two-part knowledge exam is given on a computer and tests your knowledge of traffic signs, motor vehicle laws, and safe driving. Exam questions are taken from information in this manual.",
       "mnemonic": "Part one: signs. Part two: smarts.",
       "manualRef": "Section 1, p. 3"
@@ -16,7 +16,7 @@
       "district": "d01-rookie",
       "kind": "number",
       "title": "All 10 sign questions right",
-      "simple": "Part one has 10 road sign questions. You must get all 10 right. If you miss even one, you cannot move on to part two.",
+      "simple": "Part one has 10 road sign questions. You must get all 10 right. Miss even one, and you cannot go on to part two.",
       "official": "You must correctly answer all ten traffic sign questions in part one of the exam before you can take part two of the exam.",
       "mnemonic": "10 signs, 10 right.",
       "manualRef": "Section 1, p. 3"
@@ -26,9 +26,9 @@
       "district": "d01-rookie",
       "kind": "number",
       "title": "Part two needs 80 percent",
-      "simple": "Part two has multiple choice questions about driving. You must get at least 80 percent right to pass. That means at least 8 out of every 10.",
+      "simple": "Part two is multiple choice. It asks about general driving knowledge. You must get at least 80 percent right to pass. That is at least 8 out of every 10.",
       "official": "Part two tests your general knowledge with multiple choice questions. You must answer at least 80 percent of these questions correctly to pass part two.",
-      "mnemonic": "Signs need all. Part two needs 8 of 10.",
+      "mnemonic": "Part one: all 10. Part two: 8 of 10.",
       "manualRef": "Section 1, p. 3"
     },
     {
@@ -36,8 +36,38 @@
       "district": "d01-rookie",
       "kind": "rule",
       "title": "One try per business day",
-      "simple": "You can take the knowledge exam only one time each business day. If you do not pass, you cannot try again that same day.",
+      "simple": "You can take the knowledge exam once each business day. Did not pass? You must wait for another business day to try again.",
       "official": "The exam may be taken only once per business day.",
+      "manualRef": "Section 1, p. 3",
+      "mnemonic": "One day, one try."
+    },
+    {
+      "id": "rook-under-18-wait-15",
+      "district": "d01-rookie",
+      "kind": "number",
+      "title": "Under 18: wait 15 days",
+      "simple": "Under 18 and fail the knowledge exam? You must wait a full 15 days to try again. Fail on January 1? The soonest you can retest is January 17.",
+      "official": "If you fail the exam and you are under age 18, by law you must wait a full 15 days before you can retake the exam. For example, if you fail the exam on January 1, the earliest you can take the exam again is January 17.",
+      "mnemonic": "Under 18? Fail means wait 15.",
+      "manualRef": "Section 1, p. 3"
+    },
+    {
+      "id": "rook-three-fails",
+      "district": "d01-rookie",
+      "kind": "number",
+      "title": "Three fails: driver ed first",
+      "simple": "Fail the knowledge exam 3 times? You must pass the classroom part of driver ed before a 4th try. Some people may take a DMV-approved 8-hour course instead.",
+      "official": "If you fail the knowledge exam three times, you will not be able to take it a fourth time until you complete and pass the classroom component of driver education. You may have the option of completing an 8-hour course based on the Virginia Driver's Manual and approved by DMV exclusively for satisfying the three-times-failure requirement.",
+      "manualRef": "Section 1, p. 3",
+      "mnemonic": "Three strikes, back to class."
+    },
+    {
+      "id": "rook-exam-languages",
+      "district": "d01-rookie",
+      "kind": "rule",
+      "title": "Audio, languages, no translators",
+      "simple": "You can hear the exam read aloud. It comes in many languages and in American Sign Language (ASL). So if your language is offered, you cannot bring a translator.",
+      "official": "An audio version of the exam is available and the exam is offered in many different languages and American Sign Language. Therefore, translators may not be used for tests in offered languages.",
       "manualRef": "Section 1, p. 3"
     },
     {
@@ -54,9 +84,10 @@
       "district": "d01-rookie",
       "kind": "rule",
       "title": "Do the exam on your own",
-      "simple": "Do the exam on your own. You cannot get help. You cannot help anyone else. You cannot get or give the questions or answers before the exam.",
+      "simple": "Do the exam on your own. Do not get help. Do not give help. Do not get or share test questions or answers before the exam.",
       "official": "When testing, you cannot: get help while taking the exam; help another person taking the exam; try to get test questions or answers before the exam; give another person exam questions or answers.",
-      "manualRef": "Section 1, p. 3"
+      "manualRef": "Section 1, p. 3",
+      "mnemonic": "No help in, no help out."
     },
     {
       "id": "rook-hand-position",
@@ -65,7 +96,7 @@
       "title": "Hands at 8 and 4",
       "simple": "Sit up straight but relaxed. Think of the steering wheel as a clock. Put your hands at 8 o'clock and 4 o'clock.",
       "official": "Sit straight but relaxed and place your hands on the steering wheel. If your steering wheel were a clock, your hands should be at the 8 o'clock and 4 o'clock positions.",
-      "mnemonic": "Clock check: 8 and 4.",
+      "mnemonic": "Clock check: 8 and 4, not 10 and 2.",
       "manualRef": "Section 3, p. 14"
     },
     {
@@ -105,8 +136,12 @@
       "id": "ev-rook-exam-two-parts-1",
       "item": "rook-exam-two-parts",
       "kind": "gates",
-      "prompt": "How many parts does the knowledge exam have?",
-      "choices": ["One part", "Two parts", "Three parts"],
+      "prompt": "How many parts does the exam have?",
+      "choices": [
+        "One part",
+        "Two parts",
+        "Three parts"
+      ],
       "answer": 1,
       "missLine": "The knowledge exam has two parts: signs first, then general knowledge."
     },
@@ -114,199 +149,404 @@
       "id": "ev-rook-exam-two-parts-2",
       "item": "rook-exam-two-parts",
       "kind": "gates",
-      "prompt": "What does part one of the exam test?",
-      "choices": ["Traffic signs", "Parking skills", "Car repair"],
+      "prompt": "Part one of the exam is about...",
+      "choices": [
+        "Traffic signs",
+        "Parking skills",
+        "Car repair"
+      ],
       "answer": 0,
-      "missLine": "Part one of the knowledge exam is all traffic sign questions."
+      "missLine": "Part one is all traffic sign questions."
     },
     {
       "id": "ev-rook-exam-two-parts-3",
       "item": "rook-exam-two-parts",
       "kind": "gates",
       "prompt": "Where do the exam questions come from?",
-      "choices": ["A police officer", "Your car's manual", "The driver's manual"],
+      "choices": [
+        "The police",
+        "Car owner's manual",
+        "Virginia Driver's Manual"
+      ],
       "answer": 2,
-      "missLine": "Exam questions are taken from the Virginia Driver's Manual."
+      "missLine": "Every exam question comes from the Virginia Driver's Manual."
     },
     {
       "id": "ev-rook-ten-sign-questions-1",
       "item": "rook-ten-sign-questions",
       "kind": "gates",
       "prompt": "How many sign questions are in part one?",
-      "choices": ["5 questions", "20 questions", "10 questions"],
-      "answer": 2,
-      "missLine": "Part one has ten traffic sign questions."
+      "choices": [
+        "5 questions",
+        "10 questions",
+        "20 questions"
+      ],
+      "answer": 1,
+      "missLine": "Part one has 10 traffic sign questions."
     },
     {
       "id": "ev-rook-ten-sign-questions-2",
       "item": "rook-ten-sign-questions",
       "kind": "gates",
       "prompt": "How many sign questions must you get right?",
-      "choices": ["All 10", "9 of 10", "8 of 10"],
+      "choices": [
+        "All 10",
+        "9 of 10",
+        "8 of 10"
+      ],
       "answer": 0,
-      "missLine": "You must get all ten sign questions right before part two."
+      "missLine": "You must get all 10 sign questions right to reach part two."
     },
     {
       "id": "ev-rook-ten-sign-questions-3",
       "item": "rook-ten-sign-questions",
       "kind": "gates",
-      "prompt": "You missed one sign question. Start part two?",
-      "choices": ["Yes, go on", "No, not yet", "Only with help"],
+      "prompt": "You missed 1 sign question. Start part two?",
+      "choices": [
+        "Yes, go on",
+        "No, not yet",
+        "Yes, with help"
+      ],
       "answer": 1,
-      "missLine": "All ten sign questions must be right before you can take part two."
+      "missLine": "You need all 10 sign questions right before part two."
     },
     {
       "id": "ev-rook-part-two-80-percent-1",
       "item": "rook-part-two-80-percent",
       "kind": "gates",
       "prompt": "What score passes part two?",
-      "choices": ["80 percent", "70 percent", "50 percent"],
-      "answer": 0,
+      "choices": [
+        "50 percent",
+        "70 percent",
+        "80 percent"
+      ],
+      "answer": 2,
       "missLine": "You need at least 80 percent right to pass part two."
     },
     {
       "id": "ev-rook-part-two-80-percent-2",
       "item": "rook-part-two-80-percent",
       "kind": "gates",
-      "prompt": "Part two: how many must you get right?",
-      "choices": ["6 of every 10", "8 of every 10", "5 of every 10"],
+      "prompt": "Part two: how many right out of every 10?",
+      "choices": [
+        "6 of 10",
+        "8 of 10",
+        "10 of 10"
+      ],
       "answer": 1,
-      "missLine": "80 percent means at least 8 of every 10 questions right."
+      "missLine": "Part two needs 80 percent. That is at least 8 of every 10."
     },
     {
       "id": "ev-rook-part-two-80-percent-3",
       "item": "rook-part-two-80-percent",
       "kind": "gates",
       "prompt": "Which part needs 80 percent to pass?",
-      "choices": ["Part one: signs", "Neither part", "Part two: general"],
-      "answer": 2,
-      "missLine": "Part two needs 80 percent. Part one needs all ten right."
+      "choices": [
+        "Part two (general)",
+        "Part one (signs)",
+        "Both parts"
+      ],
+      "answer": 0,
+      "missLine": "Part two needs 80 percent. Part one needs all 10 right."
     },
     {
       "id": "ev-rook-once-per-day-1",
       "item": "rook-once-per-day",
       "kind": "gates",
-      "prompt": "How often can you take the knowledge exam?",
-      "choices": ["Twice a day", "Once per business day", "As often as you like"],
-      "answer": 1,
-      "missLine": "You may take the knowledge exam only once per business day."
+      "prompt": "How often can you take the exam?",
+      "choices": [
+        "Once a business day",
+        "Twice a day",
+        "Any time you like"
+      ],
+      "answer": 0,
+      "missLine": "You get one exam try each business day."
     },
     {
       "id": "ev-rook-once-per-day-2",
       "item": "rook-once-per-day",
       "kind": "gates",
       "prompt": "Failed this morning. Retake it this afternoon?",
-      "choices": ["Yes, right away", "Yes, with a note", "No, not today"],
+      "choices": [
+        "Yes, right away",
+        "Yes, with a note",
+        "No, not today"
+      ],
       "answer": 2,
-      "missLine": "Only one try per business day. Come back another day."
+      "missLine": "One try per business day. Come back on another day."
     },
     {
       "id": "ev-rook-once-per-day-3",
       "item": "rook-once-per-day",
       "kind": "gates",
-      "prompt": "Exam tries allowed in one business day?",
-      "choices": ["1 try", "2 tries", "3 tries"],
+      "prompt": "How many exam tries per business day?",
+      "choices": [
+        "1 try",
+        "2 tries",
+        "3 tries"
+      ],
       "answer": 0,
-      "missLine": "The knowledge exam may be taken only once per business day."
+      "missLine": "You may take the knowledge exam once per business day."
+    },
+    {
+      "id": "ev-rook-under-18-wait-15-1",
+      "item": "rook-under-18-wait-15",
+      "kind": "gates",
+      "prompt": "Under 18 and failed. How long do you wait?",
+      "choices": [
+        "7 days",
+        "15 days",
+        "30 days"
+      ],
+      "answer": 1,
+      "missLine": "Under 18? After a fail, wait a full 15 days to retest."
+    },
+    {
+      "id": "ev-rook-under-18-wait-15-2",
+      "item": "rook-under-18-wait-15",
+      "kind": "gates",
+      "prompt": "Under 18, failed January 1. Earliest retest?",
+      "choices": [
+        "January 2",
+        "January 8",
+        "January 17"
+      ],
+      "answer": 2,
+      "missLine": "Under 18 and fail on January 1? The earliest retest is January 17."
+    },
+    {
+      "id": "ev-rook-under-18-wait-15-3",
+      "item": "rook-under-18-wait-15",
+      "kind": "gates",
+      "prompt": "Who must wait 15 days after a fail?",
+      "choices": [
+        "18 and older",
+        "Under 18",
+        "Everyone"
+      ],
+      "answer": 1,
+      "missLine": "If you are under 18, you must wait a full 15 days after a fail."
+    },
+    {
+      "id": "ev-rook-three-fails-1",
+      "item": "rook-three-fails",
+      "kind": "gates",
+      "prompt": "Failed the exam 3 times. What comes next?",
+      "choices": [
+        "Retake it tomorrow",
+        "Classroom driver ed",
+        "Bring a translator"
+      ],
+      "answer": 1,
+      "missLine": "After 3 fails, pass classroom driver ed before a 4th try."
+    },
+    {
+      "id": "ev-rook-three-fails-2",
+      "item": "rook-three-fails",
+      "kind": "gates",
+      "prompt": "How many fails until you need driver ed?",
+      "choices": [
+        "1 fail",
+        "2 fails",
+        "3 fails"
+      ],
+      "answer": 2,
+      "missLine": "Fail 3 times, and you need driver ed before you try again."
+    },
+    {
+      "id": "ev-rook-three-fails-3",
+      "item": "rook-three-fails",
+      "kind": "gates",
+      "prompt": "3 fails. Which DMV-approved course may count?",
+      "choices": [
+        "2-hour course",
+        "4-hour course",
+        "8-hour course"
+      ],
+      "answer": 2,
+      "missLine": "After 3 fails, you may be able to take a DMV-approved 8-hour course."
+    },
+    {
+      "id": "ev-rook-exam-languages-1",
+      "item": "rook-exam-languages",
+      "kind": "gates",
+      "prompt": "Exam is in your language. Bring a translator?",
+      "choices": [
+        "Yes, bring one",
+        "No, not allowed",
+        "Only for part two"
+      ],
+      "answer": 1,
+      "missLine": "Your language is offered, so you cannot use a translator."
+    },
+    {
+      "id": "ev-rook-exam-languages-2",
+      "item": "rook-exam-languages",
+      "kind": "gates",
+      "prompt": "Want the questions read aloud?",
+      "choices": [
+        "Use the audio version",
+        "Ask a friend to read",
+        "Bring a translator"
+      ],
+      "answer": 0,
+      "missLine": "You can use the audio version of the exam."
+    },
+    {
+      "id": "ev-rook-exam-languages-3",
+      "item": "rook-exam-languages",
+      "kind": "gates",
+      "prompt": "The exam comes in...",
+      "choices": [
+        "English only",
+        "Paper form only",
+        "Many languages and ASL"
+      ],
+      "answer": 2,
+      "missLine": "The exam comes in many languages and American Sign Language."
     },
     {
       "id": "ev-rook-no-cell-phone-1",
       "item": "rook-no-cell-phone",
       "kind": "gates",
-      "prompt": "During the exam, your phone should be...",
-      "choices": ["In your hand", "Put away", "On the desk, on"],
+      "prompt": "During the exam, your phone is...",
+      "choices": [
+        "In your hand",
+        "Put away",
+        "On the desk"
+      ],
       "answer": 1,
-      "missLine": "You cannot use a cell phone during the exam. Put it away."
+      "missLine": "No cell phone during the exam. Put it away."
     },
     {
       "id": "ev-rook-no-cell-phone-2",
       "item": "rook-no-cell-phone",
       "kind": "gates",
       "prompt": "Can you use a cell phone during the exam?",
-      "choices": ["Yes, for a quick look", "Yes, as a calculator", "No, never"],
+      "choices": [
+        "Yes, for a quick look",
+        "Yes, as a calculator",
+        "No, never"
+      ],
       "answer": 2,
-      "missLine": "No cell phone use is allowed during the exam."
+      "missLine": "You cannot use a cell phone during the exam."
     },
     {
       "id": "ev-rook-no-cell-phone-3",
       "item": "rook-no-cell-phone",
       "kind": "gates",
       "prompt": "Your phone buzzes during the exam. You...",
-      "choices": ["Leave it alone", "Check it fast", "Text back"],
+      "choices": [
+        "Leave it alone",
+        "Check it fast",
+        "Text back"
+      ],
       "answer": 0,
-      "missLine": "You cannot use a cell phone during the exam."
+      "missLine": "Leave your phone alone. No cell phone during the exam."
     },
     {
       "id": "ev-rook-no-help-1",
       "item": "rook-no-help",
       "kind": "gates",
-      "prompt": "Someone offers you answers before the exam. You...",
-      "choices": ["Take them", "Say no", "Share them"],
+      "prompt": "A friend offers you exam answers. You...",
+      "choices": [
+        "Take them",
+        "Say no",
+        "Share them"
+      ],
       "answer": 1,
-      "missLine": "Getting test questions or answers before the exam is not allowed."
+      "missLine": "Say no. You cannot get exam questions or answers before the exam."
     },
     {
       "id": "ev-rook-no-help-2",
       "item": "rook-no-help",
       "kind": "gates",
       "prompt": "The person next to you is stuck. You...",
-      "choices": ["Whisper the answer", "Point at the answer", "Do your own exam"],
+      "choices": [
+        "Whisper the answer",
+        "Point at the answer",
+        "Do your own exam"
+      ],
       "answer": 2,
-      "missLine": "You cannot help another person taking the exam."
+      "missLine": "Do your own exam. You cannot help another person."
     },
     {
       "id": "ev-rook-no-help-3",
       "item": "rook-no-help",
       "kind": "gates",
       "prompt": "Can a friend help you during the exam?",
-      "choices": ["No, never", "Yes, a little", "Only on part two"],
+      "choices": [
+        "No, never",
+        "Yes, a little",
+        "Only on part two"
+      ],
       "answer": 0,
-      "missLine": "You cannot get help while taking the exam."
+      "missLine": "You cannot get help during the exam. You do it on your own."
     },
     {
       "id": "ev-rook-hand-position-1",
       "item": "rook-hand-position",
       "kind": "gates",
       "prompt": "The wheel is a clock. Where do hands go?",
-      "choices": ["10 and 2", "8 and 4", "12 and 6"],
-      "answer": 1,
-      "missLine": "Hands go at 8 o'clock and 4 o'clock."
+      "choices": [
+        "8 and 4",
+        "10 and 2",
+        "12 and 6"
+      ],
+      "answer": 0,
+      "missLine": "Picture a clock. Your hands go at 8 and 4."
     },
     {
       "id": "ev-rook-hand-position-2",
       "item": "rook-hand-position",
       "kind": "gates",
       "prompt": "Hands on the wheel: which clock spots?",
-      "choices": ["9 and 3", "7 and 5", "8 and 4"],
+      "choices": [
+        "9 and 3",
+        "7 and 5",
+        "8 and 4"
+      ],
       "answer": 2,
-      "missLine": "Picture a clock. Your hands go at 8 and 4."
+      "missLine": "Your hands go at 8 o'clock and 4 o'clock."
     },
     {
       "id": "ev-rook-hand-position-3",
       "item": "rook-hand-position",
       "kind": "gates",
-      "prompt": "How should you sit behind the wheel?",
-      "choices": ["Straight but relaxed", "Leaning far back", "Leaning on the door"],
+      "prompt": "How should you sit to drive?",
+      "choices": [
+        "Straight but relaxed",
+        "Leaning far back",
+        "Leaning on the door"
+      ],
       "answer": 0,
-      "missLine": "Sit straight but relaxed, hands at 8 and 4."
+      "missLine": "Sit straight but relaxed, with hands at 8 and 4."
     },
     {
       "id": "ev-rook-grip-fingers-1",
       "item": "rook-grip-fingers",
       "kind": "gates",
       "prompt": "Hold the steering wheel with your...",
-      "choices": ["Palms", "Fingers and thumbs", "Wrists"],
-      "answer": 1,
+      "choices": [
+        "Fingers and thumbs",
+        "Palms",
+        "Wrists"
+      ],
+      "answer": 0,
       "missLine": "Hold the wheel with your fingers and thumbs, not your palms."
     },
     {
       "id": "ev-rook-grip-fingers-2",
       "item": "rook-grip-fingers",
       "kind": "gates",
-      "prompt": "Which grip should you avoid?",
-      "choices": ["Fingers and thumbs", "Hands at 8 and 4", "Gripping with palms"],
+      "prompt": "Pick the right grip.",
+      "choices": [
+        "Palms wrapped tight",
+        "One hand at 12",
+        "Fingers and thumbs"
+      ],
       "answer": 2,
-      "missLine": "Avoid gripping the wheel with your palms."
+      "missLine": "Use your fingers and thumbs. Avoid gripping with your palms."
     },
     {
       "id": "ev-rook-red-light-1",
@@ -321,7 +561,7 @@
       "id": "ev-rook-red-light-2",
       "item": "rook-red-light",
       "kind": "action",
-      "prompt": "Light is red. Rain is falling.",
+      "prompt": "Red light in the rain.",
       "prop": "traffic-light-red",
       "weather": "rain",
       "action": "stop",
@@ -333,7 +573,11 @@
       "kind": "gates",
       "prompt": "What does a steady red light mean?",
       "image": "signal-red",
-      "choices": ["Slow down", "Complete stop", "Go if clear"],
+      "choices": [
+        "Slow down",
+        "Stop all the way",
+        "Go if clear"
+      ],
       "answer": 1,
       "missLine": "A red light means come to a complete stop."
     },
@@ -343,9 +587,24 @@
       "kind": "gates",
       "prompt": "Red light, no stop line. Where do you stop?",
       "image": "signal-red",
-      "choices": ["Before the crosswalk", "In the crosswalk", "In the intersection"],
+      "choices": [
+        "Before the crosswalk",
+        "In the crosswalk",
+        "In the intersection"
+      ],
       "answer": 0,
       "missLine": "No stop line? Stop before the crosswalk or intersection."
+    },
+    {
+      "id": "ev-rook-red-light-5",
+      "item": "rook-red-light",
+      "kind": "action",
+      "prompt": "Red signal. Stop line ahead.",
+      "prop": "stop-line",
+      "sign": "signal-red",
+      "weather": "fog",
+      "action": "stop",
+      "missLine": "At a red light, stop at the stop line and stay stopped."
     },
     {
       "id": "ev-rook-green-light-1",
@@ -354,7 +613,7 @@
       "prompt": "Green light. The way is clear.",
       "prop": "traffic-light-green",
       "action": "go",
-      "missLine": "At a green light, you may go if the way is clear."
+      "missLine": "Green and clear means you may go."
     },
     {
       "id": "ev-rook-green-light-2",
@@ -364,7 +623,7 @@
       "prop": "traffic-light-green",
       "weather": "night",
       "action": "go",
-      "missLine": "Green and clear means you may keep going."
+      "missLine": "At a green light, you may go if the way is clear."
     },
     {
       "id": "ev-rook-green-light-3",
@@ -372,7 +631,11 @@
       "kind": "gates",
       "prompt": "What does a green light mean?",
       "image": "signal-green",
-      "choices": ["Stop, then go", "Slow to a stop", "Go if the way is clear"],
+      "choices": [
+        "Stop, then go",
+        "Slow to a stop",
+        "Go if the way is clear"
+      ],
       "answer": 2,
       "missLine": "Green means you may go, but only if the way is clear."
     }
@@ -383,8 +646,13 @@
       "item": "rook-exam-two-parts",
       "part": 2,
       "prompt": "The Virginia knowledge exam is given:",
-      "choices": ["On paper, in one part", "On a computer, in two parts", "Out loud by a police officer", "During the road skills test"],
-      "answer": 1,
+      "choices": [
+        "On paper, in one part",
+        "Out loud by a police officer",
+        "On a computer, in two parts",
+        "During the road skills test"
+      ],
+      "answer": 2,
       "explain": "The two-part knowledge exam is given on a computer."
     },
     {
@@ -392,7 +660,12 @@
       "item": "rook-exam-two-parts",
       "part": 2,
       "prompt": "The knowledge exam tests your knowledge of:",
-      "choices": ["Traffic signs", "Motor vehicle laws", "Safe driving", "All of these"],
+      "choices": [
+        "Traffic signs",
+        "Motor vehicle laws",
+        "Safe driving",
+        "All of these"
+      ],
       "answer": 3,
       "explain": "The knowledge exam tests traffic signs, motor vehicle laws and safe driving."
     },
@@ -401,7 +674,12 @@
       "item": "rook-exam-two-parts",
       "part": 2,
       "prompt": "Questions on the knowledge exam are taken from:",
-      "choices": ["Information in the Virginia Driver's Manual", "Your car owner's manual", "Your driving instructor's notes", "Traffic court cases"],
+      "choices": [
+        "Information in the Virginia Driver's Manual",
+        "Your car owner's manual",
+        "Your driving instructor's notes",
+        "Traffic court cases"
+      ],
       "answer": 0,
       "explain": "Exam questions are taken from information in the Virginia Driver's Manual."
     },
@@ -410,8 +688,13 @@
       "item": "rook-ten-sign-questions",
       "part": 2,
       "prompt": "To move on to part two of the knowledge exam, you must:",
-      "choices": ["Answer at least 8 of the 10 sign questions correctly", "Answer all 10 traffic sign questions correctly", "Pass the road skills test first", "Answer half of the sign questions correctly"],
-      "answer": 1,
+      "choices": [
+        "Answer all 10 traffic sign questions correctly",
+        "Answer at least 8 of the 10 sign questions correctly",
+        "Pass the road skills test first",
+        "Answer half of the sign questions correctly"
+      ],
+      "answer": 0,
       "explain": "You must correctly answer all ten traffic sign questions before you can take part two."
     },
     {
@@ -419,7 +702,12 @@
       "item": "rook-ten-sign-questions",
       "part": 2,
       "prompt": "Part one of the knowledge exam has how many traffic sign questions?",
-      "choices": ["Twenty", "Five", "Fifteen", "Ten"],
+      "choices": [
+        "Twenty",
+        "Five",
+        "Fifteen",
+        "Ten"
+      ],
       "answer": 3,
       "explain": "Part one has ten traffic sign questions, and you must get all ten right."
     },
@@ -428,7 +716,12 @@
       "item": "rook-ten-sign-questions",
       "part": 2,
       "prompt": "If you answer one traffic sign question wrong in part one, you:",
-      "choices": ["Can still take part two", "Lose a few points but keep going", "Cannot take part two", "Only retake that one question"],
+      "choices": [
+        "Can still take part two",
+        "Lose a few points but keep going",
+        "Cannot take part two",
+        "Only retake that one question"
+      ],
       "answer": 2,
       "explain": "All ten sign questions must be correct before you can take part two."
     },
@@ -436,8 +729,13 @@
       "id": "q-rook-part-two-80-percent-1",
       "item": "rook-part-two-80-percent",
       "part": 2,
-      "prompt": "To pass part two of the knowledge exam, you must answer at least what share of the questions correctly?",
-      "choices": ["70 percent", "75 percent", "80 percent", "90 percent"],
+      "prompt": "To pass part two of the knowledge exam, you must answer at least what percent of the questions correctly?",
+      "choices": [
+        "70 percent",
+        "75 percent",
+        "80 percent",
+        "90 percent"
+      ],
       "answer": 2,
       "explain": "You must answer at least 80 percent of part two questions correctly to pass."
     },
@@ -446,7 +744,12 @@
       "item": "rook-part-two-80-percent",
       "part": 2,
       "prompt": "Part two of the knowledge exam is made up of:",
-      "choices": ["Multiple choice general knowledge questions", "Traffic sign questions only", "A driving test on the road", "A vision screening"],
+      "choices": [
+        "Multiple choice general knowledge questions",
+        "Traffic sign questions only",
+        "A driving test on the road",
+        "A vision screening"
+      ],
       "answer": 0,
       "explain": "Part two tests your general knowledge with multiple choice questions."
     },
@@ -455,7 +758,12 @@
       "item": "rook-part-two-80-percent",
       "part": 2,
       "prompt": "Which statement about the knowledge exam is true?",
-      "choices": ["Part one needs 80 percent; part two needs every answer right", "Part one needs all 10 sign questions right; part two needs at least 80 percent", "Both parts need 70 percent", "Only part two counts toward passing"],
+      "choices": [
+        "Part one needs 80 percent; part two needs every answer right",
+        "Part one needs all 10 sign questions right; part two needs at least 80 percent",
+        "Both parts need 70 percent",
+        "Only part two counts toward passing"
+      ],
       "answer": 1,
       "explain": "Part one needs all ten sign questions right, and part two needs at least 80 percent."
     },
@@ -464,7 +772,12 @@
       "item": "rook-once-per-day",
       "part": 2,
       "prompt": "The knowledge exam may be taken:",
-      "choices": ["Up to three times a day", "Only once per week", "As many times a day as you want", "Only once per business day"],
+      "choices": [
+        "Up to three times a day",
+        "Only once per week",
+        "As many times a day as you want",
+        "Only once per business day"
+      ],
       "answer": 3,
       "explain": "The knowledge exam may be taken only once per business day."
     },
@@ -473,16 +786,110 @@
       "item": "rook-once-per-day",
       "part": 2,
       "prompt": "If you fail the knowledge exam in the morning, you:",
-      "choices": ["May retake it that afternoon", "May not retake it that same business day", "May retake it right away at another computer", "May retake it the same day if a parent signs"],
+      "choices": [
+        "May retake it that afternoon",
+        "May not retake it that same business day",
+        "May retake it right away at another computer",
+        "May retake it the same day if a parent signs"
+      ],
       "answer": 1,
       "explain": "The exam may be taken only once per business day."
+    },
+    {
+      "id": "q-rook-under-18-wait-15-1",
+      "item": "rook-under-18-wait-15",
+      "part": 2,
+      "prompt": "If you are under age 18 and fail the knowledge exam, you must:",
+      "choices": [
+        "Wait until the next business day",
+        "Wait until you turn 18",
+        "Wait a full 15 days before retaking it",
+        "Retake it right away"
+      ],
+      "answer": 2,
+      "explain": "By law, if you are under 18 and fail, you must wait a full 15 days before retaking the exam."
+    },
+    {
+      "id": "q-rook-under-18-wait-15-2",
+      "item": "rook-under-18-wait-15",
+      "part": 2,
+      "prompt": "You are 16 and fail the knowledge exam on January 1. The earliest you can take it again is:",
+      "choices": [
+        "January 2",
+        "January 8",
+        "February 1",
+        "January 17"
+      ],
+      "answer": 3,
+      "explain": "Under 18, you must wait a full 15 days, so a January 1 fail means January 17 at the earliest."
+    },
+    {
+      "id": "q-rook-three-fails-1",
+      "item": "rook-three-fails",
+      "part": 2,
+      "prompt": "If you fail the knowledge exam three times, you:",
+      "choices": [
+        "May take it again the next business day",
+        "Must pass the classroom part of driver education before a fourth try",
+        "Can never take it again",
+        "Must pass the road skills test first"
+      ],
+      "answer": 1,
+      "explain": "After three fails, you must complete and pass classroom driver education before a fourth try."
+    },
+    {
+      "id": "q-rook-three-fails-2",
+      "item": "rook-three-fails",
+      "part": 2,
+      "prompt": "If you are 18 or older and have failed the knowledge exam three times, you may:",
+      "choices": [
+        "Complete a DMV-approved 8-hour course on the manual, then retest",
+        "Retake the exam the next business day",
+        "Use a translator on the next try",
+        "Skip part one of the exam"
+      ],
+      "answer": 0,
+      "explain": "Adults who fail three times may complete a DMV-approved 8-hour course based on the manual."
+    },
+    {
+      "id": "q-rook-exam-languages-1",
+      "item": "rook-exam-languages",
+      "part": 2,
+      "prompt": "Which statement about the knowledge exam is true?",
+      "choices": [
+        "It is offered only in English",
+        "You may bring your own translator for any language",
+        "It is given only on paper",
+        "An audio version is available"
+      ],
+      "answer": 3,
+      "explain": "An audio version of the exam is available."
+    },
+    {
+      "id": "q-rook-exam-languages-2",
+      "item": "rook-exam-languages",
+      "part": 2,
+      "prompt": "Translators may not be used for knowledge tests in offered languages because:",
+      "choices": [
+        "Translators cost too much",
+        "The exam is offered in many languages and American Sign Language",
+        "The exam has only sign questions",
+        "An examiner reads every question out loud"
+      ],
+      "answer": 1,
+      "explain": "The exam comes in many languages and ASL, so translators are not allowed for offered languages."
     },
     {
       "id": "q-rook-no-cell-phone-1",
       "item": "rook-no-cell-phone",
       "part": 2,
       "prompt": "While taking the knowledge exam, you:",
-      "choices": ["May use a cell phone to look up answers", "May text a friend for help", "May not use a cell phone", "May use a cell phone on part two only"],
+      "choices": [
+        "May use a cell phone to look up answers",
+        "May text a friend for help",
+        "May not use a cell phone",
+        "May use a cell phone on part two only"
+      ],
       "answer": 2,
       "explain": "You cannot use a cell phone during the exam."
     },
@@ -491,7 +898,12 @@
       "item": "rook-no-cell-phone",
       "part": 2,
       "prompt": "Which of these is against the rules during the knowledge exam?",
-      "choices": ["Using a cell phone", "Using the audio version of the exam", "Taking the exam in another offered language", "Reading each question carefully"],
+      "choices": [
+        "Using a cell phone",
+        "Using the audio version of the exam",
+        "Taking the exam in another offered language",
+        "Reading each question carefully"
+      ],
       "answer": 0,
       "explain": "Using a cell phone during the exam is not allowed."
     },
@@ -500,16 +912,26 @@
       "item": "rook-no-help",
       "part": 2,
       "prompt": "When taking the knowledge exam, you cannot:",
-      "choices": ["Get help while taking the exam", "Help another person taking the exam", "Try to get test questions or answers before the exam", "All of these"],
+      "choices": [
+        "Get help while taking the exam",
+        "Help another person taking the exam",
+        "Try to get test questions or answers before the exam",
+        "All of these"
+      ],
       "answer": 3,
-      "explain": "You cannot get help, give help, or get questions or answers before the exam."
+      "explain": "You cannot get help, give help, or try to get questions or answers before the exam."
     },
     {
       "id": "q-rook-no-help-2",
       "item": "rook-no-help",
       "part": 2,
       "prompt": "A friend who already took the exam offers you the questions and answers. You should:",
-      "choices": ["Study them the night before", "Say no, because getting exam questions or answers before the exam is not allowed", "Share them with other students", "Bring them with you to the exam"],
+      "choices": [
+        "Study them the night before",
+        "Say no; this is not allowed",
+        "Share them with other students",
+        "Bring them with you to the exam"
+      ],
       "answer": 1,
       "explain": "You cannot try to get test questions or answers before the exam."
     },
@@ -518,7 +940,12 @@
       "item": "rook-hand-position",
       "part": 2,
       "prompt": "If your steering wheel were a clock, your hands should be at:",
-      "choices": ["10 o'clock and 2 o'clock", "9 o'clock and 3 o'clock", "8 o'clock and 4 o'clock", "12 o'clock and 6 o'clock"],
+      "choices": [
+        "10 o'clock and 2 o'clock",
+        "9 o'clock and 3 o'clock",
+        "8 o'clock and 4 o'clock",
+        "12 o'clock and 6 o'clock"
+      ],
       "answer": 2,
       "explain": "Your hands should be at the 8 o'clock and 4 o'clock positions."
     },
@@ -527,7 +954,12 @@
       "item": "rook-hand-position",
       "part": 2,
       "prompt": "The correct hand position on the steering wheel is:",
-      "choices": ["8 o'clock and 4 o'clock", "One hand at 12 o'clock", "10 o'clock and 2 o'clock", "Both hands at 6 o'clock"],
+      "choices": [
+        "8 o'clock and 4 o'clock",
+        "One hand at 12 o'clock",
+        "10 o'clock and 2 o'clock",
+        "Both hands at 6 o'clock"
+      ],
       "answer": 0,
       "explain": "Place your hands at 8 o'clock and 4 o'clock on the wheel."
     },
@@ -536,8 +968,13 @@
       "item": "rook-hand-position",
       "part": 2,
       "prompt": "When you place your hands on the steering wheel, you should sit:",
-      "choices": ["Leaning back as far as you can", "Straight but relaxed", "Leaning on the door", "As close to the wheel as possible"],
-      "answer": 1,
+      "choices": [
+        "Leaning back as far as you can",
+        "Leaning on the door",
+        "Straight but relaxed",
+        "As close to the wheel as possible"
+      ],
+      "answer": 2,
       "explain": "Sit straight but relaxed with your hands at 8 o'clock and 4 o'clock."
     },
     {
@@ -545,7 +982,12 @@
       "item": "rook-grip-fingers",
       "part": 2,
       "prompt": "You should hold the steering wheel with your:",
-      "choices": ["Fingers and thumbs", "Palms only", "Wrists", "One palm on top"],
+      "choices": [
+        "Fingers and thumbs",
+        "Palms only",
+        "Wrists",
+        "One palm on top"
+      ],
       "answer": 0,
       "explain": "Hold the wheel with your fingers and thumbs."
     },
@@ -554,7 +996,12 @@
       "item": "rook-grip-fingers",
       "part": 2,
       "prompt": "When holding the steering wheel, you should avoid:",
-      "choices": ["Using your fingers", "Using your thumbs", "Sitting straight but relaxed", "Gripping it with your palms"],
+      "choices": [
+        "Using your fingers",
+        "Using your thumbs",
+        "Sitting straight but relaxed",
+        "Gripping it with your palms"
+      ],
       "answer": 3,
       "explain": "Avoid gripping the steering wheel with your palms."
     },
@@ -564,7 +1011,12 @@
       "part": 1,
       "prompt": "This traffic signal means:",
       "image": "signal-red",
-      "choices": ["Slow down and go if clear", "Come to a complete stop", "Stop only if cars are coming", "Speed up to clear the intersection"],
+      "choices": [
+        "Slow down and go if clear",
+        "Come to a complete stop",
+        "Stop only if cars are coming",
+        "Speed up to clear the intersection"
+      ],
       "answer": 1,
       "explain": "At a red light, come to a complete stop."
     },
@@ -574,7 +1026,12 @@
       "part": 1,
       "prompt": "At this signal, if there is no stop line, you must stop:",
       "image": "signal-red",
-      "choices": ["In the middle of the intersection", "Just past the crosswalk", "Only if a police officer is there", "Before entering the intersection or before reaching the crosswalk"],
+      "choices": [
+        "In the middle of the intersection",
+        "Just past the crosswalk",
+        "Only if a police officer is there",
+        "Before the crosswalk or intersection"
+      ],
       "answer": 3,
       "explain": "With no stop line, stop before entering the intersection or before reaching the crosswalk."
     },
@@ -584,7 +1041,12 @@
       "part": 1,
       "prompt": "When you see this signal, you must:",
       "image": "signal-red",
-      "choices": ["Stop and stay stopped as long as it is red, unless turns are allowed", "Stop, then go straight when no one is coming", "Slow down, then drive through", "Yield only to pedestrians"],
+      "choices": [
+        "Stop and stay stopped while it is red, unless turns are allowed",
+        "Stop, then go straight when no one is coming",
+        "Slow down, then drive through if no one is coming",
+        "Yield only to pedestrians"
+      ],
       "answer": 0,
       "explain": "Remain stopped as long as the signal is red, unless turns are allowed."
     },
@@ -594,7 +1056,12 @@
       "part": 1,
       "prompt": "This traffic signal means:",
       "image": "signal-green",
-      "choices": ["Stop completely", "You may go if the way is clear", "Slow down and prepare to stop", "Go without looking"],
+      "choices": [
+        "Stop completely",
+        "You may go if the way is clear",
+        "Slow down and prepare to stop",
+        "Go without looking"
+      ],
       "answer": 1,
       "explain": "At a green light, you may go if the way is clear."
     },
@@ -604,7 +1071,12 @@
       "part": 1,
       "prompt": "At this signal, you may go:",
       "image": "signal-green",
-      "choices": ["Only after a full stop", "Right away, without looking", "If the way is clear", "Only if you are turning right"],
+      "choices": [
+        "Only after a full stop",
+        "Right away, without looking",
+        "If the way is clear",
+        "Only if you are turning right"
+      ],
       "answer": 2,
       "explain": "A green light means you may go if the way is clear."
     },
@@ -614,7 +1086,12 @@
       "part": 1,
       "prompt": "When this signal is showing, before you go you should:",
       "image": "signal-green",
-      "choices": ["Honk your horn", "Flash your headlights", "Come to a full stop first", "Make sure the way is clear"],
+      "choices": [
+        "Honk your horn",
+        "Flash your headlights",
+        "Come to a full stop first",
+        "Make sure the way is clear"
+      ],
       "answer": 3,
       "explain": "At a green light, go only if the way is clear."
     }

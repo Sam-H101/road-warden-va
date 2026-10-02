@@ -1,0 +1,3097 @@
+{
+  "district": "d09-lanes",
+  "items": [
+    {
+      "id": "lane-change-steps",
+      "district": "d09-lanes",
+      "kind": "rule",
+      "title": "Changing lanes: mirror, signal, glance",
+      "simple": "Before you change lanes, check your side and rearview mirrors. Turn on your signal. Look for other cars moving into the same lane. Then quickly glance over your shoulder to check your blind spot.",
+      "official": "Before changing lanes, check your side and rearview mirrors for traffic approaching you from behind. Then, use your turn signal to let other drivers know you plan to change lanes. Check for other drivers who also may be moving into the same lane. Just before you begin moving into the other lane, quickly glance over your shoulder and check for any vehicles that may be in your blind spot.",
+      "image": "diagram-blind-spot",
+      "mnemonic": "Mirror, signal, shoulder. Then move.",
+      "manualRef": "Section 3, p. 17"
+    },
+    {
+      "id": "lane-keep-right",
+      "district": "d09-lanes",
+      "kind": "rule",
+      "title": "Slower traffic keeps right",
+      "simple": "On a highway with many lanes, are you slower than the cars around you? Stay in the right lane. The left lane is for passing only. Don't ride along in it.",
+      "official": "When driving on a multi-lane highway, stay in the right lane if you are driving slower than the traffic around you. The left lane is for passing only. When passing, use the left lane and avoid cruising.",
+      "mnemonic": "Slow? Stay right. Left lane is for passing, not cruising.",
+      "manualRef": "Section 3, p. 17"
+    },
+    {
+      "id": "lane-pass-steps",
+      "district": "d09-lanes",
+      "kind": "rule",
+      "title": "Passing: check, signal, return",
+      "simple": "Before you pass, check ahead, behind and your blind spot. Signal. Then speed up to pass. When you see the passed car's front in your rearview mirror, move back right.",
+      "official": "Check the traffic ahead of you, behind you and in your blind spot before you attempt to pass. Signal and then accelerate to pass. Return to the right lane as soon as you can see the front of the passed vehicle in your rearview mirror.",
+      "mnemonic": "See its front in your mirror, then move back.",
+      "manualRef": "Section 3, p. 17"
+    },
+    {
+      "id": "lane-pass-speed-limit",
+      "district": "d09-lanes",
+      "kind": "rule",
+      "title": "No speeding while passing",
+      "simple": "Never go over the speed limit, even to pass another car. Speeding to pass is against the law.",
+      "official": "It is against the law to exceed the speed limit as you pass.",
+      "mnemonic": "Passing is never a reason to speed.",
+      "manualRef": "Section 3, p. 17"
+    },
+    {
+      "id": "lane-pass-before-zone",
+      "district": "d09-lanes",
+      "kind": "sign",
+      "title": "Finish passing before the zone",
+      "simple": "Finish your pass before you reach a No Passing zone. Still in the left lane when the zone starts? Then you are breaking the law.",
+      "official": "Complete the pass before you reach a No Passing zone. If you're still in the left lane when you reach the zone, you're breaking the law.",
+      "image": "sign-no-passing-zone",
+      "mnemonic": "See the pennant? Your pass must already be done.",
+      "manualRef": "Section 3, p. 17"
+    },
+    {
+      "id": "lane-pass-on-right",
+      "district": "d09-lanes",
+      "kind": "rule",
+      "title": "Passing on the right",
+      "simple": "Is the car ahead signaling and turning left? Then you may pass it on the right. Be careful. It may block your view. Never use the shoulder or leave the pavement to pass.",
+      "official": "You may pass on the right if the vehicle you are passing has signaled and is making a left turn. Be cautious because the vehicle you are passing may be blocking your view or blocking the view of other drivers. You may not pass on the right if you must drive off the pavement or main portion of the roadway. Passing is unlawful and unsafe off the pavement or on the shoulder of the road.",
+      "mnemonic": "Left-turner ahead? Pass on the right. Never on the shoulder.",
+      "manualRef": "Section 3, p. 17"
+    },
+    {
+      "id": "lane-pass-bike-3ft",
+      "district": "d09-lanes",
+      "kind": "number",
+      "title": "3 feet to pass a bike",
+      "simple": "When you come up to a bike or moped, slow down. Pass at least 3 feet to its left. If your lane is too narrow for 3 feet, change lanes to pass.",
+      "official": "When approaching or passing a person riding a bicycle, moped, or power-assisted bicycle or other device, reduce speed and pass at least three feet to the left. If the lane is not wide enough to allow for a three-foot clearance, the motorist must change lanes to pass safely.",
+      "mnemonic": "Bike gets a yardstick: 3 feet.",
+      "manualRef": "Section 3, p. 17-20"
+    },
+    {
+      "id": "lane-being-passed",
+      "district": "d09-lanes",
+      "kind": "rule",
+      "title": "Being passed: don't speed up",
+      "simple": "When another car is passing you, do not speed up. Keep a steady speed or slow down.",
+      "official": "When being passed, don't speed up. Maintain a steady speed or slow down.",
+      "mnemonic": "Being passed? Let them go.",
+      "manualRef": "Section 3, p. 17"
+    },
+    {
+      "id": "lane-no-pass-hills",
+      "district": "d09-lanes",
+      "kind": "rule",
+      "title": "No passing on hills or curves",
+      "simple": "Do not pass on hills or curves. Do not pass at intersections or railroad crossings. It is against the law and unsafe. This rule does not count when 2 or more lanes go your way.",
+      "official": "Passing is unlawful and unsafe on hills, curves, at intersections or railroad crossings, except on roads with two or more lanes of traffic moving in the same direction.",
+      "image": "sign-hill",
+      "manualRef": "Section 3, p. 17",
+      "mnemonic": "Hills, curves, crossroads, railroads: no passing."
+    },
+    {
+      "id": "lane-no-pass-school-bus",
+      "district": "d09-lanes",
+      "kind": "rule",
+      "title": "Never pass a stopped school bus",
+      "simple": "Never pass a school bus stopped to let riders on or off. This is true on public and private roads. Public road split by a barrier or unpaved median? Then you may go on.",
+      "official": "Passing is unlawful and unsafe when a school bus is stopped to load or unload passengers on a public road (unless a physical barrier or unpaved median separates traffic going in either direction) or on a private road.",
+      "image": "diagram-school-bus-stop",
+      "manualRef": "Section 3, p. 17-18"
+    },
+    {
+      "id": "lane-no-pass-solid-line",
+      "district": "d09-lanes",
+      "kind": "sign",
+      "title": "Solid line on left: no passing",
+      "simple": "Is there a solid line on the left side of your lane? Then do not pass. Passing there is against the law and unsafe.",
+      "official": "Passing is unlawful and unsafe when a solid line marks the left side of your lane.",
+      "image": "mark-double-solid-yellow",
+      "mnemonic": "Solid line on your side = stay in your lane.",
+      "manualRef": "Section 3, p. 18"
+    },
+    {
+      "id": "lane-no-pass-crosswalk",
+      "district": "d09-lanes",
+      "kind": "rule",
+      "title": "No passing at a crosswalk",
+      "simple": "Is the car ahead of you stopped at a crosswalk? Or the car in the next lane? Do not pass it. A person may be crossing where you can't see.",
+      "official": "Passing is unlawful and unsafe when approaching a crosswalk and the vehicle ahead of you or the lane next to you is stopped. Passing at a crosswalk is illegal. You may not see pedestrians crossing the road in front of other vehicles.",
+      "mnemonic": "Stopped car at a crosswalk? A walker may be hidden. Don't pass.",
+      "manualRef": "Section 3, p. 18-20"
+    },
+    {
+      "id": "lane-overcorrect",
+      "district": "d09-lanes",
+      "kind": "rule",
+      "title": "Over-correcting and running off road",
+      "simple": "Turning the wheel too sharply can make the back of the car slide. If you drift off the road, don't panic. Slow down gradually. Look where you want to go. Steer back slowly.",
+      "official": "Over-correcting occurs when the driver turns the steering wheel more sharply than expected, causing the rear wheels of the vehicle to slide toward the outside of the turn. Reduce speed and use extra caution while driving on curved roads. If you veer off the road, curved or straight, do not panic. Gradually reduce your speed, look in the direction you want to go, slowly steer back onto the roadway.",
+      "mnemonic": "Off the road? Ease off, look, steer back slow.",
+      "manualRef": "Section 3, p. 18"
+    },
+    {
+      "id": "lane-opposing-left",
+      "district": "d09-lanes",
+      "kind": "rule",
+      "title": "Facing left turns: passenger sides",
+      "simple": "Two cars face each other and both turn left. Each car turns in front of the other. Your passenger side passes their passenger side.",
+      "official": "When two vehicles are approaching each other and signaling to turn left, both vehicles should turn in front of each other so that the passenger sides of the vehicles are beside each other.",
+      "image": "diagram-left-turns-facing",
+      "mnemonic": "Both turning left? Passenger side to passenger side.",
+      "manualRef": "Section 3, p. 18"
+    },
+    {
+      "id": "lane-u-turn",
+      "district": "d09-lanes",
+      "kind": "rule",
+      "title": "U-turns: where and how",
+      "simple": "Check for No U-Turn or No Left Turn signs first. In cities, towns and business districts, U-turn only at an intersection. Never U-turn on a highway. Signal left, stop, yield, then go into the right-hand lane.",
+      "official": "Before you make a U-turn, check for No U-Turn or No Left Turn signs. In business districts, cities and towns, U-turns are allowed only at intersections. Never make a U-turn on a highway. When making a U-turn, turn on your left-turn signal, stop, and yield for approaching traffic. When the way is clear, proceed into the outside or right hand lane traveling in the opposite direction.",
+      "image": "sign-no-u-turn",
+      "mnemonic": "Town U-turn? Only at the corner. Highway U-turn? Never.",
+      "manualRef": "Section 3, p. 18"
+    },
+    {
+      "id": "lane-turn-signal-law",
+      "district": "d09-lanes",
+      "kind": "rule",
+      "title": "Turn signals are the law",
+      "simple": "You must signal before you change lanes, turn, or enter or leave a highway. It is the law. Signal even if no one is around. After the turn, make sure the signal turns off.",
+      "official": "When you plan to change lanes, turn, or enter or exit a highway, first give the proper turn signal. Using your turn signal is required by law. Use turn signals or hand signals even if no other traffic is on the road. After you complete the turn or lane change, be sure the turn signal stops flashing.",
+      "mnemonic": "Turn, change, enter, exit: signal every time.",
+      "manualRef": "Section 3, p. 18"
+    },
+    {
+      "id": "lane-signal-100-feet",
+      "district": "d09-lanes",
+      "kind": "number",
+      "title": "Signal 100 feet ahead",
+      "simple": "Turn on your signal 3 to 4 seconds before you turn. That is 100 feet before the turn.",
+      "official": "When you plan to turn, signal three or four seconds, 100 feet, ahead of your turn.",
+      "mnemonic": "Signal early: 3-4 seconds, 100 feet.",
+      "manualRef": "Section 3, p. 18"
+    },
+    {
+      "id": "lane-hand-left",
+      "district": "d09-lanes",
+      "kind": "sign",
+      "title": "Hand signal: left turn",
+      "simple": "To signal a left turn by hand, stick your left arm straight out the window.",
+      "official": "Left Turn: left hand and arm pointing straight out.",
+      "image": "hand-left",
+      "mnemonic": "Straight out points left, the way you will go.",
+      "manualRef": "Section 3, p. 18"
+    },
+    {
+      "id": "lane-hand-right",
+      "district": "d09-lanes",
+      "kind": "sign",
+      "title": "Hand signal: right turn",
+      "simple": "To signal a right turn by hand, put your left arm out the window. Bend it so your hand points up.",
+      "official": "Right Turn: left hand and arm pointing upward.",
+      "image": "hand-right",
+      "mnemonic": "Right = Raised.",
+      "manualRef": "Section 3, p. 18"
+    },
+    {
+      "id": "lane-hand-stop",
+      "district": "d09-lanes",
+      "kind": "sign",
+      "title": "Hand signal: slow or stop",
+      "simple": "To signal slow or stop by hand, put your left arm out the window. Bend it so your hand points down.",
+      "official": "Slow or Stop: left hand and arm pointing downward.",
+      "image": "hand-stop",
+      "mnemonic": "Arm down = slowing down.",
+      "manualRef": "Section 3, p. 18"
+    },
+    {
+      "id": "lane-right-turn",
+      "district": "d09-lanes",
+      "kind": "rule",
+      "title": "Right turn: right lane to curb",
+      "simple": "To turn right, be in the lane farthest right. Signal. Look left and right for people and cars. Brake smoothly. At a red light or stop sign, stop fully first. Turn into the lane closest to the curb.",
+      "official": "To make a right turn you should be in the lane furthest to the right. Signal at least three or four seconds, 100 feet, ahead of the turn. Look to your left and right to check the intersection for pedestrians and traffic. Brake smoothly before and during the turn. If there is a red traffic light or a stop sign, come to a complete stop before you make the turn. Turn into the lane closest to the curb unless pavement markings lead you otherwise.",
+      "mnemonic": "Right lane in, curb lane out.",
+      "manualRef": "Section 3, p. 18"
+    },
+    {
+      "id": "lane-left-turn",
+      "district": "d09-lanes",
+      "kind": "rule",
+      "title": "Left turn: start and end left",
+      "simple": "To turn left, be in the lane farthest left. Turn into the leftmost lane of the new road. Several left-turn lanes? Pick the one that best fits where you go next.",
+      "official": "To make a left turn you should be in the furthest left lane possible, turning into the leftmost lane on the intersecting road, unless pavement markings lead you otherwise; or, unless multiple left turn lanes are provided. If multiple left turn lanes are provided, you should choose the lane that will best serve your need once you enter the intersecting road.",
+      "mnemonic": "Left lane in, left lane out.",
+      "manualRef": "Section 3, p. 18"
+    },
+    {
+      "id": "lane-left-turn-wheels",
+      "district": "d09-lanes",
+      "kind": "rule",
+      "title": "Left turn: wheels straight",
+      "simple": "While you wait to turn left, keep your front wheels pointed straight. If someone hits you from behind, you won't be pushed into oncoming traffic. Yield to cars, bikes and people coming toward you.",
+      "official": "Keep your front wheels pointed straight ahead until you are actually going to make the left turn. This prevents you from being pushed into oncoming traffic if another vehicle crashes into you from behind. When the way is clear, make the left turn, yield to any vehicles (including bicycles and pedestrians) approaching from the opposite direction.",
+      "mnemonic": "Waiting to turn? Wheels stay straight.",
+      "manualRef": "Section 3, p. 18"
+    },
+    {
+      "id": "lane-mirror-adjust",
+      "district": "d09-lanes",
+      "kind": "rule",
+      "title": "Set mirrors before you drive",
+      "simple": "Set your mirrors before you drive. The inside mirror should show the whole back window. Set each side mirror so you can barely see the side of your car.",
+      "official": "Blind spots are danger areas where vehicles around you cannot be easily seen. Before driving, adjust your vehicle's mirrors. Make sure the inside rear view mirror frames the entire back window. Adjust both side mirrors so you can barely see the sides of your vehicle.",
+      "image": "diagram-blind-spot",
+      "mnemonic": "Inside: whole back window. Sides: barely see your car.",
+      "manualRef": "Section 3, p. 20"
+    },
+    {
+      "id": "lane-avoid-blind-spot",
+      "district": "d09-lanes",
+      "kind": "rule",
+      "title": "Don't ride in blind spots",
+      "simple": "Don't drive in another driver's blind spot. It is as dangerous as not checking your own. Speed up or drop back so you are not stuck there.",
+      "official": "Avoid driving in someone else's blind spot. This can be just as dangerous as not checking your own blind spot. Speed up or drop back; but, don't stay in the other driver's blind spot.",
+      "mnemonic": "Don't hang out beside them. Speed up or drop back.",
+      "manualRef": "Section 3, p. 20"
+    },
+    {
+      "id": "lane-backing",
+      "district": "d09-lanes",
+      "kind": "rule",
+      "title": "Backing up: turn and look",
+      "simple": "Mirrors do not show everything behind you. To back up, turn your body and head to the right. Look out the back window. Back up slowly. Glance quickly to each side for people and cars.",
+      "official": "The most common mistake that drivers make when backing up is failing to look both ways behind them. Mirrors do not give you a full view. To see as much as possible, turn your body and head to the right and look out through the rear window. Back up slowly and check for pedestrians and approaching traffic by glancing quickly to either side.",
+      "mnemonic": "Backing up? Turn around and look back.",
+      "manualRef": "Section 3, p. 22"
+    },
+    {
+      "id": "lane-park-curb",
+      "district": "d09-lanes",
+      "kind": "number",
+      "title": "Park within 1 foot of curb",
+      "simple": "Park as far from traffic as you can. Next to a curb, park no more than 1 foot away. On a two-way street, park on the right side. On a one-way street, either side is OK.",
+      "official": "When parking on a public road, move as far from traffic as possible. If you park on a shoulder, pull over as far on the shoulder as possible. If you park next to a curb, pull close to it. You may not park more than one foot from the curb. On a two-way street, park on the right side of the road. On a one-way road, park on either side.",
+      "mnemonic": "One foot from the curb, right side of a two-way street.",
+      "manualRef": "Section 3, p. 22"
+    },
+    {
+      "id": "lane-park-uphill-curb",
+      "district": "d09-lanes",
+      "kind": "sign",
+      "title": "Uphill with curb: wheels left",
+      "simple": "Parking uphill next to a curb? Turn your front wheels to the left, away from the curb. This keeps your car from rolling into the street.",
+      "official": "Parking on a hill with a curb: turn the front wheels of your vehicle to prevent it from rolling into the street. Parking uphill with curb: turn front wheels left.",
+      "image": "diagram-uphill-curb",
+      "mnemonic": "Up, up and away: uphill, turn away from the curb.",
+      "manualRef": "Section 3, p. 22"
+    },
+    {
+      "id": "lane-park-downhill-curb",
+      "district": "d09-lanes",
+      "kind": "sign",
+      "title": "Downhill with curb: wheels right",
+      "simple": "Parking downhill next to a curb? Turn your front wheels to the right, toward the curb. This keeps your car from rolling into the street.",
+      "official": "Parking on a hill with a curb: turn the front wheels of your vehicle to prevent it from rolling into the street. Parking downhill with curb: turn front wheels right.",
+      "image": "diagram-downhill-curb",
+      "mnemonic": "Downhill? Wheels go down to the curb.",
+      "manualRef": "Section 3, p. 22"
+    },
+    {
+      "id": "lane-park-hill-no-curb",
+      "district": "d09-lanes",
+      "kind": "sign",
+      "title": "Hill, no curb: wheels right",
+      "simple": "Parking on a hill with no curb? Uphill or downhill, turn your front wheels to the right. If the car rolls, the back will roll away from traffic.",
+      "official": "Without a curb: turn the front wheels so that if the vehicle rolls, the rear of the vehicle will roll away from traffic. Parking uphill or downhill with no curb: turn front wheels right.",
+      "image": "diagram-hill-no-curb",
+      "mnemonic": "No curb? Always turn right.",
+      "manualRef": "Section 3, p. 22"
+    },
+    {
+      "id": "lane-park-open-door",
+      "district": "d09-lanes",
+      "kind": "rule",
+      "title": "Look before opening your door",
+      "simple": "When you get out of your car, watch for traffic. Look for cars, bikes and people walking before you open your door.",
+      "official": "Be aware of other traffic when exiting your vehicle. Look for other cars, bicyclists, and pedestrians before opening the door.",
+      "mnemonic": "Look, then open.",
+      "manualRef": "Section 3, p. 22"
+    },
+    {
+      "id": "lane-no-park-15-feet",
+      "district": "d09-lanes",
+      "kind": "number",
+      "title": "15 feet: hydrant, fire station",
+      "simple": "Park at least 15 feet away from a fire hydrant. Also stay 15 feet from the entrance of a fire, ambulance or rescue squad station.",
+      "official": "You may not park within 15 feet of a fire hydrant, or within 15 feet of the entrance to a fire, ambulance or rescue squad station.",
+      "mnemonic": "Hydrant 15, corner 20, train 50, fire trucks 500.",
+      "manualRef": "Section 3, p. 22"
+    },
+    {
+      "id": "lane-no-park-intersection",
+      "district": "d09-lanes",
+      "kind": "number",
+      "title": "20 feet from an intersection",
+      "simple": "When you park, stay at least 20 feet back from an intersection.",
+      "official": "You may not park within 20 feet of an intersection.",
+      "mnemonic": "Hydrant 15, corner 20, train 50, fire trucks 500.",
+      "manualRef": "Section 3, p. 22"
+    },
+    {
+      "id": "lane-no-park-fire-trucks",
+      "district": "d09-lanes",
+      "kind": "number",
+      "title": "500 feet from fire trucks",
+      "simple": "Are fire trucks or fire equipment stopped to answer an alarm? Park at least 500 feet away from them.",
+      "official": "You may not park within 500 feet of where fire trucks or equipment are stopped answering an alarm.",
+      "mnemonic": "Hydrant 15, corner 20, train 50, fire trucks 500.",
+      "manualRef": "Section 3, p. 22"
+    },
+    {
+      "id": "lane-no-park-railroad",
+      "district": "d09-lanes",
+      "kind": "number",
+      "title": "50 feet from railroad crossing",
+      "simple": "Park at least 50 feet away from a railroad crossing.",
+      "official": "You may not park within 50 feet of a railroad crossing.",
+      "image": "sign-railroad-crossbuck",
+      "mnemonic": "Hydrant 15, corner 20, train 50, fire trucks 500.",
+      "manualRef": "Section 3, p. 22"
+    },
+    {
+      "id": "lane-no-park-places",
+      "district": "d09-lanes",
+      "kind": "rule",
+      "title": "Places you may never park",
+      "simple": "Never park beside a parked car. Or on a crosswalk or sidewalk. Or in front of a driveway. No parking at yellow curbs, No Parking signs or bike lanes. Stay out of disabled spaces and their striped aisles.",
+      "official": "You may not park: beside another parked vehicle (double parking); on crosswalks or sidewalks; in front of driveways; within areas where parking is prohibited by curbs painted yellow or No Parking signs; in a parking space reserved for disabled persons; in striped access aisles adjacent to a parking space reserved for disabled persons; on the hard surface of a road when no curb is present; in a bike lane; in such a way that you block or create a hazard for other vehicles in a designated traffic lane.",
+      "image": "curb-yellow",
+      "manualRef": "Section 3, p. 22"
+    },
+    {
+      "id": "lane-no-park-access-aisle",
+      "district": "d09-lanes",
+      "kind": "rule",
+      "title": "Disabled space and its aisle",
+      "simple": "Do not park in a space saved for disabled persons. Also do not park in the striped aisle next to it. People need that space to get in and out.",
+      "official": "You may not park: in a parking space reserved for disabled persons; in striped access aisles adjacent to a parking space reserved for disabled persons.",
+      "image": "sign-disabled-parking",
+      "mnemonic": "Stripes next to the disabled space are not a parking spot.",
+      "manualRef": "Section 3, p. 22"
+    },
+    {
+      "id": "lane-no-park-no-curb",
+      "district": "d09-lanes",
+      "kind": "rule",
+      "title": "No curb: get off the pavement",
+      "simple": "Park as far from traffic as you can. If there is no curb, do not park on the hard road surface. Pull as far onto the shoulder as you can. Never block a traffic lane.",
+      "official": "When parking on a public road, move as far from traffic as possible. If you park on a shoulder, pull over as far on the shoulder as possible. You may not park: on the hard surface of a road when no curb is present; in such a way that you block or create a hazard for other vehicles in a designated traffic lane.",
+      "mnemonic": "No curb? Wheels off the pavement.",
+      "manualRef": "Section 3, p. 22"
+    }
+  ],
+  "events": [
+    {
+      "id": "ev-lane-change-steps-1",
+      "item": "lane-change-steps",
+      "kind": "gates",
+      "prompt": "Changing lanes. What do you check first?",
+      "choices": [
+        "Your mirrors",
+        "Your radio",
+        "Your speedometer"
+      ],
+      "answer": 0,
+      "missLine": "Check your side and rearview mirrors first."
+    },
+    {
+      "id": "ev-lane-change-steps-2",
+      "item": "lane-change-steps",
+      "kind": "gates",
+      "prompt": "Last check just before you move over?",
+      "choices": [
+        "Honk your horn",
+        "Tap your brakes",
+        "Glance over your shoulder"
+      ],
+      "answer": 2,
+      "missLine": "Just before moving over, glance over your shoulder at your blind spot."
+    },
+    {
+      "id": "ev-lane-change-steps-3",
+      "item": "lane-change-steps",
+      "kind": "gates",
+      "prompt": "Best way to see a car in your blind spot?",
+      "image": "diagram-blind-spot",
+      "choices": [
+        "Rearview mirror",
+        "Glance over shoulder",
+        "Side mirror"
+      ],
+      "answer": 1,
+      "missLine": "Quickly turn your head and glance over your shoulder."
+    },
+    {
+      "id": "ev-lane-keep-right-1",
+      "item": "lane-keep-right",
+      "kind": "action",
+      "prompt": "You're slower than traffic in the left lane.",
+      "prop": "tailgater-behind",
+      "action": "move-right",
+      "missLine": "If you are slower than traffic, stay in the right lane."
+    },
+    {
+      "id": "ev-lane-keep-right-2",
+      "item": "lane-keep-right",
+      "kind": "gates",
+      "prompt": "What is the left lane for?",
+      "choices": [
+        "Passing only",
+        "Cruising",
+        "Slow drivers"
+      ],
+      "answer": 0,
+      "missLine": "The left lane is for passing only, not cruising."
+    },
+    {
+      "id": "ev-lane-keep-right-3",
+      "item": "lane-keep-right",
+      "kind": "gates",
+      "prompt": "Slower than traffic? Which lane?",
+      "choices": [
+        "Left lane",
+        "Any lane",
+        "Right lane"
+      ],
+      "answer": 2,
+      "missLine": "Drive in the right lane if you are slower than the traffic around you."
+    },
+    {
+      "id": "ev-lane-pass-steps-1",
+      "item": "lane-pass-steps",
+      "kind": "gates",
+      "prompt": "After passing, move back right when you:",
+      "choices": [
+        "Pass its bumper",
+        "See its front in mirror",
+        "Count to 10"
+      ],
+      "answer": 1,
+      "missLine": "Move back right when you see the passed car's front in your rearview mirror."
+    },
+    {
+      "id": "ev-lane-pass-steps-2",
+      "item": "lane-pass-steps",
+      "kind": "gates",
+      "prompt": "Before passing, what do you check?",
+      "choices": [
+        "The car ahead",
+        "Your rearview mirror",
+        "Ahead, behind, blind spot"
+      ],
+      "answer": 2,
+      "missLine": "Check ahead, behind and your blind spot before you pass."
+    },
+    {
+      "id": "ev-lane-pass-steps-3",
+      "item": "lane-pass-steps",
+      "kind": "gates",
+      "prompt": "Passing. What is the correct order?",
+      "choices": [
+        "Speed up, then signal",
+        "Pass, then signal",
+        "Signal, then speed up"
+      ],
+      "answer": 2,
+      "missLine": "Signal first, then speed up to pass."
+    },
+    {
+      "id": "ev-lane-pass-speed-limit-1",
+      "item": "lane-pass-speed-limit",
+      "kind": "gates",
+      "prompt": "Passing a slow car. Can you go over the limit?",
+      "choices": [
+        "Yes, by 5 MPH",
+        "Yes, for a short time",
+        "No, never"
+      ],
+      "answer": 2,
+      "missLine": "Never go over the speed limit, even while you pass."
+    },
+    {
+      "id": "ev-lane-pass-speed-limit-2",
+      "item": "lane-pass-speed-limit",
+      "kind": "gates",
+      "prompt": "What is your top speed while passing?",
+      "choices": [
+        "The speed limit",
+        "10 MPH over the limit",
+        "Any speed if clear"
+      ],
+      "answer": 0,
+      "missLine": "Never go over the speed limit when you pass."
+    },
+    {
+      "id": "ev-lane-pass-before-zone-1",
+      "item": "lane-pass-before-zone",
+      "kind": "gates",
+      "prompt": "Still in the left lane at this sign? That is:",
+      "image": "sign-no-passing-zone",
+      "choices": [
+        "Legal",
+        "Against the law",
+        "Legal if road is clear"
+      ],
+      "answer": 1,
+      "missLine": "Finish your pass before the zone starts; still being in the left lane breaks the law."
+    },
+    {
+      "id": "ev-lane-pass-before-zone-2",
+      "item": "lane-pass-before-zone",
+      "kind": "gates",
+      "prompt": "When must your pass be done?",
+      "image": "sign-no-passing-zone",
+      "choices": [
+        "Before the zone starts",
+        "By the end of the zone",
+        "Within one mile"
+      ],
+      "answer": 0,
+      "missLine": "Complete the pass before you reach the No Passing zone."
+    },
+    {
+      "id": "ev-lane-pass-before-zone-3",
+      "item": "lane-pass-before-zone",
+      "kind": "gates",
+      "prompt": "This sign marks the start of what?",
+      "image": "sign-no-passing-zone",
+      "choices": [
+        "A passing lane",
+        "A school zone",
+        "A no passing zone"
+      ],
+      "answer": 2,
+      "missLine": "This pennant-shaped sign marks a No Passing zone."
+    },
+    {
+      "id": "ev-lane-pass-on-right-1",
+      "item": "lane-pass-on-right",
+      "kind": "gates",
+      "prompt": "Car ahead signals a left turn. Pass on its right?",
+      "choices": [
+        "Yes, with care",
+        "No, never",
+        "Yes, on the shoulder"
+      ],
+      "answer": 0,
+      "missLine": "You may pass a left-turning car on the right, but stay on the pavement."
+    },
+    {
+      "id": "ev-lane-pass-on-right-2",
+      "item": "lane-pass-on-right",
+      "kind": "gates",
+      "prompt": "Passing on the shoulder is:",
+      "choices": [
+        "Against the law",
+        "OK if it is paved",
+        "OK if traffic is slow"
+      ],
+      "answer": 0,
+      "missLine": "Passing on the shoulder or off the pavement is against the law."
+    },
+    {
+      "id": "ev-lane-pass-bike-3ft-1",
+      "item": "lane-pass-bike-3ft",
+      "kind": "action",
+      "prompt": "Bicycle ahead on the right!",
+      "prop": "cyclist-ahead",
+      "action": "slow",
+      "missLine": "Slow down when you approach a bicycle."
+    },
+    {
+      "id": "ev-lane-pass-bike-3ft-2",
+      "item": "lane-pass-bike-3ft",
+      "kind": "action",
+      "prompt": "Cyclist ahead. Give room to pass.",
+      "prop": "cyclist-ahead",
+      "action": "move-left",
+      "missLine": "Slow down and give a bike at least 3 feet, changing lanes if needed."
+    },
+    {
+      "id": "ev-lane-pass-bike-3ft-3",
+      "item": "lane-pass-bike-3ft",
+      "kind": "gates",
+      "prompt": "At least how much room to pass a bike?",
+      "choices": [
+        "2 feet",
+        "3 feet",
+        "5 feet"
+      ],
+      "answer": 1,
+      "missLine": "Pass a bicycle or moped at least 3 feet to the left."
+    },
+    {
+      "id": "ev-lane-being-passed-1",
+      "item": "lane-being-passed",
+      "kind": "gates",
+      "prompt": "A car is passing you. What do you do?",
+      "choices": [
+        "Speed up",
+        "Keep steady or slow down",
+        "Pull onto the shoulder"
+      ],
+      "answer": 1,
+      "missLine": "When being passed, keep a steady speed or slow down."
+    },
+    {
+      "id": "ev-lane-being-passed-2",
+      "item": "lane-being-passed",
+      "kind": "gates",
+      "prompt": "A car passes you. Should you speed up?",
+      "choices": [
+        "Yes, to stay ahead",
+        "Only on hills",
+        "No, let it pass"
+      ],
+      "answer": 2,
+      "missLine": "Never speed up when another car is passing you."
+    },
+    {
+      "id": "ev-lane-no-pass-hills-1",
+      "item": "lane-no-pass-hills",
+      "kind": "gates",
+      "prompt": "Two-lane road, hill ahead. Pass now?",
+      "image": "sign-hill",
+      "choices": [
+        "Yes, quickly",
+        "No, stay in your lane",
+        "Yes, if you signal"
+      ],
+      "answer": 1,
+      "missLine": "Stay in your lane: passing on a hill is against the law on a two-lane road."
+    },
+    {
+      "id": "ev-lane-no-pass-hills-2",
+      "item": "lane-no-pass-hills",
+      "kind": "gates",
+      "prompt": "Where is passing against the law?",
+      "choices": [
+        "At a railroad crossing",
+        "On a straight, open road",
+        "On a 4-lane divided road"
+      ],
+      "answer": 0,
+      "missLine": "Do not pass on hills, curves, intersections or railroad crossings."
+    },
+    {
+      "id": "ev-lane-no-pass-hills-3",
+      "item": "lane-no-pass-hills",
+      "kind": "gates",
+      "prompt": "Curve ahead on a two-lane road. Pass?",
+      "image": "sign-sharp-right",
+      "choices": [
+        "Honk and pass",
+        "Pass in the curve",
+        "Stay behind and wait"
+      ],
+      "answer": 2,
+      "missLine": "Wait for the curve to end; passing on a curve is against the law."
+    },
+    {
+      "id": "ev-lane-no-pass-school-bus-1",
+      "item": "lane-no-pass-school-bus",
+      "kind": "action",
+      "prompt": "School bus stopped, loading riders!",
+      "prop": "school-bus-stopped",
+      "action": "stop",
+      "missLine": "Never pass a school bus stopped to load or unload passengers."
+    },
+    {
+      "id": "ev-lane-no-pass-school-bus-2",
+      "item": "lane-no-pass-school-bus",
+      "kind": "gates",
+      "prompt": "Stopped school bus. What do you do?",
+      "image": "diagram-school-bus-stop",
+      "choices": [
+        "Pass slowly",
+        "Pass on the left",
+        "Stop and wait"
+      ],
+      "answer": 2,
+      "missLine": "Stop and wait; never pass a school bus loading or unloading riders."
+    },
+    {
+      "id": "ev-lane-no-pass-school-bus-3",
+      "item": "lane-no-pass-school-bus",
+      "kind": "gates",
+      "prompt": "Bus is across an unpaved median. What do you do?",
+      "image": "diagram-school-bus-median",
+      "choices": [
+        "Stop and wait",
+        "You may go on",
+        "Stop if lights flash"
+      ],
+      "answer": 1,
+      "missLine": "An unpaved median or barrier between you and the bus means you may go on."
+    },
+    {
+      "id": "ev-lane-no-pass-solid-line-1",
+      "item": "lane-no-pass-solid-line",
+      "kind": "gates",
+      "prompt": "Solid yellow line on your left. Pass?",
+      "image": "mark-double-solid-yellow",
+      "choices": [
+        "Stay in your lane",
+        "Pass with care",
+        "Pass if road is clear"
+      ],
+      "answer": 0,
+      "missLine": "Do not pass when a solid line marks the left side of your lane."
+    },
+    {
+      "id": "ev-lane-no-pass-solid-line-2",
+      "item": "lane-no-pass-solid-line",
+      "kind": "gates",
+      "prompt": "A solid line on your lane's left side means:",
+      "image": "mark-double-solid-yellow",
+      "choices": [
+        "Pass on the left",
+        "No passing",
+        "Lane ends ahead"
+      ],
+      "answer": 1,
+      "missLine": "A solid line on the left side of your lane means no passing."
+    },
+    {
+      "id": "ev-lane-no-pass-crosswalk-1",
+      "item": "lane-no-pass-crosswalk",
+      "kind": "action",
+      "prompt": "Car stopped at crosswalk in next lane!",
+      "prop": "pedestrian-crosswalk",
+      "action": "stop",
+      "missLine": "Never pass a car stopped at a crosswalk; someone may be crossing."
+    },
+    {
+      "id": "ev-lane-no-pass-crosswalk-2",
+      "item": "lane-no-pass-crosswalk",
+      "kind": "gates",
+      "prompt": "Car in next lane stopped at a crosswalk. Pass it?",
+      "choices": [
+        "Yes, carefully",
+        "Yes, if you honk",
+        "No, stop and wait"
+      ],
+      "answer": 2,
+      "missLine": "Do not pass a car stopped at a crosswalk; someone may be crossing."
+    },
+    {
+      "id": "ev-lane-overcorrect-1",
+      "item": "lane-overcorrect",
+      "kind": "action",
+      "prompt": "Curvy road ahead!",
+      "sign": "sign-winding-road",
+      "action": "slow",
+      "missLine": "Reduce speed and use extra caution on curved roads."
+    },
+    {
+      "id": "ev-lane-overcorrect-2",
+      "item": "lane-overcorrect",
+      "kind": "gates",
+      "prompt": "Wheels drift off the road. First move?",
+      "choices": [
+        "Jerk the wheel back",
+        "Slam the brakes",
+        "Slow down gradually"
+      ],
+      "answer": 2,
+      "missLine": "Stay calm: slow down gradually, look where you want to go, and steer back slowly."
+    },
+    {
+      "id": "ev-lane-overcorrect-3",
+      "item": "lane-overcorrect",
+      "kind": "gates",
+      "prompt": "Steering back onto the road, you should:",
+      "choices": [
+        "Steer back slowly",
+        "Turn the wheel sharply",
+        "Speed up first"
+      ],
+      "answer": 0,
+      "missLine": "Slowly steer back onto the roadway."
+    },
+    {
+      "id": "ev-lane-opposing-left-1",
+      "item": "lane-opposing-left",
+      "kind": "gates",
+      "prompt": "Facing car turns left too. Which sides pass?",
+      "image": "diagram-left-turns-facing",
+      "choices": [
+        "Driver to driver",
+        "Passenger to passenger",
+        "Front to back"
+      ],
+      "answer": 1,
+      "missLine": "Opposing left turns pass passenger side to passenger side."
+    },
+    {
+      "id": "ev-lane-opposing-left-2",
+      "item": "lane-opposing-left",
+      "kind": "gates",
+      "prompt": "Facing car also turns left. How do you turn?",
+      "choices": [
+        "In front of each other",
+        "Behind each other",
+        "Only one car may go"
+      ],
+      "answer": 0,
+      "missLine": "Both cars turn in front of each other."
+    },
+    {
+      "id": "ev-lane-u-turn-1",
+      "item": "lane-u-turn",
+      "kind": "action",
+      "prompt": "You want to U-turn here.",
+      "sign": "sign-no-u-turn",
+      "action": "go",
+      "missLine": "This sign means no U-turns here, so keep going."
+    },
+    {
+      "id": "ev-lane-u-turn-2",
+      "item": "lane-u-turn",
+      "kind": "gates",
+      "prompt": "In a town, where may you U-turn?",
+      "choices": [
+        "Mid-block",
+        "At an intersection",
+        "In any driveway"
+      ],
+      "answer": 1,
+      "missLine": "In cities, towns and business districts, U-turn only at intersections."
+    },
+    {
+      "id": "ev-lane-u-turn-3",
+      "item": "lane-u-turn",
+      "kind": "gates",
+      "prompt": "Can you U-turn on a highway?",
+      "choices": [
+        "Yes, if clear",
+        "Only at night",
+        "No, never"
+      ],
+      "answer": 2,
+      "missLine": "Never make a U-turn on a highway."
+    },
+    {
+      "id": "ev-lane-u-turn-4",
+      "item": "lane-u-turn",
+      "kind": "gates",
+      "prompt": "Which signal do you use for a U-turn?",
+      "choices": [
+        "Right signal",
+        "Left signal",
+        "Hazard lights"
+      ],
+      "answer": 1,
+      "missLine": "For a U-turn, turn on your left-turn signal, stop and yield."
+    },
+    {
+      "id": "ev-lane-turn-signal-law-1",
+      "item": "lane-turn-signal-law",
+      "kind": "gates",
+      "prompt": "No other cars around. Signal your turn?",
+      "choices": [
+        "Yes, always",
+        "No need",
+        "Only at night"
+      ],
+      "answer": 0,
+      "missLine": "Signal even if no other traffic is on the road."
+    },
+    {
+      "id": "ev-lane-turn-signal-law-2",
+      "item": "lane-turn-signal-law",
+      "kind": "gates",
+      "prompt": "Turn is done, but your signal still blinks. Do what?",
+      "choices": [
+        "Leave it on",
+        "Use hazard lights",
+        "Turn it off"
+      ],
+      "answer": 2,
+      "missLine": "After a turn or lane change, be sure the signal stops flashing."
+    },
+    {
+      "id": "ev-lane-turn-signal-law-3",
+      "item": "lane-turn-signal-law",
+      "kind": "gates",
+      "prompt": "Using turn signals is:",
+      "choices": [
+        "Just polite",
+        "Required by law",
+        "Only for trucks"
+      ],
+      "answer": 1,
+      "missLine": "Using your turn signal is required by law."
+    },
+    {
+      "id": "ev-lane-signal-100-feet-1",
+      "item": "lane-signal-100-feet",
+      "kind": "gates",
+      "prompt": "How far ahead do you signal a turn?",
+      "choices": [
+        "100 feet",
+        "200 feet",
+        "500 feet"
+      ],
+      "answer": 0,
+      "missLine": "Signal 3 to 4 seconds, 100 feet, before your turn."
+    },
+    {
+      "id": "ev-lane-signal-100-feet-2",
+      "item": "lane-signal-100-feet",
+      "kind": "gates",
+      "prompt": "Signal a turn how many seconds ahead?",
+      "choices": [
+        "1 second",
+        "3 to 4 seconds",
+        "10 seconds"
+      ],
+      "answer": 1,
+      "missLine": "Signal 3 to 4 seconds before your turn."
+    },
+    {
+      "id": "ev-lane-signal-100-feet-3",
+      "item": "lane-signal-100-feet",
+      "kind": "gates",
+      "prompt": "Right turn coming up. Signal how far ahead?",
+      "choices": [
+        "20 feet",
+        "50 feet",
+        "100 feet"
+      ],
+      "answer": 2,
+      "missLine": "Signal at least 100 feet before the turn."
+    },
+    {
+      "id": "ev-lane-hand-left-1",
+      "item": "lane-hand-left",
+      "kind": "gates",
+      "prompt": "This hand signal means what?",
+      "image": "hand-left",
+      "choices": [
+        "Left turn",
+        "Right turn",
+        "Slow or stop"
+      ],
+      "answer": 0,
+      "missLine": "Left arm straight out means a left turn."
+    },
+    {
+      "id": "ev-lane-hand-left-2",
+      "item": "lane-hand-left",
+      "kind": "gates",
+      "prompt": "How do you signal a left turn by hand?",
+      "choices": [
+        "Arm straight out",
+        "Arm bent up",
+        "Arm bent down"
+      ],
+      "answer": 0,
+      "missLine": "For a left turn, hold your left arm straight out."
+    },
+    {
+      "id": "ev-lane-hand-left-3",
+      "item": "lane-hand-left",
+      "kind": "gates",
+      "prompt": "Your left arm points straight out. You plan to:",
+      "image": "hand-left",
+      "choices": [
+        "Slow or stop",
+        "Turn right",
+        "Turn left"
+      ],
+      "answer": 2,
+      "missLine": "Left arm straight out means you will turn left."
+    },
+    {
+      "id": "ev-lane-hand-right-1",
+      "item": "lane-hand-right",
+      "kind": "gates",
+      "prompt": "The driver ahead shows this. They will:",
+      "image": "hand-right",
+      "choices": [
+        "Turn left",
+        "Turn right",
+        "Slow or stop"
+      ],
+      "answer": 1,
+      "missLine": "Left arm bent up means a right turn."
+    },
+    {
+      "id": "ev-lane-hand-right-2",
+      "item": "lane-hand-right",
+      "kind": "gates",
+      "prompt": "Hand signal for a right turn?",
+      "choices": [
+        "Arm points down",
+        "Arm straight out",
+        "Arm points up"
+      ],
+      "answer": 2,
+      "missLine": "For a right turn, point your left arm upward."
+    },
+    {
+      "id": "ev-lane-hand-stop-1",
+      "item": "lane-hand-stop",
+      "kind": "gates",
+      "prompt": "This hand signal means what?",
+      "image": "hand-stop",
+      "choices": [
+        "Right turn",
+        "Left turn",
+        "Slow or stop"
+      ],
+      "answer": 2,
+      "missLine": "Left arm bent down means slow or stop."
+    },
+    {
+      "id": "ev-lane-hand-stop-2",
+      "item": "lane-hand-stop",
+      "kind": "gates",
+      "prompt": "Signaling a stop by hand. Arm points:",
+      "choices": [
+        "Down",
+        "Up",
+        "Straight out"
+      ],
+      "answer": 0,
+      "missLine": "To signal slow or stop, point your left arm downward."
+    },
+    {
+      "id": "ev-lane-hand-stop-3",
+      "item": "lane-hand-stop",
+      "kind": "action",
+      "prompt": "Driver ahead shows this hand signal.",
+      "sign": "hand-stop",
+      "action": "slow",
+      "missLine": "Arm pointing down means the driver ahead will slow or stop."
+    },
+    {
+      "id": "ev-lane-right-turn-1",
+      "item": "lane-right-turn",
+      "kind": "action",
+      "prompt": "Right turn at a stop sign.",
+      "prop": "stop-line",
+      "sign": "sign-stop",
+      "action": "stop",
+      "missLine": "At a stop sign, stop completely before you turn right."
+    },
+    {
+      "id": "ev-lane-right-turn-2",
+      "item": "lane-right-turn",
+      "kind": "gates",
+      "prompt": "Turning right. Which lane do you end in?",
+      "choices": [
+        "Far left lane",
+        "Lane closest to the curb",
+        "Any open lane"
+      ],
+      "answer": 1,
+      "missLine": "After a right turn, enter the lane closest to the curb."
+    },
+    {
+      "id": "ev-lane-right-turn-3",
+      "item": "lane-right-turn",
+      "kind": "gates",
+      "prompt": "To turn right, start in which lane?",
+      "choices": [
+        "Farthest right lane",
+        "Center lane",
+        "Farthest left lane"
+      ],
+      "answer": 0,
+      "missLine": "Make a right turn from the lane furthest to the right."
+    },
+    {
+      "id": "ev-lane-right-turn-4",
+      "item": "lane-right-turn",
+      "kind": "action",
+      "prompt": "Red light. You want to turn right.",
+      "prop": "traffic-light-red",
+      "action": "stop",
+      "missLine": "At a red light, stop completely before you turn right."
+    },
+    {
+      "id": "ev-lane-left-turn-1",
+      "item": "lane-left-turn",
+      "kind": "gates",
+      "prompt": "To turn left, start in which lane?",
+      "choices": [
+        "Farthest right",
+        "Farthest left",
+        "Middle lane"
+      ],
+      "answer": 1,
+      "missLine": "Make a left turn from the furthest left lane possible."
+    },
+    {
+      "id": "ev-lane-left-turn-2",
+      "item": "lane-left-turn",
+      "kind": "gates",
+      "prompt": "Turning left. Which lane do you enter?",
+      "choices": [
+        "Rightmost lane",
+        "Any open lane",
+        "Leftmost lane"
+      ],
+      "answer": 2,
+      "missLine": "Turn into the leftmost lane of the new road."
+    },
+    {
+      "id": "ev-lane-left-turn-wheels-1",
+      "item": "lane-left-turn-wheels",
+      "kind": "gates",
+      "prompt": "Waiting to turn left. Your wheels point:",
+      "choices": [
+        "Straight ahead",
+        "Left",
+        "Right"
+      ],
+      "answer": 0,
+      "missLine": "Keep front wheels straight until you actually turn left."
+    },
+    {
+      "id": "ev-lane-left-turn-wheels-2",
+      "item": "lane-left-turn-wheels",
+      "kind": "gates",
+      "prompt": "Why keep wheels straight while waiting?",
+      "choices": [
+        "Saves gas",
+        "Helps your signal",
+        "Safer if hit from behind"
+      ],
+      "answer": 2,
+      "missLine": "Straight wheels keep you out of oncoming traffic if you are hit from behind."
+    },
+    {
+      "id": "ev-lane-left-turn-wheels-3",
+      "item": "lane-left-turn-wheels",
+      "kind": "action",
+      "prompt": "Turning left. People in the crosswalk.",
+      "prop": "pedestrian-crosswalk",
+      "action": "stop",
+      "missLine": "When you turn, yield and let people in the crosswalk cross first."
+    },
+    {
+      "id": "ev-lane-mirror-adjust-1",
+      "item": "lane-mirror-adjust",
+      "kind": "gates",
+      "prompt": "Your inside mirror should frame what?",
+      "choices": [
+        "The whole back window",
+        "The ceiling",
+        "The left lane"
+      ],
+      "answer": 0,
+      "missLine": "The inside mirror should frame the entire back window."
+    },
+    {
+      "id": "ev-lane-mirror-adjust-2",
+      "item": "lane-mirror-adjust",
+      "kind": "gates",
+      "prompt": "Side mirrors set right. How much of your car?",
+      "choices": [
+        "About half the mirror",
+        "Just barely the side",
+        "The whole side"
+      ],
+      "answer": 1,
+      "missLine": "Set side mirrors so you can barely see the sides of your car."
+    },
+    {
+      "id": "ev-lane-mirror-adjust-3",
+      "item": "lane-mirror-adjust",
+      "kind": "gates",
+      "prompt": "When do you adjust your mirrors?",
+      "choices": [
+        "Before driving",
+        "While on the highway",
+        "At red lights"
+      ],
+      "answer": 0,
+      "missLine": "Adjust your mirrors before you start driving."
+    },
+    {
+      "id": "ev-lane-avoid-blind-spot-1",
+      "item": "lane-avoid-blind-spot",
+      "kind": "gates",
+      "prompt": "You're in a car's blind spot. Do what?",
+      "choices": [
+        "Stay beside it",
+        "Speed up or drop back",
+        "Honk and stay"
+      ],
+      "answer": 1,
+      "missLine": "Speed up or drop back so you never stay in another driver's blind spot."
+    },
+    {
+      "id": "ev-lane-avoid-blind-spot-2",
+      "item": "lane-avoid-blind-spot",
+      "kind": "gates",
+      "prompt": "Driving in someone's blind spot is:",
+      "choices": [
+        "Safe if you're slow",
+        "The safest spot",
+        "Dangerous"
+      ],
+      "answer": 2,
+      "missLine": "Riding in another driver's blind spot is dangerous."
+    },
+    {
+      "id": "ev-lane-backing-1",
+      "item": "lane-backing",
+      "kind": "gates",
+      "prompt": "Backing up. Where do you look?",
+      "choices": [
+        "Out the rear window",
+        "Only the side mirrors",
+        "The dashboard"
+      ],
+      "answer": 0,
+      "missLine": "Turn your body and head right and look out the rear window."
+    },
+    {
+      "id": "ev-lane-backing-2",
+      "item": "lane-backing",
+      "kind": "gates",
+      "prompt": "Most common backing mistake?",
+      "choices": [
+        "Backing too slowly",
+        "Not looking both ways",
+        "Using the horn"
+      ],
+      "answer": 1,
+      "missLine": "The most common backing mistake is failing to look both ways behind you."
+    },
+    {
+      "id": "ev-lane-backing-3",
+      "item": "lane-backing",
+      "kind": "gates",
+      "prompt": "How fast should you back up?",
+      "choices": [
+        "Quickly",
+        "At the speed limit",
+        "Slowly"
+      ],
+      "answer": 2,
+      "missLine": "Back up slowly and glance quickly to either side."
+    },
+    {
+      "id": "ev-lane-park-curb-1",
+      "item": "lane-park-curb",
+      "kind": "gates",
+      "prompt": "Parked at a curb. How far away, at most?",
+      "choices": [
+        "1 foot",
+        "2 feet",
+        "3 feet"
+      ],
+      "answer": 0,
+      "missLine": "You may not park more than 1 foot from the curb."
+    },
+    {
+      "id": "ev-lane-park-curb-2",
+      "item": "lane-park-curb",
+      "kind": "gates",
+      "prompt": "Parking on a two-way street. Which side?",
+      "choices": [
+        "Left side",
+        "Right side",
+        "Either side"
+      ],
+      "answer": 1,
+      "missLine": "On a two-way street, park on the right side."
+    },
+    {
+      "id": "ev-lane-park-curb-3",
+      "item": "lane-park-curb",
+      "kind": "gates",
+      "prompt": "Parking on a one-way street. Which side?",
+      "choices": [
+        "Right side only",
+        "Left side only",
+        "Either side"
+      ],
+      "answer": 2,
+      "missLine": "On a one-way road, you may park on either side."
+    },
+    {
+      "id": "ev-lane-park-uphill-curb-1",
+      "item": "lane-park-uphill-curb",
+      "kind": "gates",
+      "prompt": "Uphill with a curb. Turn wheels which way?",
+      "image": "diagram-uphill-curb",
+      "choices": [
+        "Left",
+        "Right",
+        "Straight"
+      ],
+      "answer": 0,
+      "missLine": "Uphill with a curb, turn your front wheels left."
+    },
+    {
+      "id": "ev-lane-park-uphill-curb-2",
+      "item": "lane-park-uphill-curb",
+      "kind": "gates",
+      "prompt": "Uphill at a curb. Wheels point:",
+      "choices": [
+        "Toward the curb",
+        "Away from the curb",
+        "Straight ahead"
+      ],
+      "answer": 1,
+      "missLine": "Uphill with a curb, turn wheels away from the curb."
+    },
+    {
+      "id": "ev-lane-park-downhill-curb-1",
+      "item": "lane-park-downhill-curb",
+      "kind": "gates",
+      "prompt": "Downhill with a curb. Turn wheels which way?",
+      "image": "diagram-downhill-curb",
+      "choices": [
+        "Left",
+        "Straight",
+        "Right"
+      ],
+      "answer": 2,
+      "missLine": "Downhill with a curb, turn your front wheels right."
+    },
+    {
+      "id": "ev-lane-park-downhill-curb-2",
+      "item": "lane-park-downhill-curb",
+      "kind": "gates",
+      "prompt": "Downhill at a curb. Wheels point:",
+      "choices": [
+        "Away from the curb",
+        "Toward the curb",
+        "Straight ahead"
+      ],
+      "answer": 1,
+      "missLine": "Downhill with a curb, turn wheels toward the curb."
+    },
+    {
+      "id": "ev-lane-park-hill-no-curb-1",
+      "item": "lane-park-hill-no-curb",
+      "kind": "gates",
+      "prompt": "Hill with no curb. Turn wheels which way?",
+      "image": "diagram-hill-no-curb",
+      "choices": [
+        "Right",
+        "Left",
+        "Straight"
+      ],
+      "answer": 0,
+      "missLine": "With no curb, turn your front wheels right, uphill or downhill."
+    },
+    {
+      "id": "ev-lane-park-hill-no-curb-2",
+      "item": "lane-park-hill-no-curb",
+      "kind": "gates",
+      "prompt": "No curb, parked uphill. Wheels point:",
+      "choices": [
+        "Left",
+        "Straight",
+        "Right"
+      ],
+      "answer": 2,
+      "missLine": "Uphill with no curb, turn your front wheels right."
+    },
+    {
+      "id": "ev-lane-park-hill-no-curb-3",
+      "item": "lane-park-hill-no-curb",
+      "kind": "gates",
+      "prompt": "Why turn wheels right with no curb?",
+      "choices": [
+        "Saves the brakes",
+        "Car rolls away from traffic",
+        "Easier to pull out"
+      ],
+      "answer": 1,
+      "missLine": "Turned right, the car's rear rolls away from traffic."
+    },
+    {
+      "id": "ev-lane-park-open-door-1",
+      "item": "lane-park-open-door",
+      "kind": "gates",
+      "prompt": "Parked on the street. Before you open the door:",
+      "choices": [
+        "Honk the horn",
+        "Look for cars and bikes",
+        "Turn on wipers"
+      ],
+      "answer": 1,
+      "missLine": "Look for cars, bicyclists and pedestrians before opening the door."
+    },
+    {
+      "id": "ev-lane-park-open-door-2",
+      "item": "lane-park-open-door",
+      "kind": "gates",
+      "prompt": "Bike coming as you open your door. Do what?",
+      "choices": [
+        "Open it quickly",
+        "Wave it around you",
+        "Wait until it passes"
+      ],
+      "answer": 2,
+      "missLine": "Check for bicyclists before you open your door."
+    },
+    {
+      "id": "ev-lane-no-park-15-feet-1",
+      "item": "lane-no-park-15-feet",
+      "kind": "gates",
+      "prompt": "Closest you may park to a fire hydrant?",
+      "choices": [
+        "10 feet",
+        "15 feet",
+        "20 feet"
+      ],
+      "answer": 1,
+      "missLine": "Do not park within 15 feet of a fire hydrant."
+    },
+    {
+      "id": "ev-lane-no-park-15-feet-2",
+      "item": "lane-no-park-15-feet",
+      "kind": "gates",
+      "prompt": "Fire station entrance. Park at least how far away?",
+      "choices": [
+        "15 feet",
+        "50 feet",
+        "500 feet"
+      ],
+      "answer": 0,
+      "missLine": "Do not park within 15 feet of a fire station entrance."
+    },
+    {
+      "id": "ev-lane-no-park-15-feet-3",
+      "item": "lane-no-park-15-feet",
+      "kind": "gates",
+      "prompt": "Rescue squad entrance. Park no closer than:",
+      "choices": [
+        "5 feet",
+        "10 feet",
+        "15 feet"
+      ],
+      "answer": 2,
+      "missLine": "Stay 15 feet from a fire, ambulance or rescue squad entrance."
+    },
+    {
+      "id": "ev-lane-no-park-intersection-1",
+      "item": "lane-no-park-intersection",
+      "kind": "gates",
+      "prompt": "Closest you may park to an intersection?",
+      "choices": [
+        "5 feet",
+        "15 feet",
+        "20 feet"
+      ],
+      "answer": 2,
+      "missLine": "Do not park within 20 feet of an intersection."
+    },
+    {
+      "id": "ev-lane-no-park-intersection-2",
+      "item": "lane-no-park-intersection",
+      "kind": "gates",
+      "prompt": "Parking near a corner. Stay back how far?",
+      "choices": [
+        "20 feet",
+        "50 feet",
+        "100 feet"
+      ],
+      "answer": 0,
+      "missLine": "Park at least 20 feet from an intersection."
+    },
+    {
+      "id": "ev-lane-no-park-fire-trucks-1",
+      "item": "lane-no-park-fire-trucks",
+      "kind": "gates",
+      "prompt": "Fire trucks at an alarm. Park no closer than:",
+      "choices": [
+        "50 feet",
+        "100 feet",
+        "500 feet"
+      ],
+      "answer": 2,
+      "missLine": "Do not park within 500 feet of fire trucks answering an alarm."
+    },
+    {
+      "id": "ev-lane-no-park-fire-trucks-2",
+      "item": "lane-no-park-fire-trucks",
+      "kind": "gates",
+      "prompt": "Fire engines answering an alarm. Park how far away?",
+      "choices": [
+        "15 feet",
+        "500 feet",
+        "1,000 feet"
+      ],
+      "answer": 1,
+      "missLine": "Stay 500 feet from fire trucks stopped at an alarm."
+    },
+    {
+      "id": "ev-lane-no-park-railroad-1",
+      "item": "lane-no-park-railroad",
+      "kind": "gates",
+      "prompt": "Closest you may park to a railroad crossing?",
+      "image": "sign-railroad-crossbuck",
+      "choices": [
+        "15 feet",
+        "20 feet",
+        "50 feet"
+      ],
+      "answer": 2,
+      "missLine": "Do not park within 50 feet of a railroad crossing."
+    },
+    {
+      "id": "ev-lane-no-park-railroad-2",
+      "item": "lane-no-park-railroad",
+      "kind": "gates",
+      "prompt": "Parking near train tracks. Stay back:",
+      "choices": [
+        "50 feet",
+        "100 feet",
+        "500 feet"
+      ],
+      "answer": 0,
+      "missLine": "Park at least 50 feet from a railroad crossing."
+    },
+    {
+      "id": "ev-lane-no-park-places-1",
+      "item": "lane-no-park-places",
+      "kind": "gates",
+      "prompt": "Can you park in front of a driveway?",
+      "choices": [
+        "Yes, if it's empty",
+        "No, never",
+        "Yes, at night"
+      ],
+      "answer": 1,
+      "missLine": "You may not park in front of a driveway."
+    },
+    {
+      "id": "ev-lane-no-park-places-2",
+      "item": "lane-no-park-places",
+      "kind": "gates",
+      "prompt": "Yellow curb. Can you park here?",
+      "image": "curb-yellow",
+      "choices": [
+        "No parking here",
+        "Yes, any time",
+        "Only on weekends"
+      ],
+      "answer": 0,
+      "missLine": "You may not park where curbs are painted yellow."
+    },
+    {
+      "id": "ev-lane-no-park-places-3",
+      "item": "lane-no-park-places",
+      "kind": "gates",
+      "prompt": "Parking beside a parked car is called:",
+      "choices": [
+        "Parallel parking",
+        "Angle parking",
+        "Double parking"
+      ],
+      "answer": 2,
+      "missLine": "Double parking, beside another parked car, is not allowed."
+    },
+    {
+      "id": "ev-lane-no-park-places-4",
+      "item": "lane-no-park-places",
+      "kind": "gates",
+      "prompt": "Can you park in a bike lane?",
+      "image": "mark-bike-lane",
+      "choices": [
+        "Yes, briefly",
+        "Only at night",
+        "No, never"
+      ],
+      "answer": 2,
+      "missLine": "You may not park in a bike lane."
+    },
+    {
+      "id": "ev-lane-change-steps-4",
+      "item": "lane-change-steps",
+      "kind": "gates",
+      "prompt": "Signal is on. Who else may move into that lane?",
+      "choices": [
+        "Nobody, you signaled",
+        "Other drivers",
+        "Only trucks"
+      ],
+      "answer": 1,
+      "missLine": "Check for other drivers who also may be moving into the same lane."
+    },
+    {
+      "id": "ev-lane-overcorrect-4",
+      "item": "lane-overcorrect",
+      "kind": "gates",
+      "prompt": "Turning the wheel too sharply can make what slide?",
+      "choices": [
+        "Rear wheels",
+        "Front bumper",
+        "Side mirrors"
+      ],
+      "answer": 0,
+      "missLine": "Over-correcting makes the rear wheels slide toward the outside of the turn."
+    },
+    {
+      "id": "ev-lane-overcorrect-5",
+      "item": "lane-overcorrect",
+      "kind": "action",
+      "prompt": "Winding road in the rain.",
+      "sign": "sign-winding-road",
+      "weather": "rain",
+      "action": "slow",
+      "missLine": "Slow down and take extra care on curved roads."
+    },
+    {
+      "id": "ev-lane-no-park-access-aisle-1",
+      "item": "lane-no-park-access-aisle",
+      "kind": "gates",
+      "prompt": "Striped aisle beside a disabled space. Park there?",
+      "image": "sign-disabled-parking",
+      "choices": [
+        "No, never",
+        "Yes, for a minute",
+        "Yes, if it's empty"
+      ],
+      "answer": 0,
+      "missLine": "You may not park in the striped aisle next to a disabled parking space."
+    },
+    {
+      "id": "ev-lane-no-park-access-aisle-2",
+      "item": "lane-no-park-access-aisle",
+      "kind": "gates",
+      "prompt": "Can you park in a disabled space without a permit?",
+      "image": "sign-disabled-parking",
+      "choices": [
+        "Yes, if quick",
+        "Yes, at night",
+        "No, it is reserved"
+      ],
+      "answer": 2,
+      "missLine": "Spaces with this sign are reserved for people with disabled parking permits."
+    },
+    {
+      "id": "ev-lane-no-park-no-curb-1",
+      "item": "lane-no-park-no-curb",
+      "kind": "gates",
+      "prompt": "No curb here. Where do you park?",
+      "choices": [
+        "On the hard road surface",
+        "Far onto the shoulder",
+        "Half in the travel lane"
+      ],
+      "answer": 1,
+      "missLine": "With no curb, pull as far onto the shoulder as you can, off the pavement."
+    },
+    {
+      "id": "ev-lane-no-park-no-curb-2",
+      "item": "lane-no-park-no-curb",
+      "kind": "gates",
+      "prompt": "Can you park so you block a traffic lane?",
+      "choices": [
+        "No",
+        "Yes, with hazards on",
+        "Yes, for 5 minutes"
+      ],
+      "answer": 0,
+      "missLine": "Never park so you block or create a hazard in a traffic lane."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-lane-change-steps-1",
+      "item": "lane-change-steps",
+      "part": 2,
+      "prompt": "Before changing lanes, you should:",
+      "choices": [
+        "Check your mirrors, signal, then glance over your shoulder",
+        "Signal, then move over right away",
+        "Check only your rearview mirror",
+        "Slow down and move over without signaling"
+      ],
+      "answer": 0,
+      "explain": "Check your mirrors, signal, then glance over your shoulder for vehicles in your blind spot."
+    },
+    {
+      "id": "q-lane-change-steps-2",
+      "item": "lane-change-steps",
+      "part": 2,
+      "prompt": "The best way to see a vehicle in your blind spot is to:",
+      "image": "diagram-blind-spot",
+      "choices": [
+        "Use your rearview mirror",
+        "Use your side mirror",
+        "Quickly turn your head and glance over your shoulder",
+        "Tap your brakes"
+      ],
+      "answer": 2,
+      "explain": "Quickly turning your head and glancing over your shoulder is the best way to check your blind spot."
+    },
+    {
+      "id": "q-lane-change-steps-3",
+      "item": "lane-change-steps",
+      "part": 2,
+      "prompt": "Just before you begin moving into another lane, you should:",
+      "choices": [
+        "Speed up quickly",
+        "Turn off your signal",
+        "Check your speedometer",
+        "Quickly glance over your shoulder"
+      ],
+      "answer": 3,
+      "explain": "Just before you move over, quickly glance over your shoulder for vehicles in your blind spot."
+    },
+    {
+      "id": "q-lane-keep-right-1",
+      "item": "lane-keep-right",
+      "part": 2,
+      "prompt": "On a multi-lane highway, if you are driving slower than the traffic around you, you should:",
+      "choices": [
+        "Drive in the left lane",
+        "Turn on your hazard lights",
+        "Drive on the shoulder",
+        "Stay in the right lane"
+      ],
+      "answer": 3,
+      "explain": "Stay in the right lane if you are driving slower than the traffic around you."
+    },
+    {
+      "id": "q-lane-keep-right-2",
+      "item": "lane-keep-right",
+      "part": 2,
+      "prompt": "The left lane of a multi-lane highway is meant for:",
+      "choices": [
+        "Cruising at a steady speed",
+        "Trucks and buses",
+        "Passing only",
+        "Slower drivers"
+      ],
+      "answer": 2,
+      "explain": "The left lane is for passing only, not cruising."
+    },
+    {
+      "id": "q-lane-keep-right-3",
+      "item": "lane-keep-right",
+      "part": 2,
+      "prompt": "Which statement about the left lane on a multi-lane highway is true?",
+      "choices": [
+        "It is for passing, not cruising",
+        "It is for drivers going under the limit",
+        "It is for exiting the highway",
+        "It may be used for cruising any time"
+      ],
+      "answer": 0,
+      "explain": "Use the left lane to pass and avoid cruising in it."
+    },
+    {
+      "id": "q-lane-pass-steps-1",
+      "item": "lane-pass-steps",
+      "part": 2,
+      "prompt": "After passing a vehicle, you may return to the right lane when:",
+      "choices": [
+        "Your rear bumper is even with its front bumper",
+        "The other driver flashes headlights",
+        "You have counted two seconds",
+        "You can see the front of the passed vehicle in your rearview mirror"
+      ],
+      "answer": 3,
+      "explain": "Return to the right lane as soon as you can see the front of the passed vehicle in your rearview mirror."
+    },
+    {
+      "id": "q-lane-pass-steps-2",
+      "item": "lane-pass-steps",
+      "part": 2,
+      "prompt": "Before you attempt to pass another vehicle, you should check:",
+      "choices": [
+        "Traffic ahead only",
+        "Traffic behind only",
+        "Traffic ahead, behind and in your blind spot",
+        "Only your side mirror"
+      ],
+      "answer": 2,
+      "explain": "Check traffic ahead, behind and in your blind spot before you pass."
+    },
+    {
+      "id": "q-lane-pass-steps-3",
+      "item": "lane-pass-steps",
+      "part": 2,
+      "prompt": "When passing another vehicle, you should:",
+      "choices": [
+        "Signal, then accelerate to pass",
+        "Accelerate, then signal",
+        "Pass without signaling if the road is empty",
+        "Pass on the shoulder"
+      ],
+      "answer": 0,
+      "explain": "Signal and then accelerate to pass."
+    },
+    {
+      "id": "q-lane-pass-speed-limit-1",
+      "item": "lane-pass-speed-limit",
+      "part": 2,
+      "prompt": "When passing another vehicle, you:",
+      "choices": [
+        "Must not exceed the speed limit",
+        "May exceed the speed limit by up to 10 MPH",
+        "May exceed the limit if the road is clear",
+        "May exceed the limit on interstates only"
+      ],
+      "answer": 0,
+      "explain": "It is against the law to exceed the speed limit as you pass."
+    },
+    {
+      "id": "q-lane-pass-speed-limit-2",
+      "item": "lane-pass-speed-limit",
+      "part": 2,
+      "prompt": "Which statement about passing is true?",
+      "choices": [
+        "Speeding is allowed while passing a truck",
+        "You may speed if you signal first",
+        "It is against the law to exceed the speed limit as you pass",
+        "Speeding is allowed for 10 seconds"
+      ],
+      "answer": 2,
+      "explain": "Exceeding the speed limit while passing is against the law."
+    },
+    {
+      "id": "q-lane-pass-before-zone-1",
+      "item": "lane-pass-before-zone",
+      "part": 1,
+      "prompt": "This sign means:",
+      "image": "sign-no-passing-zone",
+      "choices": [
+        "Passing lane ahead",
+        "You may pass with caution",
+        "No passing zone; do not pass",
+        "Road narrows ahead"
+      ],
+      "answer": 2,
+      "explain": "This sign marks a No Passing zone; complete any pass before you reach it."
+    },
+    {
+      "id": "q-lane-pass-before-zone-2",
+      "item": "lane-pass-before-zone",
+      "part": 1,
+      "prompt": "If you are passing a vehicle and see this sign ahead, you must:",
+      "image": "sign-no-passing-zone",
+      "choices": [
+        "Complete the pass before you reach the zone",
+        "Finish passing anywhere in the zone",
+        "Speed up over the limit to finish",
+        "Pass on the shoulder"
+      ],
+      "answer": 0,
+      "explain": "Complete the pass before you reach a No Passing zone."
+    },
+    {
+      "id": "q-lane-pass-before-zone-3",
+      "item": "lane-pass-before-zone",
+      "part": 2,
+      "prompt": "If you are still in the left lane when you reach a No Passing zone, you are:",
+      "choices": [
+        "Fine if you signal",
+        "Breaking the law",
+        "Fine if no one is coming",
+        "Allowed to finish within one mile"
+      ],
+      "answer": 1,
+      "explain": "If you're still in the left lane when you reach the zone, you're breaking the law."
+    },
+    {
+      "id": "q-lane-pass-on-right-1",
+      "item": "lane-pass-on-right",
+      "part": 2,
+      "prompt": "You may pass another vehicle on the right if:",
+      "choices": [
+        "It has signaled and is making a left turn",
+        "Its driver waves you by",
+        "The shoulder is wide enough",
+        "You honk first"
+      ],
+      "answer": 0,
+      "explain": "You may pass on the right if the vehicle has signaled and is making a left turn."
+    },
+    {
+      "id": "q-lane-pass-on-right-2",
+      "item": "lane-pass-on-right",
+      "part": 2,
+      "prompt": "Passing off the pavement or on the shoulder of the road is:",
+      "choices": [
+        "Allowed if the shoulder is paved",
+        "Allowed in heavy traffic",
+        "Unlawful and unsafe",
+        "Allowed if you signal"
+      ],
+      "answer": 2,
+      "explain": "Passing off the pavement or on the shoulder is unlawful and unsafe."
+    },
+    {
+      "id": "q-lane-pass-on-right-3",
+      "item": "lane-pass-on-right",
+      "part": 2,
+      "prompt": "When you pass a left-turning vehicle on the right, be cautious because:",
+      "choices": [
+        "It must yield to you",
+        "Passing on the right is always illegal",
+        "You must use the shoulder",
+        "It may block your view or other drivers' view"
+      ],
+      "answer": 3,
+      "explain": "The vehicle you pass may block your view or the view of other drivers."
+    },
+    {
+      "id": "q-lane-pass-bike-3ft-1",
+      "item": "lane-pass-bike-3ft",
+      "part": 2,
+      "prompt": "When passing a person riding a bicycle or moped, you must:",
+      "choices": [
+        "Honk to warn them, then pass closely",
+        "Reduce speed and pass at least three feet to the left",
+        "Pass at least one foot to the left",
+        "Use the bicycle lane to pass"
+      ],
+      "answer": 1,
+      "explain": "Reduce speed and pass at least three feet to the left."
+    },
+    {
+      "id": "q-lane-pass-bike-3ft-2",
+      "item": "lane-pass-bike-3ft",
+      "part": 2,
+      "prompt": "The minimum distance required when passing a bicyclist is:",
+      "choices": [
+        "One foot",
+        "Two feet",
+        "Three feet",
+        "Five feet"
+      ],
+      "answer": 2,
+      "explain": "State law requires at least three feet of clearance when passing a cyclist."
+    },
+    {
+      "id": "q-lane-pass-bike-3ft-3",
+      "item": "lane-pass-bike-3ft",
+      "part": 2,
+      "prompt": "If the lane is too narrow to pass a bicyclist with three feet of clearance, you must:",
+      "choices": [
+        "Change lanes to pass safely",
+        "Pass anyway, slowly",
+        "Honk until the cyclist moves over",
+        "Use the shoulder"
+      ],
+      "answer": 0,
+      "explain": "If the lane is not wide enough for three feet, change lanes to pass safely."
+    },
+    {
+      "id": "q-lane-being-passed-1",
+      "item": "lane-being-passed",
+      "part": 2,
+      "prompt": "When another vehicle is passing you, you should:",
+      "choices": [
+        "Speed up",
+        "Move onto the shoulder",
+        "Flash your headlights",
+        "Maintain a steady speed or slow down"
+      ],
+      "answer": 3,
+      "explain": "When being passed, maintain a steady speed or slow down."
+    },
+    {
+      "id": "q-lane-being-passed-2",
+      "item": "lane-being-passed",
+      "part": 2,
+      "prompt": "Which is the correct action when you are being passed?",
+      "choices": [
+        "Speed up so the driver can't cut in",
+        "Don't speed up",
+        "Brake hard",
+        "Move into the passing lane"
+      ],
+      "answer": 1,
+      "explain": "When being passed, don't speed up."
+    },
+    {
+      "id": "q-lane-no-pass-hills-1",
+      "item": "lane-no-pass-hills",
+      "part": 1,
+      "prompt": "This sign warns of a hill. On a two-lane road, passing on the hill is:",
+      "image": "sign-hill",
+      "choices": [
+        "Allowed if you signal",
+        "Unlawful and unsafe",
+        "Allowed if you speed up",
+        "Required for slow vehicles"
+      ],
+      "answer": 1,
+      "explain": "Passing on a hill is unlawful and unsafe unless two or more lanes move in your direction."
+    },
+    {
+      "id": "q-lane-no-pass-hills-2",
+      "item": "lane-no-pass-hills",
+      "part": 2,
+      "prompt": "Passing is unlawful and unsafe:",
+      "choices": [
+        "On hills and curves",
+        "At intersections",
+        "At railroad crossings",
+        "All of these"
+      ],
+      "answer": 3,
+      "explain": "Passing is unlawful on hills, curves, at intersections and at railroad crossings."
+    },
+    {
+      "id": "q-lane-no-pass-hills-3",
+      "item": "lane-no-pass-hills",
+      "part": 2,
+      "prompt": "Passing on a hill or curve may be lawful when:",
+      "choices": [
+        "The road has two or more lanes moving in the same direction",
+        "You signal for three seconds",
+        "It is daytime",
+        "You honk first"
+      ],
+      "answer": 0,
+      "explain": "The hill and curve rule does not apply on roads with two or more lanes moving in the same direction."
+    },
+    {
+      "id": "q-lane-no-pass-school-bus-1",
+      "item": "lane-no-pass-school-bus",
+      "part": 2,
+      "prompt": "Passing a school bus that is stopped to load or unload passengers on a public road is:",
+      "choices": [
+        "Allowed if you go slowly",
+        "Unlawful unless a physical barrier or unpaved median separates traffic",
+        "Allowed if no children are visible",
+        "Allowed on the left side only"
+      ],
+      "answer": 1,
+      "explain": "Passing a stopped school bus is unlawful unless a physical barrier or unpaved median separates traffic."
+    },
+    {
+      "id": "q-lane-no-pass-school-bus-2",
+      "item": "lane-no-pass-school-bus",
+      "part": 2,
+      "prompt": "A school bus is stopped to load passengers on the other side of a road divided by an unpaved median. You:",
+      "image": "diagram-school-bus-median",
+      "choices": [
+        "May pass",
+        "Must stop until the bus moves",
+        "Must pull onto the shoulder",
+        "Must back up"
+      ],
+      "answer": 0,
+      "explain": "When an unpaved median separates traffic, you may pass the stopped bus."
+    },
+    {
+      "id": "q-lane-no-pass-solid-line-1",
+      "item": "lane-no-pass-solid-line",
+      "part": 2,
+      "prompt": "When a solid line marks the left side of your lane, you:",
+      "image": "mark-double-solid-yellow",
+      "choices": [
+        "May pass if no cars are coming",
+        "May pass on hills only",
+        "May not pass",
+        "May pass if you signal"
+      ],
+      "answer": 2,
+      "explain": "Passing is unlawful when a solid line marks the left side of your lane."
+    },
+    {
+      "id": "q-lane-no-pass-solid-line-2",
+      "item": "lane-no-pass-solid-line",
+      "part": 2,
+      "prompt": "Passing another car is unlawful when:",
+      "choices": [
+        "A broken line marks the left side of your lane",
+        "A solid line marks the left side of your lane",
+        "You are on a four-lane highway",
+        "The car ahead is going under the limit"
+      ],
+      "answer": 1,
+      "explain": "Passing is unlawful when a solid line marks the left side of your lane."
+    },
+    {
+      "id": "q-lane-no-pass-crosswalk-1",
+      "item": "lane-no-pass-crosswalk",
+      "part": 2,
+      "prompt": "You approach a crosswalk and the vehicle in the lane next to you is stopped. You should:",
+      "choices": [
+        "Pass it carefully",
+        "Not pass it; a pedestrian may be crossing",
+        "Honk and pass",
+        "Change lanes and speed up"
+      ],
+      "answer": 1,
+      "explain": "Do not pass when the vehicle ahead or in the next lane is stopped at a crosswalk."
+    },
+    {
+      "id": "q-lane-no-pass-crosswalk-2",
+      "item": "lane-no-pass-crosswalk",
+      "part": 2,
+      "prompt": "Passing a stopped vehicle at a crosswalk is:",
+      "choices": [
+        "Allowed if you see no one",
+        "Allowed if you slow down",
+        "Allowed in daylight",
+        "Illegal"
+      ],
+      "answer": 3,
+      "explain": "Passing at a crosswalk is illegal because you may not see pedestrians in front of other vehicles."
+    },
+    {
+      "id": "q-lane-overcorrect-1",
+      "item": "lane-overcorrect",
+      "part": 2,
+      "prompt": "If your vehicle drifts off the roadway, you should:",
+      "choices": [
+        "Turn the wheel sharply to get back on",
+        "Brake hard right away",
+        "Slow down gradually, look ahead and steer back slowly",
+        "Speed up and steer back quickly"
+      ],
+      "answer": 2,
+      "explain": "Do not panic: gradually reduce speed, look where you want to go and slowly steer back."
+    },
+    {
+      "id": "q-lane-overcorrect-2",
+      "item": "lane-overcorrect",
+      "part": 2,
+      "prompt": "Over-correcting, or turning the steering wheel too sharply, can cause:",
+      "choices": [
+        "The engine to stall",
+        "The rear wheels to slide toward the outside of the turn",
+        "The air bags to open",
+        "The headlights to dim"
+      ],
+      "answer": 1,
+      "explain": "Over-correcting makes the rear wheels slide toward the outside of the turn."
+    },
+    {
+      "id": "q-lane-overcorrect-3",
+      "item": "lane-overcorrect",
+      "part": 1,
+      "prompt": "On a road with curves like this sign shows, you should:",
+      "image": "sign-winding-road",
+      "choices": [
+        "Speed up to keep momentum",
+        "Pass slower vehicles",
+        "Drive on the shoulder",
+        "Reduce speed and use extra caution"
+      ],
+      "answer": 3,
+      "explain": "Reduce speed and use extra caution while driving on curved roads."
+    },
+    {
+      "id": "q-lane-opposing-left-1",
+      "item": "lane-opposing-left",
+      "part": 2,
+      "prompt": "When two vehicles approaching each other both turn left, they should:",
+      "image": "diagram-left-turns-facing",
+      "choices": [
+        "Turn behind each other, driver sides together",
+        "Turn in front of each other, passenger sides beside each other",
+        "Wait so only one turns at a time",
+        "Both turn into the right lane"
+      ],
+      "answer": 1,
+      "explain": "Both vehicles turn in front of each other so their passenger sides are beside each other."
+    },
+    {
+      "id": "q-lane-opposing-left-2",
+      "item": "lane-opposing-left",
+      "part": 2,
+      "prompt": "Two cars facing each other are both turning left. Which sides should pass beside each other?",
+      "choices": [
+        "Driver sides",
+        "Rear bumpers",
+        "Front bumpers",
+        "Passenger sides"
+      ],
+      "answer": 3,
+      "explain": "Opposing left-turning vehicles pass with their passenger sides beside each other."
+    },
+    {
+      "id": "q-lane-u-turn-1",
+      "item": "lane-u-turn",
+      "part": 1,
+      "prompt": "You want to make a U-turn and see this sign. You should:",
+      "image": "sign-no-u-turn",
+      "choices": [
+        "Make the U-turn carefully",
+        "Not make a U-turn here",
+        "Make the U-turn only on red",
+        "Signal right and turn"
+      ],
+      "answer": 1,
+      "explain": "Before a U-turn, check for No U-Turn signs; this sign means U-turns are not allowed."
+    },
+    {
+      "id": "q-lane-u-turn-2",
+      "item": "lane-u-turn",
+      "part": 2,
+      "prompt": "In business districts, cities and towns, U-turns are allowed:",
+      "choices": [
+        "Only at intersections",
+        "Anywhere if no cars are coming",
+        "Only in the middle of a block",
+        "Only on highways"
+      ],
+      "answer": 0,
+      "explain": "In business districts, cities and towns, U-turns are allowed only at intersections."
+    },
+    {
+      "id": "q-lane-u-turn-3",
+      "item": "lane-u-turn",
+      "part": 2,
+      "prompt": "When making a U-turn, once the way is clear you should turn into:",
+      "choices": [
+        "The left lane going the opposite direction",
+        "The center turn lane",
+        "The shoulder",
+        "The outside or right-hand lane going the opposite direction"
+      ],
+      "answer": 3,
+      "explain": "Proceed into the outside or right-hand lane traveling in the opposite direction."
+    },
+    {
+      "id": "q-lane-u-turn-4",
+      "item": "lane-u-turn",
+      "part": 2,
+      "prompt": "You should never make a U-turn:",
+      "choices": [
+        "At an intersection in town",
+        "After checking for signs",
+        "On a highway",
+        "After signaling left"
+      ],
+      "answer": 2,
+      "explain": "Never make a U-turn on a highway."
+    },
+    {
+      "id": "q-lane-turn-signal-law-1",
+      "item": "lane-turn-signal-law",
+      "part": 2,
+      "prompt": "Using your turn signal before changing lanes or turning is:",
+      "choices": [
+        "Required by law",
+        "Optional",
+        "Only needed in heavy traffic",
+        "Only needed at night"
+      ],
+      "answer": 0,
+      "explain": "Using your turn signal is required by law."
+    },
+    {
+      "id": "q-lane-turn-signal-law-2",
+      "item": "lane-turn-signal-law",
+      "part": 2,
+      "prompt": "You should use your turn signals:",
+      "choices": [
+        "Only when other cars are near",
+        "Even if no other traffic is on the road",
+        "Only on highways",
+        "Only for left turns"
+      ],
+      "answer": 1,
+      "explain": "Use your turn signals even if no other traffic is on the road."
+    },
+    {
+      "id": "q-lane-turn-signal-law-3",
+      "item": "lane-turn-signal-law",
+      "part": 2,
+      "prompt": "After you complete a turn or lane change, you should:",
+      "choices": [
+        "Make sure the turn signal stops flashing",
+        "Leave the signal on for 100 feet",
+        "Switch on your hazard lights",
+        "Tap your horn"
+      ],
+      "answer": 0,
+      "explain": "After you complete the turn or lane change, be sure the turn signal stops flashing."
+    },
+    {
+      "id": "q-lane-signal-100-feet-1",
+      "item": "lane-signal-100-feet",
+      "part": 2,
+      "prompt": "When you plan to turn, you should signal:",
+      "choices": [
+        "Just as you begin turning",
+        "At least 3 to 4 seconds, 100 feet, before the turn",
+        "500 feet before the turn",
+        "Only after you stop at the intersection"
+      ],
+      "answer": 1,
+      "explain": "Signal three or four seconds, 100 feet, ahead of your turn."
+    },
+    {
+      "id": "q-lane-signal-100-feet-2",
+      "item": "lane-signal-100-feet",
+      "part": 2,
+      "prompt": "How far before a turn should you signal?",
+      "choices": [
+        "25 feet",
+        "50 feet",
+        "75 feet",
+        "100 feet"
+      ],
+      "answer": 3,
+      "explain": "Signal 100 feet ahead of your turn."
+    },
+    {
+      "id": "q-lane-hand-left-1",
+      "item": "lane-hand-left",
+      "part": 2,
+      "prompt": "This hand signal means:",
+      "image": "hand-left",
+      "choices": [
+        "Right turn",
+        "Slow or stop",
+        "Left turn",
+        "Go ahead"
+      ],
+      "answer": 2,
+      "explain": "Left hand and arm pointing straight out means a left turn."
+    },
+    {
+      "id": "q-lane-hand-left-2",
+      "item": "lane-hand-left",
+      "part": 2,
+      "prompt": "To signal a left turn by hand, the driver's left hand and arm point:",
+      "choices": [
+        "Straight out",
+        "Upward",
+        "Downward",
+        "Toward the roof"
+      ],
+      "answer": 0,
+      "explain": "Left turn: left hand and arm pointing straight out."
+    },
+    {
+      "id": "q-lane-hand-right-1",
+      "item": "lane-hand-right",
+      "part": 2,
+      "prompt": "This hand signal means:",
+      "image": "hand-right",
+      "choices": [
+        "Left turn",
+        "Slow or stop",
+        "Pull over",
+        "Right turn"
+      ],
+      "answer": 3,
+      "explain": "Left hand and arm pointing upward means a right turn."
+    },
+    {
+      "id": "q-lane-hand-right-2",
+      "item": "lane-hand-right",
+      "part": 2,
+      "prompt": "To signal a right turn by hand, the driver's left hand and arm point:",
+      "choices": [
+        "Straight out",
+        "Downward",
+        "Upward",
+        "Out the right window"
+      ],
+      "answer": 2,
+      "explain": "Right turn: left hand and arm pointing upward."
+    },
+    {
+      "id": "q-lane-hand-stop-1",
+      "item": "lane-hand-stop",
+      "part": 2,
+      "prompt": "This hand signal means:",
+      "image": "hand-stop",
+      "choices": [
+        "Slow or stop",
+        "Left turn",
+        "Right turn",
+        "Pass me"
+      ],
+      "answer": 0,
+      "explain": "Left hand and arm pointing downward means slow or stop."
+    },
+    {
+      "id": "q-lane-hand-stop-2",
+      "item": "lane-hand-stop",
+      "part": 2,
+      "prompt": "A driver's left hand and arm pointing downward means the driver plans to:",
+      "choices": [
+        "Turn right",
+        "Slow or stop",
+        "Turn left",
+        "Back up"
+      ],
+      "answer": 1,
+      "explain": "Slow or stop: left hand and arm pointing downward."
+    },
+    {
+      "id": "q-lane-right-turn-1",
+      "item": "lane-right-turn",
+      "part": 2,
+      "prompt": "To make a right turn, you should be in:",
+      "choices": [
+        "The lane furthest to the left",
+        "The center lane",
+        "The lane furthest to the right",
+        "Any lane"
+      ],
+      "answer": 2,
+      "explain": "To make a right turn you should be in the lane furthest to the right."
+    },
+    {
+      "id": "q-lane-right-turn-2",
+      "item": "lane-right-turn",
+      "part": 2,
+      "prompt": "When turning right, unless pavement markings lead you otherwise, turn into:",
+      "choices": [
+        "The lane closest to the curb",
+        "The left lane",
+        "The center lane",
+        "Whichever lane is empty"
+      ],
+      "answer": 0,
+      "explain": "Turn into the lane closest to the curb unless pavement markings show otherwise."
+    },
+    {
+      "id": "q-lane-right-turn-3",
+      "item": "lane-right-turn",
+      "part": 2,
+      "prompt": "Before making a right turn at a red light or stop sign, you must:",
+      "choices": [
+        "Slow down and roll through",
+        "Honk first",
+        "Only signal",
+        "Come to a complete stop"
+      ],
+      "answer": 3,
+      "explain": "If there is a red light or stop sign, come to a complete stop before you turn."
+    },
+    {
+      "id": "q-lane-left-turn-1",
+      "item": "lane-left-turn",
+      "part": 2,
+      "prompt": "To make a left turn, you should turn from:",
+      "choices": [
+        "The furthest left lane possible",
+        "The furthest right lane",
+        "The road shoulder",
+        "Any lane with room"
+      ],
+      "answer": 0,
+      "explain": "To make a left turn, be in the furthest left lane possible."
+    },
+    {
+      "id": "q-lane-left-turn-2",
+      "item": "lane-left-turn",
+      "part": 2,
+      "prompt": "When making a left turn, unless pavement markings direct otherwise, turn into:",
+      "choices": [
+        "The rightmost lane of the new road",
+        "The leftmost lane of the new road",
+        "Any lane",
+        "The lane closest to the curb"
+      ],
+      "answer": 1,
+      "explain": "Turn into the leftmost lane on the intersecting road."
+    },
+    {
+      "id": "q-lane-left-turn-3",
+      "item": "lane-left-turn",
+      "part": 2,
+      "prompt": "If multiple left turn lanes are provided, you should:",
+      "choices": [
+        "Always use the leftmost lane",
+        "Use the right lane",
+        "Straddle both lanes",
+        "Choose the lane that best serves your need on the new road"
+      ],
+      "answer": 3,
+      "explain": "With multiple left turn lanes, choose the lane that will best serve your need on the new road."
+    },
+    {
+      "id": "q-lane-left-turn-wheels-1",
+      "item": "lane-left-turn-wheels",
+      "part": 2,
+      "prompt": "While waiting to make a left turn, you should keep your front wheels:",
+      "choices": [
+        "Turned left",
+        "Turned right",
+        "Pointed straight ahead",
+        "Turned toward the curb"
+      ],
+      "answer": 2,
+      "explain": "Keep your front wheels pointed straight ahead until you actually make the left turn."
+    },
+    {
+      "id": "q-lane-left-turn-wheels-2",
+      "item": "lane-left-turn-wheels",
+      "part": 2,
+      "prompt": "Keeping your wheels straight while waiting to turn left helps prevent:",
+      "choices": [
+        "Tire wear",
+        "Being pushed into oncoming traffic if you are hit from behind",
+        "Your signal from shutting off",
+        "Your engine from stalling"
+      ],
+      "answer": 1,
+      "explain": "Straight wheels keep you from being pushed into oncoming traffic if hit from behind."
+    },
+    {
+      "id": "q-lane-left-turn-wheels-3",
+      "item": "lane-left-turn-wheels",
+      "part": 2,
+      "prompt": "When making a left turn, you must yield to:",
+      "choices": [
+        "Vehicles, bicycles and pedestrians coming from the opposite direction",
+        "Only trucks",
+        "Only vehicles behind you",
+        "No one if you have a green light"
+      ],
+      "answer": 0,
+      "explain": "Yield to any vehicles, including bicycles and pedestrians, approaching from the opposite direction."
+    },
+    {
+      "id": "q-lane-mirror-adjust-1",
+      "item": "lane-mirror-adjust",
+      "part": 2,
+      "prompt": "You should adjust your side mirrors so that:",
+      "choices": [
+        "You can see your whole car",
+        "You can barely see the sides of your vehicle",
+        "You can't see the road at all",
+        "They point at the ground"
+      ],
+      "answer": 1,
+      "explain": "Adjust both side mirrors so you can barely see the sides of your vehicle."
+    },
+    {
+      "id": "q-lane-mirror-adjust-2",
+      "item": "lane-mirror-adjust",
+      "part": 2,
+      "prompt": "The inside rearview mirror should be adjusted to:",
+      "choices": [
+        "Show the driver's face",
+        "Show the back seat only",
+        "Point at the right lane",
+        "Frame the entire back window"
+      ],
+      "answer": 3,
+      "explain": "Make sure the inside rearview mirror frames the entire back window."
+    },
+    {
+      "id": "q-lane-mirror-adjust-3",
+      "item": "lane-mirror-adjust",
+      "part": 2,
+      "prompt": "Blind spots are:",
+      "image": "diagram-blind-spot",
+      "choices": [
+        "Areas your mirrors show clearly",
+        "Spots on the windshield",
+        "Parking spaces",
+        "Danger areas where vehicles around you cannot be easily seen"
+      ],
+      "answer": 3,
+      "explain": "Blind spots are danger areas where vehicles around you cannot be easily seen."
+    },
+    {
+      "id": "q-lane-avoid-blind-spot-1",
+      "item": "lane-avoid-blind-spot",
+      "part": 2,
+      "prompt": "If you find yourself driving in another driver's blind spot, you should:",
+      "choices": [
+        "Speed up or drop back",
+        "Stay there until they move",
+        "Honk your horn",
+        "Flash your lights"
+      ],
+      "answer": 0,
+      "explain": "Speed up or drop back; don't stay in the other driver's blind spot."
+    },
+    {
+      "id": "q-lane-avoid-blind-spot-2",
+      "item": "lane-avoid-blind-spot",
+      "part": 2,
+      "prompt": "Driving in someone else's blind spot is:",
+      "choices": [
+        "Safe on highways",
+        "Required when passing",
+        "Legal only in the left lane",
+        "Just as dangerous as not checking your own blind spot"
+      ],
+      "answer": 3,
+      "explain": "Driving in someone else's blind spot can be just as dangerous as not checking your own."
+    },
+    {
+      "id": "q-lane-backing-1",
+      "item": "lane-backing",
+      "part": 2,
+      "prompt": "To see as much as possible when backing up, you should:",
+      "choices": [
+        "Use only your rearview mirror",
+        "Turn your body and head to the right and look through the rear window",
+        "Use only your side mirrors",
+        "Open the door and lean out"
+      ],
+      "answer": 1,
+      "explain": "Turn your body and head to the right and look out through the rear window."
+    },
+    {
+      "id": "q-lane-backing-2",
+      "item": "lane-backing",
+      "part": 2,
+      "prompt": "The most common mistake drivers make when backing up is:",
+      "choices": [
+        "Backing too slowly",
+        "Looking through the rear window",
+        "Failing to look both ways behind them",
+        "Turning their head to the right"
+      ],
+      "answer": 2,
+      "explain": "The most common backing mistake is failing to look both ways behind."
+    },
+    {
+      "id": "q-lane-backing-3",
+      "item": "lane-backing",
+      "part": 2,
+      "prompt": "Why should you not rely only on mirrors when backing up?",
+      "choices": [
+        "Mirrors do not give you a full view",
+        "Mirrors are illegal to use when backing",
+        "Mirrors only show traffic ahead",
+        "Mirrors always fog up"
+      ],
+      "answer": 0,
+      "explain": "Mirrors do not give you a full view of what is behind you."
+    },
+    {
+      "id": "q-lane-park-curb-1",
+      "item": "lane-park-curb",
+      "part": 2,
+      "prompt": "When parking next to a curb, you may not park more than:",
+      "choices": [
+        "Six inches from the curb",
+        "One foot from the curb",
+        "Two feet from the curb",
+        "Three feet from the curb"
+      ],
+      "answer": 1,
+      "explain": "You may not park more than one foot from the curb."
+    },
+    {
+      "id": "q-lane-park-curb-2",
+      "item": "lane-park-curb",
+      "part": 2,
+      "prompt": "On a two-way street, you must park:",
+      "choices": [
+        "On the left side",
+        "On either side",
+        "On the right side",
+        "In the center"
+      ],
+      "answer": 2,
+      "explain": "On a two-way street, park on the right side of the road."
+    },
+    {
+      "id": "q-lane-park-curb-3",
+      "item": "lane-park-curb",
+      "part": 2,
+      "prompt": "When you must park on a shoulder, you should:",
+      "choices": [
+        "Leave half the car in the lane",
+        "Park facing traffic",
+        "Stay close to the travel lane",
+        "Pull as far onto the shoulder as possible"
+      ],
+      "answer": 3,
+      "explain": "If you park on a shoulder, pull over as far on the shoulder as possible."
+    },
+    {
+      "id": "q-lane-park-uphill-curb-1",
+      "item": "lane-park-uphill-curb",
+      "part": 2,
+      "prompt": "When parking uphill next to a curb, turn your front wheels:",
+      "image": "diagram-uphill-curb",
+      "choices": [
+        "Right, toward the curb",
+        "Left, away from the curb",
+        "Straight ahead",
+        "Either way"
+      ],
+      "answer": 1,
+      "explain": "Uphill with a curb, turn your front wheels left."
+    },
+    {
+      "id": "q-lane-park-uphill-curb-2",
+      "item": "lane-park-uphill-curb",
+      "part": 2,
+      "prompt": "You are parking uphill on a street with a curb. Your front wheels should be turned:",
+      "choices": [
+        "To the right",
+        "Straight ahead",
+        "To the left",
+        "Back and forth"
+      ],
+      "answer": 2,
+      "explain": "Uphill with a curb, turn front wheels left."
+    },
+    {
+      "id": "q-lane-park-downhill-curb-1",
+      "item": "lane-park-downhill-curb",
+      "part": 2,
+      "prompt": "When parking downhill next to a curb, turn your front wheels:",
+      "image": "diagram-downhill-curb",
+      "choices": [
+        "To the left",
+        "Straight ahead",
+        "To the right, toward the curb",
+        "Away from the curb"
+      ],
+      "answer": 2,
+      "explain": "Downhill with a curb, turn your front wheels right."
+    },
+    {
+      "id": "q-lane-park-downhill-curb-2",
+      "item": "lane-park-downhill-curb",
+      "part": 2,
+      "prompt": "When parking on a hill with a curb, you turn your front wheels to keep your vehicle from:",
+      "choices": [
+        "Getting a ticket",
+        "Overheating",
+        "Draining the battery",
+        "Rolling into the street"
+      ],
+      "answer": 3,
+      "explain": "With a curb, turn the front wheels to prevent the vehicle from rolling into the street."
+    },
+    {
+      "id": "q-lane-park-hill-no-curb-1",
+      "item": "lane-park-hill-no-curb",
+      "part": 2,
+      "prompt": "When parking on a hill without a curb, turn your front wheels:",
+      "image": "diagram-hill-no-curb",
+      "choices": [
+        "Left",
+        "Right, so the vehicle would roll away from traffic",
+        "Straight",
+        "Toward the center line"
+      ],
+      "answer": 1,
+      "explain": "Without a curb, turn the front wheels right so the rear would roll away from traffic."
+    },
+    {
+      "id": "q-lane-park-hill-no-curb-2",
+      "item": "lane-park-hill-no-curb",
+      "part": 2,
+      "prompt": "You park uphill on a road with no curb. You should turn your front wheels:",
+      "choices": [
+        "Left",
+        "Straight ahead",
+        "Toward the center line",
+        "Right"
+      ],
+      "answer": 3,
+      "explain": "Uphill with no curb, turn front wheels right."
+    },
+    {
+      "id": "q-lane-park-open-door-1",
+      "item": "lane-park-open-door",
+      "part": 2,
+      "prompt": "Before opening your door after parking on the street, you should:",
+      "choices": [
+        "Look for other cars, bicyclists and pedestrians",
+        "Turn off your headlights",
+        "Signal left",
+        "Honk your horn"
+      ],
+      "answer": 0,
+      "explain": "Look for other cars, bicyclists and pedestrians before opening the door."
+    },
+    {
+      "id": "q-lane-park-open-door-2",
+      "item": "lane-park-open-door",
+      "part": 2,
+      "prompt": "When getting out of your vehicle, you must watch for:",
+      "choices": [
+        "Only cars",
+        "Only pedestrians",
+        "Other cars, bicyclists and pedestrians",
+        "Nothing if you parked legally"
+      ],
+      "answer": 2,
+      "explain": "Be aware of other traffic, including bicyclists and pedestrians, when exiting your vehicle."
+    },
+    {
+      "id": "q-lane-no-park-15-feet-1",
+      "item": "lane-no-park-15-feet",
+      "part": 2,
+      "prompt": "You may not park within ___ of a fire hydrant.",
+      "choices": [
+        "10 feet",
+        "15 feet",
+        "20 feet",
+        "50 feet"
+      ],
+      "answer": 1,
+      "explain": "You may not park within 15 feet of a fire hydrant."
+    },
+    {
+      "id": "q-lane-no-park-15-feet-2",
+      "item": "lane-no-park-15-feet",
+      "part": 2,
+      "prompt": "You may not park within ___ of the entrance to a fire, ambulance or rescue squad station.",
+      "choices": [
+        "15 feet",
+        "20 feet",
+        "50 feet",
+        "500 feet"
+      ],
+      "answer": 0,
+      "explain": "You may not park within 15 feet of a fire, ambulance or rescue squad station entrance."
+    },
+    {
+      "id": "q-lane-no-park-intersection-1",
+      "item": "lane-no-park-intersection",
+      "part": 2,
+      "prompt": "You may not park within ___ of an intersection.",
+      "choices": [
+        "10 feet",
+        "15 feet",
+        "20 feet",
+        "30 feet"
+      ],
+      "answer": 2,
+      "explain": "You may not park within 20 feet of an intersection."
+    },
+    {
+      "id": "q-lane-no-park-intersection-2",
+      "item": "lane-no-park-intersection",
+      "part": 2,
+      "prompt": "Which of these parking spots is illegal?",
+      "choices": [
+        "25 feet from an intersection",
+        "10 feet from an intersection",
+        "30 feet from an intersection",
+        "60 feet from a railroad crossing"
+      ],
+      "answer": 1,
+      "explain": "Parking within 20 feet of an intersection is not allowed."
+    },
+    {
+      "id": "q-lane-no-park-fire-trucks-1",
+      "item": "lane-no-park-fire-trucks",
+      "part": 2,
+      "prompt": "You may not park within ___ of where fire trucks or equipment are stopped answering an alarm.",
+      "choices": [
+        "50 feet",
+        "100 feet",
+        "250 feet",
+        "500 feet"
+      ],
+      "answer": 3,
+      "explain": "You may not park within 500 feet of fire trucks or equipment answering an alarm."
+    },
+    {
+      "id": "q-lane-no-park-fire-trucks-2",
+      "item": "lane-no-park-fire-trucks",
+      "part": 2,
+      "prompt": "Fire trucks are stopped answering an alarm. You may park:",
+      "choices": [
+        "Right behind them",
+        "Within 100 feet of them",
+        "No closer than 500 feet",
+        "Within 15 feet of them"
+      ],
+      "answer": 2,
+      "explain": "Do not park within 500 feet of fire trucks answering an alarm."
+    },
+    {
+      "id": "q-lane-no-park-railroad-1",
+      "item": "lane-no-park-railroad",
+      "part": 2,
+      "prompt": "You may not park within ___ of a railroad crossing.",
+      "choices": [
+        "50 feet",
+        "15 feet",
+        "20 feet",
+        "500 feet"
+      ],
+      "answer": 0,
+      "explain": "You may not park within 50 feet of a railroad crossing."
+    },
+    {
+      "id": "q-lane-no-park-railroad-2",
+      "item": "lane-no-park-railroad",
+      "part": 1,
+      "prompt": "This sign marks a railroad crossing. You may not park within:",
+      "image": "sign-railroad-crossbuck",
+      "choices": [
+        "15 feet of it",
+        "20 feet of it",
+        "50 feet of it",
+        "500 feet of it"
+      ],
+      "answer": 2,
+      "explain": "You may not park within 50 feet of a railroad crossing."
+    },
+    {
+      "id": "q-lane-no-park-places-1",
+      "item": "lane-no-park-places",
+      "part": 2,
+      "prompt": "You may not park:",
+      "choices": [
+        "On a crosswalk or sidewalk",
+        "In front of a driveway",
+        "In a bike lane",
+        "All of these"
+      ],
+      "answer": 3,
+      "explain": "Parking is not allowed on crosswalks, sidewalks, in front of driveways or in bike lanes."
+    },
+    {
+      "id": "q-lane-no-park-places-2",
+      "item": "lane-no-park-places",
+      "part": 2,
+      "prompt": "Where curbs are painted yellow, you:",
+      "image": "curb-yellow",
+      "choices": [
+        "May park at night",
+        "May not park",
+        "May double park",
+        "May park for one hour"
+      ],
+      "answer": 1,
+      "explain": "You may not park where parking is prohibited by curbs painted yellow."
+    },
+    {
+      "id": "q-lane-no-park-places-3",
+      "item": "lane-no-park-places",
+      "part": 2,
+      "prompt": "Which of these is a legal place to park?",
+      "choices": [
+        "In a striped access aisle next to a disabled parking space",
+        "Within 15 feet of a fire hydrant",
+        "On the right side of a two-way street, within 1 foot of the curb",
+        "On the hard surface of a road with no curb"
+      ],
+      "answer": 2,
+      "explain": "Park on the right side of a two-way street, no more than one foot from the curb."
+    },
+    {
+      "id": "q-lane-no-pass-school-bus-3",
+      "item": "lane-no-pass-school-bus",
+      "part": 2,
+      "prompt": "A school bus is stopped on a private road to load or unload passengers. Passing it is:",
+      "choices": [
+        "Allowed if you go slowly",
+        "Allowed because it is not a public road",
+        "Unlawful and unsafe",
+        "Allowed if no children are visible"
+      ],
+      "answer": 2,
+      "explain": "Passing a school bus stopped to load or unload passengers on a private road is unlawful and unsafe."
+    },
+    {
+      "id": "q-lane-overcorrect-4",
+      "item": "lane-overcorrect",
+      "part": 2,
+      "prompt": "Most over-correction crashes are:",
+      "choices": [
+        "Caused by trucks",
+        "Single vehicle crashes that are often preventable",
+        "Caused by bad brakes",
+        "Two-car crashes at intersections"
+      ],
+      "answer": 1,
+      "explain": "Most over-correction crashes are single vehicle crashes and are often preventable."
+    },
+    {
+      "id": "q-lane-signal-100-feet-3",
+      "item": "lane-signal-100-feet",
+      "part": 2,
+      "prompt": "After you signal a turn, you should stay alert because:",
+      "choices": [
+        "Your signal makes other cars stop",
+        "Other drivers must wait for you",
+        "Your signal gives you the right-of-way",
+        "Others may not know exactly where you will turn"
+      ],
+      "answer": 3,
+      "explain": "Other drivers may not know exactly where you will turn and may pull out in front of you."
+    },
+    {
+      "id": "q-lane-no-park-access-aisle-1",
+      "item": "lane-no-park-access-aisle",
+      "part": 2,
+      "prompt": "Where may you NOT park?",
+      "image": "sign-disabled-parking",
+      "choices": [
+        "In a space reserved for disabled persons",
+        "In the striped access aisle next to a disabled space",
+        "Both of these",
+        "Neither of these"
+      ],
+      "answer": 2,
+      "explain": "You may not park in a disabled space or in the striped access aisle next to it."
+    },
+    {
+      "id": "q-lane-no-park-access-aisle-2",
+      "item": "lane-no-park-access-aisle",
+      "part": 2,
+      "prompt": "The striped access aisle next to a disabled parking space is:",
+      "choices": [
+        "Extra parking for small cars",
+        "A place where you may not park",
+        "A loading zone for anyone",
+        "Open parking at night"
+      ],
+      "answer": 1,
+      "explain": "You may not park in striped access aisles next to a parking space reserved for disabled persons."
+    },
+    {
+      "id": "q-lane-no-park-no-curb-1",
+      "item": "lane-no-park-no-curb",
+      "part": 2,
+      "prompt": "When there is no curb, you may not park:",
+      "choices": [
+        "On the hard surface of the road",
+        "Far off the pavement on the shoulder",
+        "In a parking lot",
+        "In a marked parking space"
+      ],
+      "answer": 0,
+      "explain": "You may not park on the hard surface of a road when no curb is present."
+    },
+    {
+      "id": "q-lane-no-park-no-curb-2",
+      "item": "lane-no-park-no-curb",
+      "part": 2,
+      "prompt": "When parking on a public road, you should:",
+      "choices": [
+        "Stay close to the center line",
+        "Leave half your car in the lane",
+        "Move as far from traffic as possible",
+        "Park so you block one lane"
+      ],
+      "answer": 2,
+      "explain": "When parking on a public road, move as far from traffic as possible."
+    }
+  ]
+}
