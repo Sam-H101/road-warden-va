@@ -472,7 +472,7 @@ export const useGame = create<Store>()(
           signCorrect: answers.filter((a) => a.part === 1 && a.correct).length,
           numberCorrect: 0,
           medals: 0,
-          bossCleared: result.passed && paper.kind === 'boss',
+          bossCleared: result.passed && paper.kind === 'boss' && !!paper.district, // the sign test (boss paper with no district) is not a boss
           newPlayDay: !s0.playDays.includes(today),
         }
         contracts.daily = contracts.daily.map((c) => advanceContract(c, facts))

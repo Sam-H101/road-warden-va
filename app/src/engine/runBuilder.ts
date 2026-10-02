@@ -46,8 +46,19 @@ export function spaceOut(events: GameEvent[], gap = 3): GameEvent[] {
   const out: GameEvent[] = []
   const pending = events.slice()
   while (pending.length) {
-    const recent = new Set(out.slice(-gap).map((e) => e.item))
-    const idx = pending.findIndex((e) => !recent.has(e.item))
+    const last = out.length ? out[out.length - 1].item : undefined
+    // If one item fills more than every other remaining slot, it must go now
+    // (when it can) or a back-to-back repeat becomes unavoidable later.
+    const counts = new Map<string, number>()
+    for (const e of pending) counts.set(e.item, (counts.get(e.item) ?? 0) + 1)
+    let forced: string | undefined
+    for (const [item, n] of counts) if (item !== last && n > Math.floor(pending.length / 2)) forced = item
+    let idx = forced !== undefined ? pending.findIndex((e) => e.item === forced) : -1
+    // Otherwise keep the order, preferring the widest gap that is still possible.
+    for (let g = gap; idx === -1 && g >= 1; g--) {
+      const recent = new Set(out.slice(-g).map((e) => e.item))
+      idx = pending.findIndex((e) => !recent.has(e.item))
+    }
     out.push(pending.splice(idx === -1 ? 0 : idx, 1)[0])
   }
   return out

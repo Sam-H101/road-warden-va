@@ -1,62 +1,54 @@
-// STUB — the game-art agent replaces the implementations; keep the exported API.
-import Phaser from 'phaser'
+// Public art API. Procedural textures for the driving scene: player cars,
+// scene props (with cleared + flash frames), roadside scenery and traffic.
+//
+// Conventions for the scene:
+// - Every texture stands on its bottom edge: use setOrigin(0.5, 1).
+// - Prop textures are exactly PROP_INFO[prop].width x height at depth z = 1.
+// - Flashing props have a second frame at PROP_INFO[prop].flashKey; alternate
+//   every ~350 ms unless reduced motion is on.
+// - After a stop hazard clears, swap to PROP_INFO[prop].clearedKey (same size).
+import type Phaser from 'phaser'
 import type { SceneProp } from '../../engine/types'
+import { bake, cssColor, fallbackBox, hexToNum } from './draw'
+import { PROP_INFO } from './propInfo'
+import { propDefs } from './props'
+import type { TexDef } from './props'
+import { BILLBOARD_KEY, SCENERY_KEYS, sceneryDefs } from './scenery'
+import { CAR_H, CAR_W, drawPlayerCar, isCarStyle, playerCarLabels, trafficDefs } from './vehicles'
 
-export const PROP_INFO: Record<SceneProp, { side: 'road' | 'left' | 'right' | 'behind' | 'overhead'; width: number; height: number; clearedKey?: string }> = {
-  'traffic-light-red': { side: 'right', width: 60, height: 160, clearedKey: 'prop-traffic-light-green' },
-  'traffic-light-yellow': { side: 'right', width: 60, height: 160 },
-  'traffic-light-green': { side: 'right', width: 60, height: 160 },
-  'traffic-light-flashing-red': { side: 'right', width: 60, height: 160 },
-  'traffic-light-flashing-yellow': { side: 'right', width: 60, height: 160 },
-  'traffic-light-out': { side: 'right', width: 60, height: 160 },
-  'school-bus-stopped': { side: 'road', width: 220, height: 200, clearedKey: 'prop-school-bus-cleared' },
-  'pedestrian-crosswalk': { side: 'road', width: 260, height: 120, clearedKey: 'prop-crosswalk-empty' },
-  'blind-pedestrian': { side: 'road', width: 260, height: 120, clearedKey: 'prop-crosswalk-empty' },
-  'cyclist-ahead': { side: 'road', width: 80, height: 120 },
-  'motorcycle-ahead': { side: 'road', width: 80, height: 120 },
-  'deer-on-road': { side: 'road', width: 140, height: 140 },
-  'emergency-behind': { side: 'behind', width: 180, height: 140 },
-  'emergency-stopped': { side: 'right', width: 200, height: 140 },
-  'tow-truck-stopped': { side: 'right', width: 220, height: 160 },
-  'trash-truck-stopped': { side: 'right', width: 220, height: 180 },
-  'railroad-gate-down': { side: 'road', width: 300, height: 180, clearedKey: 'prop-railroad-gate-up' },
-  'railroad-lights-flashing': { side: 'right', width: 120, height: 180, clearedKey: 'prop-railroad-lights-off' },
-  'flagger-stop': { side: 'right', width: 90, height: 160, clearedKey: 'prop-flagger-slow' },
-  'flagger-slow': { side: 'right', width: 90, height: 160 },
-  'funeral-procession': { side: 'road', width: 300, height: 120, clearedKey: 'prop-crosswalk-empty' },
-  'work-zone-cones': { side: 'right', width: 220, height: 80 },
-  'truck-ahead': { side: 'road', width: 200, height: 220 },
-  'tailgater-behind': { side: 'behind', width: 180, height: 140 },
-  'ponded-water': { side: 'road', width: 240, height: 60 },
-  'icy-bridge': { side: 'road', width: 300, height: 80 },
-  'stop-line': { side: 'road', width: 300, height: 30 },
-  'driveway-exit': { side: 'road', width: 300, height: 60 },
+export { PROP_INFO } from './propInfo'
+export type { PropInfo } from './propInfo'
+export { BILLBOARD_KEY, BILLBOARD_PANEL, BILLBOARD_W, BILLBOARD_H } from './scenery'
+export { CAR_W, CAR_H, CAR_STYLES } from './vehicles'
+
+const DEFAULT_PAINT = 0x38bdf8
+
+function allDefs(): TexDef[] {
+  return [...propDefs(), ...sceneryDefs(), ...trafficDefs()]
 }
 
-function boxTexture(scene: Phaser.Scene, key: string, w: number, h: number, color: number) {
-  if (scene.textures.exists(key)) return
-  const g = scene.make.graphics({ x: 0, y: 0 }, false)
-  g.fillStyle(color, 1)
-  g.fillRoundedRect(0, 0, w, h, 8)
-  g.lineStyle(4, 0x000000, 1)
-  g.strokeRoundedRect(2, 2, w - 4, h - 4, 8)
-  g.generateTexture(key, w, h)
-  g.destroy()
-}
-
+/** Generate every static texture once (safe to call on every scene create). */
 export function ensureTextures(scene: Phaser.Scene): void {
+  for (const def of allDefs()) bake(scene, def.key, def.w, def.h, def.draw, def.labels)
+  // Belt and braces: anything PROP_INFO promises must exist.
   for (const [prop, info] of Object.entries(PROP_INFO)) {
-    boxTexture(scene, `prop-${prop}`, info.width, info.height, 0xff9900)
-    if (info.clearedKey) boxTexture(scene, info.clearedKey, info.width, info.height, 0x22cc55)
+    fallbackBox(scene, `prop-${prop}`, info.width, info.height)
+    if (info.clearedKey) fallbackBox(scene, info.clearedKey, info.width, info.height)
+    if (info.flashKey) fallbackBox(scene, info.flashKey, info.width, info.height)
   }
-  for (const k of sceneryKeys()) boxTexture(scene, k, 60, 120, 0x2f855a)
-  for (const k of vehicleKeys()) boxTexture(scene, k, 120, 90, 0x94a3b8)
 }
 
+/**
+ * Rear-view player car, CAR_W x CAR_H. Cached per (style, paint, decal).
+ * Unknown style falls back to compact; bad paint falls back to sky blue; an
+ * empty decal draws no sticker.
+ */
 export function carTextureKey(scene: Phaser.Scene, style: string, paint: string, decal: string): string {
-  const key = `car-${style}-${paint}-${decal}`
-  const color = Phaser.Display.Color.HexStringToColor(paint || '#38bdf8').color
-  boxTexture(scene, key, 140, 100, color)
+  const s = isCarStyle(style) ? style : 'compact'
+  const color = hexToNum(paint, DEFAULT_PAINT)
+  const d = (decal || '').trim()
+  const key = `car-${s}-${cssColor(color)}${d ? `-${d}` : ''}`
+  bake(scene, key, CAR_W, CAR_H, (g) => drawPlayerCar(g, s, color, d.length > 0), () => playerCarLabels(s, d))
   return key
 }
 
@@ -64,10 +56,22 @@ export function propTextureKey(prop: SceneProp): string {
   return `prop-${prop}`
 }
 
+/** Roadside scenery for random placement (does not include the blank billboard). */
 export function sceneryKeys(): string[] {
-  return ['scenery-tree', 'scenery-pine', 'scenery-pole', 'scenery-bush', 'scenery-house']
+  return [...SCENERY_KEYS]
 }
 
+/** Ambient traffic, rear view. */
 export function vehicleKeys(): string[] {
-  return ['traffic-car-a', 'traffic-car-b', 'traffic-van']
+  return trafficDefs().map((d) => d.key)
+}
+
+/** Every static texture key ensureTextures creates (for previews / debugging). */
+export function allTextureKeys(): string[] {
+  return allDefs().map((d) => d.key)
+}
+
+/** The blank billboard frame; overlay the event sign inside BILLBOARD_PANEL. */
+export function billboardKey(): string {
+  return BILLBOARD_KEY
 }
