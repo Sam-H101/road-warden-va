@@ -1,0 +1,8 @@
+node_modules/
+dist/
+app/dist/
+*.log
+__pycache__/
+.claude/settings.local.json
+test-results/
+playwright-report/
