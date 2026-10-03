@@ -25,7 +25,7 @@
       "district": "d12-impaired",
       "kind": "number",
       "title": "Aggressive driving: 10 days-6 months",
-      "simple": "Convicted (found guilty) of aggressive driving? You can lose your license. It can be for 10 days, or as long as 6 months.",
+      "simple": "If you are convicted (found guilty) of aggressive driving, you can lose your license. The suspension can last 10 days or as long as 6 months.",
       "official": "If you are convicted of aggressive driving, your license could be suspended for ten days or for as long as six months.",
       "mnemonic": "Road rage costs 10 days up to half a year (6 months).",
       "manualRef": "Section 3, p. 23"
@@ -35,7 +35,7 @@
       "district": "d12-impaired",
       "kind": "rule",
       "title": "Many things can distract you",
-      "simple": "Driving needs all of your attention. These can distract you: music, GPS, passengers, eating, phones and sights outside.",
+      "simple": "Driving needs all of your attention. Many things can distract you, such as changing the music or GPS, talking to passengers, eating, using a phone and looking at sights outside.",
       "official": "Driving requires your full attention. There are many distractions that may prevent drivers from focusing on driving: changing the music selection/podcast/GPS, talking to passengers, observing outside surroundings, eating, using a cell phone and more.",
       "manualRef": "Section 3, p. 24"
     },
@@ -44,7 +44,7 @@
       "district": "d12-impaired",
       "kind": "rule",
       "title": "No holding a phone",
-      "simple": "In Virginia, you may not hold a phone while you drive. There are two exceptions: a driver emergency, or your car is legally parked or stopped.",
+      "simple": "In Virginia, you may not hold a phone while you drive. There are two exceptions. One is a driver emergency. The other is when your car is legally parked or stopped.",
       "official": "Virginia law prohibits drivers from holding cell phones or any other wireless communication devices while driving except in a driver emergency or the vehicle is lawfully parked or stopped.",
       "mnemonic": "Hands on the wheel, phone out of hand.",
       "manualRef": "Section 3, p. 24"
@@ -54,7 +54,7 @@
       "district": "d12-impaired",
       "kind": "rule",
       "title": "Phone GPS: no holding or typing",
-      "simple": "You may use a phone for directions (GPS) while you drive. But you may not hold it. You may not type into it. Set it up before you go.",
+      "simple": "You may use a phone for directions (GPS) while you drive. But you may not hold it or type into it. Set it up before you go.",
       "official": "A mobile phone or other telecommunications device may be used for navigation, as long as the driver is not entering information or holding it while driving.",
       "manualRef": "Section 3, p. 24",
       "mnemonic": "GPS: set it, then forget it."
@@ -64,7 +64,7 @@
       "district": "d12-impaired",
       "kind": "number",
       "title": "Distraction: 17% of crashes",
-      "simple": "Distraction causes about 17 percent of all crashes in Virginia each year. While you look away, your car can drift into danger. You lose seconds you need to react.",
+      "simple": "Distraction causes about 17 percent of all crashes in Virginia each year. While you look away, your car can drift into danger. You lose seconds that you need in order to react.",
       "official": "Annually, driver distraction accounts for roughly 17 percent of all traffic crashes in Virginia. While the driver is distracted, the vehicle may move into a high risk situation. The driver then loses precious seconds before recognizing the situation and must make an emergency maneuver. Young distracted drivers are even more susceptible. Failure to maintain proper control, following too closely, and not yielding the right-of-way are common actions of young distracted drivers.",
       "manualRef": "Section 3, p. 24"
     },
@@ -82,7 +82,7 @@
       "district": "d12-impaired",
       "kind": "rule",
       "title": "Signs you are too sleepy",
-      "simple": "Watch for sleepy signs. You yawn a lot, nod your head, or have heavy eyelids. You forget the last few miles. You miss exits, drift lanes or hit rumble strips.",
+      "simple": "Watch for signs that you are too sleepy. You yawn a lot, nod your head or have heavy eyelids. You cannot remember the last few miles. You miss exits, drift into other lanes or hit rumble strips.",
       "official": "Constant yawning, head nodding, heavy eyelids, difficulty remembering the last few miles driven, missing road signs or exits, unplanned lane changes, driving off the road or hitting rumble strips are all signs of drowsy driving. Driving while you are sleepy increases your crash risk as you struggle to process complex information coming from different places at once. You may make careless driving decisions, have trouble paying attention or actually fall asleep while driving. Drowsy driving is a type of impaired driving.",
       "manualRef": "Section 3, p. 24",
       "mnemonic": "Yawn, nod, drift? Time to stop."
@@ -131,7 +131,7 @@
       "district": "d12-impaired",
       "kind": "rule",
       "title": "Coffee and radio don't fix sleepy",
-      "simple": "Open windows, gum, a loud radio, coffee and energy drinks do NOT stop drowsy driving. You cannot count on them to keep you awake. Stop and rest instead.",
+      "simple": "Rolling down a window, chewing gum, turning up the radio, and drinking coffee or energy drinks do NOT stop drowsy driving. You cannot count on them to keep you awake. Stop and rest instead.",
       "official": "Rolling down a window, chewing gum, turning up the radio, or consuming caffeine, energy drinks or other stimulants do not prevent drowsy driving and are not reliable methods for staying awake.",
       "mnemonic": "Gum, radio, window, coffee: no. Rest: yes.",
       "manualRef": "Section 3, p. 24"
@@ -141,7 +141,7 @@
       "district": "d12-impaired",
       "kind": "rule",
       "title": "See a drowsy driver? Report it",
-      "simple": "See a drowsy driver? Find a safe place to stop, or ask a passenger to call police. Be ready to tell them where, what car, and what it did.",
+      "simple": "If you see a drowsy driver, find a safe place to stop or ask a passenger to call the police. Be ready to describe the location, the car and what the driver did.",
       "official": "If you observe a drowsy driver, find a safe place to stop or ask a passenger to call law enforcement. Be able to describe the location, vehicle and actions you observed.",
       "manualRef": "Section 3, p. 24",
       "mnemonic": "Tell police 3 things: where, what car, what it did."
@@ -151,7 +151,7 @@
       "district": "d12-impaired",
       "kind": "number",
       "title": "Age 21+: DUI at .08 BAC",
-      "simple": "BAC means blood alcohol content. Are you 21 or older? Then a BAC of .08 or higher is DUI. DUI means driving under the influence.",
+      "simple": "BAC means blood alcohol content. If you are 21 or older, a BAC of .08 or higher is DUI. DUI means driving under the influence.",
       "official": "Legally, drivers age 21 or older are considered to be driving under the influence (DUI) if your blood alcohol content (BAC) is .08 percent or higher.",
       "mnemonic": "21 and over: .08 is a DUI.",
       "manualRef": "Section 3, p. 24"
@@ -161,7 +161,7 @@
       "district": "d12-impaired",
       "kind": "rule",
       "title": "Under .08 can still be DUI",
-      "simple": "Is your BAC under .08? You can still get a DUI. If alcohol makes your driving impaired, that is enough.",
+      "simple": "Even if your BAC is under .08, you can still get a DUI. If alcohol impairs your driving, that is enough.",
       "official": "If your driving is impaired, you can be convicted of driving under the influence with a BAC lower than .08 percent.",
       "manualRef": "Section 3, p. 24",
       "mnemonic": "Under .08 is not a free pass."
@@ -171,7 +171,7 @@
       "district": "d12-impaired",
       "kind": "number",
       "title": "Under 21: .02 BAC is illegal",
-      "simple": "Under 21? A BAC of .02 to just under .08 counts as illegal drinking. At .08 or higher, you could get a DUI.",
+      "simple": "If you are under 21, a BAC from .02 to just under .08 counts as illegal drinking. With a BAC of .08 or higher, you could get a DUI.",
       "official": "If under age 21, you can be convicted of illegal consumption of alcohol if your BAC is at least .02 but less than .08. If your BAC is .08 or higher you could be convicted of a DUI.",
       "mnemonic": "Under 21: .02 and you're through.",
       "manualRef": "Section 3, p. 24"
@@ -181,7 +181,7 @@
       "district": "d12-impaired",
       "kind": "number",
       "title": "Late night: 3 in 10 drunk",
-      "simple": "Between 10 p.m. and 2 a.m., about 3 out of every 10 drivers are drunk. More than 1 in 3 of them drank at someone else's home. In your life, you have a 50-50 chance of an alcohol-related crash.",
+      "simple": "Between 10 p.m. and 2 a.m., about 3 out of every 10 drivers are drunk. More than 1 in 3 of them drank at someone else's home. In your lifetime, you have a 50-50 chance of an alcohol-related crash.",
       "official": "Researchers estimate that between the hours of 10 PM and 2 AM three out of every ten drivers are drunk. More than one-third of these drivers have been drinking at someone else's home. Nearly 50 percent of the drivers arrested for DUI are social to moderate drinkers. In your lifetime, there's a 50-50 chance that you'll be involved in an alcohol-related crash.",
       "mnemonic": "10 to 2: 3 in 10 are drunk.",
       "manualRef": "Section 3, p. 24"
@@ -221,7 +221,7 @@
       "district": "d12-impaired",
       "kind": "rule",
       "title": "Only time sobers you up",
-      "simple": "Only time can sober you up. Coffee will not. A cold shower will not. Exercise will not.",
+      "simple": "Only time can sober you up. Coffee, cold showers and exercise will not sober you up.",
       "official": "Only time can decrease intoxication. Coffee, cold showers or exercise will not sober you up.",
       "mnemonic": "No shortcut: only time.",
       "manualRef": "Section 3, p. 24"
@@ -231,7 +231,7 @@
       "district": "d12-impaired",
       "kind": "rule",
       "title": "Decide before you drink",
-      "simple": "Alcohol crashes are not accidents. They can be prevented. Decide before you drink that you will not drive. Plan a sober ride home. Deciding gets harder after one or two drinks.",
+      "simple": "Alcohol-related crashes are not accidents. They can be prevented. Decide before you drink that you will not drive. Plan a sober ride home. Deciding not to drive gets harder after one or two drinks.",
       "official": "Alcohol-related crashes are not accidents. They can be prevented! The only way to avoid the risks of drinking and driving is to decide before you start drinking that you are not going to drive. Making the decision not to drive is a lot more difficult after one or two drinks. When attending a social event where alcohol will be consumed, plan ahead for a sober ride home by using alternative transportation or having a sober driver.",
       "mnemonic": "Plan the ride before the drink.",
       "manualRef": "Section 3, p. 24-25"
@@ -241,7 +241,7 @@
       "district": "d12-impaired",
       "kind": "rule",
       "title": "Alcohol plus drugs multiplies",
-      "simple": "Mixing alcohol with other drugs usually multiplies the effects of both. One drink plus another drug can affect you like several drinks. Even aspirin or cold medicine counts.",
+      "simple": "Mixing alcohol with other drugs usually multiplies the effects of both. One drink taken with another drug can affect you as much as several drinks. Even aspirin or cold medicine counts as a drug.",
       "official": "Combining alcohol with other drugs usually multiplies the effects of both and can have a disastrous effect on your ability to drive. One drink taken when you are on another drug - even an aspirin, or allergy or cold medicine - could have the same effect on your driving ability as drinking several alcoholic beverages.",
       "mnemonic": "Mix means multiply.",
       "manualRef": "Section 3, p. 25"
@@ -271,7 +271,7 @@
       "district": "d12-impaired",
       "kind": "rule",
       "title": "Implied consent: breath test",
-      "simple": "Drive on Virginia's public roads, and you agree to a breath test if police ask. This is implied consent. After a crash, police with probable cause can arrest you for DUI within 3 hours. No warrant needed.",
+      "simple": "If you drive on Virginia's public roads, you agree to take a breath test if police ask. This is implied consent. Police with probable cause can arrest you for DUI within 3 hours after a crash, without a warrant.",
       "official": "If the police have probable cause to stop you and suspect that you have been drinking or using drugs, they will ask you to take a breath or blood test. Under implied consent laws, if you operate a motor vehicle on Virginia's public roads, you agree to take a breath test upon request. If you are involved in a motor vehicle crash and a law enforcement officer has probable cause, you can be arrested for DUI within three hours of the crash without a warrant and at any location.",
       "mnemonic": "Drive here, agree to blow. After a crash: 3 hours, no warrant.",
       "manualRef": "Section 5, p. 30"
@@ -281,7 +281,7 @@
       "district": "d12-impaired",
       "kind": "number",
       "title": "Automatic suspension: 7 days first",
-      "simple": "Refuse a breath test, or get charged with DUI at .08 or more? You lose your license automatically. First offense: 7 days. Second: 60 days or until trial. Third: until trial.",
+      "simple": "Refusing a breath test or being charged with DUI at .08 or more suspends your license automatically. It lasts 7 days for a first offense, 60 days or until trial for a second, and until trial for a third.",
       "official": "If you refuse a breath test or your BAC is .08 percent or higher while you are driving and law enforcement charges you with DUI, your driving privilege will be automatically suspended: for seven days, for a first offense; for 60 days or until you go to trial, whichever comes first, for a second offense; until the trial, for a third DUI offense. If you are convicted of DUI, the court and DMV will impose a suspension/revocation and other penalties in addition to the administrative license suspension. If you receive multiple DUI convictions, the suspension/revocation periods will run consecutively.",
       "mnemonic": "7 days, then 60, then trial.",
       "manualRef": "Section 5, p. 30"
@@ -291,7 +291,7 @@
       "district": "d12-impaired",
       "kind": "rule",
       "title": "Open container: passenger area",
-      "simple": "Police stop you. An open, partly empty alcohol container is in the passenger area. You show signs of drinking. Then police can charge you with drinking while driving. An unlocked glove box counts as the passenger area.",
+      "simple": "Police can charge you with drinking while driving if they stop you, find an open, partly empty alcohol container in the passenger area, and see signs of drinking. An unlocked glove box is part of the passenger area.",
       "official": "You may be charged with drinking while operating a motor vehicle if you are stopped by law enforcement and you have an open container of alcohol in the passenger area and the contents have been partially removed, and show signs that you have been drinking. The passenger area means the area that seats the driver and passengers and any area within the driver's reach, including an unlocked glove compartment.",
       "manualRef": "Section 5, p. 30",
       "mnemonic": "If the driver can reach it, it counts. Even an unlocked glove box."
@@ -301,7 +301,7 @@
       "district": "d12-impaired",
       "kind": "number",
       "title": "DUI with a child: extra penalty",
-      "simple": "DUI with a child (age 17 or younger) in the car? You must spend 5 extra days in jail. You may also pay an extra $500 to $1,000. A second offense adds 80 hours of community service.",
+      "simple": "You must spend 5 extra days in jail for a DUI with a child (age 17 or younger) in the car. You may also pay an extra $500 to $1,000. A second offense adds 80 hours of community service.",
       "official": "Conviction of any DUI offense involving a juvenile passenger (age 17 or younger) in the vehicle at the time of the offense carries an additional mandatory five-day jail term plus all other fines and jail sentences. You may also be charged an additional fine of at least $500 and up to $1,000. A second DUI offense with a juvenile in the vehicle carries an additional 80-hour community service requirement.",
       "manualRef": "Section 5, p. 30",
       "mnemonic": "Kid in the car: plus 5 days jail, plus $500 to $1,000."
@@ -311,7 +311,7 @@
       "district": "d12-impaired",
       "kind": "number",
       "title": "Car impounded 30 days",
-      "simple": "Is your license suspended for an alcohol offense, and you drive anyway? Your car is taken away (impounded) for 30 days, right away. If you are convicted, the court can keep it 90 more days.",
+      "simple": "If you drive after your license is suspended for an alcohol offense, your car is taken away (impounded) right away for 30 days. If you are convicted, the court can keep it for 90 more days.",
       "official": "Your vehicle will be impounded immediately for 30 days if you are caught driving after your license has been suspended for an alcohol-related offense. The court can impound the vehicle for an additional 90 days if you are convicted. If you drive without a license after a previous conviction for driving without a license, the vehicle is impounded until you obtain a license or for three days, whichever is less.",
       "mnemonic": "30 now, 90 more if convicted.",
       "manualRef": "Section 5, p. 30"
@@ -321,7 +321,7 @@
       "district": "d12-impaired",
       "kind": "number",
       "title": "DUI crash: pay up to $1,000",
-      "simple": "Did your DUI cause a crash? You may have to pay for the police, EMS, firefighters and rescue workers who came. It can cost up to $1,000. It depends on the city or county.",
+      "simple": "If your DUI causes a crash, you may have to pay for the police, EMS, firefighters and rescue workers who respond. It can cost up to $1,000. This depends on the laws of the city or county.",
       "official": "Depending on the laws of the city or county in which you are driving, you may be responsible for paying the cost (up to $1,000) for law enforcement, emergency medical services, fire fighters and rescue personnel who respond to a crash or incident resulting from your DUI violation.",
       "manualRef": "Section 5, p. 30"
     },
@@ -330,7 +330,7 @@
       "district": "d12-impaired",
       "kind": "number",
       "title": "Under 21: lose license 1 year",
-      "simple": "Under 21, you cannot buy, have or drink alcohol. Convicted of driving with a BAC of .02 to under .08? You lose your license for 1 year. You also pay at least $500 or do 50 hours of community service.",
+      "simple": "Under 21, you cannot buy, have or drink alcohol. A conviction for driving with a BAC of .02 to under .08 suspends your license for 1 year. You also pay at least $500 or do 50 hours of community service.",
       "official": "If you are under age 21, you cannot purchase, possess or consume alcohol. If you are convicted of driving after illegally consuming alcohol, and your BAC was at least .02 percent and less than .08 percent, the court penalty will include a suspension of your driving privilege for one year from the date of conviction, and a minimum mandatory fine of $500, or the requirement that you complete at least 50 hours of community service. Virginia has a zero tolerance law against underage drinking. If you are convicted of driving after illegally consuming alcohol and your BAC was .08 percent or higher, you may face the same penalties as an adult.",
       "mnemonic": "Zero tolerance: 1 year off the road, plus $500 OR 50 hours.",
       "manualRef": "Section 5, p. 30-31"
@@ -340,7 +340,7 @@
       "district": "d12-impaired",
       "kind": "number",
       "title": "Giving alcohol to under 21",
-      "simple": "Never give or sell alcohol to anyone under 21 or anyone drunk. Or to anyone a court told not to drink. Fine: up to $2,500. Jail: 12 months. License: lost up to 1 year.",
+      "simple": "Never give or sell alcohol to anyone under 21, anyone drunk or anyone a court told not to drink. You can be fined up to $2,500, jailed for 12 months and lose your license for up to 1 year.",
       "official": "If you provide or sell alcoholic beverages to a person under age 21 or someone who is intoxicated or ordered by a court to refrain from drinking alcohol, you are subject to a fine up to $2,500, mandatory suspension of your driver's license for up to one year, and 12 months in jail.",
       "manualRef": "Section 5, p. 31"
     },
@@ -349,7 +349,7 @@
       "district": "d12-impaired",
       "kind": "number",
       "title": "Fake ID: big penalties",
-      "simple": "Use a fake ID to get alcohol when under 21? Fine: at least $500. Service: at least 50 hours. Jail: up to 12 months. License: lost for 6 months to 1 year.",
+      "simple": "Under 21, using a fake ID to get alcohol means a fine of at least $500, at least 50 hours of community service and up to 12 months in jail. Your license is suspended for 6 months to 1 year.",
       "official": "If you are under age 21 and you use or attempt to use a fake ID to establish a false age in an attempt to drink or purchase alcohol, you will: be fined at least $500; be required to perform at least 50 hours of community service; face up to 12 months in jail; and face mandatory suspension of your driver's license for at least six months but not more than one year.",
       "manualRef": "Section 5, p. 31",
       "mnemonic": "Fake ID: $500 AND 50 hours. (Under-21 drinking is $500 OR 50 hours.)"
@@ -360,42 +360,42 @@
       "id": "ev-imp-aggr-what-1",
       "item": "imp-aggr-what",
       "kind": "gates",
-      "prompt": "Aggressive drivers break traffic laws on purpose to:",
+      "prompt": "Why do aggressive drivers break traffic laws on purpose?",
       "choices": [
-        "Save gas",
-        "Harass or block others",
-        "Get home safely"
+        "To save gas",
+        "To harass or block others",
+        "To get home safely"
       ],
       "answer": 1,
-      "missLine": "Aggressive drivers break laws on purpose to harass, scare, hurt or block someone."
+      "missLine": "Aggressive drivers break traffic laws on purpose to harass, scare, hurt or block others."
     },
     {
       "id": "ev-imp-aggr-what-2",
       "item": "imp-aggr-what",
       "kind": "gates",
-      "prompt": "Which one is aggressive driving?",
+      "prompt": "Which one is an example of aggressive driving?",
       "choices": [
         "Weaving through traffic",
         "Using turn signals",
-        "Yielding to walkers"
+        "Yielding to pedestrians"
       ],
       "answer": 0,
-      "missLine": "Weaving, tailgating, speeding and running red lights are aggressive driving."
+      "missLine": "Weaving, tailgating, speeding and running red lights are all aggressive driving."
     },
     {
       "id": "ev-imp-aggr-what-3",
       "item": "imp-aggr-what",
       "kind": "action",
-      "prompt": "Light turns red. You're late for work.",
+      "prompt": "The light turns red, and you are late for work.",
       "prop": "traffic-light-red",
       "action": "stop",
-      "missLine": "Running red lights is aggressive driving. Stop at the red light."
+      "missLine": "Running a red light is aggressive driving. Stop at the red light."
     },
     {
       "id": "ev-imp-aggr-protect-1",
       "item": "imp-aggr-protect",
       "kind": "action",
-      "prompt": "Angry driver tailgating and flashing lights!",
+      "prompt": "An angry driver is tailgating you and flashing their lights!",
       "prop": "tailgater-behind",
       "action": "move-right",
       "missLine": "Stay out of an aggressive driver's way. Let them go by."
@@ -404,66 +404,66 @@
       "id": "ev-imp-aggr-protect-2",
       "item": "imp-aggr-protect",
       "kind": "gates",
-      "prompt": "An aggressive driver yells at you. You:",
+      "prompt": "If an aggressive driver yells at you, what should you do?",
       "choices": [
         "Yell back",
         "Speed up to escape",
         "Look away and ignore it"
       ],
       "answer": 2,
-      "missLine": "Good drivers stay calm. Avoid eye contact and ignore the yelling."
+      "missLine": "Stay calm, avoid eye contact, and ignore the yelling."
     },
     {
       "id": "ev-imp-aggr-protect-3",
       "item": "imp-aggr-protect",
       "kind": "gates",
-      "prompt": "An aggressive driver tries to race you. You:",
+      "prompt": "If an aggressive driver tries to race you, what should you do?",
       "choices": [
         "Stay out of the way",
-        "Speed up",
+        "Speed up to race them",
         "Block their lane"
       ],
       "answer": 0,
-      "missLine": "Never race an aggressive driver. Stay out of their way."
+      "missLine": "Stay out of an aggressive driver's way, and do not race them."
     },
     {
       "id": "ev-imp-aggr-suspension-1",
       "item": "imp-aggr-suspension",
       "kind": "gates",
-      "prompt": "Aggressive driving: license suspended for up to:",
+      "prompt": "What is the longest possible suspension for aggressive driving?",
       "choices": [
         "6 months",
         "30 days",
         "5 years"
       ],
       "answer": 0,
-      "missLine": "Aggressive driving can cost your license for 10 days up to 6 months."
+      "missLine": "For aggressive driving, your license can be suspended from 10 days up to 6 months."
     },
     {
       "id": "ev-imp-aggr-suspension-2",
       "item": "imp-aggr-suspension",
       "kind": "gates",
-      "prompt": "Aggressive driving: shortest suspension is:",
+      "prompt": "What is the shortest suspension for aggressive driving?",
       "choices": [
         "1 day",
         "10 days",
         "90 days"
       ],
       "answer": 1,
-      "missLine": "An aggressive driving suspension runs from 10 days up to 6 months."
+      "missLine": "A suspension for aggressive driving lasts from 10 days up to 6 months."
     },
     {
       "id": "ev-imp-dist-sources-1",
       "item": "imp-dist-sources",
       "kind": "gates",
-      "prompt": "Which can distract you while driving?",
+      "prompt": "Which of these can distract you while you drive?",
       "choices": [
         "Eating a snack",
         "Talking to passengers",
         "All of these"
       ],
       "answer": 2,
-      "missLine": "Eating, talking, music, GPS and phones can all pull your eyes and mind away."
+      "missLine": "Eating, talking, music, GPS and phones can all distract you from driving."
     },
     {
       "id": "ev-imp-dist-sources-2",
@@ -471,12 +471,12 @@
       "kind": "gates",
       "prompt": "How much attention does driving need?",
       "choices": [
-        "About half",
-        "Only at intersections",
-        "Your full attention"
+        "Half of your attention",
+        "Attention only at intersections",
+        "All of your attention"
       ],
       "answer": 2,
-      "missLine": "Driving needs your full attention, every second."
+      "missLine": "Driving needs your full attention every second."
     },
     {
       "id": "ev-imp-dist-hold-law-1",
@@ -495,46 +495,46 @@
       "id": "ev-imp-dist-hold-law-2",
       "item": "imp-dist-hold-law",
       "kind": "gates",
-      "prompt": "A Virginia driver may hold a phone only when:",
+      "prompt": "When may a Virginia driver hold a phone?",
       "choices": [
-        "Driving slowly",
-        "Merging onto a highway",
-        "Lawfully parked"
+        "When driving slowly",
+        "When merging onto a highway",
+        "When lawfully parked"
       ],
       "answer": 2,
-      "missLine": "Hold a phone only in a driver emergency, or when lawfully parked or stopped."
+      "missLine": "You may hold a phone only in a driver emergency, or when lawfully parked or stopped."
     },
     {
       "id": "ev-imp-dist-hold-law-3",
       "item": "imp-dist-hold-law",
       "kind": "action",
-      "prompt": "Need to send a text? Find a safe stop.",
+      "prompt": "You need to send a text. A safe place to stop is ahead.",
       "sign": "sign-services",
       "action": "pull-over",
-      "missLine": "Pull over and stop in a safe place before using your phone."
+      "missLine": "Pull over and stop in a safe place before you use your phone."
     },
     {
       "id": "ev-imp-dist-navigation-1",
       "item": "imp-dist-navigation",
       "kind": "gates",
-      "prompt": "In Virginia, phone GPS while driving is OK if it is:",
+      "prompt": "In Virginia, how may you use phone GPS while you drive?",
       "choices": [
-        "Held in the driver's hand",
-        "Hands-free, no typing",
-        "Used at low speed"
+        "By holding it in your hand",
+        "By not holding it or typing",
+        "By using it at low speed"
       ],
       "answer": 1,
-      "missLine": "GPS is OK if you do not hold the phone or type into it."
+      "missLine": "Phone GPS is OK if you do not hold the phone or type into it."
     },
     {
       "id": "ev-imp-dist-navigation-2",
       "item": "imp-dist-navigation",
       "kind": "gates",
-      "prompt": "A driver wants a new GPS address. They should:",
+      "prompt": "What should a driver do to enter a new address in the GPS?",
       "choices": [
         "Pull over and stop first",
         "Type it while driving",
-        "Hold phone to type it"
+        "Hold the phone to type it"
       ],
       "answer": 0,
       "missLine": "Do not enter information while driving. Pull over and stop first."
@@ -543,16 +543,16 @@
       "id": "ev-imp-dist-navigation-3",
       "item": "imp-dist-navigation",
       "kind": "action",
-      "prompt": "Need a new GPS address? Safe spot ahead.",
+      "prompt": "You need to enter a new GPS address. A safe spot is ahead.",
       "sign": "sign-services",
       "action": "pull-over",
-      "missLine": "Do not type into GPS while driving. Pull over and stop first."
+      "missLine": "Do not type into your GPS while you drive. Pull over and stop first."
     },
     {
       "id": "ev-imp-dist-17-percent-1",
       "item": "imp-dist-17-percent",
       "kind": "gates",
-      "prompt": "Distraction causes about what share of Virginia crashes?",
+      "prompt": "About what percent of Virginia crashes does distraction cause?",
       "choices": [
         "2 percent",
         "50 percent",
@@ -572,38 +572,38 @@
         "Radios are too loud"
       ],
       "answer": 1,
-      "missLine": "While you look away, your car drifts into danger and you lose seconds."
+      "missLine": "While you look away, your car can drift into danger, and you lose seconds to react."
     },
     {
       "id": "ev-imp-dist-17-percent-3",
       "item": "imp-dist-17-percent",
       "kind": "gates",
-      "prompt": "Who is even more at risk when distracted?",
+      "prompt": "Which group of drivers is even more at risk when distracted?",
       "choices": [
         "Bus drivers",
         "Truck drivers",
         "Young drivers"
       ],
       "answer": 2,
-      "missLine": "Young distracted drivers are even more likely to crash."
+      "missLine": "Young drivers who are distracted are even more at risk."
     },
     {
       "id": "ev-imp-dist-precautions-1",
       "item": "imp-dist-precautions",
       "kind": "action",
-      "prompt": "Phone rings in your car. Light is green.",
+      "prompt": "Your phone rings in the car. The light is green.",
       "prop": "traffic-light-green",
       "action": "go",
-      "missLine": "Let the phone ring. Keep your eyes on the road and hands on the wheel."
+      "missLine": "Let the phone ring. Keep your eyes on the road and your hands on the wheel."
     },
     {
       "id": "ev-imp-dist-precautions-2",
       "item": "imp-dist-precautions",
       "kind": "action",
-      "prompt": "Must make a call? Safe spot ahead.",
+      "prompt": "You must make a call. A safe spot is ahead.",
       "sign": "sign-services",
       "action": "pull-over",
-      "missLine": "Before using a phone, pull over and stop in a safe location."
+      "missLine": "Before you use a phone, pull over and stop in a safe place."
     },
     {
       "id": "ev-imp-dist-precautions-3",
@@ -613,30 +613,30 @@
       "choices": [
         "Before you start driving",
         "At a stop sign",
-        "While merging"
+        "While you are merging"
       ],
       "answer": 0,
-      "missLine": "Set or adjust controls and devices before you begin driving."
+      "missLine": "Set or adjust your controls and devices before you begin driving."
     },
     {
       "id": "ev-imp-drowsy-signs-1",
       "item": "imp-drowsy-signs",
       "kind": "action",
-      "prompt": "Yawning, hitting rumble strips. Services exit ahead.",
+      "prompt": "You keep yawning and hitting rumble strips. A services exit is ahead.",
       "sign": "sign-services",
       "weather": "night",
       "action": "pull-over",
-      "missLine": "Yawning and rumble strips mean you are drowsy. Stop at a safe place and rest."
+      "missLine": "Yawning and hitting rumble strips are signs of drowsy driving. Stop at a safe place and rest."
     },
     {
       "id": "ev-imp-drowsy-signs-2",
       "item": "imp-drowsy-signs",
       "kind": "gates",
-      "prompt": "Which is a sign of drowsy driving?",
+      "prompt": "Which of these is a sign of drowsy driving?",
       "choices": [
-        "Steady lane position",
-        "Heavy eyelids",
-        "Clear thinking"
+        "Staying in your lane",
+        "Having heavy eyelids",
+        "Thinking clearly"
       ],
       "answer": 1,
       "missLine": "Heavy eyelids, yawning and head nodding are signs of drowsy driving."
@@ -645,11 +645,11 @@
       "id": "ev-imp-drowsy-signs-3",
       "item": "imp-drowsy-signs",
       "kind": "gates",
-      "prompt": "A driver can't remember the last few miles. They may be:",
+      "prompt": "What might it mean if you cannot remember the last few miles?",
       "choices": [
-        "Fully alert",
-        "Drowsy",
-        "Driving well"
+        "You are fully alert",
+        "You are drowsy",
+        "You are driving well"
       ],
       "answer": 1,
       "missLine": "Not remembering the last few miles is a sign of drowsy driving."
@@ -658,74 +658,74 @@
       "id": "ev-imp-drowsy-prevent-1",
       "item": "imp-drowsy-prevent",
       "kind": "gates",
-      "prompt": "Before a long trip, you should:",
+      "prompt": "What should you do before a long trip?",
       "choices": [
         "Get plenty of sleep",
         "Eat a heavy meal",
         "Drink an energy drink"
       ],
       "answer": 0,
-      "missLine": "Get plenty of quality sleep before a trip."
+      "missLine": "You should get plenty of good sleep before a trip."
     },
     {
       "id": "ev-imp-drowsy-prevent-2",
       "item": "imp-drowsy-prevent",
       "kind": "gates",
-      "prompt": "Long trip with a friend? You should:",
+      "prompt": "On a long trip with a friend, what should you do?",
       "choices": [
         "Drive the whole way",
-        "Let the tired one drive",
+        "Let the tired person drive",
         "Switch drivers as needed"
       ],
       "answer": 2,
-      "missLine": "Drive with a companion and switch drivers. Let a well-rested person drive."
+      "missLine": "Drive with a friend and switch drivers when needed. Let a well-rested person drive."
     },
     {
       "id": "ev-imp-drowsy-prevent-3",
       "item": "imp-drowsy-prevent",
       "kind": "action",
-      "prompt": "You're yawning. Rested friend can drive. Exit ahead.",
+      "prompt": "You are yawning, and your rested friend can drive. A services exit is ahead.",
       "sign": "sign-services",
       "action": "pull-over",
-      "missLine": "Switch drivers when needed. Let a well-rested person drive."
+      "missLine": "Switch drivers when you need to. Let a well-rested person drive."
     },
     {
       "id": "ev-imp-drowsy-two-hours-1",
       "item": "imp-drowsy-two-hours",
       "kind": "action",
-      "prompt": "You've driven for two hours. Services exit ahead.",
+      "prompt": "You have driven for two hours. A services exit is ahead.",
       "sign": "sign-services",
       "action": "pull-over",
-      "missLine": "Stop at least every two hours for rest."
+      "missLine": "Stop to rest at least every two hours."
     },
     {
       "id": "ev-imp-drowsy-two-hours-2",
       "item": "imp-drowsy-two-hours",
       "kind": "gates",
-      "prompt": "On long drives, rest at least every:",
+      "prompt": "On a long trip, what is the longest you should drive without a rest?",
       "choices": [
         "2 hours",
         "5 hours",
         "8 hours"
       ],
       "answer": 0,
-      "missLine": "Stop at least every two hours for rest."
+      "missLine": "On a long drive, stop to rest at least every two hours."
     },
     {
       "id": "ev-imp-drowsy-nap-1",
       "item": "imp-drowsy-nap",
       "kind": "action",
-      "prompt": "Heavy eyelids. Services exit ahead.",
+      "prompt": "Your eyelids feel heavy. A services exit is ahead.",
       "sign": "sign-services",
       "weather": "night",
       "action": "pull-over",
-      "missLine": "Stop at a safe place and nap. Even 10 to 20 minutes helps."
+      "missLine": "Stop at a safe place and take a nap. Even 10 to 20 minutes of sleep helps."
     },
     {
       "id": "ev-imp-drowsy-nap-2",
       "item": "imp-drowsy-nap",
       "kind": "gates",
-      "prompt": "Even a short nap helps. As short as:",
+      "prompt": "How short can a nap be and still help a sleepy driver?",
       "choices": [
         "1 to 2 minutes",
         "10 to 20 minutes",
@@ -738,11 +738,11 @@
       "id": "ev-imp-drowsy-late-hours-1",
       "item": "imp-drowsy-late-hours",
       "kind": "gates",
-      "prompt": "Which hours should drivers avoid to prevent drowsiness?",
+      "prompt": "During which hours should you avoid driving to prevent drowsy driving?",
       "choices": [
-        "10 p.m. to 6 a.m.",
-        "6 a.m. to 10 a.m.",
-        "Noon to 4 p.m."
+        "10 at night to 6 in the morning",
+        "6 to 10 in the morning",
+        "Noon to 4 in the afternoon"
       ],
       "answer": 0,
       "missLine": "Avoid driving from 10 p.m. to 6 a.m. to prevent drowsy driving."
@@ -751,95 +751,95 @@
       "id": "ev-imp-drowsy-late-hours-2",
       "item": "imp-drowsy-late-hours",
       "kind": "action",
-      "prompt": "2 a.m., eyes closing. Services exit ahead.",
+      "prompt": "It is 2 a.m. and your eyes are closing. A services exit is ahead.",
       "sign": "sign-services",
       "weather": "night",
       "action": "pull-over",
-      "missLine": "Avoid driving 10 p.m. to 6 a.m. Stop at a safe place and rest."
+      "missLine": "Avoid driving from 10 p.m. to 6 a.m. Stop at a safe place and rest."
     },
     {
       "id": "ev-imp-drowsy-myths-1",
       "item": "imp-drowsy-myths",
       "kind": "action",
-      "prompt": "Sleepy. Loud radio won't help. Services exit ahead.",
+      "prompt": "You are sleepy. A loud radio will not help. A services exit is ahead.",
       "sign": "sign-services",
       "weather": "night",
       "action": "pull-over",
-      "missLine": "Radio, gum and caffeine do not prevent drowsy driving. Stop and rest."
+      "missLine": "A loud radio, gum and caffeine do not prevent drowsy driving. Stop and rest."
     },
     {
       "id": "ev-imp-drowsy-myths-2",
       "item": "imp-drowsy-myths",
       "kind": "gates",
-      "prompt": "For staying awake, energy drinks are:",
+      "prompt": "What is true about energy drinks as a way to stay awake?",
       "choices": [
-        "Reliable",
-        "Required",
-        "Unreliable"
+        "They are reliable",
+        "They are required",
+        "They are unreliable"
       ],
       "answer": 2,
-      "missLine": "Caffeine and energy drinks are not reliable. Stop and rest instead."
+      "missLine": "Caffeine and energy drinks are not reliable ways to stay awake. Stop and rest instead."
     },
     {
       "id": "ev-imp-drowsy-myths-3",
       "item": "imp-drowsy-myths",
       "kind": "gates",
-      "prompt": "Which really helps a sleepy driver?",
+      "prompt": "Which of these really helps a sleepy driver?",
       "choices": [
         "Chewing gum",
         "Stopping to nap",
         "Opening a window"
       ],
       "answer": 1,
-      "missLine": "Gum and open windows do not work. Stop at a safe place and nap."
+      "missLine": "Chewing gum and opening a window do not work. Stop at a safe place and take a nap."
     },
     {
       "id": "ev-imp-drowsy-report-1",
       "item": "imp-drowsy-report",
       "kind": "action",
-      "prompt": "Drowsy driver ahead. Safe spot to stop.",
+      "prompt": "A drowsy driver is ahead. A safe spot to stop is nearby.",
       "sign": "sign-services",
       "action": "pull-over",
-      "missLine": "Find a safe place to stop, or ask a passenger to call police."
+      "missLine": "Find a safe place to stop, or ask a passenger to call the police."
     },
     {
       "id": "ev-imp-drowsy-report-2",
       "item": "imp-drowsy-report",
       "kind": "gates",
-      "prompt": "You see a drowsy driver. You should:",
+      "prompt": "What should you do if you see a drowsy driver?",
       "choices": [
-        "Have a rider call police",
-        "Pass and honk",
-        "Follow closely"
+        "Have a passenger call police",
+        "Pass the driver and honk",
+        "Follow the driver closely"
       ],
       "answer": 0,
-      "missLine": "Stop at a safe place, or have a passenger call police."
+      "missLine": "Find a safe place to stop, or ask a passenger to call police."
     },
     {
       "id": "ev-imp-drowsy-report-3",
       "item": "imp-drowsy-report",
       "kind": "gates",
-      "prompt": "When reporting a drowsy driver, be ready to describe:",
+      "prompt": "What should you be ready to describe when you report a drowsy driver?",
       "choices": [
         "Your own speed",
-        "Where, what car, what it did",
+        "The place, car and actions",
         "The weather forecast"
       ],
       "answer": 1,
-      "missLine": "Tell police the place, the car and what the driver did."
+      "missLine": "Tell the police the place, the car and what the driver did."
     },
     {
       "id": "ev-imp-bac-08-1",
       "item": "imp-bac-08",
       "kind": "gates",
-      "prompt": "Age 21 or older: DUI starts at what BAC?",
+      "prompt": "At what BAC does DUI start for drivers age 21 or older?",
       "choices": [
         ".08 percent",
         ".02 percent",
         ".15 percent"
       ],
       "answer": 0,
-      "missLine": "Age 21 or older: a BAC of .08 percent or higher is DUI."
+      "missLine": "For drivers age 21 or older, a BAC of .08 percent or higher is DUI."
     },
     {
       "id": "ev-imp-bac-08-2",
@@ -852,82 +852,82 @@
         "Blood alcohol content"
       ],
       "answer": 2,
-      "missLine": "BAC means blood alcohol content."
+      "missLine": "BAC stands for blood alcohol content."
     },
     {
       "id": "ev-imp-bac-impaired-below-1",
       "item": "imp-bac-impaired-below",
       "kind": "gates",
-      "prompt": "A driver's BAC is .06 and their driving is impaired. DUI?",
+      "prompt": "Is it a DUI when a driver's BAC is .06 and the driving is impaired?",
       "choices": [
-        "No, it is under .08",
-        "Yes, it can be DUI",
-        "Only if they crash"
+        "No, the BAC is under .08",
+        "Yes, it can be a DUI",
+        "Only if the driver crashes"
       ],
       "answer": 1,
-      "missLine": "If your driving is impaired, you can get a DUI below .08."
+      "missLine": "If your driving is impaired, you can get a DUI with a BAC below .08."
     },
     {
       "id": "ev-imp-bac-impaired-below-2",
       "item": "imp-bac-impaired-below",
       "kind": "gates",
-      "prompt": "BAC under .08. What can still make it DUI?",
+      "prompt": "If a driver's BAC is under .08, what can still make it a DUI?",
       "choices": [
         "Feeling fine",
         "Driving slowly",
         "Impaired driving"
       ],
       "answer": 2,
-      "missLine": "If your driving is impaired, you can get a DUI even under .08."
+      "missLine": "If your driving is impaired, you can get a DUI even with a BAC under .08."
     },
     {
       "id": "ev-imp-bac-under-21-1",
       "item": "imp-bac-under-21",
       "kind": "gates",
-      "prompt": "Under 21: illegal drinking BAC starts at:",
+      "prompt": "At what BAC does illegal drinking start for someone under 21?",
       "choices": [
         ".08 percent",
         ".10 percent",
         ".02 percent"
       ],
       "answer": 2,
-      "missLine": "Under 21, a BAC of .02 up to .08 is illegal consumption of alcohol."
+      "missLine": "If you are under 21, a BAC of at least .02 but less than .08 is illegal drinking."
     },
     {
       "id": "ev-imp-bac-under-21-2",
       "item": "imp-bac-under-21",
       "kind": "gates",
-      "prompt": "A driver age 20 has a .08 BAC. What can happen?",
+      "prompt": "What can happen to a driver age 20 who has a .08 BAC?",
       "choices": [
-        "A warning only",
+        "Only a warning",
         "No charge",
         "A DUI"
       ],
       "answer": 2,
-      "missLine": "Under 21 with a BAC of .08 or higher, you could be convicted of DUI."
+      "missLine": "If you are under 21 and your BAC is .08 or higher, you could be convicted of a DUI."
     },
     {
       "id": "ev-imp-drunk-late-night-1",
       "item": "imp-drunk-late-night",
       "kind": "gates",
-      "prompt": "10 p.m. to 2 a.m.: how many drivers are drunk?",
+      "prompt": "Between 10 p.m. and 2 a.m., how many drivers are drunk?",
       "choices": [
         "1 in 100",
         "3 in 10",
         "9 in 10"
       ],
       "answer": 1,
-      "missLine": "From 10 p.m. to 2 a.m., about 3 in 10 drivers are drunk."
+      "missLine": "Between 10 p.m. and 2 a.m., about 3 in 10 drivers are drunk."
     },
     {
       "id": "ev-imp-drunk-late-night-2",
       "item": "imp-drunk-late-night",
       "kind": "gates",
-      "prompt": "Your lifetime chance of an alcohol crash?",
+      "prompt": "What is your lifetime chance of being in an alcohol-related crash?",
       "choices": [
-        "1 in 1,000",
-        "Zero if careful",
-        "50-50"
+        "A 1 in 1,000 chance",
+        "No chance if you are careful",
+        "A 50-50 chance"
       ],
       "answer": 2,
       "missLine": "In your lifetime, there is a 50-50 chance of an alcohol-related crash."
@@ -936,20 +936,20 @@
       "id": "ev-imp-drunk-late-night-3",
       "item": "imp-drunk-late-night",
       "kind": "gates",
-      "prompt": "Nearly half of drivers arrested for DUI are:",
+      "prompt": "Which group makes up nearly half of the drivers arrested for DUI?",
       "choices": [
-        "Heavy drinkers only",
+        "Only heavy drinkers",
         "Social to moderate drinkers",
         "Truck drivers"
       ],
       "answer": 1,
-      "missLine": "Nearly half of drivers arrested for DUI are social to moderate drinkers."
+      "missLine": "Nearly half of the drivers arrested for DUI are social to moderate drinkers."
     },
     {
       "id": "ev-imp-one-drink-1",
       "item": "imp-one-drink",
       "kind": "gates",
-      "prompt": "How many drinks can affect your driving?",
+      "prompt": "How many drinks does it take to affect your driving?",
       "choices": [
         "Five or more",
         "At least four",
@@ -962,11 +962,11 @@
       "id": "ev-imp-one-drink-2",
       "item": "imp-one-drink",
       "kind": "gates",
-      "prompt": "Even a little alcohol hurts your:",
+      "prompt": "What does even a little alcohol hurt?",
       "choices": [
-        "Mood only",
-        "Hearing only",
-        "Vision and judgment"
+        "Your mood only",
+        "Your hearing only",
+        "Your vision and judgment"
       ],
       "answer": 2,
       "missLine": "Even a little alcohol hurts your vision, judgment and coordination."
@@ -975,7 +975,7 @@
       "id": "ev-imp-seven-times-1",
       "item": "imp-seven-times",
       "kind": "gates",
-      "prompt": "Driving after drinking raises crash risk by:",
+      "prompt": "How many times more likely is a crash if you drive after drinking?",
       "choices": [
         "2 times",
         "7 times",
@@ -988,7 +988,7 @@
       "id": "ev-imp-seven-times-2",
       "item": "imp-seven-times",
       "kind": "gates",
-      "prompt": "After drinking, your crash risk is:",
+      "prompt": "How does your crash risk after drinking compare with your crash risk when sober?",
       "choices": [
         "About the same",
         "Half as much",
@@ -1001,50 +1001,50 @@
       "id": "ev-imp-drink-equal-1",
       "item": "imp-drink-equal",
       "kind": "gates",
-      "prompt": "12 ounces of beer equals how much wine?",
+      "prompt": "How much wine has the same alcohol as 12 ounces of beer?",
       "choices": [
         "A 12-ounce glass",
         "A 5-ounce glass",
         "A whole bottle"
       ],
       "answer": 1,
-      "missLine": "12 ounces of beer is the same as a 5-ounce glass of wine."
+      "missLine": "One 12-ounce beer is the same as one 5-ounce glass of wine."
     },
     {
       "id": "ev-imp-drink-equal-2",
       "item": "imp-drink-equal",
       "kind": "gates",
-      "prompt": "One shot of liquor equals:",
+      "prompt": "What has the same alcohol as one shot of liquor?",
       "choices": [
         "12 ounces of beer",
         "Half a beer",
         "Three beers"
       ],
       "answer": 0,
-      "missLine": "A shot of liquor is the same as 12 ounces of beer."
+      "missLine": "One shot of liquor is the same as 12 ounces of beer."
     },
     {
       "id": "ev-imp-only-time-1",
       "item": "imp-only-time",
       "kind": "gates",
-      "prompt": "What sobers you up?",
+      "prompt": "What can sober you up?",
       "choices": [
         "Coffee",
         "A cold shower",
         "Only time"
       ],
       "answer": 2,
-      "missLine": "Only time can sober you up. Coffee and cold showers do not."
+      "missLine": "Only time can sober you up. Coffee and cold showers will not."
     },
     {
       "id": "ev-imp-only-time-2",
       "item": "imp-only-time",
       "kind": "gates",
-      "prompt": "A person had a few drinks. How do they sober up?",
+      "prompt": "How can a person who has had a few drinks sober up?",
       "choices": [
-        "Go for a run",
-        "Wait it out",
-        "Drink coffee"
+        "By going for a run",
+        "By letting time pass",
+        "By drinking coffee"
       ],
       "answer": 1,
       "missLine": "Exercise and coffee do not work. Only time sobers you up."
@@ -1053,10 +1053,10 @@
       "id": "ev-imp-decide-before-1",
       "item": "imp-decide-before",
       "kind": "gates",
-      "prompt": "When should you decide you won't drive after drinking?",
+      "prompt": "When should you decide that you will not drive after drinking?",
       "choices": [
         "After two drinks",
-        "Before drinking",
+        "Before you drink",
         "At closing time"
       ],
       "answer": 1,
@@ -1066,7 +1066,7 @@
       "id": "ev-imp-decide-before-2",
       "item": "imp-decide-before",
       "kind": "gates",
-      "prompt": "Party with alcohol tonight? Plan for:",
+      "prompt": "If you are going to a party with alcohol, what should you plan for?",
       "choices": [
         "A slow drive home",
         "Coffee before you leave",
@@ -1079,11 +1079,11 @@
       "id": "ev-imp-decide-before-3",
       "item": "imp-decide-before",
       "kind": "gates",
-      "prompt": "Alcohol-related crashes are:",
+      "prompt": "What is true about alcohol-related crashes?",
       "choices": [
-        "Bad luck",
-        "Just accidents",
-        "Preventable"
+        "They are bad luck",
+        "They are just accidents",
+        "They are preventable"
       ],
       "answer": 2,
       "missLine": "Alcohol-related crashes are not accidents. They can be prevented."
@@ -1092,20 +1092,20 @@
       "id": "ev-imp-alcohol-plus-drugs-1",
       "item": "imp-alcohol-plus-drugs",
       "kind": "gates",
-      "prompt": "Alcohol plus other drugs usually:",
+      "prompt": "What usually happens when you mix alcohol with other drugs?",
       "choices": [
-        "Multiplies effects",
-        "Cancels out",
-        "Wears off faster"
+        "It multiplies the effects",
+        "It cancels the effects",
+        "It wears off faster"
       ],
       "answer": 0,
-      "missLine": "Alcohol plus other drugs usually multiplies the effects of both."
+      "missLine": "Mixing alcohol with other drugs usually multiplies the effects of both."
     },
     {
       "id": "ev-imp-alcohol-plus-drugs-2",
       "item": "imp-alcohol-plus-drugs",
       "kind": "gates",
-      "prompt": "One drink plus cold medicine can act like:",
+      "prompt": "One drink with cold medicine can have the same effect as how many drinks?",
       "choices": [
         "No drinks",
         "Half a drink",
@@ -1118,11 +1118,11 @@
       "id": "ev-imp-meds-1",
       "item": "imp-meds",
       "kind": "gates",
-      "prompt": "Before taking medicine, you should:",
+      "prompt": "What should you do before you take any medicine?",
       "choices": [
         "Read the label",
         "Drink coffee",
-        "Take extra"
+        "Take an extra dose"
       ],
       "answer": 0,
       "missLine": "Read the label and look for warnings about side effects."
@@ -1131,284 +1131,284 @@
       "id": "ev-imp-meds-2",
       "item": "imp-meds",
       "kind": "gates",
-      "prompt": "Cold or allergy medicine can cause:",
+      "prompt": "What can cold or allergy medicine cause?",
       "choices": [
         "Drowsiness",
         "Better vision",
         "Faster reactions"
       ],
       "answer": 0,
-      "missLine": "Many medicines can cause drowsiness and dizziness and slow your reaction time."
+      "missLine": "Many medicines can cause drowsiness and dizziness. They can also slow your reaction time."
     },
     {
       "id": "ev-imp-meds-3",
       "item": "imp-meds",
       "kind": "gates",
-      "prompt": "Unsure how a drug affects you? Ask:",
+      "prompt": "Who should you ask if you are unsure how a drug affects you?",
       "choices": [
         "A friend",
         "Your pharmacist or doctor",
         "Another driver"
       ],
       "answer": 1,
-      "missLine": "Not sure about a drug? Ask your pharmacist or doctor."
+      "missLine": "If you are not sure how a drug affects you, ask your pharmacist or doctor."
     },
     {
       "id": "ev-imp-drug-dui-1",
       "item": "imp-drug-dui",
       "kind": "gates",
-      "prompt": "For adults over 21, driving high on marijuana is:",
+      "prompt": "What is the law on driving high on marijuana for adults over 21?",
       "choices": [
-        "Legal",
-        "Illegal",
-        "Legal at night"
+        "It is legal",
+        "It is illegal",
+        "It is legal at night"
       ],
       "answer": 1,
-      "missLine": "Having marijuana is legal over 21. Driving high is still illegal."
+      "missLine": "Adults over 21 may legally have marijuana, but driving high is still illegal."
     },
     {
       "id": "ev-imp-drug-dui-2",
       "item": "imp-drug-dui",
       "kind": "gates",
-      "prompt": "Driving impaired by any drug. Penalties can be:",
+      "prompt": "What penalties can you face for driving while impaired by any drug?",
       "choices": [
-        "A warning only",
-        "None",
-        "Same as drunk driving"
+        "Only a warning",
+        "No penalties",
+        "The same as drunk driving"
       ],
       "answer": 2,
-      "missLine": "Impaired by any drug? You may face the same penalties as drunk driving."
+      "missLine": "If any drug impairs your driving, you may face the same penalties as drunk driving."
     },
     {
       "id": "ev-imp-implied-consent-1",
       "item": "imp-implied-consent",
       "kind": "gates",
-      "prompt": "Driving in Virginia means you agree to:",
+      "prompt": "What do you agree to when you drive in Virginia?",
       "choices": [
-        "A breath test if asked",
-        "A car search anytime",
+        "A breath test if police ask",
+        "A car search at any time",
         "A yearly DUI class"
       ],
       "answer": 0,
-      "missLine": "Under implied consent, driving means you agree to a breath test on request."
+      "missLine": "Under implied consent, driving in Virginia means you agree to a breath test if police ask."
     },
     {
       "id": "ev-imp-implied-consent-2",
       "item": "imp-implied-consent",
       "kind": "gates",
-      "prompt": "After a crash, police can arrest for DUI within:",
+      "prompt": "How long after a crash can police arrest you for DUI?",
       "choices": [
-        "24 hours",
-        "7 days",
-        "3 hours"
+        "Within 24 hours",
+        "Within 7 days",
+        "Within 3 hours"
       ],
       "answer": 2,
-      "missLine": "After a crash, police with probable cause have 3 hours to arrest for DUI."
+      "missLine": "After a crash, police with probable cause have 3 hours to arrest you for DUI."
     },
     {
       "id": "ev-imp-implied-consent-3",
       "item": "imp-implied-consent",
       "kind": "gates",
-      "prompt": "Police ask for a breath test. Under the law:",
+      "prompt": "What does the law say when police ask you to take a breath test?",
       "choices": [
         "You agreed by driving",
-        "You may refuse freely",
+        "You may refuse if you want",
         "You need a lawyer first"
       ],
       "answer": 0,
-      "missLine": "Implied consent: by driving on Virginia roads, you agreed to a breath test."
+      "missLine": "Under implied consent, you agreed to a breath test when you drove on Virginia roads."
     },
     {
       "id": "ev-imp-admin-suspension-1",
       "item": "imp-admin-suspension",
       "kind": "gates",
-      "prompt": "DUI law: first offense, breath test refused. License suspended:",
+      "prompt": "How long is your license suspended for refusing a breath test on a first offense?",
       "choices": [
-        "7 days",
-        "60 days",
-        "1 year"
+        "For 7 days",
+        "For 60 days",
+        "For 1 year"
       ],
       "answer": 0,
-      "missLine": "A first offense brings an automatic seven-day license suspension."
+      "missLine": "For a first offense, your license is automatically suspended for 7 days."
     },
     {
       "id": "ev-imp-admin-suspension-2",
       "item": "imp-admin-suspension",
       "kind": "gates",
-      "prompt": "DUI law: second offense. Automatic suspension lasts:",
+      "prompt": "How long does the automatic suspension last for a second DUI offense?",
       "choices": [
-        "7 days",
-        "60 days or till trial",
-        "6 months"
+        "For 7 days",
+        "For 60 days or until the trial",
+        "For 6 months"
       ],
       "answer": 1,
-      "missLine": "A second DUI offense: suspended 60 days or until trial, whichever comes first."
+      "missLine": "For a second DUI offense, your license is suspended for 60 days or until the trial, whichever comes first."
     },
     {
       "id": "ev-imp-admin-suspension-3",
       "item": "imp-admin-suspension",
       "kind": "gates",
-      "prompt": "DUI law: third offense. License suspended until when?",
+      "prompt": "How long is your license suspended for a third DUI offense?",
       "choices": [
         "For 7 days",
         "For 30 days",
         "Until the trial"
       ],
       "answer": 2,
-      "missLine": "A third DUI offense means the license is suspended until the trial."
+      "missLine": "For a third DUI offense, your license is suspended until the trial."
     },
     {
       "id": "ev-imp-open-container-1",
       "item": "imp-open-container",
       "kind": "gates",
-      "prompt": "Open container law: is an unlocked glove box in the passenger area?",
+      "prompt": "Under the open container law, is an unlocked glove box part of the passenger area?",
       "choices": [
         "Yes, it counts",
         "Only if it is open",
         "Only with a passenger"
       ],
       "answer": 0,
-      "missLine": "The passenger area includes any area in the driver's reach, even an unlocked glove box."
+      "missLine": "The passenger area includes any area within the driver's reach, even an unlocked glove box."
     },
     {
       "id": "ev-imp-open-container-2",
       "item": "imp-open-container",
       "kind": "gates",
-      "prompt": "For open container law, the passenger area includes:",
+      "prompt": "Under the open container law, what does the passenger area include?",
       "choices": [
         "The locked trunk",
-        "Outside the car",
-        "Anywhere driver can reach"
+        "The area outside the car",
+        "Any area the driver can reach"
       ],
       "answer": 2,
-      "missLine": "The passenger area is where people sit plus anywhere within the driver's reach."
+      "missLine": "The passenger area is where people sit, plus any area within the driver's reach."
     },
     {
       "id": "ev-imp-juvenile-passenger-1",
       "item": "imp-juvenile-passenger",
       "kind": "gates",
-      "prompt": "DUI with a child aboard adds how much jail?",
+      "prompt": "How much extra jail time does a DUI with a child in the car add?",
       "choices": [
         "1 day",
         "5 days",
-        "No extra jail"
+        "No extra jail time"
       ],
       "answer": 1,
-      "missLine": "A DUI with a juvenile passenger adds a mandatory five-day jail term."
+      "missLine": "A DUI with a child in the car adds a mandatory 5-day jail term."
     },
     {
       "id": "ev-imp-juvenile-passenger-2",
       "item": "imp-juvenile-passenger",
       "kind": "gates",
-      "prompt": "Extra fine for DUI with a child passenger?",
+      "prompt": "What extra fine can a DUI with a child in the car bring?",
       "choices": [
         "$50 to $100",
         "$500 to $1,000",
         "No extra fine"
       ],
       "answer": 1,
-      "missLine": "You may be charged an extra $500 to $1,000 for a DUI with a juvenile aboard."
+      "missLine": "You may be charged an extra $500 to $1,000 for a DUI with a child in the car."
     },
     {
       "id": "ev-imp-juvenile-passenger-3",
       "item": "imp-juvenile-passenger",
       "kind": "gates",
-      "prompt": "In DUI law, a juvenile passenger is how old?",
+      "prompt": "In DUI law, how old is a juvenile passenger?",
       "choices": [
         "17 or younger",
         "12 or younger",
         "21 or younger"
       ],
       "answer": 0,
-      "missLine": "A juvenile passenger is age 17 or younger."
+      "missLine": "A juvenile passenger is a child who is age 17 or younger."
     },
     {
       "id": "ev-imp-impound-1",
       "item": "imp-impound",
       "kind": "gates",
-      "prompt": "Driving on an alcohol suspension? Car impounded for:",
+      "prompt": "If you drive on a license suspended for alcohol, how long is your car impounded?",
       "choices": [
-        "3 days",
-        "30 days",
-        "1 year"
+        "For 3 days",
+        "For 30 days",
+        "For 1 year"
       ],
       "answer": 1,
-      "missLine": "Driving on an alcohol suspension means your car is impounded for 30 days."
+      "missLine": "If you drive with a license suspended for alcohol, your car is impounded for 30 days."
     },
     {
       "id": "ev-imp-impound-2",
       "item": "imp-impound",
       "kind": "gates",
-      "prompt": "Convicted of driving on an alcohol suspension? Court can add:",
+      "prompt": "If you are convicted, how many more days can the court impound your car?",
       "choices": [
         "5 days",
         "10 days",
         "90 days"
       ],
       "answer": 2,
-      "missLine": "If convicted, the court can impound the car for 90 more days."
+      "missLine": "If you are convicted of driving on a license suspended for alcohol, the court can impound your car for 90 more days."
     },
     {
       "id": "ev-imp-restitution-1",
       "item": "imp-restitution",
       "kind": "gates",
-      "prompt": "DUI crash: you may pay responders up to:",
+      "prompt": "How much may you have to pay emergency workers after a DUI crash?",
       "choices": [
-        "$1,000",
-        "$100",
-        "$10,000"
+        "Up to $1,000",
+        "Up to $100",
+        "Up to $10,000"
       ],
       "answer": 0,
-      "missLine": "After a DUI crash, you may pay up to $1,000 for the responders."
+      "missLine": "After a DUI crash, you may have to pay up to $1,000 for the emergency workers who came."
     },
     {
       "id": "ev-imp-restitution-2",
       "item": "imp-restitution",
       "kind": "gates",
-      "prompt": "After a DUI crash, you may pay for:",
+      "prompt": "What may you have to pay for after a DUI crash?",
       "choices": [
-        "Police and rescue crews",
+        "The police and rescue crews",
         "Your car repairs",
         "Your lawyer"
       ],
       "answer": 0,
-      "missLine": "You may pay for the police, EMS, firefighters and rescue crews who came."
+      "missLine": "You may have to pay for the police, EMS, firefighters and rescue crews who came."
     },
     {
       "id": "ev-imp-under-21-penalty-1",
       "item": "imp-under-21-penalty",
       "kind": "gates",
-      "prompt": "Under 21, BAC .02 to .08: license lost for:",
+      "prompt": "How long do drivers under 21 lose their license at a BAC of .02 to .08?",
       "choices": [
-        "30 days",
-        "1 year",
-        "5 years"
+        "For 30 days",
+        "For 1 year",
+        "For 5 years"
       ],
       "answer": 1,
-      "missLine": "Under 21 with a BAC of .02 to under .08: you lose your license 1 year."
+      "missLine": "Drivers under 21 with a BAC of .02 to under .08 lose their license for 1 year after a conviction."
     },
     {
       "id": "ev-imp-under-21-penalty-2",
       "item": "imp-under-21-penalty",
       "kind": "gates",
-      "prompt": "Under 21 penalty: $500 fine OR how many service hours?",
+      "prompt": "How many hours of community service can replace a $500 fine for a driver under 21?",
       "choices": [
         "5 hours",
         "500 hours",
         "50 hours"
       ],
       "answer": 2,
-      "missLine": "Under 21 drinking: at least a $500 fine or 50 hours of community service."
+      "missLine": "A driver under 21 who is convicted of driving after drinking faces at least a $500 fine or 50 hours of community service."
     },
     {
       "id": "ev-imp-under-21-penalty-3",
       "item": "imp-under-21-penalty",
       "kind": "gates",
-      "prompt": "Virginia's law on underage drinking is:",
+      "prompt": "What kind of law does Virginia have against underage drinking?",
       "choices": [
-        "Zero tolerance",
-        "Two-drink limit",
-        "Weekends only OK"
+        "A zero tolerance law",
+        "A two-drink limit",
+        "A weekends-only exception"
       ],
       "answer": 0,
       "missLine": "Virginia has a zero tolerance law against underage drinking."
@@ -1417,66 +1417,66 @@
       "id": "ev-imp-provide-alcohol-1",
       "item": "imp-provide-alcohol",
       "kind": "gates",
-      "prompt": "Fine for giving alcohol to someone under 21?",
+      "prompt": "What fine can you face for giving alcohol to someone under 21?",
       "choices": [
         "Up to $50",
         "Up to $2,500",
         "No fine"
       ],
       "answer": 1,
-      "missLine": "Providing alcohol to someone under 21 can bring a fine up to $2,500."
+      "missLine": "Giving alcohol to someone under 21 can bring a fine of up to $2,500."
     },
     {
       "id": "ev-imp-provide-alcohol-2",
       "item": "imp-provide-alcohol",
       "kind": "gates",
-      "prompt": "Giving alcohol to someone under 21: license lost up to:",
+      "prompt": "How long can your license be suspended for giving alcohol to someone under 21?",
       "choices": [
-        "10 days",
-        "1 year",
-        "30 days"
+        "Up to 10 days",
+        "Up to 1 year",
+        "Up to 30 days"
       ],
       "answer": 1,
-      "missLine": "Giving alcohol to someone under 21 can cost your license for up to 1 year."
+      "missLine": "Giving alcohol to someone under 21 can cost you your license for up to 1 year."
     },
     {
       "id": "ev-imp-fake-id-1",
       "item": "imp-fake-id",
       "kind": "gates",
-      "prompt": "Fake ID: license lost for how long?",
+      "prompt": "How long do you lose your license for using a fake ID to get alcohol?",
       "choices": [
-        "1 to 2 weeks",
-        "6 months to 1 year",
-        "5 years"
+        "For 1 to 2 weeks",
+        "For 6 months to 1 year",
+        "For 5 years"
       ],
       "answer": 1,
-      "missLine": "A fake ID brings a license suspension of 6 months to 1 year."
+      "missLine": "If you are under 21 and use a fake ID to get alcohol, your license is suspended for 6 months to 1 year."
     },
     {
       "id": "ev-imp-fake-id-2",
       "item": "imp-fake-id",
       "kind": "gates",
-      "prompt": "Fake ID: the fine is at least:",
+      "prompt": "What is the minimum fine for using a fake ID to get alcohol?",
       "choices": [
         "$5",
         "$50",
         "$500"
       ],
       "answer": 2,
-      "missLine": "Using a fake ID to get alcohol means a fine of at least $500."
+      "missLine": "If you are under 21 and use a fake ID to get alcohol, the fine is at least $500."
     },
     {
       "id": "ev-imp-fake-id-3",
       "item": "imp-fake-id",
       "kind": "gates",
-      "prompt": "Fake ID: community service of at least:",
+      "prompt": "What is the minimum amount of community service for using a fake ID to get alcohol?",
       "choices": [
         "50 hours",
         "5 hours",
         "2 hours"
       ],
       "answer": 0,
-      "missLine": "Using a fake ID to get alcohol means at least 50 hours of community service."
+      "missLine": "If you are under 21 and use a fake ID to get alcohol, you must do at least 50 hours of community service."
     }
   ],
   "questions": [
@@ -1484,12 +1484,12 @@
       "id": "q-imp-aggr-what-1",
       "item": "imp-aggr-what",
       "part": 2,
-      "prompt": "Virginia law defines aggressive driving as committing traffic offenses with the intent to:",
+      "prompt": "Under Virginia law, aggressive driving means committing a traffic offense with what intent?",
       "choices": [
-        "Arrive on time",
-        "Harass, intimidate, injure or obstruct another person",
-        "Save fuel",
-        "Avoid a traffic jam"
+        "To arrive on time",
+        "To harass, intimidate, injure or obstruct another person",
+        "To save fuel",
+        "To avoid a traffic jam"
       ],
       "answer": 1,
       "explain": "Aggressive driving means breaking traffic laws to harass, scare, hurt or block another person."
@@ -1500,7 +1500,7 @@
       "part": 2,
       "prompt": "Which of these is an example of aggressive driving?",
       "choices": [
-        "Driving slower in heavy rain",
+        "Driving more slowly in heavy rain",
         "Passing on the right using the shoulder",
         "Signaling before a lane change",
         "Dimming your headlights for oncoming cars"
@@ -1512,11 +1512,11 @@
       "id": "q-imp-aggr-what-3",
       "item": "imp-aggr-what",
       "part": 2,
-      "prompt": "Aggressive drivers often:",
+      "prompt": "What do aggressive drivers often do?",
       "choices": [
         "Yield the right-of-way to pedestrians",
         "Tailgate, weave in and out of traffic and flash their lights",
-        "Keep a large space cushion",
+        "Keep a large space cushion around their car",
         "Signal early before every turn"
       ],
       "answer": 1,
@@ -1526,9 +1526,9 @@
       "id": "q-imp-aggr-what-4",
       "item": "imp-aggr-what",
       "part": 2,
-      "prompt": "Under Virginia law, aggressive driving includes the intent to harass or intimidate while committing a traffic offense such as:",
+      "prompt": "Under Virginia law, aggressive driving means committing a traffic offense with the intent to harass or intimidate. Which of these is a traffic offense?",
       "choices": [
-        "Driving with your low beams on in rain",
+        "Driving with your low beams on in the rain",
         "Keeping a safe following distance",
         "Failing to stop or yield the right-of-way",
         "Signaling before you change lanes"
@@ -1540,49 +1540,49 @@
       "id": "q-imp-aggr-protect-1",
       "item": "imp-aggr-protect",
       "part": 2,
-      "prompt": "If you see an aggressive driver, you should:",
+      "prompt": "What should you do if you see an aggressive driver?",
       "choices": [
-        "Speed up so they cannot pass",
+        "Speed up so they cannot pass you",
         "Make eye contact so they know you see them",
         "Stay out of the way and avoid eye contact",
         "Try to out-maneuver them"
       ],
       "answer": 2,
-      "explain": "Stay out of the way, do not challenge them, and avoid eye contact."
+      "explain": "Stay out of the way and avoid eye contact to protect yourself. Do not challenge an aggressive driver."
     },
     {
       "id": "q-imp-aggr-protect-2",
       "item": "imp-aggr-protect",
       "part": 2,
-      "prompt": "An aggressive driver is making gestures and shouting at you. You should:",
+      "prompt": "An aggressive driver is making gestures and shouting at you. What should you do?",
       "choices": [
         "Ignore the gestures and shouting",
-        "Shout back",
+        "Shout back at the driver",
         "Speed up to challenge them",
-        "Slow down in front of them to teach a lesson"
+        "Slow down in front of them to teach them a lesson"
       ],
       "answer": 0,
-      "explain": "Ignore an aggressive driver's gestures and shouting and stay out of their way."
+      "explain": "Ignore an aggressive driver's gestures and shouting, and stay out of the way."
     },
     {
       "id": "q-imp-aggr-suspension-1",
       "item": "imp-aggr-suspension",
       "part": 2,
-      "prompt": "If you are convicted of aggressive driving, your license could be suspended for:",
+      "prompt": "If you are convicted of aggressive driving, how long could your license be suspended?",
       "choices": [
-        "30 days to one year",
-        "90 days only",
-        "Ten days to six months",
+        "From 30 days to one year",
+        "Only 90 days",
+        "From ten days to six months",
         "Three years"
       ],
       "answer": 2,
-      "explain": "An aggressive driving conviction can bring a suspension of ten days up to six months."
+      "explain": "A conviction for aggressive driving can suspend your license for ten days or for as long as six months."
     },
     {
       "id": "q-imp-aggr-suspension-2",
       "item": "imp-aggr-suspension",
       "part": 2,
-      "prompt": "The longest license suspension for an aggressive driving conviction is:",
+      "prompt": "What is the longest license suspension for an aggressive driving conviction?",
       "choices": [
         "Ten days",
         "One year",
@@ -1590,7 +1590,7 @@
         "Six months"
       ],
       "answer": 3,
-      "explain": "Aggressive driving can bring a license suspension for as long as six months."
+      "explain": "A license suspension for aggressive driving can last as long as six months."
     },
     {
       "id": "q-imp-dist-sources-1",
@@ -1598,24 +1598,24 @@
       "part": 2,
       "prompt": "Which of these is a driving distraction?",
       "choices": [
-        "Changing the music or GPS",
+        "Changing the music or the GPS",
         "Talking to passengers",
         "Eating",
         "All of these"
       ],
       "answer": 3,
-      "explain": "Music, GPS, passengers, eating, phones and outside sights can all distract a driver."
+      "explain": "Changing the music or GPS, talking to passengers and eating can all distract a driver."
     },
     {
       "id": "q-imp-dist-sources-2",
       "item": "imp-dist-sources",
       "part": 2,
-      "prompt": "Driving requires:",
+      "prompt": "What does driving require from you?",
       "choices": [
         "Your full attention",
-        "Attention only in heavy traffic",
-        "Attention only at night",
-        "Attention only when passengers are quiet"
+        "Your attention only in heavy traffic",
+        "Your attention only at night",
+        "Your attention only when passengers are quiet"
       ],
       "answer": 0,
       "explain": "Driving requires your full attention at all times."
@@ -1624,43 +1624,43 @@
       "id": "q-imp-dist-hold-law-1",
       "item": "imp-dist-hold-law",
       "part": 2,
-      "prompt": "Virginia law prohibits drivers from holding a cell phone while driving except:",
+      "prompt": "Virginia law prohibits drivers from holding a cell phone while driving. When is a driver allowed to hold one?",
       "choices": [
-        "In a driver emergency or when the vehicle is lawfully parked or stopped",
-        "When driving under 25 mph",
-        "On interstate highways",
-        "When talking to a family member"
+        "When there is a driver emergency or the car is lawfully parked or stopped",
+        "When the driver is going under 25 mph",
+        "When the driver is on an interstate highway",
+        "When the driver is talking to a family member"
       ],
       "answer": 0,
-      "explain": "You may not hold a phone while driving unless there is a driver emergency or you are lawfully parked or stopped."
+      "explain": "You may not hold a phone while driving unless there is a driver emergency or your car is lawfully parked or stopped."
     },
     {
       "id": "q-imp-dist-hold-law-2",
       "item": "imp-dist-hold-law",
       "part": 2,
-      "prompt": "In Virginia, holding a cell phone or other wireless device while driving is:",
+      "prompt": "In Virginia, is it legal to hold a cell phone or other wireless device while driving?",
       "choices": [
-        "Allowed if you use only one hand",
-        "Allowed for drivers over age 18",
-        "Against the law, except in a driver emergency or when lawfully parked or stopped",
-        "Allowed on rural roads"
+        "Yes, if you use only one hand",
+        "Yes, if you are over age 18",
+        "No, except in a driver emergency or when the car is lawfully parked or stopped",
+        "Yes, if you are on a rural road"
       ],
       "answer": 2,
-      "explain": "Virginia law prohibits holding a wireless device while driving except in an emergency or when lawfully parked or stopped."
+      "explain": "Virginia law does not allow you to hold a wireless device while driving, except in a driver emergency or when your car is lawfully parked or stopped."
     },
     {
       "id": "q-imp-dist-navigation-1",
       "item": "imp-dist-navigation",
       "part": 2,
-      "prompt": "A phone may be used for navigation while driving as long as the driver:",
+      "prompt": "When is a driver allowed to use a phone for navigation while driving?",
       "choices": [
-        "Holds it in one hand",
-        "Is going under the speed limit",
-        "Has a passenger in the car",
-        "Is not entering information or holding it"
+        "When the driver holds it in one hand",
+        "When the driver is going under the speed limit",
+        "When the driver has a passenger in the car",
+        "When the driver does not hold it or enter information"
       ],
       "answer": 3,
-      "explain": "Navigation is allowed only if the driver is not entering information or holding the device."
+      "explain": "Phone navigation is allowed only if the driver does not hold the phone or enter information."
     },
     {
       "id": "q-imp-dist-navigation-2",
@@ -1669,9 +1669,9 @@
       "prompt": "Which of these is allowed while driving in Virginia?",
       "choices": [
         "Typing an address into your phone's GPS",
-        "Following phone navigation without holding it or entering information",
+        "Following your phone's directions without holding it or entering information",
         "Holding your phone to read a map",
-        "Texting at low speed"
+        "Texting at a low speed"
       ],
       "answer": 1,
       "explain": "You may use a phone for navigation if you do not hold it or enter information while driving."
@@ -1680,7 +1680,7 @@
       "id": "q-imp-dist-17-percent-1",
       "item": "imp-dist-17-percent",
       "part": 2,
-      "prompt": "Each year, driver distraction accounts for roughly what percent of all traffic crashes in Virginia?",
+      "prompt": "About what percent of all traffic crashes in Virginia each year are caused by driver distraction?",
       "choices": [
         "17 percent",
         "5 percent",
@@ -1688,41 +1688,41 @@
         "75 percent"
       ],
       "answer": 0,
-      "explain": "Driver distraction accounts for roughly 17 percent of all traffic crashes in Virginia each year."
+      "explain": "Driver distraction causes about 17 percent of all traffic crashes in Virginia each year."
     },
     {
       "id": "q-imp-dist-17-percent-2",
       "item": "imp-dist-17-percent",
       "part": 2,
-      "prompt": "Distracted driving is so dangerous because:",
+      "prompt": "Why is distracted driving so dangerous?",
       "choices": [
-        "Phones use power from the car battery",
-        "It makes the engine work harder",
+        "Phones use up power from the car's battery",
+        "It makes the car's engine work harder",
         "It is only illegal at night",
-        "The vehicle may move into a high-risk situation and the driver loses precious seconds"
+        "The car may move into a high-risk situation while the driver loses precious seconds"
       ],
       "answer": 3,
-      "explain": "While you are distracted, your vehicle can move into danger before you notice."
+      "explain": "While you are distracted, your car can move into danger. You then lose seconds you need to react."
     },
     {
       "id": "q-imp-dist-17-percent-3",
       "item": "imp-dist-17-percent",
       "part": 2,
-      "prompt": "Common actions of young distracted drivers include:",
+      "prompt": "What are common actions of young distracted drivers?",
       "choices": [
         "Driving too slowly on highways",
-        "Failing to maintain control, following too closely and not yielding",
+        "Failing to keep control, following too closely and not yielding",
         "Using turn signals too early",
         "Stopping too long at stop signs"
       ],
       "answer": 1,
-      "explain": "Young distracted drivers often fail to keep control, follow too closely and fail to yield."
+      "explain": "Young distracted drivers often fail to keep control, follow too closely and fail to yield the right-of-way."
     },
     {
       "id": "q-imp-dist-precautions-1",
       "item": "imp-dist-precautions",
       "part": 2,
-      "prompt": "Before engaging in distracting behavior while driving, you should:",
+      "prompt": "What should you do before you do something that could distract you from driving?",
       "choices": [
         "Slow down",
         "Turn on your hazard lights and keep going",
@@ -1730,31 +1730,31 @@
         "Pull over and stop in a safe location"
       ],
       "answer": 3,
-      "explain": "Before doing anything distracting, pull over and stop in a safe place."
+      "explain": "Before you do anything distracting, pull over and stop in a safe place."
     },
     {
       "id": "q-imp-dist-precautions-2",
       "item": "imp-dist-precautions",
       "part": 2,
-      "prompt": "Drivers should not use cell phones on the road except to:",
+      "prompt": "Drivers should not use cell phones on the road, except for which of these reasons?",
       "choices": [
-        "Report a crash or emergency",
-        "Check the weather",
-        "Change the music",
-        "Read a text in slow traffic"
+        "To report a crash or emergency",
+        "To check the weather",
+        "To change the music",
+        "To read a text in slow traffic"
       ],
       "answer": 0,
-      "explain": "Use a phone on the road only to report a crash or emergency."
+      "explain": "Use a phone on the road only to report a crash or an emergency."
     },
     {
       "id": "q-imp-dist-precautions-3",
       "item": "imp-dist-precautions",
       "part": 2,
-      "prompt": "To avoid distracted driving, you should:",
+      "prompt": "What should you do to avoid distracted driving?",
       "choices": [
         "Set or adjust vehicle controls and devices before you begin driving",
-        "Adjust the radio while turning",
-        "Eat only on the highway",
+        "Adjust the radio while you are turning",
+        "Eat only while you are on the highway",
         "Text only at low speeds"
       ],
       "answer": 0,
@@ -1764,24 +1764,24 @@
       "id": "q-imp-drowsy-signs-1",
       "item": "imp-drowsy-signs",
       "part": 2,
-      "prompt": "Which of the following is a sign of drowsy driving?",
+      "prompt": "Which of these is a sign of drowsy driving?",
       "choices": [
         "Constant yawning",
         "Heavy eyelids",
-        "Missing road signs or exits",
+        "Failing to notice road signs or exits",
         "All of these"
       ],
       "answer": 3,
-      "explain": "Yawning, heavy eyelids and missing signs or exits are all signs of drowsy driving."
+      "explain": "Constant yawning, heavy eyelids and failing to notice road signs or exits are all signs of drowsy driving."
     },
     {
       "id": "q-imp-drowsy-signs-2",
       "item": "imp-drowsy-signs",
       "part": 2,
-      "prompt": "Hitting rumble strips and making unplanned lane changes are signs that you may be:",
+      "prompt": "Hitting rumble strips and making unplanned lane changes may be signs of what?",
       "choices": [
         "Driving too slowly",
-        "Drowsy",
+        "Drowsy driving",
         "Following at a safe distance",
         "Using your low beams"
       ],
@@ -1792,12 +1792,12 @@
       "id": "q-imp-drowsy-signs-3",
       "item": "imp-drowsy-signs",
       "part": 2,
-      "prompt": "Drowsy driving is:",
+      "prompt": "Which statement about drowsy driving is true?",
       "choices": [
-        "A type of impaired driving",
-        "Safe with the window rolled down",
-        "Only risky for truck drivers",
-        "Safe after drinking coffee"
+        "It is a type of impaired driving",
+        "It is safe if the window is rolled down",
+        "It is risky only for truck drivers",
+        "It is safe after you drink coffee"
       ],
       "answer": 0,
       "explain": "Drowsy driving is a type of impaired driving."
@@ -1806,11 +1806,11 @@
       "id": "q-imp-drowsy-signs-4",
       "item": "imp-drowsy-signs",
       "part": 2,
-      "prompt": "Driving while you are sleepy increases your crash risk because you may:",
+      "prompt": "Why does driving while you are sleepy increase your crash risk?",
       "choices": [
-        "Make careless driving decisions",
-        "Have trouble paying attention",
-        "Actually fall asleep while driving",
+        "You may make careless driving decisions",
+        "You may have trouble paying attention",
+        "You may actually fall asleep while driving",
         "All of these"
       ],
       "answer": 3,
@@ -1820,21 +1820,21 @@
       "id": "q-imp-drowsy-prevent-1",
       "item": "imp-drowsy-prevent",
       "part": 2,
-      "prompt": "To avoid drowsy driving, you should:",
+      "prompt": "What should you do to avoid drowsy driving?",
       "choices": [
         "Eat a large, heavy meal before driving",
         "Drink an energy drink",
-        "Get plenty of quality sleep before a trip",
+        "Get plenty of good sleep before a trip",
         "Drive late at night when roads are empty"
       ],
       "answer": 2,
-      "explain": "Getting plenty of quality sleep before a trip helps prevent drowsy driving."
+      "explain": "Getting plenty of good sleep before a trip helps prevent drowsy driving."
     },
     {
       "id": "q-imp-drowsy-prevent-2",
       "item": "imp-drowsy-prevent",
       "part": 2,
-      "prompt": "If you drive with a companion on a long trip, you should:",
+      "prompt": "What should you do if you drive with a companion on a long trip?",
       "choices": [
         "Switch drivers when necessary and let a well-rested person drive",
         "Never switch drivers",
@@ -1842,27 +1842,27 @@
         "Switch drivers only after dark"
       ],
       "answer": 0,
-      "explain": "Switch drivers when needed and always let a well-rested person drive."
+      "explain": "Switch drivers when necessary, and always let a well-rested person drive."
     },
     {
       "id": "q-imp-drowsy-prevent-3",
       "item": "imp-drowsy-prevent",
       "part": 2,
-      "prompt": "Which can help prevent drowsy driving?",
+      "prompt": "Which of these can help prevent drowsy driving?",
       "choices": [
         "Chewing gum",
         "Turning up the radio",
         "Rolling down a window",
-        "Avoiding alcoholic beverages and heavy foods"
+        "Avoiding alcohol and heavy foods"
       ],
       "answer": 3,
-      "explain": "Avoiding alcohol and heavy foods helps; gum, a loud radio and open windows do not."
+      "explain": "Avoiding alcohol and heavy foods helps prevent drowsy driving. Gum, a loud radio and open windows do not prevent it."
     },
     {
       "id": "q-imp-drowsy-two-hours-1",
       "item": "imp-drowsy-two-hours",
       "part": 2,
-      "prompt": "On a long trip, you should stop for rest at least every:",
+      "prompt": "On a long trip, what is the longest you should drive before you stop to rest?",
       "choices": [
         "Four hours",
         "Six hours",
@@ -1870,27 +1870,27 @@
         "Eight hours"
       ],
       "answer": 2,
-      "explain": "Limit long distance driving and stop at least every two hours for rest."
+      "explain": "Limit long-distance driving, and stop to rest at least every two hours."
     },
     {
       "id": "q-imp-drowsy-two-hours-2",
       "item": "imp-drowsy-two-hours",
       "part": 2,
-      "prompt": "To limit long distance driving and avoid drowsiness, you should:",
+      "prompt": "What should you do to limit long-distance driving and avoid drowsiness?",
       "choices": [
         "Stop only when you need gas",
-        "Stop at least every two hours for rest",
+        "Stop to rest at least every two hours",
         "Drive straight through to save time",
-        "Stop once every five hours"
+        "Stop to rest once every five hours"
       ],
       "answer": 1,
-      "explain": "Stop at least every two hours for rest on a long trip."
+      "explain": "On a long trip, stop to rest at least every two hours."
     },
     {
       "id": "q-imp-drowsy-nap-1",
       "item": "imp-drowsy-nap",
       "part": 2,
-      "prompt": "If you feel drowsy while driving, you should:",
+      "prompt": "What should you do if you feel drowsy while driving?",
       "choices": [
         "Roll down the window and keep going",
         "Drink coffee and keep driving",
@@ -1898,13 +1898,13 @@
         "Turn up the radio"
       ],
       "answer": 2,
-      "explain": "Stop at a safe place and take a nap; even 10 to 20 minutes can help."
+      "explain": "Stop at a safe place and take a nap. Even 10 to 20 minutes of sleep can help."
     },
     {
       "id": "q-imp-drowsy-nap-2",
       "item": "imp-drowsy-nap",
       "part": 2,
-      "prompt": "As little as how much sleep can make a big difference for a drowsy driver?",
+      "prompt": "What is the least amount of sleep that can make a big difference for a drowsy driver?",
       "choices": [
         "10 to 20 minutes",
         "1 to 2 minutes",
@@ -1918,35 +1918,35 @@
       "id": "q-imp-drowsy-late-hours-1",
       "item": "imp-drowsy-late-hours",
       "part": 2,
-      "prompt": "To avoid drowsy driving, try not to drive between:",
+      "prompt": "To avoid drowsy driving, when should you try not to drive?",
       "choices": [
-        "6 a.m. and 10 a.m.",
-        "Noon and 6 p.m.",
-        "4 p.m. and 8 p.m.",
-        "10 p.m. and 6 a.m."
+        "Between 6 a.m. and 10 a.m. each day",
+        "Between noon and 6 p.m. each day",
+        "Between 4 p.m. and 8 p.m. each day",
+        "Between 10 p.m. and 6 a.m. each day"
       ],
       "answer": 3,
-      "explain": "Avoid driving from 10 p.m. to 6 a.m. to help prevent drowsy driving."
+      "explain": "To help prevent drowsy driving, try not to drive from 10 p.m. to 6 a.m."
     },
     {
       "id": "q-imp-drowsy-late-hours-2",
       "item": "imp-drowsy-late-hours",
       "part": 2,
-      "prompt": "Which time period should you avoid driving to prevent drowsy driving?",
+      "prompt": "When should you avoid driving to prevent drowsy driving?",
       "choices": [
-        "10 p.m. to 6 a.m.",
-        "Morning rush hour",
-        "Lunchtime",
-        "Late afternoon"
+        "From 10 p.m. to 6 a.m. each day",
+        "During the morning rush hour each day",
+        "During lunchtime each day",
+        "During the late afternoon each day"
       ],
       "answer": 0,
-      "explain": "Avoid driving from 10 p.m. to 6 a.m."
+      "explain": "To help prevent drowsy driving, try not to drive from 10 p.m. to 6 a.m."
     },
     {
       "id": "q-imp-drowsy-myths-1",
       "item": "imp-drowsy-myths",
       "part": 2,
-      "prompt": "Which of the following is a reliable way to prevent drowsy driving?",
+      "prompt": "Which of these is a reliable way to prevent drowsy driving?",
       "choices": [
         "Rolling down a window",
         "Turning up the radio",
@@ -1954,189 +1954,189 @@
         "None of these"
       ],
       "answer": 3,
-      "explain": "Open windows, loud radios and caffeine are not reliable ways to stay awake."
+      "explain": "Open windows, a loud radio and caffeine are not reliable ways to stay awake."
     },
     {
       "id": "q-imp-drowsy-myths-2",
       "item": "imp-drowsy-myths",
       "part": 2,
-      "prompt": "Chewing gum, turning up the radio and drinking caffeine:",
+      "prompt": "What is true about chewing gum, turning up the radio and drinking caffeine?",
       "choices": [
-        "Are reliable ways to stay awake",
-        "Work well only at night",
-        "Are required on long trips",
-        "Do not prevent drowsy driving"
+        "They are reliable ways to stay awake",
+        "They work well only at night",
+        "They are required on long trips",
+        "They do not prevent drowsy driving"
       ],
       "answer": 3,
-      "explain": "Gum, radio and caffeine do not prevent drowsy driving and are not reliable."
+      "explain": "Gum, a loud radio and caffeine do not prevent drowsy driving. They are not reliable ways to stay awake."
     },
     {
       "id": "q-imp-drowsy-report-1",
       "item": "imp-drowsy-report",
       "part": 2,
-      "prompt": "If you observe a drowsy driver, you should:",
+      "prompt": "What should you do if you see a drowsy driver?",
       "choices": [
-        "Pull alongside and honk",
+        "Pull alongside the other car and honk your horn",
         "Find a safe place to stop or ask a passenger to call law enforcement",
-        "Follow closely to keep watch",
-        "Flash your high beams at them"
+        "Follow the other car closely to keep watch",
+        "Flash your high beams at the other driver"
       ],
       "answer": 1,
-      "explain": "Find a safe place to stop or have a passenger call law enforcement."
+      "explain": "You should find a safe place to stop or ask a passenger to call law enforcement."
     },
     {
       "id": "q-imp-drowsy-report-2",
       "item": "imp-drowsy-report",
       "part": 2,
-      "prompt": "When you report a drowsy driver, you should be able to describe:",
+      "prompt": "What should you be able to describe when you report a drowsy driver?",
       "choices": [
         "Only the driver's age",
         "The driver's name",
-        "The location, vehicle and actions you observed",
+        "The location, the vehicle and the actions you saw",
         "Only the time of day"
       ],
       "answer": 2,
-      "explain": "Be able to describe the location, vehicle and actions you observed."
+      "explain": "You should be able to describe the location, the vehicle and the actions you saw."
     },
     {
       "id": "q-imp-bac-08-1",
       "item": "imp-bac-08",
       "part": 2,
-      "prompt": "Drivers age 21 or older are considered to be driving under the influence if their BAC is:",
+      "prompt": "At what blood alcohol content (BAC) is a driver age 21 or older considered to be driving under the influence?",
       "choices": [
-        ".02 percent or higher",
-        ".05 percent or higher",
-        ".08 percent or higher",
-        ".10 percent or higher"
+        "A BAC of .02 percent or higher",
+        "A BAC of .05 percent or higher",
+        "A BAC of .08 percent or higher",
+        "A BAC of .10 percent or higher"
       ],
       "answer": 2,
-      "explain": "For drivers 21 or older, a BAC of .08 percent or higher is DUI."
+      "explain": "A driver age 21 or older is driving under the influence (DUI) with a BAC of .08 percent or higher."
     },
     {
       "id": "q-imp-bac-08-2",
       "item": "imp-bac-08",
       "part": 2,
-      "prompt": "For a driver age 21 or older, a BAC of .08 percent or higher means the driver is:",
+      "prompt": "What does a BAC of .08 percent or higher mean for a driver age 21 or older?",
       "choices": [
-        "Legally driving under the influence (DUI)",
-        "Safe to drive if they feel fine",
-        "Given a warning only",
-        "Legal if driving slowly"
+        "The driver is legally driving under the influence (DUI)",
+        "The driver is safe to drive if they feel fine",
+        "The driver gets only a warning",
+        "The driver is driving legally if they go slowly"
       ],
       "answer": 0,
-      "explain": "A BAC of .08 percent or higher is DUI for drivers 21 or older."
+      "explain": "A driver age 21 or older with a BAC of .08 percent or higher is legally driving under the influence (DUI)."
     },
     {
       "id": "q-imp-bac-impaired-below-1",
       "item": "imp-bac-impaired-below",
       "part": 2,
-      "prompt": "If your driving is impaired, you can be convicted of driving under the influence:",
+      "prompt": "If your driving is impaired, when can you be convicted of driving under the influence?",
       "choices": [
-        "Only if your BAC is .08 or higher",
+        "Only if your BAC is .08 percent or higher",
         "Only if you refuse a breath test",
-        "Even with a BAC lower than .08 percent",
+        "Even if your BAC is lower than .08 percent",
         "Only if you cause a crash"
       ],
       "answer": 2,
-      "explain": "Impaired driving can be a DUI even when your BAC is below .08 percent."
+      "explain": "Impaired driving can be a DUI even when your BAC is lower than .08 percent."
     },
     {
       "id": "q-imp-bac-impaired-below-2",
       "item": "imp-bac-impaired-below",
       "part": 2,
-      "prompt": "A driver with a BAC below .08 percent:",
+      "prompt": "Which statement is true about a driver with a BAC below .08 percent?",
       "choices": [
-        "Can never be charged with DUI",
-        "Is always safe to drive",
-        "Can only get a parking ticket",
-        "Can still be convicted of DUI if their driving is impaired"
+        "The driver can never be charged with DUI",
+        "The driver is always safe to drive",
+        "The driver can get only a parking ticket",
+        "The driver can still be convicted of DUI if their driving is impaired"
       ],
       "answer": 3,
-      "explain": "You can be convicted of DUI with a BAC under .08 if your driving is impaired."
+      "explain": "A driver with a BAC under .08 percent can still be convicted of DUI if their driving is impaired."
     },
     {
       "id": "q-imp-bac-under-21-1",
       "item": "imp-bac-under-21",
       "part": 2,
-      "prompt": "If you are under 21, you can be convicted of illegal consumption of alcohol if your BAC is:",
+      "prompt": "If you are under 21, you can be convicted of illegal consumption of alcohol with what BAC?",
       "choices": [
-        "Only .08 or higher",
-        "At least .02 but less than .08",
-        "Only .10 or higher",
-        "Only over .15"
+        "Only with a BAC of .08 or higher",
+        "With a BAC of at least .02 but less than .08",
+        "Only with a BAC of .10 or higher",
+        "Only with a BAC over .15"
       ],
       "answer": 1,
-      "explain": "Under 21, a BAC of at least .02 but less than .08 is illegal consumption of alcohol."
+      "explain": "If you are under 21, a BAC of at least .02 but less than .08 is illegal consumption of alcohol."
     },
     {
       "id": "q-imp-bac-under-21-2",
       "item": "imp-bac-under-21",
       "part": 2,
-      "prompt": "A driver under age 21 whose BAC is .08 or higher:",
+      "prompt": "Which statement is true about a driver under age 21 whose BAC is .08 or higher?",
       "choices": [
-        "Could be convicted of DUI",
-        "Can only get a warning",
-        "Cannot be charged because of age",
-        "Is charged only if a crash happens"
+        "The driver could be convicted of DUI",
+        "The driver can get only a warning",
+        "The driver cannot be charged because of their age",
+        "The driver is charged only if there is a crash"
       ],
       "answer": 0,
-      "explain": "An under-21 driver with a BAC of .08 or higher could be convicted of DUI."
+      "explain": "A driver under age 21 with a BAC of .08 or higher could be convicted of DUI."
     },
     {
       "id": "q-imp-drunk-late-night-1",
       "item": "imp-drunk-late-night",
       "part": 2,
-      "prompt": "Researchers estimate that between 10 p.m. and 2 a.m., how many drivers are drunk?",
+      "prompt": "According to researchers, about how many drivers are drunk between 10 p.m. and 2 a.m.?",
       "choices": [
-        "Three out of every ten",
-        "One out of every 100",
-        "One out of every 50",
-        "Nine out of every ten"
+        "Three out of every ten drivers",
+        "One out of every 100 drivers",
+        "One out of every 50 drivers",
+        "Nine out of every ten drivers"
       ],
       "answer": 0,
-      "explain": "Between 10 p.m. and 2 a.m., about three out of every ten drivers are drunk."
+      "explain": "Researchers estimate that about three out of every ten drivers are drunk between 10 p.m. and 2 a.m."
     },
     {
       "id": "q-imp-drunk-late-night-2",
       "item": "imp-drunk-late-night",
       "part": 2,
-      "prompt": "In your lifetime, your chance of being involved in an alcohol-related crash is:",
+      "prompt": "In your lifetime, what is your chance of being in an alcohol-related crash?",
       "choices": [
-        "1 in 1,000",
-        "50-50",
-        "1 in 100",
-        "1 in 10,000"
+        "A 1 in 1,000 chance",
+        "A 50-50 chance",
+        "A 1 in 100 chance",
+        "A 1 in 10,000 chance"
       ],
       "answer": 1,
-      "explain": "There is a 50-50 chance you will be in an alcohol-related crash in your lifetime."
+      "explain": "You have a 50-50 chance of being in an alcohol-related crash in your lifetime."
     },
     {
       "id": "q-imp-drunk-late-night-3",
       "item": "imp-drunk-late-night",
       "part": 2,
-      "prompt": "Nearly 50 percent of drivers arrested for DUI are:",
+      "prompt": "Which group makes up nearly 50 percent of the drivers arrested for DUI?",
       "choices": [
-        "Heavy drinkers only",
+        "Only heavy drinkers",
         "Professional truck drivers",
         "Social to moderate drinkers",
         "Drivers over age 70"
       ],
       "answer": 2,
-      "explain": "Nearly half of drivers arrested for DUI are social to moderate drinkers."
+      "explain": "Nearly half of the drivers arrested for DUI are social to moderate drinkers."
     },
     {
       "id": "q-imp-one-drink-1",
       "item": "imp-one-drink",
       "part": 2,
-      "prompt": "Even a small amount of alcohol affects the brain's functions, particularly:",
+      "prompt": "Which brain functions are affected most by even a small amount of alcohol?",
       "choices": [
         "Hearing, taste and smell",
-        "Memory of directions only",
+        "Only the memory of directions",
         "Vision, judgment and coordination",
         "None, if you feel fine"
       ],
       "answer": 2,
-      "explain": "Even a little alcohol affects vision, judgment and coordination."
+      "explain": "Even a little alcohol affects the brain, especially vision, judgment and coordination."
     },
     {
       "id": "q-imp-one-drink-2",
@@ -2144,10 +2144,10 @@
       "part": 2,
       "prompt": "How many alcoholic drinks can affect your driving ability?",
       "choices": [
-        "Three",
-        "Five",
-        "At least six",
-        "Just one"
+        "Three drinks",
+        "Five drinks",
+        "At least six drinks",
+        "Just one drink"
       ],
       "answer": 3,
       "explain": "Just one alcoholic drink can affect your driving ability."
@@ -2156,35 +2156,35 @@
       "id": "q-imp-seven-times-1",
       "item": "imp-seven-times",
       "part": 2,
-      "prompt": "Your chances of being in a crash are how many times greater if you drive after drinking than if you drive sober?",
+      "prompt": "How many times greater is your chance of a crash if you drive after drinking than if you drive sober?",
       "choices": [
-        "Two",
-        "Four",
-        "Seven",
-        "Ten"
+        "Two times",
+        "Four times",
+        "Seven times",
+        "Ten times"
       ],
       "answer": 2,
-      "explain": "Driving after drinking makes your chance of a crash seven times greater than driving sober."
+      "explain": "Your chance of a crash is seven times greater if you drive after drinking than if you drive sober."
     },
     {
       "id": "q-imp-seven-times-2",
       "item": "imp-seven-times",
       "part": 2,
-      "prompt": "Compared to driving sober, driving after drinking makes your chance of a crash:",
+      "prompt": "How does driving after drinking change your chance of a crash, compared with driving sober?",
       "choices": [
-        "About the same",
-        "Twice as great",
-        "Seven times greater",
-        "Lower, if you drive slowly"
+        "It is about the same",
+        "It is twice as great",
+        "It is seven times greater",
+        "It is lower if you drive slowly"
       ],
       "answer": 2,
-      "explain": "Your crash chance is seven times greater if you drive after drinking."
+      "explain": "Driving after drinking makes your chance of a crash seven times greater than driving sober."
     },
     {
       "id": "q-imp-drink-equal-1",
       "item": "imp-drink-equal",
       "part": 2,
-      "prompt": "Twelve ounces of beer is the same as:",
+      "prompt": "What has the same amount of alcohol as twelve ounces of beer?",
       "choices": [
         "A shot of liquor or a five-ounce glass of wine",
         "Two shots of liquor",
@@ -2192,13 +2192,13 @@
         "Half a shot of liquor"
       ],
       "answer": 0,
-      "explain": "Twelve ounces of beer equals a shot of liquor or a five-ounce glass of wine."
+      "explain": "Twelve ounces of beer has the same amount of alcohol as a shot of liquor or a five-ounce glass of wine."
     },
     {
       "id": "q-imp-drink-equal-2",
       "item": "imp-drink-equal",
       "part": 2,
-      "prompt": "Which is the same as a five-ounce glass of wine?",
+      "prompt": "Which has the same amount of alcohol as a five-ounce glass of wine?",
       "choices": [
         "Three shots of liquor",
         "A 24-ounce beer",
@@ -2206,13 +2206,13 @@
         "Twelve ounces of beer"
       ],
       "answer": 3,
-      "explain": "A five-ounce glass of wine is the same as twelve ounces of beer or one shot of liquor."
+      "explain": "A five-ounce glass of wine has the same amount of alcohol as twelve ounces of beer or one shot of liquor."
     },
     {
       "id": "q-imp-only-time-1",
       "item": "imp-only-time",
       "part": 2,
-      "prompt": "The only thing that can decrease intoxication is:",
+      "prompt": "What is the only thing that can sober you up?",
       "choices": [
         "Coffee",
         "Time",
@@ -2220,102 +2220,102 @@
         "Exercise"
       ],
       "answer": 1,
-      "explain": "Only time can decrease intoxication."
+      "explain": "Only time can sober you up. Coffee, a cold shower and exercise will not sober you up."
     },
     {
       "id": "q-imp-only-time-2",
       "item": "imp-only-time",
       "part": 2,
-      "prompt": "A person who has been drinking can sober up faster by:",
+      "prompt": "Which of these can help a person who has been drinking sober up faster?",
       "choices": [
         "Drinking coffee",
         "Taking a cold shower",
         "Exercising",
-        "None of these; only time works"
+        "None of these, because only time works"
       ],
       "answer": 3,
-      "explain": "Coffee, cold showers and exercise will not sober you up; only time works."
+      "explain": "Coffee, cold showers and exercise will not sober you up, because only time works."
     },
     {
       "id": "q-imp-decide-before-1",
       "item": "imp-decide-before",
       "part": 2,
-      "prompt": "The only way to avoid the risks of drinking and driving is to:",
+      "prompt": "What is the only way to avoid the risks of drinking and driving?",
       "choices": [
-        "Drink coffee before you drive",
-        "Decide before you start drinking that you are not going to drive",
-        "Drive slowly with hazard lights on",
-        "Drive only on back roads"
+        "To drink coffee before you drive",
+        "To decide before you start drinking that you are not going to drive",
+        "To drive slowly with your hazard lights on",
+        "To drive only on back roads"
       ],
       "answer": 1,
-      "explain": "Decide before you start drinking that you will not drive."
+      "explain": "The only way to avoid the risks is to decide before you start drinking that you will not drive."
     },
     {
       "id": "q-imp-decide-before-2",
       "item": "imp-decide-before",
       "part": 2,
-      "prompt": "Alcohol-related crashes:",
+      "prompt": "What is true about alcohol-related crashes?",
       "choices": [
-        "Cannot be prevented",
-        "Only happen to heavy drinkers",
-        "Are not accidents and can be prevented",
-        "Only happen after midnight"
+        "They cannot be prevented",
+        "They happen only to heavy drinkers",
+        "They are not accidents and can be prevented",
+        "They happen only after midnight"
       ],
       "answer": 2,
-      "explain": "Alcohol-related crashes are not accidents; they can be prevented."
+      "explain": "Alcohol-related crashes are not accidents, and they can be prevented."
     },
     {
       "id": "q-imp-decide-before-3",
       "item": "imp-decide-before",
       "part": 2,
-      "prompt": "When attending a social event where alcohol will be served, you should:",
+      "prompt": "What should you do when you go to a social event where alcohol will be served?",
       "choices": [
         "Plan ahead for a sober ride home",
-        "Decide after a few drinks",
+        "Decide whether to drive after you have had a few drinks",
         "Drive home on side streets",
-        "Drink coffee before leaving"
+        "Drink coffee before you leave"
       ],
       "answer": 0,
-      "explain": "Plan ahead for a sober driver or another way to get home."
+      "explain": "You should plan ahead for a sober ride home by having a sober driver or using other transportation."
     },
     {
       "id": "q-imp-alcohol-plus-drugs-1",
       "item": "imp-alcohol-plus-drugs",
       "part": 2,
-      "prompt": "Combining alcohol with other drugs:",
+      "prompt": "Which statement is true about combining alcohol with other drugs?",
       "choices": [
-        "Cancels out the alcohol",
-        "Is safe with over-the-counter drugs",
-        "Sobers you up faster",
-        "Usually multiplies the effects of both"
+        "It cancels out the alcohol",
+        "It is safe with over-the-counter drugs",
+        "It sobers you up faster",
+        "It usually multiplies the effects of both"
       ],
       "answer": 3,
-      "explain": "Alcohol with other drugs usually multiplies the effects of both."
+      "explain": "Combining alcohol with other drugs usually multiplies the effects of both."
     },
     {
       "id": "q-imp-alcohol-plus-drugs-2",
       "item": "imp-alcohol-plus-drugs",
       "part": 2,
-      "prompt": "One drink taken with a drug such as aspirin, or allergy or cold medicine:",
+      "prompt": "Which statement is true about having one drink while you are on a drug such as aspirin, allergy medicine or cold medicine?",
       "choices": [
-        "Has no effect on driving",
-        "Could affect your driving like several alcoholic drinks",
-        "Helps you stay alert",
-        "Is safe if you drive slowly"
+        "It has no effect on driving",
+        "It could affect your driving as much as several alcoholic drinks",
+        "It helps you stay alert",
+        "It is safe if you drive slowly"
       ],
       "answer": 1,
-      "explain": "One drink plus another drug can affect your driving like several drinks."
+      "explain": "One drink taken with another drug can affect your driving as much as several drinks."
     },
     {
       "id": "q-imp-meds-1",
       "item": "imp-meds",
       "part": 2,
-      "prompt": "Over-the-counter and prescription drugs for colds, allergies or headaches:",
+      "prompt": "Which statement is true about over-the-counter and prescription drugs for colds, allergies or headaches?",
       "choices": [
-        "Never affect driving",
-        "Can cause drowsiness and dizziness",
-        "Make you a more alert driver",
-        "Only affect drivers over 65"
+        "They never affect driving",
+        "They can cause drowsiness and dizziness",
+        "They make you a more alert driver",
+        "They affect only drivers over 65"
       ],
       "answer": 1,
       "explain": "Many over-the-counter and prescription drugs can cause drowsiness and dizziness."
@@ -2324,15 +2324,15 @@
       "id": "q-imp-meds-2",
       "item": "imp-meds",
       "part": 2,
-      "prompt": "If you are uncertain about the effects of a drug, you should:",
+      "prompt": "What should you do if you are not sure how a drug will affect you?",
       "choices": [
         "Ask your pharmacist or doctor",
         "Take a double dose to test it",
-        "Drive a short distance to see",
-        "Drink coffee with it"
+        "Drive a short distance to see what happens",
+        "Drink coffee with the drug"
       ],
       "answer": 0,
-      "explain": "Ask your pharmacist or doctor if you are unsure how a drug will affect you."
+      "explain": "If you are not sure how a drug will affect you, ask your pharmacist or doctor."
     },
     {
       "id": "q-imp-meds-3",
@@ -2346,55 +2346,55 @@
         "Prescription drugs never cause drowsiness"
       ],
       "answer": 0,
-      "explain": "Almost any drug can reduce your ability to drive safely; no drug is harmless."
+      "explain": "Almost any drug can reduce your ability to drive safely. No drug is harmless."
     },
     {
       "id": "q-imp-drug-dui-1",
       "item": "imp-drug-dui",
       "part": 2,
-      "prompt": "If your driving is impaired because of any drug, you:",
+      "prompt": "If your driving is impaired because of any drug, which statement is true?",
       "choices": [
-        "Can only get a warning",
-        "Face no penalty if the drug is legal",
-        "May face the same penalties as driving under the influence of alcohol",
-        "Face penalties only if you crash"
+        "You can get only a warning",
+        "You face no penalty if the drug is legal",
+        "You may face the same penalties as for driving under the influence of alcohol",
+        "You face penalties only if you crash"
       ],
       "answer": 2,
-      "explain": "Drug-impaired driving can bring the same penalties as alcohol DUI."
+      "explain": "Driving while impaired by any drug can bring the same penalties as driving under the influence of alcohol."
     },
     {
       "id": "q-imp-drug-dui-2",
       "item": "imp-drug-dui",
       "part": 2,
-      "prompt": "For adults over 21 in Virginia, possessing marijuana is legal. Driving under its influence is:",
+      "prompt": "In Virginia, adults over 21 can legally have marijuana. What is the law about driving under the influence of marijuana?",
       "choices": [
-        "Still illegal",
-        "Also legal",
-        "Legal if under the speed limit",
-        "Legal with a passenger"
+        "It is still illegal",
+        "It is also legal",
+        "It is legal if you are under the speed limit",
+        "It is legal if you have a passenger"
       ],
       "answer": 0,
-      "explain": "Driving under the influence of marijuana is still illegal."
+      "explain": "Having marijuana is legal for adults over 21, but driving under the influence of marijuana is still illegal."
     },
     {
       "id": "q-imp-implied-consent-1",
       "item": "imp-implied-consent",
       "part": 2,
-      "prompt": "Under Virginia's implied consent law, if you drive on Virginia's public roads you agree to:",
+      "prompt": "Under Virginia's implied consent law, what do you agree to do if you drive on Virginia's public roads?",
       "choices": [
         "Let police search your phone",
         "Carry two forms of ID",
-        "Take a breath test upon request",
+        "Take a breath test when police ask",
         "Take a road test every year"
       ],
       "answer": 2,
-      "explain": "Under implied consent, driving on public roads means you agree to a breath test upon request."
+      "explain": "Under implied consent, driving on public roads means you agree to take a breath test when police ask."
     },
     {
       "id": "q-imp-implied-consent-2",
       "item": "imp-implied-consent",
       "part": 2,
-      "prompt": "If you are in a crash and an officer has probable cause, you can be arrested for DUI without a warrant up to how long after the crash?",
+      "prompt": "After a crash, an officer with probable cause can arrest you for DUI without a warrant. Up to how long after the crash can this happen?",
       "choices": [
         "Six hours",
         "12 hours",
@@ -2402,31 +2402,31 @@
         "Three hours"
       ],
       "answer": 3,
-      "explain": "You can be arrested for DUI within three hours of a crash without a warrant."
+      "explain": "An officer with probable cause can arrest you for DUI without a warrant within three hours of a crash."
     },
     {
       "id": "q-imp-implied-consent-3",
       "item": "imp-implied-consent",
       "part": 2,
-      "prompt": "After a crash, an officer with probable cause can arrest you for DUI:",
+      "prompt": "Which statement is true about an arrest for DUI after a crash, when an officer has probable cause?",
       "choices": [
-        "Only at the crash scene",
-        "Within three hours of the crash, without a warrant, at any location",
-        "Only with a warrant",
-        "Only if someone is hurt"
+        "You can be arrested only at the crash scene",
+        "You can be arrested within three hours of the crash, without a warrant and at any location",
+        "You can be arrested only with a warrant",
+        "You can be arrested only if someone is hurt"
       ],
       "answer": 1,
-      "explain": "You can be arrested within three hours of the crash without a warrant and at any location."
+      "explain": "An officer with probable cause can arrest you within three hours of the crash, without a warrant and at any location."
     },
     {
       "id": "q-imp-implied-consent-4",
       "item": "imp-implied-consent",
       "part": 2,
-      "prompt": "If police have probable cause to stop you and suspect you have been drinking or using drugs, they will ask you to:",
+      "prompt": "If police have probable cause to stop you and suspect you have been drinking or using drugs, what will they ask you to do?",
       "choices": [
         "Take a road skills test",
         "Take a breath or blood test",
-        "Show your vehicle registration only",
+        "Show only your vehicle registration",
         "Call a sober friend"
       ],
       "answer": 1,
@@ -2436,7 +2436,7 @@
       "id": "q-imp-admin-suspension-1",
       "item": "imp-admin-suspension",
       "part": 2,
-      "prompt": "For a first offense, the automatic license suspension after a breath test refusal or a DUI charge (BAC .08 or higher) lasts:",
+      "prompt": "Suppose you refuse a breath test, or you are charged with DUI at a BAC of .08 or higher. How long is the automatic license suspension for a first offense?",
       "choices": [
         "Seven days",
         "30 days",
@@ -2444,27 +2444,27 @@
         "One year"
       ],
       "answer": 0,
-      "explain": "A first offense brings an automatic seven-day license suspension."
+      "explain": "For a first offense, your license is automatically suspended for seven days."
     },
     {
       "id": "q-imp-admin-suspension-2",
       "item": "imp-admin-suspension",
       "part": 2,
-      "prompt": "For a second DUI offense, the administrative license suspension lasts:",
+      "prompt": "For a second DUI offense, how long does the administrative license suspension last?",
       "choices": [
         "Seven days",
         "Until you turn 21",
-        "60 days or until trial, whichever comes first",
+        "60 days or until the trial, whichever comes first",
         "Six months"
       ],
       "answer": 2,
-      "explain": "A second offense means suspension for 60 days or until trial, whichever comes first."
+      "explain": "For a second offense, the suspension lasts 60 days or until the trial, whichever comes first."
     },
     {
       "id": "q-imp-admin-suspension-3",
       "item": "imp-admin-suspension",
       "part": 2,
-      "prompt": "For a third DUI offense, the administrative license suspension lasts:",
+      "prompt": "For a third DUI offense, how long does the administrative license suspension last?",
       "choices": [
         "Until the trial",
         "Seven days",
@@ -2472,27 +2472,27 @@
         "One year"
       ],
       "answer": 0,
-      "explain": "A third DUI offense means your license is suspended until the trial."
+      "explain": "For a third DUI offense, your license is suspended until the trial."
     },
     {
       "id": "q-imp-admin-suspension-4",
       "item": "imp-admin-suspension",
       "part": 2,
-      "prompt": "If you receive multiple DUI convictions, the suspension/revocation periods:",
+      "prompt": "What happens to the suspension or revocation periods if you receive multiple DUI convictions?",
       "choices": [
-        "Run at the same time",
-        "Are cut in half",
-        "Run consecutively (one after another)",
-        "Are dropped after one year"
+        "They run at the same time",
+        "They are cut in half",
+        "They run consecutively, one after another",
+        "They are dropped after one year"
       ],
       "answer": 2,
-      "explain": "With multiple DUI convictions, the suspension/revocation periods run consecutively."
+      "explain": "With multiple DUI convictions, the suspension or revocation periods run consecutively, one after another."
     },
     {
       "id": "q-imp-open-container-1",
       "item": "imp-open-container",
       "part": 2,
-      "prompt": "For open container laws, the passenger area of a vehicle includes:",
+      "prompt": "Under open container laws, what does the passenger area of a vehicle include?",
       "choices": [
         "Only the back seat",
         "Only the trunk",
@@ -2500,27 +2500,27 @@
         "Any area within the driver's reach, including an unlocked glove compartment"
       ],
       "answer": 3,
-      "explain": "The passenger area is the seating area plus any area within the driver's reach, including an unlocked glove compartment."
+      "explain": "The passenger area includes the seating area and any area within the driver's reach, such as an unlocked glove compartment."
     },
     {
       "id": "q-imp-open-container-2",
       "item": "imp-open-container",
       "part": 2,
-      "prompt": "You may be charged with drinking while operating a motor vehicle if police stop you and:",
+      "prompt": "Police stop you. In which situation may they charge you with drinking while driving?",
       "choices": [
         "A sealed container is in the locked trunk",
-        "An open alcohol container in the passenger area is partly empty and you show signs of drinking",
+        "An open alcohol container in the passenger area is partly empty, and you show signs of drinking",
         "Your passenger is over 21",
         "You have a receipt for alcohol"
       ],
       "answer": 1,
-      "explain": "An open, partly empty container in the passenger area plus signs of drinking can bring this charge."
+      "explain": "An open, partly empty alcohol container in the passenger area, together with signs of drinking, can lead to this charge."
     },
     {
       "id": "q-imp-juvenile-passenger-1",
       "item": "imp-juvenile-passenger",
       "part": 2,
-      "prompt": "A DUI conviction with a passenger age 17 or younger in the vehicle adds a mandatory jail term of:",
+      "prompt": "How much extra mandatory jail time is added to a DUI conviction when a passenger in the vehicle is age 17 or younger?",
       "choices": [
         "One day",
         "Five days",
@@ -2528,13 +2528,13 @@
         "One year"
       ],
       "answer": 1,
-      "explain": "A DUI with a juvenile passenger adds a mandatory five-day jail term."
+      "explain": "A DUI conviction with a passenger age 17 or younger adds a mandatory five-day jail term."
     },
     {
       "id": "q-imp-juvenile-passenger-2",
       "item": "imp-juvenile-passenger",
       "part": 2,
-      "prompt": "If you are convicted of DUI with a juvenile in the vehicle, you may be charged an additional fine of:",
+      "prompt": "What additional fine may you be charged if you are convicted of DUI with a passenger age 17 or younger in the vehicle?",
       "choices": [
         "$50 to $100",
         "$100 to $250",
@@ -2542,27 +2542,27 @@
         "Exactly $2,500"
       ],
       "answer": 2,
-      "explain": "An additional fine of at least $500 and up to $1,000 may be charged."
+      "explain": "You may be charged an additional fine of at least $500 and up to $1,000."
     },
     {
       "id": "q-imp-juvenile-passenger-3",
       "item": "imp-juvenile-passenger",
       "part": 2,
-      "prompt": "A second DUI offense with a juvenile in the vehicle carries an additional:",
+      "prompt": "What additional penalty comes with a second DUI offense when a passenger age 17 or younger is in the vehicle?",
       "choices": [
-        "10-hour driving class",
-        "Warning letter only",
-        "80-hour community service requirement",
-        "$25 fee"
+        "A 10-hour driving class",
+        "A warning letter only",
+        "An 80-hour community service requirement",
+        "A $25 fee"
       ],
       "answer": 2,
-      "explain": "A second DUI with a juvenile aboard adds 80 hours of community service."
+      "explain": "A second DUI offense with a passenger age 17 or younger adds 80 hours of community service."
     },
     {
       "id": "q-imp-impound-1",
       "item": "imp-impound",
       "part": 2,
-      "prompt": "If you drive while your license is suspended for an alcohol-related offense, your vehicle is impounded immediately for:",
+      "prompt": "If you drive while your license is suspended for an alcohol-related offense, your vehicle is impounded immediately. How long is it impounded?",
       "choices": [
         "30 days",
         "Three days",
@@ -2570,13 +2570,13 @@
         "One year"
       ],
       "answer": 0,
-      "explain": "Your vehicle is impounded immediately for 30 days."
+      "explain": "Your vehicle is impounded immediately for 30 days if you drive while your license is suspended for an alcohol-related offense."
     },
     {
       "id": "q-imp-impound-2",
       "item": "imp-impound",
       "part": 2,
-      "prompt": "If you are convicted of driving on an alcohol-related suspension, the court can impound your vehicle for an additional:",
+      "prompt": "If you are convicted of driving while your license is suspended for an alcohol-related offense, for how many more days can the court impound your vehicle?",
       "choices": [
         "30 days",
         "60 days",
@@ -2584,13 +2584,13 @@
         "90 days"
       ],
       "answer": 3,
-      "explain": "The court can impound the vehicle for an additional 90 days."
+      "explain": "After a conviction, the court can impound the vehicle for an additional 90 days."
     },
     {
       "id": "q-imp-impound-3",
       "item": "imp-impound",
       "part": 2,
-      "prompt": "If you drive without a license after a prior conviction for driving without a license, your vehicle is impounded:",
+      "prompt": "How long is your vehicle impounded if you drive without a license after a previous conviction for driving without a license?",
       "choices": [
         "For one year",
         "Until you get a license or for three days, whichever is less",
@@ -2604,7 +2604,7 @@
       "id": "q-imp-restitution-1",
       "item": "imp-restitution",
       "part": 2,
-      "prompt": "After a crash caused by your DUI violation, you may have to pay up to how much for emergency responders' costs?",
+      "prompt": "After a crash caused by your DUI violation, what is the most you may have to pay for the costs of emergency responders?",
       "choices": [
         "$100",
         "$1,000",
@@ -2612,13 +2612,13 @@
         "$5,000"
       ],
       "answer": 1,
-      "explain": "You may have to pay up to $1,000 for the emergency responders."
+      "explain": "You may have to pay up to $1,000 for the cost of the emergency responders who come to the crash."
     },
     {
       "id": "q-imp-restitution-2",
       "item": "imp-restitution",
       "part": 2,
-      "prompt": "Restitution for a DUI crash may pay the cost of:",
+      "prompt": "Restitution for a DUI crash may cover the cost of which of these?",
       "choices": [
         "Your own medical bills",
         "Your car's repairs",
@@ -2626,13 +2626,13 @@
         "Your new driver's license"
       ],
       "answer": 2,
-      "explain": "You may have to pay for the police, EMS, firefighters and rescue personnel who respond."
+      "explain": "You may have to pay the cost of the law enforcement officers, emergency medical services, firefighters and rescue personnel who respond to the crash."
     },
     {
       "id": "q-imp-under-21-penalty-1",
       "item": "imp-under-21-penalty",
       "part": 2,
-      "prompt": "A driver under 21 convicted of driving with a BAC of at least .02 but less than .08 will have their license suspended for:",
+      "prompt": "For how long will a driver under 21 have their license suspended after a conviction for driving with a BAC of at least .02 but less than .08?",
       "choices": [
         "30 days",
         "One year",
@@ -2646,7 +2646,7 @@
       "id": "q-imp-under-21-penalty-2",
       "item": "imp-under-21-penalty",
       "part": 2,
-      "prompt": "Besides the suspension, an under-21 driver convicted of illegal consumption must pay a minimum $500 fine or complete at least:",
+      "prompt": "Besides the suspension, a driver under 21 convicted of driving after illegally drinking must pay a fine of at least $500 or do community service. How many hours is the minimum?",
       "choices": [
         "10 hours of community service",
         "25 hours of community service",
@@ -2654,18 +2654,18 @@
         "50 hours of community service"
       ],
       "answer": 3,
-      "explain": "The penalty includes a $500 minimum fine or at least 50 hours of community service."
+      "explain": "The driver must pay a fine of at least $500 or complete at least 50 hours of community service."
     },
     {
       "id": "q-imp-under-21-penalty-3",
       "item": "imp-under-21-penalty",
       "part": 2,
-      "prompt": "Virginia's law against underage drinking is a:",
+      "prompt": "What kind of law is Virginia's law against underage drinking?",
       "choices": [
-        "Two strikes law",
-        "Implied consent law",
-        "Open container law",
-        "Zero tolerance law"
+        "A two strikes law",
+        "An implied consent law",
+        "An open container law",
+        "A zero tolerance law"
       ],
       "answer": 3,
       "explain": "Virginia has a zero tolerance law against underage drinking."
@@ -2674,7 +2674,7 @@
       "id": "q-imp-under-21-penalty-4",
       "item": "imp-under-21-penalty",
       "part": 2,
-      "prompt": "If you are under age 21, Virginia law says you cannot:",
+      "prompt": "If you are under age 21, what does Virginia law say you cannot do?",
       "choices": [
         "Purchase alcohol",
         "Possess alcohol",
@@ -2688,7 +2688,7 @@
       "id": "q-imp-provide-alcohol-1",
       "item": "imp-provide-alcohol",
       "part": 2,
-      "prompt": "If you provide or sell alcohol to a person under age 21, you are subject to a fine of up to:",
+      "prompt": "What is the highest fine you can face if you provide or sell alcohol to a person under age 21?",
       "choices": [
         "$500",
         "$1,000",
@@ -2702,12 +2702,12 @@
       "id": "q-imp-provide-alcohol-2",
       "item": "imp-provide-alcohol",
       "part": 2,
-      "prompt": "Providing alcoholic beverages to a person who is intoxicated can result in:",
+      "prompt": "What can happen to you if you provide alcoholic beverages to a person who is intoxicated?",
       "choices": [
         "A warning only",
-        "A fine up to $2,500, license suspension up to one year, and 12 months in jail",
+        "A fine of up to $2,500, a license suspension of up to one year, and 12 months in jail",
         "A $50 fine only",
-        "Nothing, if they are over 21"
+        "Nothing, if the person is over 21"
       ],
       "answer": 1,
       "explain": "Providing alcohol to an intoxicated person brings the same penalties as providing it to someone under 21."
@@ -2716,7 +2716,7 @@
       "id": "q-imp-fake-id-1",
       "item": "imp-fake-id",
       "part": 2,
-      "prompt": "If you are under 21 and use a fake ID to try to buy alcohol, your license will be suspended for:",
+      "prompt": "If you are under 21 and use a fake ID to try to buy alcohol, how long will your license be suspended?",
       "choices": [
         "30 days",
         "At least six months but not more than one year",
@@ -2724,13 +2724,13 @@
         "Five years"
       ],
       "answer": 1,
-      "explain": "A fake ID conviction brings a license suspension of six months to one year."
+      "explain": "If you are under 21 and try to buy alcohol with a fake ID, your license is suspended for at least six months but not more than one year."
     },
     {
       "id": "q-imp-fake-id-2",
       "item": "imp-fake-id",
       "part": 2,
-      "prompt": "The penalty for a person under 21 who uses a fake ID to buy alcohol includes:",
+      "prompt": "Which of these penalties applies to a person under 21 who uses a fake ID to buy alcohol?",
       "choices": [
         "A fine of at least $500",
         "At least 50 hours of community service",
@@ -2738,7 +2738,7 @@
         "All of these"
       ],
       "answer": 3,
-      "explain": "Using a fake ID brings at least a $500 fine, 50 hours of service, up to 12 months in jail and a license suspension."
+      "explain": "Using a fake ID brings a fine of at least $500, community service of at least 50 hours, up to 12 months in jail and a license suspension."
     }
   ]
 }

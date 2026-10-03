@@ -6,7 +6,7 @@
       "district": "d01-rookie",
       "kind": "rule",
       "title": "The exam has two parts",
-      "simple": "The knowledge exam has two parts. Part one is road signs. Part two is driving laws and safety. You take it on a computer. Every question comes from the driver's manual.",
+      "simple": "The knowledge exam has two parts. Part one asks about road signs. Part two asks about driving laws and safety. You take it on a computer. Every question comes from the driver's manual.",
       "official": "The two-part knowledge exam is given on a computer and tests your knowledge of traffic signs, motor vehicle laws, and safe driving. Exam questions are taken from information in this manual.",
       "mnemonic": "Part one: signs. Part two: smarts.",
       "manualRef": "Section 1, p. 3"
@@ -16,7 +16,7 @@
       "district": "d01-rookie",
       "kind": "number",
       "title": "All 10 sign questions right",
-      "simple": "Part one has 10 road sign questions. You must get all 10 right. Miss even one, and you cannot go on to part two.",
+      "simple": "Part one has 10 road sign questions. You must get all 10 right. If you miss even one, you cannot go on to part two.",
       "official": "You must correctly answer all ten traffic sign questions in part one of the exam before you can take part two of the exam.",
       "mnemonic": "10 signs, 10 right.",
       "manualRef": "Section 1, p. 3"
@@ -36,7 +36,7 @@
       "district": "d01-rookie",
       "kind": "rule",
       "title": "One try per business day",
-      "simple": "You can take the knowledge exam once each business day. Did not pass? You must wait for another business day to try again.",
+      "simple": "You can take the knowledge exam once each business day. If you do not pass, you must wait for another business day to try again.",
       "official": "The exam may be taken only once per business day.",
       "manualRef": "Section 1, p. 3",
       "mnemonic": "One day, one try."
@@ -46,7 +46,7 @@
       "district": "d01-rookie",
       "kind": "number",
       "title": "Under 18: wait 15 days",
-      "simple": "Under 18 and fail the knowledge exam? You must wait a full 15 days to try again. Fail on January 1? The soonest you can retest is January 17.",
+      "simple": "If you are under 18 and fail the knowledge exam, you must wait a full 15 days to try again. For example, if you fail on January 1, the soonest you can retest is January 17.",
       "official": "If you fail the exam and you are under age 18, by law you must wait a full 15 days before you can retake the exam. For example, if you fail the exam on January 1, the earliest you can take the exam again is January 17.",
       "mnemonic": "Under 18? Fail means wait 15.",
       "manualRef": "Section 1, p. 3"
@@ -56,7 +56,7 @@
       "district": "d01-rookie",
       "kind": "number",
       "title": "Three fails: driver ed first",
-      "simple": "Fail the knowledge exam 3 times? You must pass the classroom part of driver ed before a 4th try. Some people may take a DMV-approved 8-hour course instead.",
+      "simple": "If you fail the knowledge exam 3 times, you must pass the classroom part of driver education before you can try a 4th time. Some people may take a DMV-approved 8-hour course instead.",
       "official": "If you fail the knowledge exam three times, you will not be able to take it a fourth time until you complete and pass the classroom component of driver education. You may have the option of completing an 8-hour course based on the Virginia Driver's Manual and approved by DMV exclusively for satisfying the three-times-failure requirement.",
       "manualRef": "Section 1, p. 3",
       "mnemonic": "Three strikes, back to class."
@@ -66,7 +66,7 @@
       "district": "d01-rookie",
       "kind": "rule",
       "title": "Audio, languages, no translators",
-      "simple": "You can hear the exam read aloud. It comes in many languages and in American Sign Language (ASL). So if your language is offered, you cannot bring a translator.",
+      "simple": "You can hear the exam read aloud. It is offered in many languages and in American Sign Language (ASL). Because of this, you cannot use a translator if the exam is offered in your language.",
       "official": "An audio version of the exam is available and the exam is offered in many different languages and American Sign Language. Therefore, translators may not be used for tests in offered languages.",
       "manualRef": "Section 1, p. 3"
     },
@@ -84,7 +84,7 @@
       "district": "d01-rookie",
       "kind": "rule",
       "title": "Do the exam on your own",
-      "simple": "Do the exam on your own. Do not get help. Do not give help. Do not get or share test questions or answers before the exam.",
+      "simple": "Do the exam on your own. Do not get help from anyone. Do not help anyone else. Do not get or share test questions or answers before the exam.",
       "official": "When testing, you cannot: get help while taking the exam; help another person taking the exam; try to get test questions or answers before the exam; give another person exam questions or answers.",
       "manualRef": "Section 1, p. 3",
       "mnemonic": "No help in, no help out."
@@ -94,7 +94,7 @@
       "district": "d01-rookie",
       "kind": "number",
       "title": "Hands at 8 and 4",
-      "simple": "Sit up straight but relaxed. Think of the steering wheel as a clock. Put your hands at 8 o'clock and 4 o'clock.",
+      "simple": "Sit up straight, but stay relaxed. Think of the steering wheel as a clock. Put your hands at 8 o'clock and 4 o'clock.",
       "official": "Sit straight but relaxed and place your hands on the steering wheel. If your steering wheel were a clock, your hands should be at the 8 o'clock and 4 o'clock positions.",
       "mnemonic": "Clock check: 8 and 4, not 10 and 2.",
       "manualRef": "Section 3, p. 14"
@@ -113,7 +113,7 @@
       "district": "d01-rookie",
       "kind": "sign",
       "title": "Red light: complete stop",
-      "simple": "A red light means stop all the way. Stop at the stop line. No line? Stop before the crosswalk or the intersection. Stay stopped while it is red, unless a turn is allowed.",
+      "simple": "A red light means you must stop all the way. Stop at the stop line. If there is no stop line, stop before the crosswalk or the intersection. Stay stopped while the light is red, unless a turn is allowed.",
       "official": "At a red light, come to a complete stop at the stop line or, if there is no stop line, before entering the intersection or before reaching the crosswalk. Remain stopped as long as the signal is red, unless turns are allowed.",
       "image": "signal-red",
       "mnemonic": "Red: stop and stay.",
@@ -124,7 +124,7 @@
       "district": "d01-rookie",
       "kind": "sign",
       "title": "Green light: go if clear",
-      "simple": "A green light means you may go. But look first. Go only if the way is clear.",
+      "simple": "A green light means you may go. Look first, and go only if the way is clear.",
       "official": "At a green light, you may go if the way is clear.",
       "image": "signal-green",
       "mnemonic": "Green: look, then go.",
@@ -143,20 +143,20 @@
         "Three parts"
       ],
       "answer": 1,
-      "missLine": "The DMV knowledge exam has two parts: signs first, then general knowledge."
+      "missLine": "The DMV knowledge exam has two parts. Part one covers road signs, and part two covers driving laws and safety."
     },
     {
       "id": "ev-rook-exam-two-parts-2",
       "item": "rook-exam-two-parts",
       "kind": "gates",
-      "prompt": "Part one of the DMV exam is about...",
+      "prompt": "What is part one of the DMV exam about?",
       "choices": [
         "Traffic signs",
         "Parking skills",
         "Car repair"
       ],
       "answer": 0,
-      "missLine": "Part one of the DMV exam is all traffic sign questions."
+      "missLine": "Part one of the DMV exam has only traffic sign questions."
     },
     {
       "id": "ev-rook-exam-two-parts-3",
@@ -165,8 +165,8 @@
       "prompt": "Where do DMV exam questions come from?",
       "choices": [
         "The police",
-        "Car owner's manual",
-        "Virginia Driver's Manual"
+        "A car owner's manual",
+        "The Virginia Driver's Manual"
       ],
       "answer": 2,
       "missLine": "Every DMV exam question comes from the Virginia Driver's Manual."
@@ -175,79 +175,79 @@
       "id": "ev-rook-ten-sign-questions-1",
       "item": "rook-ten-sign-questions",
       "kind": "gates",
-      "prompt": "DMV exam part one: how many sign questions?",
+      "prompt": "How many sign questions are in part one of the DMV exam?",
       "choices": [
         "5 questions",
         "10 questions",
         "20 questions"
       ],
       "answer": 1,
-      "missLine": "DMV exam part one has 10 traffic sign questions."
+      "missLine": "Part one of the DMV exam has 10 traffic sign questions."
     },
     {
       "id": "ev-rook-ten-sign-questions-2",
       "item": "rook-ten-sign-questions",
       "kind": "gates",
-      "prompt": "DMV exam: how many sign questions must be right?",
+      "prompt": "How many sign questions must you answer correctly on the DMV exam?",
       "choices": [
-        "All 10",
-        "9 of 10",
-        "8 of 10"
+        "10 out of 10",
+        "9 out of 10",
+        "8 out of 10"
       ],
       "answer": 0,
-      "missLine": "On the DMV exam, all 10 sign questions must be right to reach part two."
+      "missLine": "You must answer all 10 sign questions correctly to reach part two of the DMV exam."
     },
     {
       "id": "ev-rook-ten-sign-questions-3",
       "item": "rook-ten-sign-questions",
       "kind": "gates",
-      "prompt": "DMV exam: a driver misses 1 sign question. Is part two allowed?",
+      "prompt": "If you miss 1 sign question on the DMV exam, can you take part two?",
       "choices": [
         "Yes, right away",
-        "No, not allowed",
-        "Only with help"
+        "No, you cannot",
+        "Yes, but only with help"
       ],
       "answer": 1,
-      "missLine": "On the DMV exam, all 10 sign questions must be right before part two."
+      "missLine": "You must answer all 10 sign questions correctly before you can take part two."
     },
     {
       "id": "ev-rook-part-two-80-percent-1",
       "item": "rook-part-two-80-percent",
       "kind": "gates",
-      "prompt": "DMV exam part two: what percent must be right?",
+      "prompt": "To pass part two of the DMV exam, what percent must you get right?",
       "choices": [
         "50 percent",
         "70 percent",
         "80 percent"
       ],
       "answer": 2,
-      "missLine": "DMV exam part two needs at least 80 percent right to pass."
+      "missLine": "You must answer at least 80 percent correctly to pass part two of the DMV exam."
     },
     {
       "id": "ev-rook-part-two-80-percent-2",
       "item": "rook-part-two-80-percent",
       "kind": "gates",
-      "prompt": "DMV exam part two: how many right of every 10?",
+      "prompt": "In part two of the DMV exam, how many of every 10 must you get right?",
       "choices": [
-        "6 of 10",
-        "8 of 10",
-        "10 of 10"
+        "6 out of 10",
+        "8 out of 10",
+        "10 out of 10"
       ],
       "answer": 1,
-      "missLine": "DMV exam part two needs 80 percent, at least 8 of every 10."
+      "missLine": "You must get at least 80 percent right in part two. That is at least 8 out of every 10."
     },
     {
       "id": "ev-rook-part-two-80-percent-3",
       "item": "rook-part-two-80-percent",
       "kind": "gates",
-      "prompt": "Which DMV exam part needs 80 percent to pass?",
+      "prompt": "In which part of the DMV exam must you get 80 percent right to pass?",
       "choices": [
-        "Part two (general)",
-        "Part one (signs)",
+        "Part two",
+        "Part one",
         "Both parts"
       ],
       "answer": 0,
-      "missLine": "On the DMV exam, part two needs 80 percent and part one needs all 10 right."
+      "missLine": "You must get 80 percent right in part two. In part one, you must get all 10 sign questions right."
     },
     {
       "id": "ev-rook-once-per-day-1",
@@ -256,34 +256,34 @@
       "prompt": "How often can you take the DMV knowledge exam?",
       "choices": [
         "Once a business day",
-        "Twice a day",
+        "Twice a business day",
         "Any time you like"
       ],
       "answer": 0,
-      "missLine": "You get one DMV exam try each business day."
+      "missLine": "You can take the DMV exam only once each business day."
     },
     {
       "id": "ev-rook-once-per-day-2",
       "item": "rook-once-per-day",
       "kind": "gates",
-      "prompt": "Failed the DMV exam this morning. Retake it this afternoon?",
+      "prompt": "If you failed the DMV exam this morning, can you retake it this afternoon?",
       "choices": [
         "Yes, right away",
         "Yes, with a note",
         "No, not today"
       ],
       "answer": 2,
-      "missLine": "The DMV exam allows one try per business day, so return another day."
+      "missLine": "You can take the DMV exam only once per business day, so come back on another business day."
     },
     {
       "id": "ev-rook-once-per-day-3",
       "item": "rook-once-per-day",
       "kind": "gates",
-      "prompt": "How many DMV exam tries per business day?",
+      "prompt": "How many times can you take the DMV exam each business day?",
       "choices": [
-        "1 try",
-        "2 tries",
-        "3 tries"
+        "1 time",
+        "2 times",
+        "3 times"
       ],
       "answer": 0,
       "missLine": "You may take the DMV knowledge exam once per business day."
@@ -292,27 +292,27 @@
       "id": "ev-rook-under-18-wait-15-1",
       "item": "rook-under-18-wait-15",
       "kind": "gates",
-      "prompt": "A driver under 18 fails the DMV exam. How long to wait?",
+      "prompt": "How long must a driver under 18 wait after failing the DMV exam?",
       "choices": [
         "7 days",
         "15 days",
         "30 days"
       ],
       "answer": 1,
-      "missLine": "Under 18? After failing the DMV exam, wait a full 15 days to retest."
+      "missLine": "If you are under 18 and fail the DMV exam, you must wait a full 15 days to retake it."
     },
     {
       "id": "ev-rook-under-18-wait-15-2",
       "item": "rook-under-18-wait-15",
       "kind": "gates",
-      "prompt": "Under 18, failed the DMV exam on January 1. Earliest retest?",
+      "prompt": "After failing the DMV exam on January 1, when can a driver under 18 first retest?",
       "choices": [
-        "January 2",
-        "January 8",
-        "January 17"
+        "On January 2",
+        "On January 8",
+        "On January 17"
       ],
       "answer": 2,
-      "missLine": "Under 18 and fail the DMV exam on January 1? Earliest retest is January 17."
+      "missLine": "If you are under 18 and fail the DMV exam on January 1, the earliest you can retest is January 17."
     },
     {
       "id": "ev-rook-under-18-wait-15-3",
@@ -320,103 +320,103 @@
       "kind": "gates",
       "prompt": "Who must wait 15 days after failing the DMV exam?",
       "choices": [
-        "18 and older",
-        "Under 18",
+        "People 18 and older",
+        "People under 18",
         "Everyone"
       ],
       "answer": 1,
-      "missLine": "If you are under 18, wait a full 15 days after failing the DMV exam."
+      "missLine": "If you are under 18, you must wait a full 15 days after failing the DMV exam."
     },
     {
       "id": "ev-rook-three-fails-1",
       "item": "rook-three-fails",
       "kind": "gates",
-      "prompt": "Failed the DMV exam 3 times. What is required next?",
+      "prompt": "If you fail the DMV exam 3 times, what must you do next?",
       "choices": [
-        "Retake it tomorrow",
-        "Classroom driver ed",
-        "Bring a translator"
+        "Retake the exam tomorrow",
+        "Pass classroom driver ed",
+        "Bring a translator along"
       ],
       "answer": 1,
-      "missLine": "After 3 DMV exam fails, pass classroom driver ed before a 4th try."
+      "missLine": "After you fail the DMV exam 3 times, you must pass the classroom part of driver ed before a 4th try."
     },
     {
       "id": "ev-rook-three-fails-2",
       "item": "rook-three-fails",
       "kind": "gates",
-      "prompt": "How many DMV exam fails until driver ed is required?",
+      "prompt": "After how many failures of the DMV exam is driver ed required?",
       "choices": [
-        "1 fail",
-        "2 fails",
-        "3 fails"
+        "After 1 failure",
+        "After 2 failures",
+        "After 3 failures"
       ],
       "answer": 2,
-      "missLine": "Fail the DMV exam 3 times, and you need driver ed before retesting."
+      "missLine": "If you fail the DMV exam 3 times, you need driver ed before you can retest."
     },
     {
       "id": "ev-rook-three-fails-3",
       "item": "rook-three-fails",
       "kind": "gates",
-      "prompt": "After 3 DMV exam fails, which DMV-approved course may count?",
+      "prompt": "After you fail the DMV exam 3 times, which DMV-approved course may you take?",
       "choices": [
-        "2-hour course",
-        "4-hour course",
-        "8-hour course"
+        "A 2-hour course",
+        "A 4-hour course",
+        "An 8-hour course"
       ],
       "answer": 2,
-      "missLine": "After 3 DMV exam fails, you may be able to take a DMV-approved 8-hour course."
+      "missLine": "After you fail the DMV exam 3 times, you may be able to take a DMV-approved 8-hour course."
     },
     {
       "id": "ev-rook-exam-languages-1",
       "item": "rook-exam-languages",
       "kind": "gates",
-      "prompt": "The DMV exam is in your language. Bring a translator?",
+      "prompt": "If the DMV exam is offered in your language, can you bring a translator?",
       "choices": [
-        "Yes, bring one",
-        "No, not allowed",
-        "Only for part two"
+        "Yes, you can bring one",
+        "No, you cannot",
+        "Yes, but only for part two"
       ],
       "answer": 1,
-      "missLine": "The DMV exam offers your language, so you cannot use a translator."
+      "missLine": "The DMV exam is offered in your language, so you cannot use a translator."
     },
     {
       "id": "ev-rook-exam-languages-2",
       "item": "rook-exam-languages",
       "kind": "gates",
-      "prompt": "At the DMV exam, how can questions be read aloud?",
+      "prompt": "How can you have the DMV exam read aloud to you?",
       "choices": [
         "Use the audio version",
-        "Ask a friend to read",
+        "Ask a friend to read it",
         "Bring a translator"
       ],
       "answer": 0,
-      "missLine": "You can use the audio version of the DMV exam."
+      "missLine": "You can use the audio version of the DMV exam to hear it read aloud."
     },
     {
       "id": "ev-rook-exam-languages-3",
       "item": "rook-exam-languages",
       "kind": "gates",
-      "prompt": "The DMV exam comes in...",
+      "prompt": "How is the DMV exam offered?",
       "choices": [
-        "English only",
-        "Paper form only",
-        "Many languages and ASL"
+        "In English only",
+        "On paper only",
+        "In many languages and ASL"
       ],
       "answer": 2,
-      "missLine": "The DMV exam comes in many languages and American Sign Language."
+      "missLine": "The DMV exam is offered in many languages and in American Sign Language."
     },
     {
       "id": "ev-rook-no-cell-phone-1",
       "item": "rook-no-cell-phone",
       "kind": "gates",
-      "prompt": "During the DMV exam, your phone is...",
+      "prompt": "What must you do with your phone during the DMV exam?",
       "choices": [
-        "In your hand",
-        "Put away",
-        "On the desk"
+        "Hold it in your hand",
+        "Put it away",
+        "Set it on the desk"
       ],
       "answer": 1,
-      "missLine": "No cell phone during the DMV exam, so put it away."
+      "missLine": "You cannot use a cell phone during the DMV exam, so put it away."
     },
     {
       "id": "ev-rook-no-cell-phone-2",
@@ -435,33 +435,33 @@
       "id": "ev-rook-no-cell-phone-3",
       "item": "rook-no-cell-phone",
       "kind": "gates",
-      "prompt": "Your phone buzzes during the DMV exam. You...",
+      "prompt": "What should you do if your phone buzzes during the DMV exam?",
       "choices": [
         "Leave it alone",
-        "Check it fast",
+        "Check it quickly",
         "Text back"
       ],
       "answer": 0,
-      "missLine": "Leave your phone alone, since no cell phone is allowed during the DMV exam."
+      "missLine": "Leave your phone alone, because you cannot use a cell phone during the DMV exam."
     },
     {
       "id": "ev-rook-no-help-1",
       "item": "rook-no-help",
       "kind": "gates",
-      "prompt": "A friend offers you DMV exam answers. You...",
+      "prompt": "What should you do if a friend offers you DMV exam answers?",
       "choices": [
         "Take them",
         "Say no",
         "Share them"
       ],
       "answer": 1,
-      "missLine": "Say no, because you cannot get DMV exam questions or answers early."
+      "missLine": "Say no, because you cannot get questions or answers before the DMV exam."
     },
     {
       "id": "ev-rook-no-help-2",
       "item": "rook-no-help",
       "kind": "gates",
-      "prompt": "DMV exam: the person next to you is stuck. You...",
+      "prompt": "During the DMV exam, what should you do if the person next to you is stuck?",
       "choices": [
         "Whisper the answer",
         "Point at the answer",
@@ -478,7 +478,7 @@
       "choices": [
         "No, never",
         "Yes, a little",
-        "Only on part two"
+        "Yes, but only on part two"
       ],
       "answer": 0,
       "missLine": "You cannot get help during the DMV exam, so do it on your own."
@@ -487,24 +487,24 @@
       "id": "ev-rook-hand-position-1",
       "item": "rook-hand-position",
       "kind": "gates",
-      "prompt": "Picture a real steering wheel as a clock. Where do hands go?",
+      "prompt": "If you picture a real steering wheel as a clock, where should your hands go?",
       "choices": [
-        "8 and 4",
-        "10 and 2",
-        "12 and 6"
+        "At 8 and 4",
+        "At 10 and 2",
+        "At 12 and 6"
       ],
       "answer": 0,
-      "missLine": "On a real steering wheel, picture a clock: hands go at 8 and 4."
+      "missLine": "On a real steering wheel, your hands go at 8 o'clock and 4 o'clock."
     },
     {
       "id": "ev-rook-hand-position-2",
       "item": "rook-hand-position",
       "kind": "gates",
-      "prompt": "In a real car, hands go at which clock spots?",
+      "prompt": "In a real car, at which clock positions should your hands go?",
       "choices": [
-        "9 and 3",
-        "7 and 5",
-        "8 and 4"
+        "At 9 and 3",
+        "At 7 and 5",
+        "At 8 and 4"
       ],
       "answer": 2,
       "missLine": "In a real car, your hands go at 8 o'clock and 4 o'clock."
@@ -515,57 +515,57 @@
       "kind": "gates",
       "prompt": "In a real car, how should you sit to drive?",
       "choices": [
-        "Straight but relaxed",
-        "Leaning far back",
-        "Leaning on the door"
+        "Sit straight but relaxed",
+        "Lean far back in the seat",
+        "Lean against the car door"
       ],
       "answer": 0,
-      "missLine": "Sit straight but relaxed, with hands at 8 and 4."
+      "missLine": "Sit straight but relaxed, and keep your hands at 8 o'clock and 4 o'clock."
     },
     {
       "id": "ev-rook-grip-fingers-1",
       "item": "rook-grip-fingers",
       "kind": "gates",
-      "prompt": "In a real car, hold the steering wheel with your...",
+      "prompt": "In a real car, how should you hold the steering wheel?",
       "choices": [
-        "Fingers and thumbs",
-        "Palms",
-        "Wrists"
+        "With your fingers and thumbs",
+        "With your palms",
+        "With your wrists"
       ],
       "answer": 0,
-      "missLine": "Hold the wheel with your fingers and thumbs, not your palms."
+      "missLine": "Hold the wheel with your fingers and thumbs. Do not grip it with your palms."
     },
     {
       "id": "ev-rook-grip-fingers-2",
       "item": "rook-grip-fingers",
       "kind": "gates",
-      "prompt": "In a real car, which steering wheel grip is right?",
+      "prompt": "In a real car, how should you grip the steering wheel?",
       "choices": [
-        "Palms wrapped tight",
-        "One hand at 12",
-        "Fingers and thumbs"
+        "With palms wrapped tight",
+        "With one hand at 12",
+        "With fingers and thumbs"
       ],
       "answer": 2,
-      "missLine": "Use your fingers and thumbs. Avoid gripping with your palms."
+      "missLine": "Hold the wheel with your fingers and thumbs. Avoid gripping it with your palms."
     },
     {
       "id": "ev-rook-red-light-1",
       "item": "rook-red-light",
       "kind": "action",
-      "prompt": "Red light ahead!",
+      "prompt": "A red light is ahead!",
       "prop": "traffic-light-red",
       "action": "stop",
-      "missLine": "Red light means a complete stop at the stop line."
+      "missLine": "A red light means you must come to a complete stop at the stop line."
     },
     {
       "id": "ev-rook-red-light-2",
       "item": "rook-red-light",
       "kind": "action",
-      "prompt": "Red light in the rain.",
+      "prompt": "The light is red, and it is raining.",
       "prop": "traffic-light-red",
       "weather": "rain",
       "action": "stop",
-      "missLine": "At a red light, always come to a complete stop."
+      "missLine": "At a red light, you must come to a complete stop."
     },
     {
       "id": "ev-rook-red-light-3",
@@ -576,16 +576,16 @@
       "choices": [
         "Slow down",
         "Stop all the way",
-        "Go if clear"
+        "Go if the way is clear"
       ],
       "answer": 1,
-      "missLine": "A red light means come to a complete stop."
+      "missLine": "A red light means you must come to a complete stop."
     },
     {
       "id": "ev-rook-red-light-4",
       "item": "rook-red-light",
       "kind": "gates",
-      "prompt": "Red light, no stop line. Where do you stop?",
+      "prompt": "At a red light with no stop line, where do you stop?",
       "image": "signal-red",
       "choices": [
         "Before the crosswalk",
@@ -593,13 +593,13 @@
         "In the intersection"
       ],
       "answer": 0,
-      "missLine": "No stop line? Stop before the crosswalk or intersection."
+      "missLine": "If there is no stop line, stop before the crosswalk or the intersection."
     },
     {
       "id": "ev-rook-red-light-5",
       "item": "rook-red-light",
       "kind": "action",
-      "prompt": "Red signal. Stop line ahead.",
+      "prompt": "The signal is red. A stop line is ahead.",
       "prop": "stop-line",
       "sign": "signal-red",
       "weather": "fog",
@@ -610,16 +610,16 @@
       "id": "ev-rook-green-light-1",
       "item": "rook-green-light",
       "kind": "action",
-      "prompt": "Green light. The way is clear.",
+      "prompt": "The light is green and the way is clear.",
       "prop": "traffic-light-green",
       "action": "go",
-      "missLine": "Green and clear means you may go."
+      "missLine": "When the light is green and the way is clear, you may go."
     },
     {
       "id": "ev-rook-green-light-2",
       "item": "rook-green-light",
       "kind": "action",
-      "prompt": "Green light at night. Road is clear.",
+      "prompt": "It is night, the light is green, and the road is clear.",
       "prop": "traffic-light-green",
       "weather": "night",
       "action": "go",
@@ -637,7 +637,7 @@
         "Go if the way is clear"
       ],
       "answer": 2,
-      "missLine": "Green means you may go, but only if the way is clear."
+      "missLine": "A green light means you may go, but only if the way is clear."
     }
   ],
   "questions": [
@@ -645,21 +645,21 @@
       "id": "q-rook-exam-two-parts-1",
       "item": "rook-exam-two-parts",
       "part": 2,
-      "prompt": "The Virginia knowledge exam is given:",
+      "prompt": "How is the Virginia knowledge exam given?",
       "choices": [
         "On paper, in one part",
-        "Out loud by a police officer",
+        "Out loud, by a police officer",
         "On a computer, in two parts",
-        "During the road skills test"
+        "As part of the road skills test"
       ],
       "answer": 2,
-      "explain": "The two-part knowledge exam is given on a computer."
+      "explain": "The knowledge exam has two parts, and you take it on a computer."
     },
     {
       "id": "q-rook-exam-two-parts-2",
       "item": "rook-exam-two-parts",
       "part": 2,
-      "prompt": "The DMV knowledge exam tests your knowledge of:",
+      "prompt": "What does the DMV knowledge exam test?",
       "choices": [
         "Traffic signs",
         "Motor vehicle laws",
@@ -667,27 +667,27 @@
         "All of these"
       ],
       "answer": 3,
-      "explain": "The DMV knowledge exam tests traffic signs, motor vehicle laws and safe driving."
+      "explain": "The DMV knowledge exam tests traffic signs, motor vehicle laws, and safe driving."
     },
     {
       "id": "q-rook-exam-two-parts-3",
       "item": "rook-exam-two-parts",
       "part": 2,
-      "prompt": "Questions on the DMV knowledge exam are taken from:",
+      "prompt": "Where do the questions on the DMV knowledge exam come from?",
       "choices": [
-        "Information in the Virginia Driver's Manual",
+        "The Virginia Driver's Manual",
         "Your car owner's manual",
         "Your driving instructor's notes",
         "Traffic court cases"
       ],
       "answer": 0,
-      "explain": "DMV exam questions are taken from information in the Virginia Driver's Manual."
+      "explain": "The DMV exam questions come from information in the Virginia Driver's Manual."
     },
     {
       "id": "q-rook-ten-sign-questions-1",
       "item": "rook-ten-sign-questions",
       "part": 2,
-      "prompt": "To be allowed to take part two of the DMV knowledge exam, you must:",
+      "prompt": "What must you do before you can take part two of the DMV knowledge exam?",
       "choices": [
         "Answer all 10 traffic sign questions correctly",
         "Answer at least 8 of the 10 sign questions correctly",
@@ -695,13 +695,13 @@
         "Answer half of the sign questions correctly"
       ],
       "answer": 0,
-      "explain": "On the DMV exam, you must correctly answer all ten traffic sign questions before you can take part two."
+      "explain": "You must answer all ten traffic sign questions correctly before you can take part two."
     },
     {
       "id": "q-rook-ten-sign-questions-2",
       "item": "rook-ten-sign-questions",
       "part": 2,
-      "prompt": "Part one of the DMV knowledge exam has how many traffic sign questions?",
+      "prompt": "How many traffic sign questions are in part one of the DMV knowledge exam?",
       "choices": [
         "Twenty",
         "Five",
@@ -709,27 +709,27 @@
         "Ten"
       ],
       "answer": 3,
-      "explain": "Part one of the DMV exam has ten traffic sign questions, and you must get all ten right."
+      "explain": "Part one of the DMV exam has ten traffic sign questions, and you must answer all ten correctly."
     },
     {
       "id": "q-rook-ten-sign-questions-3",
       "item": "rook-ten-sign-questions",
       "part": 2,
-      "prompt": "On the DMV knowledge exam, a driver who misses one sign question in part one:",
+      "prompt": "What happens if you miss one sign question in part one of the DMV knowledge exam?",
       "choices": [
-        "Can still take part two",
-        "Gets a lower score but still takes part two",
-        "Cannot take part two",
-        "Only retakes that one question"
+        "You can still take part two",
+        "You get a lower score but still take part two",
+        "You cannot take part two",
+        "You retake only that one question"
       ],
       "answer": 2,
-      "explain": "On the DMV exam, all ten sign questions must be correct before you can take part two."
+      "explain": "You must answer all ten sign questions correctly before you can take part two."
     },
     {
       "id": "q-rook-part-two-80-percent-1",
       "item": "rook-part-two-80-percent",
       "part": 2,
-      "prompt": "To pass part two of the DMV knowledge exam, you must answer at least what percent of the questions correctly?",
+      "prompt": "What is the lowest percent of questions you must answer correctly to pass part two of the DMV knowledge exam?",
       "choices": [
         "70 percent",
         "75 percent",
@@ -737,21 +737,21 @@
         "90 percent"
       ],
       "answer": 2,
-      "explain": "You must answer at least 80 percent of DMV exam part two questions correctly to pass."
+      "explain": "You must answer at least 80 percent of the part two questions correctly to pass."
     },
     {
       "id": "q-rook-part-two-80-percent-2",
       "item": "rook-part-two-80-percent",
       "part": 2,
-      "prompt": "Part two of the DMV knowledge exam is made up of:",
+      "prompt": "What is part two of the DMV knowledge exam made up of?",
       "choices": [
-        "Multiple choice general knowledge questions",
-        "Traffic sign questions only",
+        "Multiple-choice questions about general knowledge",
+        "Only traffic sign questions",
         "A driving test on the road",
         "A vision screening"
       ],
       "answer": 0,
-      "explain": "Part two of the DMV exam tests your general knowledge with multiple choice questions."
+      "explain": "Part two of the DMV exam tests your general knowledge with multiple-choice questions."
     },
     {
       "id": "q-rook-part-two-80-percent-3",
@@ -759,19 +759,19 @@
       "part": 2,
       "prompt": "Which statement about the DMV knowledge exam is true?",
       "choices": [
-        "Part one needs 80 percent; part two needs every answer right",
-        "Part one needs all 10 sign questions right; part two needs at least 80 percent",
-        "Both parts need 70 percent",
+        "Part one needs 80 percent correct, and part two needs every answer correct",
+        "Part one needs all 10 sign questions correct, and part two needs at least 80 percent correct",
+        "Both parts need 70 percent correct",
         "Only part two counts toward passing"
       ],
       "answer": 1,
-      "explain": "On the DMV exam, part one needs all ten sign questions right, and part two needs at least 80 percent."
+      "explain": "Part one needs all ten sign questions correct, and part two needs at least 80 percent correct."
     },
     {
       "id": "q-rook-once-per-day-1",
       "item": "rook-once-per-day",
       "part": 2,
-      "prompt": "The DMV knowledge exam may be taken:",
+      "prompt": "How often may you take the DMV knowledge exam?",
       "choices": [
         "Up to three times a day",
         "Only once per week",
@@ -779,31 +779,31 @@
         "Only once per business day"
       ],
       "answer": 3,
-      "explain": "The DMV knowledge exam may be taken only once per business day."
+      "explain": "You may take the DMV knowledge exam only once per business day."
     },
     {
       "id": "q-rook-once-per-day-2",
       "item": "rook-once-per-day",
       "part": 2,
-      "prompt": "If you fail the DMV knowledge exam in the morning, you:",
+      "prompt": "Which statement is true if you fail the DMV knowledge exam in the morning?",
       "choices": [
-        "May retake it that afternoon",
-        "May not retake it that same business day",
-        "May retake it right away at another computer",
-        "May retake it the same day if a parent signs"
+        "You may retake it that afternoon",
+        "You may not retake it that same business day",
+        "You may retake it right away at another computer",
+        "You may retake it the same day if a parent signs"
       ],
       "answer": 1,
-      "explain": "The DMV exam may be taken only once per business day."
+      "explain": "You may take the DMV exam only once per business day, so you must wait for another business day."
     },
     {
       "id": "q-rook-under-18-wait-15-1",
       "item": "rook-under-18-wait-15",
       "part": 2,
-      "prompt": "If you are under age 18 and fail the DMV knowledge exam, you must:",
+      "prompt": "What must you do if you are under age 18 and fail the DMV knowledge exam?",
       "choices": [
         "Wait until the next business day",
         "Wait until you turn 18",
-        "Wait a full 15 days before retaking it",
+        "Wait a full 15 days",
         "Retake it right away"
       ],
       "answer": 2,
@@ -813,7 +813,7 @@
       "id": "q-rook-under-18-wait-15-2",
       "item": "rook-under-18-wait-15",
       "part": 2,
-      "prompt": "A 16-year-old fails the DMV knowledge exam on January 1. The earliest they can take it again is:",
+      "prompt": "A 16-year-old fails the DMV knowledge exam on January 1. What is the earliest date they can take it again?",
       "choices": [
         "January 2",
         "January 8",
@@ -821,27 +821,27 @@
         "January 17"
       ],
       "answer": 3,
-      "explain": "Under 18, you must wait a full 15 days after failing the DMV exam, so a January 1 fail means January 17 at the earliest."
+      "explain": "If you are under 18, you must wait a full 15 days. If you fail on January 1, you can retest on January 17 at the earliest."
     },
     {
       "id": "q-rook-three-fails-1",
       "item": "rook-three-fails",
       "part": 2,
-      "prompt": "If you fail the DMV knowledge exam three times, you:",
+      "prompt": "Which statement is true if you fail the DMV knowledge exam three times?",
       "choices": [
-        "May take it again the next business day",
-        "Must pass the classroom part of driver education before a fourth try",
-        "Can never take it again",
-        "Must pass the road skills test first"
+        "You may take it again the next business day",
+        "You must pass the classroom part of driver education before a fourth try",
+        "You can never take it again",
+        "You must pass the road skills test before a fourth try"
       ],
       "answer": 1,
-      "explain": "After three DMV exam fails, you must complete and pass classroom driver education before a fourth try."
+      "explain": "After you fail the DMV exam three times, you must pass the classroom part of driver education before a fourth try."
     },
     {
       "id": "q-rook-three-fails-2",
       "item": "rook-three-fails",
       "part": 2,
-      "prompt": "If you are 18 or older and have failed the DMV knowledge exam three times, you may:",
+      "prompt": "What may you do if you are 18 or older and have failed the DMV knowledge exam three times?",
       "choices": [
         "Complete a DMV-approved 8-hour course on the manual, then retest",
         "Retake the exam the next business day",
@@ -849,7 +849,7 @@
         "Take only part two of the exam"
       ],
       "answer": 0,
-      "explain": "Adults who fail the DMV exam three times may complete a DMV-approved 8-hour course based on the manual."
+      "explain": "An adult who fails the DMV exam three times may complete a DMV-approved 8-hour course based on the manual."
     },
     {
       "id": "q-rook-exam-languages-1",
@@ -869,7 +869,7 @@
       "id": "q-rook-exam-languages-2",
       "item": "rook-exam-languages",
       "part": 2,
-      "prompt": "Translators may not be used for DMV knowledge tests in offered languages because:",
+      "prompt": "Why can't you bring a translator to the DMV knowledge exam if it is offered in your language?",
       "choices": [
         "Translators cost too much",
         "The exam is offered in many languages and American Sign Language",
@@ -877,18 +877,18 @@
         "An examiner reads every question out loud"
       ],
       "answer": 1,
-      "explain": "The DMV exam comes in many languages and ASL, so translators are not allowed for offered languages."
+      "explain": "The DMV exam comes in many languages and in American Sign Language, so you cannot use a translator for a language it offers."
     },
     {
       "id": "q-rook-no-cell-phone-1",
       "item": "rook-no-cell-phone",
       "part": 2,
-      "prompt": "While taking the DMV knowledge exam, you:",
+      "prompt": "Which statement about cell phones is true while you take the DMV knowledge exam?",
       "choices": [
-        "May use a cell phone to look up answers",
-        "May text a friend for help",
-        "May not use a cell phone",
-        "May use a cell phone on part two only"
+        "You may use a cell phone to look up answers",
+        "You may text a friend for help",
+        "You may not use a cell phone",
+        "You may use a cell phone on part two only"
       ],
       "answer": 2,
       "explain": "You cannot use a cell phone during the DMV exam."
@@ -911,40 +911,40 @@
       "id": "q-rook-no-help-1",
       "item": "rook-no-help",
       "part": 2,
-      "prompt": "When taking the DMV knowledge exam, you cannot:",
+      "prompt": "What are you not allowed to do when you take the DMV knowledge exam?",
       "choices": [
-        "Get help while taking the exam",
-        "Help another person taking the exam",
+        "Get help while you take the exam",
+        "Help another person who is taking the exam",
         "Try to get test questions or answers before the exam",
         "All of these"
       ],
       "answer": 3,
-      "explain": "You cannot get help, give help, or try to get questions or answers before the DMV exam."
+      "explain": "You cannot get help or help another person during the exam. You also cannot try to get questions or answers before it."
     },
     {
       "id": "q-rook-no-help-2",
       "item": "rook-no-help",
       "part": 2,
-      "prompt": "A friend who already took the DMV exam offers you its questions and answers. You should:",
+      "prompt": "A friend who already took the DMV exam offers you its questions and answers. What should you do?",
       "choices": [
         "Study them the night before",
-        "Say no; this is not allowed",
+        "Say no, because this is not allowed",
         "Share them with other students",
         "Bring them with you to the exam"
       ],
       "answer": 1,
-      "explain": "You cannot try to get DMV exam questions or answers before the exam."
+      "explain": "You may not try to get DMV exam questions or answers before the exam, so you should say no."
     },
     {
       "id": "q-rook-hand-position-1",
       "item": "rook-hand-position",
       "part": 2,
-      "prompt": "If your steering wheel were a clock, your hands should be at:",
+      "prompt": "If your steering wheel were a clock, where should your hands be?",
       "choices": [
-        "10 o'clock and 2 o'clock",
-        "9 o'clock and 3 o'clock",
-        "8 o'clock and 4 o'clock",
-        "12 o'clock and 6 o'clock"
+        "At 10 o'clock and 2 o'clock",
+        "At 9 o'clock and 3 o'clock",
+        "At 8 o'clock and 4 o'clock",
+        "At 12 o'clock and 6 o'clock"
       ],
       "answer": 2,
       "explain": "Your hands should be at the 8 o'clock and 4 o'clock positions."
@@ -953,93 +953,93 @@
       "id": "q-rook-hand-position-2",
       "item": "rook-hand-position",
       "part": 2,
-      "prompt": "The correct hand position on the steering wheel is:",
+      "prompt": "Which hand position on the steering wheel is correct?",
       "choices": [
-        "8 o'clock and 4 o'clock",
+        "Hands at 8 o'clock and 4 o'clock",
         "One hand at 12 o'clock",
-        "10 o'clock and 2 o'clock",
+        "Hands at 10 o'clock and 2 o'clock",
         "Both hands at 6 o'clock"
       ],
       "answer": 0,
-      "explain": "Place your hands at 8 o'clock and 4 o'clock on the wheel."
+      "explain": "You should place your hands at the 8 o'clock and 4 o'clock positions on the wheel."
     },
     {
       "id": "q-rook-hand-position-3",
       "item": "rook-hand-position",
       "part": 2,
-      "prompt": "When you place your hands on the steering wheel, you should sit:",
+      "prompt": "How should you sit when you place your hands on the steering wheel?",
       "choices": [
         "Leaning back as far as you can",
         "Leaning on the door",
-        "Straight but relaxed",
-        "As close to the wheel as possible"
+        "Sitting straight but relaxed",
+        "Sitting as close to the wheel as possible"
       ],
       "answer": 2,
-      "explain": "Sit straight but relaxed with your hands at 8 o'clock and 4 o'clock."
+      "explain": "You should sit straight but relaxed, with your hands at 8 o'clock and 4 o'clock."
     },
     {
       "id": "q-rook-grip-fingers-1",
       "item": "rook-grip-fingers",
       "part": 2,
-      "prompt": "You should hold the steering wheel with your:",
+      "prompt": "How should you hold the steering wheel?",
       "choices": [
-        "Fingers and thumbs",
-        "Palms only",
-        "Wrists",
-        "One palm on top"
+        "With your fingers and thumbs",
+        "With your palms only",
+        "With your wrists",
+        "With one palm on top"
       ],
       "answer": 0,
-      "explain": "Hold the wheel with your fingers and thumbs."
+      "explain": "You should hold the wheel with your fingers and thumbs."
     },
     {
       "id": "q-rook-grip-fingers-2",
       "item": "rook-grip-fingers",
       "part": 2,
-      "prompt": "When holding the steering wheel, you should avoid:",
+      "prompt": "What should you avoid when you hold the steering wheel?",
       "choices": [
         "Using your fingers",
         "Using your thumbs",
         "Sitting straight but relaxed",
-        "Gripping it with your palms"
+        "Gripping the wheel with your palms"
       ],
       "answer": 3,
-      "explain": "Avoid gripping the steering wheel with your palms."
+      "explain": "You should avoid gripping the steering wheel with your palms."
     },
     {
       "id": "q-rook-red-light-1",
       "item": "rook-red-light",
       "part": 1,
-      "prompt": "This traffic signal means:",
+      "prompt": "What should you do when you see this traffic signal?",
       "image": "signal-red",
       "choices": [
-        "Slow down and go if clear",
+        "Slow down and go if the way is clear",
         "Come to a complete stop",
         "Stop only if cars are coming",
         "Speed up to clear the intersection"
       ],
       "answer": 1,
-      "explain": "At a red light, come to a complete stop."
+      "explain": "At a red light, you must come to a complete stop."
     },
     {
       "id": "q-rook-red-light-2",
       "item": "rook-red-light",
       "part": 1,
-      "prompt": "At this signal, if there is no stop line, you must stop:",
+      "prompt": "What must you do at this signal if there is no stop line?",
       "image": "signal-red",
       "choices": [
-        "In the middle of the intersection",
-        "Just past the crosswalk",
-        "Only if a police officer is there",
-        "Before the crosswalk or intersection"
+        "Stop in the middle of the intersection",
+        "Stop just past the crosswalk",
+        "Stop only if a police officer is there",
+        "Stop before the crosswalk or the intersection"
       ],
       "answer": 3,
-      "explain": "With no stop line, stop before entering the intersection or before reaching the crosswalk."
+      "explain": "If there is no stop line, you must stop before the crosswalk or before you enter the intersection."
     },
     {
       "id": "q-rook-red-light-3",
       "item": "rook-red-light",
       "part": 1,
-      "prompt": "When you see this signal, you must:",
+      "prompt": "What must you do when you see this signal?",
       "image": "signal-red",
       "choices": [
         "Stop and stay stopped while it is red, unless turns are allowed",
@@ -1048,17 +1048,17 @@
         "Yield only to pedestrians"
       ],
       "answer": 0,
-      "explain": "Remain stopped as long as the signal is red, unless turns are allowed."
+      "explain": "You must stay stopped as long as the signal is red, unless turns are allowed."
     },
     {
       "id": "q-rook-green-light-1",
       "item": "rook-green-light",
       "part": 1,
-      "prompt": "This traffic signal means:",
+      "prompt": "What should you do when you see this traffic signal?",
       "image": "signal-green",
       "choices": [
         "Stop completely",
-        "You may go if the way is clear",
+        "Go if the way is clear",
         "Slow down and prepare to stop",
         "Go without looking"
       ],
@@ -1069,7 +1069,7 @@
       "id": "q-rook-green-light-2",
       "item": "rook-green-light",
       "part": 1,
-      "prompt": "At this signal, you may go:",
+      "prompt": "When may you go at this signal?",
       "image": "signal-green",
       "choices": [
         "Only after a full stop",
@@ -1084,7 +1084,7 @@
       "id": "q-rook-green-light-3",
       "item": "rook-green-light",
       "part": 1,
-      "prompt": "When this signal is showing, before you go you should:",
+      "prompt": "When this signal is showing, what should you do before you go?",
       "image": "signal-green",
       "choices": [
         "Honk your horn",
@@ -1093,7 +1093,7 @@
         "Make sure the way is clear"
       ],
       "answer": 3,
-      "explain": "At a green light, go only if the way is clear."
+      "explain": "A green light means you may go, but only if the way is clear."
     }
   ]
 }

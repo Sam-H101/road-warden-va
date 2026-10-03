@@ -41,6 +41,30 @@ def words(s: str) -> int:
     return len(s.split())
 
 
+def ends_with_period(choice: str) -> bool:
+    """A choice must not end in a sentence period; times such as "5 a.m." are fine."""
+    c = choice.strip().lower()
+    return c.endswith((".", "!")) and not c.endswith(("a.m.", "p.m."))
+
+
+def grammar_shape(where: str, label: str, text: str, ends: str, errors: list[str]) -> None:
+    """Cheap guards against clipped, telegraphic wording (full grammar is reviewed by people)."""
+    t = text.strip()
+    if not t:
+        errors.append(f"[{where}] {label} is empty")
+        return
+    if t[-1] not in ends:
+        errors.append(f"[{where}] {label} must end with one of {ends!r}: {t!r}")
+    if t.endswith("...") or "…" in t:
+        errors.append(f"[{where}] {label} uses an ellipsis: {t!r}")
+    if re.search(r"->|→|&| w/ ", t):
+        errors.append(f"[{where}] {label} uses a symbol shortcut: {t!r}")
+    if t[0].islower():
+        errors.append(f"[{where}] {label} starts with a lowercase letter: {t!r}")
+    if "  " in text or text != t:
+        errors.append(f"[{where}] {label} has stray whitespace: {text!r}")
+
+
 class Item(BaseModel):
     id: str
     district: Literal[tuple(DISTRICT_IDS)]  # type: ignore[valid-type]
@@ -155,6 +179,7 @@ def main() -> int:
                 errors.append(f"[{where}] item {it.id} district mismatch")
             if words(it.simple) > 40:
                 errors.append(f"[{where}] item {it.id} simple text is {words(it.simple)} words (max 40)")
+            grammar_shape(where, f"item {it.id} simple", it.simple, ".!?", errors)
             if words(it.title) > 6:
                 warnings.append(f"[{where}] item {it.id} title > 6 words")
             if it.mnemonic and words(it.mnemonic) > 20:
@@ -179,11 +204,16 @@ def main() -> int:
                 errors.append(f"[{where}] event {ev.id} references unknown item {ev.item}")
             per_item_events[ev.item] += 1
             if isinstance(ev, GateEvent):
-                if words(ev.prompt) > 12:
-                    errors.append(f"[{where}] event {ev.id} prompt > 12 words")
+                if words(ev.prompt) > 16:
+                    errors.append(f"[{where}] event {ev.id} prompt > 16 words")
+                grammar_shape(where, f"event {ev.id} prompt", ev.prompt, "?", errors)
                 for c in ev.choices:
-                    if len(c) > 28:
-                        errors.append(f"[{where}] event {ev.id} choice > 28 chars: {c!r}")
+                    if len(c) > 32:
+                        errors.append(f"[{where}] event {ev.id} choice > 32 chars: {c!r}")
+                    if ends_with_period(c):
+                        errors.append(f"[{where}] event {ev.id} choice ends with a period: {c!r}")
+                    if c[:1].islower():
+                        errors.append(f"[{where}] event {ev.id} choice starts lowercase: {c!r}")
                 if len(set(c.strip().lower() for c in ev.choices)) != 3:
                     errors.append(f"[{where}] event {ev.id} duplicate choices")
                 if ev.image and ev.image not in image_ids:
@@ -191,8 +221,9 @@ def main() -> int:
                 answer_dist[f"gate:{ev.answer}"] += 1
                 totals["gate events"] += 1
             else:
-                if words(ev.prompt) > 10:
-                    errors.append(f"[{where}] event {ev.id} prompt > 10 words")
+                if words(ev.prompt) > 14:
+                    errors.append(f"[{where}] event {ev.id} prompt > 14 words")
+                grammar_shape(where, f"event {ev.id} prompt", ev.prompt, ".!?", errors)
                 if not ev.prop and not ev.sign:
                     errors.append(f"[{where}] action event {ev.id} needs a prop or a sign")
                 if ev.prop and ev.prop not in SCENE_PROPS:
@@ -200,8 +231,9 @@ def main() -> int:
                 if ev.sign and ev.sign not in image_ids:
                     errors.append(f"[{where}] event {ev.id} unknown sign {ev.sign}")
                 totals["action events"] += 1
-            if words(ev.missLine) > 20:
-                errors.append(f"[{where}] event {ev.id} missLine > 20 words")
+            if words(ev.missLine) > 24:
+                errors.append(f"[{where}] event {ev.id} missLine > 24 words")
+            grammar_shape(where, f"event {ev.id} missLine", ev.missLine, ".!", errors)
 
         for q in df.questions:
             all_ids[q.id] += 1
@@ -214,6 +246,17 @@ def main() -> int:
                 errors.append(f"[{where}] question {q.id} unknown image {q.image}")
             if len(set(c.strip().lower() for c in q.choices)) != 4:
                 errors.append(f"[{where}] question {q.id} duplicate choices")
+            if words(q.prompt) > 32:
+                errors.append(f"[{where}] question {q.id} prompt > 32 words")
+            grammar_shape(where, f"question {q.id} prompt", q.prompt, "?:", errors)
+            if words(q.explain) > 30:
+                errors.append(f"[{where}] question {q.id} explain > 30 words")
+            grammar_shape(where, f"question {q.id} explain", q.explain, ".!", errors)
+            for c in q.choices:
+                if ends_with_period(c):
+                    errors.append(f"[{where}] question {q.id} choice ends with a period: {c!r}")
+                if c[:1].islower():
+                    errors.append(f"[{where}] question {q.id} choice starts lowercase: {c!r}")
             answer_dist[f"q:{q.answer}"] += 1
             totals["questions"] += 1
             totals[f"part{q.part}"] += 1

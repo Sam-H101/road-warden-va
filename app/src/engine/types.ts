@@ -95,11 +95,11 @@ export interface GateEvent {
   id: string
   item: string // Item.id
   kind: 'gates'
-  prompt: string // <= 12 words, shown big on screen
+  prompt: string // one complete question ending in "?", <= 16 words, shown big on screen
   image?: string // optional image id shown on a roadside billboard
-  choices: [string, string, string] // each <= 28 characters
+  choices: [string, string, string] // each a direct answer, <= 32 characters, no end period
   answer: 0 | 1 | 2
-  missLine: string // <= 20 words, said when wrong
+  missLine: string // complete sentences, <= 24 words, said when wrong
 }
 
 /** React to a situation on the road with the right driving action. */
@@ -107,7 +107,7 @@ export interface ActionEvent {
   id: string
   item: string
   kind: 'action'
-  prompt: string // <= 10 words, e.g. "School bus ahead!"
+  prompt: string // complete sentence(s) describing the scene, <= 14 words, e.g. "A school bus is stopped ahead."
   prop?: SceneProp
   sign?: string // image id of a roadside sign to show instead of / with the prop
   weather?: Weather
@@ -126,7 +126,7 @@ export interface Question {
   image?: string
   choices: [string, string, string, string]
   answer: 0 | 1 | 2 | 3
-  explain: string // one sentence
+  explain: string // complete sentences, <= 30 words
 }
 
 export interface DistrictContent {

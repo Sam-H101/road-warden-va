@@ -6,7 +6,7 @@
       "district": "d14-penalties",
       "kind": "rule",
       "title": "Suspended means taken away for now",
-      "simple": "Break certain laws, or break laws again and again? The court or DMV can suspend your license. Suspended means you lose the right to drive for a while. When it ends, you pay fees to get it back.",
+      "simple": "The court or DMV can suspend your license if you break certain laws or break laws repeatedly. Suspended means you lose the right to drive for a while. You pay fees to get your license back when the suspension ends.",
       "official": "If you break certain laws or repeatedly violate the laws of Virginia, your driving privilege may be suspended or revoked by the court and/or DMV. If your license is suspended, your privilege to drive has been withdrawn temporarily. You may pay the required fees and reinstate your license at the end of the suspension period.",
       "mnemonic": "Suspended = paused. Revoked = ended.",
       "manualRef": "Section 5, p. 28"
@@ -16,7 +16,7 @@
       "district": "d14-penalties",
       "kind": "number",
       "title": "Reinstating after a suspension",
-      "simple": "To get your license back, you must show proof of legal presence. Was your license expired for one year or more during the suspension? Then you must also pass the knowledge, road skills and vision exams.",
+      "simple": "To get your license back, you must show proof of legal presence. If your license was expired for one year or more during the suspension, you must also pass the knowledge, road skills and vision exams.",
       "official": "You will be required to show proof of legal presence, which means you are either a U.S. citizen or legally authorized by the federal government to be in the U.S. During the suspension period, if your license has been expired for one year or more, you must show proof of legal presence and pass the two-part knowledge, road skills and vision exams to have your driving privilege reinstated.",
       "mnemonic": "Expired a year or more? Test again.",
       "manualRef": "Section 5, p. 28"
@@ -26,7 +26,7 @@
       "district": "d14-penalties",
       "kind": "rule",
       "title": "Revoked means ended; re-apply",
-      "simple": "Revoked means your right to drive is ended. When the revocation time is over, you must apply again. Show legal presence, pass the vision, knowledge and road skills tests, and pay fees.",
+      "simple": "Revoked means your right to drive has ended. When the revocation period is over, you must apply again. You must show legal presence, pass the vision, knowledge and road skills tests, and pay fees.",
       "official": "Revocation means that your privilege to drive has been terminated. Your driving privilege may be restored if you re-apply for a driver's license and show proof of legal presence after the revocation period has passed. You must successfully complete the vision screening, two-part knowledge exam and road skills tests and pay the required fees when you re-apply.",
       "mnemonic": "Revoked = start over from the beginning.",
       "manualRef": "Section 5, p. 28"
@@ -36,7 +36,7 @@
       "district": "d14-penalties",
       "kind": "rule",
       "title": "DUI always costs your license",
-      "simple": "Convicted of DUI? Your license will be suspended or revoked. The same goes for hurting someone while DUI. It also goes for driving while suspended for DUI, or without a required ignition interlock.",
+      "simple": "If you are convicted of DUI, your license will be suspended or revoked. That is also true for hurting someone while driving under the influence, for driving while suspended for DUI, and for driving without a required ignition interlock.",
       "official": "The court or DMV will suspend or revoke your privilege to drive if you are convicted of: operating a motor vehicle while under the influence of alcohol or drugs (DUI); injuring another person as a result of operating a motor vehicle while under the influence of alcohol or drugs; operating a motor vehicle while suspended or revoked for a DUI; operating a motor vehicle that is not equipped with the ignition interlock device when it is required by the court or DMV.",
       "mnemonic": "DUI means you WILL lose your license.",
       "manualRef": "Section 5, p. 28"
@@ -46,7 +46,7 @@
       "district": "d14-penalties",
       "kind": "rule",
       "title": "Lying to DMV costs your license",
-      "simple": "Never lie to DMV. A false statement means your license will be suspended or revoked. Do not take a license exam for someone else. Do not go in to renew someone else's license.",
+      "simple": "Never lie to DMV. A false statement means your license will be suspended or revoked. Do not take a license exam for someone else. Do not appear for someone else to renew their license.",
       "official": "The court or DMV will suspend or revoke your privilege to drive if you are convicted of: making a false statement to DMV; taking a driver's license exam for another person, or appearing for another person to renew a license.",
       "mnemonic": "At DMV, tell the truth and be only you.",
       "manualRef": "Section 5, p. 28"
@@ -56,7 +56,7 @@
       "district": "d14-penalties",
       "kind": "rule",
       "title": "Injury crash: stop and identify",
-      "simple": "Someone is hurt or killed in your crash? You must stop and tell who you are. If you leave, your license will be suspended or revoked.",
+      "simple": "If someone is hurt or killed in your crash, you must stop and tell who you are. If you leave, your license will be suspended or revoked.",
       "official": "The court or DMV will suspend or revoke your privilege to drive if you are convicted of failing to stop and identify yourself at the scene of a crash if someone has been injured or killed.",
       "mnemonic": "Someone hurt? Stop and say who you are.",
       "manualRef": "Section 5, p. 28"
@@ -66,7 +66,7 @@
       "district": "d14-penalties",
       "kind": "rule",
       "title": "Manslaughter, drugs, felonies",
-      "simple": "Some crimes always cost you your license. One is manslaughter from driving. Others are a drug crime involving a vehicle, or any felony where you used a vehicle.",
+      "simple": "Some crimes always cost you your license. One is manslaughter caused by driving a vehicle. Others are a drug crime involving a vehicle and any felony in which you used a vehicle.",
       "official": "The court or DMV will suspend or revoke your privilege to drive if you are convicted of: voluntary or involuntary manslaughter resulting from driving a motor vehicle; involuntary manslaughter resulting from operating a motor vehicle while under the influence of alcohol; committing a motor vehicle-related drug offense; committing a felony involving the use of a motor vehicle.",
       "manualRef": "Section 5, p. 28"
     },
@@ -75,7 +75,7 @@
       "district": "d14-penalties",
       "kind": "rule",
       "title": "Eluding police costs your license",
-      "simple": "When police stop you, pull to the side in a safe place and park. Running from police is called eluding. If you are convicted of eluding, your license will be suspended or revoked.",
+      "simple": "When police stop you, pull to the side of the road in a safe place and park. Running from police is called eluding. If you are convicted of eluding, your license will be suspended or revoked.",
       "official": "The court or DMV will suspend or revoke your privilege to drive if you are convicted of eluding police.",
       "mnemonic": "Elude police, lose your license.",
       "manualRef": "Section 5, p. 28"
@@ -85,7 +85,7 @@
       "district": "d14-penalties",
       "kind": "rule",
       "title": "Reckless or aggressive: court may act",
-      "simple": "Convicted of reckless or aggressive driving? The court may suspend or revoke your license. The court gets to choose.",
+      "simple": "If you are convicted of reckless or aggressive driving, the court may suspend or revoke your license. The court gets to choose.",
       "official": "The court may suspend or revoke your driving privilege if you are convicted of the following offenses: reckless or aggressive driving.",
       "mnemonic": "DUI list = WILL lose it. Reckless list = MAY lose it.",
       "manualRef": "Section 5, p. 28"
@@ -95,7 +95,7 @@
       "district": "d14-penalties",
       "kind": "rule",
       "title": "No license or suspended: court may",
-      "simple": "Do not drive without a valid license. Do not drive while suspended or revoked for a non-DUI reason. If you are convicted, the court may suspend or revoke your license.",
+      "simple": "Do not drive without a valid license. Do not drive while your license is suspended or revoked for a reason other than DUI. If you are convicted, the court may suspend or revoke your license.",
       "official": "The court may suspend or revoke your driving privilege if you are convicted of: operating a motor vehicle without a valid driver's license; driving while your license is revoked or suspended for a non-DUI related conviction.",
       "manualRef": "Section 5, p. 29"
     },
@@ -104,7 +104,7 @@
       "district": "d14-penalties",
       "kind": "rule",
       "title": "Refusing a blood or breath test",
-      "simple": "Charged with DUI and you refuse a blood or breath test? The court may suspend or revoke your license. If you refuse a breath test, your license is also suspended automatically.",
+      "simple": "If you are charged with DUI and you refuse a blood or breath test, the court may suspend or revoke your license. If you refuse a breath test, your license is also suspended automatically.",
       "official": "The court may suspend or revoke your driving privilege if you are convicted of refusing to take a blood/breath test when charged with driving while under the influence of alcohol/drugs. If you refuse a breath test and law enforcement charges you with driving while under the influence of alcohol/drugs, your driving privilege will be automatically suspended.",
       "manualRef": "Section 5, p. 29-30"
     },
@@ -123,7 +123,7 @@
       "district": "d14-penalties",
       "kind": "number",
       "title": "Under 18: first ticket means clinic",
-      "simple": "Under 18 and convicted of a point, seat belt or child seat violation? You must take a driver improvement clinic. Finish it within 90 days. If not, your license is suspended until you finish and pay a fee.",
+      "simple": "If you are under 18 and get a point, seat belt or child seat conviction, you must finish a driver improvement clinic within 90 days. If you do not, your license is suspended until you finish and pay a fee.",
       "official": "If you are convicted of a demerit point traffic violation (or safety belt/child restraint violation) committed when you were under age 18, DMV will require that you complete a driver improvement clinic. If you do not complete the clinic within 90 days, DMV will suspend your driving privilege until you complete the clinic and pay a reinstatement fee.",
       "mnemonic": "First ticket under 18: class within 90 days.",
       "manualRef": "Section 5, p. 29"
@@ -133,7 +133,7 @@
       "district": "d14-penalties",
       "kind": "number",
       "title": "Under 18, second ticket: 90 days",
-      "simple": "Under 18 and a second point or seat belt conviction? DMV suspends your license for 90 days.",
+      "simple": "If you are under 18 and get a second point or seat belt conviction, DMV suspends your license for 90 days.",
       "official": "After your second conviction for a demerit point traffic violation (or safety belt/child restraint violation) committed when you were under age 18, DMV will suspend your driving privilege for 90 days.",
       "mnemonic": "Ticket 1: class. Ticket 2: 90 days. Ticket 3: revoked.",
       "manualRef": "Section 5, p. 29"
@@ -143,7 +143,7 @@
       "district": "d14-penalties",
       "kind": "number",
       "title": "Under 18, third ticket: revoked",
-      "simple": "Under 18 and a third conviction? Your license is revoked for one year or until you turn 18. You get whichever is longer.",
+      "simple": "If you are under 18 and get a third conviction, your license is revoked for one year or until you turn 18. The revocation lasts for whichever is longer.",
       "official": "Your third conviction will result in a revocation of your driving privilege for one year or until you reach age 18, whichever is longer.",
       "mnemonic": "Strike 3: out 1 year or until 18, whichever is longer.",
       "manualRef": "Section 5, p. 29"
@@ -153,7 +153,7 @@
       "district": "d14-penalties",
       "kind": "rule",
       "title": "Age 18 or 19: clinic",
-      "simple": "Are you 18 or 19? Were you convicted of a point, seat belt or child seat violation? Then DMV makes you take a driver improvement clinic.",
+      "simple": "If you are 18 or 19 and are convicted of a point, seat belt or child seat violation, DMV makes you take a driver improvement clinic.",
       "official": "DMV will require you to complete a driver improvement clinic if you are convicted of a demerit point or safety belt/child restraint violation committed while you were age 18 or 19.",
       "mnemonic": "Still a teen? One ticket means a class.",
       "manualRef": "Section 5, p. 29"
@@ -163,7 +163,7 @@
       "district": "d14-penalties",
       "kind": "number",
       "title": "Adults: clinic at 12 or 18",
-      "simple": "Age 18 or older? DMV requires a driver improvement clinic at 12 points in 12 months. It also does at 18 points in 24 months. Finish it in 90 days, or your license is suspended.",
+      "simple": "If you are 18 or older, DMV requires a driver improvement clinic when you get 12 points in 12 months or 18 points in 24 months. You must finish it within 90 days, or your license is suspended.",
       "official": "DMV will require you to complete a driver improvement clinic if you accumulate 12 demerit points within 12 months or 18 points within 24 months. If you do not complete the clinic within 90 days, DMV will suspend your driving privilege.",
       "mnemonic": "12 in 12 or 18 in 24: go to class.",
       "manualRef": "Section 5, p. 29"
@@ -173,7 +173,7 @@
       "district": "d14-penalties",
       "kind": "number",
       "title": "Adults: 18 or 24 points suspended",
-      "simple": "Get 18 points in 12 months, or 24 points in 24 months? DMV suspends your license for 90 days. You must also complete a driver improvement clinic.",
+      "simple": "If you get 18 points in 12 months or 24 points in 24 months, DMV suspends your license for 90 days. You must also complete a driver improvement clinic.",
       "official": "If you receive 18 demerit points within 12 months or 24 points within 24 months, DMV will suspend your driving privilege for 90 days and require that you complete a driver improvement clinic.",
       "mnemonic": "18 in 12 or 24 in 24: 90 days parked.",
       "manualRef": "Section 5, p. 29"
@@ -183,7 +183,7 @@
       "district": "d14-penalties",
       "kind": "rule",
       "title": "Medical review program",
-      "simple": "Does DMV hear a health problem may make you unsafe? Then DMV may do a medical review. It checks your alertness, vision, judgment and motor skills. You may need a doctor's report or DMV tests.",
+      "simple": "If DMV hears that a health problem may keep you from driving safely, it may do a medical review. The review looks at your alertness, vision, judgment and motor skills. You may need a doctor's report or DMV tests.",
       "official": "When DMV receives a report that a driver may have a physical or mental condition that affects his ability to drive safely, a medical review of the driver may be conducted. DMV is concerned about any condition that impairs the driver's level of consciousness, perception (vision), judgment, motor skills. DMV may require you to submit a medical or vision report completed by your physician and/or to pass the two-part knowledge exam and/or road skills test.",
       "mnemonic": "Awake, see, think, move.",
       "manualRef": "Section 5, p. 29"
@@ -193,7 +193,7 @@
       "district": "d14-penalties",
       "kind": "rule",
       "title": "Medical review results",
-      "simple": "After a medical review, DMV may suspend your license or limit it. DMV may ask for doctor reports from time to time. Or DMV may end the review with nothing more to do.",
+      "simple": "After a medical review, DMV may suspend your license or limit it. DMV may ask for doctor reports from time to time. DMV may also end the review with no other requirements.",
       "official": "Once the medical review is completed, DMV will decide whether to: suspend your driving privilege; restrict your driving privilege; require you to submit periodic medical and/or vision reports; or end the medical review with no other requirements. If DMV suspends your driving privilege as a result of medical review action, you will not be required to present legal presence proof documents to reinstate your driving privilege unless required to do so for another suspension/revocation or your license expires.",
       "manualRef": "Section 5, p. 29"
     },
@@ -202,7 +202,7 @@
       "district": "d14-penalties",
       "kind": "number",
       "title": "Insurance or the $500 fee",
-      "simple": "To register a car and get plates, you need one of two things. Have liability insurance, or pay the $500 uninsured motor vehicle fee. Buy insurance from a company allowed in Virginia.",
+      "simple": "To register a car and get plates, you need one of two things. You need liability insurance, or you must pay the $500 uninsured motor vehicle fee. Buy your insurance from a company allowed to do business in Virginia.",
       "official": "To register a vehicle and obtain license plates, you must have liability insurance or pay the $500 uninsured motor vehicle fee. Insure your vehicle with a company authorized to do business in Virginia. When registering a motor vehicle, you must sign a statement on the registration application that you have liability insurance coverage for your motor vehicle, or pay the $500 uninsured motor vehicle fee.",
       "mnemonic": "$500 to register without insurance. $600 if caught driving without it.",
       "manualRef": "Section 7, p. 34"
@@ -222,7 +222,7 @@
       "district": "d14-penalties",
       "kind": "rule",
       "title": "Insurance checks and your plates",
-      "simple": "DMV checks that cars are insured. DMV suspends your license if you do not send insurance information when asked. It also suspends it if your insurance stops and you keep the plates.",
+      "simple": "DMV checks that cars are insured. DMV suspends your license if you do not send insurance information when asked. It also suspends your license if your insurance stops and you do not return your plates.",
       "official": "DMV will suspend your driving privilege if: you do not submit the requested insurance policy information to verify that you have liability insurance coverage; there is a break in your insurance policy coverage and you do not return your license plates to DMV.",
       "mnemonic": "Insurance stops? Plates go back to DMV.",
       "manualRef": "Section 5, p. 29-30"
@@ -232,7 +232,7 @@
       "district": "d14-penalties",
       "kind": "rule",
       "title": "Insure the whole registration period",
-      "simple": "Keep a registered car insured the whole time. Do this even if you never drive it or it does not run. Before you cancel insurance, return the plates to DMV and cancel the registration.",
+      "simple": "Keep a registered car insured for the whole registration period. Do this even if you never drive the car or it does not run. Before you cancel insurance, return the plates to DMV and cancel the registration.",
       "official": "Insure your Virginia-registered vehicle during the entire registration period even if it is not driven or is inoperable. Before you cancel your insurance, return the license plates to DMV and cancel the registration.",
       "mnemonic": "Plates on the car? Insurance on the car.",
       "manualRef": "Section 7, p. 34"
@@ -242,7 +242,7 @@
       "district": "d14-penalties",
       "kind": "number",
       "title": "Caught uninsured: $600 and 3 years",
-      "simple": "Caught driving with no insurance and no $500 fee paid? DMV suspends your license. To get it back, pay a $600 fee or get a payment plan. Your insurer must file proof for 3 years.",
+      "simple": "If you are caught driving uninsured and did not pay the $500 fee, DMV suspends your license. To get it back, pay a $600 fee or get approved for a payment plan. Your insurer must file proof for 3 years.",
       "official": "If you are caught driving without insurance and you did not pay the uninsured motor vehicle fee, DMV will suspend your driving privilege until you pay a $600 noncompliance fee or apply and be approved for a payment plan, and have your insurance company file a certificate that you have a policy with the required coverage limits. You will have to file this certificate of insurance for three years from the date you regain your driving privileges.",
       "mnemonic": "Caught uninsured: $600, then 3 years of proof.",
       "manualRef": "Section 7, p. 34"
@@ -252,7 +252,7 @@
       "district": "d14-penalties",
       "kind": "number",
       "title": "Minimum liability: 30/60/20",
-      "simple": "For policies starting on or after January 1, 2022, the least liability coverage is: $30,000 for one person hurt or killed. $60,000 for two or more people. $20,000 for property damage.",
+      "simple": "For policies starting on or after January 1, 2022, the minimum liability coverage is $30,000 for one person hurt or killed, $60,000 for two or more people hurt or killed, and $20,000 for property damage.",
       "official": "At a minimum, your insurance policy must provide the following liability insurance coverage. Policies effective on or after Jan. 1, 2022: injury or death of one person $30,000; injury or death of two or more people $60,000; property damage $20,000. (Policies effective before Jan. 1, 2022: $25,000, $50,000, $20,000.) In some cases, liability insurance requirements may be higher.",
       "mnemonic": "30 for one, double it (60) for more, 20 for property.",
       "manualRef": "Section 7, p. 34"
@@ -262,7 +262,7 @@
       "district": "d14-penalties",
       "kind": "number",
       "title": "Child support: 90 days or $5,000",
-      "simple": "Are you 90 days late or $5,000 behind on child support? Your license can be suspended. Skipping a child support or paternity court date can do it too. So can ignoring court papers about it.",
+      "simple": "If you are 90 days late or $5,000 behind on child support, your license can be suspended. Missing a child support or paternity court date can also lead to suspension. Ignoring court papers about those hearings can do the same.",
       "official": "The Division of Child Support Enforcement will direct DMV to suspend your driving privilege if you are late making child support payments by 90 days or $5,000, or fail to appear in court or comply with a subpoena, summons or warrant related to paternity or child support hearings.",
       "mnemonic": "90 days or 5 thousand: license on hold.",
       "manualRef": "Section 5, p. 30"
@@ -272,7 +272,7 @@
       "district": "d14-penalties",
       "kind": "rule",
       "title": "Household drivers affect insurance cost",
-      "simple": "Insurance companies may look at the driving records of everyone of driving age in your home. A new driver may change your policy cost. Ask your insurance agent.",
+      "simple": "Insurance companies may look at the driving records of everyone of driving age in your home. A newly licensed driver may change what your policy costs. Ask your insurance agent about it.",
       "official": "Insurance companies may factor in their policy premium the driving records of any individual of driving age that resides within an insured's household. If you have any questions regarding the potential impact a newly licensed driver may have on your policy, you may wish to contact your insurance agent.",
       "mnemonic": "Your record rides on the family policy.",
       "manualRef": "Section 7, p. 34"
@@ -283,11 +283,11 @@
       "id": "ev-pen-suspension-meaning-1",
       "item": "pen-suspension-meaning",
       "kind": "gates",
-      "prompt": "A suspended license means:",
+      "prompt": "What does a suspended license mean?",
       "choices": [
-        "Taken away for a while",
-        "Gone for good",
-        "Just a warning"
+        "It is taken away for a while",
+        "It is gone for good",
+        "It is only a warning"
       ],
       "answer": 0,
       "missLine": "Suspended means you lose the right to drive for a while."
@@ -296,10 +296,10 @@
       "id": "ev-pen-suspension-meaning-2",
       "item": "pen-suspension-meaning",
       "kind": "gates",
-      "prompt": "A license suspension ends. How can the driver drive again?",
+      "prompt": "After a license suspension ends, what must the driver do to drive again?",
       "choices": [
-        "No steps needed",
-        "Pay fees and reinstate",
+        "Do nothing",
+        "Pay the fees and reinstate it",
         "Buy new plates"
       ],
       "answer": 1,
@@ -313,75 +313,75 @@
       "choices": [
         "Only the police",
         "Your insurance company",
-        "The court and/or DMV"
+        "The court or the DMV"
       ],
       "answer": 2,
-      "missLine": "The court and/or DMV can suspend or revoke your license."
+      "missLine": "The court or the DMV can suspend or revoke your license."
     },
     {
       "id": "ev-pen-suspension-reinstate-1",
       "item": "pen-suspension-reinstate",
       "kind": "gates",
-      "prompt": "A suspended license expires. DMV exams are needed if expired:",
+      "prompt": "How long must a suspended license be expired before you need DMV exams?",
       "choices": [
         "30 days or more",
         "1 year or more",
         "5 years or more"
       ],
       "answer": 1,
-      "missLine": "Expired one year or more during a suspension? You must pass the DMV exams again."
+      "missLine": "If your license has been expired for 1 year or more during a suspension, you must pass the DMV exams."
     },
     {
       "id": "ev-pen-suspension-reinstate-2",
       "item": "pen-suspension-reinstate",
       "kind": "gates",
-      "prompt": "To reinstate, you must prove:",
+      "prompt": "What must you show to reinstate a suspended license?",
       "choices": [
-        "Legal presence",
-        "A job",
-        "A home"
+        "Proof of legal presence",
+        "Proof of a job",
+        "Proof of a home"
       ],
       "answer": 0,
-      "missLine": "To reinstate, you must show proof of legal presence."
+      "missLine": "To reinstate your license, you must show proof of legal presence."
     },
     {
       "id": "ev-pen-suspension-reinstate-3",
       "item": "pen-suspension-reinstate",
       "kind": "gates",
-      "prompt": "Suspended license expired 1+ year. DMV requires which exams?",
+      "prompt": "If a suspended license has been expired for 1 year or more, which exams are required?",
       "choices": [
-        "Vision only",
-        "Knowledge only",
-        "Knowledge, road, vision"
+        "Only the vision exam",
+        "Only the knowledge exam",
+        "Knowledge, road and vision"
       ],
       "answer": 2,
-      "missLine": "Expired 1 year or more? Pass the knowledge, road skills and vision exams."
+      "missLine": "If your suspended license has been expired for 1 year or more, you must pass the knowledge, road skills and vision exams."
     },
     {
       "id": "ev-pen-revocation-meaning-1",
       "item": "pen-revocation-meaning",
       "kind": "gates",
-      "prompt": "A revoked license means:",
+      "prompt": "What does a revoked license mean?",
       "choices": [
-        "Taken away for a while",
-        "Ended; must re-apply",
-        "Demerit points added"
+        "It is taken away for a while",
+        "It has ended; you must re-apply",
+        "It adds demerit points"
       ],
       "answer": 1,
-      "missLine": "Revoked means your right to drive is ended. You must re-apply."
+      "missLine": "Revoked means your right to drive has ended. You must re-apply."
     },
     {
       "id": "ev-pen-revocation-meaning-2",
       "item": "pen-revocation-meaning",
       "kind": "gates",
-      "prompt": "A revocation period ends. How can the driver drive again?",
+      "prompt": "After a revocation period ends, what must the driver do to drive again?",
       "choices": [
-        "Re-apply and pass tests",
-        "No steps needed",
-        "It comes back by mail"
+        "Re-apply and pass the tests",
+        "Do nothing",
+        "Wait for a license in the mail"
       ],
       "answer": 0,
-      "missLine": "After a revocation, you must re-apply, pass the tests and pay fees."
+      "missLine": "After a revocation, you must re-apply, pass the tests and pay the required fees."
     },
     {
       "id": "ev-pen-revocation-meaning-3",
@@ -389,22 +389,22 @@
       "kind": "gates",
       "prompt": "After a revocation, which tests must a driver pass?",
       "choices": [
-        "Knowledge only",
-        "Vision only",
-        "Vision, knowledge, road"
+        "Only the knowledge test",
+        "Only the vision test",
+        "Vision, knowledge and road"
       ],
       "answer": 2,
-      "missLine": "To re-apply, pass the vision, knowledge and road skills tests."
+      "missLine": "To re-apply, you must pass the vision, knowledge and road skills tests."
     },
     {
       "id": "ev-pen-must-dui-1",
       "item": "pen-must-dui",
       "kind": "gates",
-      "prompt": "A driver is convicted of DUI. The license is:",
+      "prompt": "What happens to your license if you are convicted of DUI?",
       "choices": [
-        "Suspended or revoked",
-        "Demerit points only",
-        "A warning"
+        "It is suspended or revoked",
+        "You get only demerit points",
+        "You get only a warning"
       ],
       "answer": 0,
       "missLine": "A DUI conviction means your license will be suspended or revoked."
@@ -413,50 +413,50 @@
       "id": "ev-pen-must-dui-2",
       "item": "pen-must-dui",
       "kind": "gates",
-      "prompt": "A driver suspended for DUI drives anyway. The license is:",
+      "prompt": "What happens to the license of a driver who drives while suspended for DUI?",
       "choices": [
-        "A warning",
-        "Suspended or revoked",
-        "Demerit points only"
+        "It gets only a warning",
+        "It is suspended or revoked",
+        "It gets only demerit points"
       ],
       "answer": 1,
-      "missLine": "Driving while suspended for DUI means your license will be suspended or revoked."
+      "missLine": "If you drive while suspended for DUI, your license will be suspended or revoked."
     },
     {
       "id": "ev-pen-must-dui-3",
       "item": "pen-must-dui",
       "kind": "gates",
-      "prompt": "Driving without a required ignition interlock means the license is:",
+      "prompt": "What happens to your license if you drive without a required ignition interlock?",
       "choices": [
-        "Demerit points only",
-        "A fine only",
-        "Suspended or revoked"
+        "You get only demerit points",
+        "You pay only a fine",
+        "It is suspended or revoked"
       ],
       "answer": 2,
-      "missLine": "Drive without a required ignition interlock? Your license will be suspended or revoked."
+      "missLine": "If you drive without a required ignition interlock, your license will be suspended or revoked."
     },
     {
       "id": "ev-pen-must-false-statement-1",
       "item": "pen-must-false-statement",
       "kind": "gates",
-      "prompt": "A driver lies on a DMV form. The license is:",
+      "prompt": "What happens to your license if you lie on a DMV form?",
       "choices": [
-        "Form corrected, no penalty",
-        "Suspended or revoked",
-        "A fine only"
+        "Nothing, if you fix the form",
+        "It is suspended or revoked",
+        "You pay only a fine"
       ],
       "answer": 1,
-      "missLine": "A false statement to DMV means your license will be suspended or revoked."
+      "missLine": "If you make a false statement to the DMV, your license will be suspended or revoked."
     },
     {
       "id": "ev-pen-must-false-statement-2",
       "item": "pen-must-false-statement",
       "kind": "gates",
-      "prompt": "Taking a friend's license exam for them is:",
+      "prompt": "Can you take a friend's license exam for them?",
       "choices": [
-        "Not allowed: license lost",
-        "Allowed if they are sick",
-        "Allowed if they pay you"
+        "No, you lose your license",
+        "Yes, if the friend is sick",
+        "Yes, if the friend pays you"
       ],
       "answer": 0,
       "missLine": "Taking a license exam for someone else costs you your license."
@@ -465,50 +465,50 @@
       "id": "ev-pen-must-false-statement-3",
       "item": "pen-must-false-statement",
       "kind": "gates",
-      "prompt": "Showing up to renew someone else's license is:",
+      "prompt": "Can you show up at the DMV to renew someone else's license?",
       "choices": [
-        "Allowed for family",
-        "Allowed with a note",
-        "Not allowed: license lost"
+        "Yes, if it is for family",
+        "Yes, if you bring a note",
+        "No, you lose your license"
       ],
       "answer": 2,
-      "missLine": "Appearing for another person to renew a license costs you your license."
+      "missLine": "If you appear for another person to renew a license, your license will be suspended or revoked."
     },
     {
       "id": "ev-pen-must-hit-and-run-1",
       "item": "pen-must-hit-and-run",
       "kind": "gates",
-      "prompt": "In real life, your crash hurts someone. You must:",
+      "prompt": "In real life, if your crash hurts someone, what must you do?",
       "choices": [
-        "Leave the scene fast",
+        "Leave the scene quickly",
         "Stop and say who you are",
         "Call in later from home"
       ],
       "answer": 1,
-      "missLine": "Someone hurt or killed? Stop and identify yourself at the scene."
+      "missLine": "If someone is hurt or killed in your crash, you must stop and tell who you are."
     },
     {
       "id": "ev-pen-must-hit-and-run-2",
       "item": "pen-must-hit-and-run",
       "kind": "gates",
-      "prompt": "A driver leaves an injury crash without stopping. The license is:",
+      "prompt": "What happens to your license if you do not stop after a crash that hurts someone?",
       "choices": [
-        "Suspended or revoked",
-        "Demerit points only",
-        "A warning"
+        "It is suspended or revoked",
+        "You get only demerit points",
+        "You get only a warning"
       ],
       "answer": 0,
-      "missLine": "Failing to stop at an injury crash means your license will be suspended or revoked."
+      "missLine": "If you fail to stop at a crash that hurts or kills someone, your license will be suspended or revoked."
     },
     {
       "id": "ev-pen-must-felony-1",
       "item": "pen-must-felony",
       "kind": "gates",
-      "prompt": "A felony using a vehicle means the license is:",
+      "prompt": "What happens to your license if you are convicted of a felony involving a vehicle?",
       "choices": [
-        "Court may let it go",
-        "A fine only",
-        "Suspended or revoked"
+        "The court may do nothing",
+        "You pay only a fine",
+        "It is suspended or revoked"
       ],
       "answer": 2,
       "missLine": "A felony involving a motor vehicle means your license will be suspended or revoked."
@@ -517,11 +517,11 @@
       "id": "ev-pen-must-felony-2",
       "item": "pen-must-felony",
       "kind": "gates",
-      "prompt": "A drug crime involving a vehicle means the license is:",
+      "prompt": "What happens to your license if you are convicted of a drug crime involving a vehicle?",
       "choices": [
-        "Suspended or revoked",
-        "Demerit points only",
-        "A warning"
+        "It is suspended or revoked",
+        "You get only demerit points",
+        "You get only a warning"
       ],
       "answer": 0,
       "missLine": "A drug crime involving a vehicle means your license will be suspended or revoked."
@@ -530,56 +530,56 @@
       "id": "ev-pen-must-felony-3",
       "item": "pen-must-felony",
       "kind": "gates",
-      "prompt": "Manslaughter from driving means the license is:",
+      "prompt": "What happens to your license if you are convicted of manslaughter caused by your driving?",
       "choices": [
-        "A clinic only",
-        "Suspended or revoked",
-        "Court may let it go"
+        "You only go to a clinic",
+        "It is suspended or revoked",
+        "The court may do nothing"
       ],
       "answer": 1,
-      "missLine": "Manslaughter from driving means your license will be suspended or revoked."
+      "missLine": "Manslaughter caused by driving means your license will be suspended or revoked."
     },
     {
       "id": "ev-pen-must-eluding-1",
       "item": "pen-must-eluding",
       "kind": "action",
-      "prompt": "Police lights behind you!",
+      "prompt": "There are police lights behind you!",
       "prop": "emergency-behind",
       "action": "pull-over",
-      "missLine": "Pull over safely and stop for police. Eluding police costs you your license."
+      "missLine": "Pull over safely and stop for the police. If you are convicted of eluding police, your license will be suspended or revoked."
     },
     {
       "id": "ev-pen-must-eluding-2",
       "item": "pen-must-eluding",
       "kind": "action",
-      "prompt": "Siren and flashing lights behind you!",
+      "prompt": "You hear a siren and see flashing lights behind you!",
       "prop": "emergency-behind",
       "weather": "night",
       "action": "pull-over",
-      "missLine": "Never run from police. Move right and stop."
+      "missLine": "Pull over to the right and stop. Never run from police."
     },
     {
       "id": "ev-pen-must-eluding-3",
       "item": "pen-must-eluding",
       "kind": "gates",
-      "prompt": "An eluding police conviction means the license is:",
+      "prompt": "What happens to your license if you are convicted of eluding the police?",
       "choices": [
-        "Court may let it go",
-        "Demerit points only",
-        "Suspended or revoked"
+        "The court may do nothing",
+        "You get only demerit points",
+        "It is suspended or revoked"
       ],
       "answer": 2,
-      "missLine": "Eluding police means your license will be suspended or revoked."
+      "missLine": "Eluding the police means running from them. Your license will be suspended or revoked."
     },
     {
       "id": "ev-pen-may-reckless-1",
       "item": "pen-may-reckless",
       "kind": "gates",
-      "prompt": "Reckless driving conviction. The court:",
+      "prompt": "What may the court do to your license if you are convicted of reckless driving?",
       "choices": [
-        "May suspend or revoke",
-        "Only adds demerit points",
-        "Can only warn you"
+        "Suspend or revoke it",
+        "Only add demerit points",
+        "Only warn you"
       ],
       "answer": 0,
       "missLine": "For reckless or aggressive driving, the court may suspend or revoke your license."
@@ -591,107 +591,107 @@
       "prompt": "You are speeding way over the limit!",
       "sign": "sign-speed-limit",
       "action": "slow",
-      "missLine": "Slow down. Reckless driving can cost you your license."
+      "missLine": "Slow down. If you are convicted of reckless driving, the court may suspend or revoke your license."
     },
     {
       "id": "ev-pen-may-reckless-3",
       "item": "pen-may-reckless",
       "kind": "gates",
-      "prompt": "For which offense MAY the court choose to act?",
+      "prompt": "For which offense can the court choose whether to suspend or revoke your license?",
       "choices": [
         "DUI",
         "Aggressive driving",
-        "Eluding police"
+        "Eluding the police"
       ],
       "answer": 1,
-      "missLine": "Aggressive driving: the court may act. DUI and eluding: you will lose your license."
+      "missLine": "For aggressive driving, the court may suspend or revoke your license. For DUI or eluding, your license will be suspended or revoked."
     },
     {
       "id": "ev-pen-may-no-license-1",
       "item": "pen-may-no-license",
       "kind": "gates",
-      "prompt": "Convicted of driving with no valid license. Court may:",
+      "prompt": "What may the court do if you are convicted of driving without a valid license?",
       "choices": [
-        "Issue a new license",
-        "Suspend or revoke",
-        "Warn your parents"
+        "Give you a new driver's license",
+        "Suspend or revoke your license",
+        "Send a warning to your parents"
       ],
       "answer": 1,
-      "missLine": "Driving without a valid license? The court may suspend or revoke your license."
+      "missLine": "If you drive without a valid license, the court may suspend or revoke your license."
     },
     {
       "id": "ev-pen-may-no-license-2",
       "item": "pen-may-no-license",
       "kind": "gates",
-      "prompt": "A driver suspended for non-DUI drives anyway. Result?",
+      "prompt": "What may the court do if you drive while suspended for a non-DUI reason?",
       "choices": [
-        "Court may suspend/revoke",
-        "Allowed on short trips",
-        "Nothing happens"
+        "Suspend or revoke your license",
+        "Let you drive on short trips",
+        "Do nothing"
       ],
       "answer": 0,
-      "missLine": "Driving while suspended for a non-DUI reason? The court may suspend or revoke."
+      "missLine": "If you drive while suspended for a non-DUI reason, the court may suspend or revoke your license."
     },
     {
       "id": "ev-pen-may-refuse-test-1",
       "item": "pen-may-refuse-test",
       "kind": "gates",
-      "prompt": "A driver charged with DUI refuses a breath test. Court may:",
+      "prompt": "What may the court do if a driver charged with DUI refuses a breath test?",
       "choices": [
-        "Drop the charges",
-        "Take no action",
-        "Suspend or revoke"
+        "Drop all of the DUI charges",
+        "Do nothing about the charges",
+        "Suspend or revoke the license"
       ],
       "answer": 2,
-      "missLine": "Refusing a blood or breath test can cost you your license."
+      "missLine": "If you are charged with DUI and refuse a blood or breath test, the court may suspend or revoke your license."
     },
     {
       "id": "ev-pen-may-refuse-test-2",
       "item": "pen-may-refuse-test",
       "kind": "gates",
-      "prompt": "Charged with DUI. Refusing a blood test can:",
+      "prompt": "What can happen if you refuse a blood test when you are charged with DUI?",
       "choices": [
-        "Clear the DUI charge",
-        "Cost you your license",
-        "Lead to a parking fine"
+        "The DUI charge is cleared",
+        "You lose your license",
+        "You get a parking fine"
       ],
       "answer": 1,
-      "missLine": "Refusing a blood or breath test when charged with DUI can cost you your license."
+      "missLine": "Refusing a blood or breath test when you are charged with DUI can cost you your license."
     },
     {
       "id": "ev-pen-demerit-points-1",
       "item": "pen-demerit-points",
       "kind": "gates",
-      "prompt": "One traffic conviction adds how many demerit points?",
+      "prompt": "How many demerit points can one traffic conviction add?",
       "choices": [
-        "3, 4 or 6",
-        "1, 2 or 3",
-        "5, 10 or 15"
+        "3, 4 or 6 points",
+        "1, 2 or 3 points",
+        "5, 10 or 15 points"
       ],
       "answer": 0,
-      "missLine": "A conviction may add 3, 4 or 6 demerit points."
+      "missLine": "One conviction may add 3, 4 or 6 demerit points to your record."
     },
     {
       "id": "ev-pen-demerit-points-2",
       "item": "pen-demerit-points",
       "kind": "gates",
-      "prompt": "DMV counts your demerit points over:",
+      "prompt": "Over which two time periods does DMV count your demerit points?",
       "choices": [
         "6 and 9 months",
         "12 and 24 months",
         "36 and 48 months"
       ],
       "answer": 1,
-      "missLine": "DMV watches your points in 12-month and 24-month periods."
+      "missLine": "DMV counts your points in 12-month and 24-month periods."
     },
     {
       "id": "ev-pen-demerit-points-3",
       "item": "pen-demerit-points",
       "kind": "action",
-      "prompt": "Red light ahead! Running it adds demerit points.",
+      "prompt": "A red light is ahead! Running the light adds demerit points.",
       "prop": "traffic-light-red",
       "action": "stop",
-      "missLine": "Stop at red. Moving violations add demerit points to your record."
+      "missLine": "Stop at a red light. Moving violations add demerit points to your record."
     },
     {
       "id": "ev-pen-demerit-points-4",
@@ -704,104 +704,104 @@
         "DMV"
       ],
       "answer": 2,
-      "missLine": "DMV keeps your driving record and assigns demerit points."
+      "missLine": "DMV keeps your driving record and assigns the demerit points."
     },
     {
       "id": "ev-pen-under18-clinic-1",
       "item": "pen-under18-clinic",
       "kind": "gates",
-      "prompt": "Under 18, first demerit point ticket. DMV requires:",
+      "prompt": "What does DMV require when a driver under 18 gets a first demerit point ticket?",
       "choices": [
-        "No action on first ticket",
-        "Driver improvement clinic",
+        "No action for a first ticket",
+        "A driver improvement clinic",
         "A 1-year revocation"
       ],
       "answer": 1,
-      "missLine": "Under 18, one point conviction means a driver improvement clinic."
+      "missLine": "If you are under 18 and are convicted of a demerit point violation, you must take a driver improvement clinic."
     },
     {
       "id": "ev-pen-under18-clinic-2",
       "item": "pen-under18-clinic",
       "kind": "gates",
-      "prompt": "A driver improvement clinic must be done within:",
+      "prompt": "Within how many days must you finish a driver improvement clinic?",
       "choices": [
         "30 days",
         "60 days",
         "90 days"
       ],
       "answer": 2,
-      "missLine": "Finish the clinic within 90 days or your license is suspended."
+      "missLine": "You must finish the clinic within 90 days, or DMV suspends your license."
     },
     {
       "id": "ev-pen-under18-clinic-3",
       "item": "pen-under18-clinic",
       "kind": "gates",
-      "prompt": "Under 18, seat belt ticket. Is a clinic required?",
+      "prompt": "Is a clinic required if you are under 18 and get a seat belt ticket?",
       "choices": [
-        "Clinic is required",
-        "Belt tickets don't count",
-        "Only if over 18"
+        "Yes, a clinic is required",
+        "No, belt tickets don't count",
+        "Only if you are over 18"
       ],
       "answer": 0,
-      "missLine": "Under 18, a seat belt or child restraint violation also means a clinic."
+      "missLine": "If you are under 18, a seat belt or child restraint violation also requires a driver improvement clinic."
     },
     {
       "id": "ev-pen-under18-second-1",
       "item": "pen-under18-second",
       "kind": "gates",
-      "prompt": "Under 18, second conviction. Suspended for:",
+      "prompt": "How long is a driver under 18 suspended after a second conviction?",
       "choices": [
         "30 days",
         "90 days",
         "1 year"
       ],
       "answer": 1,
-      "missLine": "A second conviction under 18 means a 90-day suspension."
+      "missLine": "If you are under 18, a second conviction means DMV suspends your license for 90 days."
     },
     {
       "id": "ev-pen-under18-second-2",
       "item": "pen-under18-second",
       "kind": "gates",
-      "prompt": "Under 18, second demerit point ticket. DMV will:",
+      "prompt": "If you are under 18, what will DMV do after your second demerit point ticket?",
       "choices": [
-        "Send a warning",
-        "Require a clinic only",
-        "Suspend for 90 days"
+        "Send you a warning",
+        "Require only a clinic",
+        "Suspend you for 90 days"
       ],
       "answer": 2,
-      "missLine": "Under 18, the second conviction means DMV suspends you for 90 days."
+      "missLine": "If you are under 18, DMV suspends your license for 90 days after a second conviction."
     },
     {
       "id": "ev-pen-under18-third-1",
       "item": "pen-under18-third",
       "kind": "gates",
-      "prompt": "Under 18, third conviction. Result?",
+      "prompt": "What happens to a driver under 18 after a third conviction?",
       "choices": [
-        "90-day suspension",
-        "Revoked 1 yr or until 18",
-        "Another clinic"
+        "Suspended for 90 days",
+        "Revoked for 1 year or until 18",
+        "Made to take another clinic"
       ],
       "answer": 1,
-      "missLine": "Third conviction under 18: revoked one year or until 18, whichever is longer."
+      "missLine": "If you are under 18, a third conviction means your license is revoked for one year or until age 18, whichever is longer."
     },
     {
       "id": "ev-pen-under18-third-2",
       "item": "pen-under18-third",
       "kind": "gates",
-      "prompt": "Third ticket, revoked at age 16. Lasts until:",
+      "prompt": "If a 16-year-old gets a third conviction, until what age does the revocation last?",
       "choices": [
         "Age 21",
         "Age 17",
         "Age 18"
       ],
       "answer": 2,
-      "missLine": "It lasts one year or until 18, whichever is longer. At 16, that is 18."
+      "missLine": "The revocation lasts one year or until age 18, whichever is longer. For a 16-year-old, that is age 18."
     },
     {
       "id": "ev-pen-under18-third-3",
       "item": "pen-under18-third",
       "kind": "gates",
-      "prompt": "Under 18 revocation: one year, or until:",
+      "prompt": "A revocation for a driver under 18 lasts one year or until what age?",
       "choices": [
         "Age 18",
         "Age 21",
@@ -814,124 +814,124 @@
       "id": "ev-pen-age-18-19-clinic-1",
       "item": "pen-age-18-19-clinic",
       "kind": "gates",
-      "prompt": "Age 19, one demerit point ticket. DMV requires:",
+      "prompt": "What does DMV require when a 19-year-old driver gets one demerit point ticket?",
       "choices": [
         "Nothing until 12 points",
         "A 1-year revocation",
-        "Driver improvement clinic"
+        "A driver improvement clinic"
       ],
       "answer": 2,
-      "missLine": "At 18 or 19, one point or seat belt conviction means a clinic."
+      "missLine": "At age 18 or 19, a conviction for a demerit point or seat belt violation means you must take a driver improvement clinic."
     },
     {
       "id": "ev-pen-age-18-19-clinic-2",
       "item": "pen-age-18-19-clinic",
       "kind": "gates",
-      "prompt": "One ticket means a clinic up to what age?",
+      "prompt": "Up to what age must you take a driver improvement clinic after one demerit point ticket?",
       "choices": [
-        "17",
-        "19",
-        "25"
+        "Age 17",
+        "Age 19",
+        "Age 25"
       ],
       "answer": 1,
-      "missLine": "Up to age 19, one point or seat belt conviction means a clinic."
+      "missLine": "If you are 19 or younger, a demerit point or seat belt conviction means you must take a driver improvement clinic."
     },
     {
       "id": "ev-pen-adult-clinic-1",
       "item": "pen-adult-clinic",
       "kind": "gates",
-      "prompt": "Age 18+. Clinic at how many demerit points in 12 months?",
+      "prompt": "At age 18 or older, how many demerit points in 12 months require a clinic?",
       "choices": [
         "6 points",
         "12 points",
         "18 points"
       ],
       "answer": 1,
-      "missLine": "Age 18+: 12 points in 12 months means a driver improvement clinic."
+      "missLine": "At age 18 or older, 12 demerit points in 12 months require a driver improvement clinic."
     },
     {
       "id": "ev-pen-adult-clinic-2",
       "item": "pen-adult-clinic",
       "kind": "gates",
-      "prompt": "Age 18+. Clinic at how many demerit points in 24 months?",
+      "prompt": "At age 18 or older, how many demerit points in 24 months require a clinic?",
       "choices": [
         "12 points",
         "24 points",
         "18 points"
       ],
       "answer": 2,
-      "missLine": "Age 18+: 18 points in 24 months means a driver improvement clinic."
+      "missLine": "At age 18 or older, 18 demerit points in 24 months require a driver improvement clinic."
     },
     {
       "id": "ev-pen-adult-clinic-3",
       "item": "pen-adult-clinic",
       "kind": "gates",
-      "prompt": "Driver improvement clinic not done in 90 days. Result?",
+      "prompt": "What happens if you do not finish a driver improvement clinic within 90 days?",
       "choices": [
-        "License suspended",
-        "Demerit points erased",
-        "30 more days"
+        "Your license is suspended",
+        "Your demerit points are erased",
+        "You get 30 more days"
       ],
       "answer": 0,
-      "missLine": "If you do not finish the clinic in 90 days, DMV suspends your license."
+      "missLine": "If you do not finish the clinic within 90 days, DMV suspends your license."
     },
     {
       "id": "ev-pen-adult-suspension-1",
       "item": "pen-adult-suspension",
       "kind": "gates",
-      "prompt": "18 demerit points in 12 months means:",
+      "prompt": "What happens if you get 18 demerit points in 12 months?",
       "choices": [
-        "90-day suspension",
-        "A clinic only",
+        "A 90-day suspension",
+        "Only a clinic",
         "A warning letter"
       ],
       "answer": 0,
-      "missLine": "18 points in 12 months: 90-day suspension plus a clinic."
+      "missLine": "With 18 points in 12 months, DMV suspends your license for 90 days and requires a driver improvement clinic."
     },
     {
       "id": "ev-pen-adult-suspension-2",
       "item": "pen-adult-suspension",
       "kind": "gates",
-      "prompt": "24 demerit points within how long means suspension?",
+      "prompt": "Within how many months do 24 demerit points lead to a suspension?",
       "choices": [
         "12 months",
         "24 months",
         "36 months"
       ],
       "answer": 1,
-      "missLine": "24 points in 24 months: DMV suspends your license for 90 days."
+      "missLine": "If you get 24 points in 24 months, DMV suspends your license for 90 days."
     },
     {
       "id": "ev-pen-adult-suspension-3",
       "item": "pen-adult-suspension",
       "kind": "gates",
-      "prompt": "An adult's demerit point suspension lasts:",
+      "prompt": "How long does an adult's demerit point suspension last?",
       "choices": [
         "1 year",
         "30 days",
         "90 days"
       ],
       "answer": 2,
-      "missLine": "Too many points means a 90-day suspension and a clinic."
+      "missLine": "Too many demerit points lead to a 90-day suspension and a driver improvement clinic."
     },
     {
       "id": "ev-pen-medical-review-1",
       "item": "pen-medical-review",
       "kind": "gates",
-      "prompt": "Medical review checks vision, consciousness and:",
+      "prompt": "Besides vision and consciousness, what else does a medical review check?",
       "choices": [
-        "Judgment",
-        "Credit score",
-        "Car's age"
+        "Your judgment",
+        "Your credit score",
+        "Your car's age"
       ],
       "answer": 0,
-      "missLine": "DMV checks consciousness, vision, judgment and motor skills."
+      "missLine": "DMV checks your consciousness, vision, judgment and motor skills."
     },
     {
       "id": "ev-pen-medical-review-2",
       "item": "pen-medical-review",
       "kind": "gates",
-      "prompt": "DMV may want this from your doctor:",
+      "prompt": "What may DMV want from your doctor?",
       "choices": [
         "Your school grades",
         "A medical or vision report",
@@ -944,46 +944,46 @@
       "id": "ev-pen-medical-review-3",
       "item": "pen-medical-review",
       "kind": "gates",
-      "prompt": "Which one does a medical review check?",
+      "prompt": "Which of these does a medical review check?",
       "choices": [
         "Your height",
         "Your car's color",
-        "Motor skills"
+        "Your motor skills"
       ],
       "answer": 2,
-      "missLine": "Medical review looks at consciousness, vision, judgment and motor skills."
+      "missLine": "A medical review looks at your consciousness, vision, judgment and motor skills."
     },
     {
       "id": "ev-pen-medical-outcomes-1",
       "item": "pen-medical-outcomes",
       "kind": "gates",
-      "prompt": "After a medical review, DMV may:",
+      "prompt": "What may DMV do after a medical review?",
       "choices": [
         "Restrict your license",
         "Add 6 demerit points",
         "Charge a $600 fee"
       ],
       "answer": 0,
-      "missLine": "DMV may suspend, restrict, ask for reports, or end the review."
+      "missLine": "After a medical review, DMV may suspend or restrict your license, ask for reports, or end the review."
     },
     {
       "id": "ev-pen-medical-outcomes-2",
       "item": "pen-medical-outcomes",
       "kind": "gates",
-      "prompt": "After a medical suspension, legal presence proof is needed:",
+      "prompt": "After a medical suspension, when do you need to show legal presence proof?",
       "choices": [
         "Always",
-        "Only if expired",
-        "Only if under 21"
+        "Only if your license expires",
+        "Only if you are under age 21"
       ],
       "answer": 1,
-      "missLine": "After a medical suspension, you need legal presence proof only if expired or another suspension needs it."
+      "missLine": "After a medical suspension, you need legal presence proof only if your license expires or another suspension or revocation requires it."
     },
     {
       "id": "ev-pen-insurance-or-fee-1",
       "item": "pen-insurance-or-fee",
       "kind": "gates",
-      "prompt": "The uninsured motor vehicle fee is:",
+      "prompt": "How much is the uninsured motor vehicle fee?",
       "choices": [
         "$100",
         "$500",
@@ -996,36 +996,36 @@
       "id": "ev-pen-insurance-or-fee-2",
       "item": "pen-insurance-or-fee",
       "kind": "gates",
-      "prompt": "To register a car, you need insurance or:",
+      "prompt": "What can you use instead of insurance to register a car?",
       "choices": [
         "A clean record",
         "A parent's signature",
         "The $500 fee"
       ],
       "answer": 2,
-      "missLine": "To register, have liability insurance or pay the $500 uninsured motor vehicle fee."
+      "missLine": "To register a car, you must have liability insurance or pay the $500 uninsured motor vehicle fee."
     },
     {
       "id": "ev-pen-insurance-or-fee-3",
       "item": "pen-insurance-or-fee",
       "kind": "gates",
-      "prompt": "Buy insurance from a company that is:",
+      "prompt": "What kind of company should you buy insurance from?",
       "choices": [
-        "Allowed in Virginia",
-        "Based in any state",
-        "Cheapest online"
+        "A company allowed in Virginia",
+        "A company based in any state",
+        "The cheapest company online"
       ],
       "answer": 0,
-      "missLine": "Use a company authorized to do business in Virginia."
+      "missLine": "Buy insurance from a company that is authorized to do business in Virginia."
     },
     {
       "id": "ev-pen-fee-not-insurance-1",
       "item": "pen-fee-not-insurance",
       "kind": "gates",
-      "prompt": "The $500 uninsured motor vehicle fee gives you:",
+      "prompt": "What insurance coverage does the $500 uninsured motor vehicle fee give you?",
       "choices": [
-        "Basic insurance coverage",
-        "No insurance at all",
+        "Basic coverage",
+        "No coverage at all",
         "Property damage only"
       ],
       "answer": 1,
@@ -1035,7 +1035,7 @@
       "id": "ev-pen-fee-not-insurance-2",
       "item": "pen-fee-not-insurance",
       "kind": "gates",
-      "prompt": "The $500 fee lets you drive for:",
+      "prompt": "For how long does the $500 fee let you register and drive a car?",
       "choices": [
         "3 years",
         "6 months",
@@ -1048,46 +1048,46 @@
       "id": "ev-pen-insurance-monitoring-1",
       "item": "pen-insurance-monitoring",
       "kind": "gates",
-      "prompt": "DMV asks for your insurance info. You:",
+      "prompt": "What should you do when DMV asks for your insurance information?",
       "choices": [
-        "Ignore the letter",
+        "Ignore the request",
         "Send the information",
-        "Wait until renewal"
+        "Wait until renewal time"
       ],
       "answer": 1,
-      "missLine": "Always send the insurance info DMV asks for, or DMV suspends your license."
+      "missLine": "Send DMV the insurance information it asks for, or DMV will suspend your license."
     },
     {
       "id": "ev-pen-insurance-monitoring-2",
       "item": "pen-insurance-monitoring",
       "kind": "gates",
-      "prompt": "Insurance stops. You keep the plates. Result?",
+      "prompt": "What happens if your insurance stops and you keep your license plates?",
       "choices": [
-        "License suspended",
+        "Your license is suspended",
         "Nothing happens",
-        "Demerit points only"
+        "You get demerit points only"
       ],
       "answer": 0,
-      "missLine": "Insurance stops? Return the plates to DMV, or DMV suspends your license."
+      "missLine": "If your insurance stops, you must return the plates to DMV, or DMV will suspend your license."
     },
     {
       "id": "ev-pen-insure-whole-period-1",
       "item": "pen-insure-whole-period",
       "kind": "gates",
-      "prompt": "Canceling insurance? First you:",
+      "prompt": "What must you do before you cancel your car insurance?",
       "choices": [
-        "Sell the car",
-        "Tell the police",
-        "Return plates to DMV"
+        "Sell the car to a buyer",
+        "Tell the local police",
+        "Return the plates to DMV"
       ],
       "answer": 2,
-      "missLine": "Before you cancel insurance, return the plates and cancel the registration."
+      "missLine": "Before you cancel your insurance, return the plates to DMV and cancel the registration."
     },
     {
       "id": "ev-pen-insure-whole-period-2",
       "item": "pen-insure-whole-period",
       "kind": "gates",
-      "prompt": "A registered car is never driven. Insurance is needed:",
+      "prompt": "How long do you need insurance on a registered car that is never driven?",
       "choices": [
         "The whole time",
         "Not at all",
@@ -1100,20 +1100,20 @@
       "id": "ev-pen-caught-uninsured-1",
       "item": "pen-caught-uninsured",
       "kind": "gates",
-      "prompt": "Caught driving uninsured. Fee to reinstate?",
+      "prompt": "What fee must you pay to get your license back after being caught driving uninsured?",
       "choices": [
         "$500",
         "$600",
         "$1,000"
       ],
       "answer": 1,
-      "missLine": "Caught uninsured? The noncompliance fee is $600."
+      "missLine": "If you are caught driving uninsured, the noncompliance fee is $600."
     },
     {
       "id": "ev-pen-caught-uninsured-2",
       "item": "pen-caught-uninsured",
       "kind": "gates",
-      "prompt": "Caught uninsured. Your insurer files proof for:",
+      "prompt": "For how long must your insurance company file proof after you are caught uninsured?",
       "choices": [
         "1 year",
         "2 years",
@@ -1126,111 +1126,111 @@
       "id": "ev-pen-caught-uninsured-3",
       "item": "pen-caught-uninsured",
       "kind": "gates",
-      "prompt": "Caught driving uninsured, no fee paid. The license is:",
+      "prompt": "What happens if you are caught driving uninsured and have not paid the $500 fee?",
       "choices": [
-        "Suspended",
-        "Just a warning",
-        "Demerit points only"
+        "Your license is suspended",
+        "You get just a warning",
+        "You get demerit points only"
       ],
       "answer": 0,
-      "missLine": "Driving uninsured without paying the fee means DMV suspends your license."
+      "missLine": "If you drive uninsured and have not paid the fee, DMV suspends your license."
     },
     {
       "id": "ev-pen-liability-minimums-1",
       "item": "pen-liability-minimums",
       "kind": "gates",
-      "prompt": "Minimum coverage: one person hurt or killed?",
+      "prompt": "What is the minimum coverage for one person hurt or killed?",
       "choices": [
         "$20,000",
         "$30,000",
         "$60,000"
       ],
       "answer": 1,
-      "missLine": "Since 2022, the minimum for one person is $30,000."
+      "missLine": "Since 2022, the minimum coverage for one person hurt or killed is $30,000."
     },
     {
       "id": "ev-pen-liability-minimums-2",
       "item": "pen-liability-minimums",
       "kind": "gates",
-      "prompt": "Minimum coverage: two or more people hurt?",
+      "prompt": "What is the minimum coverage for two or more people hurt or killed?",
       "choices": [
         "$30,000",
         "$50,000",
         "$60,000"
       ],
       "answer": 2,
-      "missLine": "Since 2022, the minimum for two or more people is $60,000."
+      "missLine": "Since 2022, the minimum coverage for two or more people is $60,000."
     },
     {
       "id": "ev-pen-liability-minimums-3",
       "item": "pen-liability-minimums",
       "kind": "gates",
-      "prompt": "Minimum coverage: property damage?",
+      "prompt": "What is the minimum coverage for property damage?",
       "choices": [
         "$20,000",
         "$25,000",
         "$30,000"
       ],
       "answer": 0,
-      "missLine": "The minimum for property damage is $20,000."
+      "missLine": "The minimum coverage for property damage is $20,000."
     },
     {
       "id": "ev-pen-child-support-1",
       "item": "pen-child-support",
       "kind": "gates",
-      "prompt": "Suspended if child support is late how many days?",
+      "prompt": "How many days late must child support be to get your license suspended?",
       "choices": [
         "30 days",
         "60 days",
         "90 days"
       ],
       "answer": 2,
-      "missLine": "Child support 90 days late or $5,000 behind means your license is suspended."
+      "missLine": "If your child support is 90 days late or $5,000 behind, your license can be suspended."
     },
     {
       "id": "ev-pen-child-support-2",
       "item": "pen-child-support",
       "kind": "gates",
-      "prompt": "Suspended if child support is behind by:",
+      "prompt": "How far behind on child support must you be to have your license suspended?",
       "choices": [
         "$5,000",
         "$500",
         "$1,000"
       ],
       "answer": 0,
-      "missLine": "$5,000 behind on child support means your license is suspended."
+      "missLine": "If you are $5,000 behind on child support, your license can be suspended."
     },
     {
       "id": "ev-pen-child-support-3",
       "item": "pen-child-support",
       "kind": "gates",
-      "prompt": "Missing a child support court date leads to:",
+      "prompt": "What happens if you miss a child support court date?",
       "choices": [
         "Nothing happens",
-        "License suspended",
-        "Two demerit points"
+        "Your license is suspended",
+        "You get two demerit points"
       ],
       "answer": 1,
-      "missLine": "Failing to appear in a child support or paternity case means suspension."
+      "missLine": "If you do not appear in court for a child support or paternity case, your license can be suspended."
     },
     {
       "id": "ev-pen-household-records-1",
       "item": "pen-household-records",
       "kind": "gates",
-      "prompt": "Insurers may check the records of who?",
+      "prompt": "Whose driving records may an insurance company look at?",
       "choices": [
-        "Only the car owner",
-        "All of driving age at home",
-        "Only drivers over 25"
+        "Only the owner of the car",
+        "Everyone of driving age at home",
+        "Only drivers older than 25"
       ],
       "answer": 1,
-      "missLine": "Insurers may use the records of everyone of driving age in the household."
+      "missLine": "Insurance companies may look at the records of everyone of driving age in your home."
     },
     {
       "id": "ev-pen-household-records-2",
       "item": "pen-household-records",
       "kind": "gates",
-      "prompt": "New driver at home? Who do you ask about cost?",
+      "prompt": "Who should you ask about how a new driver may change your insurance cost?",
       "choices": [
         "Your insurance agent",
         "The police",
@@ -1243,40 +1243,40 @@
       "id": "ev-pen-insurance-or-fee-4",
       "item": "pen-insurance-or-fee",
       "kind": "gates",
-      "prompt": "Registering a car, you sign that you have:",
+      "prompt": "When you register a car, what must your signed statement say you have?",
       "choices": [
         "A clean record",
         "A parking space",
         "Liability insurance"
       ],
       "answer": 2,
-      "missLine": "You sign that you have liability insurance, or you pay the $500 fee."
+      "missLine": "You sign a statement that you have liability insurance, or you pay the $500 fee."
     },
     {
       "id": "ev-pen-may-refuse-test-3",
       "item": "pen-may-refuse-test",
       "kind": "gates",
-      "prompt": "Charged with DUI, a driver refuses a breath test. The license is:",
+      "prompt": "What happens to your license if you refuse a breath test when charged with DUI?",
       "choices": [
-        "Suspended automatically",
-        "Demerit points only",
-        "A warning"
+        "It is suspended automatically",
+        "You get only demerit points",
+        "You get a warning"
       ],
       "answer": 0,
-      "missLine": "Refuse a breath test when charged with DUI? Your license is suspended automatically."
+      "missLine": "If you refuse a breath test when charged with DUI, your license is suspended automatically."
     },
     {
       "id": "ev-pen-must-hit-and-run-3",
       "item": "pen-must-hit-and-run",
       "kind": "gates",
-      "prompt": "Injury crash. The other driver caused it. You must:",
+      "prompt": "If someone is hurt in a crash the other driver caused, what must you do?",
       "choices": [
         "Leave the scene",
-        "Go home and call",
+        "Go home and make a call",
         "Stop and say who you are"
       ],
       "answer": 2,
-      "missLine": "Someone hurt or killed? Always stop and identify yourself at the scene."
+      "missLine": "If someone is hurt or killed in a crash, you must stop and identify yourself at the scene."
     }
   ],
   "questions": [
@@ -1284,12 +1284,12 @@
       "id": "q-pen-suspension-meaning-1",
       "item": "pen-suspension-meaning",
       "part": 2,
-      "prompt": "If your driver's license is suspended, it means:",
+      "prompt": "What does it mean if your driver's license is suspended?",
       "choices": [
         "Your privilege to drive has ended for good",
         "Your privilege to drive has been withdrawn temporarily",
         "You may drive only during the day",
-        "You must pay a fine but may keep driving"
+        "You must pay a fine, but you may keep driving"
       ],
       "answer": 1,
       "explain": "A suspension means your privilege to drive has been withdrawn temporarily."
@@ -1298,63 +1298,63 @@
       "id": "q-pen-suspension-meaning-2",
       "item": "pen-suspension-meaning",
       "part": 2,
-      "prompt": "Your driving privilege may be suspended or revoked by the court and/or DMV if you:",
+      "prompt": "What can cause the court or DMV to suspend or revoke your driving privilege?",
       "choices": [
-        "Repeatedly violate the laws of Virginia",
-        "Drive an older vehicle",
-        "Drive below the speed limit",
-        "Have your license sent by mail"
+        "Repeatedly violating the laws of Virginia",
+        "Driving an older vehicle",
+        "Driving below the speed limit",
+        "Having your license sent by mail"
       ],
       "answer": 0,
-      "explain": "Breaking certain laws or repeatedly violating Virginia laws can lead to suspension or revocation."
+      "explain": "Breaking certain laws, or breaking the laws of Virginia again and again, can lead to suspension or revocation."
     },
     {
       "id": "q-pen-suspension-meaning-3",
       "item": "pen-suspension-meaning",
       "part": 2,
-      "prompt": "At the end of a suspension period, you may get your license back by:",
+      "prompt": "At the end of a suspension period, how can you get your license back?",
       "choices": [
-        "Asking a police officer",
-        "Waiting one extra year",
-        "Taking a driver education course",
-        "Paying the required fees to reinstate it"
+        "By asking a police officer",
+        "By waiting one extra year",
+        "By taking a driver education course",
+        "By paying the required fees to reinstate your license"
       ],
       "answer": 3,
-      "explain": "You may pay the required fees and reinstate your license at the end of the suspension period."
+      "explain": "At the end of a suspension period, you may pay the required fees and reinstate your license."
     },
     {
       "id": "q-pen-suspension-reinstate-1",
       "item": "pen-suspension-reinstate",
       "part": 2,
-      "prompt": "If your license has been expired for one year or more during a suspension, to reinstate it you must:",
+      "prompt": "If your license has been expired for one year or more during a suspension, what must you do to reinstate it?",
       "choices": [
-        "Pay a fee only",
+        "Pay only a fee",
         "Pass only the vision exam",
         "Show proof of legal presence and pass the two-part knowledge, road skills and vision exams",
         "Wait one more year"
       ],
       "answer": 2,
-      "explain": "If it expired one year or more, you must show legal presence and pass the knowledge, road skills and vision exams."
+      "explain": "If your license has been expired for one year or more, you must show proof of legal presence and pass the knowledge, road skills and vision exams."
     },
     {
       "id": "q-pen-suspension-reinstate-2",
       "item": "pen-suspension-reinstate",
       "part": 2,
-      "prompt": "When you reinstate a suspended license, proof of legal presence means you are:",
+      "prompt": "What does proof of legal presence mean when you reinstate a suspended license?",
       "choices": [
-        "A Virginia homeowner",
-        "Over age 21",
-        "Covered by liability insurance",
-        "A U.S. citizen or legally authorized by the federal government to be in the U.S."
+        "You are a Virginia homeowner",
+        "You are over age 21",
+        "You are covered by liability insurance",
+        "You are a U.S. citizen or are legally authorized by the federal government to be in the United States"
       ],
       "answer": 3,
-      "explain": "Legal presence means you are a U.S. citizen or legally authorized by the federal government to be in the U.S."
+      "explain": "Proof of legal presence means you are a U.S. citizen or are legally authorized by the federal government to be in the U.S."
     },
     {
       "id": "q-pen-revocation-meaning-1",
       "item": "pen-revocation-meaning",
       "part": 2,
-      "prompt": "Revocation of your driving privilege means:",
+      "prompt": "What does revocation of your driving privilege mean?",
       "choices": [
         "Your privilege to drive has been withdrawn for 90 days",
         "Your privilege to drive has been terminated",
@@ -1362,21 +1362,21 @@
         "Demerit points were added to your record"
       ],
       "answer": 1,
-      "explain": "Revocation means your privilege to drive has been terminated."
+      "explain": "Revocation means your privilege to drive has been terminated. In plain words, it has ended."
     },
     {
       "id": "q-pen-revocation-meaning-2",
       "item": "pen-revocation-meaning",
       "part": 2,
-      "prompt": "After a revocation period has passed, to drive again you must:",
+      "prompt": "What must you do to drive again after a revocation period has passed?",
       "choices": [
         "Wait for DMV to mail your old license back",
-        "Pay a fee only",
-        "Re-apply, show proof of legal presence, pass the vision, knowledge and road skills tests, and pay fees",
-        "Complete a driver improvement clinic only"
+        "Pay only a fee",
+        "Apply again, show proof of legal presence, pass the vision, knowledge and road skills tests, and pay fees",
+        "Complete only a driver improvement clinic"
       ],
       "answer": 2,
-      "explain": "After revocation you must re-apply, show legal presence, pass all tests and pay the required fees."
+      "explain": "After a revocation, you must apply again, show proof of legal presence, pass all the tests and pay the required fees."
     },
     {
       "id": "q-pen-revocation-meaning-3",
@@ -1384,75 +1384,75 @@
       "part": 2,
       "prompt": "Which statement about suspension and revocation is true?",
       "choices": [
-        "A suspension is temporary; a revocation ends your privilege and you must re-apply",
+        "A suspension is temporary, but a revocation ends your privilege and you must apply again",
         "They mean the same thing",
-        "A revocation is temporary; a suspension is permanent",
-        "Neither one requires paying fees"
+        "A revocation is temporary, but a suspension is permanent",
+        "Neither one requires you to pay fees"
       ],
       "answer": 0,
-      "explain": "Suspension withdraws your privilege temporarily; revocation terminates it and you must re-apply."
+      "explain": "A suspension withdraws your privilege for a while. A revocation ends it, and you must apply again."
     },
     {
       "id": "q-pen-must-dui-1",
       "item": "pen-must-dui",
       "part": 2,
-      "prompt": "The court or DMV will suspend or revoke your driving privilege if you are convicted of:",
+      "prompt": "If you are convicted of one of these, which one will lead the court or DMV to suspend or revoke your driving privilege?",
       "choices": [
         "Driving below the speed limit",
         "Failing to renew your registration on time",
         "Driving under the influence of alcohol or drugs (DUI)",
-        "Driving with your headlights on in the day"
+        "Driving with your headlights on during the day"
       ],
       "answer": 2,
-      "explain": "A DUI conviction always leads to suspension or revocation of your driving privilege."
+      "explain": "A DUI conviction always leads to the suspension or revocation of your driving privilege."
     },
     {
       "id": "q-pen-must-dui-2",
       "item": "pen-must-dui",
       "part": 2,
-      "prompt": "If you drive a vehicle without an ignition interlock device when the court or DMV requires one:",
+      "prompt": "What happens if you drive without an ignition interlock device when the court or DMV requires one?",
       "choices": [
         "Your driving privilege will be suspended or revoked",
         "You will get a warning",
-        "You will receive 3 demerit points only",
+        "You will receive only 3 demerit points",
         "You must pay the $500 uninsured motor vehicle fee"
       ],
       "answer": 0,
-      "explain": "Driving without a required ignition interlock device leads to suspension or revocation."
+      "explain": "Driving without an ignition interlock device that the court or DMV requires leads to suspension or revocation of your driving privilege."
     },
     {
       "id": "q-pen-must-dui-3",
       "item": "pen-must-dui",
       "part": 2,
-      "prompt": "If you are convicted of driving while your license is suspended for a DUI:",
+      "prompt": "What happens if you are convicted of driving while your license is suspended for a DUI?",
       "choices": [
         "The court may choose to do nothing",
         "You only have to take a driver improvement clinic",
-        "You only pay a reinstatement fee",
+        "You only have to pay a reinstatement fee",
         "Your driving privilege will be suspended or revoked"
       ],
       "answer": 3,
-      "explain": "Driving while suspended or revoked for a DUI always leads to suspension or revocation."
+      "explain": "A conviction for driving while suspended for a DUI always leads to suspension or revocation."
     },
     {
       "id": "q-pen-must-false-statement-1",
       "item": "pen-must-false-statement",
       "part": 2,
-      "prompt": "Making a false statement to DMV will result in:",
+      "prompt": "What will be the result of making a false statement to DMV?",
       "choices": [
         "Suspension or revocation of your driving privilege",
         "A warning letter",
         "Two demerit points",
-        "A required vision exam only"
+        "Only a required vision exam"
       ],
       "answer": 0,
-      "explain": "A conviction for making a false statement to DMV leads to suspension or revocation."
+      "explain": "A conviction for making a false statement to DMV leads to suspension or revocation of your driving privilege."
     },
     {
       "id": "q-pen-must-false-statement-2",
       "item": "pen-must-false-statement",
       "part": 2,
-      "prompt": "Your driving privilege will be suspended or revoked if you are convicted of:",
+      "prompt": "If you are convicted of one of these, which one will cause your driving privilege to be suspended or revoked?",
       "choices": [
         "Driving with a learner's permit and a licensed adult",
         "Taking a driver's license exam for another person",
@@ -1460,13 +1460,13 @@
         "Registering to vote at DMV"
       ],
       "answer": 1,
-      "explain": "Taking a license exam or renewing a license for another person leads to suspension or revocation."
+      "explain": "Taking a driver's license exam for someone else, or renewing someone else's license, leads to suspension or revocation."
     },
     {
       "id": "q-pen-must-hit-and-run-1",
       "item": "pen-must-hit-and-run",
       "part": 2,
-      "prompt": "If you are in a crash where someone is injured or killed, you must:",
+      "prompt": "What must you do if you are in a crash where someone is injured or killed?",
       "choices": [
         "Leave if the other driver is at fault",
         "Stop and identify yourself at the scene",
@@ -1474,63 +1474,63 @@
         "Call your insurance company before stopping"
       ],
       "answer": 1,
-      "explain": "Failing to stop and identify yourself at a crash with injury or death leads to suspension or revocation."
+      "explain": "You must stop and identify yourself at the scene when someone is hurt or killed. A conviction for failing to do so leads to suspension or revocation."
     },
     {
       "id": "q-pen-must-hit-and-run-2",
       "item": "pen-must-hit-and-run",
       "part": 2,
-      "prompt": "Failing to stop and identify yourself at the scene of a crash where someone was hurt will result in:",
+      "prompt": "What will be the result of failing to stop and identify yourself at the scene of a crash where someone was hurt?",
       "choices": [
-        "A warning only",
-        "Demerit points only",
-        "A driver improvement clinic only",
+        "Only a warning",
+        "Only demerit points",
+        "Only a driver improvement clinic",
         "Suspension or revocation of your driving privilege"
       ],
       "answer": 3,
-      "explain": "Leaving an injury or fatal crash without identifying yourself leads to suspension or revocation."
+      "explain": "Failing to stop and identify yourself at a crash where someone was hurt or killed leads to suspension or revocation."
     },
     {
       "id": "q-pen-must-felony-1",
       "item": "pen-must-felony",
       "part": 2,
-      "prompt": "The court or DMV will suspend or revoke your driving privilege if you are convicted of:",
+      "prompt": "Which of these convictions will lead the court or DMV to suspend or revoke your driving privilege?",
       "choices": [
         "A felony involving the use of a motor vehicle",
-        "A motor vehicle-related drug offense",
+        "A drug offense related to a motor vehicle",
         "Manslaughter resulting from driving a motor vehicle",
         "All of these"
       ],
       "answer": 3,
-      "explain": "Vehicle-related felonies, drug offenses and manslaughter all lead to suspension or revocation."
+      "explain": "Each of these convictions leads to suspension or revocation, so the answer is all of them."
     },
     {
       "id": "q-pen-must-felony-2",
       "item": "pen-must-felony",
       "part": 2,
-      "prompt": "Involuntary manslaughter while driving under the influence of alcohol will result in:",
+      "prompt": "What will be the result of involuntary manslaughter caused by driving under the influence of alcohol?",
       "choices": [
-        "Demerit points only",
+        "Only demerit points",
         "Suspension or revocation of your driving privilege",
-        "A driver improvement clinic only",
-        "A $600 noncompliance fee only"
+        "Only a driver improvement clinic",
+        "Only a $600 noncompliance fee"
       ],
       "answer": 1,
-      "explain": "Involuntary manslaughter from DUI driving leads to suspension or revocation."
+      "explain": "Involuntary manslaughter from driving under the influence of alcohol leads to suspension or revocation of your driving privilege."
     },
     {
       "id": "q-pen-must-eluding-1",
       "item": "pen-must-eluding",
       "part": 2,
-      "prompt": "If you are convicted of eluding police:",
+      "prompt": "What happens if you are convicted of eluding police?",
       "choices": [
         "The court may choose to give a warning",
-        "Only demerit points are added",
+        "Only demerit points are added to your record",
         "Your driving privilege will be suspended or revoked",
         "You must pay the $500 uninsured motor vehicle fee"
       ],
       "answer": 2,
-      "explain": "Eluding police is on the list of offenses that always lead to suspension or revocation."
+      "explain": "A conviction for eluding police, which means running from police, always leads to suspension or revocation."
     },
     {
       "id": "q-pen-must-eluding-2",
@@ -1544,69 +1544,69 @@
         "Driving without a valid driver's license"
       ],
       "answer": 0,
-      "explain": "Eluding police always leads to suspension or revocation; the others are up to the court."
+      "explain": "Eluding police always leads to suspension or revocation. For the other offenses, the court decides whether to suspend or revoke."
     },
     {
       "id": "q-pen-may-reckless-1",
       "item": "pen-may-reckless",
       "part": 2,
-      "prompt": "If you are convicted of reckless or aggressive driving, the court:",
+      "prompt": "What happens if you are convicted of reckless or aggressive driving?",
       "choices": [
-        "Must revoke your license for life",
-        "May suspend or revoke your driving privilege",
-        "Cannot take any action",
-        "Must send you to a medical review"
+        "The court must revoke your license for life",
+        "The court may suspend or revoke your driving privilege",
+        "The court cannot take any action",
+        "The court must send you to a medical review"
       ],
       "answer": 1,
-      "explain": "The court may suspend or revoke your driving privilege for reckless or aggressive driving."
+      "explain": "For reckless or aggressive driving, the court may suspend or revoke your driving privilege."
     },
     {
       "id": "q-pen-may-reckless-2",
       "item": "pen-may-reckless",
       "part": 2,
-      "prompt": "For which offense does the court have a choice to suspend or revoke your license?",
+      "prompt": "For which offense does the court get to choose whether to suspend or revoke your license?",
       "choices": [
-        "DUI",
+        "Driving under the influence (DUI)",
         "Making a false statement to DMV",
         "Eluding police",
         "Reckless or aggressive driving"
       ],
       "answer": 3,
-      "explain": "The court may choose to act for reckless or aggressive driving; the others always lead to suspension or revocation."
+      "explain": "The court may choose whether to act for reckless or aggressive driving. The other offenses always lead to suspension or revocation."
     },
     {
       "id": "q-pen-may-no-license-1",
       "item": "pen-may-no-license",
       "part": 2,
-      "prompt": "The court may suspend or revoke your driving privilege if you are convicted of:",
+      "prompt": "If you are convicted of one of these, which one may lead the court to suspend or revoke your driving privilege?",
       "choices": [
         "Operating a motor vehicle without a valid driver's license",
         "Using a turn signal before a lane change",
-        "Driving with headlights on in rain",
+        "Driving with your headlights on in the rain",
         "Paying the uninsured motor vehicle fee"
       ],
       "answer": 0,
-      "explain": "Driving without a valid driver's license can lead to suspension or revocation by the court."
+      "explain": "Driving without a valid driver's license can lead the court to suspend or revoke your driving privilege."
     },
     {
       "id": "q-pen-may-no-license-2",
       "item": "pen-may-no-license",
       "part": 2,
-      "prompt": "If you drive while your license is suspended for a non-DUI conviction:",
+      "prompt": "Which statement is true if you drive while your license is suspended because of a non-DUI conviction?",
       "choices": [
-        "It is allowed for short trips",
+        "Driving on a suspended license is allowed for short trips",
         "Nothing happens if you are not in a crash",
         "The court may suspend or revoke your driving privilege",
         "You only need to pay the $600 fee"
       ],
       "answer": 2,
-      "explain": "Driving while suspended or revoked for a non-DUI conviction can lead to more suspension or revocation."
+      "explain": "Driving while your license is suspended or revoked for a non-DUI conviction can lead to more suspension or revocation."
     },
     {
       "id": "q-pen-may-refuse-test-1",
       "item": "pen-may-refuse-test",
       "part": 2,
-      "prompt": "If you are charged with DUI and refuse to take a blood or breath test:",
+      "prompt": "What happens if you are charged with DUI and refuse to take a blood or breath test?",
       "choices": [
         "The charges must be dropped",
         "The court may suspend or revoke your driving privilege",
@@ -1614,7 +1614,7 @@
         "You only receive 3 demerit points"
       ],
       "answer": 1,
-      "explain": "Refusing a blood/breath test when charged with DUI can lead to suspension or revocation."
+      "explain": "Refusing a blood or breath test when charged with DUI can lead the court to suspend or revoke your driving privilege."
     },
     {
       "id": "q-pen-may-refuse-test-2",
@@ -1625,16 +1625,16 @@
         "Asking an officer for their name",
         "Asking for a lawyer",
         "Keeping your hands on the steering wheel during a stop",
-        "Refusing a blood/breath test when charged with DUI"
+        "Refusing a blood or breath test when charged with DUI"
       ],
       "answer": 3,
-      "explain": "Refusing a blood/breath test when charged with DUI is on the court-may list."
+      "explain": "The court may suspend or revoke your driving privilege if you refuse a blood or breath test when charged with DUI."
     },
     {
       "id": "q-pen-demerit-points-1",
       "item": "pen-demerit-points",
       "part": 2,
-      "prompt": "A traffic conviction may be assigned:",
+      "prompt": "How many demerit points can DMV assign to a traffic conviction?",
       "choices": [
         "1, 2 or 3 demerit points",
         "3, 4 or 6 demerit points",
@@ -1642,21 +1642,21 @@
         "2, 4 or 8 demerit points"
       ],
       "answer": 1,
-      "explain": "Convictions may be assigned three, four or six demerit points."
+      "explain": "DMV may assign three, four or six demerit points to a conviction."
     },
     {
       "id": "q-pen-demerit-points-2",
       "item": "pen-demerit-points",
       "part": 2,
-      "prompt": "DMV monitors how many demerit points you receive within:",
+      "prompt": "Over which time periods does DMV monitor the demerit points you receive?",
       "choices": [
-        "A 6-month and 12-month period",
-        "One calendar year only",
-        "A 12-month and 24-month period",
-        "A 36-month period only"
+        "A 6-month period and a 12-month period",
+        "Only one calendar year",
+        "A 12-month period and a 24-month period",
+        "Only a 36-month period"
       ],
       "answer": 2,
-      "explain": "DMV watches your demerit points over 12-month and 24-month periods."
+      "explain": "DMV watches your demerit points over a 12-month period and a 24-month period."
     },
     {
       "id": "q-pen-demerit-points-3",
@@ -1676,63 +1676,63 @@
       "id": "q-pen-under18-clinic-1",
       "item": "pen-under18-clinic",
       "part": 2,
-      "prompt": "If you are under 18 and convicted of your first demerit point traffic violation, DMV will:",
+      "prompt": "If you are under 18 and convicted of your first traffic violation that carries demerit points, what will DMV do?",
       "choices": [
-        "Require you to complete a driver improvement clinic",
-        "Revoke your license for one year",
-        "Do nothing on a first offense",
-        "Suspend your license for 90 days"
+        "DMV will require you to complete a driver improvement clinic",
+        "DMV will revoke your license for one year",
+        "DMV will do nothing on a first offense",
+        "DMV will suspend your license for 90 days"
       ],
       "answer": 0,
-      "explain": "Under 18, a first point conviction means you must complete a driver improvement clinic."
+      "explain": "If you are under 18, a first conviction for a violation with demerit points means you must complete a driver improvement clinic."
     },
     {
       "id": "q-pen-under18-clinic-2",
       "item": "pen-under18-clinic",
       "part": 2,
-      "prompt": "If you are under 18 and do not complete a required driver improvement clinic within 90 days, DMV will:",
+      "prompt": "What will DMV do if you are under 18 and do not complete a required driver improvement clinic within 90 days?",
       "choices": [
-        "Add 6 demerit points",
-        "Give you 90 more days",
-        "Suspend your driving privilege until you complete the clinic and pay a reinstatement fee",
-        "Require a medical review"
+        "DMV will add 6 demerit points",
+        "DMV will give you 90 more days",
+        "DMV will suspend your driving privilege until you complete the clinic and pay a reinstatement fee",
+        "DMV will require a medical review"
       ],
       "answer": 2,
-      "explain": "If the clinic is not done in 90 days, DMV suspends you until you complete it and pay a reinstatement fee."
+      "explain": "If you do not finish the clinic in 90 days, DMV suspends your driving privilege until you finish it and pay a reinstatement fee."
     },
     {
       "id": "q-pen-under18-clinic-3",
       "item": "pen-under18-clinic",
       "part": 2,
-      "prompt": "A driver under age 18 is convicted of a safety belt violation. DMV will:",
+      "prompt": "What will DMV do if a driver under age 18 is convicted of a safety belt violation?",
       "choices": [
-        "Ignore it because it is not a moving violation",
-        "Require a driver improvement clinic",
-        "Revoke the license for one year",
-        "Require the $500 uninsured motor vehicle fee"
+        "DMV will ignore it because it is not a moving violation",
+        "DMV will require a driver improvement clinic",
+        "DMV will revoke the license for one year",
+        "DMV will require the driver to pay the $500 uninsured motor vehicle fee"
       ],
       "answer": 1,
-      "explain": "Under 18, a safety belt or child restraint violation also requires a driver improvement clinic."
+      "explain": "If you are under 18, a safety belt or child restraint violation also means you must complete a driver improvement clinic."
     },
     {
       "id": "q-pen-under18-second-1",
       "item": "pen-under18-second",
       "part": 2,
-      "prompt": "After a second conviction for a demerit point violation committed under age 18, DMV will:",
+      "prompt": "What will DMV do after your second conviction for a traffic violation with demerit points that you committed when you were under age 18?",
       "choices": [
-        "Send a warning letter",
-        "Require another clinic only",
-        "Revoke your license until age 21",
-        "Suspend your driving privilege for 90 days"
+        "DMV will send a warning letter",
+        "DMV will require only another clinic",
+        "DMV will revoke your license until age 21",
+        "DMV will suspend your driving privilege for 90 days"
       ],
       "answer": 3,
-      "explain": "A second conviction under age 18 means a 90-day suspension."
+      "explain": "After a second conviction for a violation you committed when you were under age 18, DMV will suspend your driving privilege for 90 days."
     },
     {
       "id": "q-pen-under18-second-2",
       "item": "pen-under18-second",
       "part": 2,
-      "prompt": "A 16-year-old gets a second safety belt or demerit point conviction. The license is suspended for:",
+      "prompt": "A 16-year-old driver gets a second conviction for a safety belt or demerit point violation. How long does DMV suspend the license?",
       "choices": [
         "30 days",
         "90 days",
@@ -1740,55 +1740,55 @@
         "One year"
       ],
       "answer": 1,
-      "explain": "Under 18, the second conviction means DMV suspends your driving privilege for 90 days."
+      "explain": "After a second conviction for a violation committed under age 18, DMV suspends your driving privilege for 90 days."
     },
     {
       "id": "q-pen-under18-third-1",
       "item": "pen-under18-third",
       "part": 2,
-      "prompt": "After a third conviction for a demerit point violation committed under age 18, DMV will:",
+      "prompt": "You get a third conviction for a demerit point violation that you committed when you were under age 18. What will DMV do?",
       "choices": [
-        "Suspend your license for 90 days",
-        "Require another driver improvement clinic",
-        "Revoke your driving privilege for one year or until you reach age 18, whichever is longer",
-        "Revoke your license until age 21"
+        "DMV will suspend your license for 90 days",
+        "DMV will require another driver improvement clinic",
+        "DMV will revoke your driving privilege for one year or until you reach age 18, whichever is longer",
+        "DMV will revoke your license until age 21"
       ],
       "answer": 2,
-      "explain": "A third conviction under 18 means revocation for one year or until age 18, whichever is longer."
+      "explain": "A third conviction for a violation committed under age 18 means DMV revokes your driving privilege for one year or until you reach age 18, whichever is longer."
     },
     {
       "id": "q-pen-under18-third-2",
       "item": "pen-under18-third",
       "part": 2,
-      "prompt": "A 16-year-old's license is revoked for a third demerit point conviction. The revocation lasts until the driver is:",
+      "prompt": "A 16-year-old driver gets a third demerit point conviction, and DMV revokes the license. At what age does the revocation end?",
       "choices": [
-        "Age 18",
-        "Age 17",
-        "Age 19",
-        "Age 21"
+        "At age 18",
+        "At age 17",
+        "At age 19",
+        "At age 21"
       ],
       "answer": 0,
-      "explain": "It lasts one year or until age 18, whichever is longer; for a 16-year-old, that is age 18."
+      "explain": "The revocation lasts one year or until age 18, whichever is longer. For a 16-year-old, that is age 18."
     },
     {
       "id": "q-pen-age-18-19-clinic-1",
       "item": "pen-age-18-19-clinic",
       "part": 2,
-      "prompt": "If you are 18 or 19 and convicted of a demerit point or safety belt violation, DMV will:",
+      "prompt": "You are 18 or 19 and are convicted of a demerit point or safety belt violation. What will DMV do?",
       "choices": [
-        "Take no action until you have 12 points",
-        "Revoke your license for one year",
-        "Require you to complete a driver improvement clinic",
-        "Suspend your license for 90 days"
+        "DMV will take no action until you have 12 points",
+        "DMV will revoke your license for one year",
+        "DMV will require you to complete a driver improvement clinic",
+        "DMV will suspend your license for 90 days"
       ],
       "answer": 2,
-      "explain": "At age 18 or 19, one demerit point or safety belt conviction requires a driver improvement clinic."
+      "explain": "At age 18 or 19, one conviction for a demerit point or safety belt violation means DMV requires a driver improvement clinic."
     },
     {
       "id": "q-pen-age-18-19-clinic-2",
       "item": "pen-age-18-19-clinic",
       "part": 2,
-      "prompt": "A 19-year-old is convicted of a child restraint violation. DMV will require:",
+      "prompt": "A 19-year-old driver is convicted of a child restraint violation. What will DMV require?",
       "choices": [
         "A driver improvement clinic",
         "A medical review",
@@ -1796,13 +1796,13 @@
         "The $600 noncompliance fee"
       ],
       "answer": 0,
-      "explain": "Drivers age 18 or 19 must complete a clinic for a point or safety belt/child restraint violation."
+      "explain": "A driver who is 18 or 19 must complete a driver improvement clinic after a conviction for a point, safety belt, or child restraint violation."
     },
     {
       "id": "q-pen-adult-clinic-1",
       "item": "pen-adult-clinic",
       "part": 2,
-      "prompt": "If you are 18 or older, DMV will require a driver improvement clinic if you get:",
+      "prompt": "You are 18 or older. How many demerit points in how many months make DMV require a driver improvement clinic?",
       "choices": [
         "6 points in 12 months or 12 points in 24 months",
         "12 points in 12 months or 18 points in 24 months",
@@ -1810,17 +1810,17 @@
         "24 points in 12 months or 36 points in 24 months"
       ],
       "answer": 1,
-      "explain": "Adults must complete a clinic at 12 points in 12 months or 18 points in 24 months."
+      "explain": "An adult must complete a clinic after getting 12 points in 12 months or 18 points in 24 months."
     },
     {
       "id": "q-pen-adult-clinic-2",
       "item": "pen-adult-clinic",
       "part": 2,
-      "prompt": "If you are 18 or older and do not complete a required driver improvement clinic within 90 days:",
+      "prompt": "You are 18 or older and do not complete a required driver improvement clinic within 90 days. What will happen?",
       "choices": [
-        "Your points are erased",
-        "You get 90 more days",
-        "Your insurance is canceled",
+        "Your points will be erased",
+        "You will get 90 more days",
+        "Your insurance will be canceled",
         "DMV will suspend your driving privilege"
       ],
       "answer": 3,
@@ -1830,35 +1830,35 @@
       "id": "q-pen-adult-clinic-3",
       "item": "pen-adult-clinic",
       "part": 2,
-      "prompt": "An adult driver gets 12 demerit points within 12 months. DMV will:",
+      "prompt": "An adult driver gets 12 demerit points within 12 months. What will DMV do?",
       "choices": [
-        "Require a driver improvement clinic",
-        "Revoke the license for one year",
-        "Do nothing",
-        "Require the $500 uninsured motor vehicle fee"
+        "DMV will require a driver improvement clinic",
+        "DMV will revoke the license for one year",
+        "DMV will do nothing",
+        "DMV will require you to pay the $500 uninsured motor vehicle fee"
       ],
       "answer": 0,
-      "explain": "12 points within 12 months means an adult must complete a driver improvement clinic."
+      "explain": "An adult who gets 12 points within 12 months must complete a driver improvement clinic."
     },
     {
       "id": "q-pen-adult-suspension-1",
       "item": "pen-adult-suspension",
       "part": 2,
-      "prompt": "If you receive 18 demerit points within 12 months or 24 points within 24 months, DMV will:",
+      "prompt": "If you get 18 demerit points within 12 months or 24 points within 24 months, what will DMV do?",
       "choices": [
-        "Send a warning letter only",
-        "Revoke your license for one year",
-        "Suspend your driving privilege for 90 days and require a driver improvement clinic",
-        "Require a medical review"
+        "DMV will only send a warning letter",
+        "DMV will revoke your license for one year",
+        "DMV will suspend your driving privilege for 90 days and require a driver improvement clinic",
+        "DMV will require a medical review"
       ],
       "answer": 2,
-      "explain": "18 points in 12 months or 24 in 24 months means a 90-day suspension plus a clinic."
+      "explain": "With 18 points in 12 months or 24 points in 24 months, DMV suspends your driving privilege for 90 days and requires a clinic."
     },
     {
       "id": "q-pen-adult-suspension-2",
       "item": "pen-adult-suspension",
       "part": 2,
-      "prompt": "An adult driver gets 24 demerit points within 24 months. The suspension lasts:",
+      "prompt": "An adult driver gets 24 demerit points within 24 months. How long is the suspension?",
       "choices": [
         "30 days",
         "60 days",
@@ -1866,111 +1866,111 @@
         "90 days"
       ],
       "answer": 3,
-      "explain": "DMV suspends your driving privilege for 90 days and requires a clinic."
+      "explain": "DMV suspends your driving privilege for 90 days and also requires a driver improvement clinic."
     },
     {
       "id": "q-pen-adult-suspension-3",
       "item": "pen-adult-suspension",
       "part": 2,
-      "prompt": "How many demerit points within 12 months lead to a 90-day suspension for an adult?",
+      "prompt": "At how many demerit points within 12 months does an adult face a 90-day suspension?",
       "choices": [
-        "12",
-        "18",
-        "24",
-        "6"
+        "12 points",
+        "18 points",
+        "24 points",
+        "6 points"
       ],
       "answer": 1,
-      "explain": "18 points within 12 months leads to a 90-day suspension."
+      "explain": "Getting 18 demerit points within 12 months leads to a 90-day suspension."
     },
     {
       "id": "q-pen-medical-review-1",
       "item": "pen-medical-review",
       "part": 2,
-      "prompt": "In a medical review, DMV is concerned about any condition that impairs a driver's:",
+      "prompt": "In a medical review, which of these does DMV worry that a condition may weaken?",
       "choices": [
-        "Level of consciousness",
-        "Perception (vision)",
-        "Judgment and motor skills",
+        "A driver's level of consciousness",
+        "A driver's perception (vision)",
+        "A driver's judgment and motor skills",
         "All of these"
       ],
       "answer": 3,
-      "explain": "DMV looks at conditions that impair consciousness, vision, judgment or motor skills."
+      "explain": "DMV looks at any condition that weakens a driver's level of consciousness, vision, judgment, or motor skills."
     },
     {
       "id": "q-pen-medical-review-2",
       "item": "pen-medical-review",
       "part": 2,
-      "prompt": "During a medical review, DMV may require you to:",
+      "prompt": "During a medical review, what may DMV require you to do?",
       "choices": [
-        "Pay the $500 uninsured motor vehicle fee",
-        "Complete a driver improvement clinic",
-        "Return your license plates",
-        "Submit a medical or vision report from your doctor"
+        "DMV may require you to pay the $500 uninsured motor vehicle fee",
+        "DMV may require you to complete a driver improvement clinic",
+        "DMV may require you to return your license plates",
+        "DMV may require you to submit a medical or vision report from your doctor"
       ],
       "answer": 3,
-      "explain": "DMV may require a medical or vision report from your doctor."
+      "explain": "During a medical review, DMV may require a medical or vision report from your doctor."
     },
     {
       "id": "q-pen-medical-review-3",
       "item": "pen-medical-review",
       "part": 2,
-      "prompt": "A medical review may be done when DMV receives a report that a driver:",
+      "prompt": "Which of these reports may lead DMV to do a medical review of a driver?",
       "choices": [
-        "Has a physical or mental condition that may affect safe driving",
-        "Moved to a new address",
-        "Bought a new car",
-        "Has 6 demerit points"
+        "The driver has a physical or mental condition that may affect safe driving",
+        "The driver moved to a new address",
+        "The driver bought a new car",
+        "The driver has 6 demerit points"
       ],
       "answer": 0,
-      "explain": "A medical review may happen when a condition may affect a driver's ability to drive safely."
+      "explain": "DMV may do a medical review when it receives a report of a physical or mental condition that may affect safe driving."
     },
     {
       "id": "q-pen-medical-outcomes-1",
       "item": "pen-medical-outcomes",
       "part": 2,
-      "prompt": "Once a medical review is completed, DMV may:",
+      "prompt": "After a medical review is finished, what may DMV do?",
       "choices": [
-        "Suspend your driving privilege",
-        "Restrict your driving privilege",
-        "Require periodic medical or vision reports",
+        "DMV may suspend your driving privilege",
+        "DMV may restrict your driving privilege",
+        "DMV may require periodic medical or vision reports",
         "All of these"
       ],
       "answer": 3,
-      "explain": "DMV may suspend, restrict, require periodic reports, or end the review."
+      "explain": "After a medical review, DMV may suspend your driving privilege, restrict it, require periodic reports, or end the review."
     },
     {
       "id": "q-pen-medical-outcomes-2",
       "item": "pen-medical-outcomes",
       "part": 2,
-      "prompt": "If DMV suspends your license because of a medical review, to reinstate it you:",
+      "prompt": "DMV suspends your license because of a medical review. Which statement about reinstating it is true?",
       "choices": [
-        "Must pay the $600 noncompliance fee",
-        "Do not need legal presence documents unless another suspension or an expired license requires them",
-        "Must complete a driver improvement clinic",
-        "Must wait one year"
+        "You must pay the $600 noncompliance fee",
+        "You do not need legal presence documents unless another suspension or an expired license requires them",
+        "You must complete a driver improvement clinic",
+        "You must wait one year"
       ],
       "answer": 1,
-      "explain": "A medical suspension does not require legal presence proof unless another suspension or an expired license requires it."
+      "explain": "A suspension from a medical review does not require legal presence documents, unless another suspension or an expired license requires them."
     },
     {
       "id": "q-pen-insurance-or-fee-1",
       "item": "pen-insurance-or-fee",
       "part": 2,
-      "prompt": "To register a vehicle in Virginia, you must have liability insurance or:",
+      "prompt": "If you do not have liability insurance, what must you do to register a vehicle in Virginia?",
       "choices": [
-        "Pay a $600 noncompliance fee",
-        "Show a clean driving record",
-        "Pay the $500 uninsured motor vehicle fee",
-        "Complete a driver improvement clinic"
+        "You must pay a $600 noncompliance fee",
+        "You must show a clean driving record",
+        "You must pay the $500 uninsured motor vehicle fee",
+        "You must complete a driver improvement clinic"
       ],
       "answer": 2,
-      "explain": "To register, you must have liability insurance or pay the $500 uninsured motor vehicle fee."
+      "explain": "To register a vehicle, you must have liability insurance or pay the $500 uninsured motor vehicle fee."
     },
     {
       "id": "q-pen-insurance-or-fee-2",
       "item": "pen-insurance-or-fee",
       "part": 2,
-      "prompt": "The uninsured motor vehicle fee is:",
+      "prompt": "How much is the uninsured motor vehicle fee?",
       "choices": [
         "$250",
         "$500",
@@ -1984,29 +1984,29 @@
       "id": "q-pen-insurance-or-fee-3",
       "item": "pen-insurance-or-fee",
       "part": 2,
-      "prompt": "Your vehicle insurance should be with a company that is:",
+      "prompt": "Which kind of company should insure your vehicle?",
       "choices": [
-        "Authorized to do business in Virginia",
-        "Located in any state",
-        "Approved by your driving school",
-        "Owned by DMV"
+        "A company that is authorized to do business in Virginia",
+        "A company that is located in any state",
+        "A company that is approved by your driving school",
+        "A company that is owned by DMV"
       ],
       "answer": 0,
-      "explain": "Insure your vehicle with a company authorized to do business in Virginia."
+      "explain": "You should insure your vehicle with a company that is authorized to do business in Virginia."
     },
     {
       "id": "q-pen-fee-not-insurance-1",
       "item": "pen-fee-not-insurance",
       "part": 2,
-      "prompt": "Paying the uninsured motor vehicle fee:",
+      "prompt": "What does paying the uninsured motor vehicle fee do?",
       "choices": [
-        "Provides basic liability coverage",
-        "Covers property damage only",
-        "Does not provide insurance coverage, but lets you register and drive the vehicle for one year",
-        "Covers you for three years"
+        "It provides basic liability coverage",
+        "It covers property damage only",
+        "It does not provide insurance coverage, but it lets you register and drive the vehicle for one year",
+        "It covers you for three years"
       ],
       "answer": 2,
-      "explain": "The fee does not provide insurance coverage; it lets you register and operate the vehicle for one year."
+      "explain": "The fee does not give you insurance coverage. It lets you register and operate the vehicle for one year."
     },
     {
       "id": "q-pen-fee-not-insurance-2",
@@ -2020,83 +2020,83 @@
         "Three years"
       ],
       "answer": 0,
-      "explain": "The fee allows you to register and operate the vehicle in Virginia for a one-year period."
+      "explain": "The fee lets you register and operate the vehicle in Virginia for one year."
     },
     {
       "id": "q-pen-insurance-monitoring-1",
       "item": "pen-insurance-monitoring",
       "part": 2,
-      "prompt": "DMV will suspend your driving privilege if:",
+      "prompt": "Which of these situations will make DMV suspend your driving privilege?",
       "choices": [
-        "You do not submit requested insurance policy information",
-        "Your insurance coverage breaks and you do not return your license plates",
+        "You do not submit the insurance policy information that DMV requests",
+        "There is a break in your insurance coverage, and you do not return your license plates to DMV",
         "Both of these",
         "Neither of these"
       ],
       "answer": 2,
-      "explain": "Not sending requested insurance info, or a break in coverage without returning plates, leads to suspension."
+      "explain": "Both situations lead to suspension. DMV suspends your license if you do not send the requested insurance information, or if coverage breaks and you do not return your plates."
     },
     {
       "id": "q-pen-insurance-monitoring-2",
       "item": "pen-insurance-monitoring",
       "part": 2,
-      "prompt": "There is a break in your insurance coverage. To avoid suspension, you should:",
+      "prompt": "There is a break in your insurance coverage. What should you do to avoid a suspension?",
       "choices": [
-        "Keep your plates and drive less",
-        "Return your license plates to DMV",
-        "Accept 3 demerit points",
-        "Take a driver improvement clinic"
+        "You should keep your plates and drive less",
+        "You should return your license plates to DMV",
+        "You should accept 3 demerit points",
+        "You should take a driver improvement clinic"
       ],
       "answer": 1,
-      "explain": "If your coverage breaks, return your license plates to DMV or DMV will suspend your license."
+      "explain": "If your insurance coverage breaks, return your license plates to DMV, or DMV will suspend your license."
     },
     {
       "id": "q-pen-insure-whole-period-1",
       "item": "pen-insure-whole-period",
       "part": 2,
-      "prompt": "Before you cancel your vehicle insurance, you should:",
+      "prompt": "What should you do before you cancel your vehicle insurance?",
       "choices": [
-        "Pay the $600 noncompliance fee",
-        "Take a driver improvement clinic",
-        "Just stop paying the insurance company",
-        "Return the license plates to DMV and cancel the registration"
+        "You should pay the $600 noncompliance fee",
+        "You should take a driver improvement clinic",
+        "You should just stop paying the insurance company",
+        "You should return the license plates to DMV and cancel the registration"
       ],
       "answer": 3,
-      "explain": "Before canceling insurance, return the license plates to DMV and cancel the registration."
+      "explain": "Before you cancel your insurance, return the license plates to DMV and cancel the registration."
     },
     {
       "id": "q-pen-insure-whole-period-2",
       "item": "pen-insure-whole-period",
       "part": 2,
-      "prompt": "Your Virginia-registered vehicle is not driven or does not run. You must:",
+      "prompt": "Your Virginia-registered vehicle is not being driven, or it does not run. What must you do about its insurance?",
       "choices": [
-        "Cancel insurance until you drive it again",
-        "Keep it insured during the entire registration period",
-        "Pay the $500 fee each month",
-        "Insure it only in bad weather"
+        "You must cancel the insurance until you drive it again",
+        "You must keep it insured during the entire registration period",
+        "You must pay the $500 fee each month",
+        "You must insure it only in bad weather"
       ],
       "answer": 1,
-      "explain": "Insure the vehicle for the entire registration period even if it is not driven or is inoperable."
+      "explain": "You must insure a registered vehicle for the entire registration period, even if it is not driven or does not run."
     },
     {
       "id": "q-pen-caught-uninsured-1",
       "item": "pen-caught-uninsured",
       "part": 2,
-      "prompt": "If you are caught driving without insurance and did not pay the uninsured motor vehicle fee, DMV will:",
+      "prompt": "You are caught driving without insurance, and you did not pay the uninsured motor vehicle fee. What will DMV do?",
       "choices": [
-        "Suspend your driving privilege",
-        "Give you a warning",
-        "Add 3 demerit points only",
-        "Send you to a medical review"
+        "DMV will suspend your driving privilege",
+        "DMV will give you a warning",
+        "DMV will only add 3 demerit points",
+        "DMV will send you to a medical review"
       ],
       "answer": 0,
-      "explain": "Driving uninsured without paying the fee leads DMV to suspend your driving privilege."
+      "explain": "Driving without insurance and without paying the fee leads DMV to suspend your driving privilege."
     },
     {
       "id": "q-pen-caught-uninsured-2",
       "item": "pen-caught-uninsured",
       "part": 2,
-      "prompt": "If your license is suspended for driving without insurance, the noncompliance fee you must pay (unless approved for a payment plan) is:",
+      "prompt": "Your license is suspended for driving without insurance. You can pay a noncompliance fee or be approved for a payment plan. How much is the fee?",
       "choices": [
         "$500",
         "$1,000",
@@ -2104,13 +2104,13 @@
         "$5,000"
       ],
       "answer": 2,
-      "explain": "You must pay a $600 noncompliance fee or be approved for a payment plan."
+      "explain": "You must pay a $600 noncompliance fee, unless you are approved for a payment plan."
     },
     {
       "id": "q-pen-caught-uninsured-3",
       "item": "pen-caught-uninsured",
       "part": 2,
-      "prompt": "After a suspension for driving uninsured, your insurance company must file a certificate of insurance for:",
+      "prompt": "Your license is suspended for driving without insurance. For how long must your insurance company file a certificate of insurance?",
       "choices": [
         "One year",
         "Two years",
@@ -2118,13 +2118,13 @@
         "Three years"
       ],
       "answer": 3,
-      "explain": "The certificate must be filed for three years from the date you regain your driving privileges."
+      "explain": "Your insurance company must file the certificate for three years from the date you regain your driving privileges."
     },
     {
       "id": "q-pen-liability-minimums-1",
       "item": "pen-liability-minimums",
       "part": 2,
-      "prompt": "For policies effective on or after Jan. 1, 2022, the minimum liability coverage for injury or death of one person is:",
+      "prompt": "For policies that start on or after January 1, 2022, what is the minimum liability coverage for the injury or death of one person?",
       "choices": [
         "$20,000",
         "$25,000",
@@ -2132,13 +2132,13 @@
         "$60,000"
       ],
       "answer": 2,
-      "explain": "The minimum for injury or death of one person is $30,000."
+      "explain": "The minimum for the injury or death of one person is $30,000."
     },
     {
       "id": "q-pen-liability-minimums-2",
       "item": "pen-liability-minimums",
       "part": 2,
-      "prompt": "For policies effective on or after Jan. 1, 2022, the minimum liability coverage for injury or death of two or more people is:",
+      "prompt": "For policies that start on or after January 1, 2022, what is the minimum liability coverage for the injury or death of two or more people?",
       "choices": [
         "$60,000",
         "$30,000",
@@ -2146,13 +2146,13 @@
         "$100,000"
       ],
       "answer": 0,
-      "explain": "The minimum for injury or death of two or more people is $60,000."
+      "explain": "The minimum for the injury or death of two or more people is $60,000."
     },
     {
       "id": "q-pen-liability-minimums-3",
       "item": "pen-liability-minimums",
       "part": 2,
-      "prompt": "For policies effective on or after Jan. 1, 2022, the minimum liability coverage for property damage is:",
+      "prompt": "For policies that start on or after January 1, 2022, what is the minimum liability coverage for property damage?",
       "choices": [
         "$10,000",
         "$20,000",
@@ -2166,7 +2166,7 @@
       "id": "q-pen-child-support-1",
       "item": "pen-child-support",
       "part": 2,
-      "prompt": "Your driving privilege will be suspended if you are late on child support payments by:",
+      "prompt": "How late must your child support payments be before DMV suspends your driving privilege?",
       "choices": [
         "30 days or $1,000",
         "60 days or $2,500",
@@ -2174,7 +2174,7 @@
         "One year or $10,000"
       ],
       "answer": 2,
-      "explain": "Being late by 90 days or $5,000 on child support leads to suspension."
+      "explain": "Your driving privilege will be suspended if your child support payments are late by 90 days or $5,000."
     },
     {
       "id": "q-pen-child-support-2",
@@ -2188,13 +2188,13 @@
         "Your driving school"
       ],
       "answer": 1,
-      "explain": "The Division of Child Support Enforcement directs DMV to suspend the driving privilege."
+      "explain": "The Division of Child Support Enforcement directs DMV to suspend your driving privilege."
     },
     {
       "id": "q-pen-child-support-3",
       "item": "pen-child-support",
       "part": 2,
-      "prompt": "Your license can also be suspended if you fail to appear in court for a hearing about:",
+      "prompt": "Your license can also be suspended if you do not appear in court for a hearing. What is the hearing about?",
       "choices": [
         "Paternity or child support",
         "A school board election",
@@ -2202,27 +2202,27 @@
         "Your car's warranty"
       ],
       "answer": 0,
-      "explain": "Failing to appear or comply with court papers in paternity or child support hearings leads to suspension."
+      "explain": "Your license can be suspended if you skip a court date or ignore court papers in a paternity or child support case."
     },
     {
       "id": "q-pen-household-records-1",
       "item": "pen-household-records",
       "part": 2,
-      "prompt": "When setting a policy premium, insurance companies may consider the driving records of:",
+      "prompt": "When an insurance company sets the price of a policy, whose driving records may it consider?",
       "choices": [
         "Only the person who owns the vehicle",
-        "Any person of driving age who lives in the insured's household",
+        "Any person of driving age who lives in the insured person's household",
         "Only drivers over age 25",
         "Only drivers with demerit points"
       ],
       "answer": 1,
-      "explain": "Insurers may factor in the driving records of anyone of driving age living in the insured's household."
+      "explain": "Insurance companies may consider the driving records of anyone of driving age who lives in the insured person's household."
     },
     {
       "id": "q-pen-household-records-2",
       "item": "pen-household-records",
       "part": 2,
-      "prompt": "If you have questions about how a newly licensed driver may affect your family's insurance policy, you may wish to contact:",
+      "prompt": "Who should you contact with questions about how a newly licensed driver may affect your family's insurance policy?",
       "choices": [
         "DMV",
         "The police",
@@ -2230,21 +2230,21 @@
         "Your insurance agent"
       ],
       "answer": 3,
-      "explain": "Contact your insurance agent about how a newly licensed driver may affect your policy."
+      "explain": "Contact your insurance agent to ask how a newly licensed driver may affect your policy."
     },
     {
       "id": "q-pen-insurance-or-fee-4",
       "item": "pen-insurance-or-fee",
       "part": 2,
-      "prompt": "When you register a motor vehicle in Virginia, you must sign a statement that:",
+      "prompt": "What must you sign when you register a motor vehicle in Virginia?",
       "choices": [
-        "You have liability insurance coverage (or you pay the $500 uninsured motor vehicle fee)",
-        "You have never received demerit points",
-        "You will drive the vehicle only in Virginia",
-        "You have completed a driver improvement clinic"
+        "A statement that you have liability insurance or will pay the $500 uninsured motor vehicle fee",
+        "A statement that you have never received demerit points",
+        "A statement that you will drive the vehicle only in Virginia",
+        "A statement that you have completed a driver improvement clinic"
       ],
       "answer": 0,
-      "explain": "You must sign that you have liability insurance or pay the $500 uninsured motor vehicle fee."
+      "explain": "You must sign a statement that you have liability insurance or will pay the $500 uninsured motor vehicle fee."
     }
   ]
 }

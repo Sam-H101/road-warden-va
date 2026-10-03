@@ -16,7 +16,7 @@
       "district": "d13-belts",
       "kind": "rule",
       "title": "Everyone buckles, front and back",
-      "simple": "In Virginia, everyone in the car must wear a seat belt. That means the driver and every rider. Front seat and back seat.",
+      "simple": "In Virginia, everyone in the car must wear a seat belt. That means the driver and every passenger, in the front seat and the back seat.",
       "official": "Under Virginia law, the driver and all passengers, both front and rear, must wear safety belts.",
       "mnemonic": "Every seat, every trip.",
       "manualRef": "Section 4, p. 26"
@@ -26,7 +26,7 @@
       "district": "d13-belts",
       "kind": "number",
       "title": "Driver secures riders under 18",
-      "simple": "Are you driving anyone under 18? You must make sure they are buckled in. That means a seat belt, booster seat or child seat. This is true in every seat.",
+      "simple": "If you drive anyone under 18, you must make sure that person is buckled in. That means a seat belt, a booster seat or a child seat. This is true in every seat.",
       "official": "A driver transporting anyone younger than age 18 must ensure that the passenger is properly secured in a safety belt, booster seat or child safety seat no matter where the child is seated in the vehicle.",
       "manualRef": "Section 4, p. 26",
       "mnemonic": "Rider under 18? The driver checks the buckle."
@@ -68,7 +68,7 @@
       "district": "d13-belts",
       "kind": "rule",
       "title": "Doctor's seat belt waiver",
-      "simple": "A doctor can excuse you from wearing a seat belt. The reason must be physical or medical. Then you must carry the doctor's signed note. It names you and the reason.",
+      "simple": "A doctor can excuse you from wearing a seat belt if there is a physical or medical reason. You must then carry the doctor's signed note. The note names you and the reason.",
       "official": "A waiver of the seat belt requirement may be granted by a licensed physician if the use of a safety belt is not reasonable due to the driver's or passenger's physical or medical condition. The person granted the waiver must carry the physician's signed written statement identifying the person with the waiver and the reason for the waiver.",
       "manualRef": "Section 4, p. 26",
       "mnemonic": "Doctor's excuse? Carry the note."
@@ -78,7 +78,7 @@
       "district": "d13-belts",
       "kind": "rule",
       "title": "Air bags work with belts",
-      "simple": "Air bags work with seat belts, not instead of them. In a front crash, the air bag cushions you. It keeps your head, neck and chest off the wheel and dash. Always buckle up.",
+      "simple": "Air bags work with seat belts, not instead of them. In a front crash, the air bag cushions you. It keeps your head, neck and chest from hitting the steering wheel or dashboard. Always buckle up.",
       "official": "Air bags, when used properly with safety belts, cushion drivers and passengers as they move forward in a front-end crash. By providing a cushion, the air bag keeps the head, neck and chest from hitting the steering column or dashboard, and reduces the force of impact. Always buckle up and have all passengers in the vehicle buckle up.",
       "mnemonic": "Bag plus belt = a team. Always click it.",
       "manualRef": "Section 4, p. 27"
@@ -108,7 +108,7 @@
       "district": "d13-belts",
       "kind": "number",
       "title": "Kids 12 and under: back seat",
-      "simple": "Does your car have air bags? Then kids age 12 and under are safer buckled up in the back seat.",
+      "simple": "If your car has air bags, kids age 12 and under are safer buckled up in the back seat.",
       "official": "Children ages 12 and under are safer buckled up in the back seat.",
       "mnemonic": "12 and under? Back seat buddy.",
       "manualRef": "Section 4, p. 27"
@@ -128,7 +128,7 @@
       "district": "d13-belts",
       "kind": "number",
       "title": "Rear facing until age 2",
-      "simple": "Babies ride facing the back of the car. Keep them that way from birth to age 2. They can stay longer if the car seat maker allows.",
+      "simple": "Children should ride facing the back of the car from birth to age 2. They can ride that way longer if the car seat maker allows it.",
       "official": "Children should ride rear facing from birth to 2 years, or as long as the safety seat manufacturer allows.",
       "mnemonic": "Birth to 2? Face the back, too.",
       "manualRef": "Section 4, p. 27"
@@ -138,7 +138,7 @@
       "district": "d13-belts",
       "kind": "rule",
       "title": "Rear-facing seat in front: rare",
-      "simple": "No back seat in your car? Then a rear-facing child seat may go in the front passenger seat. The car must have no passenger air bag, or it must be turned off.",
+      "simple": "If your car has no back seat, a rear-facing child seat may go in the front passenger seat. The car must have no passenger air bag, or the air bag must be turned off.",
       "official": "If the vehicle does not have a back seat, a rear facing child seat may be placed in the front passenger seat if the vehicle is not equipped with a passenger side air bag or if the passenger air bag is turned off.",
       "manualRef": "Section 4, p. 27",
       "mnemonic": "Baby seat up front? Air bag off."
@@ -148,7 +148,7 @@
       "district": "d13-belts",
       "kind": "number",
       "title": "Forward facing seat until 8",
-      "simple": "After rear facing, kids face forward in a child seat or booster seat. Keep them there until at least age 8. Or keep them there until the seat belt fits right.",
+      "simple": "After the rear-facing stage, kids ride facing forward in a child safety seat or booster seat. Keep them there until at least age 8, or until the seat belt fits them properly.",
       "official": "Children should ride facing forward in a child safety seat or booster seat until at least age 8, or until they can attain a proper seat belt fit.",
       "manualRef": "Section 4, p. 27",
       "mnemonic": "Face back to 2. Face forward to 8."
@@ -158,7 +158,7 @@
       "district": "d13-belts",
       "kind": "rule",
       "title": "No booster: belt must fit",
-      "simple": "A child can stop using a booster only when the belt fits. The lap belt lies snug across the upper thighs. The shoulder belt lies snug across the shoulder and chest.",
+      "simple": "A child can stop using a booster only when the belt fits. The lap belt lies snugly across the upper thighs. The shoulder belt lies snugly across the shoulder and chest.",
       "official": "Criteria for sitting without a booster seat: Lap belt lies snugly across the upper thighs. Shoulder belt lies snugly across the shoulder and chest.",
       "image": "diagram-seat-belt",
       "manualRef": "Section 4, p. 27",
@@ -169,7 +169,7 @@
       "district": "d13-belts",
       "kind": "rule",
       "title": "No booster: sitting checklist",
-      "simple": "To ride without a booster, a child must sit tall without slouching. Back all the way against the seat. Knees bent over the seat edge. Feet flat on the floor. The whole trip.",
+      "simple": "To ride without a booster, a child must sit properly for the whole trip. That means sitting tall without slouching, all the way back against the seat, with knees bent over the seat edge and feet flat on the floor.",
       "official": "Criteria for sitting without a booster seat: Tall enough to sit without slouching. Able to keep knees naturally bent over the edge of the vehicle seat. Able to sit all the way back against the vehicle seat back. Able to keep feet flat on the floor. Able to sit this way for entire trip.",
       "mnemonic": "Back in, knees bent, feet flat, sit tall, whole trip.",
       "manualRef": "Section 4, p. 27"
@@ -189,7 +189,7 @@
       "district": "d13-belts",
       "kind": "number",
       "title": "Child seat fines: $50, $500",
-      "simple": "The driver must make sure kids are buckled in right. Break the child seat law and you pay a $50 fine. A second time can cost $500.",
+      "simple": "The driver must make sure kids are buckled in correctly. If you break the child seat law, you pay a $50 fine. A second offense can cost $500.",
       "official": "The driver is responsible for making sure that children are properly secured. If you are convicted of violating the child restraint law, you will be fined $50. A second or subsequent offense could mean a $500 penalty.",
       "mnemonic": "First $50, then add a zero: $500.",
       "manualRef": "Section 4, p. 27"
@@ -199,7 +199,7 @@
       "district": "d13-belts",
       "kind": "rule",
       "title": "Center back seat is safest",
-      "simple": "The safest spot for a child safety seat is the middle of the back seat. Many places in Virginia hold car seat checks. Go to one to make sure your seat is put in right.",
+      "simple": "The safest spot for a child safety seat is the middle of the back seat. Many places in Virginia hold car seat checks. Go to one to make sure your seat is installed correctly.",
       "official": "The safest place to install a child safety seat is in the center of the back seat. Numerous child safety seat checks are held in localities across Virginia. Attend one of these checks to make sure that your child's safety seat is installed correctly.",
       "image": "diagram-child-seat",
       "mnemonic": "Middle of the back is the safest track.",
@@ -210,7 +210,7 @@
       "district": "d13-belts",
       "kind": "rule",
       "title": "Never hold a child in lap",
-      "simple": "Never hold a child on your lap in a car. In a crash, the child can get crushed between you and the dash or seat back.",
+      "simple": "Never hold a child on your lap in a car. In a crash, the child can get crushed between you and the dashboard or the back of the seat.",
       "official": "Never hold a child in your lap. In a crash, the child may be crushed between your body and the dashboard or the back of the seat.",
       "mnemonic": "Laps are for story time, not drive time.",
       "manualRef": "Section 4, p. 27"
@@ -220,7 +220,7 @@
       "district": "d13-belts",
       "kind": "rule",
       "title": "Lock doors, use child locks",
-      "simple": "Close and lock all doors before you drive. Turn on the child safety lock if you have one. Don't let kids play with door handles. To open a door, pull off the road and stop.",
+      "simple": "Close and lock all doors before you drive. Turn on the child safety lock if you have one. Don't let kids play with door handles. If you must open a door, pull off the road and stop.",
       "official": "Make sure that all car doors are securely closed and locked before driving. If your car is equipped with a child safety lock, turn it on. Don't allow children to play with door handles or locks. If you must open a door, pull the vehicle off the road and come to a complete stop.",
       "manualRef": "Section 4, p. 27",
       "mnemonic": "Lock it before you roll. Stop before you open."
@@ -240,7 +240,7 @@
       "district": "d13-belts",
       "kind": "number",
       "title": "Under 16: no pickup bed",
-      "simple": "Never carry kids under 16 in the bed of a pickup truck. It is against the law. A camper shell on top does not make it OK.",
+      "simple": "Never carry kids under 16 in the bed of a pickup truck. It is against the law. A camper shell on top does not make it legal.",
       "official": "It is illegal to transport children under age 16 in the bed of a pickup truck, even if equipped with a camper shell.",
       "mnemonic": "Under 16? Cab, not bed.",
       "manualRef": "Section 4, p. 27"
@@ -250,7 +250,7 @@
       "district": "d13-belts",
       "kind": "rule",
       "title": "Correct child seats save lives",
-      "simple": "Put the child seat in the right way. Then it can greatly lower a child's chance of death or injury in a crash.",
+      "simple": "Install the child seat correctly. A correctly installed seat can greatly lower a child's chance of death or injury in a crash.",
       "official": "Securing a child in a correctly installed child safety seat can significantly reduce the possibility of death or injury.",
       "image": "diagram-child-seat",
       "manualRef": "Section 4, p. 27"
@@ -260,7 +260,7 @@
       "district": "d13-belts",
       "kind": "rule",
       "title": "Air bag on/off switch: ask NHTSA",
-      "simple": "Want to learn more about air bags? Need an air bag on/off switch? Contact NHTSA. That is the National Highway Traffic Safety Administration.",
+      "simple": "To learn more about air bags, or to apply for an air bag on-off switch, contact NHTSA. That is the National Highway Traffic Safety Administration.",
       "official": "For more information about air bags, including applying for an on/off switch, contact the National Highway Traffic Safety Administration (NHTSA).",
       "manualRef": "Section 4, p. 27"
     }
@@ -270,27 +270,27 @@
       "id": "ev-belt-double-survival-1",
       "item": "belt-double-survival",
       "kind": "gates",
-      "prompt": "Seat belt: your chance to survive a crash?",
+      "prompt": "What can a seat belt do to your chance of surviving a crash?",
       "choices": [
-        "Doubles",
-        "Stays the same",
-        "Cut in half"
+        "Double it",
+        "Keep it the same",
+        "Cut it in half"
       ],
       "answer": 0,
-      "missLine": "Seat belts can double your chances of surviving a crash."
+      "missLine": "A seat belt can double your chance of surviving a crash."
     },
     {
       "id": "ev-belt-double-survival-2",
       "item": "belt-double-survival",
       "kind": "gates",
-      "prompt": "Seat belt: your chance to avoid serious injury?",
+      "prompt": "What can a seat belt do to your chance of avoiding serious injury?",
       "choices": [
-        "Stays the same",
-        "More than doubles",
-        "Goes down"
+        "Keep it the same",
+        "More than double it",
+        "Lower it"
       ],
       "answer": 1,
-      "missLine": "Seat belts more than double your chances of avoiding serious injury."
+      "missLine": "A seat belt can more than double your chance of avoiding serious injury."
     },
     {
       "id": "ev-belt-double-survival-3",
@@ -298,12 +298,12 @@
       "kind": "gates",
       "prompt": "What can double your chance of surviving a crash?",
       "choices": [
-        "Brace on the dash",
-        "Lean toward the door",
-        "Wear your seat belt"
+        "Bracing against the dash",
+        "Leaning toward the door",
+        "Wearing your seat belt"
       ],
       "answer": 2,
-      "missLine": "Wearing a seat belt can double your chances of surviving a crash."
+      "missLine": "Wearing a seat belt can double your chance of surviving a crash."
     },
     {
       "id": "ev-belt-everyone-buckles-1",
@@ -311,79 +311,79 @@
       "kind": "gates",
       "prompt": "Who must wear a seat belt in Virginia?",
       "choices": [
-        "Driver only",
-        "Front seat only",
-        "Everyone, front and back"
+        "Only the driver",
+        "Only people in the front seat",
+        "Everyone in the car"
       ],
       "answer": 2,
-      "missLine": "The driver and all passengers, front and rear, must wear seat belts."
+      "missLine": "The driver and all passengers, in front and in back, must wear seat belts."
     },
     {
       "id": "ev-belt-everyone-buckles-2",
       "item": "belt-everyone-buckles",
       "kind": "gates",
-      "prompt": "Adult rides in the back. Needs a belt?",
+      "prompt": "Must an adult in the back seat wear a seat belt?",
       "choices": [
-        "Yes, it's the law",
+        "Yes, it is the law",
         "Only on highways",
         "Only at night"
       ],
       "answer": 0,
-      "missLine": "All passengers, front and rear, must wear seat belts."
+      "missLine": "Every passenger, in front and in back, must wear a seat belt."
     },
     {
       "id": "ev-belt-everyone-buckles-3",
       "item": "belt-everyone-buckles",
       "kind": "action",
-      "prompt": "Leaving the driveway. Back seat rider unbuckled!",
+      "prompt": "You are leaving the driveway. A rider in the back seat is unbuckled!",
       "prop": "driveway-exit",
       "action": "stop",
-      "missLine": "Everyone, front and back, must buckle up. Stop and buckle first."
+      "missLine": "Everyone in the front and back seats must wear a seat belt. Stop and buckle up first."
     },
     {
       "id": "ev-belt-driver-under-18-1",
       "item": "belt-driver-under-18",
       "kind": "gates",
-      "prompt": "Who makes sure a 15-year-old rider is buckled?",
+      "prompt": "Who must make sure a 15-year-old rider is buckled in?",
       "choices": [
         "The driver",
         "The rider",
         "The rider's parent"
       ],
       "answer": 0,
-      "missLine": "The driver makes sure every rider under 18 is buckled in."
+      "missLine": "The driver must make sure every rider under 18 is buckled in."
     },
     {
       "id": "ev-belt-driver-under-18-2",
       "item": "belt-driver-under-18",
       "kind": "gates",
-      "prompt": "Driver must buckle in riders under what age?",
+      "prompt": "For riders under what age must the driver make sure they are buckled in?",
       "choices": [
-        "16",
-        "18",
-        "21"
+        "16 years old",
+        "18 years old",
+        "21 years old"
       ],
       "answer": 1,
-      "missLine": "The driver makes sure every rider under 18 is buckled in."
+      "missLine": "The driver must make sure every rider under 18 is buckled in."
     },
     {
       "id": "ev-belt-driver-under-18-3",
       "item": "belt-driver-under-18",
       "kind": "gates",
-      "prompt": "A rider under 18 sits in back. The driver must:",
+      "prompt": "What must the driver do when a rider under 18 sits in the back?",
       "choices": [
         "Let the rider decide",
-        "Check front seat only",
-        "Make sure they buckle"
+        "Check only the front seat",
+        "Make sure the rider buckles"
       ],
       "answer": 2,
-      "missLine": "Riders under 18 must be buckled in every seat. That is the driver's job."
+      "missLine": "The driver must make sure a rider under 18 is buckled in, even in the back seat."
     },
     {
       "id": "ev-belt-driver-under-18-4",
       "item": "belt-driver-under-18",
       "kind": "action",
-      "prompt": "Teen rider won't buckle. Leaving the driveway.",
+      "prompt": "A teen rider will not buckle up. You are leaving the driveway.",
       "prop": "driveway-exit",
       "action": "stop",
       "missLine": "You must make sure every rider under 18 is buckled before you drive."
@@ -395,9 +395,9 @@
       "prompt": "Where should the lap belt go?",
       "image": "diagram-seat-belt",
       "choices": [
-        "Low, against thighs",
-        "High, over stomach",
-        "Loose around waist"
+        "Low, against your thighs",
+        "High, over your stomach",
+        "Loose, around your waist"
       ],
       "answer": 0,
       "missLine": "Wear the lap belt low on your lap and against your thighs."
@@ -406,24 +406,24 @@
       "id": "ev-belt-lap-low-snug-2",
       "item": "belt-lap-low-snug",
       "kind": "gates",
-      "prompt": "How should seat belts fit?",
+      "prompt": "How should your seat belt fit?",
       "choices": [
-        "Loose",
-        "Snug",
-        "Twisted"
+        "It should be loose",
+        "It should be snug",
+        "It should be twisted"
       ],
       "answer": 1,
-      "missLine": "Your shoulder and lap belts should be snug."
+      "missLine": "Your shoulder belt and your lap belt should both be snug."
     },
     {
       "id": "ev-belt-lap-low-snug-3",
       "item": "belt-lap-low-snug",
       "kind": "gates",
-      "prompt": "The lap belt sits low on your...",
+      "prompt": "On what part of your body does the lap belt sit low?",
       "choices": [
-        "Chest",
-        "Stomach",
-        "Lap, against thighs"
+        "Your chest",
+        "Your stomach",
+        "Your lap, against your thighs"
       ],
       "answer": 2,
       "missLine": "The lap belt goes low on your lap and against your thighs."
@@ -449,7 +449,7 @@
       "prompt": "Can a driver wear the shoulder belt behind their back?",
       "choices": [
         "Yes, on short trips",
-        "Yes, if lap belt is on",
+        "Yes, if the lap belt is on",
         "No, never"
       ],
       "answer": 2,
@@ -459,11 +459,11 @@
       "id": "ev-belt-shoulder-chest-3",
       "item": "belt-shoulder-chest",
       "kind": "gates",
-      "prompt": "Your shoulder belt is under your arm. What should you do?",
+      "prompt": "What should you do if your shoulder belt is under your arm?",
       "choices": [
-        "Move it across chest",
+        "Move it across your chest",
         "Leave it there",
-        "Put it behind back"
+        "Put it behind your back"
       ],
       "answer": 0,
       "missLine": "The shoulder belt goes over your shoulder and across your chest."
@@ -476,29 +476,29 @@
       "choices": [
         "Low on the pelvis",
         "Over the belly",
-        "No belt at all"
+        "Nowhere at all"
       ],
       "answer": 0,
-      "missLine": "Pregnant women should wear the belt as low on the pelvis as possible."
+      "missLine": "A pregnant woman should wear the belt as low on her pelvis as possible."
     },
     {
       "id": "ev-belt-pregnant-2",
       "item": "belt-pregnant",
       "kind": "gates",
-      "prompt": "Should a pregnant rider wear a seat belt?",
+      "prompt": "What should a pregnant rider do about her seat belt?",
       "choices": [
-        "No, it's unsafe",
-        "Only the lap belt",
-        "Yes, much safer"
+        "Skip it, because it is unsafe",
+        "Wear only the lap belt",
+        "Wear it, because it is safer"
       ],
       "answer": 2,
-      "missLine": "Pregnant women are much safer buckled up."
+      "missLine": "A pregnant woman is much safer when she wears a seat belt."
     },
     {
       "id": "ev-belt-medical-waiver-1",
       "item": "belt-medical-waiver",
       "kind": "gates",
-      "prompt": "Who can give a seat belt waiver?",
+      "prompt": "Who can give a person a seat belt waiver?",
       "choices": [
         "A police officer",
         "A licensed doctor",
@@ -511,105 +511,105 @@
       "id": "ev-belt-medical-waiver-2",
       "item": "belt-medical-waiver",
       "kind": "gates",
-      "prompt": "A person with a seat belt waiver must carry:",
+      "prompt": "What must a person with a seat belt waiver carry?",
       "choices": [
         "Nothing",
         "A birth certificate",
-        "Doctor's signed statement"
+        "A doctor's signed note"
       ],
       "answer": 2,
-      "missLine": "Carry the doctor's signed note. It names you and the reason."
+      "missLine": "You must carry the doctor's signed note, which names you and the reason."
     },
     {
       "id": "ev-belt-medical-waiver-3",
       "item": "belt-medical-waiver",
       "kind": "gates",
-      "prompt": "Seat belt waivers are for:",
+      "prompt": "What are seat belt waivers given for?",
       "choices": [
         "A medical reason",
         "Short trips",
         "A tight belt"
       ],
       "answer": 0,
-      "missLine": "Waivers are for a physical or medical reason. A licensed doctor signs them."
+      "missLine": "A waiver is for a physical or medical reason. A licensed doctor signs it."
     },
     {
       "id": "ev-belt-airbag-with-belts-1",
       "item": "belt-airbag-with-belts",
       "kind": "gates",
-      "prompt": "Car has air bags. Still wear a belt?",
+      "prompt": "If your car has air bags, should you still wear a seat belt?",
       "choices": [
-        "No, air bag is enough",
+        "No, the air bag is enough",
         "Yes, always buckle up",
-        "Only in the front"
+        "Only if you sit in front"
       ],
       "answer": 1,
-      "missLine": "Air bags work with seat belts. Always buckle up."
+      "missLine": "Air bags work with seat belts, not instead of them. Always buckle up."
     },
     {
       "id": "ev-belt-airbag-with-belts-2",
       "item": "belt-airbag-with-belts",
       "kind": "gates",
-      "prompt": "An air bag keeps your head from hitting...",
+      "prompt": "What does an air bag keep your head from hitting?",
       "choices": [
         "The window",
         "The back seat",
-        "The wheel or dash"
+        "The wheel or dashboard"
       ],
       "answer": 2,
-      "missLine": "The air bag keeps your head, neck and chest off the wheel and dash."
+      "missLine": "An air bag keeps your head, neck and chest off the wheel and dashboard."
     },
     {
       "id": "ev-belt-airbag-with-belts-3",
       "item": "belt-airbag-with-belts",
       "kind": "gates",
-      "prompt": "Air bags are made to work with:",
+      "prompt": "What are air bags made to work with?",
       "choices": [
         "Seat belts",
         "Open windows",
         "Cruise control"
       ],
       "answer": 0,
-      "missLine": "Air bags protect you best with seat belts. Always buckle up."
+      "missLine": "Air bags protect you best when used with seat belts. Always buckle up."
     },
     {
       "id": "ev-belt-airbag-10-inches-1",
       "item": "belt-airbag-10-inches",
       "kind": "gates",
-      "prompt": "Sit at least how far from the wheel?",
+      "prompt": "What is the minimum distance you should sit from the steering wheel?",
       "choices": [
         "4 inches",
         "6 inches",
         "10 inches"
       ],
       "answer": 2,
-      "missLine": "Sit at least 10 inches from the steering wheel."
+      "missLine": "You should sit at least 10 inches from the steering wheel."
     },
     {
       "id": "ev-belt-airbag-10-inches-2",
       "item": "belt-airbag-10-inches",
       "kind": "gates",
-      "prompt": "A driver sits too close to the steering wheel. They should:",
+      "prompt": "If you sit too close to the steering wheel, what should you do?",
       "choices": [
-        "Move seat back",
-        "Move seat forward",
+        "Move the seat back",
+        "Move the seat forward",
         "Lean in closer"
       ],
       "answer": 0,
-      "missLine": "Move your seat back so you are at least 10 inches from the wheel."
+      "missLine": "Move your seat back so that you are at least 10 inches from the wheel."
     },
     {
       "id": "ev-belt-airbag-10-inches-3",
       "item": "belt-airbag-10-inches",
       "kind": "gates",
-      "prompt": "With air bags, sit at least this far from the wheel:",
+      "prompt": "With air bags, what is the minimum distance you should sit from the wheel?",
       "choices": [
         "5 inches",
         "10 inches",
         "8 inches"
       ],
       "answer": 1,
-      "missLine": "With air bags, stay at least 10 inches from the steering wheel."
+      "missLine": "With air bags, you should stay at least 10 inches from the steering wheel."
     },
     {
       "id": "ev-belt-airbag-tilt-wheel-1",
@@ -628,24 +628,24 @@
       "id": "ev-belt-airbag-tilt-wheel-2",
       "item": "belt-airbag-tilt-wheel",
       "kind": "gates",
-      "prompt": "Tilting the wheel down aims the air bag at your...",
+      "prompt": "When you tilt the wheel down, what does the air bag point at?",
       "choices": [
-        "Head",
-        "Neck",
-        "Chest"
+        "Your head",
+        "Your neck",
+        "Your chest"
       ],
       "answer": 2,
-      "missLine": "Tilting the wheel down points the air bag at your chest, not head and neck."
+      "missLine": "Tilting the wheel down points the air bag at your chest, not your head and neck."
     },
     {
       "id": "ev-belt-airbag-kids-12-1",
       "item": "belt-airbag-kids-12",
       "kind": "gates",
-      "prompt": "Kids what age and under ride safer in back?",
+      "prompt": "Up to what age are children safer buckled up in the back seat?",
       "choices": [
-        "8",
-        "12",
-        "16"
+        "Age 8",
+        "Age 12",
+        "Age 16"
       ],
       "answer": 1,
       "missLine": "Children 12 and under are safer buckled up in the back seat."
@@ -654,11 +654,11 @@
       "id": "ev-belt-airbag-kids-12-2",
       "item": "belt-airbag-kids-12",
       "kind": "gates",
-      "prompt": "Where is a 10-year-old safer?",
+      "prompt": "Where is a 10-year-old child safer when riding in a car?",
       "choices": [
         "On an adult's lap",
-        "Front seat",
-        "Back seat, buckled"
+        "In the front seat",
+        "Buckled up in the back seat"
       ],
       "answer": 2,
       "missLine": "Kids 12 and under are safer buckled up in the back seat."
@@ -667,11 +667,11 @@
       "id": "ev-belt-child-under-8-1",
       "item": "belt-child-under-8",
       "kind": "gates",
-      "prompt": "Car seat or booster needed under what age?",
+      "prompt": "Children under what age must ride in a child seat or booster seat?",
       "choices": [
-        "Under 8",
-        "Under 4",
-        "Under 12"
+        "Under age 8",
+        "Under age 4",
+        "Under age 12"
       ],
       "answer": 0,
       "missLine": "All children under 8 must ride in a child safety seat or booster seat."
@@ -680,24 +680,24 @@
       "id": "ev-belt-child-under-8-2",
       "item": "belt-child-under-8",
       "kind": "gates",
-      "prompt": "A 6-year-old is riding along. They need:",
+      "prompt": "What does a 6-year-old child need when riding in a car?",
       "choices": [
         "Just a lap belt",
-        "Nothing in back",
-        "Booster or child seat"
+        "Nothing, if they sit in back",
+        "A booster or a child seat"
       ],
       "answer": 2,
-      "missLine": "Kids under 8 must be in a child safety seat or booster seat."
+      "missLine": "Children under 8 must ride in a child safety seat or booster seat."
     },
     {
       "id": "ev-belt-child-under-8-3",
       "item": "belt-child-under-8",
       "kind": "gates",
-      "prompt": "Child seat law covers cars made after:",
+      "prompt": "The child seat law covers cars made after what date?",
       "choices": [
-        "1950",
-        "Jan. 1, 1968",
-        "1985"
+        "January 1, 1950",
+        "January 1, 1968",
+        "January 1, 1985"
       ],
       "answer": 1,
       "missLine": "The law covers vehicles made after January 1, 1968."
@@ -706,10 +706,10 @@
       "id": "ev-belt-child-under-8-4",
       "item": "belt-child-under-8",
       "kind": "action",
-      "prompt": "Leaving home. Your 5-year-old has no booster!",
+      "prompt": "You are leaving home, and your 5-year-old has no booster seat!",
       "prop": "driveway-exit",
       "action": "stop",
-      "missLine": "Kids under 8 ride in a car seat or booster. Stop and fix it first."
+      "missLine": "Kids under 8 must ride in a car seat or booster seat. Stop and fix it first."
     },
     {
       "id": "ev-belt-rear-facing-2-1",
@@ -722,13 +722,13 @@
         "8 years"
       ],
       "answer": 0,
-      "missLine": "Ride rear facing from birth to 2 years, or longer if the seat allows."
+      "missLine": "Children should ride rear facing from birth to 2 years, or longer if the seat maker allows."
     },
     {
       "id": "ev-belt-rear-facing-2-2",
       "item": "belt-rear-facing-2",
       "kind": "gates",
-      "prompt": "A baby's car seat should face which way?",
+      "prompt": "Which way should a baby's car seat face?",
       "choices": [
         "Forward",
         "Toward the rear",
@@ -741,118 +741,118 @@
       "id": "ev-belt-rear-facing-2-3",
       "item": "belt-rear-facing-2",
       "kind": "gates",
-      "prompt": "A child can ride rear facing past age 2 if the...",
+      "prompt": "When can a child ride rear facing past age 2?",
       "choices": [
-        "Baby is asleep",
-        "Trip is short",
-        "Seat maker allows"
+        "When the baby is asleep",
+        "When the trip is short",
+        "When the seat maker allows"
       ],
       "answer": 2,
-      "missLine": "Babies can ride rear facing past 2 if the seat maker allows."
+      "missLine": "A child can ride rear facing past age 2 if the car seat maker allows."
     },
     {
       "id": "ev-belt-rear-facing-front-1",
       "item": "belt-rear-facing-front",
       "kind": "gates",
-      "prompt": "Car has no back seat. Rear-facing child seat up front only if...",
+      "prompt": "In a car with no back seat, when can a rear-facing child seat go up front?",
       "choices": [
-        "Air bag off or not there",
-        "The trip is short",
-        "The baby is asleep"
+        "If the air bag is off or absent",
+        "If the trip is short",
+        "If the baby is asleep"
       ],
       "answer": 0,
-      "missLine": "With no back seat, the passenger air bag must be off or not there."
+      "missLine": "With no back seat, the passenger air bag must be off, or the car must not have one."
     },
     {
       "id": "ev-belt-rear-facing-front-2",
       "item": "belt-rear-facing-front",
       "kind": "gates",
-      "prompt": "Passenger air bag is on. Can a rear-facing seat go up front?",
+      "prompt": "If the passenger air bag is on, can a rear-facing seat go up front?",
       "choices": [
-        "Yes, any time",
-        "No, not allowed",
-        "Yes, if belted"
+        "Yes, at any time",
+        "No, it is not allowed",
+        "Yes, if it is belted"
       ],
       "answer": 1,
-      "missLine": "A rear-facing seat up front needs the passenger air bag off or not there."
+      "missLine": "A rear-facing seat can go up front only if the passenger air bag is off or the car has none."
     },
     {
       "id": "ev-belt-forward-until-8-1",
       "item": "belt-forward-until-8",
       "kind": "gates",
-      "prompt": "Kids face forward in a child seat or booster until age...",
+      "prompt": "Kids ride facing forward in a child seat or booster seat until what age?",
       "choices": [
-        "4",
-        "6",
-        "8"
+        "Age 4",
+        "Age 6",
+        "Age 8"
       ],
       "answer": 2,
-      "missLine": "Kids ride in a forward child seat or booster until at least age 8."
+      "missLine": "Kids ride in a forward-facing child seat or booster until at least age 8."
     },
     {
       "id": "ev-belt-forward-until-8-2",
       "item": "belt-forward-until-8",
       "kind": "gates",
-      "prompt": "A child uses a booster until age 8, or until the...",
+      "prompt": "A child uses a booster until age 8, or until what happens?",
       "choices": [
-        "Child starts school",
-        "Belt fits right",
-        "Child asks to stop"
+        "The child starts school",
+        "The belt fits properly",
+        "The child asks to stop"
       ],
       "answer": 1,
-      "missLine": "Kids use a booster until at least age 8, or until the belt fits right."
+      "missLine": "Kids use a booster until at least age 8, or until the seat belt fits properly."
     },
     {
       "id": "ev-belt-booster-belt-fit-1",
       "item": "belt-booster-belt-fit",
       "kind": "gates",
-      "prompt": "A child riding without a booster: lap belt lies across the...",
+      "prompt": "Where should the lap belt lie on a child who rides without a booster?",
       "choices": [
-        "Stomach",
-        "Upper thighs",
-        "Knees"
+        "Across the stomach",
+        "Across the upper thighs",
+        "Across the knees"
       ],
       "answer": 1,
-      "missLine": "Without a booster, the lap belt must lie snug across the upper thighs."
+      "missLine": "Without a booster, the lap belt must lie snugly across the upper thighs."
     },
     {
       "id": "ev-belt-booster-belt-fit-2",
       "item": "belt-booster-belt-fit",
       "kind": "gates",
-      "prompt": "A child riding without a booster: shoulder belt crosses the...",
+      "prompt": "Where should the shoulder belt lie on a child who rides without a booster?",
       "choices": [
-        "Neck and face",
-        "Upper arm",
-        "Shoulder and chest"
+        "Across the neck and face",
+        "Across the upper arm",
+        "Across the shoulder and chest"
       ],
       "answer": 2,
-      "missLine": "Without a booster, the shoulder belt lies snug across the shoulder and chest."
+      "missLine": "Without a booster, the shoulder belt must lie snugly across the shoulder and chest."
     },
     {
       "id": "ev-belt-booster-sitting-1",
       "item": "belt-booster-sitting",
       "kind": "gates",
-      "prompt": "To ride without a booster, where do a child's feet go?",
+      "prompt": "To ride without a booster, where must a child's feet be?",
       "choices": [
         "Flat on the floor",
         "Dangling in the air",
         "Up on the seat"
       ],
       "answer": 0,
-      "missLine": "To ride without a booster, a child keeps feet flat on the floor."
+      "missLine": "To ride without a booster, a child's feet must be flat on the floor."
     },
     {
       "id": "ev-belt-booster-sitting-2",
       "item": "belt-booster-sitting",
       "kind": "gates",
-      "prompt": "To ride without a booster, where do the knees bend?",
+      "prompt": "To ride without a booster, where must a child's knees bend?",
       "choices": [
         "Up on the seat",
         "Against the door",
-        "Over the seat edge"
+        "Over the edge of the seat"
       ],
       "answer": 2,
-      "missLine": "To ride without a booster, a child's knees bend over the seat edge."
+      "missLine": "To ride without a booster, a child's knees must bend over the edge of the seat."
     },
     {
       "id": "ev-belt-booster-sitting-3",
@@ -860,18 +860,18 @@
       "kind": "gates",
       "prompt": "Without a booster, how long must a child sit correctly?",
       "choices": [
-        "First 10 minutes",
+        "The first 10 minutes",
         "The entire trip",
-        "Until the highway"
+        "Until you reach the highway"
       ],
       "answer": 1,
-      "missLine": "The child must be able to sit this way for the entire trip."
+      "missLine": "To ride without a booster, a child must sit correctly for the entire trip."
     },
     {
       "id": "ev-belt-child-waiver-1",
       "item": "belt-child-waiver",
       "kind": "gates",
-      "prompt": "Who can give a child seat waiver?",
+      "prompt": "Who can give a waiver from the child seat law?",
       "choices": [
         "The child's teacher",
         "A licensed doctor",
@@ -884,33 +884,33 @@
       "id": "ev-belt-child-waiver-2",
       "item": "belt-child-waiver",
       "kind": "gates",
-      "prompt": "Child seat waiver: who carries the note?",
+      "prompt": "For a child seat waiver, who must carry the note?",
       "choices": [
-        "Person driving the child",
+        "The person driving the child",
         "The child's school",
-        "Nobody"
+        "No one"
       ],
       "answer": 0,
-      "missLine": "The person driving the child carries the doctor's signed note."
+      "missLine": "The person driving the child must carry the doctor's signed note."
     },
     {
       "id": "ev-belt-child-fines-1",
       "item": "belt-child-fines",
       "kind": "gates",
-      "prompt": "First child seat offense. The fine?",
+      "prompt": "What is the fine for a first child seat offense?",
       "choices": [
         "$50",
         "$100",
         "$500"
       ],
       "answer": 0,
-      "missLine": "Breaking the child seat law means a $50 fine."
+      "missLine": "The fine for a first child seat offense is $50."
     },
     {
       "id": "ev-belt-child-fines-2",
       "item": "belt-child-fines",
       "kind": "gates",
-      "prompt": "A second child seat offense could cost:",
+      "prompt": "How much could a second child seat offense cost?",
       "choices": [
         "$100",
         "$250",
@@ -923,25 +923,25 @@
       "id": "ev-belt-child-fines-3",
       "item": "belt-child-fines",
       "kind": "gates",
-      "prompt": "Who must make sure kids are buckled in?",
+      "prompt": "Who must make sure that kids are buckled in?",
       "choices": [
         "The child",
         "The driver",
-        "Front passenger"
+        "The front passenger"
       ],
       "answer": 1,
-      "missLine": "The driver must make sure kids are buckled in right."
+      "missLine": "The driver must make sure the kids are buckled in correctly."
     },
     {
       "id": "ev-belt-center-back-seat-1",
       "item": "belt-center-back-seat",
       "kind": "gates",
-      "prompt": "Safest spot for a child safety seat?",
+      "prompt": "What is the safest spot for a child safety seat?",
       "image": "diagram-child-seat",
       "choices": [
-        "Front passenger seat",
-        "Luggage area",
-        "Center of back seat"
+        "The front passenger seat",
+        "The luggage area",
+        "The center of the back seat"
       ],
       "answer": 2,
       "missLine": "The safest place for a child safety seat is the center of the back seat."
@@ -950,40 +950,40 @@
       "id": "ev-belt-center-back-seat-2",
       "item": "belt-center-back-seat",
       "kind": "gates",
-      "prompt": "A parent is unsure the child seat is in right. They should:",
+      "prompt": "If you are not sure a child seat is installed correctly, what should you do?",
       "choices": [
         "Go to a seat check",
-        "Drive and hope it's fine",
-        "Move it up front"
+        "Drive and hope it is fine",
+        "Move it to the front seat"
       ],
       "answer": 0,
-      "missLine": "Go to a child safety seat check to make sure it is put in right."
+      "missLine": "Go to a child safety seat check to make sure the seat is installed correctly."
     },
     {
       "id": "ev-belt-never-lap-child-1",
       "item": "belt-never-lap-child",
       "kind": "gates",
-      "prompt": "Can you hold a baby in your lap while riding?",
+      "prompt": "Can you hold a baby in your lap while riding in a car?",
       "choices": [
-        "Yes, if you're belted",
-        "Never",
-        "On short trips"
+        "Yes, if you are belted",
+        "No, never",
+        "Yes, on short trips"
       ],
       "answer": 1,
-      "missLine": "Never hold a child in your lap. Use a child safety seat."
+      "missLine": "Never hold a child in your lap. Use a child safety seat instead."
     },
     {
       "id": "ev-belt-never-lap-child-2",
       "item": "belt-never-lap-child",
       "kind": "gates",
-      "prompt": "In a crash, a lap child can be...",
+      "prompt": "What can happen to a child on your lap in a crash?",
       "choices": [
-        "Kept safe",
-        "Cushioned by you",
-        "Crushed"
+        "The child stays safe",
+        "You cushion the child",
+        "The child is crushed"
       ],
       "answer": 2,
-      "missLine": "A lap child can be crushed between you and the dash or seat back."
+      "missLine": "A child on your lap can be crushed between you and the dashboard or the seat back."
     },
     {
       "id": "ev-belt-never-lap-child-3",
@@ -998,11 +998,11 @@
       "id": "ev-belt-doors-child-locks-1",
       "item": "belt-doors-child-locks",
       "kind": "gates",
-      "prompt": "While driving, a child needs a door opened. You should:",
+      "prompt": "What should you do if a child needs a door opened while you drive?",
       "choices": [
-        "Pull off road and stop",
-        "Open it while rolling",
-        "Let the child open it"
+        "Pull off the road and stop",
+        "Open the door as you drive",
+        "Let the child open the door"
       ],
       "answer": 0,
       "missLine": "To open a door, pull off the road and come to a complete stop."
@@ -1011,11 +1011,11 @@
       "id": "ev-belt-doors-child-locks-2",
       "item": "belt-doors-child-locks",
       "kind": "gates",
-      "prompt": "A car has child safety locks. Should the driver use them?",
+      "prompt": "If a car has child safety locks, should the driver use them?",
       "choices": [
-        "No, never",
+        "No, never turn them on",
         "Yes, turn them on",
-        "Only on highways"
+        "Yes, but only on highways"
       ],
       "answer": 1,
       "missLine": "If your car has a child safety lock, turn it on."
@@ -1024,11 +1024,11 @@
       "id": "ev-belt-doors-child-locks-3",
       "item": "belt-doors-child-locks",
       "kind": "gates",
-      "prompt": "Before driving, all car doors should be:",
+      "prompt": "Before you drive, what should you do with all the car doors?",
       "choices": [
-        "Unlocked for escape",
-        "Half shut",
-        "Closed and locked"
+        "Leave them unlocked to escape",
+        "Leave them half shut",
+        "Close and lock them"
       ],
       "answer": 2,
       "missLine": "Close and lock all doors before you drive."
@@ -1037,20 +1037,20 @@
       "id": "ev-belt-no-cargo-area-1",
       "item": "belt-no-cargo-area",
       "kind": "gates",
-      "prompt": "Can kids ride in a van's luggage area?",
+      "prompt": "Can kids ride in the luggage area of a van?",
       "choices": [
-        "Yes, if sitting",
-        "Never",
-        "On short trips"
+        "Yes, if they are sitting",
+        "No, never",
+        "Yes, on short trips"
       ],
       "answer": 1,
-      "missLine": "Never let children ride in the luggage area of a van, wagon or hatchback."
+      "missLine": "Never let children ride in the luggage area of a hatchback, station wagon or van."
     },
     {
       "id": "ev-belt-no-cargo-area-2",
       "item": "belt-no-cargo-area",
       "kind": "gates",
-      "prompt": "A child rides in back. The hatchback is open. You should:",
+      "prompt": "With a child in the back seat, what should you do about an open hatchback?",
       "choices": [
         "Close the hatchback first",
         "Drive slowly with it open",
@@ -1063,20 +1063,20 @@
       "id": "ev-belt-no-cargo-area-3",
       "item": "belt-no-cargo-area",
       "kind": "action",
-      "prompt": "Hatchback is open, child in back seat!",
+      "prompt": "Your hatchback is open, and a child is in the back seat!",
       "prop": "stop-line",
       "action": "stop",
-      "missLine": "Stop and close the hatchback when a child rides in the back seat."
+      "missLine": "Never leave a hatchback open when a child rides in the back seat. Stop and close it."
     },
     {
       "id": "ev-belt-pickup-bed-16-1",
       "item": "belt-pickup-bed-16",
       "kind": "gates",
-      "prompt": "Pickup bed is off-limits for kids under...",
+      "prompt": "Kids younger than what age may not ride in a pickup truck bed?",
       "choices": [
-        "12",
-        "16",
-        "18"
+        "12 years old",
+        "16 years old",
+        "18 years old"
       ],
       "answer": 1,
       "missLine": "It is illegal to carry children under 16 in a pickup truck bed."
@@ -1085,33 +1085,33 @@
       "id": "ev-belt-pickup-bed-16-2",
       "item": "belt-pickup-bed-16",
       "kind": "gates",
-      "prompt": "Pickup has a camper shell. Can kids under 16 ride back there?",
+      "prompt": "If a pickup has a camper shell, can kids under 16 ride in the bed?",
       "choices": [
-        "No, still illegal",
-        "Yes, it's covered",
-        "Yes, if sitting"
+        "No, it is still illegal",
+        "Yes, because it is covered",
+        "Yes, if they are sitting"
       ],
       "answer": 0,
-      "missLine": "Under 16 in a pickup bed is illegal, even with a camper shell."
+      "missLine": "It is illegal for kids under 16 to ride in a pickup bed, even with a camper shell."
     },
     {
       "id": "ev-belt-pickup-bed-16-3",
       "item": "belt-pickup-bed-16",
       "kind": "action",
-      "prompt": "Young kids climbing into your pickup bed!",
+      "prompt": "Young kids are climbing into your pickup bed!",
       "prop": "stop-line",
       "action": "stop",
-      "missLine": "Stop. Kids under 16 may not ride in a pickup truck bed."
+      "missLine": "Stop, because kids under 16 may not ride in the bed of a pickup truck."
     },
     {
       "id": "ev-belt-airbag-with-belts-4",
       "item": "belt-airbag-with-belts",
       "kind": "gates",
-      "prompt": "An air bag cushion lowers the...",
+      "prompt": "What does an air bag reduce in a front crash?",
       "choices": [
-        "Force of impact",
-        "Need for belts",
-        "Need for child seats"
+        "The force of impact",
+        "The need for seat belts",
+        "The need for child seats"
       ],
       "answer": 0,
       "missLine": "An air bag cushions you and reduces the force of impact."
@@ -1120,41 +1120,41 @@
       "id": "ev-belt-child-seat-saves-lives-1",
       "item": "belt-child-seat-saves-lives",
       "kind": "gates",
-      "prompt": "A correctly installed child seat does what?",
+      "prompt": "What does a correctly installed child seat do?",
       "image": "diagram-child-seat",
       "choices": [
-        "Changes nothing",
-        "Cuts death and injury risk",
-        "Only helps on highways"
+        "It changes nothing",
+        "It lowers deaths and injuries",
+        "It only helps on highways"
       ],
       "answer": 1,
-      "missLine": "A child seat put in right greatly lowers the chance of death or injury."
+      "missLine": "A correctly installed child seat greatly lowers the chance of death or injury in a crash."
     },
     {
       "id": "ev-belt-child-seat-saves-lives-2",
       "item": "belt-child-seat-saves-lives",
       "kind": "gates",
-      "prompt": "A child seat protects best when it is...",
+      "prompt": "When does a child seat protect a child best?",
       "choices": [
-        "Loose so child can move",
-        "In the luggage area",
-        "Installed correctly"
+        "When it is loose and can move",
+        "When it is in the luggage area",
+        "When it is installed correctly"
       ],
       "answer": 2,
-      "missLine": "Put the child seat in right to cut the risk of death or injury."
+      "missLine": "Install the child seat correctly to lower the risk of death or injury."
     },
     {
       "id": "ev-belt-airbag-on-off-switch-1",
       "item": "belt-airbag-on-off-switch",
       "kind": "gates",
-      "prompt": "To apply for a car's air bag on/off switch, contact:",
+      "prompt": "Who do you contact to apply for an air bag on-off switch?",
       "choices": [
         "Your insurance company",
         "The local police",
         "NHTSA"
       ],
       "answer": 2,
-      "missLine": "Contact NHTSA for air bag facts and to apply for an on/off switch."
+      "missLine": "Contact NHTSA, the National Highway Traffic Safety Administration, to apply for an air bag on-off switch."
     },
     {
       "id": "ev-belt-airbag-on-off-switch-2",
@@ -1167,7 +1167,7 @@
         "A car seat check"
       ],
       "answer": 1,
-      "missLine": "NHTSA has more air bag information, including on/off switches."
+      "missLine": "NHTSA, the National Highway Traffic Safety Administration, has more air bag information, including on-off switches."
     }
   ],
   "questions": [
@@ -1175,11 +1175,11 @@
       "id": "q-belt-double-survival-1",
       "item": "belt-double-survival",
       "part": 2,
-      "prompt": "Wearing a seat belt can:",
+      "prompt": "What can wearing a seat belt do?",
       "choices": [
         "Double your chances of surviving a crash",
         "Make air bags work less well",
-        "Only help in highway crashes",
+        "Help only in highway crashes",
         "Raise your chance of injury"
       ],
       "answer": 0,
@@ -1189,15 +1189,15 @@
       "id": "q-belt-double-survival-2",
       "item": "belt-double-survival",
       "part": 2,
-      "prompt": "Wearing a seat belt can _____ your chances of avoiding serious injury in a crash.",
+      "prompt": "What can wearing a seat belt do to your chances of avoiding serious injury in a crash?",
       "choices": [
-        "Slightly lower",
-        "Not change",
-        "More than double",
-        "Cut in half"
+        "Slightly lower them",
+        "Leave them unchanged",
+        "More than double them",
+        "Cut them in half"
       ],
       "answer": 2,
-      "explain": "Seat belts can more than double your chances of avoiding serious injury."
+      "explain": "Seat belts can more than double your chances of avoiding serious injury in a crash."
     },
     {
       "id": "q-belt-everyone-buckles-1",
@@ -1207,7 +1207,7 @@
       "choices": [
         "Only the driver",
         "Only people in the front seat",
-        "The driver and all passengers, front and rear",
+        "The driver and all passengers, in both the front and rear seats",
         "Only passengers under 18"
       ],
       "answer": 2,
@@ -1217,26 +1217,26 @@
       "id": "q-belt-everyone-buckles-2",
       "item": "belt-everyone-buckles",
       "part": 2,
-      "prompt": "An adult passenger riding in the back seat:",
+      "prompt": "What does Virginia law say about an adult passenger riding in the back seat?",
       "choices": [
-        "Does not need a seat belt",
-        "Must wear a safety belt",
-        "Needs a belt only on interstates",
-        "Needs a belt only at night"
+        "The passenger does not need a seat belt",
+        "The passenger must wear a safety belt",
+        "The passenger needs a belt only on interstates",
+        "The passenger needs a belt only at night"
       ],
       "answer": 1,
-      "explain": "Virginia law requires all passengers, front and rear, to wear safety belts."
+      "explain": "Virginia law requires all passengers, in both the front and rear seats, to wear safety belts."
     },
     {
       "id": "q-belt-driver-under-18-1",
       "item": "belt-driver-under-18",
       "part": 2,
-      "prompt": "A driver transporting a passenger younger than 18 must:",
+      "prompt": "What must a driver do when transporting a passenger younger than 18?",
       "choices": [
-        "Make sure the passenger is properly secured, no matter where they sit",
-        "Only check passengers in the front seat",
+        "Make sure the passenger is properly secured, no matter where the passenger sits",
+        "Check only the passengers in the front seat",
         "Let the passenger decide",
-        "Only secure children under 8"
+        "Secure only children under 8"
       ],
       "answer": 0,
       "explain": "A driver must make sure any passenger under 18 is properly secured anywhere in the vehicle."
@@ -1249,17 +1249,17 @@
       "choices": [
         "Your cousin",
         "Your cousin's parents",
-        "No one, back seat belts are optional",
+        "No one, because back seat belts are optional",
         "You, the driver"
       ],
       "answer": 3,
-      "explain": "The driver must ensure passengers under 18 are properly secured."
+      "explain": "The driver must make sure every passenger under 18 is properly secured."
     },
     {
       "id": "q-belt-lap-low-snug-1",
       "item": "belt-lap-low-snug",
       "part": 2,
-      "prompt": "The lap belt should be worn:",
+      "prompt": "How should you wear the lap belt?",
       "image": "diagram-seat-belt",
       "choices": [
         "Across your stomach",
@@ -1274,11 +1274,11 @@
       "id": "q-belt-lap-low-snug-2",
       "item": "belt-lap-low-snug",
       "part": 2,
-      "prompt": "Your shoulder and lap belts should be:",
+      "prompt": "How should you wear your shoulder and lap belts?",
       "choices": [
         "Loose",
         "Snug",
-        "Worn only on long trips",
+        "Only on long trips",
         "Loose enough to lean forward"
       ],
       "answer": 1,
@@ -1288,7 +1288,7 @@
       "id": "q-belt-shoulder-chest-1",
       "item": "belt-shoulder-chest",
       "part": 2,
-      "prompt": "The shoulder belt should be worn:",
+      "prompt": "Where should you wear the shoulder belt?",
       "image": "diagram-seat-belt",
       "choices": [
         "Behind your back",
@@ -1303,7 +1303,7 @@
       "id": "q-belt-shoulder-chest-2",
       "item": "belt-shoulder-chest",
       "part": 2,
-      "prompt": "You should never wear your shoulder belt:",
+      "prompt": "In which of these ways should you never wear your shoulder belt?",
       "choices": [
         "Over your shoulder",
         "Across your chest",
@@ -1317,12 +1317,12 @@
       "id": "q-belt-shoulder-chest-3",
       "item": "belt-shoulder-chest",
       "part": 2,
-      "prompt": "Wearing your shoulder belt behind your back is:",
+      "prompt": "What is true about wearing your shoulder belt behind your back?",
       "choices": [
-        "Never correct",
-        "Fine if the lap belt is snug",
-        "Fine for short trips",
-        "Required for pregnant women"
+        "It is never correct",
+        "It is fine if the lap belt is snug",
+        "It is fine for short trips",
+        "It is required for pregnant women"
       ],
       "answer": 0,
       "explain": "Never wear your shoulder belt behind your back or under your arm."
@@ -1331,12 +1331,12 @@
       "id": "q-belt-pregnant-1",
       "item": "belt-pregnant",
       "part": 2,
-      "prompt": "A pregnant woman should wear her seat belt:",
+      "prompt": "How should a pregnant woman wear her seat belt?",
       "choices": [
         "Not at all",
         "High across her stomach",
         "Behind her back",
-        "As low on the pelvis as possible"
+        "As low on her pelvis as possible"
       ],
       "answer": 3,
       "explain": "Pregnant women should wear the belt as low on the pelvis as possible."
@@ -1345,21 +1345,21 @@
       "id": "q-belt-pregnant-2",
       "item": "belt-pregnant",
       "part": 2,
-      "prompt": "Pregnant women who buckle up are:",
+      "prompt": "What is true about pregnant women who buckle up?",
       "choices": [
-        "Much safer",
-        "At greater risk",
-        "Breaking the law",
-        "Required to sit in the back"
+        "They are much safer",
+        "They are at greater risk",
+        "They are breaking the law",
+        "They are required to sit in the back"
       ],
       "answer": 0,
-      "explain": "Pregnant women are much safer if buckled up."
+      "explain": "Pregnant women are much safer if they buckle up."
     },
     {
       "id": "q-belt-medical-waiver-1",
       "item": "belt-medical-waiver",
       "part": 2,
-      "prompt": "A waiver of the seat belt requirement may be granted by:",
+      "prompt": "Who may grant a waiver of the seat belt requirement?",
       "choices": [
         "A police officer",
         "A licensed physician",
@@ -1373,7 +1373,7 @@
       "id": "q-belt-medical-waiver-2",
       "item": "belt-medical-waiver",
       "part": 2,
-      "prompt": "A person with a seat belt waiver must:",
+      "prompt": "What must a person with a seat belt waiver do?",
       "choices": [
         "Sit only in the back seat",
         "Renew it every month",
@@ -1381,13 +1381,13 @@
         "Drive only during daylight"
       ],
       "answer": 2,
-      "explain": "The person with the waiver must carry the physician's signed statement naming them and the reason."
+      "explain": "The person must carry the physician's signed statement. It names the person and the reason for the waiver."
     },
     {
       "id": "q-belt-airbag-with-belts-1",
       "item": "belt-airbag-with-belts",
       "part": 2,
-      "prompt": "Air bags are designed to:",
+      "prompt": "What are air bags designed to do?",
       "choices": [
         "Replace seat belts",
         "Cushion you in a front-end crash when used with safety belts",
@@ -1395,13 +1395,13 @@
         "Work best when you are unbuckled"
       ],
       "answer": 1,
-      "explain": "Used with safety belts, air bags cushion you in a front-end crash."
+      "explain": "Air bags cushion you in a front-end crash when you use them with safety belts."
     },
     {
       "id": "q-belt-airbag-with-belts-2",
       "item": "belt-airbag-with-belts",
       "part": 2,
-      "prompt": "If your vehicle has air bags, you should:",
+      "prompt": "What should you do if your vehicle has air bags?",
       "choices": [
         "Not wear a seat belt",
         "Sit as close to the wheel as you can",
@@ -1409,13 +1409,13 @@
         "Always buckle up and have all passengers buckle up"
       ],
       "answer": 3,
-      "explain": "Even with air bags, always buckle up and have all passengers buckle up."
+      "explain": "Even with air bags, you should always buckle up and make sure all passengers buckle up."
     },
     {
       "id": "q-belt-airbag-10-inches-1",
       "item": "belt-airbag-10-inches",
       "part": 2,
-      "prompt": "If your vehicle has air bags, move your seat back so you are at least ___ from the steering wheel.",
+      "prompt": "If your vehicle has air bags, what is the minimum distance you should sit from the steering wheel?",
       "choices": [
         "4 inches",
         "6 inches",
@@ -1423,27 +1423,27 @@
         "10 inches"
       ],
       "answer": 3,
-      "explain": "Sit at least ten inches from the steering wheel."
+      "explain": "Move your seat back so you are at least 10 inches from the steering wheel."
     },
     {
       "id": "q-belt-airbag-10-inches-2",
       "item": "belt-airbag-10-inches",
       "part": 2,
-      "prompt": "To be safe with an air bag, you should:",
+      "prompt": "What should you do to be safe with an air bag?",
       "choices": [
         "Sit at least 10 inches from the steering wheel",
-        "Sit as close to the wheel as you can",
-        "Tilt the wheel up toward your face",
-        "Unbuckle so you can move"
+        "Sit as close to the steering wheel as you can",
+        "Tilt the steering wheel up toward your face",
+        "Unbuckle your seat belt so you can move"
       ],
       "answer": 0,
-      "explain": "Move your seat back so you are at least ten inches from the steering wheel."
+      "explain": "Move your seat back so you are at least 10 inches from the steering wheel."
     },
     {
       "id": "q-belt-airbag-tilt-wheel-1",
       "item": "belt-airbag-tilt-wheel",
       "part": 2,
-      "prompt": "If your steering wheel is adjustable, you should:",
+      "prompt": "What should you do if your steering wheel is adjustable?",
       "choices": [
         "Tilt it upward toward your head",
         "Keep it as high as it goes",
@@ -1451,32 +1451,32 @@
         "Turn off the air bag"
       ],
       "answer": 2,
-      "explain": "Tilt the steering wheel downward so the air bag points toward your chest."
+      "explain": "Tilt the steering wheel downward. This points the air bag toward your chest instead of your head and neck."
     },
     {
       "id": "q-belt-airbag-tilt-wheel-2",
       "item": "belt-airbag-tilt-wheel",
       "part": 2,
-      "prompt": "Tilting the steering wheel downward points the air bag toward your:",
+      "prompt": "Where does the air bag point when you tilt the steering wheel downward?",
       "choices": [
-        "Chest",
-        "Head and neck",
-        "Lap",
-        "Hands"
+        "Toward your chest",
+        "Toward your head and neck",
+        "Toward your lap",
+        "Toward your hands"
       ],
       "answer": 0,
-      "explain": "A downward tilt points the air bag at your chest instead of your head and neck."
+      "explain": "Tilting the wheel downward points the air bag at your chest instead of your head and neck."
     },
     {
       "id": "q-belt-airbag-kids-12-1",
       "item": "belt-airbag-kids-12",
       "part": 2,
-      "prompt": "Children ages ___ and under are safer buckled up in the back seat.",
+      "prompt": "Children of what ages are safer buckled up in the back seat?",
       "choices": [
-        "6",
-        "8",
-        "12",
-        "16"
+        "Ages 6 and under",
+        "Ages 8 and under",
+        "Ages 12 and under",
+        "Ages 16 and under"
       ],
       "answer": 2,
       "explain": "Children ages 12 and under are safer buckled up in the back seat."
@@ -1485,39 +1485,39 @@
       "id": "q-belt-airbag-kids-12-2",
       "item": "belt-airbag-kids-12",
       "part": 2,
-      "prompt": "Where is a 9-year-old child safer riding?",
+      "prompt": "Where is a 9-year-old child safer when riding in a vehicle?",
       "choices": [
-        "Buckled up in the back seat",
-        "In the front seat with the air bag on",
+        "In the back seat, buckled up",
+        "In the front seat, with the air bag turned on",
         "In the luggage area",
         "On an adult's lap"
       ],
       "answer": 0,
-      "explain": "Children 12 and under are safer buckled up in the back seat."
+      "explain": "Children ages 12 and under are safer buckled up in the back seat."
     },
     {
       "id": "q-belt-child-under-8-1",
       "item": "belt-child-under-8",
       "part": 2,
-      "prompt": "All children under age ___ must be properly secured in a child safety seat or booster seat.",
+      "prompt": "Children younger than what age must be properly secured in a child safety seat or booster seat?",
       "choices": [
-        "4",
-        "8",
-        "12",
-        "16"
+        "Age 4",
+        "Age 8",
+        "Age 12",
+        "Age 16"
       ],
       "answer": 1,
-      "explain": "All children under age 8 must ride in a child safety seat or booster seat."
+      "explain": "All children under age 8 must be properly secured in a child safety seat or booster seat."
     },
     {
       "id": "q-belt-child-under-8-2",
       "item": "belt-child-under-8",
       "part": 2,
-      "prompt": "A 7-year-old child riding in your car must be secured in:",
+      "prompt": "What must a 7-year-old child riding in your car be secured in?",
       "choices": [
         "Only a shoulder belt",
         "The front seat",
-        "Nothing, if seated in back",
+        "Nothing, if the child sits in the back seat",
         "A child safety seat or booster seat"
       ],
       "answer": 3,
@@ -1527,7 +1527,7 @@
       "id": "q-belt-child-under-8-3",
       "item": "belt-child-under-8",
       "part": 2,
-      "prompt": "The child safety seat law applies to children under 8 riding in vehicles manufactured after:",
+      "prompt": "The child safety seat law applies to children under 8 in vehicles manufactured after what date?",
       "choices": [
         "January 1, 1968",
         "January 1, 1990",
@@ -1535,49 +1535,49 @@
         "January 1, 1950"
       ],
       "answer": 0,
-      "explain": "The law covers vehicles manufactured after January 1, 1968."
+      "explain": "The law applies to vehicles manufactured after January 1, 1968."
     },
     {
       "id": "q-belt-rear-facing-2-1",
       "item": "belt-rear-facing-2",
       "part": 2,
-      "prompt": "Children should ride rear facing from birth to:",
+      "prompt": "From birth, how long should children ride rear facing?",
       "choices": [
-        "6 months",
-        "1 year",
-        "2 years, or as long as the seat manufacturer allows",
-        "8 years"
+        "For 6 months",
+        "For 1 year",
+        "For 2 years, or as long as the seat manufacturer allows",
+        "For 8 years"
       ],
       "answer": 2,
-      "explain": "Children should ride rear facing from birth to 2 years, or as long as the seat maker allows."
+      "explain": "Children should ride rear facing from birth to 2 years, or as long as the seat manufacturer allows."
     },
     {
       "id": "q-belt-rear-facing-2-2",
       "item": "belt-rear-facing-2",
       "part": 2,
-      "prompt": "A 1-year-old should ride in a child safety seat that faces:",
+      "prompt": "Which way should the child safety seat face for a 1-year-old?",
       "choices": [
-        "The rear of the vehicle",
-        "The front of the vehicle",
-        "The side door",
-        "Any direction"
+        "Facing the rear of the vehicle",
+        "Facing the front of the vehicle",
+        "Facing the side door",
+        "Facing any direction"
       ],
       "answer": 0,
-      "explain": "Children ride rear facing from birth to 2 years."
+      "explain": "A 1-year-old is younger than 2 years, so the child safety seat should face the rear of the vehicle."
     },
     {
       "id": "q-belt-rear-facing-front-1",
       "item": "belt-rear-facing-front",
       "part": 2,
-      "prompt": "If a vehicle does not have a back seat, a rear-facing child seat may be placed in the front passenger seat if:",
+      "prompt": "Your vehicle has no back seat. When may you put a rear-facing child seat in the front passenger seat?",
       "choices": [
-        "The child is over 1 year old",
-        "The trip is short",
-        "The child is asleep",
-        "The vehicle has no passenger side air bag or the passenger air bag is turned off"
+        "When the child is over 1 year old",
+        "When the trip is short",
+        "When the child is asleep",
+        "When the vehicle has no passenger air bag or the air bag is turned off"
       ],
       "answer": 3,
-      "explain": "With no back seat, a rear-facing seat may go in front if there is no passenger air bag or it is turned off."
+      "explain": "With no back seat, a rear-facing child seat may go in the front seat if the vehicle has no passenger air bag or the air bag is turned off."
     },
     {
       "id": "q-belt-rear-facing-front-2",
@@ -1585,33 +1585,33 @@
       "part": 2,
       "prompt": "Your pickup truck has no back seat. Its passenger air bag is turned on. Can you put a rear-facing child seat in the front passenger seat?",
       "choices": [
-        "Yes, any time",
-        "No, the air bag must be off or not installed",
+        "Yes, at any time",
+        "No, the air bag must be turned off or not installed",
         "Yes, if you drive slowly",
         "Yes, if the child is asleep"
       ],
       "answer": 1,
-      "explain": "A rear-facing seat may go in front only if there is no passenger air bag or it is turned off."
+      "explain": "A rear-facing child seat may go in front only if the vehicle has no passenger air bag or the air bag is turned off."
     },
     {
       "id": "q-belt-forward-until-8-1",
       "item": "belt-forward-until-8",
       "part": 2,
-      "prompt": "Children should ride facing forward in a child safety seat or booster seat until:",
+      "prompt": "How long should children ride facing forward in a child safety seat or booster seat?",
       "choices": [
-        "Age 4",
-        "They can see out the window",
-        "At least age 8, or until they get a proper seat belt fit",
-        "Age 16"
+        "Until age 4",
+        "Until they can see out the window",
+        "Until at least age 8, or until the seat belt fits them properly",
+        "Until age 16"
       ],
       "answer": 2,
-      "explain": "Children ride forward facing in a child seat or booster until at least age 8, or until the seat belt fits."
+      "explain": "Children ride facing forward in a child safety seat or booster seat until at least age 8, or until the seat belt fits properly."
     },
     {
       "id": "q-belt-forward-until-8-2",
       "item": "belt-forward-until-8",
       "part": 2,
-      "prompt": "After a child is done riding rear facing, the child should ride:",
+      "prompt": "After a child is done riding rear facing, how should the child ride?",
       "choices": [
         "Facing forward in a child safety seat or booster seat",
         "In the front seat with a lap belt",
@@ -1619,19 +1619,19 @@
         "On an adult's lap"
       ],
       "answer": 0,
-      "explain": "After rear facing, a child rides facing forward in a child safety seat or booster seat."
+      "explain": "After riding rear facing, a child should ride facing forward in a child safety seat or booster seat."
     },
     {
       "id": "q-belt-booster-belt-fit-1",
       "item": "belt-booster-belt-fit",
       "part": 2,
-      "prompt": "To ride without a booster seat, a child's lap belt must lie snugly across the:",
+      "prompt": "To ride without a booster seat, where must a child's lap belt lie snugly?",
       "image": "diagram-seat-belt",
       "choices": [
-        "Stomach",
-        "Upper thighs",
-        "Knees",
-        "Chest"
+        "Across the stomach",
+        "Across the upper thighs",
+        "Across the knees",
+        "Across the chest"
       ],
       "answer": 1,
       "explain": "The lap belt must lie snugly across the upper thighs."
@@ -1640,12 +1640,12 @@
       "id": "q-belt-booster-belt-fit-2",
       "item": "belt-booster-belt-fit",
       "part": 2,
-      "prompt": "To sit without a booster seat, the shoulder belt must lie snugly across the child's:",
+      "prompt": "To sit without a booster seat, where must a child's shoulder belt lie snugly?",
       "choices": [
-        "Neck",
-        "Back",
-        "Upper arm",
-        "Shoulder and chest"
+        "Across the neck",
+        "Across the back",
+        "Across the upper arm",
+        "Across the shoulder and chest"
       ],
       "answer": 3,
       "explain": "The shoulder belt must lie snugly across the shoulder and chest."
@@ -1656,19 +1656,19 @@
       "part": 2,
       "prompt": "Which is a requirement for a child to ride without a booster seat?",
       "choices": [
-        "Age 5 or older",
-        "Can buckle the belt alone",
-        "Able to keep feet flat on the floor",
-        "Can see over the dashboard"
+        "The child is age 5 or older",
+        "The child can buckle the belt alone",
+        "The child can keep their feet flat on the floor",
+        "The child can see over the dashboard"
       ],
       "answer": 2,
-      "explain": "To sit without a booster, a child must keep feet flat on the floor."
+      "explain": "To sit without a booster seat, a child must be able to keep their feet flat on the floor."
     },
     {
       "id": "q-belt-booster-sitting-2",
       "item": "belt-booster-sitting",
       "part": 2,
-      "prompt": "To ride without a booster seat, a child must be able to:",
+      "prompt": "What must a child be able to do to ride without a booster seat?",
       "choices": [
         "Sit all the way back against the seat, without slouching, for the entire trip",
         "Sit up straight for a few minutes",
@@ -1676,41 +1676,41 @@
         "Ride in the front seat"
       ],
       "answer": 0,
-      "explain": "The child must sit all the way back, without slouching, for the entire trip."
+      "explain": "The child must sit all the way back against the seat, without slouching, for the entire trip."
     },
     {
       "id": "q-belt-booster-sitting-3",
       "item": "belt-booster-sitting",
       "part": 2,
-      "prompt": "To sit without a booster seat, a child's knees should be:",
+      "prompt": "To sit without a booster seat, how should a child's knees be positioned?",
       "choices": [
         "Pulled up to the chest",
         "Naturally bent over the edge of the vehicle seat",
         "Straight out on the seat",
-        "Crossed"
+        "Crossed over each other"
       ],
       "answer": 1,
-      "explain": "The child must keep knees naturally bent over the edge of the seat."
+      "explain": "The child's knees must stay naturally bent over the edge of the vehicle seat."
     },
     {
       "id": "q-belt-child-waiver-1",
       "item": "belt-child-waiver",
       "part": 2,
-      "prompt": "A licensed physician may grant a waiver of the child restraint law because of the child's:",
+      "prompt": "For which reason may a licensed physician grant a waiver of the child restraint law?",
       "choices": [
-        "Age",
-        "Weight, physical fitness or other medical reasons",
-        "Dislike of the seat",
-        "Short trip to school"
+        "The child's age",
+        "The child's weight, physical fitness or other medical reasons",
+        "The child's dislike of the seat",
+        "A short trip to school"
       ],
       "answer": 1,
-      "explain": "A waiver may be granted for the child's weight, physical fitness or other medical reasons."
+      "explain": "A physician may grant a waiver because of the child's weight, physical fitness or other medical reasons."
     },
     {
       "id": "q-belt-child-waiver-2",
       "item": "belt-child-waiver",
       "part": 2,
-      "prompt": "If a child has a child restraint waiver, the person transporting the child must:",
+      "prompt": "A child has a waiver from the child restraint law. What must the person transporting the child do?",
       "choices": [
         "Keep the child in the front seat",
         "Drive only in daylight",
@@ -1718,13 +1718,13 @@
         "Call DMV before each trip"
       ],
       "answer": 2,
-      "explain": "The person transporting the child must carry the physician's signed statement."
+      "explain": "The person transporting the child must carry the physician's signed written statement."
     },
     {
       "id": "q-belt-child-fines-1",
       "item": "belt-child-fines",
       "part": 2,
-      "prompt": "If you are convicted of violating the child restraint law, you will be fined:",
+      "prompt": "How much is the fine if you are convicted of violating the child restraint law?",
       "choices": [
         "$25",
         "$50",
@@ -1732,13 +1732,13 @@
         "$500"
       ],
       "answer": 1,
-      "explain": "Violating the child restraint law means a $50 fine."
+      "explain": "If you are convicted of violating the child restraint law, you will be fined $50."
     },
     {
       "id": "q-belt-child-fines-2",
       "item": "belt-child-fines",
       "part": 2,
-      "prompt": "A second or subsequent offense of the child restraint law could mean a penalty of:",
+      "prompt": "What penalty could you face for a second or later violation of the child restraint law?",
       "choices": [
         "$50",
         "$100",
@@ -1746,7 +1746,7 @@
         "$500"
       ],
       "answer": 3,
-      "explain": "A second or subsequent offense could mean a $500 penalty."
+      "explain": "A second or later violation of the child restraint law could mean a $500 penalty."
     },
     {
       "id": "q-belt-child-fines-3",
@@ -1766,13 +1766,13 @@
       "id": "q-belt-center-back-seat-1",
       "item": "belt-center-back-seat",
       "part": 2,
-      "prompt": "The safest place to install a child safety seat is:",
+      "prompt": "What is the safest place to install a child safety seat?",
       "image": "diagram-child-seat",
       "choices": [
-        "The front passenger seat",
-        "The center of the back seat",
+        "In the front passenger seat",
+        "In the center of the back seat",
         "Behind the driver's seat",
-        "The luggage area"
+        "In the luggage area"
       ],
       "answer": 1,
       "explain": "The safest place to install a child safety seat is the center of the back seat."
@@ -1781,7 +1781,7 @@
       "id": "q-belt-center-back-seat-2",
       "item": "belt-center-back-seat",
       "part": 2,
-      "prompt": "To make sure your child's safety seat is installed correctly, you can:",
+      "prompt": "How can you make sure your child's safety seat is installed correctly?",
       "choices": [
         "Install it in the front seat",
         "Ask your passenger to hold it",
@@ -1789,83 +1789,83 @@
         "Attend a child safety seat check"
       ],
       "answer": 3,
-      "explain": "Child safety seat checks across Virginia help you make sure the seat is installed correctly."
+      "explain": "Attending a child safety seat check helps you make sure your seat is installed correctly. Many places in Virginia hold these checks."
     },
     {
       "id": "q-belt-never-lap-child-1",
       "item": "belt-never-lap-child",
       "part": 2,
-      "prompt": "Holding a child in your lap while riding in a vehicle:",
+      "prompt": "Which statement about holding a child in your lap while riding in a vehicle is correct?",
       "choices": [
-        "Is safe if you wear a seat belt",
-        "Is fine on short trips",
-        "Is safer than a child seat",
-        "Should never be done"
+        "It is safe if you wear a seat belt",
+        "It is fine on short trips",
+        "It is safer than a child seat",
+        "It should never be done"
       ],
       "answer": 3,
-      "explain": "Never hold a child in your lap while riding."
+      "explain": "You should never hold a child in your lap while riding in a vehicle."
     },
     {
       "id": "q-belt-never-lap-child-2",
       "item": "belt-never-lap-child",
       "part": 2,
-      "prompt": "In a crash, a child held in an adult's lap may be:",
+      "prompt": "What may happen to a child held in an adult's lap during a crash?",
       "choices": [
-        "Crushed between the adult and the dashboard or seat back",
-        "Protected by the adult's arms",
-        "Kept safe by the air bag",
-        "Unharmed if the adult is belted"
+        "The child may be crushed between the adult and the dashboard or seat back",
+        "The adult's arms may protect the child",
+        "The air bag may keep the child safe",
+        "The child may be unharmed if the adult is belted"
       ],
       "answer": 0,
-      "explain": "A child in your lap may be crushed between your body and the dashboard or seat back."
+      "explain": "In a crash, a child in your lap may be crushed between your body and the dashboard or seat back."
     },
     {
       "id": "q-belt-doors-child-locks-1",
       "item": "belt-doors-child-locks",
       "part": 2,
-      "prompt": "When traveling with children, if you must open a car door you should:",
+      "prompt": "When you are traveling with children and must open a car door, what should you do?",
       "choices": [
-        "Open it while moving slowly",
+        "Open the door while moving slowly",
         "Pull off the road and come to a complete stop",
-        "Let the child open it",
+        "Let the child open the door",
         "Wait for a red light"
       ],
       "answer": 1,
-      "explain": "Pull the vehicle off the road and come to a complete stop before opening a door."
+      "explain": "Pull the vehicle off the road and come to a complete stop before you open a door."
     },
     {
       "id": "q-belt-doors-child-locks-2",
       "item": "belt-doors-child-locks",
       "part": 2,
-      "prompt": "Before driving with children, you should:",
+      "prompt": "What should you do before you drive with children?",
       "choices": [
         "Leave the doors unlocked",
         "Let children play with the locks",
-        "Make sure all doors are closed and locked, and turn on the child safety lock if your car has one",
+        "Close and lock all doors, and turn on the child safety lock if your car has one",
         "Open a rear window"
       ],
       "answer": 2,
-      "explain": "Close and lock all doors before driving, and turn on the child safety lock if your car has one."
+      "explain": "Close and lock all doors before driving. Turn on the child safety lock if your car has one."
     },
     {
       "id": "q-belt-no-cargo-area-1",
       "item": "belt-no-cargo-area",
       "part": 2,
-      "prompt": "Children should never ride in:",
+      "prompt": "Where should children never ride?",
       "choices": [
-        "The back seat",
-        "A booster seat",
-        "The center of the back seat",
-        "The luggage area of a hatchback, station wagon or van"
+        "In the back seat",
+        "In a booster seat",
+        "In the center of the back seat",
+        "In the luggage area of a hatchback, station wagon or van"
       ],
       "answer": 3,
-      "explain": "Never allow children to ride in the luggage area of hatchbacks, station wagons or vans."
+      "explain": "Never allow children to ride in the luggage area of a hatchback, station wagon or van."
     },
     {
       "id": "q-belt-no-cargo-area-2",
       "item": "belt-no-cargo-area",
       "part": 2,
-      "prompt": "When a child is riding in the back seat of a hatchback, you should:",
+      "prompt": "What should you do when a child is riding in the back seat of a hatchback?",
       "choices": [
         "Never leave the hatchback open",
         "Leave the hatchback open for fresh air",
@@ -1879,26 +1879,26 @@
       "id": "q-belt-pickup-bed-16-1",
       "item": "belt-pickup-bed-16",
       "part": 2,
-      "prompt": "It is illegal to transport children under age ___ in the bed of a pickup truck.",
+      "prompt": "Under what age is it illegal to transport children in the bed of a pickup truck?",
       "choices": [
-        "8",
-        "12",
-        "16",
-        "18"
+        "Under age 8",
+        "Under age 12",
+        "Under age 16",
+        "Under age 18"
       ],
       "answer": 2,
-      "explain": "Children under 16 may not ride in the bed of a pickup truck."
+      "explain": "It is illegal for children under 16 to ride in the bed of a pickup truck."
     },
     {
       "id": "q-belt-pickup-bed-16-2",
       "item": "belt-pickup-bed-16",
       "part": 2,
-      "prompt": "Carrying a 14-year-old in the bed of a pickup truck that has a camper shell is:",
+      "prompt": "Is it legal to carry a 14-year-old in the bed of a pickup truck that has a camper shell?",
       "choices": [
-        "Legal because of the camper shell",
-        "Illegal",
-        "Legal on rural roads",
-        "Legal if the child sits down"
+        "Yes, because of the camper shell",
+        "No, it is illegal",
+        "Yes, on rural roads",
+        "Yes, if the child sits down"
       ],
       "answer": 1,
       "explain": "It is illegal to carry children under 16 in a pickup bed, even with a camper shell."
@@ -1907,12 +1907,12 @@
       "id": "q-belt-airbag-with-belts-3",
       "item": "belt-airbag-with-belts",
       "part": 2,
-      "prompt": "By providing a cushion in a front-end crash, an air bag:",
+      "prompt": "What does an air bag do when it provides a cushion in a front-end crash?",
       "choices": [
-        "Replaces the need for a seat belt",
-        "Works best if you sit close to the wheel",
-        "Reduces the force of impact",
-        "Makes it safe for small children to ride in front"
+        "It replaces the need for a seat belt",
+        "It works best if you sit close to the steering wheel",
+        "It reduces the force of impact",
+        "It makes it safe for small children to ride in the front seat"
       ],
       "answer": 2,
       "explain": "An air bag cushions you and reduces the force of impact."
@@ -1921,35 +1921,35 @@
       "id": "q-belt-child-seat-saves-lives-1",
       "item": "belt-child-seat-saves-lives",
       "part": 2,
-      "prompt": "Securing a child in a correctly installed child safety seat:",
+      "prompt": "Which statement is true about securing a child in a correctly installed child safety seat?",
       "choices": [
-        "Is only needed on long trips",
-        "Can significantly reduce the possibility of death or injury",
-        "Is less safe than holding the child in your lap",
-        "Matters only in the front seat"
+        "It is needed only on long trips",
+        "It can greatly lower the chance of death or injury",
+        "It is less safe than holding the child in your lap",
+        "It matters only in the front seat"
       ],
       "answer": 1,
-      "explain": "A correctly installed child safety seat can significantly reduce the possibility of death or injury."
+      "explain": "A correctly installed child safety seat can greatly lower the chance of death or injury."
     },
     {
       "id": "q-belt-child-seat-saves-lives-2",
       "item": "belt-child-seat-saves-lives",
       "part": 2,
-      "prompt": "Why is it important that a child safety seat is installed correctly?",
+      "prompt": "Why is it important to install a child safety seat correctly?",
       "choices": [
         "So the child can reach the door locks",
         "So the child can ride in the luggage area",
         "So the driver can go without a seat belt",
-        "It can significantly reduce the possibility of death or injury"
+        "So the child has a much lower chance of death or injury"
       ],
       "answer": 3,
-      "explain": "A correctly installed child safety seat can significantly reduce the possibility of death or injury."
+      "explain": "A child safety seat that is installed correctly can greatly lower the chance of death or injury."
     },
     {
       "id": "q-belt-airbag-on-off-switch-1",
       "item": "belt-airbag-on-off-switch",
       "part": 2,
-      "prompt": "For more information about air bags, including applying for an on/off switch, you should contact:",
+      "prompt": "Who should you contact for more information about air bags, including how to apply for an on-off switch?",
       "choices": [
         "Your insurance agent",
         "The National Highway Traffic Safety Administration (NHTSA)",
@@ -1957,21 +1957,21 @@
         "The vehicle's previous owner"
       ],
       "answer": 1,
-      "explain": "Contact NHTSA for more information about air bags, including applying for an on/off switch."
+      "explain": "Contact NHTSA for more information about air bags, including how to apply for an on-off switch."
     },
     {
       "id": "q-belt-airbag-on-off-switch-2",
       "item": "belt-airbag-on-off-switch",
       "part": 2,
-      "prompt": "The National Highway Traffic Safety Administration (NHTSA) can give you information about:",
+      "prompt": "Which of these topics can the National Highway Traffic Safety Administration (NHTSA) give you information about?",
       "choices": [
-        "Air bags, including applying for an on/off switch",
-        "Renewing your driver's license",
+        "Air bags, including how to apply for an on-off switch",
+        "Renewing a driver's license",
         "Paying a parking ticket",
-        "Child safety seat fines"
+        "Fines for child safety seat violations"
       ],
       "answer": 0,
-      "explain": "Contact NHTSA for air bag information, including how to apply for an on/off switch."
+      "explain": "NHTSA can give you information about air bags, including how to apply for an on-off switch."
     }
   ]
 }

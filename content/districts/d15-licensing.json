@@ -6,7 +6,7 @@
       "district": "d15-licensing",
       "kind": "rule",
       "title": "Who takes the knowledge exam",
-      "simple": "You take the knowledge exam on a computer. You skip it only with a valid license from a place on this list. The list: another U.S. state, Canada, Germany, France, Republic of Korea.",
+      "simple": "You take the knowledge exam on a computer. You can skip it only if you have a valid license from one of these places: another U.S. state, Canada, Germany, France or the Republic of Korea.",
       "official": "You will need to take the knowledge exam if you do not hold a valid driver's license from another U.S. state, Canada, Germany, France, or the Republic of Korea. The two-part knowledge exam is given on a computer. Exam questions are taken from information in this manual.",
       "manualRef": "Section 1, p. 3"
     },
@@ -15,7 +15,7 @@
       "district": "d15-licensing",
       "kind": "number",
       "title": "Under 18: wait 15 days",
-      "simple": "Under 18 and failed the knowledge exam? You must wait 15 full days to try again. Fail on January 1? Your earliest retake is January 17.",
+      "simple": "If you are under 18 and fail the knowledge exam, you must wait 15 full days to try again. For example, if you fail on January 1, your earliest retake is January 17.",
       "official": "If you fail the exam and you are under age 18, by law you must wait a full 15 days before you can retake the exam. For example, if you fail the exam on January 1, the earliest you can take the exam again is January 17.",
       "mnemonic": "Under 18? Fail, then wait 15. Fail on the 1st, retry on the 17th.",
       "manualRef": "Section 1, p. 3"
@@ -25,7 +25,7 @@
       "district": "d15-licensing",
       "kind": "rule",
       "title": "One try per business day",
-      "simple": "You can take the knowledge exam only once per business day. The road skills test works the same way. One try per business day.",
+      "simple": "You can take the knowledge exam only once per business day. You can take the road skills test only once per business day too.",
       "official": "The exam may be taken only once per business day. [Road skills test:] The test may be taken only once per business day.",
       "mnemonic": "One day, one try.",
       "manualRef": "Section 1, p. 3-4"
@@ -35,7 +35,7 @@
       "district": "d15-licensing",
       "kind": "rule",
       "title": "Audio, languages, no translators",
-      "simple": "You can listen to an audio version of the exam. It comes in many languages and American Sign Language. So you may not use a translator for those languages. Need special help? Tell a DMV staff member.",
+      "simple": "An audio version of the exam is available. The exam is offered in many languages and American Sign Language. So you may not use a translator for those languages. If you need special help, tell a DMV staff member.",
       "official": "An audio version of the exam is available and the exam is offered in many different languages and American Sign Language. Therefore, translators may not be used for tests in offered languages. Customers with special needs or who require special help with applications or testing should tell a DMV staff member at any DMV location.",
       "manualRef": "Section 1, p. 3"
     },
@@ -44,7 +44,7 @@
       "district": "d15-licensing",
       "kind": "number",
       "title": "Three fails: classroom driver ed",
-      "simple": "Failed the knowledge exam three times? You cannot take it a fourth time yet. First, finish and pass the classroom part of driver education.",
+      "simple": "If you fail the knowledge exam three times, you cannot take it a fourth time until you finish and pass the classroom part of driver education.",
       "official": "If you fail the knowledge exam three times, you will not be able to take it a fourth time until you complete and pass the classroom component of driver education.",
       "mnemonic": "Three strikes, back to class.",
       "manualRef": "Section 1, p. 3"
@@ -54,7 +54,7 @@
       "district": "d15-licensing",
       "kind": "number",
       "title": "The 8-hour manual course",
-      "simple": "After three fails, you may have another choice: an 8-hour course on this manual. Take it at a driving school or online, after your third fail. Under 18? Finish classroom driver ed first.",
+      "simple": "After you fail three times, you may be able to take an 8-hour course based on this manual. Take it at a driving school or online after your third failure. If you are under 18, finish classroom driver education first.",
       "official": "You may have the option of completing an 8-hour course based on the Virginia Driver's Manual and approved by DMV exclusively for satisfying the three-times-failure requirement. This course is available at a driver training school and online. Customers younger than 18 may complete the course if they have previously completed the classroom component of driver education. The completion date must be after the date that you failed the knowledge exam the third time.",
       "mnemonic": "Three fails? Eight hours.",
       "manualRef": "Section 1, p. 3"
@@ -74,7 +74,7 @@
       "district": "d15-licensing",
       "kind": "rule",
       "title": "Who takes the road test",
-      "simple": "You must take the road skills test. You skip it only with a valid license from a place on this list. The list: another U.S. state, Canada, Germany, France, Republic of Korea, Taiwan.",
+      "simple": "You must take the road skills test. You can skip it only if you have a valid license from one of these places: another U.S. state, Canada, Germany, France, the Republic of Korea or Taiwan.",
       "official": "You will need to take the road skills test if you do not hold a valid driver's license from another U.S. state, Canada, Germany, France, the Republic of Korea, or Taiwan.",
       "manualRef": "Section 1, p. 4",
       "mnemonic": "Road test skip list = exam skip list + Taiwan."
@@ -84,7 +84,7 @@
       "district": "d15-licensing",
       "kind": "rule",
       "title": "Road test: bring a safe car",
-      "simple": "You bring the car for the road test. It cannot be an autocycle. It needs a valid inspection sticker, plates and registration. Brakes, belts, horn, lights, signals, mirrors and speedometer must all work.",
+      "simple": "You must provide the car for the road test. It cannot be an autocycle. It needs a valid inspection sticker, plates and registration. The brakes, seat belts, horn, lights, turn signals, mirrors and speedometer must all work.",
       "official": "You must provide a vehicle for the road skills test (cannot be taken in an autocycle). The vehicle must have a valid safety inspection sticker, license plates, registration card and decals, working brakes, safety belts, horn, lights, turn signals, mirrors and speedometer.",
       "manualRef": "Section 1, p. 4"
     },
@@ -93,7 +93,7 @@
       "district": "d15-licensing",
       "kind": "rule",
       "title": "Driver ed papers or checklist",
-      "simple": "For the road test, show a driver ed completion certificate. Or fill out a behind-the-wheel checklist. On it, a licensed driver says they practiced with you. They also say you followed all permit rules.",
+      "simple": "For the road test, show a driver education completion certificate, or fill out a behind-the-wheel checklist. On the checklist, a licensed driver must say they practiced with you. The driver must also say you followed all permit rules.",
       "official": "The DMV examiner will require that you either present an acceptable driver's education certificate of completion, or complete a behind-the-wheel checklist (DMV form CSMA 19). A licensed driver will need to certify on the form that he/she has been with you while you practiced the driving tasks and that you have complied with all requirements for learner's permit holders.",
       "manualRef": "Section 1, p. 4"
     },
@@ -102,7 +102,7 @@
       "district": "d15-licensing",
       "kind": "rule",
       "title": "Under 18: test in driver ed",
-      "simple": "Under 18? Your road skills test is part of your driver education course. A public, private or commercial driving school gives it.",
+      "simple": "If you are under 18, your road skills test is part of your driver education course. A public, private or commercial driving school gives the test.",
       "official": "For applicants under 18, the road skills test will be given as part of the driver education course taken at a public, private or commercial driving school.",
       "manualRef": "Section 1, p. 4"
     },
@@ -111,7 +111,7 @@
       "district": "d15-licensing",
       "kind": "number",
       "title": "18+: 60-day permit or driver ed",
-      "simple": "Age 18 or older? Before your first road test, hold your learner's permit for 60 days. Or finish driver ed at an approved school. With driver ed, the school gives the test. Otherwise, DMV does.",
+      "simple": "If you are 18 or older, you must hold your learner's permit for 60 days before your first road test, or finish driver ed at an approved school. With driver ed, the school tests you. With the permit, DMV does.",
       "official": "Applicants age 18 or older must hold the learner's permit for 60 days prior to the first road skills test or complete a course of driver's education at a driver training school approved by DMV or the Department of Education. For applicants who choose driver's education, the road skills test will be administered by the driver training school. For those who opt to hold a learner's permit for 60 days, the road skills test will be given by a DMV staff member.",
       "mnemonic": "18 and up: 60 days or driver ed.",
       "manualRef": "Section 1, p. 4"
@@ -121,7 +121,7 @@
       "district": "d15-licensing",
       "kind": "number",
       "title": "Failed road test: wait 2 days",
-      "simple": "Failed the road skills test? Wait two days to try again. Failed it at DMV three times? First pass the in-car part of driver ed.",
+      "simple": "If you fail the road skills test, you must wait two days to try again. If you fail it at DMV three times, you must first pass the in-car part of driver ed.",
       "official": "If you fail the road skills test, you must wait two days to take it again. If you fail the road skills test at DMV three times, you will not be able to take it a fourth time until you complete and pass the in-vehicle part of driver education at a driver training school approved by DMV or the Department of Education.",
       "mnemonic": "Road test fail: wait 2. Exam fail under 18: wait 15.",
       "manualRef": "Section 1, p. 4"
@@ -131,7 +131,7 @@
       "district": "d15-licensing",
       "kind": "rule",
       "title": "Vision screening for everyone",
-      "simple": "Your tests always include a vision screening. You look into a machine and read letters or numbers. It is not a medical exam. If you fail, you may need to see an eye care professional.",
+      "simple": "Your tests always include a vision screening. You look into a machine and read letters or numbers. It is not a medical exam. If you fail the screening, you may need to see an eye care professional.",
       "official": "Tests will include a vision screening and may include a two-part knowledge exam and a road skills test. A DMV representative will tell you which tests you need to take. A DMV staff member will ask you to look into a machine and read a series of letters or numbers. The vision screening is not a medical exam. If you fail the vision screening, you may be asked to visit an eye care professional.",
       "manualRef": "Section 1, p. 3-4"
     },
@@ -140,7 +140,7 @@
       "district": "d15-licensing",
       "kind": "rule",
       "title": "Restriction C: wear your glasses",
-      "simple": "Need glasses or contacts to pass the vision screening? Then you must wear them every time you drive. Your license shows the letter C for this.",
+      "simple": "If you need glasses or contacts to pass the vision screening, you must wear them every time you drive. Your license shows the letter C for this restriction.",
       "official": "If you need to wear glasses or contact lenses to pass the vision screening, you must wear them when you drive. Your license will display a C for this restriction. To have this restriction removed after having laser surgery to correct your vision, you must visit a DMV customer service center and pass the vision screening without wearing glasses or contact lenses or submit a Vision Screening Report (MED 4).",
       "mnemonic": "C on your card? Glasses on your face.",
       "manualRef": "Section 1, p. 4"
@@ -150,7 +150,7 @@
       "district": "d15-licensing",
       "kind": "number",
       "title": "No limits: 20/40 and 110",
-      "simple": "Want a license with no vision limits? You need 20/40 vision or better in one or both eyes. You also need 110 degrees or more of side vision.",
+      "simple": "To get a license with no vision limits, you need 20/40 vision or better in one or both eyes. You also need 110 degrees or more of side vision.",
       "official": "Driver's license - unrestricted: 20/40 or better vision in one or both eyes, and 110 degrees, or better, horizontal vision in one or both eyes.",
       "mnemonic": "Full license: 20/40 and 110.",
       "manualRef": "Section 1, p. 4"
@@ -160,7 +160,7 @@
       "district": "d15-licensing",
       "kind": "number",
       "title": "Daylight only: 20/70 and 70",
-      "simple": "A daylight-only license needs 20/70 vision or better. You also need 70 degrees or more of side vision. Only one eye sees? You need 30 degrees toward your nose and 40 toward your temple.",
+      "simple": "A daylight-only license needs 20/70 vision or better. You also need 70 degrees or more of side vision. If only one eye sees, you need 30 degrees of side vision toward your nose and 40 degrees toward your temple.",
       "official": "Driving - restricted to daylight hours only: 20/70 or better vision in one or both eyes, and 70 degrees, or better, horizontal vision. If you have vision in only one eye, you must have horizontal vision of at least 30 degrees or better when looking toward your nose and 40 degrees or better when looking toward your temple.",
       "mnemonic": "70 and 70: daylight only. One eye: nose 30, temple 40. Numbers grow as you look out.",
       "manualRef": "Section 1, p. 4"
@@ -170,7 +170,7 @@
       "district": "d15-licensing",
       "kind": "number",
       "title": "Daylight hours: half-hour rule",
-      "simple": "Have a daylight-only license? Start driving a half hour after sunrise. Stop driving a half hour before sunset. Never drive outside those times.",
+      "simple": "If you have a daylight-only license, you may begin driving a half hour after sunrise. You must stop driving a half hour before sunset. Never drive outside those times.",
       "official": "A daylight driving only restricted license permits you to drive only during the period of time beginning a half-hour after sunrise and ending a half-hour before sunset.",
       "mnemonic": "Sunrise plus a half hour. Sunset minus a half hour.",
       "manualRef": "Section 1, p. 4"
@@ -180,7 +180,7 @@
       "district": "d15-licensing",
       "kind": "rule",
       "title": "Always carry your license",
-      "simple": "Whenever you drive, carry your valid driver's license or learner's permit with you. Misusing your license or permit is illegal. You could be fined, jailed or lose your license.",
+      "simple": "Whenever you drive, carry your valid driver's license or learner's permit with you. Misusing your license or permit is illegal. You could pay a fine, go to jail, or lose your license.",
       "official": "Whenever you drive, you must carry a valid driver's license or learner's permit with you. Any misuse of your driver's license or learner's permit is illegal. You could be fined, sentenced to jail, or your license may be suspended.",
       "manualRef": "Section 6, p. 31"
     },
@@ -189,7 +189,7 @@
       "district": "d15-licensing",
       "kind": "number",
       "title": "Permit: who rides with you",
-      "simple": "Driving with a learner's permit? A licensed driver 21 or older must sit in the front passenger seat. Age 18 to 20 is OK only for a brother, sister or legal guardian.",
+      "simple": "With a learner's permit, a licensed driver aged 21 or older must sit in the front passenger seat. A licensed driver aged 18 to 20 may sit there only if that person is your brother, sister or legal guardian.",
       "official": "A learner's permit allows you to operate a motor vehicle when a licensed driver at least 21 years of age is seated in the front passenger seat. The driver with you must hold a valid driver's license, be alert and able to assist you while you are driving. The licensed driver with you may be age 18, 19, or 20 if he or she is your legal guardian, brother, sister, half-brother, half-sister, step brother or stepsister.",
       "mnemonic": "Permit pal: 21 up, or a sibling or guardian 18 up.",
       "manualRef": "Section 6, p. 31"
@@ -199,7 +199,7 @@
       "district": "d15-licensing",
       "kind": "number",
       "title": "Age 19+: permit 60 days",
-      "simple": "Are you 19 or older? Hold your learner's permit for 60 days before you apply for a license. Or show a driver ed completion certificate instead.",
+      "simple": "If you are 19 or older, you must hold your learner's permit for 60 days before you apply for a license. You can show a driver ed completion certificate instead.",
       "official": "If you are age 19 or older, you must hold a learner's permit for 60 days, or present a driver's education certificate of completion to apply for a driver's license.",
       "mnemonic": "19 and up: 60 days or a certificate.",
       "manualRef": "Section 6, p. 31"
@@ -218,7 +218,7 @@
       "district": "d15-licensing",
       "kind": "rule",
       "title": "CDL for big vehicles",
-      "simple": "Big vehicles need a commercial driver's license (CDL). That means tractor-trailers, passenger buses, tank vehicles and hazardous materials vehicles. School buses for 16 or more people need one too. Count the driver.",
+      "simple": "Big vehicles need a commercial driver's license (CDL). These include tractor-trailers, passenger buses, tank vehicles and vehicles that carry hazardous materials. A school bus for 16 or more people needs one too. Count the driver as one of them.",
       "official": "A commercial driver's license (CDL) allows you to operate tractor-trailers, passenger buses, tank vehicles, school buses for 16 or more occupants (including the driver), or vehicles carrying hazardous materials.",
       "manualRef": "Section 6, p. 32"
     },
@@ -227,7 +227,7 @@
       "district": "d15-licensing",
       "kind": "number",
       "title": "15-person school bus endorsement",
-      "simple": "A school bus built for 15 people, counting the driver, does not need a CDL. But you must pass the commercial driver and school bus tests. Then you get a school bus endorsement.",
+      "simple": "A school bus built for 15 people, counting the driver, does not need a CDL. But you must pass the commercial driver test and the school bus test. Then you get a school bus endorsement on your license.",
       "official": "If you wish to operate a school bus designed to carry 15 occupants (including the driver), you do not need to obtain a commercial driver's license. However, you will need to take the commercial driver and school bus tests to obtain the school bus endorsement on your driver's license. You will be restricted to driving a bus designed to carry 15 occupants (including the driver).",
       "mnemonic": "15 people: endorsement. 16 or more: CDL.",
       "manualRef": "Section 6, p. 32"
@@ -256,7 +256,7 @@
       "district": "d15-licensing",
       "kind": "number",
       "title": "New resident: license in 60 days",
-      "simple": "Just moved to Virginia and you drive? Get a Virginia driver's license within 60 days of moving here.",
+      "simple": "If you move to Virginia and drive, you must get a Virginia driver's license within 60 days of moving.",
       "official": "If you are a new Virginia resident and drive, you must obtain a Virginia driver's license within 60 days of moving here.",
       "mnemonic": "New here: plates in 30, license in 60.",
       "manualRef": "Section 7, p. 33"
@@ -266,7 +266,7 @@
       "district": "d15-licensing",
       "kind": "number",
       "title": "Title, register, plates: 30 days",
-      "simple": "Moved to Virginia? Title and register your vehicle and get Virginia license plates within 30 days. Your city or county may also need you to register it there.",
+      "simple": "If you move to Virginia, you must title and register your vehicle and get Virginia license plates within 30 days of moving. Your city or county may also require you to register it there.",
       "official": "Title and register your vehicle and obtain Virginia license plates within 30 days of moving to Virginia. You must also register your vehicle in your locality, if required. Check with your city or county government.",
       "manualRef": "Section 7, p. 33",
       "mnemonic": "New here: plates in 30, license in 60."
@@ -276,7 +276,7 @@
       "district": "d15-licensing",
       "kind": "rule",
       "title": "Two plates and the card",
-      "simple": "Put license plates on the front and back of your car. Put the decals showing the month and year your registration ends on the plates. Keep your registration card with you when you drive.",
+      "simple": "Put license plates on the front and back of your car. Put the registration decals on the plates. They show the month and year when your registration ends. Keep your registration card with you when you drive.",
       "official": "License plates must be displayed on the front and rear of the vehicle. Decals indicating the month and year that the registration expires must be placed in the designated areas on the plates (except for vehicles displaying permanent plates). You must have the vehicle registration card with you when operating the vehicle.",
       "mnemonic": "Plates front and back. Card in the car.",
       "manualRef": "Section 7, p. 33"
@@ -295,7 +295,7 @@
       "district": "d15-licensing",
       "kind": "rule",
       "title": "The penny tread test",
-      "simple": "Check your tires every month, or before a long trip, with a penny. Put Lincoln's head into a tread groove. If tread covers part of his head, your tread is safe.",
+      "simple": "Use a penny to check your tires every month or before a long trip. Put Lincoln's head into a tread groove. If the tread covers part of his head, your tread is safe.",
       "official": "Once every month, or before a long road trip, check your tires for wear and damage problems by using the penny test. Select a point on your tire where the tread appears to be lowest and place Lincoln's head into one of the grooves. If any part of Lincoln's head is covered by the tread, you're driving with the safe amount of tread. If your tread gets below that, your car's ability to grip the road in adverse conditions is greatly reduced.",
       "image": "diagram-penny-test",
       "mnemonic": "Lincoln's head hidden a bit? Tread is fit.",
@@ -306,7 +306,7 @@
       "district": "d15-licensing",
       "kind": "rule",
       "title": "Tire pressure: check the door jamb",
-      "simple": "Before you get in the car, check tire pressure with a tire pressure gauge. The right PSI is in your owner's manual or on the driver's side door jamb.",
+      "simple": "Before you get in the car, check your tire pressure with a tire pressure gauge. The right PSI is in your owner's manual or on the driver's side door jamb.",
       "official": "Prior to entering the vehicle, check tire pressure using a tire pressure gauge. The recommended PSI (pounds per square inch) is located in the vehicle owner's manual or the driver's side door jamb of the vehicle.",
       "manualRef": "Section 7, p. 34",
       "mnemonic": "Penny for tread. Gauge for air."
@@ -325,7 +325,7 @@
       "district": "d15-licensing",
       "kind": "rule",
       "title": "Organ donor: check yes",
-      "simple": "Want to be an organ, eye and tissue donor? Check yes on your license, permit or ID card application. Under 18? Your parents or guardians make the final choice.",
+      "simple": "To become an organ, eye and tissue donor, check yes on your license, permit or ID card application. If you are under 18 years old, your parents or guardians make the final decision.",
       "official": "To sign up to be a donor, check yes on your driver's license, learners permit, or ID card application. If you are age 18 or older, your registered decision to be a donor will be honored. If you are under age 18, you can indicate your wishes to donate by checking yes; by law, your parents and guardians must make the final decision.",
       "manualRef": "Section 7, p. 34"
     }
@@ -348,24 +348,24 @@
       "id": "ev-lic-knowledge-exam-who-2",
       "item": "lic-knowledge-exam-who",
       "kind": "gates",
-      "prompt": "First license ever: is the DMV knowledge exam required?",
+      "prompt": "Is the DMV knowledge exam required when you apply for your first license?",
       "choices": [
-        "No, not required",
-        "Yes, required",
-        "Only half of it"
+        "No, it is not required",
+        "Yes, it is required",
+        "Only half of it is required"
       ],
       "answer": 1,
-      "missLine": "No valid license from elsewhere? Then you must take the DMV knowledge exam."
+      "missLine": "If you have no valid license from another U.S. state or certain countries, you must take the DMV knowledge exam."
     },
     {
       "id": "ev-lic-knowledge-exam-who-3",
       "item": "lic-knowledge-exam-who",
       "kind": "gates",
-      "prompt": "Virginia DMV exam questions come from where?",
+      "prompt": "Where do the questions on the Virginia DMV exam come from?",
       "choices": [
-        "Virginia Driver's Manual",
-        "Practice websites",
-        "Other states' tests"
+        "The Virginia Driver's Manual",
+        "Online practice websites",
+        "Tests from other states"
       ],
       "answer": 0,
       "missLine": "Exam questions are taken from information in the Virginia Driver's Manual."
@@ -374,27 +374,27 @@
       "id": "ev-lic-under-18-wait-15-1",
       "item": "lic-under-18-wait-15",
       "kind": "gates",
-      "prompt": "Under 18, failed the DMV knowledge exam. Days to wait?",
+      "prompt": "How many days must a person under 18 wait after failing the DMV knowledge exam?",
       "choices": [
         "15 days",
         "30 days",
         "60 days"
       ],
       "answer": 0,
-      "missLine": "Under 18? Wait a full 15 days before you retake the knowledge exam."
+      "missLine": "If you are under 18, you must wait a full 15 days before you retake the knowledge exam."
     },
     {
       "id": "ev-lic-under-18-wait-15-2",
       "item": "lic-under-18-wait-15",
       "kind": "gates",
-      "prompt": "Age 16, fails DMV exam January 1. Earliest date to test again?",
+      "prompt": "If a 16-year-old fails the DMV exam on January 1, what is the earliest retake date?",
       "choices": [
         "January 2",
         "January 16",
         "January 17"
       ],
       "answer": 2,
-      "missLine": "Under 18 and fail the DMV exam January 1? The earliest retake is January 17."
+      "missLine": "If you are under 18 and fail the DMV exam on January 1, the earliest you can retake it is January 17."
     },
     {
       "id": "ev-lic-under-18-wait-15-3",
@@ -413,14 +413,14 @@
       "id": "ev-lic-one-test-per-day-1",
       "item": "lic-one-test-per-day",
       "kind": "gates",
-      "prompt": "Age 20, failed DMV exam this morning. When can they test again?",
+      "prompt": "When can a 20-year-old who failed the DMV exam this morning take it again?",
       "choices": [
         "This afternoon",
-        "Twice more today",
-        "Next business day"
+        "Two more times today",
+        "On the next business day"
       ],
       "answer": 2,
-      "missLine": "The DMV knowledge exam may be taken only once per business day."
+      "missLine": "You may take the DMV knowledge exam only once per business day."
     },
     {
       "id": "ev-lic-one-test-per-day-2",
@@ -433,16 +433,16 @@
         "Every hour"
       ],
       "answer": 1,
-      "missLine": "The road skills test may be taken only once per business day."
+      "missLine": "You may take the road skills test only once per business day."
     },
     {
       "id": "ev-lic-exam-languages-1",
       "item": "lic-exam-languages",
       "kind": "gates",
-      "prompt": "DMV exam is offered in your language. Translator allowed?",
+      "prompt": "If the DMV exam is offered in your language, may you use a translator?",
       "choices": [
-        "Yes, allowed",
-        "No, not allowed",
+        "Yes, you may",
+        "No, you may not",
         "Only for some questions"
       ],
       "answer": 1,
@@ -452,7 +452,7 @@
       "id": "ev-lic-exam-languages-2",
       "item": "lic-exam-languages",
       "kind": "gates",
-      "prompt": "Reading is hard? The DMV knowledge exam offers:",
+      "prompt": "What does the DMV knowledge exam offer if reading is hard for you?",
       "choices": [
         "A shorter version",
         "An audio version",
@@ -465,7 +465,7 @@
       "id": "ev-lic-exam-languages-3",
       "item": "lic-exam-languages",
       "kind": "gates",
-      "prompt": "A DMV test taker needs special help. Who should they tell?",
+      "prompt": "Who should a DMV test taker tell if they need special help?",
       "choices": [
         "Another test taker",
         "Nobody",
@@ -478,33 +478,33 @@
       "id": "ev-lic-three-fails-knowledge-1",
       "item": "lic-three-fails-knowledge",
       "kind": "gates",
-      "prompt": "Failed the DMV knowledge exam 3 times. Needed before taking it again?",
+      "prompt": "After failing the DMV knowledge exam 3 times, what must you do before a retake?",
       "choices": [
-        "Wait 2 days",
-        "Classroom driver ed",
-        "Take the road test"
+        "Wait for 2 days",
+        "Finish classroom driver ed",
+        "Take the road skills test"
       ],
       "answer": 1,
-      "missLine": "After three fails, complete and pass classroom driver education before a fourth try."
+      "missLine": "If you fail the knowledge exam three times, you must complete and pass classroom driver education before a fourth try."
     },
     {
       "id": "ev-lic-three-fails-knowledge-2",
       "item": "lic-three-fails-knowledge",
       "kind": "gates",
-      "prompt": "How many DMV knowledge exam fails require driver ed?",
+      "prompt": "After how many failed attempts on the DMV knowledge exam must you take driver education?",
       "choices": [
-        "2 fails",
-        "3 fails",
-        "5 fails"
+        "After 2 failed attempts",
+        "After 3 failed attempts",
+        "After 5 failed attempts"
       ],
       "answer": 1,
-      "missLine": "Fail the knowledge exam three times and you must take classroom driver ed."
+      "missLine": "If you fail the knowledge exam three times, you must take classroom driver education."
     },
     {
       "id": "ev-lic-8-hour-course-1",
       "item": "lic-8-hour-course",
       "kind": "gates",
-      "prompt": "How long is the DMV-approved course after 3 knowledge exam fails?",
+      "prompt": "How long is the DMV-approved course for people who fail the knowledge exam 3 times?",
       "choices": [
         "4 hours",
         "8 hours",
@@ -519,9 +519,9 @@
       "kind": "gates",
       "prompt": "Where is the 8-hour driver's manual course offered?",
       "choices": [
-        "Only at DMV",
+        "Only at the DMV",
         "Only in a car",
-        "Driving school or online"
+        "At a driving school or online"
       ],
       "answer": 2,
       "missLine": "The 8-hour course is offered at a driver training school and online."
@@ -530,23 +530,23 @@
       "id": "ev-lic-8-hour-course-3",
       "item": "lic-8-hour-course",
       "kind": "gates",
-      "prompt": "Under 18: 8-hour course needs what first?",
+      "prompt": "If you are under 18, what do you need before taking the 8-hour course?",
       "choices": [
         "A CDL",
         "Classroom driver ed",
         "60 days on a permit"
       ],
       "answer": 1,
-      "missLine": "Under 18, you must finish classroom driver ed before the 8-hour course."
+      "missLine": "If you are under 18, you must finish classroom driver education before the 8-hour course."
     },
     {
       "id": "ev-lic-test-honesty-1",
       "item": "lic-test-honesty",
       "kind": "gates",
-      "prompt": "Phone buzzes during your DMV exam. You:",
+      "prompt": "What should you do if your phone buzzes during the DMV exam?",
       "choices": [
-        "Check it fast",
-        "Text back fast",
+        "Check it quickly",
+        "Text back quickly",
         "Leave it alone"
       ],
       "answer": 2,
@@ -556,7 +556,7 @@
       "id": "ev-lic-test-honesty-2",
       "item": "lic-test-honesty",
       "kind": "gates",
-      "prompt": "Friend asks for DMV exam questions. You:",
+      "prompt": "What should you do if a friend asks you for DMV exam questions?",
       "choices": [
         "Say no",
         "Share them",
@@ -571,9 +571,9 @@
       "kind": "gates",
       "prompt": "At the DMV, may someone help you during the exam?",
       "choices": [
-        "Yes, if quiet",
+        "Yes, if they are quiet",
         "Only on some questions",
-        "No, not allowed"
+        "No, it is not allowed"
       ],
       "answer": 2,
       "missLine": "You cannot get help while taking the DMV exam."
@@ -582,24 +582,24 @@
       "id": "ev-lic-road-test-who-1",
       "item": "lic-road-test-who",
       "kind": "gates",
-      "prompt": "First license ever: is the DMV road skills test required?",
+      "prompt": "Is the DMV road skills test required when you apply for your first license?",
       "choices": [
-        "No, not required",
-        "Only if over 65",
-        "Yes, required"
+        "No, it is not required",
+        "Only if you are over 65",
+        "Yes, it is required"
       ],
       "answer": 2,
-      "missLine": "No valid license from elsewhere? Then you must take the DMV road skills test."
+      "missLine": "If you have no valid license from another U.S. state or certain countries, you must take the DMV road skills test."
     },
     {
       "id": "ev-lic-road-test-who-2",
       "item": "lic-road-test-who",
       "kind": "gates",
-      "prompt": "New resident with valid Canada license. DMV road test required?",
+      "prompt": "Is the DMV road test required for a new resident with a valid license from Canada?",
       "choices": [
-        "No, not required",
-        "Yes, required",
-        "Yes, taken twice"
+        "No, it is not required",
+        "Yes, it is required",
+        "Yes, you must take it twice"
       ],
       "answer": 0,
       "missLine": "A valid license from Canada means you do not need the road skills test."
@@ -608,11 +608,11 @@
       "id": "ev-lic-road-test-who-3",
       "item": "lic-road-test-who",
       "kind": "gates",
-      "prompt": "New resident with valid Taiwan license. DMV knowledge exam required?",
+      "prompt": "Is the DMV knowledge exam required for a new resident with a valid license from Taiwan?",
       "choices": [
-        "No, not required",
-        "Yes, required",
-        "Only some of it"
+        "No, it is not required",
+        "Yes, it is required",
+        "Only some of it is required"
       ],
       "answer": 1,
       "missLine": "A Taiwan license skips only the road test. The DMV knowledge exam is still required."
@@ -623,7 +623,7 @@
       "kind": "gates",
       "prompt": "Who provides the car for the DMV road skills test?",
       "choices": [
-        "DMV does",
+        "The DMV does",
         "The test taker",
         "The examiner"
       ],
@@ -634,7 +634,7 @@
       "id": "ev-lic-road-test-vehicle-2",
       "item": "lic-road-test-vehicle",
       "kind": "gates",
-      "prompt": "DMV road skills test: which vehicle is not allowed?",
+      "prompt": "Which vehicle is not allowed for the DMV road skills test?",
       "choices": [
         "An autocycle",
         "A sedan",
@@ -647,23 +647,23 @@
       "id": "ev-lic-road-test-vehicle-3",
       "item": "lic-road-test-vehicle",
       "kind": "gates",
-      "prompt": "Car horn is broken. Allowed for a DMV road test?",
+      "prompt": "Can you use a car with a broken horn for the DMV road test?",
       "choices": [
-        "Yes, horn is optional",
-        "No, horn must work",
-        "Yes, if lights work"
+        "Yes, the horn is optional",
+        "No, the horn must work",
+        "Yes, if the lights work"
       ],
       "answer": 1,
-      "missLine": "Your road test car needs a working horn, brakes, lights, signals and more."
+      "missLine": "The car for your road test needs a working horn, brakes, lights, signals, and more."
     },
     {
       "id": "ev-lic-road-test-checklist-1",
       "item": "lic-road-test-checklist",
       "kind": "gates",
-      "prompt": "DMV road test needs a driver ed certificate or:",
+      "prompt": "Instead of a driver ed certificate, what can you show at the DMV road test?",
       "choices": [
         "A school ID",
-        "Behind-the-wheel checklist",
+        "A behind-the-wheel checklist",
         "A car title"
       ],
       "answer": 1,
@@ -686,61 +686,61 @@
       "id": "ev-lic-road-test-under-18-1",
       "item": "lic-road-test-under-18",
       "kind": "gates",
-      "prompt": "Age 16 in Virginia: where is the road skills test given?",
+      "prompt": "If you are 16 in Virginia, where do you take the road skills test?",
       "choices": [
         "At DMV only",
         "In your driver ed course",
-        "By your parent"
+        "At home, by your parent"
       ],
       "answer": 1,
-      "missLine": "Under 18, your road skills test is part of your driver education course."
+      "missLine": "If you are under 18, your road skills test is part of your driver education course."
     },
     {
       "id": "ev-lic-road-test-under-18-2",
       "item": "lic-road-test-under-18",
       "kind": "gates",
-      "prompt": "Under 18 in Virginia, the road skills test is part of:",
+      "prompt": "If you are under 18 in Virginia, what is your road skills test part of?",
       "choices": [
-        "Driver education",
+        "The driver ed course",
         "The knowledge exam",
-        "Vision screening"
+        "The vision screening"
       ],
       "answer": 0,
-      "missLine": "Under 18, the road skills test is given in the driver education course."
+      "missLine": "If you are under 18, the road skills test is given in the driver education course."
     },
     {
       "id": "ev-lic-road-test-18-plus-1",
       "item": "lic-road-test-18-plus",
       "kind": "gates",
-      "prompt": "Age 18+, no driver ed. Permit days before the DMV road test?",
+      "prompt": "Without driver ed, how long must you hold a permit if you are 18 or older?",
       "choices": [
         "30 days",
         "60 days",
         "90 days"
       ],
       "answer": 1,
-      "missLine": "Age 18 or older without driver ed? Hold your permit 60 days first."
+      "missLine": "If you are 18 or older and have no driver ed, you must hold your permit 60 days before the road test."
     },
     {
       "id": "ev-lic-road-test-18-plus-2",
       "item": "lic-road-test-18-plus",
       "kind": "gates",
-      "prompt": "Age 18+, held permit 60 days. Who gives the road test?",
+      "prompt": "Who gives the road test to someone 18 or older who held a permit 60 days?",
       "choices": [
-        "Driving school",
+        "A driving school",
         "Your parent",
-        "DMV staff"
+        "A DMV staff member"
       ],
       "answer": 2,
-      "missLine": "If you hold your permit 60 days, a DMV staff member gives the road test."
+      "missLine": "If you hold your permit for 60 days, a DMV staff member gives the road test."
     },
     {
       "id": "ev-lic-road-test-18-plus-3",
       "item": "lic-road-test-18-plus",
       "kind": "gates",
-      "prompt": "Age 18+, finished driver ed. Who gives the road test?",
+      "prompt": "Who gives the road test to someone 18 or older who finished driver ed?",
       "choices": [
-        "Driver training school",
+        "The driver training school",
         "Your parent",
         "A police officer"
       ],
@@ -751,27 +751,27 @@
       "id": "ev-lic-road-test-fails-1",
       "item": "lic-road-test-fails",
       "kind": "gates",
-      "prompt": "Failed the DMV road skills test. Days before taking it again?",
+      "prompt": "If you fail the DMV road skills test, how long must you wait to retake it?",
       "choices": [
         "2 days",
         "7 days",
         "15 days"
       ],
       "answer": 0,
-      "missLine": "If you fail the road skills test, wait two days to take it again."
+      "missLine": "If you fail the road skills test, you must wait two days to take it again."
     },
     {
       "id": "ev-lic-road-test-fails-2",
       "item": "lic-road-test-fails",
       "kind": "gates",
-      "prompt": "Failed the DMV road test 3 times. Needed before taking it again?",
+      "prompt": "After failing the DMV road test 3 times, what must you do before trying again?",
       "choices": [
-        "In-car driver ed",
-        "8-hour manual course",
+        "Take in-car driver ed",
+        "Take an 8-hour manual course",
         "Wait 15 days"
       ],
       "answer": 0,
-      "missLine": "After three road test fails at DMV, pass the in-vehicle part of driver ed."
+      "missLine": "After you fail the road test three times at DMV, you must pass the in-vehicle part of driver ed."
     },
     {
       "id": "ev-lic-vision-screening-1",
@@ -779,22 +779,22 @@
       "kind": "gates",
       "prompt": "Which DMV license test is always included?",
       "choices": [
-        "Vision screening",
-        "Road skills test",
-        "Knowledge exam"
+        "The vision screening",
+        "The road skills test",
+        "The knowledge exam"
       ],
       "answer": 0,
-      "missLine": "Every DMV test visit includes a vision screening. Other tests depend on your situation."
+      "missLine": "Every DMV testing visit includes a vision screening. The other tests depend on your situation."
     },
     {
       "id": "ev-lic-vision-screening-2",
       "item": "lic-vision-screening",
       "kind": "gates",
-      "prompt": "Failed the DMV vision screening? You may need to visit:",
+      "prompt": "If you fail the DMV vision screening, what might you be asked to do?",
       "choices": [
-        "An eye care professional",
-        "A driving school",
-        "A traffic court"
+        "Visit an eye care professional",
+        "Visit a driving school",
+        "Visit a traffic court"
       ],
       "answer": 0,
       "missLine": "If you fail the vision screening, you may be asked to see an eye care professional."
@@ -803,42 +803,42 @@
       "id": "ev-lic-restriction-c-1",
       "item": "lic-restriction-c",
       "kind": "action",
-      "prompt": "License says C. Glasses left at home!",
+      "prompt": "Your license shows a C. You left your glasses at home!",
       "prop": "driveway-exit",
       "action": "stop",
-      "missLine": "Restriction C means you must wear your glasses or contacts to drive."
+      "missLine": "Restriction C means you must wear your glasses or contacts when you drive."
     },
     {
       "id": "ev-lic-restriction-c-2",
       "item": "lic-restriction-c",
       "kind": "gates",
-      "prompt": "Restriction C on your license means:",
+      "prompt": "What does Restriction C on your license require?",
       "choices": [
-        "Daylight driving only",
-        "You hold a CDL",
-        "Wear glasses or contacts"
+        "Driving only in daylight",
+        "Holding a CDL",
+        "Wearing glasses or contacts"
       ],
       "answer": 2,
-      "missLine": "C means you must wear your glasses or contact lenses when you drive."
+      "missLine": "Restriction C means you must wear your glasses or contact lenses when you drive."
     },
     {
       "id": "ev-lic-restriction-c-3",
       "item": "lic-restriction-c",
       "kind": "gates",
-      "prompt": "Needed glasses to pass the DMV vision screening? Then:",
+      "prompt": "If you need glasses to pass the DMV vision screening, what must you do?",
       "choices": [
         "Wear them at night only",
-        "Wear them to drive",
-        "You cannot drive"
+        "Wear them when you drive",
+        "Do not drive"
       ],
       "answer": 1,
-      "missLine": "If you needed glasses or contacts to pass, wear them every time you drive."
+      "missLine": "If you need glasses or contacts to pass the vision screening, you must wear them every time you drive."
     },
     {
       "id": "ev-lic-vision-unrestricted-1",
       "item": "lic-vision-unrestricted",
       "kind": "gates",
-      "prompt": "Unrestricted license: lowest vision allowed?",
+      "prompt": "What is the worst vision allowed for an unrestricted license?",
       "choices": [
         "20/40",
         "20/70",
@@ -851,33 +851,33 @@
       "id": "ev-lic-vision-unrestricted-2",
       "item": "lic-vision-unrestricted",
       "kind": "gates",
-      "prompt": "Unrestricted license: side vision needed?",
+      "prompt": "What is the least side vision allowed for an unrestricted license?",
       "choices": [
         "70 degrees",
         "110 degrees",
         "150 degrees"
       ],
       "answer": 1,
-      "missLine": "An unrestricted license needs 110 degrees or better of horizontal vision."
+      "missLine": "An unrestricted license needs 110 degrees or more of horizontal vision."
     },
     {
       "id": "ev-lic-vision-unrestricted-3",
       "item": "lic-vision-unrestricted",
       "kind": "gates",
-      "prompt": "20/40 vision and 110 degrees. What license?",
+      "prompt": "With 20/40 vision and 110 degrees of side vision, which license do you qualify for?",
       "choices": [
-        "Daylight only",
+        "A daylight-only license",
         "No license",
-        "Unrestricted"
+        "An unrestricted license"
       ],
       "answer": 2,
-      "missLine": "20/40 vision and 110 degrees of side vision meet the unrestricted standard."
+      "missLine": "You qualify for an unrestricted license with 20/40 vision and 110 degrees of side vision."
     },
     {
       "id": "ev-lic-vision-daylight-1",
       "item": "lic-vision-daylight",
       "kind": "gates",
-      "prompt": "Daylight-only license: lowest vision allowed?",
+      "prompt": "What is the worst vision allowed for a daylight-only license?",
       "choices": [
         "20/40",
         "20/70",
@@ -890,69 +890,69 @@
       "id": "ev-lic-vision-daylight-2",
       "item": "lic-vision-daylight",
       "kind": "gates",
-      "prompt": "Daylight-only license: side vision needed?",
+      "prompt": "What is the least side vision allowed for a daylight-only license?",
       "choices": [
         "30 degrees",
         "70 degrees",
         "110 degrees"
       ],
       "answer": 1,
-      "missLine": "A daylight-only license needs 70 degrees or better of horizontal vision."
+      "missLine": "A daylight-only license needs 70 degrees or more of horizontal vision."
     },
     {
       "id": "ev-lic-vision-daylight-3",
       "item": "lic-vision-daylight",
       "kind": "gates",
-      "prompt": "20/70 vision and 70 degrees. What license?",
+      "prompt": "With 20/70 vision and 70 degrees of side vision, which license do you qualify for?",
       "choices": [
-        "Unrestricted",
+        "An unrestricted license",
         "No license",
-        "Daylight only"
+        "A daylight-only license"
       ],
       "answer": 2,
-      "missLine": "20/70 vision and 70 degrees of side vision allow daylight-only driving."
+      "missLine": "You qualify for a daylight-only license with 20/70 vision and 70 degrees of side vision."
     },
     {
       "id": "ev-lic-daylight-hours-1",
       "item": "lic-daylight-hours",
       "kind": "action",
-      "prompt": "Daylight-only license. It is dark out.",
+      "prompt": "You have a daylight-only license, and it is dark outside.",
       "prop": "driveway-exit",
       "weather": "night",
       "action": "stop",
-      "missLine": "Daylight-only means a half hour after sunrise to a half hour before sunset."
+      "missLine": "With a daylight-only license, you may drive only from a half hour after sunrise to a half hour before sunset."
     },
     {
       "id": "ev-lic-daylight-hours-2",
       "item": "lic-daylight-hours",
       "kind": "gates",
-      "prompt": "Daylight-only: earliest time you may drive?",
+      "prompt": "With a daylight-only license, what is the earliest time you may drive?",
       "choices": [
         "At sunrise",
-        "Half hour after sunrise",
-        "One hour after sunrise"
+        "A half hour after sunrise",
+        "An hour after sunrise"
       ],
       "answer": 1,
-      "missLine": "Daylight-only driving starts a half hour after sunrise."
+      "missLine": "With a daylight-only license, you may start driving a half hour after sunrise."
     },
     {
       "id": "ev-lic-daylight-hours-3",
       "item": "lic-daylight-hours",
       "kind": "gates",
-      "prompt": "Daylight-only: when must you stop driving?",
+      "prompt": "With a daylight-only license, when must you stop driving?",
       "choices": [
-        "Half hour before sunset",
+        "A half hour before sunset",
         "At sunset",
-        "Half hour after sunset"
+        "A half hour after sunset"
       ],
       "answer": 0,
-      "missLine": "Daylight-only driving ends a half hour before sunset."
+      "missLine": "With a daylight-only license, you must stop driving a half hour before sunset."
     },
     {
       "id": "ev-lic-daylight-hours-4",
       "item": "lic-daylight-hours",
       "kind": "action",
-      "prompt": "Daylight-only license. Noon, sunny. Green light.",
+      "prompt": "Your license is daylight-only. It is a sunny noon, and the light is green.",
       "prop": "traffic-light-green",
       "weather": "clear",
       "action": "go",
@@ -962,7 +962,7 @@
       "id": "ev-lic-carry-license-1",
       "item": "lic-carry-license",
       "kind": "action",
-      "prompt": "Heading out to drive. License left inside!",
+      "prompt": "You are heading out to drive. You left your license inside!",
       "prop": "driveway-exit",
       "action": "stop",
       "missLine": "Whenever you drive, you must carry your license or learner's permit."
@@ -978,16 +978,16 @@
         "Only at night"
       ],
       "answer": 1,
-      "missLine": "Carry your valid license or learner's permit whenever you drive."
+      "missLine": "You must carry your valid license or learner's permit whenever you drive."
     },
     {
       "id": "ev-lic-carry-license-3",
       "item": "lic-carry-license",
       "kind": "gates",
-      "prompt": "Misusing your license can lead to:",
+      "prompt": "What can happen if you misuse your license?",
       "choices": [
         "Just a warning",
-        "Fine, jail or suspension",
+        "A fine, jail or suspension",
         "Nothing at all"
       ],
       "answer": 1,
@@ -997,14 +997,14 @@
       "id": "ev-lic-permit-supervisor-1",
       "item": "lic-permit-supervisor",
       "kind": "gates",
-      "prompt": "Permit driving: supervisor must be at least:",
+      "prompt": "At a minimum, how old must your permit supervisor be?",
       "choices": [
-        "Age 16",
-        "Age 18",
-        "Age 21"
+        "16 years old",
+        "18 years old",
+        "21 years old"
       ],
       "answer": 2,
-      "missLine": "Your permit supervisor must be a licensed driver age 21 or older."
+      "missLine": "Your permit supervisor must be a licensed driver who is 21 or older."
     },
     {
       "id": "ev-lic-permit-supervisor-2",
@@ -1012,44 +1012,44 @@
       "kind": "gates",
       "prompt": "Where must your permit supervisor sit?",
       "choices": [
-        "Front passenger seat",
-        "Back seat",
-        "Any seat"
+        "In the front passenger seat",
+        "In the back seat",
+        "In any seat"
       ],
       "answer": 0,
-      "missLine": "The licensed driver must sit in the front passenger seat."
+      "missLine": "The licensed driver with you must sit in the front passenger seat."
     },
     {
       "id": "ev-lic-permit-supervisor-3",
       "item": "lic-permit-supervisor",
       "kind": "gates",
-      "prompt": "Learner's permit: may a licensed sister, age 19, supervise?",
+      "prompt": "Can your licensed 19-year-old sister supervise you on a learner's permit?",
       "choices": [
-        "Yes, she may",
-        "No, she may not",
+        "Yes, she can",
+        "No, she cannot",
         "Only at night"
       ],
       "answer": 0,
-      "missLine": "A licensed brother, sister or guardian age 18 to 20 may supervise you."
+      "missLine": "A licensed brother, sister or legal guardian who is 18 to 20 may supervise you."
     },
     {
       "id": "ev-lic-permit-supervisor-4",
       "item": "lic-permit-supervisor",
       "kind": "gates",
-      "prompt": "Learner's permit: may a licensed friend, age 19, supervise?",
+      "prompt": "Can your licensed 19-year-old friend supervise you on a learner's permit?",
       "choices": [
-        "Yes, a friend may",
-        "Only on weekends",
-        "No, must be 21+"
+        "Yes, a friend may supervise",
+        "Only on the weekends",
+        "No, they must be 21 or older"
       ],
       "answer": 2,
-      "missLine": "Friends must be 21 or older. Only a sibling or guardian can be 18 to 20."
+      "missLine": "A friend must be 21 or older. Only a sibling or guardian can be 18 to 20."
     },
     {
       "id": "ev-lic-permit-supervisor-5",
       "item": "lic-permit-supervisor",
       "kind": "action",
-      "prompt": "Learner's permit. Nobody licensed is with you.",
+      "prompt": "You have a learner's permit. No licensed driver is with you.",
       "prop": "driveway-exit",
       "action": "stop",
       "missLine": "With a permit, a licensed driver must sit beside you."
@@ -1058,7 +1058,7 @@
       "id": "ev-lic-permit-supervisor-6",
       "item": "lic-permit-supervisor",
       "kind": "action",
-      "prompt": "Permit driver. Licensed dad beside you. Green light!",
+      "prompt": "You have a permit with your licensed dad beside you. The light is green!",
       "prop": "traffic-light-green",
       "action": "go",
       "missLine": "Green means go. Your licensed dad is over 21, so you may drive."
@@ -1067,33 +1067,33 @@
       "id": "ev-lic-permit-60-days-19-1",
       "item": "lic-permit-60-days-19",
       "kind": "gates",
-      "prompt": "Age 19+, no driver ed. Hold permit how long?",
+      "prompt": "Without driver ed, how long must someone 19 or older hold a permit?",
       "choices": [
         "15 days",
         "30 days",
         "60 days"
       ],
       "answer": 2,
-      "missLine": "Age 19 or older? Hold your permit 60 days or show a driver ed certificate."
+      "missLine": "If you are 19 or older, you must hold your permit for 60 days or show a driver ed certificate."
     },
     {
       "id": "ev-lic-permit-60-days-19-2",
       "item": "lic-permit-60-days-19",
       "kind": "gates",
-      "prompt": "Age 19+: what replaces the 60-day permit wait?",
+      "prompt": "If you are 19 or older, what can replace the 60-day permit wait?",
       "choices": [
-        "Driver ed certificate",
+        "A driver ed certificate",
         "A parent's note",
-        "Paying a fee"
+        "A fee payment"
       ],
       "answer": 0,
-      "missLine": "A driver ed certificate of completion replaces the 60-day permit wait."
+      "missLine": "A driver ed certificate of completion can replace the 60-day permit wait."
     },
     {
       "id": "ev-lic-driver-license-type-1",
       "item": "lic-driver-license-type",
       "kind": "gates",
-      "prompt": "Regular license: trucks under how many pounds?",
+      "prompt": "A regular license covers trucks under how many pounds?",
       "choices": [
         "10,001 pounds",
         "16,001 pounds",
@@ -1106,11 +1106,11 @@
       "id": "ev-lic-driver-license-type-2",
       "item": "lic-driver-license-type",
       "kind": "gates",
-      "prompt": "Small truck under 26,001 lbs, no CDL needed. License?",
+      "prompt": "Which license covers a truck under 26,001 pounds that does not need a CDL?",
       "choices": [
-        "CDL",
-        "Regular license",
-        "School bus endorsement"
+        "A CDL",
+        "A regular license",
+        "A school bus endorsement"
       ],
       "answer": 1,
       "missLine": "A regular driver's license covers small trucks under 26,001 pounds."
@@ -1119,11 +1119,11 @@
       "id": "ev-lic-cdl-1",
       "item": "lic-cdl",
       "kind": "gates",
-      "prompt": "Tractor-trailer needs which license?",
+      "prompt": "Which license do you need to drive a tractor-trailer?",
       "choices": [
         "A CDL",
-        "Regular license",
-        "Learner's permit"
+        "A regular license",
+        "A learner's permit"
       ],
       "answer": 0,
       "missLine": "Tractor-trailers need a commercial driver's license (CDL)."
@@ -1132,23 +1132,23 @@
       "id": "ev-lic-cdl-2",
       "item": "lic-cdl",
       "kind": "gates",
-      "prompt": "School bus for 16 or more people needs:",
+      "prompt": "Which license do you need to drive a school bus for 16 or more people?",
       "choices": [
-        "Regular license only",
+        "Only a regular license",
         "A CDL",
-        "Learner's permit"
+        "A learner's permit"
       ],
       "answer": 1,
-      "missLine": "School buses for 16 or more, counting the driver, need a CDL."
+      "missLine": "A school bus for 16 or more people, counting the driver, needs a CDL."
     },
     {
       "id": "ev-lic-cdl-3",
       "item": "lic-cdl",
       "kind": "gates",
-      "prompt": "Hauling hazardous materials needs:",
+      "prompt": "Which license do you need to haul hazardous materials?",
       "choices": [
-        "Learner's permit",
-        "Regular license",
+        "A learner's permit",
+        "A regular license",
         "A CDL"
       ],
       "answer": 2,
@@ -1158,11 +1158,11 @@
       "id": "ev-lic-school-bus-15-1",
       "item": "lic-school-bus-15",
       "kind": "gates",
-      "prompt": "School bus for 15 people. CDL needed?",
+      "prompt": "Do you need a CDL to drive a school bus built for 15 people?",
       "choices": [
-        "Yes, a CDL",
-        "No license needed",
-        "No, an endorsement"
+        "Yes, you need a CDL",
+        "No, you need no license",
+        "No, you need an endorsement"
       ],
       "answer": 2,
       "missLine": "A 15-person school bus needs a school bus endorsement, not a CDL."
@@ -1171,14 +1171,14 @@
       "id": "ev-lic-school-bus-15-2",
       "item": "lic-school-bus-15",
       "kind": "gates",
-      "prompt": "Endorsement bus holds how many, with driver?",
+      "prompt": "With a school bus endorsement, how many people can your bus hold, counting the driver?",
       "choices": [
         "15 people",
         "16 people",
         "26 people"
       ],
       "answer": 0,
-      "missLine": "The school bus endorsement covers buses for 15 occupants, including the driver."
+      "missLine": "The school bus endorsement covers buses for 15 people, counting the driver."
     },
     {
       "id": "ev-lic-international-license-1",
@@ -1186,9 +1186,9 @@
       "kind": "gates",
       "prompt": "Does an international license let you drive?",
       "choices": [
-        "Yes, anywhere",
-        "No, only a translation",
-        "Yes, in Virginia"
+        "Yes, it works anywhere",
+        "No, it is only a translation",
+        "Yes, it works in Virginia"
       ],
       "answer": 1,
       "missLine": "An international driver's license is only a translation. It is not a license."
@@ -1197,14 +1197,14 @@
       "id": "ev-lic-international-license-2",
       "item": "lic-international-license",
       "kind": "gates",
-      "prompt": "A visitor from abroad may drive with:",
+      "prompt": "What may a visitor from another country use to drive in the U.S.?",
       "choices": [
-        "License bought online",
-        "No license",
-        "Home license + translation"
+        "A license bought online",
+        "No license at all",
+        "A home license and a translation"
       ],
       "answer": 2,
-      "missLine": "Visitors may drive with their home country license plus a translation."
+      "missLine": "Visitors may drive with their home country license and a translation."
     },
     {
       "id": "ev-lic-international-license-3",
@@ -1212,12 +1212,12 @@
       "kind": "gates",
       "prompt": "Who issues international driver's permits?",
       "choices": [
-        "Virginia DMV",
+        "The Virginia DMV",
         "Any website",
         "Your local AAA"
       ],
       "answer": 2,
-      "missLine": "International permits are issued by your local AAA."
+      "missLine": "International driver's permits are issued by your local AAA."
     },
     {
       "id": "ev-lic-license-mail-address-1",
@@ -1226,125 +1226,125 @@
       "prompt": "How does a new Virginia license arrive?",
       "choices": [
         "At the DMV counter",
-        "From driving school",
+        "From a driving school",
         "In the mail"
       ],
       "answer": 2,
-      "missLine": "For security, DMV mails your new license."
+      "missLine": "For security, DMV mails your new license to you."
     },
     {
       "id": "ev-lic-license-mail-address-2",
       "item": "lic-license-mail-address",
       "kind": "gates",
-      "prompt": "You moved. Tell DMV within:",
+      "prompt": "How soon must you tell DMV after you move?",
       "choices": [
-        "30 days",
-        "60 days",
-        "90 days"
+        "Within 30 days",
+        "Within 60 days",
+        "Within 90 days"
       ],
       "answer": 0,
-      "missLine": "If you move, notify DMV within 30 days."
+      "missLine": "If you move, you must tell DMV within 30 days."
     },
     {
       "id": "ev-lic-license-mail-address-3",
       "item": "lic-license-mail-address",
       "kind": "gates",
-      "prompt": "Will the post office forward your license?",
+      "prompt": "Will the post office forward your license to your new address?",
       "choices": [
         "No, it will not",
         "Yes, it will",
-        "Only inside Virginia"
+        "Yes, but only in Virginia"
       ],
       "answer": 0,
-      "missLine": "The postal service will not forward your license. Keep your address current."
+      "missLine": "The post office will not forward your license. Keep your address up to date."
     },
     {
       "id": "ev-lic-new-resident-60-1",
       "item": "lic-new-resident-60",
       "kind": "gates",
-      "prompt": "New to Virginia. Get a VA license within:",
+      "prompt": "How soon must a new Virginia resident who drives get a Virginia license?",
       "choices": [
-        "15 days",
-        "30 days",
-        "60 days"
+        "Within 15 days",
+        "Within 30 days",
+        "Within 60 days"
       ],
       "answer": 2,
-      "missLine": "New residents who drive must get a Virginia license within 60 days."
+      "missLine": "New residents who drive must get a Virginia license within 60 days of moving here."
     },
     {
       "id": "ev-lic-new-resident-60-2",
       "item": "lic-new-resident-60",
       "kind": "gates",
-      "prompt": "New resident who drives needs:",
+      "prompt": "What kind of license does a new Virginia resident who drives need?",
       "choices": [
-        "Out-of-state license only",
+        "Only an out-of-state license",
         "A Virginia license",
-        "International license"
+        "An international license"
       ],
       "answer": 1,
-      "missLine": "New Virginia residents who drive must get a Virginia driver's license."
+      "missLine": "A new Virginia resident who drives must get a Virginia driver's license."
     },
     {
       "id": "ev-lic-title-register-30-1",
       "item": "lic-title-register-30",
       "kind": "gates",
-      "prompt": "New resident: title and plates within:",
+      "prompt": "How soon after moving to Virginia must you title your vehicle and get license plates?",
       "choices": [
-        "30 days",
-        "60 days",
-        "90 days"
+        "Within 30 days",
+        "Within 60 days",
+        "Within 90 days"
       ],
       "answer": 0,
-      "missLine": "Title, register and get Virginia plates within 30 days of moving here."
+      "missLine": "Title and register your vehicle and get Virginia license plates within 30 days of moving to Virginia."
     },
     {
       "id": "ev-lic-title-register-30-2",
       "item": "lic-title-register-30",
       "kind": "gates",
-      "prompt": "Within 30 days of moving here, get:",
+      "prompt": "Which of these must you get within 30 days of moving to Virginia?",
       "choices": [
         "Virginia license plates",
         "A CDL",
         "A voter card"
       ],
       "answer": 0,
-      "missLine": "Within 30 days, title and register your vehicle and get Virginia plates."
+      "missLine": "Within 30 days of moving here, title and register your vehicle and get Virginia plates."
     },
     {
       "id": "ev-lic-plates-registration-1",
       "item": "lic-plates-registration",
       "kind": "gates",
-      "prompt": "Where do license plates go?",
+      "prompt": "Where must you put license plates on your car?",
       "choices": [
-        "Rear only",
-        "Front and rear",
-        "Front only"
+        "On the rear only",
+        "On the front and rear",
+        "On the front only"
       ],
       "answer": 1,
-      "missLine": "License plates must be on the front and rear of the vehicle."
+      "missLine": "License plates must be on the front and the rear of the vehicle."
     },
     {
       "id": "ev-lic-plates-registration-2",
       "item": "lic-plates-registration",
       "kind": "gates",
-      "prompt": "What must be with you while driving?",
+      "prompt": "Which of these must you have with you while you drive?",
       "choices": [
-        "Vehicle title",
-        "Registration card",
-        "Bill of sale"
+        "The vehicle title",
+        "The registration card",
+        "The bill of sale"
       ],
       "answer": 1,
-      "missLine": "Carry the vehicle registration card whenever you drive."
+      "missLine": "Keep the vehicle registration card with you whenever you drive."
     },
     {
       "id": "ev-lic-plates-registration-3",
       "item": "lic-plates-registration",
       "kind": "gates",
-      "prompt": "Plate decals show:",
+      "prompt": "What do the decals on your license plate show?",
       "choices": [
-        "When it expires",
-        "Owner's name",
-        "Insurance company"
+        "The expiration date",
+        "The owner's name",
+        "The insurance company"
       ],
       "answer": 0,
       "missLine": "Plate decals show the month and year your registration expires."
@@ -1353,7 +1353,7 @@
       "id": "ev-lic-plates-registration-4",
       "item": "lic-plates-registration",
       "kind": "action",
-      "prompt": "Registration card left at home!",
+      "prompt": "You left your registration card at home!",
       "prop": "driveway-exit",
       "action": "stop",
       "missLine": "Keep your registration card with you whenever you drive."
@@ -1362,7 +1362,7 @@
       "id": "ev-lic-safety-inspection-1",
       "item": "lic-safety-inspection",
       "kind": "gates",
-      "prompt": "How often must your car pass safety inspection?",
+      "prompt": "How often must your car pass a safety inspection?",
       "choices": [
         "Every month",
         "Every 5 years",
@@ -1375,11 +1375,11 @@
       "id": "ev-lic-safety-inspection-2",
       "item": "lic-safety-inspection",
       "kind": "gates",
-      "prompt": "Some localities also require:",
+      "prompt": "Besides a safety inspection, which inspection do some localities require?",
       "choices": [
-        "Emissions inspection",
-        "Monthly inspection",
-        "Paint inspection"
+        "An emissions inspection",
+        "A monthly inspection",
+        "A paint inspection"
       ],
       "answer": 0,
       "missLine": "In certain localities, your vehicle must also pass an emissions inspection."
@@ -1391,13 +1391,13 @@
       "prompt": "Your car's inspection sticker has expired!",
       "prop": "driveway-exit",
       "action": "stop",
-      "missLine": "Your vehicle must pass a yearly safety inspection and show a valid sticker."
+      "missLine": "Your vehicle must pass a safety inspection every year and show a valid inspection sticker."
     },
     {
       "id": "ev-lic-penny-test-1",
       "item": "lic-penny-test",
       "kind": "gates",
-      "prompt": "How often should you do the penny test?",
+      "prompt": "How often should you do the penny test on your tires?",
       "image": "diagram-penny-test",
       "choices": [
         "Every year",
@@ -1411,25 +1411,25 @@
       "id": "ev-lic-penny-test-2",
       "item": "lic-penny-test",
       "kind": "gates",
-      "prompt": "Tread covers part of Lincoln's head. Means?",
+      "prompt": "In the penny test, what does it mean if the tread covers part of Lincoln's head?",
       "image": "diagram-penny-test",
       "choices": [
-        "Tread is safe",
-        "Tires are bald",
-        "Too much air"
+        "Your tread is safe",
+        "Your tires are bald",
+        "Your tires have too much air"
       ],
       "answer": 0,
-      "missLine": "If tread covers any part of Lincoln's head, you have safe tread."
+      "missLine": "If the tread covers any part of Lincoln's head, your tread is safe."
     },
     {
       "id": "ev-lic-penny-test-3",
       "item": "lic-penny-test",
       "kind": "gates",
-      "prompt": "Penny test: where on the tire do you check?",
+      "prompt": "Where on the tire should you put the penny?",
       "image": "diagram-penny-test",
       "choices": [
-        "Where tread looks deepest",
-        "Where tread looks lowest",
+        "Where the tread looks deepest",
+        "Where the tread looks lowest",
         "On the sidewall"
       ],
       "answer": 1,
@@ -1439,24 +1439,24 @@
       "id": "ev-lic-tire-pressure-1",
       "item": "lic-tire-pressure",
       "kind": "gates",
-      "prompt": "Where is the right tire PSI listed?",
+      "prompt": "Where can you find the right PSI for your tires?",
       "choices": [
         "On the license plate",
         "On the windshield",
-        "Driver's door jamb"
+        "On the driver's door jamb"
       ],
       "answer": 2,
-      "missLine": "Find recommended PSI in the owner's manual or the driver's side door jamb."
+      "missLine": "Find the recommended PSI in the owner's manual or on the driver's side door jamb."
     },
     {
       "id": "ev-lic-tire-pressure-2",
       "item": "lic-tire-pressure",
       "kind": "gates",
-      "prompt": "Check tire pressure with a:",
+      "prompt": "What tool do you use to check tire pressure?",
       "choices": [
-        "Penny",
-        "Ruler",
-        "Tire pressure gauge"
+        "A penny",
+        "A ruler",
+        "A tire pressure gauge"
       ],
       "answer": 2,
       "missLine": "Use a tire pressure gauge. The penny test is for tread."
@@ -1465,24 +1465,24 @@
       "id": "ev-lic-tire-pressure-3",
       "item": "lic-tire-pressure",
       "kind": "gates",
-      "prompt": "When should you check tire pressure?",
+      "prompt": "When should you check your tire pressure?",
       "choices": [
-        "While driving",
+        "While you are driving",
         "Only once a year",
-        "Before you get in"
+        "Before you get in the car"
       ],
       "answer": 2,
-      "missLine": "Check tire pressure before you get into the vehicle."
+      "missLine": "Check your tire pressure before you get into the vehicle."
     },
     {
       "id": "ev-lic-voter-registration-1",
       "item": "lic-voter-registration",
       "kind": "gates",
-      "prompt": "Can you apply to register to vote at DMV?",
+      "prompt": "Can you apply to register to vote at a DMV office?",
       "choices": [
-        "No, never",
+        "No, you cannot",
         "Yes, at any DMV office",
-        "Only on election day"
+        "Yes, but only on election day"
       ],
       "answer": 1,
       "missLine": "You may apply to register to vote at any DMV office."
@@ -1491,11 +1491,11 @@
       "id": "ev-lic-voter-registration-2",
       "item": "lic-voter-registration",
       "kind": "gates",
-      "prompt": "To register to vote, be 18 by the next:",
+      "prompt": "When must you be 18 to register to vote?",
       "choices": [
-        "General election",
-        "Birthday",
-        "School year"
+        "By the next general election",
+        "By your next birthday",
+        "By the next school year"
       ],
       "answer": 0,
       "missLine": "You must be at least 18 by the next general election."
@@ -1504,27 +1504,27 @@
       "id": "ev-lic-organ-donor-1",
       "item": "lic-organ-donor",
       "kind": "gates",
-      "prompt": "To become an organ donor in Virginia, you:",
+      "prompt": "How do you sign up to be an organ donor in Virginia?",
       "choices": [
         "Tell a police officer",
-        "Check yes on application",
+        "Check yes on the application",
         "Wait to be asked"
       ],
       "answer": 1,
-      "missLine": "Check yes on your license, permit or ID card application."
+      "missLine": "Check yes on your license, permit, or ID card application."
     },
     {
       "id": "ev-lic-organ-donor-2",
       "item": "lic-organ-donor",
       "kind": "gates",
-      "prompt": "Donor under 18: who makes the final decision?",
+      "prompt": "Who makes the final decision about being an organ donor if you are under 18?",
       "choices": [
-        "Parents or guardians",
+        "Your parents or guardians",
         "You alone",
         "DMV"
       ],
       "answer": 0,
-      "missLine": "Under 18, your parents or guardians make the final donor decision."
+      "missLine": "If you are under 18, your parents or guardians make the final decision about being an organ donor."
     }
   ],
   "questions": [
@@ -1532,12 +1532,12 @@
       "id": "q-lic-knowledge-exam-who-1",
       "item": "lic-knowledge-exam-who",
       "part": 2,
-      "prompt": "The Virginia knowledge exam is given:",
+      "prompt": "How is the Virginia knowledge exam given?",
       "choices": [
-        "On paper with a pencil",
+        "On paper, with a pencil",
         "On a computer",
-        "Out loud by an examiner",
-        "In a car with an examiner"
+        "Out loud, by an examiner",
+        "In a car, with an examiner"
       ],
       "answer": 1,
       "explain": "The two-part knowledge exam is given on a computer."
@@ -1546,25 +1546,25 @@
       "id": "q-lic-knowledge-exam-who-2",
       "item": "lic-knowledge-exam-who",
       "part": 2,
-      "prompt": "A new resident may skip the knowledge exam if they hold a valid driver's license from:",
+      "prompt": "Which valid driver's license lets a new resident skip the knowledge exam?",
       "choices": [
-        "Mexico",
-        "Japan",
-        "Another U.S. state",
-        "Italy"
+        "A license from Mexico",
+        "A license from Japan",
+        "A license from another U.S. state",
+        "A license from Italy"
       ],
       "answer": 2,
-      "explain": "You need the knowledge exam unless you hold a valid license from another U.S. state, Canada, Germany, France, or the Republic of Korea."
+      "explain": "You may skip the knowledge exam with a valid license from another U.S. state, Canada, Germany, France, or the Republic of Korea."
     },
     {
       "id": "q-lic-knowledge-exam-who-3",
       "item": "lic-knowledge-exam-who",
       "part": 2,
-      "prompt": "Questions on the Virginia DMV knowledge exam are taken from:",
+      "prompt": "Where do the questions on the Virginia DMV knowledge exam come from?",
       "choices": [
         "Your driving record",
         "Practice test websites",
-        "Information in the Virginia Driver's Manual",
+        "The Virginia Driver's Manual",
         "Your driver education teacher"
       ],
       "answer": 2,
@@ -1574,7 +1574,7 @@
       "id": "q-lic-under-18-wait-15-1",
       "item": "lic-under-18-wait-15",
       "part": 2,
-      "prompt": "If you are under 18 and fail the DMV knowledge exam, you must wait how long before you retake it?",
+      "prompt": "If you are under 18 and fail the DMV knowledge exam, how long must you wait to retake it?",
       "choices": [
         "2 days",
         "7 days",
@@ -1582,13 +1582,13 @@
         "30 days"
       ],
       "answer": 2,
-      "explain": "By law, if you are under 18 you must wait a full 15 days to retake the exam."
+      "explain": "By law, if you are under 18, you must wait a full 15 days to retake the exam."
     },
     {
       "id": "q-lic-under-18-wait-15-2",
       "item": "lic-under-18-wait-15",
       "part": 2,
-      "prompt": "You are 17 and fail the DMV knowledge exam on January 1. The earliest you can take it again is:",
+      "prompt": "You are 17 and fail the DMV knowledge exam on January 1. What is the earliest date you can take it again?",
       "choices": [
         "January 2",
         "January 15",
@@ -1596,27 +1596,27 @@
         "January 17"
       ],
       "answer": 3,
-      "explain": "Under 18, you wait a full 15 days, so a January 1 fail means January 17 at the earliest."
+      "explain": "When you are under 18, you must wait a full 15 days, so after a January 1 fail the earliest retake date is January 17."
     },
     {
       "id": "q-lic-under-18-wait-15-3",
       "item": "lic-under-18-wait-15",
       "part": 2,
-      "prompt": "The 15-day wait to retake a failed DMV knowledge exam applies to people:",
+      "prompt": "Who must wait 15 days to retake a failed DMV knowledge exam?",
       "choices": [
-        "Under age 18",
-        "Age 18 and older",
-        "Age 21 and older",
-        "Of all ages"
+        "People under age 18",
+        "People age 18 and older",
+        "People age 21 and older",
+        "People of all ages"
       ],
       "answer": 0,
-      "explain": "The full 15-day wait is the law for people under age 18."
+      "explain": "By law, people under age 18 must wait a full 15 days to retake the exam."
     },
     {
       "id": "q-lic-one-test-per-day-1",
       "item": "lic-one-test-per-day",
       "part": 2,
-      "prompt": "The DMV knowledge exam may be taken:",
+      "prompt": "How often may you take the DMV knowledge exam?",
       "choices": [
         "Up to three times a day",
         "As many times as you want in one day",
@@ -1624,7 +1624,7 @@
         "Only once per business day"
       ],
       "answer": 3,
-      "explain": "The knowledge exam may be taken only once per business day."
+      "explain": "You may take the knowledge exam only once per business day."
     },
     {
       "id": "q-lic-one-test-per-day-2",
@@ -1638,27 +1638,27 @@
         "As often as you like"
       ],
       "answer": 2,
-      "explain": "The road skills test may be taken only once per business day."
+      "explain": "You may take the road skills test only once per business day."
     },
     {
       "id": "q-lic-exam-languages-1",
       "item": "lic-exam-languages",
       "part": 2,
-      "prompt": "Translators may not be used for the DMV knowledge exam because:",
+      "prompt": "Why are translators not allowed for the DMV knowledge exam?",
       "choices": [
-        "The exam is only given in English",
+        "The exam is given only in English",
         "The exam is offered in many languages and American Sign Language",
         "Translators cost too much",
         "Only police officers may translate"
       ],
       "answer": 1,
-      "explain": "The exam comes in many languages and ASL, so translators may not be used."
+      "explain": "The exam comes in many languages and American Sign Language, so translators may not be used."
     },
     {
       "id": "q-lic-exam-languages-2",
       "item": "lic-exam-languages",
       "part": 2,
-      "prompt": "Which is available for the DMV knowledge exam?",
+      "prompt": "Which version of the DMV knowledge exam is available?",
       "choices": [
         "An audio version",
         "A take-home version",
@@ -1672,7 +1672,7 @@
       "id": "q-lic-exam-languages-3",
       "item": "lic-exam-languages",
       "part": 2,
-      "prompt": "If you need special help with DMV testing, you should:",
+      "prompt": "What should you do if you need special help with DMV testing?",
       "choices": [
         "Bring a translator",
         "Bring a friend to help you",
@@ -1680,27 +1680,27 @@
         "Skip half of the exam"
       ],
       "answer": 2,
-      "explain": "Customers who need special help with testing should tell a DMV staff member."
+      "explain": "If you need special help with testing, you should tell a DMV staff member."
     },
     {
       "id": "q-lic-three-fails-knowledge-1",
       "item": "lic-three-fails-knowledge",
       "part": 2,
-      "prompt": "If you fail the DMV knowledge exam three times, before you can take it a fourth time you must:",
+      "prompt": "If you fail the DMV knowledge exam three times, what must you do before you can take it a fourth time?",
       "choices": [
         "Wait 15 days",
-        "Complete and pass the classroom component of driver education",
+        "Complete and pass the classroom part of driver education",
         "Take the road skills test",
         "Hold a learner's permit for 60 days"
       ],
       "answer": 1,
-      "explain": "After three failures, you must complete and pass classroom driver education first."
+      "explain": "After three failed exams, you must complete and pass the classroom part of driver education."
     },
     {
       "id": "q-lic-three-fails-knowledge-2",
       "item": "lic-three-fails-knowledge",
       "part": 2,
-      "prompt": "After how many failed DMV knowledge exams must you pass classroom driver education before taking it again?",
+      "prompt": "After how many failed DMV knowledge exams must you pass classroom driver education before you can take the exam again?",
       "choices": [
         "Two",
         "Three",
@@ -1708,18 +1708,18 @@
         "Five"
       ],
       "answer": 1,
-      "explain": "Three failed knowledge exams means you must complete classroom driver education first."
+      "explain": "After three failed knowledge exams, you must complete classroom driver education first."
     },
     {
       "id": "q-lic-8-hour-course-1",
       "item": "lic-8-hour-course",
       "part": 2,
-      "prompt": "The DMV-approved course for people who fail the knowledge exam three times lasts:",
+      "prompt": "How long is the DMV-approved course for people who fail the knowledge exam three times?",
       "choices": [
-        "4 hours long",
-        "8 hours long",
-        "15 hours long",
-        "60 hours long"
+        "4 hours",
+        "8 hours",
+        "15 hours",
+        "60 hours"
       ],
       "answer": 1,
       "explain": "The course based on the Virginia Driver's Manual is 8 hours long."
@@ -1728,43 +1728,43 @@
       "id": "q-lic-8-hour-course-2",
       "item": "lic-8-hour-course",
       "part": 2,
-      "prompt": "To take the 8-hour driver's manual course, a customer under 18 must first:",
+      "prompt": "What must a person under 18 do before taking the 8-hour driver's manual course?",
       "choices": [
         "Hold a learner's permit for 60 days",
-        "Have completed the classroom component of driver education",
+        "Complete the classroom part of driver education",
         "Pass the road skills test",
         "Turn 21"
       ],
       "answer": 1,
-      "explain": "Customers younger than 18 must have completed classroom driver education first."
+      "explain": "A person younger than 18 must have completed classroom driver education first."
     },
     {
       "id": "q-lic-8-hour-course-3",
       "item": "lic-8-hour-course",
       "part": 2,
-      "prompt": "The 8-hour driver's manual course must be completed:",
+      "prompt": "Which statement is true about the 8-hour driver's manual course?",
       "choices": [
-        "Before your first knowledge exam",
-        "Within 15 days of your first exam",
-        "After the date you failed the knowledge exam the third time",
-        "Only at a DMV office"
+        "You must finish it before your first knowledge exam",
+        "You must finish it within 15 days of your first exam",
+        "You must finish it after the date of your third failed knowledge exam",
+        "You must finish it only at a DMV office"
       ],
       "answer": 2,
-      "explain": "The course completion date must be after your third failed knowledge exam."
+      "explain": "You must finish the course after the date of your third failed knowledge exam."
     },
     {
       "id": "q-lic-test-honesty-1",
       "item": "lic-test-honesty",
       "part": 2,
-      "prompt": "While taking the DMV knowledge exam, you cannot:",
+      "prompt": "What is not allowed while you take the DMV knowledge exam?",
       "choices": [
-        "Use a cell phone",
-        "Get help from another person",
-        "Help another person",
+        "Using a cell phone",
+        "Getting help from another person",
+        "Helping another person",
         "All of these"
       ],
       "answer": 3,
-      "explain": "During the exam you cannot get help, give help, or use a cell phone."
+      "explain": "During the exam, you cannot get help, give help, or use a cell phone."
     },
     {
       "id": "q-lic-test-honesty-2",
@@ -1778,18 +1778,18 @@
         "Helping another test taker"
       ],
       "answer": 0,
-      "explain": "The audio version is allowed, but phones, early answers and helping others are not."
+      "explain": "You may use the audio version. You may not use a phone, get answers early, or help others."
     },
     {
       "id": "q-lic-test-honesty-3",
       "item": "lic-test-honesty",
       "part": 2,
-      "prompt": "Giving another person DMV exam questions or answers is:",
+      "prompt": "What is the rule about giving another person DMV exam questions or answers?",
       "choices": [
-        "Allowed after you finish",
-        "Allowed if they are family",
-        "Allowed for some questions",
-        "Not allowed"
+        "It is allowed after you finish",
+        "It is allowed if they are family",
+        "It is allowed for some questions",
+        "It is not allowed"
       ],
       "answer": 3,
       "explain": "You cannot give another person exam questions or answers."
@@ -1798,49 +1798,49 @@
       "id": "q-lic-road-test-who-1",
       "item": "lic-road-test-who",
       "part": 2,
-      "prompt": "You must take a road skills test if you do not hold a valid driver's license from:",
+      "prompt": "Which valid driver's licenses let you skip the road skills test?",
       "choices": [
-        "Any country in North America",
-        "Another U.S. state, Canada, Germany, France, the Republic of Korea or Taiwan",
-        "Any country in the world",
-        "Virginia's neighboring states only"
+        "Licenses from any country in North America",
+        "Licenses from another U.S. state, Canada, Germany, France, the Republic of Korea, or Taiwan",
+        "Licenses from any country in the world",
+        "Licenses only from the states that border Virginia"
       ],
       "answer": 1,
-      "explain": "The road skills test is needed unless you hold a valid license from another U.S. state, Canada, Germany, France, the Republic of Korea or Taiwan."
+      "explain": "You may skip the road skills test with a valid license from another U.S. state, Canada, Germany, France, the Republic of Korea, or Taiwan."
     },
     {
       "id": "q-lic-road-test-who-2",
       "item": "lic-road-test-who",
       "part": 2,
-      "prompt": "Someone getting their very first driver's license will take:",
+      "prompt": "Which tests does a person getting a very first driver's license take?",
       "choices": [
         "Only a vision screening",
         "Only a road skills test",
         "Only a knowledge exam",
-        "A vision screening, knowledge exam and road skills test"
+        "A vision screening, a knowledge exam, and a road skills test"
       ],
       "answer": 3,
-      "explain": "Everyone gets a vision screening, and a first-time driver also takes the knowledge exam and road test."
+      "explain": "Everyone gets a vision screening, and a first-time driver also takes the knowledge exam and the road skills test."
     },
     {
       "id": "q-lic-road-test-who-3",
       "item": "lic-road-test-who",
       "part": 2,
-      "prompt": "A valid driver's license from which place lets you skip the road skills test, but not the knowledge exam?",
+      "prompt": "Which valid driver's license lets you skip the road skills test but not the knowledge exam?",
       "choices": [
-        "Canada",
-        "Germany",
-        "Taiwan",
-        "Another U.S. state"
+        "A license from Canada",
+        "A license from Germany",
+        "A license from Taiwan",
+        "A license from another U.S. state"
       ],
       "answer": 2,
-      "explain": "Taiwan is on the road skills test list but not on the knowledge exam list."
+      "explain": "A license from Taiwan lets you skip the road skills test. It does not let you skip the knowledge exam."
     },
     {
       "id": "q-lic-road-test-vehicle-1",
       "item": "lic-road-test-vehicle",
       "part": 2,
-      "prompt": "The vehicle you use for the road skills test must have:",
+      "prompt": "What must your vehicle have for the road skills test?",
       "choices": [
         "A valid safety inspection sticker",
         "Working turn signals",
@@ -1848,13 +1848,13 @@
         "All of these"
       ],
       "answer": 3,
-      "explain": "The road test vehicle needs a valid inspection sticker, plates, registration, and working safety equipment."
+      "explain": "Your vehicle needs a valid inspection sticker, plates, registration, and working equipment such as turn signals and a horn."
     },
     {
       "id": "q-lic-road-test-vehicle-2",
       "item": "lic-road-test-vehicle",
       "part": 2,
-      "prompt": "The road skills test cannot be taken in:",
+      "prompt": "Which vehicle can you not use for the road skills test?",
       "choices": [
         "A car you provide",
         "A car with a valid inspection sticker",
@@ -1868,7 +1868,7 @@
       "id": "q-lic-road-test-checklist-1",
       "item": "lic-road-test-checklist",
       "part": 2,
-      "prompt": "To take the road skills test, you must present a driver education certificate of completion or:",
+      "prompt": "Besides a driver education certificate of completion, what can you present to take the road skills test?",
       "choices": [
         "A letter from your school",
         "Your vehicle title",
@@ -1876,35 +1876,35 @@
         "Your birth certificate"
       ],
       "answer": 2,
-      "explain": "The examiner requires a driver ed certificate or a behind-the-wheel checklist."
+      "explain": "The DMV examiner requires either a driver education certificate or a behind-the-wheel checklist."
     },
     {
       "id": "q-lic-road-test-checklist-2",
       "item": "lic-road-test-checklist",
       "part": 2,
-      "prompt": "On the behind-the-wheel checklist, a licensed driver certifies that:",
+      "prompt": "Which fact does a licensed driver certify on the behind-the-wheel checklist?",
       "choices": [
         "You passed the knowledge exam",
-        "They were with you while you practiced the driving tasks",
+        "The driver was with you while you practiced the driving tasks",
         "Your car passed inspection",
         "You have never had a ticket"
       ],
       "answer": 1,
-      "explain": "The licensed driver certifies they were with you while you practiced and you followed permit rules."
+      "explain": "The licensed driver certifies that they were with you while you practiced and that you followed all permit rules."
     },
     {
       "id": "q-lic-road-test-under-18-1",
       "item": "lic-road-test-under-18",
       "part": 2,
-      "prompt": "For applicants under 18, the road skills test is given:",
+      "prompt": "What is true about the road skills test for applicants under 18?",
       "choices": [
-        "As part of the driver education course",
-        "By a parent at home",
-        "At a police station",
-        "Only after you turn 18"
+        "It is given as part of the driver education course",
+        "It is given by a parent at home",
+        "It is given at a police station",
+        "It is given only after you turn 18"
       ],
       "answer": 0,
-      "explain": "Under 18, the road test is part of driver education at a public, private or commercial school."
+      "explain": "For applicants under 18, the road test is part of the driver education course at a public, private, or commercial driving school."
     },
     {
       "id": "q-lic-road-test-under-18-2",
@@ -1915,16 +1915,16 @@
         "Applicants over 65",
         "Applicants with a CDL",
         "Applicants under 18",
-        "Applicants with a Canada license"
+        "Applicants with a license from Canada"
       ],
       "answer": 2,
-      "explain": "For applicants under 18, the road skills test is part of driver education."
+      "explain": "Applicants under 18 take the road skills test as part of driver education."
     },
     {
       "id": "q-lic-road-test-18-plus-1",
       "item": "lic-road-test-18-plus",
       "part": 2,
-      "prompt": "If you are 18 or older, before your first road skills test you must:",
+      "prompt": "If you are 18 or older, what must you do before your first road skills test?",
       "choices": [
         "Hold a learner's permit for 30 days",
         "Wait 15 days",
@@ -1932,13 +1932,13 @@
         "Hold a learner's permit for 60 days or complete driver education"
       ],
       "answer": 3,
-      "explain": "Age 18 or older: hold the permit 60 days or complete driver education first."
+      "explain": "If you are 18 or older, you must hold the permit for 60 days or complete driver education first."
     },
     {
       "id": "q-lic-road-test-18-plus-2",
       "item": "lic-road-test-18-plus",
       "part": 2,
-      "prompt": "An adult who completes driver education at an approved driver training school takes the road skills test from:",
+      "prompt": "Who gives the road skills test to an adult who completes driver education at an approved driver training school?",
       "choices": [
         "The driver training school",
         "A licensed family member",
@@ -1946,7 +1946,7 @@
         "Any licensed driver"
       ],
       "answer": 0,
-      "explain": "For adults who choose driver education, the driver training school gives the road test."
+      "explain": "When an adult chooses driver education, the driver training school gives the road skills test."
     },
     {
       "id": "q-lic-road-test-18-plus-3",
@@ -1960,13 +1960,13 @@
         "90 days"
       ],
       "answer": 2,
-      "explain": "Applicants 18 or older must hold the permit 60 days or complete driver education."
+      "explain": "Without driver education, an applicant who is 18 or older must hold the learner's permit for 60 days."
     },
     {
       "id": "q-lic-road-test-fails-1",
       "item": "lic-road-test-fails",
       "part": 2,
-      "prompt": "If you fail the DMV road skills test, you must wait how long before taking it again?",
+      "prompt": "If you fail the DMV road skills test, how long must you wait to take it again?",
       "choices": [
         "Two days",
         "15 days",
@@ -1980,7 +1980,7 @@
       "id": "q-lic-road-test-fails-2",
       "item": "lic-road-test-fails",
       "part": 2,
-      "prompt": "After failing the road skills test at DMV three times, before a fourth try you must:",
+      "prompt": "If you fail the road skills test at the DMV three times, what must you do before a fourth try?",
       "choices": [
         "Take the 8-hour driver's manual course",
         "Complete and pass the in-vehicle part of driver education",
@@ -1988,41 +1988,41 @@
         "Retake the knowledge exam"
       ],
       "answer": 1,
-      "explain": "Three road test failures at DMV means you must pass in-vehicle driver education first."
+      "explain": "After you fail the road skills test three times at the DMV, you must complete and pass the in-vehicle part of driver education."
     },
     {
       "id": "q-lic-road-test-fails-3",
       "item": "lic-road-test-fails",
       "part": 2,
-      "prompt": "After three failed road skills tests at DMV, the in-vehicle part of driver education must be completed:",
+      "prompt": "After three failed road skills tests at the DMV, which statement is true about the in-vehicle part of driver education?",
       "choices": [
-        "Before your first road skills test",
-        "After the date you failed the road skills test the third time",
-        "Within two days of your third failure",
-        "At a DMV customer service center"
+        "You must finish it before your first road skills test",
+        "You must finish it after the date of your third failed road skills test",
+        "You must finish it within two days of your third failure",
+        "You must finish it at a DMV customer service center"
       ],
       "answer": 1,
-      "explain": "The in-vehicle completion date must be after your third failed road skills test."
+      "explain": "You must finish the in-vehicle part of driver education after the date of your third failed road skills test."
     },
     {
       "id": "q-lic-vision-screening-1",
       "item": "lic-vision-screening",
       "part": 2,
-      "prompt": "The DMV vision screening:",
+      "prompt": "What is true about the DMV vision screening?",
       "choices": [
-        "Is not a medical exam",
-        "Is a full medical exam",
-        "Is only for drivers over 65",
-        "Is only for CDL drivers"
+        "It is not a medical exam",
+        "It is a full medical exam",
+        "It is only for drivers over 65",
+        "It is only for CDL drivers"
       ],
       "answer": 0,
-      "explain": "The vision screening is not a medical exam; it checks if you meet Virginia's standards."
+      "explain": "The vision screening is not a medical exam. It shows whether your vision meets Virginia's standards for safe driving."
     },
     {
       "id": "q-lic-vision-screening-2",
       "item": "lic-vision-screening",
       "part": 2,
-      "prompt": "During the vision screening, you will:",
+      "prompt": "What will you do during the vision screening?",
       "choices": [
         "Drive around the parking lot",
         "Read a page of the manual aloud",
@@ -2036,7 +2036,7 @@
       "id": "q-lic-vision-screening-3",
       "item": "lic-vision-screening",
       "part": 2,
-      "prompt": "If you fail the vision screening, you may be asked to:",
+      "prompt": "What may you be asked to do if you fail the vision screening?",
       "choices": [
         "Visit an eye care professional",
         "Take driver education",
@@ -2058,13 +2058,13 @@
         "Your insurance company"
       ],
       "answer": 1,
-      "explain": "Tests include a vision screening, and a DMV representative tells you which tests you need."
+      "explain": "A DMV representative tells you which tests you need to take."
     },
     {
       "id": "q-lic-restriction-c-1",
       "item": "lic-restriction-c",
       "part": 2,
-      "prompt": "If you need glasses to pass the vision screening, your license will show:",
+      "prompt": "If you need glasses to pass the vision screening, what will your license show?",
       "choices": [
         "A daylight-only restriction",
         "No restriction",
@@ -2072,41 +2072,41 @@
         "A C restriction"
       ],
       "answer": 3,
-      "explain": "Needing glasses or contacts to pass puts a C restriction on your license."
+      "explain": "If you need glasses or contacts to pass, your license shows a C restriction."
     },
     {
       "id": "q-lic-restriction-c-2",
       "item": "lic-restriction-c",
       "part": 2,
-      "prompt": "If your license has a C restriction, you must:",
+      "prompt": "What must you do if your license has a C restriction?",
       "choices": [
         "Drive only in daylight",
-        "Wear your glasses or contact lenses when you drive",
+        "Wear your glasses or contacts when you drive",
         "Drive only with a licensed driver age 21 or older",
         "Stay off interstate highways"
       ],
       "answer": 1,
-      "explain": "A C restriction means you must wear glasses or contacts when you drive."
+      "explain": "A C restriction means you must wear your glasses or contacts when you drive."
     },
     {
       "id": "q-lic-restriction-c-3",
       "item": "lic-restriction-c",
       "part": 2,
-      "prompt": "To remove a glasses restriction after laser eye surgery, you must:",
+      "prompt": "What must you do to remove a glasses restriction after laser eye surgery?",
       "choices": [
         "Wait 60 days",
-        "Pass DMV's vision screening without glasses or contacts, or submit a Vision Screening Report",
+        "Pass the vision screening without glasses or contacts, or submit a Vision Screening Report",
         "Retake the knowledge exam",
         "Take the road skills test again"
       ],
       "answer": 1,
-      "explain": "After laser surgery, pass the screening without glasses or contacts, or submit a Vision Screening Report (MED 4)."
+      "explain": "After laser surgery, you must pass the screening without glasses or contacts, or submit a Vision Screening Report (MED 4)."
     },
     {
       "id": "q-lic-vision-unrestricted-1",
       "item": "lic-vision-unrestricted",
       "part": 2,
-      "prompt": "To get an unrestricted driver's license, you need vision of:",
+      "prompt": "How good must your vision be to get an unrestricted driver's license?",
       "choices": [
         "20/40 or better",
         "20/70 or better",
@@ -2120,7 +2120,7 @@
       "id": "q-lic-vision-unrestricted-2",
       "item": "lic-vision-unrestricted",
       "part": 2,
-      "prompt": "For an unrestricted license, you need horizontal vision of at least:",
+      "prompt": "At least how many degrees of horizontal vision do you need for an unrestricted license?",
       "choices": [
         "30 degrees",
         "70 degrees",
@@ -2128,13 +2128,13 @@
         "150 degrees"
       ],
       "answer": 2,
-      "explain": "An unrestricted license needs 110 degrees or better of horizontal vision."
+      "explain": "You need 110 degrees or more of horizontal vision for an unrestricted license."
     },
     {
       "id": "q-lic-vision-unrestricted-3",
       "item": "lic-vision-unrestricted",
       "part": 2,
-      "prompt": "A driver with 20/40 vision and 110 degrees of horizontal vision may get:",
+      "prompt": "What may a driver with 20/40 vision and 110 degrees of horizontal vision get?",
       "choices": [
         "A daylight-only license",
         "Only a learner's permit",
@@ -2142,13 +2142,13 @@
         "No license"
       ],
       "answer": 2,
-      "explain": "20/40 vision and 110 degrees horizontal vision meet the unrestricted standard."
+      "explain": "Vision of 20/40 with 110 degrees of horizontal vision meets the standard for an unrestricted license."
     },
     {
       "id": "q-lic-vision-daylight-1",
       "item": "lic-vision-daylight",
       "part": 2,
-      "prompt": "A driver with 20/70 vision and 70 degrees of horizontal vision may be restricted to:",
+      "prompt": "What restriction may a driver with 20/70 vision and 70 degrees of horizontal vision get?",
       "choices": [
         "Driving on interstates only",
         "Driving in daylight hours only",
@@ -2156,13 +2156,13 @@
         "Driving only with a passenger"
       ],
       "answer": 1,
-      "explain": "20/70 vision and 70 degrees horizontal vision meet the daylight-only standard."
+      "explain": "Vision of 20/70 with 70 degrees of horizontal vision meets the standard for a daylight-only license."
     },
     {
       "id": "q-lic-vision-daylight-2",
       "item": "lic-vision-daylight",
       "part": 2,
-      "prompt": "For a license restricted to daylight driving, you need vision of:",
+      "prompt": "How good must your vision be to get a license restricted to daylight driving?",
       "choices": [
         "20/40 or better",
         "20/70 or better",
@@ -2170,13 +2170,13 @@
         "20/200 or better"
       ],
       "answer": 1,
-      "explain": "Daylight-only driving needs 20/70 or better vision in one or both eyes."
+      "explain": "A daylight-only license needs 20/70 or better vision in one or both eyes."
     },
     {
       "id": "q-lic-vision-daylight-3",
       "item": "lic-vision-daylight",
       "part": 2,
-      "prompt": "If you have vision in only one eye, a daylight-only license requires horizontal vision of at least:",
+      "prompt": "If you have vision in only one eye, at least how much horizontal vision does a daylight-only license require?",
       "choices": [
         "40 degrees toward your nose and 30 degrees toward your temple",
         "70 degrees toward your nose and 110 degrees toward your temple",
@@ -2184,41 +2184,41 @@
         "10 degrees toward your nose and 20 degrees toward your temple"
       ],
       "answer": 2,
-      "explain": "With one eye, you need 30 degrees toward your nose and 40 degrees toward your temple."
+      "explain": "With vision in only one eye, you need at least 30 degrees toward your nose and 40 degrees toward your temple."
     },
     {
       "id": "q-lic-daylight-hours-1",
       "item": "lic-daylight-hours",
       "part": 2,
-      "prompt": "A daylight-only restricted license lets you drive:",
+      "prompt": "With a daylight-only restricted license, when may you drive?",
       "choices": [
         "From a half hour after sunrise until a half hour before sunset",
-        "From sunrise to sunset",
+        "From sunrise until sunset",
         "From one hour after sunrise until one hour before sunset",
         "From a half hour before sunrise until a half hour after sunset"
       ],
       "answer": 0,
-      "explain": "Daylight-only means from a half hour after sunrise to a half hour before sunset."
+      "explain": "A daylight-only license lets you drive from a half hour after sunrise until a half hour before sunset."
     },
     {
       "id": "q-lic-daylight-hours-2",
       "item": "lic-daylight-hours",
       "part": 2,
-      "prompt": "With a daylight-only license, you must finish driving by:",
+      "prompt": "When must you stop driving with a daylight-only license?",
       "choices": [
         "One hour before sunset",
         "A half hour before sunset",
-        "Sunset",
+        "At sunset",
         "A half hour after sunset"
       ],
       "answer": 1,
-      "explain": "A daylight-only license ends your driving a half hour before sunset."
+      "explain": "With a daylight-only license, you must stop driving a half hour before sunset."
     },
     {
       "id": "q-lic-carry-license-1",
       "item": "lic-carry-license",
       "part": 2,
-      "prompt": "Whenever you drive, you must carry:",
+      "prompt": "What must you carry whenever you drive?",
       "choices": [
         "Your birth certificate",
         "A valid driver's license or learner's permit",
@@ -2232,7 +2232,7 @@
       "id": "q-lic-carry-license-2",
       "item": "lic-carry-license",
       "part": 2,
-      "prompt": "Misuse of your driver's license or learner's permit can result in:",
+      "prompt": "What can happen if you misuse your driver's license or learner's permit?",
       "choices": [
         "A fine",
         "A jail sentence",
@@ -2240,27 +2240,27 @@
         "All of these"
       ],
       "answer": 3,
-      "explain": "Misusing your license or permit is illegal and can bring a fine, jail, or suspension."
+      "explain": "Misusing your license or permit is illegal. You can be fined, sentenced to jail, or have your license suspended."
     },
     {
       "id": "q-lic-permit-supervisor-1",
       "item": "lic-permit-supervisor",
       "part": 2,
-      "prompt": "A learner's permit allows you to drive when a licensed driver at least how old is in the front passenger seat?",
+      "prompt": "How old must a licensed driver be, at least, to sit in the front passenger seat while you drive with a learner's permit?",
       "choices": [
-        "16",
-        "18",
-        "21",
-        "25"
+        "16 years old",
+        "18 years old",
+        "21 years old",
+        "25 years old"
       ],
       "answer": 2,
-      "explain": "The licensed driver with you must be at least 21, unless a sibling or legal guardian age 18 to 20."
+      "explain": "The licensed driver must be at least 21. A legal guardian, brother or sister who is 18 to 20 is also allowed."
     },
     {
       "id": "q-lic-permit-supervisor-2",
       "item": "lic-permit-supervisor",
       "part": 2,
-      "prompt": "When you drive with a learner's permit, the licensed driver with you must:",
+      "prompt": "When you drive with a learner's permit, what must the licensed driver with you do?",
       "choices": [
         "Sit in the front passenger seat",
         "Be alert and able to help you",
@@ -2268,41 +2268,41 @@
         "All of these"
       ],
       "answer": 3,
-      "explain": "The supervising driver must hold a valid license, sit in front, and be alert and able to help."
+      "explain": "The driver with you must hold a valid license, sit in the front passenger seat, and be alert and able to help you."
     },
     {
       "id": "q-lic-permit-supervisor-3",
       "item": "lic-permit-supervisor",
       "part": 2,
-      "prompt": "A licensed driver age 18, 19 or 20 may supervise your learner's permit driving only if they are your:",
+      "prompt": "Which licensed driver who is 18, 19 or 20 may supervise your driving with a learner's permit?",
       "choices": [
-        "Brother, sister or legal guardian",
-        "Classmate",
-        "Neighbor",
-        "Coworker"
+        "Your brother, sister or legal guardian",
+        "Your classmate",
+        "Your neighbor",
+        "Your coworker"
       ],
       "answer": 0,
-      "explain": "A supervisor age 18 to 20 must be your legal guardian, brother, sister, half-sibling or stepsibling."
+      "explain": "A supervising driver age 18 to 20 must be your legal guardian, brother, sister, half-sibling or stepsibling."
     },
     {
       "id": "q-lic-permit-supervisor-4",
       "item": "lic-permit-supervisor",
       "part": 2,
-      "prompt": "Your licensed 19-year-old stepbrother sits in the front passenger seat. With a learner's permit, you:",
+      "prompt": "Your licensed 19-year-old stepbrother is sitting in the front passenger seat. May you drive with your learner's permit?",
       "choices": [
-        "May not drive",
-        "May drive only in parking lots",
-        "May drive only in daylight",
-        "May drive"
+        "No, you may not drive",
+        "Yes, but only in parking lots",
+        "Yes, but only in daylight",
+        "Yes, you may drive"
       ],
       "answer": 3,
-      "explain": "A licensed stepbrother age 18 to 20 may be your supervising driver."
+      "explain": "A licensed stepbrother age 18 to 20 may be your supervising driver, so you may drive."
     },
     {
       "id": "q-lic-permit-60-days-19-1",
       "item": "lic-permit-60-days-19",
       "part": 2,
-      "prompt": "If you are 19 or older, to apply for a driver's license you must hold a learner's permit for 60 days or:",
+      "prompt": "If you are 19 or older, what can you do instead of holding a learner's permit for 60 days before you apply for a driver's license?",
       "choices": [
         "Present a driver's education certificate of completion",
         "Pass the knowledge exam twice",
@@ -2310,13 +2310,13 @@
         "Take the 8-hour manual course"
       ],
       "answer": 0,
-      "explain": "Age 19 or older: hold the permit 60 days or show a driver ed certificate."
+      "explain": "If you are 19 or older, you must hold the permit for 60 days or show a driver's education certificate of completion."
     },
     {
       "id": "q-lic-permit-60-days-19-2",
       "item": "lic-permit-60-days-19",
       "part": 2,
-      "prompt": "How long must a 19-year-old without driver education hold a learner's permit before applying for a license?",
+      "prompt": "How long must a 19-year-old who has not taken driver education hold a learner's permit before applying for a license?",
       "choices": [
         "15 days",
         "30 days",
@@ -2324,13 +2324,13 @@
         "90 days"
       ],
       "answer": 2,
-      "explain": "If you are 19 or older, you must hold a learner's permit for 60 days."
+      "explain": "A 19-year-old without driver education must hold a learner's permit for 60 days."
     },
     {
       "id": "q-lic-driver-license-type-1",
       "item": "lic-driver-license-type",
       "part": 2,
-      "prompt": "A regular driver's license allows you to drive a small truck that weighs less than:",
+      "prompt": "A regular driver's license allows you to drive a small truck that weighs less than how many pounds?",
       "choices": [
         "10,001 pounds",
         "26,001 pounds",
@@ -2338,7 +2338,7 @@
         "80,001 pounds"
       ],
       "answer": 1,
-      "explain": "A driver's license covers small trucks less than 26,001 pounds that do not need a CDL."
+      "explain": "A driver's license covers small trucks that weigh less than 26,001 pounds and do not need a CDL."
     },
     {
       "id": "q-lic-driver-license-type-2",
@@ -2352,13 +2352,13 @@
         "A car"
       ],
       "answer": 3,
-      "explain": "Tractor-trailers, tank vehicles and hazardous materials vehicles need a CDL."
+      "explain": "A regular license covers cars. Tractor-trailers, tank vehicles and hazardous materials vehicles need a CDL."
     },
     {
       "id": "q-lic-cdl-1",
       "item": "lic-cdl",
       "part": 2,
-      "prompt": "A commercial driver's license (CDL) is needed to drive:",
+      "prompt": "For which of these vehicles do you need a commercial driver's license (CDL)?",
       "choices": [
         "A tractor-trailer",
         "A passenger bus",
@@ -2366,13 +2366,13 @@
         "All of these"
       ],
       "answer": 3,
-      "explain": "A CDL covers tractor-trailers, passenger buses, tank vehicles, big school buses and hazardous materials."
+      "explain": "You need a CDL for tractor-trailers, passenger buses, tank vehicles, big school buses and hazardous materials vehicles."
     },
     {
       "id": "q-lic-cdl-2",
       "item": "lic-cdl",
       "part": 2,
-      "prompt": "A CDL is needed to drive a school bus that carries how many occupants, including the driver?",
+      "prompt": "How many occupants, including the driver, must a school bus carry before you need a CDL to drive it?",
       "choices": [
         "10 or more",
         "15 or more",
@@ -2380,27 +2380,27 @@
         "26 or more"
       ],
       "answer": 2,
-      "explain": "School buses for 16 or more occupants, including the driver, need a CDL."
+      "explain": "You need a CDL for a school bus that carries 16 or more occupants, including the driver."
     },
     {
       "id": "q-lic-school-bus-15-1",
       "item": "lic-school-bus-15",
       "part": 2,
-      "prompt": "To drive a school bus designed to carry 15 occupants including the driver, you need:",
+      "prompt": "What do you need to drive a school bus designed to carry 15 occupants, including the driver?",
       "choices": [
         "A commercial driver's license",
         "Only a learner's permit",
         "No special license",
-        "A school bus endorsement on your driver's license"
+        "A school bus endorsement on your license"
       ],
       "answer": 3,
-      "explain": "A 15-occupant school bus needs a school bus endorsement, not a CDL."
+      "explain": "A school bus designed to carry 15 occupants needs a school bus endorsement, not a CDL."
     },
     {
       "id": "q-lic-school-bus-15-2",
       "item": "lic-school-bus-15",
       "part": 2,
-      "prompt": "To get a school bus endorsement, you must pass:",
+      "prompt": "What must you pass to get a school bus endorsement?",
       "choices": [
         "Only a vision screening",
         "Only the road skills test",
@@ -2408,13 +2408,13 @@
         "The 8-hour manual course"
       ],
       "answer": 2,
-      "explain": "You take the commercial driver and school bus tests to get the endorsement."
+      "explain": "To get the endorsement, you must take the commercial driver and school bus tests."
     },
     {
       "id": "q-lic-school-bus-15-3",
       "item": "lic-school-bus-15",
       "part": 2,
-      "prompt": "A school bus endorsement restricts you to buses designed to carry:",
+      "prompt": "A school bus endorsement limits you to driving a bus designed to carry how many occupants?",
       "choices": [
         "15 occupants, including the driver",
         "15 occupants plus the driver",
@@ -2428,49 +2428,49 @@
       "id": "q-lic-international-license-1",
       "item": "lic-international-license",
       "part": 2,
-      "prompt": "An international driver's license:",
+      "prompt": "Which statement about an international driver's license is true?",
       "choices": [
-        "Replaces your Virginia license",
-        "Lets you drive without any other license",
-        "Is not a valid driver's license",
-        "Is issued by Virginia DMV"
+        "It replaces your Virginia license",
+        "It lets you drive without any other license",
+        "It is not a valid driver's license",
+        "It is issued by Virginia DMV"
       ],
       "answer": 2,
-      "explain": "An international driver's license is only a translation of your real license."
+      "explain": "An international driver's license does not allow you to drive. It is only a translation of your real license."
     },
     {
       "id": "q-lic-international-license-2",
       "item": "lic-international-license",
       "part": 2,
-      "prompt": "A visitor from a foreign country may drive in the U.S. using:",
+      "prompt": "What can a visitor from a foreign country use to drive in the U.S.?",
       "choices": [
-        "Their home country driver's license with a translation",
+        "Their home country's driver's license with a translation",
         "An international license bought from a private business",
         "Any photo ID",
         "A passport"
       ],
       "answer": 0,
-      "explain": "Visitors may drive with their home country license, accompanied by a translation."
+      "explain": "A visitor may drive with a license from their home country, along with a translation."
     },
     {
       "id": "q-lic-international-license-3",
       "item": "lic-international-license",
       "part": 2,
-      "prompt": "Selling any document that claims to be a driver's license is:",
+      "prompt": "How does the law treat the sale of any document that claims to be a driver's license?",
       "choices": [
-        "Legal",
-        "A Class 1 misdemeanor",
-        "Legal if sold online",
-        "Only a warning"
+        "It is legal",
+        "It is a Class 1 misdemeanor",
+        "It is legal if the document is sold online",
+        "It brings only a warning"
       ],
       "answer": 1,
-      "explain": "Sale of any document claiming to be a driver's license is a Class 1 misdemeanor."
+      "explain": "Selling any document that claims to be a driver's license is a Class 1 misdemeanor."
     },
     {
       "id": "q-lic-license-mail-address-1",
       "item": "lic-license-mail-address",
       "part": 2,
-      "prompt": "You will receive your new driver's license:",
+      "prompt": "How will you receive your new driver's license?",
       "choices": [
         "At the DMV customer service center that day",
         "From your driving school",
@@ -2478,13 +2478,13 @@
         "In the mail"
       ],
       "answer": 3,
-      "explain": "For security, DMV mails licenses and does not issue them in customer service centers."
+      "explain": "For security, DMV mails licenses. It does not issue them in customer service centers."
     },
     {
       "id": "q-lic-license-mail-address-2",
       "item": "lic-license-mail-address",
       "part": 2,
-      "prompt": "If you move, you must notify DMV within:",
+      "prompt": "Within how many days must you notify DMV if you move?",
       "choices": [
         "10 days",
         "30 days",
@@ -2492,18 +2492,18 @@
         "90 days"
       ],
       "answer": 1,
-      "explain": "If you move, you are required to notify DMV within 30 days."
+      "explain": "If you move, you must notify DMV within 30 days."
     },
     {
       "id": "q-lic-license-mail-address-3",
       "item": "lic-license-mail-address",
       "part": 2,
-      "prompt": "If DMV does not have your correct address, your new license will be:",
+      "prompt": "What will happen to your new license if DMV does not have your correct address?",
       "choices": [
-        "Returned to DMV by the postal service",
-        "Forwarded to your new address",
-        "Left at your old address",
-        "Sent to your school"
+        "It will be returned to DMV by the postal service",
+        "It will be forwarded to your new address",
+        "It will be left at your old address",
+        "It will be sent to your school"
       ],
       "answer": 0,
       "explain": "The postal service will not forward your license, so it goes back to DMV."
@@ -2512,7 +2512,7 @@
       "id": "q-lic-new-resident-60-1",
       "item": "lic-new-resident-60",
       "part": 2,
-      "prompt": "New Virginia residents who drive must get a Virginia driver's license within:",
+      "prompt": "After moving to Virginia, how long do new residents who drive have to get a Virginia driver's license?",
       "choices": [
         "10 days",
         "30 days",
@@ -2520,41 +2520,41 @@
         "6 months"
       ],
       "answer": 2,
-      "explain": "New residents must obtain a Virginia driver's license within 60 days of moving here."
+      "explain": "New residents who drive must get a Virginia driver's license within 60 days of moving here."
     },
     {
       "id": "q-lic-new-resident-60-2",
       "item": "lic-new-resident-60",
       "part": 2,
-      "prompt": "Which is true for new Virginia residents?",
+      "prompt": "What must a new Virginia resident do?",
       "choices": [
-        "Get a license within 60 days; title, register and get plates within 30 days",
-        "Get a license within 30 days; get plates within 60 days",
-        "Get a license and plates within one year",
-        "Get a license and plates within 10 days"
+        "Get a license within 60 days, and title and register your vehicle and get plates within 30 days",
+        "Get a license within 30 days, and get plates for your vehicle within 60 days",
+        "Get a license and get plates for your vehicle within one year",
+        "Get a license and get plates for your vehicle within 10 days"
       ],
       "answer": 0,
-      "explain": "New residents get a license within 60 days and title, register and get plates within 30 days."
+      "explain": "New residents have 60 days to get a license. They have 30 days to title and register a vehicle and get plates."
     },
     {
       "id": "q-lic-title-register-30-1",
       "item": "lic-title-register-30",
       "part": 2,
-      "prompt": "After moving to Virginia, you must title and register your vehicle and get Virginia plates within:",
+      "prompt": "After you move to Virginia, how soon must you title and register your vehicle and get Virginia plates?",
       "choices": [
-        "10 days",
-        "15 days",
-        "30 days",
-        "60 days"
+        "Within 10 days",
+        "Within 15 days",
+        "Within 30 days",
+        "Within 60 days"
       ],
       "answer": 2,
-      "explain": "Title, register and get Virginia license plates within 30 days of moving to Virginia."
+      "explain": "You must title and register your vehicle and get Virginia license plates within 30 days of moving to Virginia."
     },
     {
       "id": "q-lic-title-register-30-2",
       "item": "lic-title-register-30",
       "part": 2,
-      "prompt": "Within 30 days of moving to Virginia, you must:",
+      "prompt": "What must you do within 30 days of moving to Virginia?",
       "choices": [
         "Title and register your vehicle and get Virginia license plates",
         "Register to vote",
@@ -2562,27 +2562,27 @@
         "Take the road skills test"
       ],
       "answer": 0,
-      "explain": "New residents must title, register and get Virginia plates within 30 days."
+      "explain": "New residents must title and register their vehicles and get Virginia plates within 30 days."
     },
     {
       "id": "q-lic-plates-registration-1",
       "item": "lic-plates-registration",
       "part": 2,
-      "prompt": "License plates must be displayed:",
+      "prompt": "Where must license plates be displayed on a vehicle?",
       "choices": [
-        "On the front and rear of the vehicle",
-        "On the rear only",
-        "On the front only",
+        "On the front and the rear of the vehicle",
+        "Only on the rear of the vehicle",
+        "Only on the front of the vehicle",
         "Inside the windshield"
       ],
       "answer": 0,
-      "explain": "Virginia license plates go on the front and rear of the vehicle."
+      "explain": "Virginia license plates must be on the front and the rear of the vehicle."
     },
     {
       "id": "q-lic-plates-registration-2",
       "item": "lic-plates-registration",
       "part": 2,
-      "prompt": "When you drive, you must have with you:",
+      "prompt": "What must you have with you when you drive?",
       "choices": [
         "The vehicle title",
         "The bill of sale",
@@ -2596,21 +2596,21 @@
       "id": "q-lic-plates-registration-3",
       "item": "lic-plates-registration",
       "part": 2,
-      "prompt": "The decals on your license plates show:",
+      "prompt": "What do the decals on your license plates show?",
       "choices": [
         "Your insurance company",
-        "The month and year the registration expires",
+        "The month and year when the registration expires",
         "Your county",
         "Your driver's license number"
       ],
       "answer": 1,
-      "explain": "Decals show the month and year the registration expires."
+      "explain": "The decals show the month and year when the registration expires."
     },
     {
       "id": "q-lic-safety-inspection-1",
       "item": "lic-safety-inspection",
       "part": 2,
-      "prompt": "In Virginia, your vehicle must pass a safety inspection:",
+      "prompt": "How often must your vehicle pass a safety inspection in Virginia?",
       "choices": [
         "Every two years",
         "Only when it is sold",
@@ -2618,13 +2618,13 @@
         "Every year"
       ],
       "answer": 3,
-      "explain": "Virginia requires an annual vehicle safety inspection."
+      "explain": "Virginia requires your vehicle to pass a safety inspection every year."
     },
     {
       "id": "q-lic-safety-inspection-2",
       "item": "lic-safety-inspection",
       "part": 2,
-      "prompt": "After it passes safety inspection, your vehicle must display:",
+      "prompt": "What must your vehicle display after it passes a safety inspection?",
       "choices": [
         "A parking permit",
         "A valid safety inspection sticker",
@@ -2632,13 +2632,13 @@
         "A temporary tag"
       ],
       "answer": 1,
-      "explain": "Your vehicle must display a valid safety inspection sticker."
+      "explain": "After it passes inspection, your vehicle must display a valid safety inspection sticker."
     },
     {
       "id": "q-lic-safety-inspection-3",
       "item": "lic-safety-inspection",
       "part": 2,
-      "prompt": "In certain localities, your vehicle must also pass:",
+      "prompt": "In some localities, what else must your vehicle pass?",
       "choices": [
         "A paint inspection",
         "A noise test",
@@ -2646,13 +2646,13 @@
         "A top speed test"
       ],
       "answer": 2,
-      "explain": "Some localities also require an emissions inspection."
+      "explain": "Some localities also require your vehicle to pass an emissions inspection."
     },
     {
       "id": "q-lic-penny-test-1",
       "item": "lic-penny-test",
       "part": 2,
-      "prompt": "In the penny test, if any part of Lincoln's head is covered by the tread:",
+      "prompt": "In the penny test, what does it mean if the tread covers any part of Lincoln's head?",
       "image": "diagram-penny-test",
       "choices": [
         "You have a safe amount of tread",
@@ -2661,7 +2661,7 @@
         "Your tires have too much air"
       ],
       "answer": 0,
-      "explain": "If tread covers any part of Lincoln's head, you are driving with a safe amount of tread."
+      "explain": "If the tread covers any part of Lincoln's head, you have a safe amount of tread."
     },
     {
       "id": "q-lic-penny-test-2",
@@ -2676,27 +2676,27 @@
         "Only when a tire looks flat"
       ],
       "answer": 2,
-      "explain": "Check your tires with the penny test once every month or before a long road trip."
+      "explain": "You should check your tires with the penny test once every month or before a long road trip."
     },
     {
       "id": "q-lic-penny-test-3",
       "item": "lic-penny-test",
       "part": 2,
-      "prompt": "If your tire tread gets too low:",
+      "prompt": "What happens if your tire tread gets too low?",
       "choices": [
         "Your car stops faster",
-        "Your car's ability to grip the road in bad conditions is greatly reduced",
+        "Your car grips the road much less in bad conditions",
         "Your tires grip better in rain",
         "Nothing changes"
       ],
       "answer": 1,
-      "explain": "Low tread greatly reduces your car's grip on the road in adverse conditions."
+      "explain": "Low tread greatly reduces your car's grip on the road in bad conditions."
     },
     {
       "id": "q-lic-tire-pressure-1",
       "item": "lic-tire-pressure",
       "part": 2,
-      "prompt": "The recommended tire pressure (PSI) for your vehicle is found:",
+      "prompt": "Where can you find the recommended tire pressure (PSI) for your vehicle?",
       "choices": [
         "On the tire tread",
         "On your registration card",
@@ -2704,13 +2704,13 @@
         "On your license plate decal"
       ],
       "answer": 2,
-      "explain": "Recommended PSI is in the owner's manual or on the driver's side door jamb."
+      "explain": "The recommended PSI is in the owner's manual or on the driver's side door jamb."
     },
     {
       "id": "q-lic-tire-pressure-2",
       "item": "lic-tire-pressure",
       "part": 2,
-      "prompt": "To check your tire pressure, use:",
+      "prompt": "What should you use to check your tire pressure?",
       "choices": [
         "A penny",
         "A ruler",
@@ -2718,27 +2718,27 @@
         "Your thumb"
       ],
       "answer": 2,
-      "explain": "Check tire pressure with a tire pressure gauge before entering the vehicle."
+      "explain": "Use a tire pressure gauge to check tire pressure before you get in the vehicle."
     },
     {
       "id": "q-lic-voter-registration-1",
       "item": "lic-voter-registration",
       "part": 2,
-      "prompt": "To apply to register to vote in Virginia, you must:",
+      "prompt": "What must you be to apply to register to vote in Virginia?",
       "choices": [
-        "Be a U.S. citizen",
-        "Be a Virginia resident",
-        "Be at least 18 by the next general election",
+        "A U.S. citizen",
+        "A Virginia resident",
+        "At least 18 years old by the next general election",
         "All of these"
       ],
       "answer": 3,
-      "explain": "Voters must be U.S. citizens, Virginia residents, and 18 by the next general election."
+      "explain": "You must be a U.S. citizen, a Virginia resident, and at least 18 years old by the next general election."
     },
     {
       "id": "q-lic-voter-registration-2",
       "item": "lic-voter-registration",
       "part": 2,
-      "prompt": "You may apply to register to vote or change your voter mailing address:",
+      "prompt": "When or where can you apply to register to vote or change your voter mailing address?",
       "choices": [
         "Only at a courthouse",
         "At any DMV office",
@@ -2746,13 +2746,13 @@
         "Only at your school"
       ],
       "answer": 1,
-      "explain": "You may apply to register to vote or change your voter address at any DMV office."
+      "explain": "You may apply to register to vote or change your voter mailing address at any DMV office."
     },
     {
       "id": "q-lic-voter-registration-3",
       "item": "lic-voter-registration",
       "part": 2,
-      "prompt": "If you have been convicted of a felony, to register to vote in Virginia you must first:",
+      "prompt": "What must you do first if you have been convicted of a felony and want to register to vote in Virginia?",
       "choices": [
         "Wait 60 days",
         "Have your voting rights restored by a circuit court",
@@ -2760,49 +2760,49 @@
         "Get a new driver's license"
       ],
       "answer": 1,
-      "explain": "After a felony conviction, a circuit court must restore your voting rights before you can register."
+      "explain": "After a felony conviction, a circuit court must restore your voting rights before you can register to vote."
     },
     {
       "id": "q-lic-organ-donor-1",
       "item": "lic-organ-donor",
       "part": 2,
-      "prompt": "To sign up as an organ, eye and tissue donor, you can:",
+      "prompt": "What can you do to sign up as an organ, eye, and tissue donor?",
       "choices": [
-        "Check yes on your driver's license, permit or ID card application",
+        "Check yes on your driver's license, permit, or ID card application",
         "Tell a police officer",
         "Write it on your license plate",
-        "Do nothing; everyone is signed up"
+        "Do nothing, because everyone is signed up"
       ],
       "answer": 0,
-      "explain": "Check yes on your license, permit or ID card application to be a donor."
+      "explain": "You can sign up to be a donor by checking yes on your license, permit, or ID card application."
     },
     {
       "id": "q-lic-organ-donor-2",
       "item": "lic-organ-donor",
       "part": 2,
-      "prompt": "If you are under 18 and check yes to be a donor:",
+      "prompt": "What happens if you are under 18 and check yes to be a donor?",
       "choices": [
         "Your parents or guardians make the final decision",
         "Your decision is final",
-        "DMV makes the final decision",
-        "It does not count at all"
+        "The DMV makes the final decision",
+        "Your choice does not count at all"
       ],
       "answer": 0,
-      "explain": "By law, parents and guardians make the final decision for donors under 18."
+      "explain": "By law, your parents or guardians make the final decision if you are under 18."
     },
     {
       "id": "q-lic-organ-donor-3",
       "item": "lic-organ-donor",
       "part": 2,
-      "prompt": "If you are 18 or older, your registered decision to be a donor will be:",
+      "prompt": "What will happen to your registered decision to be a donor if you are 18 or older?",
       "choices": [
-        "Ignored",
-        "Decided by your parents",
-        "Cancelled at age 21",
-        "Honored"
+        "It will be ignored",
+        "It will be decided by your parents",
+        "It will be canceled at age 21",
+        "It will be honored"
       ],
       "answer": 3,
-      "explain": "At 18 or older, your registered decision to be a donor will be honored."
+      "explain": "If you are 18 or older, your registered decision to be a donor will be honored."
     }
   ]
 }

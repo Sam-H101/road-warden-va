@@ -37,7 +37,7 @@
       "district": "d05-workzone",
       "kind": "sign",
       "title": "Rough road or uneven lanes",
-      "simple": "Rough Road, Bump or Uneven Lanes signs mean the road ahead is bumpy. Loose gravel or road work can cause it. This is extra hard for motorcycle riders. Slow down.",
+      "simple": "Rough Road, Bump or Uneven Lanes signs mean the road ahead is bumpy. Loose gravel or road work can cause this. Driving there is extra hard for motorcycle riders. Slow down.",
       "official": "These signs are used when certain road conditions, such as loose gravel or road construction, affect the roadway surface and create potentially difficult conditions for motorists, especially motorcyclists.",
       "image": "sign-uneven-lanes",
       "manualRef": "Section 2, p. 10",
@@ -81,7 +81,7 @@
       "district": "d05-workzone",
       "kind": "sign",
       "title": "Obey flagger STOP/SLOW paddles",
-      "simple": "Flaggers hold STOP/SLOW paddles or red flags. If the flagger shows STOP, you stop. SLOW means go slowly and carefully. Flaggers also stop traffic so workers and work trucks can cross.",
+      "simple": "Flaggers hold STOP and SLOW paddles or red flags. If the flagger shows STOP, you stop. SLOW means go slowly and carefully. Flaggers also stop traffic so workers and work trucks can cross.",
       "official": "They use STOP/SLOW paddles or red flags to stop or direct traffic through the work zone, and to let other workers or construction vehicles cross the road.",
       "image": "sign-flagger-paddle",
       "mnemonic": "The paddle is the boss. STOP side, you stop.",
@@ -122,7 +122,7 @@
       "district": "d05-workzone",
       "kind": "rule",
       "title": "Always obey message boards",
-      "simple": "Message boards by the road warn you about traffic, road, weather or other dangers. Always do what they say. Before a trip, call 511 to check for road work.",
+      "simple": "Message boards by the road warn you about traffic, road or weather conditions and other dangers. Always do what they say. Before a trip, call 511 to check for road work.",
       "official": "They provide information about traffic, road, weather or other hazardous conditions. Always obey any directions posted on these message boards. For information about road conditions or road construction in advance of your trip, visit www.virginiadot.org, www.511virginia.org or call 511.",
       "manualRef": "Section 2, p. 11",
       "mnemonic": "Road work info before a trip? Dial 5-1-1."
@@ -143,7 +143,7 @@
       "district": "d05-workzone",
       "kind": "sign",
       "title": "Slow moving vehicle: 25 MPH",
-      "simple": "An orange triangle on a vehicle means it goes 25 MPH or less. Farm equipment, horse-drawn vehicles and highway work vehicles must show it. Be ready to change your speed or lane position.",
+      "simple": "An orange triangle on a vehicle means it travels at 25 MPH or less. Farm equipment, horse-drawn vehicles and highway work vehicles must show it. Be ready to change your speed or your position on the road.",
       "official": "Slow Moving Vehicles traveling at 25 MPH or less, such as farm equipment, horse-drawn vehicles or highway work vehicles, must display these signs when using a public highway. Be prepared to adjust your speed or position when you see a vehicle with one of these signs.",
       "image": "sign-slow-moving-vehicle",
       "mnemonic": "Orange triangle = 25 or slower.",
@@ -154,7 +154,7 @@
       "district": "d05-workzone",
       "kind": "sign",
       "title": "Pink signs: incident areas",
-      "simple": "Pink and black signs warn you about an incident area ahead. Orange is for construction. Pink is for incidents. Slow down and use caution.",
+      "simple": "Pink and black signs warn you about an incident area ahead. Orange signs are for construction. Pink signs are for incidents. Slow down and use caution.",
       "official": "Orange and black and pink and black signs are used to advise and warn in construction (orange) and incident (pink) areas.",
       "image": "sign-incident",
       "mnemonic": "Orange = construction. Pink = incident.",
@@ -165,7 +165,7 @@
       "district": "d05-workzone",
       "kind": "rule",
       "title": "Black-and-white rules in work zones",
-      "simple": "Orange or pink signs may come with black and white signs. The black and white signs are rules. Some exist only because of the road work or the incident. Obey them.",
+      "simple": "Orange or pink signs may come with black and white signs. The black and white signs give rules. Some of these rules exist only because of the road work or the incident. Obey them.",
       "official": "Orange and black and pink and black signs are used to advise and warn in construction (orange) and incident (pink) areas. They are used with black and white signs that convey regulations that might exist only because of the construction effort or the incident.",
       "mnemonic": "Orange warns. Black and white is the law.",
       "manualRef": "Section 2, p. 6"
@@ -212,41 +212,41 @@
       "prompt": "What does an orange sign mean?",
       "image": "sign-road-work-ahead",
       "choices": [
-        "Services ahead",
-        "Work zone ahead",
-        "Historic site ahead"
+        "Services are ahead",
+        "A work zone is ahead",
+        "A historic site is ahead"
       ],
       "answer": 1,
-      "missLine": "Orange means a work zone. Slow down and stay alert."
+      "missLine": "Orange means a work zone is ahead. Slow down and stay alert."
     },
     {
       "id": "ev-work-orange-color-2",
       "item": "work-orange-color",
       "kind": "action",
-      "prompt": "Orange ROAD WORK AHEAD sign!",
+      "prompt": "You see an orange ROAD WORK AHEAD sign!",
       "prop": "work-zone-cones",
       "sign": "sign-road-work-ahead",
       "action": "slow",
-      "missLine": "Orange means a work zone. Slow down and be alert."
+      "missLine": "The color orange means a work zone. Slow down and be alert."
     },
     {
       "id": "ev-work-orange-color-3",
       "item": "work-orange-color",
       "kind": "gates",
-      "prompt": "Orange on a road sign tells drivers to:",
+      "prompt": "What does orange on a road sign tell drivers to do?",
       "choices": [
-        "Slow down, stay alert",
-        "Speed up through it",
-        "Look for gas"
+        "Slow down and stay alert",
+        "Speed up and drive through",
+        "Look for a gas station"
       ],
       "answer": 0,
-      "missLine": "The color orange means slow down and be alert."
+      "missLine": "The color orange means you should slow down and be alert."
     },
     {
       "id": "ev-work-speeding-fine-1",
       "item": "work-speeding-fine",
       "kind": "gates",
-      "prompt": "Work zone speeding fine: up to how much?",
+      "prompt": "What is the most you can be fined for speeding in a work zone?",
       "image": "sign-road-work-ahead",
       "choices": [
         "$100",
@@ -254,36 +254,36 @@
         "$500"
       ],
       "answer": 2,
-      "missLine": "Speeding in a highway work zone can mean a fine up to $500."
+      "missLine": "Speeding in a highway work zone can mean a fine of up to $500."
     },
     {
       "id": "ev-work-speeding-fine-2",
       "item": "work-speeding-fine",
       "kind": "action",
-      "prompt": "Workers ahead. Watch your speed!",
+      "prompt": "Workers are ahead. Watch your speed!",
       "prop": "work-zone-cones",
       "sign": "sign-photo-enforced",
       "action": "slow",
-      "missLine": "Obey the work zone speed limit. Speeding there can cost up to $500."
+      "missLine": "Obey the speed limit in a work zone. Speeding there can get you a fine of up to $500."
     },
     {
       "id": "ev-work-speeding-fine-3",
       "item": "work-speeding-fine",
       "kind": "gates",
-      "prompt": "Top fine for work zone speeding?",
+      "prompt": "What is the top fine for speeding in a work zone?",
       "choices": [
         "$500",
         "$1,000",
         "$50"
       ],
       "answer": 0,
-      "missLine": "Good try! Speeding in a work zone can cost up to $500."
+      "missLine": "Speeding in a highway work zone can cost you up to $500."
     },
     {
       "id": "ev-work-handheld-fine-1",
       "item": "work-handheld-fine",
       "kind": "gates",
-      "prompt": "Work zone fine for holding a phone while driving?",
+      "prompt": "What is the fine for holding a phone while driving in a work zone?",
       "image": "sign-road-work-ahead",
       "choices": [
         "$250",
@@ -291,48 +291,48 @@
         "$25"
       ],
       "answer": 0,
-      "missLine": "A handheld phone in a highway work zone means a $250 fine."
+      "missLine": "Using a handheld phone in a highway work zone means a $250 fine."
     },
     {
       "id": "ev-work-handheld-fine-2",
       "item": "work-handheld-fine",
       "kind": "gates",
-      "prompt": "Holding a phone while driving in a work zone costs:",
+      "prompt": "How much does holding a phone while driving in a work zone cost you?",
       "choices": [
         "$100",
         "$1,000",
         "$250"
       ],
       "answer": 2,
-      "missLine": "Phone in hand in a work zone costs $250. Hands on the wheel!"
+      "missLine": "Holding a phone in a work zone means a $250 fine. Keep your hands on the wheel."
     },
     {
       "id": "ev-work-handheld-fine-3",
       "item": "work-handheld-fine",
       "kind": "gates",
-      "prompt": "Phone in hand in a work zone gets you:",
+      "prompt": "What happens if you hold a phone while driving in a work zone?",
       "choices": [
         "A $250 fine",
-        "Nothing if you drive slow",
+        "Nothing if you drive slowly",
         "Just a warning"
       ],
       "answer": 0,
-      "missLine": "Put the phone down. Phone in hand in a work zone means a $250 fine."
+      "missLine": "Put the phone down. Holding a phone in a work zone means a $250 fine."
     },
     {
       "id": "ev-work-uneven-lanes-1",
       "item": "work-uneven-lanes",
       "kind": "action",
-      "prompt": "UNEVEN LANES sign ahead!",
+      "prompt": "An UNEVEN LANES sign is ahead!",
       "sign": "sign-uneven-lanes",
       "action": "slow",
-      "missLine": "Uneven lanes mean a bumpy road. Slow down and stay alert."
+      "missLine": "An Uneven Lanes sign means the road is bumpy. Slow down and stay alert."
     },
     {
       "id": "ev-work-uneven-lanes-2",
       "item": "work-uneven-lanes",
       "kind": "gates",
-      "prompt": "This sign warns you about:",
+      "prompt": "What does this sign warn you about?",
       "image": "sign-uneven-lanes",
       "choices": [
         "A lane ending",
@@ -340,16 +340,16 @@
         "A closed road"
       ],
       "answer": 1,
-      "missLine": "Uneven Lanes means the road ahead is rough. Slow down."
+      "missLine": "The Uneven Lanes sign means the road ahead is rough. Slow down."
     },
     {
       "id": "ev-work-uneven-lanes-3",
       "item": "work-uneven-lanes",
       "kind": "gates",
-      "prompt": "Rough, uneven roads are extra hard for:",
+      "prompt": "Which drivers have an extra hard time on rough, uneven roads?",
       "choices": [
-        "Buses",
-        "Large trucks",
+        "Bus drivers",
+        "Large truck drivers",
         "Motorcyclists"
       ],
       "answer": 2,
@@ -359,7 +359,7 @@
       "id": "ev-work-detour-1",
       "item": "work-detour",
       "kind": "action",
-      "prompt": "DETOUR sign ahead!",
+      "prompt": "A DETOUR sign is ahead!",
       "sign": "sign-detour",
       "action": "slow",
       "missLine": "A detour means the route changes ahead. Slow down."
@@ -368,49 +368,49 @@
       "id": "ev-work-detour-2",
       "item": "work-detour",
       "kind": "gates",
-      "prompt": "A DETOUR sign tells you:",
+      "prompt": "What does a DETOUR sign tell you?",
       "image": "sign-detour",
       "choices": [
-        "Your route changes",
-        "Speed limit goes up",
-        "Gas at next exit"
+        "Your route will change",
+        "The speed limit goes up",
+        "Gas is at the next exit"
       ],
       "answer": 0,
-      "missLine": "Detour means your route changes ahead. Slow down."
+      "missLine": "A detour sign means your route changes ahead. Slow down."
     },
     {
       "id": "ev-work-detour-3",
       "item": "work-detour",
       "kind": "gates",
-      "prompt": "A driver sees Road Construction Ahead. The driver should:",
+      "prompt": "What should you do when you see a Road Construction Ahead sign?",
       "choices": [
-        "Speed up through it",
+        "Speed up and drive through",
         "Change lanes right away",
         "Slow down"
       ],
       "answer": 2,
-      "missLine": "Construction ahead means strange conditions. Slow down."
+      "missLine": "A construction sign means conditions ahead may be unusual or risky. Slow down."
     },
     {
       "id": "ev-work-arrow-board-1",
       "item": "work-arrow-board",
       "kind": "action",
-      "prompt": "Flashing arrow board points left!",
+      "prompt": "A flashing arrow board points left!",
       "prop": "work-zone-cones",
       "sign": "sign-arrow-board",
       "action": "move-left",
-      "missLine": "An arrow board means a lane ahead is closed. Move the way it points."
+      "missLine": "An arrow board means a lane ahead is closed. Move into the lane the arrow points to."
     },
     {
       "id": "ev-work-arrow-board-2",
       "item": "work-arrow-board",
       "kind": "gates",
-      "prompt": "A flashing arrow board means:",
+      "prompt": "What does a flashing arrow board mean?",
       "image": "sign-arrow-board",
       "choices": [
-        "Passing lane ahead",
-        "Rest area ahead",
-        "Lane closed ahead"
+        "A passing lane is ahead",
+        "A rest area is ahead",
+        "A lane is closed ahead"
       ],
       "answer": 2,
       "missLine": "An arrow board means part of the road ahead is closed."
@@ -419,7 +419,7 @@
       "id": "ev-work-arrow-board-3",
       "item": "work-arrow-board",
       "kind": "gates",
-      "prompt": "A work zone arrow board points right. Drivers should:",
+      "prompt": "When a work zone arrow board points right, what should drivers do?",
       "choices": [
         "Merge left",
         "Stay in the same lane",
@@ -432,7 +432,7 @@
       "id": "ev-work-flagger-ahead-1",
       "item": "work-flagger-ahead",
       "kind": "action",
-      "prompt": "FLAGGER AHEAD sign!",
+      "prompt": "You see a FLAGGER AHEAD sign!",
       "sign": "sign-flagger-ahead",
       "action": "slow",
       "missLine": "A flagger is ahead. Slow down and be ready to stop."
@@ -441,7 +441,7 @@
       "id": "ev-work-flagger-ahead-2",
       "item": "work-flagger-ahead",
       "kind": "gates",
-      "prompt": "Flaggers usually wear:",
+      "prompt": "What do flaggers usually wear?",
       "choices": [
         "Orange or yellow vests",
         "Blue police uniforms",
@@ -454,65 +454,65 @@
       "id": "ev-work-flagger-ahead-3",
       "item": "work-flagger-ahead",
       "kind": "gates",
-      "prompt": "This orange sign warns of:",
+      "prompt": "What does this orange sign warn you about?",
       "image": "sign-flagger-ahead",
       "choices": [
-        "A deer crossing",
+        "A deer crossing ahead",
         "A flagger ahead",
-        "A school crossing"
+        "A school crossing ahead"
       ],
       "answer": 1,
-      "missLine": "A worker holding a flag means a flagger is ahead."
+      "missLine": "A sign with a worker holding a flag means a flagger is ahead."
     },
     {
       "id": "ev-work-flagger-paddle-1",
       "item": "work-flagger-paddle",
       "kind": "action",
-      "prompt": "Flagger holds up the STOP paddle!",
+      "prompt": "The flagger holds up the STOP paddle!",
       "prop": "flagger-stop",
       "action": "stop",
-      "missLine": "The flagger shows STOP, so you stop. The paddle is the boss."
+      "missLine": "The flagger shows STOP, so you stop. Obey the flagger's paddle."
     },
     {
       "id": "ev-work-flagger-paddle-2",
       "item": "work-flagger-paddle",
       "kind": "action",
-      "prompt": "Flagger turns the paddle to SLOW.",
+      "prompt": "The flagger turns the paddle to SLOW.",
       "prop": "flagger-slow",
       "action": "slow",
-      "missLine": "SLOW means drive slowly and carefully through the work zone."
+      "missLine": "SLOW means to drive slowly and carefully through the work zone."
     },
     {
       "id": "ev-work-flagger-paddle-3",
       "item": "work-flagger-paddle",
       "kind": "gates",
-      "prompt": "Flaggers direct traffic with:",
+      "prompt": "What do flaggers use to direct traffic?",
       "choices": [
         "Green lights",
         "Car horns",
-        "STOP/SLOW paddles"
+        "STOP and SLOW paddles"
       ],
       "answer": 2,
-      "missLine": "Flaggers use STOP/SLOW paddles or red flags to direct traffic."
+      "missLine": "Flaggers use STOP and SLOW paddles or red flags to direct traffic."
     },
     {
       "id": "ev-work-photo-enforced-1",
       "item": "work-photo-enforced",
       "kind": "action",
-      "prompt": "SPEED PHOTO ENFORCED sign ahead!",
+      "prompt": "A sign ahead says SPEED PHOTO ENFORCED.",
       "sign": "sign-photo-enforced",
       "prop": "work-zone-cones",
       "action": "slow",
-      "missLine": "Cameras check speed in this work zone. Obey the posted speed limit."
+      "missLine": "Cameras check your speed in this work zone. Always obey the posted speed limit."
     },
     {
       "id": "ev-work-photo-enforced-2",
       "item": "work-photo-enforced",
       "kind": "gates",
-      "prompt": "Work zones with this sign use cameras to check:",
+      "prompt": "What do cameras check in work zones with this sign?",
       "image": "sign-photo-enforced",
       "choices": [
-        "Seat belt",
+        "Seat belts",
         "Speed",
         "Headlights"
       ],
@@ -526,17 +526,17 @@
       "prompt": "Cones line your lane. Watch your speed!",
       "prop": "work-zone-cones",
       "action": "slow",
-      "missLine": "Near cones, stay in the middle of your lane and obey the speed limit."
+      "missLine": "Near cones, stay in the middle of your lane. Obey the posted speed limit."
     },
     {
       "id": "ev-work-cones-devices-2",
       "item": "work-cones-devices",
       "kind": "gates",
-      "prompt": "Near cones, keep your car:",
+      "prompt": "Where should you keep your car when you drive near cones?",
       "choices": [
-        "Close to the cones",
-        "Centered in your lane",
-        "On the shoulder"
+        "Right next to the cones",
+        "In the middle of your lane",
+        "Out on the shoulder"
       ],
       "answer": 1,
       "missLine": "Near cones and drums, keep your car in the middle of your lane."
@@ -545,11 +545,11 @@
       "id": "ev-work-cones-devices-3",
       "item": "work-cones-devices",
       "kind": "gates",
-      "prompt": "Cones and drums are there to:",
+      "prompt": "What are cones and drums used for in a work zone?",
       "choices": [
-        "Mark parking spots",
-        "Close the road for good",
-        "Guide you safely through"
+        "To mark parking spots",
+        "To close the road forever",
+        "To guide drivers safely"
       ],
       "answer": 2,
       "missLine": "Cones, drums and barriers guide drivers safely through work zones."
@@ -558,10 +558,10 @@
       "id": "ev-work-leaving-zone-1",
       "item": "work-leaving-zone",
       "kind": "gates",
-      "prompt": "Leaving a work zone, a driver may change lanes:",
+      "prompt": "As you leave a work zone, when may you change lanes?",
       "choices": [
         "Right away",
-        "Once fully clear",
+        "Once you are fully clear",
         "At the last sign"
       ],
       "answer": 1,
@@ -571,33 +571,33 @@
       "id": "ev-work-leaving-zone-2",
       "item": "work-leaving-zone",
       "kind": "gates",
-      "prompt": "Leaving a work zone, a driver should:",
+      "prompt": "What should you do as you leave a work zone?",
       "choices": [
-        "Change lanes fast",
-        "Stop on the shoulder",
-        "Stay in lane, keep speed"
+        "Change lanes quickly",
+        "Stop on the road shoulder",
+        "Keep your lane and your speed"
       ],
       "answer": 2,
-      "missLine": "Leaving a work zone, stay in your lane and keep your speed."
+      "missLine": "As you leave a work zone, stay in your lane and keep your speed."
     },
     {
       "id": "ev-work-leaving-zone-3",
       "item": "work-leaving-zone",
       "kind": "action",
-      "prompt": "Leaving the work zone. Hold your lane.",
+      "prompt": "You are leaving the work zone. Stay in your lane.",
       "prop": "work-zone-cones",
       "action": "go",
-      "missLine": "Leaving a work zone, stay in your lane and keep your speed."
+      "missLine": "When you leave a work zone, stay in your lane and keep your speed."
     },
     {
       "id": "ev-work-message-boards-1",
       "item": "work-message-boards",
       "kind": "gates",
-      "prompt": "A roadside message board gives a direction. Drivers should:",
+      "prompt": "What should you do when a roadside message board gives you an instruction?",
       "choices": [
         "Ignore it",
         "Obey it",
-        "Obey it at night only"
+        "Obey it only at night"
       ],
       "answer": 1,
       "missLine": "Always do what message boards tell you."
@@ -606,20 +606,20 @@
       "id": "ev-work-message-boards-2",
       "item": "work-message-boards",
       "kind": "gates",
-      "prompt": "Message boards tell you about:",
+      "prompt": "What do message boards tell you about?",
       "choices": [
-        "Traffic, road, weather",
+        "Traffic, roads and weather",
         "Gas prices",
         "Sports news"
       ],
       "answer": 0,
-      "missLine": "Message boards warn about traffic, road, weather or other dangers."
+      "missLine": "Message boards warn you about traffic, roads, weather and other dangers."
     },
     {
       "id": "ev-work-message-boards-3",
       "item": "work-message-boards",
       "kind": "action",
-      "prompt": "Board: RIGHT LANE CLOSED. Merge left!",
+      "prompt": "A message board reads RIGHT LANE CLOSED. Merge left!",
       "prop": "work-zone-cones",
       "action": "move-left",
       "missLine": "Always obey message boards. Move out of the closed lane."
@@ -628,19 +628,19 @@
       "id": "ev-work-rumble-strips-1",
       "item": "work-rumble-strips",
       "kind": "action",
-      "prompt": "RUMBLE STRIPS AHEAD!",
+      "prompt": "A sign warns that rumble strips are ahead!",
       "sign": "sign-rumble-strips",
       "action": "brake-straight",
-      "missLine": "Drive over rumble strips slowly. Stay straight. Do not swerve."
+      "missLine": "Drive over rumble strips slowly. Keep your car straight and do not swerve."
     },
     {
       "id": "ev-work-rumble-strips-2",
       "item": "work-rumble-strips",
       "kind": "gates",
-      "prompt": "Rumble strips cross a driver's lane. The driver should:",
+      "prompt": "What should you do when rumble strips cross your lane?",
       "choices": [
         "Swerve around them",
-        "Drive over slowly",
+        "Drive over them slowly",
         "Stop on top of them"
       ],
       "answer": 1,
@@ -650,21 +650,21 @@
       "id": "ev-work-rumble-strips-3",
       "item": "work-rumble-strips",
       "kind": "gates",
-      "prompt": "Rumble strips across the road warn you of:",
+      "prompt": "What do rumble strips across the road warn you about?",
       "image": "sign-rumble-strips",
       "choices": [
-        "A rest stop",
-        "A toll booth",
+        "A rest stop ahead",
+        "A toll booth ahead",
         "A work zone ahead"
       ],
       "answer": 2,
-      "missLine": "Rumble strips come before a work zone, like a flagger or closed lane."
+      "missLine": "Rumble strips come before a work zone. They warn you of a flagger or a closed lane."
     },
     {
       "id": "ev-work-slow-moving-vehicle-1",
       "item": "work-slow-moving-vehicle",
       "kind": "gates",
-      "prompt": "This sign is on vehicles going:",
+      "prompt": "How fast does a vehicle with this sign go?",
       "image": "sign-slow-moving-vehicle",
       "choices": [
         "25 MPH or less",
@@ -672,16 +672,16 @@
         "45 MPH or less"
       ],
       "answer": 0,
-      "missLine": "The orange triangle marks vehicles going 25 MPH or less."
+      "missLine": "The orange triangle marks a vehicle that goes 25 MPH or less."
     },
     {
       "id": "ev-work-slow-moving-vehicle-2",
       "item": "work-slow-moving-vehicle",
       "kind": "action",
-      "prompt": "Tractor ahead with an orange triangle!",
+      "prompt": "A tractor with an orange triangle is ahead!",
       "sign": "sign-slow-moving-vehicle",
       "action": "slow",
-      "missLine": "That vehicle goes 25 MPH or less. Change your speed or position."
+      "missLine": "That vehicle goes 25 MPH or less. Be ready to change your speed or position."
     },
     {
       "id": "ev-work-slow-moving-vehicle-3",
@@ -690,18 +690,18 @@
       "prompt": "Which vehicle shows this sign?",
       "image": "sign-slow-moving-vehicle",
       "choices": [
-        "Motorcycle",
-        "School bus",
-        "Farm tractor"
+        "A motorcycle",
+        "A school bus",
+        "A farm tractor"
       ],
       "answer": 2,
-      "missLine": "Farm equipment, horse-drawn and highway work vehicles show this sign."
+      "missLine": "Farm equipment, horse-drawn vehicles and highway work vehicles must show this sign."
     },
     {
       "id": "ev-work-incident-pink-1",
       "item": "work-incident-pink",
       "kind": "gates",
-      "prompt": "Pink and black signs warn of:",
+      "prompt": "What do pink and black signs warn you about?",
       "image": "sign-incident",
       "choices": [
         "Incident areas",
@@ -709,22 +709,22 @@
         "School zones"
       ],
       "answer": 0,
-      "missLine": "Pink warns of incidents. Orange warns of construction."
+      "missLine": "Pink and black signs warn of incident areas. Orange and black signs warn of construction."
     },
     {
       "id": "ev-work-incident-pink-2",
       "item": "work-incident-pink",
       "kind": "action",
-      "prompt": "Pink INCIDENT AHEAD sign!",
+      "prompt": "A pink sign says INCIDENT AHEAD!",
       "sign": "sign-incident",
       "action": "slow",
-      "missLine": "Pink signs warn of an incident area. Slow down and use caution."
+      "missLine": "Pink signs warn you of an incident area. Slow down and use caution."
     },
     {
       "id": "ev-work-incident-pink-3",
       "item": "work-incident-pink",
       "kind": "gates",
-      "prompt": "Construction signs are orange. Incident signs are:",
+      "prompt": "If construction signs are orange, what color are incident signs?",
       "choices": [
         "Pink",
         "Blue",
@@ -737,11 +737,11 @@
       "id": "ev-work-temporary-rules-1",
       "item": "work-temporary-rules",
       "kind": "gates",
-      "prompt": "Black and white sign in a work zone. It is:",
+      "prompt": "What does a black and white sign in a work zone mean?",
       "choices": [
-        "A rule to obey",
-        "Only a suggestion",
-        "Gas and food ahead"
+        "It is a rule to obey",
+        "It is only a suggestion",
+        "It shows gas and food ahead"
       ],
       "answer": 0,
       "missLine": "Black and white signs are rules. Obey them in a work zone."
@@ -750,7 +750,7 @@
       "id": "ev-work-temporary-rules-2",
       "item": "work-temporary-rules",
       "kind": "gates",
-      "prompt": "Work zone rules come on signs colored:",
+      "prompt": "What colors are the signs that give work zone rules?",
       "choices": [
         "Green and white",
         "Black and white",
@@ -763,12 +763,12 @@
       "id": "ev-work-temporary-rules-3",
       "item": "work-temporary-rules",
       "kind": "gates",
-      "prompt": "Speed limit sign in a work zone. It is:",
+      "prompt": "How should you treat a speed limit sign in a work zone?",
       "image": "sign-speed-limit",
       "choices": [
-        "Only a suggestion",
-        "For trucks only",
-        "The law"
+        "As only a suggestion",
+        "As a sign for trucks only",
+        "As the law"
       ],
       "answer": 2,
       "missLine": "Black and white signs are the law. Obey the work zone speed limit."
@@ -777,7 +777,7 @@
       "id": "ev-work-guide-green-1",
       "item": "work-guide-green",
       "kind": "gates",
-      "prompt": "Green signs tell you about:",
+      "prompt": "What do green signs tell you about?",
       "image": "sign-guide-destination",
       "choices": [
         "Services",
@@ -798,13 +798,13 @@
         "Brown"
       ],
       "answer": 0,
-      "missLine": "Green signs show destinations. Green = go places."
+      "missLine": "Green signs show destinations. They help you find the places you are going."
     },
     {
       "id": "ev-work-guide-green-3",
       "item": "work-guide-green",
       "kind": "gates",
-      "prompt": "Green, blue and brown signs give:",
+      "prompt": "What do green, blue and brown signs give you?",
       "choices": [
         "Warnings",
         "Helpful information",
@@ -817,7 +817,7 @@
       "id": "ev-work-services-blue-1",
       "item": "work-services-blue",
       "kind": "gates",
-      "prompt": "Blue signs tell you about:",
+      "prompt": "What do blue signs tell you about?",
       "image": "sign-services",
       "choices": [
         "Destinations",
@@ -831,20 +831,20 @@
       "id": "ev-work-services-blue-2",
       "item": "work-services-blue",
       "kind": "gates",
-      "prompt": "Drivers who need gas look for signs colored:",
+      "prompt": "Which color of sign should you look for when you need gas?",
       "choices": [
         "Brown",
         "Green",
         "Blue"
       ],
       "answer": 2,
-      "missLine": "Blue signs show services for drivers, like gas."
+      "missLine": "Blue signs show services for drivers, such as gas."
     },
     {
       "id": "ev-work-historic-brown-1",
       "item": "work-historic-brown",
       "kind": "gates",
-      "prompt": "Brown signs point out:",
+      "prompt": "What do brown signs point out?",
       "image": "sign-recreation",
       "choices": [
         "Historic places",
@@ -858,7 +858,7 @@
       "id": "ev-work-historic-brown-2",
       "item": "work-historic-brown",
       "kind": "gates",
-      "prompt": "Which color marks historic sites?",
+      "prompt": "Which sign color marks historic sites?",
       "choices": [
         "Blue",
         "Brown",
@@ -873,36 +873,36 @@
       "id": "q-work-orange-color-1",
       "item": "work-orange-color",
       "part": 1,
-      "prompt": "This road sign means:",
+      "prompt": "What does this road sign mean?",
       "image": "sign-road-work-ahead",
       "choices": [
-        "Rest area ahead",
-        "Road closed; turn around",
-        "Road work ahead; slow down and be alert",
-        "Historic site ahead"
+        "There is a rest area ahead",
+        "The road is closed, so turn around",
+        "There is road work ahead, so slow down and be alert",
+        "There is a historic site ahead"
       ],
       "answer": 2,
-      "explain": "Orange marks a work zone and means slow down and be alert."
+      "explain": "Orange signs mark a work zone. They tell you to slow down and be alert."
     },
     {
       "id": "q-work-orange-color-2",
       "item": "work-orange-color",
       "part": 2,
-      "prompt": "Orange and black signs are used to:",
+      "prompt": "What are orange and black signs used for?",
       "choices": [
-        "Give directions to cities",
-        "Warn of construction work zones",
-        "Show motorist services",
-        "Mark school zones"
+        "To give directions to cities",
+        "To warn of construction work zones",
+        "To show motorist services",
+        "To mark school zones"
       ],
       "answer": 1,
-      "explain": "Orange and black signs advise and warn in construction areas."
+      "explain": "Orange and black signs give advice and warnings in construction areas."
     },
     {
       "id": "q-work-orange-color-3",
       "item": "work-orange-color",
       "part": 2,
-      "prompt": "When you see orange signs and cones, you should:",
+      "prompt": "What should you do when you see orange signs and cones?",
       "choices": [
         "Speed up to get through quickly",
         "Change lanes often to find the fastest lane",
@@ -910,13 +910,13 @@
         "Slow down and be alert"
       ],
       "answer": 3,
-      "explain": "Orange marks a work zone, so slow down and be alert."
+      "explain": "Orange signs and cones mark a work zone. Slow down and be alert."
     },
     {
       "id": "q-work-speeding-fine-1",
       "item": "work-speeding-fine",
       "part": 2,
-      "prompt": "If you are convicted of speeding in a highway work zone, you may be fined up to:",
+      "prompt": "What is the most you may be fined if you are convicted of speeding in a highway work zone?",
       "choices": [
         "$100",
         "$250",
@@ -938,7 +938,7 @@
         "The lives of highway workers depend on it"
       ],
       "answer": 3,
-      "explain": "Highway workers' lives depend on drivers obeying speed limits and avoiding distractions."
+      "explain": "The lives of highway workers depend on drivers who obey the speed limit and avoid distractions."
     },
     {
       "id": "q-work-speeding-fine-3",
@@ -948,17 +948,17 @@
       "choices": [
         "Using a handheld device",
         "Speeding",
-        "They are the same",
-        "Neither; there are no fines in work zones"
+        "They bring the same fine",
+        "Neither, because there are no fines in work zones"
       ],
       "answer": 1,
-      "explain": "Speeding can be fined up to $500, while a handheld device brings a $250 fine."
+      "explain": "Speeding can bring a fine of up to $500. Using a handheld device brings a $250 fine."
     },
     {
       "id": "q-work-handheld-fine-1",
       "item": "work-handheld-fine",
       "part": 2,
-      "prompt": "If you are convicted of using a handheld communications device in a highway work zone, you will be fined:",
+      "prompt": "How much will you be fined if you are convicted of using a handheld communications device in a highway work zone?",
       "choices": [
         "$500",
         "$250",
@@ -972,12 +972,12 @@
       "id": "q-work-handheld-fine-2",
       "item": "work-handheld-fine",
       "part": 2,
-      "prompt": "Using a handheld phone while driving through a highway work zone:",
+      "prompt": "What is true about using a handheld phone while driving through a highway work zone?",
       "choices": [
-        "Is allowed if traffic is slow",
-        "Is allowed for short calls",
-        "Will result in a $250 fine if convicted",
-        "Is only illegal for truck drivers"
+        "It is allowed if traffic is slow",
+        "It is allowed for short calls",
+        "It leads to a $250 fine if you are convicted",
+        "It is illegal only for truck drivers"
       ],
       "answer": 2,
       "explain": "A conviction for using a handheld device in a highway work zone means a $250 fine."
@@ -986,36 +986,36 @@
       "id": "q-work-uneven-lanes-1",
       "item": "work-uneven-lanes",
       "part": 1,
-      "prompt": "This road sign means:",
+      "prompt": "What does this road sign mean?",
       "image": "sign-uneven-lanes",
       "choices": [
-        "The lane ends; merge left",
+        "The lane ends, so you should merge left",
         "The road surface ahead is uneven",
-        "Do not change lanes",
-        "Road closed ahead"
+        "You should not change lanes",
+        "The road is closed ahead"
       ],
       "answer": 1,
-      "explain": "Uneven Lanes signs warn that the road surface ahead may be difficult to drive on."
+      "explain": "Uneven Lanes signs warn that the road surface ahead may be hard to drive on."
     },
     {
       "id": "q-work-uneven-lanes-2",
       "item": "work-uneven-lanes",
       "part": 2,
-      "prompt": "Rough Road, Bump, or Uneven Lanes signs are used when:",
+      "prompt": "When are Rough Road, Bump or Uneven Lanes signs used?",
       "choices": [
-        "A school zone is ahead",
-        "A lane is for buses only",
-        "Deer often cross the road",
-        "Loose gravel or road construction affects the road surface"
+        "When a school zone is ahead",
+        "When a lane is for buses only",
+        "When deer often cross the road",
+        "When loose gravel or road construction affects the road surface"
       ],
       "answer": 3,
-      "explain": "These signs are used when conditions like loose gravel or construction affect the road surface."
+      "explain": "These signs are used when something such as loose gravel or road construction affects the road surface."
     },
     {
       "id": "q-work-uneven-lanes-3",
       "item": "work-uneven-lanes",
       "part": 2,
-      "prompt": "Rough roads, bumps and uneven lanes create especially difficult conditions for:",
+      "prompt": "Rough roads, bumps and uneven lanes create especially difficult conditions for which of these?",
       "choices": [
         "Motorcyclists",
         "Pedestrians",
@@ -1029,56 +1029,56 @@
       "id": "q-work-detour-1",
       "item": "work-detour",
       "part": 1,
-      "prompt": "This road sign means:",
+      "prompt": "What does this road sign mean?",
       "image": "sign-detour",
       "choices": [
-        "The traffic pattern or route changes ahead; slow down",
-        "Historic site ahead",
-        "One-way street",
-        "Do not enter"
+        "The traffic pattern or route changes ahead, so slow down",
+        "There is a historic site ahead",
+        "This is a one-way street",
+        "You must not enter"
       ],
       "answer": 0,
-      "explain": "Detour signs show a change in the traffic pattern or route ahead, so slow down."
+      "explain": "Detour signs show a change in the traffic pattern or route ahead, so you should slow down."
     },
     {
       "id": "q-work-detour-2",
       "item": "work-detour",
       "part": 2,
-      "prompt": "Road Construction Ahead and Detour signs mean:",
+      "prompt": "What do Road Construction Ahead and Detour signs mean?",
       "choices": [
-        "The traffic pattern or route changes ahead; slow down",
+        "The traffic pattern or route changes ahead, so slow down",
         "You may speed up after the sign",
         "The road is closed to all traffic",
         "Parking is allowed on the shoulder"
       ],
       "answer": 0,
-      "explain": "These signs mean the traffic pattern or route changes ahead, so slow down."
+      "explain": "These signs mean the traffic pattern or route changes ahead, so you should slow down."
     },
     {
       "id": "q-work-arrow-board-1",
       "item": "work-arrow-board",
       "part": 1,
-      "prompt": "This flashing arrow board in a work zone means:",
+      "prompt": "What does this flashing arrow board in a work zone mean?",
       "image": "sign-arrow-board",
       "choices": [
-        "Part of the road ahead is closed; move into another lane",
+        "Part of the road ahead is closed, so move into another lane",
         "The road ahead is one-way",
         "Left turns are not allowed",
         "You are entering a roundabout"
       ],
       "answer": 0,
-      "explain": "Flashing arrow boards direct drivers into different lanes because part of the road ahead is closed."
+      "explain": "Flashing arrow boards tell drivers to move into a different lane, because part of the road ahead is closed."
     },
     {
       "id": "q-work-arrow-board-2",
       "item": "work-arrow-board",
       "part": 2,
-      "prompt": "Large flashing arrow boards in work zones:",
+      "prompt": "What is the purpose of large flashing arrow boards in work zones?",
       "choices": [
-        "Show the speed limit",
-        "Direct drivers into different lanes because part of the road is closed",
-        "Mean the work zone has ended",
-        "Show where you may park"
+        "To show drivers the speed limit",
+        "To direct drivers into different lanes because part of the road is closed",
+        "To tell drivers that the work zone has ended",
+        "To show drivers where they may park"
       ],
       "answer": 1,
       "explain": "Arrow boards tell drivers to move into different lanes because part of the road ahead is closed."
@@ -1087,22 +1087,22 @@
       "id": "q-work-flagger-ahead-1",
       "item": "work-flagger-ahead",
       "part": 1,
-      "prompt": "This road sign means:",
+      "prompt": "What does this road sign mean?",
       "image": "sign-flagger-ahead",
       "choices": [
-        "Pedestrian crossing",
-        "School crossing",
-        "Flagger ahead",
-        "Railroad crossing"
+        "There is a pedestrian crossing ahead",
+        "There is a school crossing ahead",
+        "There is a flagger ahead",
+        "There is a railroad crossing ahead"
       ],
       "answer": 2,
-      "explain": "A worker holding a flag on an orange sign means a flagger is ahead."
+      "explain": "An orange sign with a worker holding a flag means a flagger is ahead."
     },
     {
       "id": "q-work-flagger-ahead-2",
       "item": "work-flagger-ahead",
       "part": 2,
-      "prompt": "Flaggers in work zones normally wear:",
+      "prompt": "What do flaggers in work zones normally wear?",
       "choices": [
         "Orange or yellow vests, or yellow-green shirts or jackets",
         "Red uniforms",
@@ -1116,7 +1116,7 @@
       "id": "q-work-flagger-paddle-1",
       "item": "work-flagger-paddle",
       "part": 1,
-      "prompt": "A flagger shows you the STOP side of this paddle. You must:",
+      "prompt": "A flagger shows you the STOP side of this paddle. What must you do?",
       "image": "sign-flagger-paddle",
       "choices": [
         "Slow down and keep going",
@@ -1131,26 +1131,26 @@
       "id": "q-work-flagger-paddle-2",
       "item": "work-flagger-paddle",
       "part": 2,
-      "prompt": "Flaggers stop or direct traffic in work zones using:",
+      "prompt": "What do flaggers use to stop or direct traffic in work zones?",
       "choices": [
         "Whistles and flashlights",
         "Green flags only",
         "Traffic lights only",
-        "STOP/SLOW paddles or red flags"
+        "STOP and SLOW paddles or red flags"
       ],
       "answer": 3,
-      "explain": "Flaggers use STOP/SLOW paddles or red flags to stop or direct traffic."
+      "explain": "Flaggers use STOP and SLOW paddles or red flags to stop or direct traffic."
     },
     {
       "id": "q-work-flagger-paddle-3",
       "item": "work-flagger-paddle",
       "part": 2,
-      "prompt": "A flagger may stop traffic in a work zone to:",
+      "prompt": "Why might a flagger stop traffic in a work zone?",
       "choices": [
-        "Check driver's licenses",
-        "Collect tolls",
-        "Let workers or construction vehicles cross the road",
-        "Hand out tickets"
+        "To check driver's licenses",
+        "To collect tolls",
+        "To let workers or construction vehicles cross the road",
+        "To hand out tickets"
       ],
       "answer": 2,
       "explain": "Flaggers stop traffic to let other workers or construction vehicles cross the road."
@@ -1159,7 +1159,7 @@
       "id": "q-work-photo-enforced-1",
       "item": "work-photo-enforced",
       "part": 1,
-      "prompt": "This sign means:",
+      "prompt": "What does this sign mean?",
       "image": "sign-photo-enforced",
       "choices": [
         "You may take photos of the work",
@@ -1174,7 +1174,7 @@
       "id": "q-work-photo-enforced-2",
       "item": "work-photo-enforced",
       "part": 2,
-      "prompt": "In a work zone with photo speed enforcement, you should:",
+      "prompt": "What should you do in a work zone with photo speed enforcement?",
       "choices": [
         "Slow down only near the camera",
         "Always obey the posted speed limit",
@@ -1182,27 +1182,27 @@
         "Drive on the shoulder"
       ],
       "answer": 1,
-      "explain": "Always obey the posted speed limit in a work zone."
+      "explain": "You should always obey the posted speed limit in a work zone."
     },
     {
       "id": "q-work-photo-enforced-3",
       "item": "work-photo-enforced",
       "part": 2,
-      "prompt": "Automated photo enforcement in a work zone is used to catch drivers who:",
+      "prompt": "What does automated photo enforcement in a work zone catch drivers doing?",
       "choices": [
-        "Do not wear seat belts",
-        "Use high beams",
-        "Speed",
-        "Drive in the HOV lane"
+        "Not wearing seat belts",
+        "Using high beams",
+        "Speeding",
+        "Driving in the HOV lane"
       ],
       "answer": 2,
-      "explain": "Photo enforcement signs mean cameras are in place to catch speeding in the work zone."
+      "explain": "Photo enforcement signs mean cameras are in place to catch drivers who speed in the work zone."
     },
     {
       "id": "q-work-cones-devices-1",
       "item": "work-cones-devices",
       "part": 2,
-      "prompt": "When driving near barricades, drums or cones in a work zone, you should:",
+      "prompt": "What should you do when you drive near barricades, drums or cones in a work zone?",
       "choices": [
         "Drive close to the edge of the lane",
         "Keep your vehicle in the middle of the lane and obey the posted speed limit",
@@ -1210,13 +1210,13 @@
         "Speed up to get past them"
       ],
       "answer": 1,
-      "explain": "Near work zone devices, keep your vehicle in the middle of the lane and obey the posted speed limit."
+      "explain": "Near cones, drums and barricades, keep your vehicle in the middle of the lane. Obey the posted speed limit."
     },
     {
       "id": "q-work-cones-devices-2",
       "item": "work-cones-devices",
       "part": 2,
-      "prompt": "The most common devices used to guide drivers through work zones are:",
+      "prompt": "What are the most common devices used to guide drivers through work zones?",
       "choices": [
         "Speed humps and stop signs",
         "Red pavement reflectors",
@@ -1224,41 +1224,41 @@
         "Barricades, concrete barriers, drums and cones"
       ],
       "answer": 3,
-      "explain": "Barricades, vertical signs, concrete barriers, drums and cones are the most common work zone devices."
+      "explain": "Barricades, vertical signs, concrete barriers, drums and cones are the most common devices that guide drivers through work zones."
     },
     {
       "id": "q-work-leaving-zone-1",
       "item": "work-leaving-zone",
       "part": 2,
-      "prompt": "As you leave a work zone, you should:",
+      "prompt": "What should you do as you leave a work zone?",
       "choices": [
-        "Stay in your lane and maintain your speed",
+        "Stay in your lane and keep your speed",
         "Change lanes right away",
         "Stop and wait for a flagger",
         "Speed up quickly"
       ],
       "answer": 0,
-      "explain": "As you leave a work zone, stay in your lane and maintain your speed."
+      "explain": "As you leave a work zone, stay in your lane and keep your speed."
     },
     {
       "id": "q-work-leaving-zone-2",
       "item": "work-leaving-zone",
       "part": 2,
-      "prompt": "When leaving a work zone, do not change lanes until:",
+      "prompt": "How long should you wait to change lanes when you leave a work zone?",
       "choices": [
-        "You see the last orange sign",
-        "A flagger waves at you",
-        "You are completely clear of the work zone",
-        "Traffic slows down"
+        "Until you see the last orange sign",
+        "Until a flagger waves at you",
+        "Until you are completely clear of the work zone",
+        "Until traffic slows down"
       ],
       "answer": 2,
-      "explain": "Don't change lanes until you are completely clear of the work zone."
+      "explain": "Do not change lanes until you are completely clear of the work zone."
     },
     {
       "id": "q-work-message-boards-1",
       "item": "work-message-boards",
       "part": 2,
-      "prompt": "When a message board along the road gives a direction, you should:",
+      "prompt": "What should you do when a message board along the road gives a direction?",
       "choices": [
         "Ignore it unless police are present",
         "Always obey it",
@@ -1272,7 +1272,7 @@
       "id": "q-work-message-boards-2",
       "item": "work-message-boards",
       "part": 2,
-      "prompt": "Portable or permanent message boards give information about:",
+      "prompt": "What do portable or permanent message boards give information about?",
       "choices": [
         "Local restaurants",
         "Sports events",
@@ -1286,7 +1286,7 @@
       "id": "q-work-message-boards-3",
       "item": "work-message-boards",
       "part": 2,
-      "prompt": "To learn about road construction before your trip, you can:",
+      "prompt": "What can you do to learn about road construction before your trip?",
       "choices": [
         "Call 511",
         "Call 911",
@@ -1294,42 +1294,42 @@
         "Look for a brown sign"
       ],
       "answer": 0,
-      "explain": "Before a trip, you can call 511 or visit www.511virginia.org or www.virginiadot.org."
+      "explain": "Before your trip, you can call 511. You can also visit www.511virginia.org or www.virginiadot.org."
     },
     {
       "id": "q-work-rumble-strips-1",
       "item": "work-rumble-strips",
       "part": 1,
-      "prompt": "This sign warns of strips across your lane. You should:",
+      "prompt": "This sign warns of strips across your lane. What should you do?",
       "image": "sign-rumble-strips",
       "choices": [
         "Swerve around them",
-        "Speed up over them",
+        "Speed up as you drive over them",
         "Drive over them slowly",
         "Drive on the shoulder to avoid them"
       ],
       "answer": 2,
-      "explain": "Rumble strips should be slowly driven over, not swerved around."
+      "explain": "You should drive over rumble strips slowly. Do not swerve around them."
     },
     {
       "id": "q-work-rumble-strips-2",
       "item": "work-rumble-strips",
       "part": 2,
-      "prompt": "Rumble strips placed across travel lanes warn you of:",
+      "prompt": "What do rumble strips placed across the travel lanes warn you about?",
       "choices": [
-        "A work zone ahead, such as a flagger or lane closure",
-        "A school zone",
-        "A railroad crossing",
-        "A bridge that may be icy"
+        "A work zone ahead",
+        "A school zone ahead",
+        "A railroad crossing ahead",
+        "A bridge ahead that may be icy"
       ],
       "answer": 0,
-      "explain": "Rumble strips are placed before work zones, including a flagger or lane closure."
+      "explain": "Rumble strips are placed before a work zone. The work zone may have a flagger or a lane closure."
     },
     {
       "id": "q-work-rumble-strips-3",
       "item": "work-rumble-strips",
       "part": 2,
-      "prompt": "Rumble strips placed across the lanes before a work zone are:",
+      "prompt": "What color are the rumble strips placed across the lanes before a work zone?",
       "choices": [
         "Green or blue",
         "Black or orange",
@@ -1343,7 +1343,7 @@
       "id": "q-work-slow-moving-vehicle-1",
       "item": "work-slow-moving-vehicle",
       "part": 1,
-      "prompt": "This sign on the back of a vehicle means:",
+      "prompt": "What does this sign on the back of a vehicle mean?",
       "image": "sign-slow-moving-vehicle",
       "choices": [
         "The vehicle travels at 25 MPH or less",
@@ -1352,13 +1352,13 @@
         "The vehicle is about to turn"
       ],
       "answer": 0,
-      "explain": "Vehicles traveling at 25 MPH or less must display the slow moving vehicle sign."
+      "explain": "A vehicle that travels at 25 MPH or less must display the slow moving vehicle sign."
     },
     {
       "id": "q-work-slow-moving-vehicle-2",
       "item": "work-slow-moving-vehicle",
       "part": 2,
-      "prompt": "A vehicle must display the slow moving vehicle sign on a public highway when it travels at:",
+      "prompt": "On a public highway, a vehicle must display the slow moving vehicle sign when it travels at what speed?",
       "choices": [
         "15 MPH or less",
         "25 MPH or less",
@@ -1366,143 +1366,143 @@
         "45 MPH or less"
       ],
       "answer": 1,
-      "explain": "Slow moving vehicles traveling at 25 MPH or less must display this sign."
+      "explain": "Vehicles that travel at 25 MPH or less must display the slow moving vehicle sign."
     },
     {
       "id": "q-work-slow-moving-vehicle-3",
       "item": "work-slow-moving-vehicle",
       "part": 1,
-      "prompt": "When you see a vehicle with this sign, you should:",
+      "prompt": "What should you do when you see a vehicle with this sign?",
       "image": "sign-slow-moving-vehicle",
       "choices": [
         "Honk so it pulls over",
-        "Follow as close as you can",
-        "Be prepared to adjust your speed or position",
-        "Pass it right away on the right"
+        "Follow as closely as you can",
+        "Be ready to adjust your speed or position",
+        "Pass it immediately on the right"
       ],
       "answer": 2,
-      "explain": "Be prepared to adjust your speed or position when you see a vehicle with this sign."
+      "explain": "A vehicle with this sign goes 25 MPH or less, so be ready to adjust your speed or position."
     },
     {
       "id": "q-work-incident-pink-1",
       "item": "work-incident-pink",
       "part": 1,
-      "prompt": "This pink road sign warns of:",
+      "prompt": "What does this pink road sign warn you about?",
       "image": "sign-incident",
       "choices": [
-        "A historic site",
+        "A historic site ahead",
         "An incident area ahead",
-        "A rest area",
-        "A school zone"
+        "A rest area ahead",
+        "A school zone ahead"
       ],
       "answer": 1,
-      "explain": "Pink and black signs advise and warn in incident areas."
+      "explain": "Pink and black signs warn drivers about incident areas."
     },
     {
       "id": "q-work-incident-pink-2",
       "item": "work-incident-pink",
       "part": 2,
-      "prompt": "Pink and black signs are used in:",
+      "prompt": "Where are pink and black signs used?",
       "choices": [
-        "Construction areas",
-        "School zones",
-        "Recreation areas",
-        "Incident areas"
+        "In construction areas",
+        "In school zones",
+        "In recreation areas",
+        "In incident areas"
       ],
       "answer": 3,
-      "explain": "Orange signs are for construction areas and pink signs are for incident areas."
+      "explain": "Pink and black signs are used in incident areas. Orange and black signs are used in construction areas."
     },
     {
       "id": "q-work-temporary-rules-1",
       "item": "work-temporary-rules",
       "part": 2,
-      "prompt": "In a construction area, orange signs may be used with black and white signs. The black and white signs show:",
+      "prompt": "In a construction area, orange signs may be used with black and white signs. What do the black and white signs show?",
       "choices": [
         "Motorist services",
-        "Regulations that may exist only because of the construction",
-        "Historical or cultural interests",
-        "Destination information"
+        "Rules that may exist only because of the construction",
+        "Places of historical or cultural interest",
+        "Information about destinations"
       ],
       "answer": 1,
-      "explain": "Black and white signs show regulations that may exist only because of the construction."
+      "explain": "Black and white signs show rules that may exist only because of the construction."
     },
     {
       "id": "q-work-temporary-rules-2",
       "item": "work-temporary-rules",
       "part": 2,
-      "prompt": "Pink and black incident signs may be used with black and white signs that:",
+      "prompt": "Pink and black incident signs may be used with black and white signs. What do the black and white signs show?",
       "choices": [
-        "Give destination information",
-        "Show motorist services",
-        "Point out historic places",
-        "Show regulations that may exist only because of the incident"
+        "Information about destinations",
+        "Motorist services",
+        "Historic places",
+        "Rules that may exist only because of the incident"
       ],
       "answer": 3,
-      "explain": "Black and white signs show regulations that may exist only because of the incident."
+      "explain": "Black and white signs show rules that may exist only because of the incident."
     },
     {
       "id": "q-work-guide-green-1",
       "item": "work-guide-green",
       "part": 1,
-      "prompt": "A green and white sign like this gives:",
+      "prompt": "What does a green and white sign like this show?",
       "image": "sign-guide-destination",
       "choices": [
-        "Destination information",
+        "Information about destinations",
         "Motorist services",
         "Historic sites",
-        "Construction warnings"
+        "Warnings about construction"
       ],
       "answer": 0,
-      "explain": "Green signs give destination information."
+      "explain": "Green and white signs give information about destinations."
     },
     {
       "id": "q-work-guide-green-2",
       "item": "work-guide-green",
       "part": 2,
-      "prompt": "Green and white signs are used to provide:",
+      "prompt": "What are green and white signs used to provide?",
       "choices": [
-        "Warnings",
+        "Warnings about dangers",
         "Motorist services",
-        "Destination information",
-        "Regulations"
+        "Information about destinations",
+        "Rules about driving"
       ],
       "answer": 2,
-      "explain": "Green and white signs give destination information."
+      "explain": "Green and white signs give information about destinations."
     },
     {
       "id": "q-work-services-blue-1",
       "item": "work-services-blue",
       "part": 1,
-      "prompt": "This blue sign tells you about:",
+      "prompt": "What does this blue sign tell you about?",
       "image": "sign-services",
       "choices": [
         "Historic places",
         "Road work",
-        "City names and distances",
+        "Names of cities and their distances",
         "Motorist services"
       ],
       "answer": 3,
-      "explain": "Blue and white signs inform you about motorist services."
+      "explain": "Blue and white signs tell you about motorist services."
     },
     {
       "id": "q-work-services-blue-2",
       "item": "work-services-blue",
       "part": 2,
-      "prompt": "Blue and white signs are used to inform you about:",
+      "prompt": "What are blue and white signs used to tell you about?",
       "choices": [
         "Motorist services",
-        "Historical or cultural interests",
+        "Places of historical or cultural interest",
         "Destinations",
         "Incident areas"
       ],
       "answer": 0,
-      "explain": "The blue sign is used to inform drivers about motorist services."
+      "explain": "Blue and white signs tell drivers about motorist services."
     },
     {
       "id": "q-work-historic-brown-1",
       "item": "work-historic-brown",
       "part": 1,
-      "prompt": "This brown sign tells you about:",
+      "prompt": "What does this brown sign tell you about?",
       "image": "sign-recreation",
       "choices": [
         "A work zone",
@@ -1511,21 +1511,21 @@
         "Motorist services"
       ],
       "answer": 2,
-      "explain": "Brown signs advise of historical or cultural interests in the area."
+      "explain": "Brown signs point out historical or cultural places in the area."
     },
     {
       "id": "q-work-historic-brown-2",
       "item": "work-historic-brown",
       "part": 2,
-      "prompt": "Brown and white signs are used to advise of:",
+      "prompt": "What are brown and white signs used to advise you about?",
       "choices": [
         "Motorist services",
         "Destinations",
         "Construction zones",
-        "Historical or cultural interests"
+        "Historical or cultural places"
       ],
       "answer": 3,
-      "explain": "Brown signs point out historical or cultural interests in the area."
+      "explain": "Brown and white signs point out historical or cultural places in the area."
     }
   ]
 }

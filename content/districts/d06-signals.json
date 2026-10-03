@@ -6,7 +6,7 @@
       "district": "d06-signals",
       "kind": "sign",
       "title": "Red light: stop at the line",
-      "simple": "A red light means stop. Stop at the white stop line. No stop line? Stop before the crosswalk or before you enter the intersection. Stay stopped while it is red, unless a turn is allowed.",
+      "simple": "A red light means stop. Stop at the white stop line. If there is no stop line, stop before the crosswalk or before you enter the intersection. Stay stopped while it is red, unless a turn is allowed.",
       "official": "At a red light, come to a complete stop at the stop line or, if there is no stop line, before entering the intersection or before reaching the crosswalk. Remain stopped as long as the signal is red, unless turns are allowed. Traffic signals apply to drivers, motorcycle riders, bicyclists, moped-riders and pedestrians.",
       "image": "signal-red",
       "mnemonic": "Red: stop at the line and stay there.",
@@ -17,7 +17,7 @@
       "district": "d06-signals",
       "kind": "rule",
       "title": "Right turn on red",
-      "simple": "You may turn right on red. First, stop all the way. Look both ways. Let walkers and other traffic go first. See a No Turn on Red sign or a red right arrow? Then wait for green.",
+      "simple": "You may turn right on red. First, stop all the way. Look both ways. Let people walking and other traffic go first. If you see a No Turn on Red sign or a red right arrow, wait for green.",
       "official": "You may turn right while the traffic signal displays a red light. Before turning, you must come to a complete stop. Look both ways and yield the right-of-way to pedestrians and other traffic. You may not turn right on red if signs are posted that read \"No Turn on Red,\" or if a red arrow pointing to the right is displayed. Be sure to check for less visible vehicles such as motorcycles, bicycles and mopeds.",
       "image": "signal-red",
       "manualRef": "Section 2, p. 5",
@@ -28,7 +28,7 @@
       "district": "d06-signals",
       "kind": "rule",
       "title": "Left on red: one-way only",
-      "simple": "Turning left on red? Only from a one-way street onto a one-way street. Stop all the way first. Look both ways and let others go first. See No Turn on Red or a red left arrow? Wait.",
+      "simple": "You may turn left on red only from a one-way street onto a one-way street. Stop completely, look both ways and let others go first. If you see a No Turn on Red sign or a red left arrow, wait.",
       "official": "You may turn left at a red light if you are on a one-way street and turning left onto another one-way street. Before turning, you must come to a complete stop. Look both ways and yield the right-of-way to pedestrians and other traffic. You may not turn left on red if signs read \"No Turn on Red,\" or if a red arrow pointing to the left is displayed. Be sure to check for less visible vehicles such as motorcycles, bicycles, and mopeds.",
       "image": "signal-red",
       "mnemonic": "Left on red: one-way into one-way.",
@@ -39,7 +39,7 @@
       "district": "d06-signals",
       "kind": "sign",
       "title": "Red arrow: no turn",
-      "simple": "A red arrow means stop if you want to go that way. In Virginia, you may not turn on a red arrow. One exception: a sign that says Right or Left on Red Arrow After Stop.",
+      "simple": "A red arrow means stop if you want to go that way. In Virginia, you may not turn on a red arrow. A sign that says \"Right or Left on Red Arrow After Stop\" is one exception.",
       "official": "A red arrow means you must stop if you intend to move in the direction of the arrow. You may not proceed in the direction of the arrow as long as the red arrow is displayed, unless signs are posted that read \"Right on Red Arrow After Stop\" or \"Left on Red Arrow After Stop.\" Virginia law prohibits right and left turns at red arrow lights.",
       "image": "signal-red-arrow",
       "mnemonic": "Red arrow: no turn, unless a sign says so.",
@@ -60,7 +60,7 @@
       "district": "d06-signals",
       "kind": "rule",
       "title": "Flashing red arrow",
-      "simple": "A flashing red arrow means stop all the way first. Let oncoming cars and people in the intersection go. Then you may turn the way the arrow points when it is clear.",
+      "simple": "A flashing red arrow means stop all the way first. Let oncoming cars and people in the intersection go. Then, when the way is clear, you may turn in the direction the arrow points.",
       "official": "At a flashing red arrow, come to a complete stop, yield the right-of-way to vehicles coming from the other direction and pedestrians in the intersection, and proceed in the direction of the arrow when the way is clear.",
       "mnemonic": "Flashing red arrow: stop, look, then turn.",
       "manualRef": "Section 2, p. 5"
@@ -70,7 +70,7 @@
       "district": "d06-signals",
       "kind": "sign",
       "title": "Yellow: about to change",
-      "simple": "Yellow light or arrow: the light is about to change. Not in the intersection yet? Stop if you safely can. Already in it, or can't stop safely? Go through with care. Never speed up to beat it.",
+      "simple": "A yellow light or arrow means the light is about to change. If you have not entered the intersection and can stop safely, then stop. Otherwise, go through with care. Never speed up to beat the light.",
       "official": "A yellow light or arrow are cautions warning that the light is about to change. If you have not entered the intersection, stop; or, if unsafe to stop, cautiously go through it. If you are already in the intersection, go through it cautiously. Do not speed up to beat the light.",
       "image": "signal-yellow",
       "mnemonic": "Yellow: stop if you safely can. Never race it.",
@@ -91,7 +91,7 @@
       "district": "d06-signals",
       "kind": "sign",
       "title": "Flashing yellow arrow: yield",
-      "simple": "A flashing yellow arrow means you may turn that way if it is clear. You do not go first. Let oncoming cars and people walking go first. Watch for motorcycles, bikes and mopeds.",
+      "simple": "A flashing yellow arrow means you may turn that way if the way is clear. You do not go first. Let oncoming cars and people walking go first. Watch for motorcycles, bikes and mopeds.",
       "official": "At a flashing yellow arrow, you may turn in the direction of the arrow, if the way is clear. Yield the right-of-way to vehicles coming from the other direction and pedestrians in the intersection. Be sure to check for less visible vehicles such as motorcycles, bicycles, and mopeds.",
       "image": "signal-flashing-yellow-arrow",
       "manualRef": "Section 2, p. 5"
@@ -121,7 +121,7 @@
       "district": "d06-signals",
       "kind": "rule",
       "title": "Walker still in street",
-      "simple": "Your light just turned green, or to a flashing yellow arrow. A person is still walking in the street. Let them finish crossing before you turn.",
+      "simple": "Your red light just changed to green or to a flashing yellow arrow. A person is still walking in the street. Let that person finish crossing before you turn.",
       "official": "If a traffic light changes from red to green while a pedestrian is in the street, allow the pedestrian to cross the street before turning. If a traffic light changes from red to flashing yellow arrow while a pedestrian is in the intersection, allow the pedestrian to cross the street before turning.",
       "manualRef": "Section 2, p. 6"
     },
@@ -130,7 +130,7 @@
       "district": "d06-signals",
       "kind": "sign",
       "title": "Dark signal: all-way stop",
-      "simple": "Traffic lights dark, with no lights at all? Treat it like an all-way stop. Stop, then take turns. Is an officer directing traffic? Are there portable stop signs? Follow those instead.",
+      "simple": "The traffic lights are not working and show no lights. Treat the intersection like an all-way stop. Stop, then take turns. If an officer is directing traffic or portable stop signs are up, follow them instead.",
       "official": "When traffic signals are not working because of a power outage or other problem and not displaying any lights, you are required to stop, proceeding through the intersection as though it were an all-way stop. This does not apply if a law enforcement officer or other authorized person is directing traffic, or if portable stop signs are in use.",
       "image": "signal-out",
       "mnemonic": "Lights dark? Act like an all-way stop.",
@@ -151,7 +151,7 @@
       "district": "d06-signals",
       "kind": "sign",
       "title": "Red X: never this lane",
-      "simple": "Lane use signals hang over lanes. They show which lanes you can use at different times of day. A red X over a lane means never drive in that lane.",
+      "simple": "Lane use signals hang over lanes. They show which lanes you can use at different times of day. A red X over a lane means you must never drive in that lane.",
       "official": "Lane use signals indicate lanes where you can and cannot drive during different hours of the day. Red X: Never drive in a lane marked with a red X signal.",
       "image": "signal-lane-red-x",
       "mnemonic": "Red X = never. Yellow X = leave. Green arrow = drive.",
@@ -162,7 +162,7 @@
       "district": "d06-signals",
       "kind": "sign",
       "title": "Yellow X: leave the lane",
-      "simple": "A yellow X over your lane means leave that lane. A yellow arrow pointing down at a slant means the same. Move to another lane as soon as it is safe.",
+      "simple": "A yellow X over your lane means you should leave that lane. A yellow arrow pointing down at a slant means the same thing. Move to another lane as soon as it is safe.",
       "official": "Yellow X or Yellow Diagonal Downward Arrow: These signals mean that you should move out of the lane as soon as safely possible.",
       "image": "signal-lane-yellow-x",
       "manualRef": "Section 2, p. 6",
@@ -194,7 +194,7 @@
       "district": "d06-signals",
       "kind": "sign",
       "title": "Pedestrian hybrid beacon steps",
-      "simple": "A pedestrian hybrid beacon warns you of walkers at a crosswalk. Solid yellow: get ready to stop. Two solid reds: stop. Reds flash back and forth: go with care if the crosswalk is clear.",
+      "simple": "A pedestrian hybrid beacon warns you about people at a crosswalk. Solid yellow means get ready to stop. Two solid red lights mean stop. When the red lights flash back and forth, go with care if the crosswalk is clear.",
       "official": "PHBs appear over intersections without stoplights and alert drivers when pedestrians are at a crosswalk. One yellow light at the bottom flashes when a pedestrian activates the PHB. Next, the yellow light turns solid to alert drivers to prepare to stop. Then, the top two red lights turn solid while a walk signal appears, and drivers must stop. Lastly, the two red lights alternate flashing, telling the driver that if the crosswalk is now clear, they may proceed with caution.",
       "image": "signal-phb",
       "mnemonic": "Yellow: get ready. Solid red: stop. Flashing red: go if clear.",
@@ -226,7 +226,7 @@
       "district": "d06-signals",
       "kind": "sign",
       "title": "Solid plus broken yellow",
-      "simple": "Solid and broken yellow lines side by side? Broken line on your side? You may pass. Solid line on your side? Do not pass cars. You may cross only to pass walkers, bikes, scooters or skateboards safely.",
+      "simple": "With broken and solid yellow lines side by side, you may pass if the broken line is on your side. Otherwise, do not pass cars. You may cross the solid line only to pass walkers, bikes, scooters or skateboards safely.",
       "official": "A broken yellow line alongside a solid yellow line means that passing is allowed from the side of the broken line, but not from the side of the solid line. Vehicles on the solid yellow line side may only cross the line to pass pedestrians, bicyclists, and riders of scooters or skateboards, when the opposite lane is clear and you can pass safely.",
       "image": "mark-solid-broken-yellow",
       "mnemonic": "Broken on your side? Pass. Solid on your side? Stay.",
@@ -237,7 +237,7 @@
       "district": "d06-signals",
       "kind": "sign",
       "title": "Double yellow: no passing",
-      "simple": "Double solid yellow lines mean no passing either way. You may cross them only to turn left. Or to pass walkers, bikes, scooters or skateboards. The other lane must be clear and safe.",
+      "simple": "Double solid yellow lines mean no passing either way. You may cross them only to turn left or to pass walkers, bikes, scooters or skateboards. The other lane must be clear, and the pass must be safe.",
       "official": "Double solid yellow lines mark the center of the road and separate traffic traveling in two different directions. Passing is not allowed in either direction. You may not cross the lines unless you are making a left turn or passing pedestrians, bicyclists, and riders of scooters or skateboards, when the opposite lane is clear and you can pass safely.",
       "image": "mark-double-solid-yellow",
       "mnemonic": "Double yellow = a wall. Cross only to turn left.",
@@ -269,7 +269,7 @@
       "district": "d06-signals",
       "kind": "rule",
       "title": "Unmarked two-lane road passing",
-      "simple": "Many two-lane roads in Virginia have no lane lines. On these roads, you may pass a slow vehicle on the left. First check two things. No sign bans passing. The way ahead is clear.",
+      "simple": "Many two-lane roads in Virginia have no lane lines. On these roads, you may pass a slow vehicle on the left. First, make sure no sign bans passing. Also make sure the way ahead is clear.",
       "official": "Many two-lane roads in Virginia do not have lane markings to separate the lanes. On an unmarked two-lane road, you may pass a slow moving vehicle on the left side if there are no signs prohibiting passing. Make sure that the way is clear.",
       "manualRef": "Section 2, p. 11"
     },
@@ -289,7 +289,7 @@
       "district": "d06-signals",
       "kind": "number",
       "title": "Center turn lane: 150 feet",
-      "simple": "On a three-lane road, check the center lane lines. Broken yellow on both sides: either direction may pass. Solid plus broken yellow on both sides: left turns only. Drive no more than 150 feet in it.",
+      "simple": "On a three-lane road, broken yellow lines on both sides of the center lane let either direction pass. A solid and a broken yellow line on each side mean left turns only. Drive no more than 150 feet in it.",
       "official": "If the center lane is marked by a single broken yellow line on both sides, drivers traveling in either direction may use the center lane for passing. If both sides of the center lane are marked by a solid yellow line and a broken yellow line, drivers traveling in either direction may use the lane for making left turns. However, they may not travel further than 150 feet in this lane.",
       "image": "mark-center-turn-lane",
       "mnemonic": "Center turn lane: in, turn, out within 150 feet.",
@@ -300,7 +300,7 @@
       "district": "d06-signals",
       "kind": "sign",
       "title": "Sharrow: share with bikes",
-      "simple": "A sharrow is a bike symbol painted in the lane. It has two arrow points above it. The lane is too narrow for a car and a bike side by side. Expect bicyclists in the lane.",
+      "simple": "A sharrow is a bike symbol painted in a lane, with two arrowheads above it. The lane is too narrow for a car and a bike to ride side by side. Expect bicyclists in that lane.",
       "official": "A shared lane marking, or sharrow, consists of a bicycle symbol with a double chevron arrow above it and is used on travel lanes too narrow for motor vehicles and bicycles to share side-by-side. Sharrows clarify where bicyclists are encouraged to ride in the lane and remind drivers to expect bicyclists on the road.",
       "image": "mark-sharrow",
       "manualRef": "Section 2, p. 12",
@@ -311,7 +311,7 @@
       "district": "d06-signals",
       "kind": "sign",
       "title": "Bike lane: turning only",
-      "simple": "A bike lane has a bike symbol. It also has a white line, solid or dashed, or green paint. Stay out unless you are turning. Check mirrors and yield to bikes first.",
+      "simple": "A bike lane has a bike symbol. It also has a solid or dashed white line, or green paint. Stay out of it unless you are turning. Before you turn, check your mirrors and yield to bikes.",
       "official": "Bicycle lanes are indicated by a solid or dashed white line or green pavement markings, and a bicyclist symbol. Drivers should not drive in the bicycle lane except when necessary to turn left or right. Before turning, check your mirrors for bicyclists that may be behind you and yield to bicycles in the lane.",
       "image": "mark-bike-lane",
       "manualRef": "Section 2, p. 12"
@@ -321,7 +321,7 @@
       "district": "d06-signals",
       "kind": "sign",
       "title": "Solid white: stay put",
-      "simple": "Solid white lines show turn lanes. They tell you: avoid changing lanes near intersections, ramps and other risky spots. A solid white line also marks the right edge. Stop lines, crosswalks and parking spaces are white.",
+      "simple": "Solid white lines show turn lanes. They tell you to avoid changing lanes near intersections, ramps and other risky spots. A solid white line also marks the road's right edge. Stop lines, crosswalks and parking spaces are white.",
       "official": "Solid white lines show turn lanes and discourage lane changes near intersections, interchange on- and off-ramps, and at other locations where lane changes might be dangerous. Solid white lines also mark the right edge of pavement. Stop lines, crosswalks and parking spaces also are marked by white lines.",
       "image": "mark-solid-white",
       "manualRef": "Section 2, p. 12",
@@ -332,7 +332,7 @@
       "district": "d06-signals",
       "kind": "rule",
       "title": "White lane arrows",
-      "simple": "White arrows are painted in lanes. A curved arrow means you must turn that way. So does a curved arrow with the word ONLY. Curved plus straight arrows mean you may turn or go straight.",
+      "simple": "White arrows are painted in lanes. A curved arrow means you must turn that way. A curved arrow with the word ONLY means the same. A curved arrow and a straight arrow together mean you may turn or go straight.",
       "official": "White lane arrows are curved or straight. If you are in a lane marked with a curved arrow or a curved arrow and the word ONLY, you must turn in the direction of the arrow. If your lane is marked with both a curved and straight arrow, you may turn or go straight.",
       "mnemonic": "Curved arrow alone: must turn. Plus straight: your choice.",
       "manualRef": "Section 2, p. 12"
@@ -364,7 +364,7 @@
       "district": "d06-signals",
       "kind": "sign",
       "title": "Bike box: stop behind it",
-      "simple": "A bike box is a painted box, often green, with a bike symbol. At a red light, stop behind the box, not in it. No right turn on red there. Turning right on green? Signal and yield to bikes.",
+      "simple": "A bike box is a painted box, often green, with a bike symbol. At red lights, stop behind the box, not in it. Do not turn right on red there. When turning right on green, signal and yield to bikes.",
       "official": "Drivers must stop for a red traffic signal behind all bicycle boxes, not inside the box. Bicycle riders will move into the box in front of drivers at the intersection. Right turns on red are not allowed at these intersections. If turning right on a green light, drivers must signal and yield to bicycles on the right.",
       "image": "mark-bike-box",
       "mnemonic": "Bike box: bikes in front, you behind, no right on red.",
@@ -385,7 +385,7 @@
       "district": "d06-signals",
       "kind": "sign",
       "title": "Diamond marks HOV lane",
-      "simple": "A white diamond in the lane marks an HOV lane. In heavy traffic it is for buses, vanpools, carpools, motorcycles and some clean fuel cars. Signs show how many people you need and when.",
+      "simple": "A white diamond in the lane marks an HOV lane. In heavy traffic, it is for buses, vanpools, carpools, motorcycles and some clean fuel cars. Signs show how many people you need and when the rule applies.",
       "official": "HOV lanes are marked by a diamond shape in the center of the lane. They may also be separated by a barrier or solid double white lines. During heavy traffic periods, HOV lanes are reserved for buses, vanpools, carpools, other high occupancy vehicles, motorcycles, and certain clean special fuel vehicles. Road signs show the minimum number of passengers and the times restrictions are in effect. Barrier-separated lanes are reversible. A diamond may also indicate a bus lane.",
       "image": "mark-double-white",
       "mnemonic": "Diamond lane = more people in the car.",
@@ -396,7 +396,7 @@
       "district": "d06-signals",
       "kind": "rule",
       "title": "Toll plazas and E-ZPass",
-      "simple": "Slow down at toll plazas. Have E-ZPass? Follow the purple E-ZPass signs. No E-ZPass? Use cash only lanes. In an E-ZPass-only lane by mistake? Do not stop. A camera snaps your plate. The owner gets a bill.",
+      "simple": "Slow down at toll plazas. With E-ZPass, follow the purple E-ZPass signs. Without E-ZPass, use the cash-only lanes. If you enter an E-ZPass-only lane by mistake, do not stop. A camera photographs your plate, and the owner is billed.",
       "official": "All toll facilities in Virginia accept E-ZPass. If you have a transponder, follow signs with the purple E-ZPass logo; if not, follow signs for cash only lanes. Slow down as you approach toll plazas. If you enter an E-ZPass-only lane by mistake, do not stop. Stopping is unsafe and could cause a rear-end crash. Cameras will photograph the license plate and the registered owner will be billed.",
       "mnemonic": "Wrong toll lane? Don't stop. The camera handles it.",
       "manualRef": "Section 2, p. 13"
@@ -406,7 +406,7 @@
       "district": "d06-signals",
       "kind": "sign",
       "title": "Painted curb colors",
-      "simple": "Painted curbs have special parking rules. White: stop only to pick up or drop off people. Yellow: stop only to load or unload, and stay with your car. Red: do not stop, stand or park.",
+      "simple": "Painted curbs have special rules. At white curbs, stop only to pick up or drop off people. At yellow curbs, stop only to load or unload, and stay with your car. At red curbs, do not stop, stand or park.",
       "official": "A painted curb means that you must follow special rules to park there. Check with the locality for specific meanings. Generally: White - Stop only long enough to pick up or drop off passengers. Yellow - Stop only long enough to load or unload. Stay with your car. Red - Do not stop, stand or park. Some communities use red curbs to indicate no parking zones.",
       "image": "curb-red",
       "mnemonic": "White = people. Yellow = load. Red = no stopping.",
@@ -418,16 +418,16 @@
       "id": "ev-sig-red-light-stop-1",
       "item": "sig-red-light-stop",
       "kind": "action",
-      "prompt": "Red light ahead!",
+      "prompt": "A red light is ahead!",
       "prop": "traffic-light-red",
       "action": "stop",
-      "missLine": "Red light means stop at the stop line and stay stopped."
+      "missLine": "A red light means you must stop at the stop line and stay stopped."
     },
     {
       "id": "ev-sig-red-light-stop-2",
       "item": "sig-red-light-stop",
       "kind": "gates",
-      "prompt": "No stop line. Where do you stop at a red?",
+      "prompt": "Where do you stop at a red light if there is no stop line?",
       "image": "signal-red",
       "choices": [
         "In the intersection",
@@ -435,7 +435,7 @@
         "Past the crosswalk"
       ],
       "answer": 1,
-      "missLine": "With no stop line, stop before the crosswalk or the intersection."
+      "missLine": "If there is no stop line, stop before the crosswalk or before the intersection."
     },
     {
       "id": "ev-sig-red-light-stop-3",
@@ -445,29 +445,29 @@
       "choices": [
         "Everyone, even walkers",
         "Only car drivers",
-        "Drivers and bicyclists only"
+        "Only drivers and bicyclists"
       ],
       "answer": 0,
-      "missLine": "Signals apply to drivers, motorcycle and moped riders, bicyclists and pedestrians."
+      "missLine": "Traffic signals apply to drivers, motorcycle and moped riders, bicyclists and pedestrians."
     },
     {
       "id": "ev-sig-right-on-red-1",
       "item": "sig-right-on-red",
       "kind": "action",
-      "prompt": "Red light. You want to turn right.",
+      "prompt": "The light is red, and you want to turn right.",
       "prop": "traffic-light-red",
       "action": "stop",
-      "missLine": "Before turning right on red, come to a complete stop."
+      "missLine": "Before you turn right on red, come to a complete stop."
     },
     {
       "id": "ev-sig-right-on-red-2",
       "item": "sig-right-on-red",
       "kind": "gates",
-      "prompt": "Turning right on red. What comes first?",
+      "prompt": "What should you do first when turning right on red?",
       "choices": [
-        "Slow and roll through",
-        "Honk, then turn",
-        "Full stop, then look"
+        "Slow down and roll through",
+        "Honk your horn, then turn",
+        "Stop fully, then look"
       ],
       "answer": 2,
       "missLine": "Stop completely, look both ways and yield before turning right on red."
@@ -476,14 +476,14 @@
       "id": "ev-sig-right-on-red-3",
       "item": "sig-right-on-red",
       "kind": "gates",
-      "prompt": "What stops you from turning right on red?",
+      "prompt": "Which of these means you may not turn right on red?",
       "choices": [
         "A No Turn on Red sign",
         "A green light ahead",
         "A broken white line"
       ],
       "answer": 0,
-      "missLine": "No right on red when a No Turn on Red sign or red right arrow shows."
+      "missLine": "Wait for green when you see a No Turn on Red sign or a red right arrow."
     },
     {
       "id": "ev-sig-left-on-red-1",
@@ -491,9 +491,9 @@
       "kind": "gates",
       "prompt": "When can you turn left on a red light?",
       "choices": [
-        "Two-way to two-way",
-        "Any street at night",
-        "One-way to one-way"
+        "When both streets are two-way",
+        "On any street at night",
+        "When both streets are one-way"
       ],
       "answer": 2,
       "missLine": "Left on red is allowed only from a one-way street onto another one-way street."
@@ -502,32 +502,32 @@
       "id": "ev-sig-left-on-red-2",
       "item": "sig-left-on-red",
       "kind": "action",
-      "prompt": "Red light. Left turn onto a one-way street.",
+      "prompt": "The light is red. You are turning left onto a one-way street.",
       "prop": "traffic-light-red",
       "action": "stop",
-      "missLine": "Left on red is one-way to one-way, and only after a complete stop."
+      "missLine": "You may turn left on red only from a one-way street onto a one-way street. Before you turn, come to a complete stop."
     },
     {
       "id": "ev-sig-left-on-red-3",
       "item": "sig-left-on-red",
       "kind": "gates",
-      "prompt": "Red light on a two-way street. May you turn left?",
+      "prompt": "May you turn left at a red light on a two-way street?",
       "choices": [
-        "Yes, after stopping",
-        "No, wait for green",
-        "Yes, if you honk"
+        "Yes, after you stop",
+        "No, wait for a green light",
+        "Yes, if you honk your horn"
       ],
       "answer": 1,
-      "missLine": "Left on red works only from a one-way street onto another one-way street."
+      "missLine": "You may turn left on red only from a one-way street onto another one-way street."
     },
     {
       "id": "ev-sig-red-arrow-1",
       "item": "sig-red-arrow",
       "kind": "action",
-      "prompt": "Red arrow for your left turn.",
+      "prompt": "The signal shows a red arrow for your left turn.",
       "sign": "signal-red-arrow",
       "action": "stop",
-      "missLine": "Stop for a red arrow. Do not turn while it shows."
+      "missLine": "Stop for a red arrow. Do not turn while the red arrow is showing."
     },
     {
       "id": "ev-sig-red-arrow-2",
@@ -536,12 +536,12 @@
       "prompt": "Can you turn on a red arrow in Virginia?",
       "image": "signal-red-arrow",
       "choices": [
-        "Yes, after a stop",
-        "Yes, if no one comes",
-        "Only if a sign allows"
+        "Yes, after you stop",
+        "Yes, if no one is coming",
+        "Only if a sign allows it"
       ],
       "answer": 2,
-      "missLine": "Virginia bans turns on a red arrow unless a sign allows it after a stop."
+      "missLine": "In Virginia, you may not turn on a red arrow unless a sign allows it after a stop."
     },
     {
       "id": "ev-sig-red-arrow-3",
@@ -554,36 +554,36 @@
         "No Turn on Red"
       ],
       "answer": 1,
-      "missLine": "Only a Left (or Right) on Red Arrow After Stop sign allows the turn."
+      "missLine": "Only a sign that says Left or Right on Red Arrow After Stop allows the turn."
     },
     {
       "id": "ev-sig-flashing-red-1",
       "item": "sig-flashing-red",
       "kind": "action",
-      "prompt": "Flashing red light ahead.",
+      "prompt": "A flashing red light is ahead.",
       "prop": "traffic-light-flashing-red",
       "action": "stop",
-      "missLine": "Flashing red means a complete stop, then go when the way is clear."
+      "missLine": "At a flashing red light, come to a complete stop. Go when the way is clear."
     },
     {
       "id": "ev-sig-flashing-red-2",
       "item": "sig-flashing-red",
       "kind": "gates",
-      "prompt": "A flashing red light means:",
+      "prompt": "What does a flashing red light mean?",
       "image": "signal-flashing-red",
       "choices": [
-        "Stop, then go when clear",
-        "Slow down, drive through",
+        "Stop, then go if it is clear",
+        "Slow down and drive through",
         "Stop until it turns green"
       ],
       "answer": 0,
-      "missLine": "Flashing red: stop completely, yield, then go when the way is clear."
+      "missLine": "At a flashing red light, stop completely and yield. Then go when the way is clear."
     },
     {
       "id": "ev-sig-flashing-red-3",
       "item": "sig-flashing-red",
       "kind": "action",
-      "prompt": "Railroad lights flashing. No train in sight.",
+      "prompt": "The railroad lights are flashing. You do not see a train.",
       "prop": "railroad-lights-flashing",
       "action": "stop",
       "missLine": "At flashing red railroad lights, stop even if you do not see a train."
@@ -592,49 +592,49 @@
       "id": "ev-sig-flashing-red-arrow-1",
       "item": "sig-flashing-red-arrow",
       "kind": "gates",
-      "prompt": "Flashing red arrow. What do you do?",
+      "prompt": "What do you do at a flashing red arrow?",
       "choices": [
-        "Turn without stopping",
-        "Stop, then turn when clear",
-        "Wait for a green light"
+        "Turn without stopping first",
+        "Stop, then turn if it is clear",
+        "Wait until the light is green"
       ],
       "answer": 1,
-      "missLine": "Flashing red arrow: stop, yield, then turn when the way is clear."
+      "missLine": "At a flashing red arrow, stop and yield. Then turn when the way is clear."
     },
     {
       "id": "ev-sig-flashing-red-arrow-2",
       "item": "sig-flashing-red-arrow",
       "kind": "gates",
-      "prompt": "No special sign posted. Which red arrow allows a turn after stopping?",
+      "prompt": "If no special sign is posted, which red arrow allows a turn after you stop?",
       "choices": [
-        "Solid red arrow",
-        "Flashing red arrow",
+        "A solid red arrow",
+        "A flashing red arrow",
         "Neither one"
       ],
       "answer": 1,
-      "missLine": "A flashing red arrow lets you turn after a stop. A solid red arrow does not."
+      "missLine": "A flashing red arrow lets you turn after you stop. A solid red arrow does not."
     },
     {
       "id": "ev-sig-yellow-light-1",
       "item": "sig-yellow-light",
       "kind": "action",
-      "prompt": "Light just turned yellow. You are far back.",
+      "prompt": "The light just turned yellow. You are far back from it.",
       "prop": "traffic-light-yellow",
       "action": "stop",
-      "missLine": "Yellow means stop if you have not entered and can stop safely."
+      "missLine": "A yellow light means stop if you have not entered the intersection and can stop safely."
     },
     {
       "id": "ev-sig-yellow-light-2",
       "item": "sig-yellow-light",
       "kind": "gates",
-      "prompt": "You are already in the intersection. Light turns yellow. You:",
+      "prompt": "What do you do if the light turns yellow while you are in the intersection?",
       "choices": [
         "Go through carefully",
         "Stop right there",
         "Back up"
       ],
       "answer": 0,
-      "missLine": "If you are already in the intersection on yellow, go through it cautiously."
+      "missLine": "If you are already in the intersection when the light turns yellow, go through it with care."
     },
     {
       "id": "ev-sig-yellow-light-3",
@@ -644,8 +644,8 @@
       "image": "signal-yellow",
       "choices": [
         "Yes, if it is close",
-        "Only on a highway",
-        "No, never"
+        "Yes, but only on a highway",
+        "No, do not speed up"
       ],
       "answer": 2,
       "missLine": "Do not speed up to beat a yellow light."
@@ -654,24 +654,24 @@
       "id": "ev-sig-flashing-yellow-1",
       "item": "sig-flashing-yellow",
       "kind": "action",
-      "prompt": "Flashing yellow light ahead.",
+      "prompt": "A flashing yellow light is ahead.",
       "prop": "traffic-light-flashing-yellow",
       "action": "slow",
-      "missLine": "Flashing yellow means slow down and proceed with caution."
+      "missLine": "A flashing yellow light means slow down and go with care."
     },
     {
       "id": "ev-sig-flashing-yellow-2",
       "item": "sig-flashing-yellow",
       "kind": "gates",
-      "prompt": "A flashing yellow light means:",
+      "prompt": "What does a flashing yellow light mean?",
       "image": "signal-flashing-yellow",
       "choices": [
-        "Full stop, then go",
-        "Slow down, use caution",
+        "Stop completely, then go",
+        "Slow down and use caution",
         "The light is broken"
       ],
       "answer": 1,
-      "missLine": "Flashing yellow: slow down and proceed with caution."
+      "missLine": "A flashing yellow light means slow down and go with care."
     },
     {
       "id": "ev-sig-flashing-yellow-3",
@@ -679,31 +679,31 @@
       "kind": "gates",
       "prompt": "Why does a road get a flashing yellow light?",
       "choices": [
-        "More danger than normal",
-        "A toll booth is ahead",
-        "Parking is allowed"
+        "Danger is higher than normal",
+        "A toll booth is coming up",
+        "Parking is allowed there"
       ],
       "answer": 0,
-      "missLine": "Flashing yellow lights mark spots with more danger than normal. Slow down."
+      "missLine": "Flashing yellow lights mark places that are more dangerous than normal. Slow down."
     },
     {
       "id": "ev-sig-flashing-yellow-arrow-1",
       "item": "sig-flashing-yellow-arrow",
       "kind": "action",
-      "prompt": "Flashing yellow arrow for your left turn.",
+      "prompt": "You have a flashing yellow arrow for your left turn.",
       "sign": "signal-flashing-yellow-arrow",
       "action": "slow",
-      "missLine": "Flashing yellow arrow: turn only when clear. Yield to oncoming cars and walkers."
+      "missLine": "At a flashing yellow arrow, turn only when the way is clear. Yield to oncoming cars and people walking."
     },
     {
       "id": "ev-sig-flashing-yellow-arrow-2",
       "item": "sig-flashing-yellow-arrow",
       "kind": "gates",
-      "prompt": "Flashing yellow arrow. Who goes first?",
+      "prompt": "Who goes first at a flashing yellow arrow?",
       "image": "signal-flashing-yellow-arrow",
       "choices": [
         "You always do",
-        "Cars behind you",
+        "The cars behind you",
         "Oncoming traffic"
       ],
       "answer": 2,
@@ -713,29 +713,29 @@
       "id": "ev-sig-flashing-yellow-arrow-3",
       "item": "sig-flashing-yellow-arrow",
       "kind": "gates",
-      "prompt": "A flashing yellow arrow lets you:",
+      "prompt": "What does a flashing yellow arrow let you do?",
       "choices": [
         "Turn only on green",
         "Turn if the way is clear",
         "Turn without looking"
       ],
       "answer": 1,
-      "missLine": "Flashing yellow arrow: you may turn if the way is clear, after yielding."
+      "missLine": "At a flashing yellow arrow, you may turn if the way is clear, after you yield."
     },
     {
       "id": "ev-sig-green-light-1",
       "item": "sig-green-light",
       "kind": "action",
-      "prompt": "Green light, road is clear.",
+      "prompt": "The light is green, and the road is clear.",
       "prop": "traffic-light-green",
       "action": "go",
-      "missLine": "Green means go when the way is clear."
+      "missLine": "A green light means you may go when the way is clear."
     },
     {
       "id": "ev-sig-green-light-2",
       "item": "sig-green-light",
       "kind": "gates",
-      "prompt": "Turning left on green, no arrow. Who goes first?",
+      "prompt": "Who goes first when you turn left on a green light without a green arrow?",
       "image": "signal-green",
       "choices": [
         "Oncoming traffic",
@@ -743,7 +743,7 @@
         "The car behind you"
       ],
       "answer": 0,
-      "missLine": "Turning without a green arrow, yield to oncoming traffic and pedestrians."
+      "missLine": "When you turn without a green arrow, yield to oncoming traffic and pedestrians."
     },
     {
       "id": "ev-sig-green-light-3",
@@ -751,32 +751,32 @@
       "kind": "gates",
       "prompt": "What does a steady green light mean?",
       "choices": [
-        "Go fast, no need to look",
+        "Go fast without looking",
         "Stop, then go",
         "Go if the way is clear"
       ],
       "answer": 2,
-      "missLine": "Green means you may go if the way is clear."
+      "missLine": "A green light means you may go if the way is clear."
     },
     {
       "id": "ev-sig-green-arrow-1",
       "item": "sig-green-arrow",
       "kind": "action",
-      "prompt": "Green left arrow for your lane.",
+      "prompt": "The signal for your lane shows a green left arrow.",
       "sign": "signal-green-arrow",
       "action": "go",
-      "missLine": "A green arrow means go in the arrow's direction when clear."
+      "missLine": "A green arrow means you may go in the direction of the arrow when the way is clear."
     },
     {
       "id": "ev-sig-green-arrow-2",
       "item": "sig-green-arrow",
       "kind": "gates",
-      "prompt": "Green arrow pointing left. You may:",
+      "prompt": "What may you do when a green arrow points left?",
       "image": "signal-green-arrow",
       "choices": [
-        "Go straight only",
-        "Turn left if clear",
-        "Turn right only"
+        "Go straight ahead only",
+        "Turn left if it is clear",
+        "Turn only to the right"
       ],
       "answer": 1,
       "missLine": "A green arrow lets you go the way it points, if the way is clear."
@@ -785,20 +785,20 @@
       "id": "ev-sig-pedestrian-still-crossing-1",
       "item": "sig-pedestrian-still-crossing",
       "kind": "action",
-      "prompt": "Light turns green. Walker still crossing.",
+      "prompt": "The light turns green, but a walker is still crossing.",
       "prop": "pedestrian-crosswalk",
       "action": "stop",
-      "missLine": "Let a pedestrian finish crossing before you turn, even on green."
+      "missLine": "Let a pedestrian finish crossing before you turn, even on a green light."
     },
     {
       "id": "ev-sig-pedestrian-still-crossing-2",
       "item": "sig-pedestrian-still-crossing",
       "kind": "gates",
-      "prompt": "Green light, but a walker is still crossing. You:",
+      "prompt": "What should you do if the light is green but a walker is still crossing?",
       "choices": [
         "Let them cross first",
-        "Turn now",
-        "Honk and go"
+        "Turn without waiting",
+        "Honk your horn and go"
       ],
       "answer": 0,
       "missLine": "Let a pedestrian still in the street finish crossing before you turn."
@@ -807,30 +807,30 @@
       "id": "ev-sig-pedestrian-still-crossing-3",
       "item": "sig-pedestrian-still-crossing",
       "kind": "action",
-      "prompt": "Flashing yellow arrow. Person still in crosswalk.",
+      "prompt": "You have a flashing yellow arrow, but a person is still in the crosswalk.",
       "prop": "pedestrian-crosswalk",
       "action": "stop",
-      "missLine": "Let the pedestrian cross before turning on a flashing yellow arrow."
+      "missLine": "Let the pedestrian finish crossing before you turn on a flashing yellow arrow."
     },
     {
       "id": "ev-sig-signal-out-1",
       "item": "sig-signal-out",
       "kind": "action",
-      "prompt": "Traffic lights are dark. Power is out.",
+      "prompt": "The traffic lights are dark. The power is out.",
       "prop": "traffic-light-out",
       "action": "stop",
-      "missLine": "A dark signal means stop and treat it as an all-way stop."
+      "missLine": "A dark signal means you must stop and treat the intersection as an all-way stop."
     },
     {
       "id": "ev-sig-signal-out-2",
       "item": "sig-signal-out",
       "kind": "gates",
-      "prompt": "The signal is dark. Treat it like:",
+      "prompt": "How should you treat a traffic signal that shows no lights?",
       "image": "signal-out",
       "choices": [
-        "A green light",
-        "A yield sign",
-        "An all-way stop"
+        "Like a green light",
+        "Like a yield sign",
+        "Like an all-way stop"
       ],
       "answer": 2,
       "missLine": "When signals show no lights, treat the intersection as an all-way stop."
@@ -839,46 +839,46 @@
       "id": "ev-sig-signal-out-3",
       "item": "sig-signal-out",
       "kind": "gates",
-      "prompt": "Signal is out, but an officer is directing. Follow:",
+      "prompt": "When the signal is out and an officer is directing traffic, what should you follow?",
       "choices": [
         "The dark light",
         "The officer",
         "The car ahead"
       ],
       "answer": 1,
-      "missLine": "If an officer is directing traffic, follow the officer, not the all-way stop rule."
+      "missLine": "If an officer is directing traffic, follow the officer instead of the all-way stop rule."
     },
     {
       "id": "ev-sig-obey-officer-1",
       "item": "sig-obey-officer",
       "kind": "action",
-      "prompt": "Red light, but an officer waves you on.",
+      "prompt": "The light is red, but an officer waves you on.",
       "prop": "traffic-light-red",
       "action": "go",
-      "missLine": "Always follow a police officer's directions, even over a signal."
+      "missLine": "Always follow a police officer's directions, even if the signal says something different."
     },
     {
       "id": "ev-sig-obey-officer-2",
       "item": "sig-obey-officer",
       "kind": "gates",
-      "prompt": "The officer and the light disagree. Obey:",
+      "prompt": "When an officer and a traffic light disagree, which one should you obey?",
       "choices": [
         "The officer",
         "The traffic light",
-        "Whichever is faster"
+        "Whichever one is faster"
       ],
       "answer": 0,
-      "missLine": "Always follow a police officer's direction over signs and signals."
+      "missLine": "Always follow a police officer's directions instead of signs and signals."
     },
     {
       "id": "ev-sig-obey-officer-3",
       "item": "sig-obey-officer",
       "kind": "gates",
-      "prompt": "Cutting through a lot to avoid a light is:",
+      "prompt": "Is it legal to cut through a parking lot to avoid a traffic light?",
       "choices": [
-        "Legal if the lot is empty",
-        "Legal at night",
-        "Against the law"
+        "Yes, if the lot is empty",
+        "Yes, at night",
+        "No, it is against the law"
       ],
       "answer": 2,
       "missLine": "Cutting through a parking lot or field to avoid a signal is against the law."
@@ -887,21 +887,21 @@
       "id": "ev-sig-lane-red-x-1",
       "item": "sig-lane-red-x",
       "kind": "action",
-      "prompt": "Red X over the right lane.",
+      "prompt": "A red X hangs over the right lane.",
       "sign": "signal-lane-red-x",
       "action": "move-left",
-      "missLine": "Never drive in a lane with a red X. Move to an open lane."
+      "missLine": "Never drive in a lane marked with a red X. Move to an open lane."
     },
     {
       "id": "ev-sig-lane-red-x-2",
       "item": "sig-lane-red-x",
       "kind": "gates",
-      "prompt": "A red X over your lane means:",
+      "prompt": "What does a red X over your lane mean?",
       "image": "signal-lane-red-x",
       "choices": [
         "Leave this lane soon",
-        "Never drive in it",
-        "Lane is open"
+        "Never drive in this lane",
+        "Drive in this lane"
       ],
       "answer": 1,
       "missLine": "Never drive in a lane marked with a red X."
@@ -910,7 +910,7 @@
       "id": "ev-sig-lane-red-x-3",
       "item": "sig-lane-red-x",
       "kind": "gates",
-      "prompt": "Overhead lane use signals tell you:",
+      "prompt": "What do overhead lane use signals tell you?",
       "choices": [
         "The speed limit",
         "Where to park",
@@ -923,31 +923,31 @@
       "id": "ev-sig-lane-yellow-x-1",
       "item": "sig-lane-yellow-x",
       "kind": "action",
-      "prompt": "Yellow X over the right lane.",
+      "prompt": "A yellow X is over the right lane.",
       "sign": "signal-lane-yellow-x",
       "action": "move-left",
-      "missLine": "A yellow X means move out of that lane as soon as it is safe."
+      "missLine": "A yellow X means you should move out of that lane as soon as it is safe."
     },
     {
       "id": "ev-sig-lane-yellow-x-2",
       "item": "sig-lane-yellow-x",
       "kind": "gates",
-      "prompt": "Yellow arrow slants down over your lane. This means:",
+      "prompt": "What does a yellow arrow slanting down over your lane mean?",
       "image": "signal-lane-yellow-arrow-down",
       "choices": [
-        "Lane is open to drive",
+        "Drive in this lane",
         "Turn left only",
-        "Move out when safe"
+        "Move out when it is safe"
       ],
       "answer": 2,
-      "missLine": "A yellow slanted arrow means move out of the lane when it is safe."
+      "missLine": "A slanted yellow arrow means you should move out of the lane when it is safe."
     },
     {
       "id": "ev-sig-lane-yellow-x-3",
       "item": "sig-lane-yellow-x",
       "kind": "action",
-      "prompt": "Yellow slanted arrow over the right lane.",
-      "missLine": "A yellow slanted arrow means leave that lane as soon as it is safe.",
+      "prompt": "A yellow slanted arrow is over the right lane.",
+      "missLine": "A yellow slanted arrow means you should leave that lane as soon as it is safe.",
       "sign": "signal-lane-yellow-arrow-down",
       "action": "move-left"
     },
@@ -955,21 +955,21 @@
       "id": "ev-sig-lane-green-arrow-1",
       "item": "sig-lane-green-arrow",
       "kind": "action",
-      "prompt": "Green arrow over your lane.",
+      "prompt": "A green arrow is over your lane.",
       "sign": "signal-lane-green-arrow",
       "action": "go",
-      "missLine": "A green arrow lane signal means you may drive in that lane."
+      "missLine": "A green arrow over a lane means you may drive in that lane."
     },
     {
       "id": "ev-sig-lane-green-arrow-2",
       "item": "sig-lane-green-arrow",
       "kind": "gates",
-      "prompt": "Green down arrow over a lane. You:",
+      "prompt": "What does a green arrow pointing down over a lane mean?",
       "image": "signal-lane-green-arrow",
       "choices": [
-        "Must leave it",
-        "May drive in it",
-        "Must turn left"
+        "You must leave it",
+        "You may drive in it",
+        "You must turn left"
       ],
       "answer": 1,
       "missLine": "A green arrow over a lane means you may drive in it."
@@ -978,15 +978,15 @@
       "id": "ev-sig-lane-turn-arrow-1",
       "item": "sig-lane-turn-arrow",
       "kind": "gates",
-      "prompt": "Left-turn arrow over a lane. Enter it to:",
+      "prompt": "Why may you enter a lane with a left-turn arrow over it?",
       "image": "signal-lane-left-turn",
       "choices": [
-        "Pass slow cars",
-        "Turn left only",
-        "Drive straight"
+        "To pass slow cars",
+        "To turn left only",
+        "To drive straight"
       ],
       "answer": 1,
-      "missLine": "Enter a left-turn arrow lane only to turn in the arrow's direction."
+      "missLine": "Enter a lane with a left-turn arrow only to turn in the direction of the arrow."
     },
     {
       "id": "ev-sig-lane-turn-arrow-2",
@@ -994,9 +994,9 @@
       "kind": "gates",
       "prompt": "May a driver go straight in a left-turn arrow lane?",
       "choices": [
-        "Yes, any time",
-        "Yes, at night",
-        "No, turning only"
+        "Yes, at any time of day",
+        "Yes, during the night",
+        "No, you may only turn"
       ],
       "answer": 2,
       "missLine": "A left-turn arrow lane is only for turning the way the arrow points."
@@ -1005,47 +1005,47 @@
       "id": "ev-sig-phb-1",
       "item": "sig-phb",
       "kind": "action",
-      "prompt": "Beacon shows two solid red lights.",
+      "prompt": "The pedestrian hybrid beacon shows two solid red lights.",
       "sign": "signal-phb",
       "action": "stop",
-      "missLine": "Two solid red lights on a beacon mean stop for pedestrians."
+      "missLine": "Two solid red lights on a pedestrian hybrid beacon mean you must stop for pedestrians."
     },
     {
       "id": "ev-sig-phb-2",
       "item": "sig-phb",
       "kind": "gates",
-      "prompt": "Beacon reds flash back and forth. You:",
+      "prompt": "What should you do when the beacon's red lights flash back and forth?",
       "image": "signal-phb",
       "choices": [
         "Go if the crosswalk is clear",
         "Stay stopped until dark",
-        "Speed through"
+        "Speed through the crosswalk"
       ],
       "answer": 0,
-      "missLine": "Reds flashing back and forth: if the crosswalk is clear, go with care."
+      "missLine": "When the red lights flash back and forth, go with care if the crosswalk is clear."
     },
     {
       "id": "ev-sig-phb-3",
       "item": "sig-phb",
       "kind": "gates",
-      "prompt": "The beacon's yellow light turns solid. This means:",
+      "prompt": "What does it mean when the beacon's yellow light turns solid?",
       "choices": [
         "Speed up",
         "Turn right only",
         "Get ready to stop"
       ],
       "answer": 2,
-      "missLine": "A solid yellow on the beacon means get ready to stop."
+      "missLine": "A solid yellow light on the beacon means you should get ready to stop."
     },
     {
       "id": "ev-sig-red-reflectors-1",
       "item": "sig-red-reflectors",
       "kind": "gates",
-      "prompt": "Red reflectors on the road face you. You are:",
+      "prompt": "What does it mean when red reflectors on the road face you?",
       "choices": [
-        "Going the wrong way",
-        "In a bike lane",
-        "Near a school"
+        "You are driving the wrong way",
+        "You are driving in a bike lane",
+        "You are driving near a school"
       ],
       "answer": 0,
       "missLine": "Red reflectors facing you mean you are going the wrong way."
@@ -1054,11 +1054,11 @@
       "id": "ev-sig-red-reflectors-2",
       "item": "sig-red-reflectors",
       "kind": "gates",
-      "prompt": "Red reflectors on the pavement mark areas that are:",
+      "prompt": "What do red reflectors on the pavement mark?",
       "choices": [
-        "Open for parking",
-        "Not to be entered",
-        "Open for passing"
+        "Areas open for parking",
+        "Areas you must not enter",
+        "Areas open for passing"
       ],
       "answer": 1,
       "missLine": "Red reflectors mark areas you must not enter or use."
@@ -1067,11 +1067,11 @@
       "id": "ev-sig-broken-yellow-1",
       "item": "sig-broken-yellow",
       "kind": "gates",
-      "prompt": "Yellow center lines mean traffic is:",
+      "prompt": "What do yellow center lines mean?",
       "choices": [
-        "Going both ways",
-        "Going one way",
-        "For bikes only"
+        "Traffic goes both ways",
+        "Traffic goes one way",
+        "The road is for bikes only"
       ],
       "answer": 0,
       "missLine": "Yellow center lines mean two-way traffic flowing in opposite directions."
@@ -1080,126 +1080,126 @@
       "id": "ev-sig-broken-yellow-2",
       "item": "sig-broken-yellow",
       "kind": "gates",
-      "prompt": "Broken yellow center line. May you pass?",
+      "prompt": "May you pass when the center line is a broken yellow line?",
       "image": "mark-broken-yellow",
       "choices": [
-        "Never",
-        "Yes, on the right",
-        "Yes, on the left if clear"
+        "No, you may never pass",
+        "Yes, on the right side",
+        "Yes, on the left if it is clear"
       ],
       "answer": 2,
-      "missLine": "Broken yellow: passing on the left is allowed when the way ahead is clear."
+      "missLine": "With a broken yellow line, passing on the left is allowed when the way ahead is clear."
     },
     {
       "id": "ev-sig-broken-yellow-3",
       "item": "sig-broken-yellow",
       "kind": "gates",
-      "prompt": "Broken yellow line. Who may pass?",
+      "prompt": "Who may pass when the center line is broken yellow?",
       "choices": [
-        "Only your side",
-        "Either direction",
-        "Nobody"
+        "Only drivers on your side",
+        "Drivers in either direction",
+        "No drivers"
       ],
       "answer": 1,
-      "missLine": "With a broken yellow line, passing is allowed in either direction when clear."
+      "missLine": "With a broken yellow line, passing is allowed in either direction when the way ahead is clear."
     },
     {
       "id": "ev-sig-solid-broken-yellow-1",
       "item": "sig-solid-broken-yellow",
       "kind": "gates",
-      "prompt": "Broken yellow on your side, solid on theirs. May you pass?",
+      "prompt": "If your side's line is broken yellow and the other line is solid, may you pass?",
       "image": "mark-solid-broken-yellow",
       "choices": [
-        "Yes, when clear",
-        "No, never",
-        "Only trucks may"
+        "Yes, when the way is clear",
+        "No, you may never pass",
+        "Only trucks may pass"
       ],
       "answer": 0,
-      "missLine": "You may pass from the broken line side when the way is clear."
+      "missLine": "You may pass from the side with the broken line when the way is clear."
     },
     {
       "id": "ev-sig-solid-broken-yellow-2",
       "item": "sig-solid-broken-yellow",
       "kind": "gates",
-      "prompt": "Solid yellow on your side. May you pass a slow car?",
+      "prompt": "If the yellow line on your side is solid, may you pass a slow car?",
       "image": "mark-solid-broken-yellow",
       "choices": [
-        "Yes, if clear",
+        "Yes, if the way is clear",
         "Yes, on the right",
-        "No, stay behind"
+        "No, stay behind the car"
       ],
       "answer": 2,
-      "missLine": "Solid line on your side means no passing cars. Stay behind."
+      "missLine": "When the solid line is on your side, you may not pass cars. Stay behind the slow car."
     },
     {
       "id": "ev-sig-solid-broken-yellow-3",
       "item": "sig-solid-broken-yellow",
       "kind": "gates",
-      "prompt": "Solid yellow on your side. You may cross to pass:",
+      "prompt": "Which of these may you pass by crossing a solid yellow line on your side?",
       "choices": [
-        "A slow car",
-        "A bicyclist, if clear",
-        "A slow truck"
+        "A slow car ahead",
+        "A bicyclist, if it is clear",
+        "A slow truck ahead"
       ],
       "answer": 1,
-      "missLine": "From the solid side, cross only to pass walkers, bikes, scooters or skateboards safely."
+      "missLine": "On the side with the solid line, you may cross only to pass walkers, bicyclists, and scooter or skateboard riders safely."
     },
     {
       "id": "ev-sig-solid-broken-yellow-4",
       "item": "sig-solid-broken-yellow",
       "kind": "action",
-      "prompt": "Solid yellow on your side. Slow truck ahead.",
+      "prompt": "A solid yellow line is on your side. A slow truck is ahead.",
       "prop": "truck-ahead",
       "sign": "mark-solid-broken-yellow",
       "action": "slow",
-      "missLine": "Solid line on your side means no passing cars. Slow down and stay behind."
+      "missLine": "A solid line on your side means you may not pass cars. Slow down and stay behind the truck."
     },
     {
       "id": "ev-sig-double-solid-yellow-1",
       "item": "sig-double-solid-yellow",
       "kind": "action",
-      "prompt": "Slow truck ahead. Double yellow lines.",
+      "prompt": "A slow truck is ahead. The road has double yellow lines.",
       "prop": "truck-ahead",
       "action": "slow",
-      "missLine": "No passing over double solid yellow lines. Slow down and stay behind."
+      "missLine": "Do not pass where there are double solid yellow lines. Slow down and stay behind the truck."
     },
     {
       "id": "ev-sig-double-solid-yellow-2",
       "item": "sig-double-solid-yellow",
       "kind": "gates",
-      "prompt": "Double solid yellow lines. When may you cross them?",
+      "prompt": "When may you cross double solid yellow lines?",
       "image": "mark-double-solid-yellow",
       "choices": [
-        "To pass a slow car",
-        "To turn left",
-        "To pass on a hill"
+        "When passing a slow car",
+        "When turning left",
+        "When passing on a hill"
       ],
       "answer": 1,
-      "missLine": "Cross double yellow only to turn left or pass walkers and bikes safely."
+      "missLine": "You may cross double solid yellow lines only to turn left or to pass walkers and bicyclists safely."
     },
     {
       "id": "ev-sig-double-solid-yellow-3",
       "item": "sig-double-solid-yellow",
       "kind": "gates",
-      "prompt": "Double yellow. Bike ahead. Other lane clear. You may:",
+      "prompt": "How may you pass a bicyclist on double yellow lines when the other lane is clear?",
       "choices": [
-        "Cross to pass safely",
-        "Honk until they move",
-        "Pass on the right"
+        "By crossing the lines safely",
+        "By honking until they move",
+        "By passing on the right"
       ],
       "answer": 0,
-      "missLine": "You may cross double yellow to pass a bicyclist when the other lane is clear."
+      "missLine": "You may cross double yellow lines to pass a bicyclist when the other lane is clear."
     },
     {
       "id": "ev-sig-broken-white-1",
       "item": "sig-broken-white",
       "kind": "gates",
-      "prompt": "Broken white lines separate lanes going:",
+      "prompt": "Which lanes do broken white lines separate?",
       "image": "mark-broken-white",
       "choices": [
-        "Opposite ways",
-        "Into parking",
-        "The same way"
+        "Lanes going opposite ways",
+        "Lanes going into parking",
+        "Lanes going the same way"
       ],
       "answer": 2,
       "missLine": "Broken white lines separate lanes going the same direction."
@@ -1212,16 +1212,16 @@
       "choices": [
         "Yes, with caution",
         "No, never",
-        "Only to turn left"
+        "Yes, only to turn left"
       ],
       "answer": 0,
-      "missLine": "You may change lanes with caution across a broken white line."
+      "missLine": "You may change lanes across a broken white line, but do it with caution."
     },
     {
       "id": "ev-sig-dotted-white-1",
       "item": "sig-dotted-white",
       "kind": "gates",
-      "prompt": "Dotted white lines in an intersection help you:",
+      "prompt": "What do dotted white lines in an intersection help you do?",
       "image": "mark-dotted-white",
       "choices": [
         "Find parking",
@@ -1235,7 +1235,7 @@
       "id": "ev-sig-dotted-white-2",
       "item": "sig-dotted-white",
       "kind": "gates",
-      "prompt": "Dotted white lines often guide:",
+      "prompt": "What do dotted white lines often guide?",
       "choices": [
         "School buses",
         "Parked cars",
@@ -1248,37 +1248,37 @@
       "id": "ev-sig-dotted-white-3",
       "item": "sig-dotted-white",
       "kind": "gates",
-      "prompt": "Dotted white lines can mark the start of:",
+      "prompt": "What can dotted white lines mark the start of?",
       "choices": [
         "A school zone",
         "A turn lane",
         "A toll plaza"
       ],
       "answer": 1,
-      "missLine": "Dotted white lines show the opening of a turn lane or entrance/exit lanes."
+      "missLine": "Dotted white lines show where a turn lane, an entrance lane or an exit lane begins."
     },
     {
       "id": "ev-sig-unmarked-road-1",
       "item": "sig-unmarked-road",
       "kind": "gates",
-      "prompt": "Two-lane road, no lines. Pass a slow car on:",
+      "prompt": "Where may you pass a slow car on a two-lane road with no lines?",
       "choices": [
-        "The left",
-        "The right",
-        "The shoulder"
+        "On the left",
+        "On the right",
+        "On the shoulder"
       ],
       "answer": 0,
-      "missLine": "On an unmarked two-lane road, pass on the left when clear and allowed."
+      "missLine": "On an unmarked two-lane road, you may pass on the left when the way is clear and no sign bans passing."
     },
     {
       "id": "ev-sig-unmarked-road-2",
       "item": "sig-unmarked-road",
       "kind": "gates",
-      "prompt": "Unmarked two-lane road. When can you pass?",
+      "prompt": "When can you pass on an unmarked two-lane road?",
       "choices": [
         "Never",
         "Only on curves",
-        "Clear way and no ban sign"
+        "When it is clear and not banned"
       ],
       "answer": 2,
       "missLine": "You may pass on the left if no signs prohibit it and the way is clear."
@@ -1287,24 +1287,24 @@
       "id": "ev-sig-yield-line-1",
       "item": "sig-yield-line",
       "kind": "action",
-      "prompt": "Triangles painted across your lane ahead.",
+      "prompt": "A row of triangles is painted across your lane ahead.",
       "sign": "mark-yield-line",
       "action": "slow",
-      "missLine": "A yield line shows where to yield, or stop if needed."
+      "missLine": "A yield line shows the point where you must yield, or stop if you need to."
     },
     {
       "id": "ev-sig-yield-line-2",
       "item": "sig-yield-line",
       "kind": "gates",
-      "prompt": "A row of triangles across the road is a:",
+      "prompt": "What do you call a row of triangles across the road?",
       "image": "mark-yield-line",
       "choices": [
-        "Stop line",
-        "Yield line",
-        "Crosswalk"
+        "A stop line",
+        "A yield line",
+        "A crosswalk"
       ],
       "answer": 1,
-      "missLine": "A line of triangles is a yield line: yield there, or stop if needed."
+      "missLine": "A row of triangles is a yield line. Yield there, or stop if needed."
     },
     {
       "id": "ev-sig-yield-line-3",
@@ -1312,9 +1312,9 @@
       "kind": "gates",
       "prompt": "Where do you often see a yield line?",
       "choices": [
-        "Roundabout entrance",
-        "Parking lot",
-        "Toll plaza"
+        "At a roundabout entrance",
+        "In a parking lot",
+        "At a toll plaza"
       ],
       "answer": 0,
       "missLine": "Yield lines are often at the entrance of a roundabout."
@@ -1323,7 +1323,7 @@
       "id": "ev-sig-center-lane-1",
       "item": "sig-center-lane",
       "kind": "gates",
-      "prompt": "Center turn lane: how far may you drive in it?",
+      "prompt": "How far may you drive in a center turn lane?",
       "image": "mark-center-turn-lane",
       "choices": [
         "50 feet",
@@ -1331,26 +1331,26 @@
         "150 feet"
       ],
       "answer": 2,
-      "missLine": "In a center left-turn lane, travel no more than 150 feet."
+      "missLine": "In a center turn lane, you may drive no more than 150 feet."
     },
     {
       "id": "ev-sig-center-lane-2",
       "item": "sig-center-lane",
       "kind": "gates",
-      "prompt": "Center lane with broken yellow on both sides is for:",
+      "prompt": "What is a center lane with broken yellow lines on both sides for?",
       "choices": [
         "Parking",
         "Bikes only",
         "Passing"
       ],
       "answer": 2,
-      "missLine": "Broken yellow on both sides: either direction may use the center lane to pass."
+      "missLine": "With broken yellow lines on both sides, drivers going either way may use the center lane to pass."
     },
     {
       "id": "ev-sig-center-lane-3",
       "item": "sig-center-lane",
       "kind": "gates",
-      "prompt": "Center lane with solid and broken yellow on both sides is for:",
+      "prompt": "What is a center lane with solid and broken yellow lines on both sides for?",
       "image": "mark-center-turn-lane",
       "choices": [
         "Passing",
@@ -1358,18 +1358,18 @@
         "Parking"
       ],
       "answer": 1,
-      "missLine": "Solid and broken yellow on both sides marks a center left-turn lane."
+      "missLine": "Solid and broken yellow lines on both sides mark a center left-turn lane."
     },
     {
       "id": "ev-sig-sharrow-1",
       "item": "sig-sharrow",
       "kind": "gates",
-      "prompt": "Bike symbol with two arrow points in your lane means:",
+      "prompt": "What does a bike symbol with two arrow points in your lane mean?",
       "image": "mark-sharrow",
       "choices": [
-        "Share the lane with bikes",
-        "Bike parking",
-        "Bikes are banned"
+        "You share the lane with bikes",
+        "It is a bike parking area",
+        "Bikes are banned here"
       ],
       "answer": 0,
       "missLine": "A sharrow reminds you to expect bicyclists riding in the lane."
@@ -1378,32 +1378,32 @@
       "id": "ev-sig-sharrow-2",
       "item": "sig-sharrow",
       "kind": "action",
-      "prompt": "Sharrow lane. Bicyclist riding ahead.",
+      "prompt": "This lane has a sharrow. A bicyclist is riding ahead.",
       "prop": "cyclist-ahead",
       "action": "slow",
-      "missLine": "Sharrows mean expect bicyclists in the lane. Slow down and give them room."
+      "missLine": "A sharrow means you should expect bicyclists in the lane. Slow down and give them room."
     },
     {
       "id": "ev-sig-sharrow-3",
       "item": "sig-sharrow",
       "kind": "gates",
-      "prompt": "Sharrows are used where lanes are:",
+      "prompt": "How would you describe a lane that has a sharrow?",
       "choices": [
-        "Too narrow for side by side",
+        "Too narrow to share side by side",
         "Extra wide",
         "Closed to cars"
       ],
       "answer": 0,
-      "missLine": "Sharrows mark lanes too narrow for cars and bikes side by side."
+      "missLine": "Sharrows mark lanes too narrow for cars and bikes to share side by side."
     },
     {
       "id": "ev-sig-bike-lane-1",
       "item": "sig-bike-lane",
       "kind": "action",
-      "prompt": "Turning right. Bicyclist in the bike lane.",
+      "prompt": "You are turning right. A bicyclist is in the bike lane.",
       "prop": "cyclist-ahead",
       "action": "stop",
-      "missLine": "Before turning across a bike lane, check mirrors and yield to bicyclists."
+      "missLine": "Before you turn across a bike lane, check your mirrors and yield to bicyclists."
     },
     {
       "id": "ev-sig-bike-lane-2",
@@ -1412,22 +1412,22 @@
       "prompt": "When may a car drive in a bike lane?",
       "image": "mark-bike-lane",
       "choices": [
-        "To pass slow cars",
-        "To park",
+        "When passing slow cars",
+        "When parking",
         "Only when turning"
       ],
       "answer": 2,
-      "missLine": "Drive in a bike lane only when necessary to turn left or right."
+      "missLine": "Drive in a bike lane only when you need to turn left or right."
     },
     {
       "id": "ev-sig-bike-lane-3",
       "item": "sig-bike-lane",
       "kind": "gates",
-      "prompt": "Green paint and a bike symbol mark a:",
+      "prompt": "What do green paint and a bike symbol mark?",
       "choices": [
-        "Bus lane",
-        "Bike lane",
-        "HOV lane"
+        "A bus lane",
+        "A bike lane",
+        "An HOV lane"
       ],
       "answer": 1,
       "missLine": "Green markings and a bicyclist symbol show a bicycle lane."
@@ -1436,7 +1436,7 @@
       "id": "ev-sig-solid-white-1",
       "item": "sig-solid-white",
       "kind": "gates",
-      "prompt": "Solid white line near an intersection means:",
+      "prompt": "What does a solid white line near an intersection mean?",
       "image": "mark-solid-white",
       "choices": [
         "Avoid changing lanes",
@@ -1444,26 +1444,26 @@
         "Pass other cars freely"
       ],
       "answer": 0,
-      "missLine": "Solid white lines discourage lane changes near intersections and ramps."
+      "missLine": "Solid white lines tell you to avoid changing lanes near intersections and ramps."
     },
     {
       "id": "ev-sig-solid-white-2",
       "item": "sig-solid-white",
       "kind": "gates",
-      "prompt": "A solid white line on the right side marks:",
+      "prompt": "What does a solid white line on the right side of the road mark?",
       "choices": [
-        "Center of the road",
-        "Right edge of pavement",
+        "The center of the road",
+        "The right edge of the pavement",
         "A bus stop"
       ],
       "answer": 1,
-      "missLine": "Solid white lines also mark the right edge of the pavement."
+      "missLine": "A solid white line also marks the right edge of the pavement."
     },
     {
       "id": "ev-sig-solid-white-3",
       "item": "sig-solid-white",
       "kind": "gates",
-      "prompt": "Stop lines and crosswalks are painted what color?",
+      "prompt": "What color are stop lines and crosswalks painted?",
       "choices": [
         "Yellow",
         "Red",
@@ -1476,11 +1476,11 @@
       "id": "ev-sig-lane-arrows-1",
       "item": "sig-lane-arrows",
       "kind": "gates",
-      "prompt": "Your lane has a painted curved arrow and ONLY. You:",
+      "prompt": "What is the rule in a lane marked with a curved arrow and the word ONLY?",
       "choices": [
-        "May go straight",
-        "Must turn that way",
-        "May turn either way"
+        "You may go straight",
+        "You must turn with the arrow",
+        "You may turn either way"
       ],
       "answer": 1,
       "missLine": "A curved arrow with ONLY means you must turn in the arrow's direction."
@@ -1489,24 +1489,24 @@
       "id": "ev-sig-lane-arrows-2",
       "item": "sig-lane-arrows",
       "kind": "gates",
-      "prompt": "Lane has painted curved and straight arrows. You may:",
+      "prompt": "What is the rule in a lane with both a curved arrow and a straight arrow?",
       "choices": [
-        "Turn or go straight",
-        "Turn only",
-        "Go straight only"
+        "You may turn or go straight",
+        "You may only turn",
+        "You may only go straight"
       ],
       "answer": 0,
-      "missLine": "Curved plus straight arrow: you may turn or go straight."
+      "missLine": "A lane with both a curved arrow and a straight arrow lets you turn or go straight."
     },
     {
       "id": "ev-sig-wrong-way-arrows-1",
       "item": "sig-wrong-way-arrows",
       "kind": "gates",
-      "prompt": "You are driving against painted lane arrows. You are:",
+      "prompt": "What is true if you are driving against painted lane arrows?",
       "choices": [
-        "In a turn lane",
-        "In an HOV lane",
-        "Going the wrong way"
+        "You are in a turn lane",
+        "You are in an HOV lane",
+        "You are going the wrong way"
       ],
       "answer": 2,
       "missLine": "Driving against lane arrows means you are going the wrong way."
@@ -1515,14 +1515,14 @@
       "id": "ev-sig-wrong-way-arrows-2",
       "item": "sig-wrong-way-arrows",
       "kind": "gates",
-      "prompt": "You are driving against wrong-way arrows. You should:",
+      "prompt": "What should you do if you are driving against wrong-way arrows?",
       "choices": [
-        "Slow down, pull over",
+        "Slow down and pull over",
         "Speed up",
         "Keep driving"
       ],
       "answer": 0,
-      "missLine": "If you are against wrong-way arrows, immediately slow down and pull over."
+      "missLine": "If you are driving against wrong-way arrows, slow down and pull over right away."
     },
     {
       "id": "ev-sig-double-white-1",
@@ -1532,8 +1532,8 @@
       "image": "mark-double-white",
       "choices": [
         "Yes, with care",
-        "Only to pass",
-        "No, never cross"
+        "Yes, only to pass",
+        "No, never"
       ],
       "answer": 2,
       "missLine": "You may not cross double solid white lines."
@@ -1542,47 +1542,47 @@
       "id": "ev-sig-double-white-2",
       "item": "sig-double-white",
       "kind": "gates",
-      "prompt": "Double white lines often separate:",
+      "prompt": "What do double white lines often separate?",
       "choices": [
-        "Two-way traffic",
-        "An HOV lane from others",
-        "Parking spaces"
+        "Traffic going both ways",
+        "An HOV lane from other lanes",
+        "Rows of parking spaces"
       ],
       "answer": 1,
-      "missLine": "Double white lines often separate a special use lane like HOV."
+      "missLine": "Double white lines often separate a special use lane, such as an HOV lane, from other lanes."
     },
     {
       "id": "ev-sig-double-white-3",
       "item": "sig-double-white",
       "kind": "gates",
-      "prompt": "Special use lane behind double white lines. You may enter it:",
+      "prompt": "When and where may you enter a special use lane separated by double white lines?",
       "choices": [
         "Anywhere you like",
-        "Where signs allow",
+        "Where signs allow it",
         "Only at night"
       ],
       "answer": 1,
-      "missLine": "Enter a special use lane only where signs and markings allow."
+      "missLine": "Enter a special use lane only where signs and markings allow it."
     },
     {
       "id": "ev-sig-bike-box-1",
       "item": "sig-bike-box",
       "kind": "action",
-      "prompt": "Red light. Green bike box ahead.",
+      "prompt": "The light is red. A green bike box is ahead.",
       "prop": "stop-line",
       "action": "stop",
-      "missLine": "At a red light, stop behind the bike box, never inside it."
+      "missLine": "At a red light, stop behind the bike box. Never stop inside it."
     },
     {
       "id": "ev-sig-bike-box-2",
       "item": "sig-bike-box",
       "kind": "gates",
-      "prompt": "Red light at a bike box intersection. May you turn right?",
+      "prompt": "May you turn right on a red light at an intersection with a bike box?",
       "image": "mark-bike-box",
       "choices": [
         "Yes, after stopping",
-        "Only if no bikes",
-        "No turn on red"
+        "Yes, only if no bikes are near",
+        "No, not on a red light"
       ],
       "answer": 2,
       "missLine": "Right turns on red are not allowed at bike box intersections."
@@ -1604,12 +1604,12 @@
       "id": "ev-sig-bus-only-1",
       "item": "sig-bus-only",
       "kind": "gates",
-      "prompt": "Red pavement and BUS ONLY text mean:",
+      "prompt": "What kind of lane has red pavement and the words BUS ONLY?",
       "image": "mark-bus-only",
       "choices": [
-        "Fire lane",
-        "Bus-only lane",
-        "Bike lane"
+        "A fire lane",
+        "A bus-only lane",
+        "A bike lane"
       ],
       "answer": 1,
       "missLine": "BUS ONLY markings and red pavement show a bus-only lane."
@@ -1618,11 +1618,11 @@
       "id": "ev-sig-bus-only-2",
       "item": "sig-bus-only",
       "kind": "gates",
-      "prompt": "Red-colored pavement in a lane can mark a:",
+      "prompt": "What kind of lane can red-colored pavement mark?",
       "choices": [
-        "Bus-only lane",
-        "Passing lane",
-        "Parking lane"
+        "A bus-only lane",
+        "A passing lane",
+        "A parking lane"
       ],
       "answer": 0,
       "missLine": "Red-colored pavement can mark a bus-only lane."
@@ -1631,7 +1631,7 @@
       "id": "ev-sig-hov-diamond-1",
       "item": "sig-hov-diamond",
       "kind": "gates",
-      "prompt": "White diamond painted in the lane. This lane is:",
+      "prompt": "What kind of lane has a white diamond painted in it?",
       "image": "mark-double-white",
       "choices": [
         "A bike lane",
@@ -1645,14 +1645,14 @@
       "id": "ev-sig-hov-diamond-2",
       "item": "sig-hov-diamond",
       "kind": "gates",
-      "prompt": "HOV lanes separated by a barrier are:",
+      "prompt": "What is true about HOV lanes that are separated by a barrier?",
       "choices": [
-        "Always closed",
-        "Reversible",
-        "For trucks only"
+        "They are always closed",
+        "They are reversible",
+        "They are for trucks only"
       ],
       "answer": 1,
-      "missLine": "Barrier-separated HOV lanes are reversible: direction changes by time of day."
+      "missLine": "HOV lanes with a barrier are reversible. Their direction changes at different times of day."
     },
     {
       "id": "ev-sig-hov-diamond-3",
@@ -1671,82 +1671,82 @@
       "id": "ev-sig-toll-plazas-1",
       "item": "sig-toll-plazas",
       "kind": "gates",
-      "prompt": "You enter an E-ZPass-only toll lane by mistake. You:",
+      "prompt": "What should you do if you enter an E-ZPass-only toll lane by mistake?",
       "choices": [
         "Stop and back up",
         "Stop and wait",
         "Drive on through"
       ],
       "answer": 2,
-      "missLine": "In an E-ZPass-only lane by mistake? Do not stop. Stopping could cause a crash. The owner gets billed."
+      "missLine": "If you enter an E-ZPass-only lane by mistake, do not stop. Stopping could cause a crash."
     },
     {
       "id": "ev-sig-toll-plazas-2",
       "item": "sig-toll-plazas",
       "kind": "gates",
-      "prompt": "E-ZPass signs have what color logo?",
+      "prompt": "What color is the logo on E-ZPass signs?",
       "choices": [
         "Green",
         "Purple",
         "Orange"
       ],
       "answer": 1,
-      "missLine": "With a transponder, follow signs with the purple E-ZPass logo."
+      "missLine": "If you have a transponder, follow the signs with the purple E-ZPass logo."
     },
     {
       "id": "ev-sig-toll-plazas-3",
       "item": "sig-toll-plazas",
       "kind": "gates",
-      "prompt": "Approaching a toll plaza, you should:",
+      "prompt": "What should you do when you approach a toll plaza?",
       "choices": [
         "Speed up",
-        "Change lanes fast",
+        "Change lanes quickly",
         "Slow down"
       ],
       "answer": 2,
-      "missLine": "Slow down and be extra careful approaching toll plazas."
+      "missLine": "Slow down and be extra careful as you approach toll plazas."
     },
     {
       "id": "ev-sig-painted-curbs-1",
       "item": "sig-painted-curbs",
       "kind": "gates",
-      "prompt": "Red painted curb. This means:",
+      "prompt": "What does a red painted curb mean?",
       "image": "curb-red",
       "choices": [
-        "No stopping or parking",
-        "Park for a short time",
-        "Load and unload only"
+        "You may not stop or park",
+        "You may park for a short time",
+        "You may only load or unload"
       ],
       "answer": 0,
-      "missLine": "A red curb means do not stop, stand or park."
+      "missLine": "A red curb means you may not stop, stand or park."
     },
     {
       "id": "ev-sig-painted-curbs-2",
       "item": "sig-painted-curbs",
       "kind": "gates",
-      "prompt": "White painted curb. Stop only to:",
+      "prompt": "What is the only reason you may stop at a white painted curb?",
       "image": "curb-white",
       "choices": [
-        "Park all day",
-        "Pick up or drop off",
-        "Unload freight"
+        "To park all day long",
+        "To pick up or drop off people",
+        "To unload freight"
       ],
       "answer": 1,
-      "missLine": "A white curb means stop only to pick up or drop off passengers."
+      "missLine": "A white curb means you may stop only to pick up or drop off passengers."
     },
     {
       "id": "ev-sig-painted-curbs-3",
       "item": "sig-painted-curbs",
       "kind": "gates",
-      "prompt": "Yellow painted curb. Stop only to:",
+      "prompt": "What is the only reason you may stop at a yellow painted curb?",
       "image": "curb-yellow",
       "choices": [
-        "Load or unload",
-        "Park overnight",
-        "Pick up passengers"
+        "To load or unload",
+        "To park overnight",
+        "To pick up passengers"
       ],
       "answer": 0,
-      "missLine": "A yellow curb means stop only to load or unload, and stay with your car."
+      "missLine": "A yellow curb means you may stop only to load or unload. Stay with your car."
     }
   ],
   "questions": [
@@ -1754,107 +1754,107 @@
       "id": "q-sig-red-light-stop-1",
       "item": "sig-red-light-stop",
       "part": 1,
-      "prompt": "This traffic signal means:",
+      "prompt": "What does this traffic signal mean?",
       "image": "signal-red",
       "choices": [
-        "Stop at the stop line and stay stopped while it is red",
-        "Slow down and go with caution",
-        "Stop only if other cars are coming",
+        "You should stop at the stop line and stay stopped while it is red",
+        "You should slow down and go with caution",
+        "You should stop only if other cars are coming",
         "The light is about to turn green"
       ],
       "answer": 0,
-      "explain": "A steady red light means come to a complete stop and remain stopped while it is red."
+      "explain": "A red light means you must come to a complete stop. Stay stopped while the light is red."
     },
     {
       "id": "q-sig-red-light-stop-2",
       "item": "sig-red-light-stop",
       "part": 2,
-      "prompt": "At a red light with no stop line, you must stop:",
+      "prompt": "What must you do at a red light that has no stop line?",
       "choices": [
-        "After entering the intersection",
-        "Before entering the intersection or before reaching the crosswalk",
-        "Only if cars are coming",
-        "Beside the traffic light pole"
+        "Stop after you enter the intersection",
+        "Stop before you reach the crosswalk or enter the intersection",
+        "Stop only if cars are coming",
+        "Stop beside the traffic light pole"
       ],
       "answer": 1,
-      "explain": "With no stop line, stop before entering the intersection or before reaching the crosswalk."
+      "explain": "If there is no stop line, you must stop before the crosswalk or before you enter the intersection."
     },
     {
       "id": "q-sig-red-light-stop-3",
       "item": "sig-red-light-stop",
       "part": 2,
-      "prompt": "Traffic signals apply to:",
+      "prompt": "Who must obey traffic signals?",
       "choices": [
-        "Car drivers only",
-        "Drivers and motorcycle riders only",
+        "Only car drivers",
+        "Only drivers and motorcycle riders",
         "Drivers, motorcycle riders, bicyclists, moped riders and pedestrians",
-        "Pedestrians only"
+        "Only pedestrians"
       ],
       "answer": 2,
-      "explain": "Traffic signals apply to drivers, motorcycle riders, bicyclists, moped-riders and pedestrians."
+      "explain": "Traffic signals apply to drivers, motorcycle riders, bicyclists, moped riders and pedestrians."
     },
     {
       "id": "q-sig-right-on-red-1",
       "item": "sig-right-on-red",
       "part": 2,
-      "prompt": "Before turning right on a red light, you must:",
+      "prompt": "What must you do before turning right on a red light?",
       "choices": [
         "Slow down and turn if no cars are close",
         "Wait for the light to turn yellow",
         "Flash your headlights",
-        "Come to a complete stop, look both ways and yield to pedestrians and traffic"
+        "Come to a complete stop, look both ways and yield to pedestrians and other traffic"
       ],
       "answer": 3,
-      "explain": "You must stop completely, look both ways and yield before turning right on red."
+      "explain": "Before turning right on red, you must stop completely, look both ways and yield to pedestrians and other traffic."
     },
     {
       "id": "q-sig-right-on-red-2",
       "item": "sig-right-on-red",
       "part": 1,
-      "prompt": "You are stopped at a red light and see this sign. You may:",
+      "prompt": "You are stopped at a red light and see this sign. What should you do?",
       "image": "sign-no-turn-on-red",
       "choices": [
         "Turn right after stopping",
-        "Turn left only",
+        "Turn left, but do not turn right",
         "Turn if no one is coming",
-        "Not turn; wait for the green light"
+        "Do not turn, and wait for the green light"
       ],
       "answer": 3,
-      "explain": "A No Turn on Red sign means you may not turn on the red light; wait for green."
+      "explain": "A No Turn on Red sign means you may not turn while the light is red. Wait for the green light."
     },
     {
       "id": "q-sig-right-on-red-3",
       "item": "sig-right-on-red",
       "part": 2,
-      "prompt": "A right turn on red is not allowed when:",
+      "prompt": "When is a right turn on red not allowed?",
       "choices": [
-        "A red arrow pointing right is displayed",
-        "The road is wet",
-        "You are in the right lane",
-        "It is after dark"
+        "When a red arrow pointing right is displayed",
+        "When the road is wet",
+        "When you are in the right lane",
+        "When it is after dark"
       ],
       "answer": 0,
-      "explain": "You may not turn right on red if a red arrow pointing right is displayed or a No Turn on Red sign is posted."
+      "explain": "You may not turn right on red when a red arrow points right or a No Turn on Red sign is posted."
     },
     {
       "id": "q-sig-left-on-red-1",
       "item": "sig-left-on-red",
       "part": 2,
-      "prompt": "You may turn left on a red light when:",
+      "prompt": "When may you turn left on a red light?",
       "choices": [
-        "Turning from a two-way street onto a one-way street",
-        "Turning onto any street after stopping",
-        "Turning from a one-way street onto another one-way street",
-        "No cars are coming from the right"
+        "When you turn from a two-way street onto a one-way street",
+        "When you turn onto any street after stopping",
+        "When you turn from a one-way street onto another one-way street",
+        "When no cars are coming from the right"
       ],
       "answer": 2,
-      "explain": "Left on red is allowed only from a one-way street onto another one-way street, after a complete stop."
+      "explain": "You may turn left on red only from a one-way street onto another one-way street, after a complete stop."
     },
     {
       "id": "q-sig-left-on-red-2",
       "item": "sig-left-on-red",
       "part": 2,
-      "prompt": "Before turning left on red from a one-way street onto another one-way street, you must:",
+      "prompt": "What must you do before turning left on red from a one-way street onto another one-way street?",
       "choices": [
         "Slow down and keep rolling",
         "Come to a complete stop and yield to pedestrians and other traffic",
@@ -1862,33 +1862,33 @@
         "Wait for a yellow light"
       ],
       "answer": 1,
-      "explain": "Come to a complete stop, look both ways and yield to pedestrians and other traffic before turning left on red."
+      "explain": "Before turning left on red, you must come to a complete stop, look both ways and yield to pedestrians and other traffic."
     },
     {
       "id": "q-sig-red-arrow-1",
       "item": "sig-red-arrow",
       "part": 1,
-      "prompt": "This traffic signal means:",
+      "prompt": "What does this traffic signal mean?",
       "image": "signal-red-arrow",
       "choices": [
         "You may turn left after stopping",
-        "Turn left with caution",
-        "Yield to oncoming traffic, then turn left",
-        "Stop; you may not turn left while the red arrow shows"
+        "You should turn left with caution",
+        "You should yield to oncoming traffic and then turn left",
+        "You must stop and may not turn left while the red arrow shows"
       ],
       "answer": 3,
-      "explain": "A red arrow means stop; you may not go in the arrow's direction while it is displayed."
+      "explain": "A red arrow means stop. You may not go in the direction of the arrow while it is lit."
     },
     {
       "id": "q-sig-red-arrow-2",
       "item": "sig-red-arrow",
       "part": 2,
-      "prompt": "In Virginia, turns at a red arrow light are:",
+      "prompt": "What is the rule for turns at a red arrow light in Virginia?",
       "choices": [
-        "Allowed after a full stop",
-        "Not allowed unless a sign says you may turn after stopping",
-        "Allowed if no traffic is coming",
-        "Allowed only for right turns"
+        "Turns are allowed after a full stop",
+        "Turns are not allowed unless a sign says you may turn after stopping",
+        "Turns are allowed if no traffic is coming",
+        "Only right turns are allowed"
       ],
       "answer": 1,
       "explain": "Virginia does not allow turns on a red arrow unless a sign permits a turn after stopping."
@@ -1897,37 +1897,37 @@
       "id": "q-sig-red-arrow-3",
       "item": "sig-red-arrow",
       "part": 1,
-      "prompt": "You see this red arrow and a sign reading \"Left on Red Arrow After Stop.\" You may:",
+      "prompt": "You see this red arrow and a sign that reads \"Left on Red Arrow After Stop.\" What may you do?",
       "image": "signal-red-arrow",
       "choices": [
-        "Turn left after coming to a complete stop",
+        "Turn left after you come to a complete stop",
         "Turn left without stopping",
         "Never turn left here",
-        "Only turn right"
+        "Turn right, but do not turn left"
       ],
       "answer": 0,
-      "explain": "A \"Left on Red Arrow After Stop\" sign allows a left turn on the red arrow after a complete stop."
+      "explain": "A \"Left on Red Arrow After Stop\" sign lets you turn left on the red arrow after a complete stop."
     },
     {
       "id": "q-sig-flashing-red-1",
       "item": "sig-flashing-red",
       "part": 1,
-      "prompt": "This flashing red signal means:",
+      "prompt": "What should you do at this flashing red signal?",
       "image": "signal-flashing-red",
       "choices": [
-        "Slow down and proceed with caution",
-        "The signal is broken; drive through",
-        "Come to a complete stop, yield, then go when the way is clear",
+        "Slow down and go through with caution",
+        "Drive through, because the signal is broken",
+        "Come to a complete stop, yield to others, and go when the way is clear",
         "Stop and wait for a green light"
       ],
       "answer": 2,
-      "explain": "At a flashing red light, stop completely, yield to oncoming vehicles and pedestrians, and go when clear."
+      "explain": "At a flashing red light, stop completely and yield to oncoming vehicles and pedestrians. Go when the way is clear."
     },
     {
       "id": "q-sig-flashing-red-2",
       "item": "sig-flashing-red",
       "part": 2,
-      "prompt": "At a railroad crossing with flashing red lights, you must:",
+      "prompt": "What must you do at a railroad crossing with flashing red lights?",
       "choices": [
         "Slow down and cross if you see no train",
         "Come to a complete stop even if you don't see a train",
@@ -1941,82 +1941,82 @@
       "id": "q-sig-flashing-red-3",
       "item": "sig-flashing-red",
       "part": 2,
-      "prompt": "After stopping at a flashing red light, you must yield to:",
+      "prompt": "After you stop at a flashing red light, who must you yield to?",
       "choices": [
         "Oncoming vehicles and pedestrians",
-        "No one; you have the right-of-way",
-        "Only vehicles behind you",
+        "No one, because you have the right-of-way",
+        "Only the vehicles behind you",
         "Only buses"
       ],
       "answer": 0,
-      "explain": "At a flashing red light, stop and yield to oncoming vehicles and pedestrians."
+      "explain": "After you stop at a flashing red light, you must yield to oncoming vehicles and pedestrians."
     },
     {
       "id": "q-sig-flashing-red-arrow-1",
       "item": "sig-flashing-red-arrow",
       "part": 2,
-      "prompt": "At a flashing red arrow, you must:",
+      "prompt": "What must you do at a flashing red arrow?",
       "choices": [
         "Turn without stopping",
         "Stop and wait for a green arrow",
-        "Come to a complete stop, yield, then turn in the direction of the arrow when clear",
+        "Come to a complete stop, yield to others, and turn in the direction of the arrow when the way is clear",
         "Turn only if a sign allows it"
       ],
       "answer": 2,
-      "explain": "At a flashing red arrow, stop, yield, and proceed in the direction of the arrow when the way is clear."
+      "explain": "At a flashing red arrow, stop completely and yield to others. Then turn in the direction of the arrow when the way is clear."
     },
     {
       "id": "q-sig-flashing-red-arrow-2",
       "item": "sig-flashing-red-arrow",
       "part": 2,
-      "prompt": "After stopping at a flashing red arrow, you must yield to:",
+      "prompt": "After you stop at a flashing red arrow, who must you yield to?",
       "choices": [
-        "Only vehicles behind you",
+        "Only the vehicles behind you",
         "No one",
         "Only emergency vehicles",
         "Vehicles coming from the other direction and pedestrians in the intersection"
       ],
       "answer": 3,
-      "explain": "At a flashing red arrow, yield to vehicles coming from the other direction and pedestrians in the intersection."
+      "explain": "At a flashing red arrow, you must yield to vehicles coming from the other direction and to pedestrians in the intersection."
     },
     {
       "id": "q-sig-yellow-light-1",
       "item": "sig-yellow-light",
       "part": 1,
-      "prompt": "This steady yellow signal means:",
+      "prompt": "What should you do when you see this steady yellow signal?",
       "image": "signal-yellow",
       "choices": [
         "Speed up to clear the intersection",
-        "The light is about to change; stop if you can do so safely",
+        "Stop if you can do so safely, because the light is about to change",
         "Stop and wait for a flashing light",
-        "Go; the light is about to turn green"
+        "Go, because the light is about to turn green"
       ],
       "answer": 1,
-      "explain": "A yellow light warns the light is about to change; stop if you have not entered and it is safe."
+      "explain": "A yellow light warns that the light is about to change. Stop if you have not entered the intersection and it is safe."
     },
     {
       "id": "q-sig-yellow-light-2",
       "item": "sig-yellow-light",
       "part": 2,
-      "prompt": "The light turns yellow while you are already in the intersection. You should:",
+      "prompt": "The light turns yellow while you are already in the intersection. What should you do?",
       "choices": [
-        "Go through the intersection cautiously",
+        "Go through the intersection with caution",
         "Stop immediately",
         "Back up behind the stop line",
         "Speed up to beat the red light"
       ],
       "answer": 0,
-      "explain": "If you are already in the intersection, go through it cautiously."
+      "explain": "If you are already in the intersection, go through it with caution. Do not speed up to beat the light."
     },
     {
       "id": "q-sig-yellow-light-3",
       "item": "sig-yellow-light",
       "part": 2,
-      "prompt": "A yellow arrow means:",
+      "prompt": "What does a yellow arrow mean?",
       "choices": [
         "You have the right-of-way",
         "Turns are never allowed",
-        "Turn only after a full stop",
+        "You may turn only after a full stop",
         "The arrow light is about to change"
       ],
       "answer": 3,
@@ -2026,71 +2026,71 @@
       "id": "q-sig-flashing-yellow-1",
       "item": "sig-flashing-yellow",
       "part": 1,
-      "prompt": "This flashing yellow signal means:",
+      "prompt": "What should you do when you see this flashing yellow light?",
       "image": "signal-flashing-yellow",
       "choices": [
         "Stop completely",
         "Stop only if a pedestrian is present",
         "Slow down and proceed with caution",
-        "The signal is out; treat it as an all-way stop"
+        "Treat the intersection as an all-way stop because the signal is out"
       ],
       "answer": 2,
-      "explain": "A flashing yellow light means slow down and proceed with caution."
+      "explain": "A flashing yellow light means you should slow down and proceed with caution."
     },
     {
       "id": "q-sig-flashing-yellow-2",
       "item": "sig-flashing-yellow",
       "part": 2,
-      "prompt": "Flashing yellow lights are placed at locations with:",
+      "prompt": "Where do you see flashing yellow lights?",
       "choices": [
-        "Toll plazas only",
-        "Higher-than-normal hazardous conditions",
-        "Very little traffic",
-        "Parking lots"
+        "Only at toll plazas",
+        "At places that are more dangerous than normal",
+        "At places with very little traffic",
+        "At parking lots"
       ],
       "answer": 1,
-      "explain": "Flashing yellow lights are at locations with higher-than-normal hazardous conditions."
+      "explain": "You see flashing yellow lights where conditions are more dangerous than normal."
     },
     {
       "id": "q-sig-flashing-yellow-arrow-1",
       "item": "sig-flashing-yellow-arrow",
       "part": 1,
-      "prompt": "This flashing yellow arrow means:",
+      "prompt": "What does this flashing yellow arrow mean?",
       "image": "signal-flashing-yellow-arrow",
       "choices": [
         "You have a protected turn",
-        "Turns are not allowed",
-        "You may turn in the direction of the arrow if the way is clear, after yielding",
-        "Stop and wait for a green arrow"
+        "You are not allowed to turn",
+        "You may turn in the direction of the arrow if the way is clear, after you yield",
+        "You must stop and wait for a green arrow"
       ],
       "answer": 2,
-      "explain": "At a flashing yellow arrow, you may turn if the way is clear, yielding to oncoming vehicles and pedestrians."
+      "explain": "At a flashing yellow arrow, you may turn if the way is clear. You must yield to oncoming vehicles and pedestrians."
     },
     {
       "id": "q-sig-flashing-yellow-arrow-2",
       "item": "sig-flashing-yellow-arrow",
       "part": 2,
-      "prompt": "At a flashing yellow arrow, you must yield to:",
+      "prompt": "Who must you yield to at a flashing yellow arrow?",
       "choices": [
-        "Only vehicles behind you",
-        "No one",
-        "Only buses",
-        "Vehicles coming from the other direction and pedestrians in the intersection"
+        "You must yield only to vehicles behind you",
+        "You do not have to yield to anyone",
+        "You must yield only to buses",
+        "You must yield to vehicles coming from the other direction and to pedestrians in the intersection"
       ],
       "answer": 3,
-      "explain": "At a flashing yellow arrow, yield to oncoming vehicles and pedestrians in the intersection."
+      "explain": "At a flashing yellow arrow, you do not go first. You must yield to oncoming vehicles and to pedestrians in the intersection."
     },
     {
       "id": "q-sig-green-light-1",
       "item": "sig-green-light",
       "part": 1,
-      "prompt": "This green signal means:",
+      "prompt": "What does this green light mean?",
       "image": "signal-green",
       "choices": [
         "You may go if the way is clear",
-        "Stop, then go",
+        "You must stop and then go",
         "You have the right-of-way no matter what",
-        "Slow down; the light is about to change"
+        "You should slow down because the light is about to change"
       ],
       "answer": 0,
       "explain": "At a green light, you may go if the way is clear."
@@ -2099,21 +2099,21 @@
       "id": "q-sig-green-light-2",
       "item": "sig-green-light",
       "part": 2,
-      "prompt": "When turning at a green light without a green arrow, you must:",
+      "prompt": "What must you do when you turn at a green light without a green arrow?",
       "choices": [
         "Go first because the light is green",
         "Stop and wait for a green arrow",
         "Sound your horn",
-        "Yield to oncoming vehicles and pedestrians in the intersection"
+        "Yield to oncoming vehicles and to pedestrians in the intersection"
       ],
       "answer": 3,
-      "explain": "Turning without a green arrow, you must yield to vehicles from the other direction and pedestrians."
+      "explain": "When you turn without a green arrow, you must yield to oncoming vehicles and to pedestrians in the intersection."
     },
     {
       "id": "q-sig-green-light-3",
       "item": "sig-green-light",
       "part": 2,
-      "prompt": "When turning at a green light, be sure to check for less visible vehicles such as:",
+      "prompt": "Which of these are less visible vehicles that you should check for when you turn at a green light?",
       "choices": [
         "Buses",
         "Police cars",
@@ -2121,18 +2121,18 @@
         "Tractor-trailers"
       ],
       "answer": 2,
-      "explain": "Check for less visible vehicles such as motorcycles, bicycles and mopeds."
+      "explain": "Motorcycles, bicycles and mopeds are less visible vehicles, so check for them when you turn."
     },
     {
       "id": "q-sig-green-arrow-1",
       "item": "sig-green-arrow",
       "part": 1,
-      "prompt": "This green arrow signal means:",
+      "prompt": "What does this green arrow signal mean?",
       "image": "signal-green-arrow",
       "choices": [
-        "Turns in the arrow's direction are not allowed",
+        "You may not turn in the direction of the arrow",
         "You may go in the direction of the arrow if the way is clear",
-        "Stop, then turn",
+        "You must stop and then turn",
         "The arrow is about to turn red"
       ],
       "answer": 1,
@@ -2142,92 +2142,92 @@
       "id": "q-sig-green-arrow-2",
       "item": "sig-green-arrow",
       "part": 2,
-      "prompt": "A green arrow pointing left lets you:",
+      "prompt": "What does a green arrow that points left mean?",
       "choices": [
-        "Turn left if the way is clear",
-        "Go straight",
-        "Turn right on red",
-        "Pass the car ahead"
+        "You may turn left if the way is clear",
+        "You may go straight",
+        "You may turn right on red",
+        "You may pass the car ahead"
       ],
       "answer": 0,
-      "explain": "A green arrow means you may go in the direction of the arrow if the way is clear."
+      "explain": "A green arrow pointing left means you may turn left if the way is clear."
     },
     {
       "id": "q-sig-pedestrian-still-crossing-1",
       "item": "sig-pedestrian-still-crossing",
       "part": 2,
-      "prompt": "Your light changes from red to green while a pedestrian is still in the street. You should:",
+      "prompt": "Your light changes from red to green while a pedestrian is still in the street. What should you do?",
       "choices": [
         "Turn because you have a green light",
         "Sound your horn to warn the pedestrian",
         "Drive around the pedestrian",
-        "Allow the pedestrian to cross before turning"
+        "Let the pedestrian cross the street before you turn"
       ],
       "answer": 3,
-      "explain": "If the light turns green while a pedestrian is in the street, let the pedestrian cross before turning."
+      "explain": "If the light turns green while a pedestrian is in the street, let the pedestrian cross before you turn."
     },
     {
       "id": "q-sig-pedestrian-still-crossing-2",
       "item": "sig-pedestrian-still-crossing",
       "part": 2,
-      "prompt": "The signal changes from red to a flashing yellow arrow while a pedestrian is in the intersection. You must:",
+      "prompt": "The signal changes from red to a flashing yellow arrow while a pedestrian is in the intersection. What must you do?",
       "choices": [
-        "Let the pedestrian finish crossing before turning",
+        "Let the pedestrian finish crossing before you turn",
         "Turn quickly before the pedestrian gets close",
         "Wait for a solid red light",
         "Flash your headlights"
       ],
       "answer": 0,
-      "explain": "If the light changes to a flashing yellow arrow while a pedestrian is in the intersection, let the pedestrian cross first."
+      "explain": "If the light changes to a flashing yellow arrow while a pedestrian is in the intersection, let the pedestrian cross before you turn."
     },
     {
       "id": "q-sig-signal-out-1",
       "item": "sig-signal-out",
       "part": 1,
-      "prompt": "At an intersection where the traffic signal shows no lights at all, you must:",
+      "prompt": "The traffic signal at an intersection shows no lights at all. What must you do?",
       "image": "signal-out",
       "choices": [
         "Drive through if no cars are close",
-        "Stop and proceed as if it were an all-way stop",
+        "Stop, then go as you would at an all-way stop",
         "Yield only to cars on your left",
         "Slow down and keep driving"
       ],
       "answer": 1,
-      "explain": "When a signal is not displaying any lights, stop and proceed as though it were an all-way stop."
+      "explain": "When a traffic signal shows no lights, stop and then proceed as though the intersection were an all-way stop."
     },
     {
       "id": "q-sig-signal-out-2",
       "item": "sig-signal-out",
       "part": 2,
-      "prompt": "Traffic signals are out because of a power outage and no officer is directing traffic. You should:",
+      "prompt": "The traffic signals are out because of a power outage, and no officer is directing traffic. What should you do?",
       "choices": [
         "Go through at normal speed",
-        "Honk and go",
+        "Honk your horn and go",
         "Treat the intersection as an all-way stop",
         "Drive on the shoulder"
       ],
       "answer": 2,
-      "explain": "Treat a dark signal as an all-way stop unless an officer directs traffic or portable stop signs are used."
+      "explain": "Treat a dark signal as an all-way stop, unless an officer is directing traffic or portable stop signs are in use."
     },
     {
       "id": "q-sig-signal-out-3",
       "item": "sig-signal-out",
       "part": 2,
-      "prompt": "The traffic signal is dark, but portable stop signs are set up. You should:",
+      "prompt": "The traffic signal is dark, but portable stop signs are set up. What should you do?",
       "choices": [
-        "Drive through; the signal is off",
+        "Drive through because the signal is off",
         "Wait for the signal to come back on",
         "Obey the portable stop signs",
         "Flash your headlights and go"
       ],
       "answer": 2,
-      "explain": "The all-way stop rule for dark signals does not apply when portable stop signs are in use; obey the stop signs."
+      "explain": "The all-way stop rule for dark signals does not apply when portable stop signs are in use. Obey the stop signs."
     },
     {
       "id": "q-sig-obey-officer-1",
       "item": "sig-obey-officer",
       "part": 2,
-      "prompt": "A police officer is directing traffic at an intersection with a working signal. You should:",
+      "prompt": "A police officer is directing traffic at an intersection that has a working signal. What should you do?",
       "choices": [
         "Obey the traffic signal",
         "Follow the officer's directions",
@@ -2235,18 +2235,18 @@
         "Stop and wait for the signal to turn green"
       ],
       "answer": 1,
-      "explain": "Obey signs and signals unless directed by a police officer; always follow the officer's direction."
+      "explain": "Obey signs and signals, unless a police officer is directing traffic. Then always follow the officer's directions."
     },
     {
       "id": "q-sig-obey-officer-2",
       "item": "sig-obey-officer",
       "part": 2,
-      "prompt": "Driving through a parking lot or field to avoid a traffic signal is:",
+      "prompt": "What does the law say about driving through a parking lot or field to avoid a traffic signal?",
       "choices": [
-        "Allowed if the lot is empty",
-        "Allowed only at night",
-        "Illegal",
-        "Allowed if you go slowly"
+        "It is allowed if the lot is empty",
+        "It is allowed only at night",
+        "It is illegal",
+        "It is allowed if you go slowly"
       ],
       "answer": 2,
       "explain": "It is illegal to avoid traffic controls by cutting through a parking lot or field."
@@ -2255,26 +2255,26 @@
       "id": "q-sig-lane-red-x-1",
       "item": "sig-lane-red-x",
       "part": 1,
-      "prompt": "This lane use signal means:",
+      "prompt": "What does this lane use signal mean?",
       "image": "signal-lane-red-x",
       "choices": [
-        "Move out of this lane as soon as safely possible",
+        "You must move out of this lane as soon as it is safe",
         "You may drive in this lane",
-        "Turn left only from this lane",
-        "Never drive in this lane"
+        "You may use this lane only to turn left",
+        "You must never drive in this lane"
       ],
       "answer": 3,
-      "explain": "Never drive in a lane marked with a red X signal."
+      "explain": "A red X over a lane means you must never drive in that lane."
     },
     {
       "id": "q-sig-lane-red-x-2",
       "item": "sig-lane-red-x",
       "part": 2,
-      "prompt": "Lane use signals are used to show:",
+      "prompt": "What do lane use signals show?",
       "choices": [
-        "Lanes where you can and cannot drive during different hours of the day",
-        "Where to park",
-        "The speed limit",
+        "Which lanes you can and cannot drive in during different hours of the day",
+        "Where you can park",
+        "What the speed limit is",
         "Where pedestrians cross"
       ],
       "answer": 0,
@@ -2284,52 +2284,52 @@
       "id": "q-sig-lane-yellow-x-1",
       "item": "sig-lane-yellow-x",
       "part": 1,
-      "prompt": "This lane use signal means:",
+      "prompt": "What does this lane use signal mean?",
       "image": "signal-lane-yellow-x",
       "choices": [
-        "Never drive in this lane",
+        "You must never drive in this lane",
         "You may stay in this lane",
-        "Stop immediately in this lane",
-        "Move out of this lane as soon as safely possible"
+        "You must stop immediately in this lane",
+        "You must move out of this lane as soon as it is safe"
       ],
       "answer": 3,
-      "explain": "A yellow X means move out of the lane as soon as safely possible."
+      "explain": "A yellow X means you must move out of the lane as soon as it is safe."
     },
     {
       "id": "q-sig-lane-yellow-x-2",
       "item": "sig-lane-yellow-x",
       "part": 1,
-      "prompt": "This yellow diagonal downward arrow over your lane means:",
+      "prompt": "What does this yellow diagonal downward arrow over your lane mean?",
       "image": "signal-lane-yellow-arrow-down",
       "choices": [
         "You may drive in this lane",
-        "Move out of this lane as soon as safely possible",
-        "Turn left only",
-        "The lane is for buses"
+        "You must move out of this lane as soon as it is safe",
+        "You may use this lane only to turn left",
+        "This lane is for buses"
       ],
       "answer": 1,
-      "explain": "A yellow diagonal downward arrow means move out of the lane as soon as safely possible."
+      "explain": "A yellow diagonal downward arrow means you must move out of the lane as soon as it is safe."
     },
     {
       "id": "q-sig-lane-green-arrow-1",
       "item": "sig-lane-green-arrow",
       "part": 1,
-      "prompt": "This lane use signal means:",
+      "prompt": "What does this lane use signal mean?",
       "image": "signal-lane-green-arrow",
       "choices": [
-        "Move out of this lane",
-        "Never drive in this lane",
+        "You must move out of this lane",
+        "You must never drive in this lane",
         "You may drive in this lane",
-        "Turn left only"
+        "You may use this lane only to turn left"
       ],
       "answer": 2,
-      "explain": "You are permitted to drive in a lane marked with a green arrow signal."
+      "explain": "You may drive in a lane marked with a green arrow signal."
     },
     {
       "id": "q-sig-lane-green-arrow-2",
       "item": "sig-lane-green-arrow",
       "part": 2,
-      "prompt": "Which lane use signal means you are permitted to drive in that lane?",
+      "prompt": "Which lane use signal means you are allowed to drive in that lane?",
       "choices": [
         "A green arrow",
         "A red X",
@@ -2343,11 +2343,11 @@
       "id": "q-sig-lane-turn-arrow-1",
       "item": "sig-lane-turn-arrow",
       "part": 1,
-      "prompt": "This lane use signal means:",
+      "prompt": "What does this lane use signal mean?",
       "image": "signal-lane-left-turn",
       "choices": [
-        "Never drive in this lane",
-        "Move out of this lane",
+        "You must never drive in this lane",
+        "You must move out of this lane",
         "You may enter this lane only to turn left",
         "You may pass in this lane"
       ],
@@ -2358,12 +2358,12 @@
       "id": "q-sig-lane-turn-arrow-2",
       "item": "sig-lane-turn-arrow",
       "part": 2,
-      "prompt": "A lane marked with a one-way or two-way left-turn arrow signal may be used:",
+      "prompt": "How may you use a lane marked with a one-way or two-way left-turn arrow signal?",
       "choices": [
-        "For passing",
-        "Only to turn in the direction of the arrow",
-        "For driving straight",
-        "For parking"
+        "You may use the lane for passing",
+        "You may use the lane only to turn in the direction of the arrow",
+        "You may use the lane for driving straight",
+        "You may use the lane for parking"
       ],
       "answer": 1,
       "explain": "You may enter a lane with a one-way or two-way left-turn arrow only to turn in the direction of the arrow."
@@ -2372,7 +2372,7 @@
       "id": "q-sig-phb-1",
       "item": "sig-phb",
       "part": 1,
-      "prompt": "When the two top red lights on this beacon are solid, drivers must:",
+      "prompt": "What must drivers do when the two top red lights on this beacon are solid?",
       "image": "signal-phb",
       "choices": [
         "Slow down",
@@ -2387,64 +2387,64 @@
       "id": "q-sig-phb-2",
       "item": "sig-phb",
       "part": 1,
-      "prompt": "The two red lights on this pedestrian hybrid beacon are flashing back and forth. You may:",
+      "prompt": "What does it mean when the two red lights on this pedestrian hybrid beacon flash back and forth?",
       "image": "signal-phb",
       "choices": [
-        "Proceed with caution if the crosswalk is clear",
-        "Never move until it goes dark",
-        "Turn right only",
-        "Speed up"
+        "You may proceed with caution if the crosswalk is clear",
+        "You must not move until the beacon goes dark",
+        "You may only turn right",
+        "You should speed up"
       ],
       "answer": 0,
-      "explain": "Alternating flashing red lights mean you may proceed with caution if the crosswalk is clear."
+      "explain": "When the two red lights flash back and forth, you may proceed with caution if the crosswalk is clear."
     },
     {
       "id": "q-sig-phb-3",
       "item": "sig-phb",
       "part": 2,
-      "prompt": "Pedestrian hybrid beacons (PHBs) are found:",
+      "prompt": "Where are pedestrian hybrid beacons (PHBs) found?",
       "choices": [
-        "Over intersections without stoplights, to alert drivers to pedestrians at a crosswalk",
+        "Over intersections without stoplights, where they alert drivers to pedestrians at a crosswalk",
         "At railroad crossings",
         "Only on interstates",
         "In parking lots"
       ],
       "answer": 0,
-      "explain": "PHBs appear over intersections without stoplights and alert drivers when pedestrians are at a crosswalk."
+      "explain": "PHBs appear over intersections without stoplights. They alert drivers when pedestrians are at a crosswalk."
     },
     {
       "id": "q-sig-red-reflectors-1",
       "item": "sig-red-reflectors",
       "part": 2,
-      "prompt": "Red reflectors on the pavement show:",
+      "prompt": "What do red reflectors on the pavement show?",
       "choices": [
         "Passing zones",
-        "Areas not to be entered or used",
+        "Areas that you must not enter or use",
         "Bike lanes",
         "Bus stops"
       ],
       "answer": 1,
-      "explain": "Red reflectors on the pavement show areas not to be entered or used."
+      "explain": "Red reflectors on the pavement show areas that you must not enter or use."
     },
     {
       "id": "q-sig-red-reflectors-2",
       "item": "sig-red-reflectors",
       "part": 2,
-      "prompt": "Red pavement reflectors are placed so they can only be seen by:",
+      "prompt": "Which road users are the only ones who can see red pavement reflectors?",
       "choices": [
         "All drivers",
         "Pedestrians",
         "Trucks",
-        "Traffic going the wrong direction"
+        "Traffic going in the wrong direction"
       ],
       "answer": 3,
-      "explain": "Red reflectors are placed so that only traffic going the wrong direction would see them."
+      "explain": "Red reflectors are placed so that only traffic going in the wrong direction can see them."
     },
     {
       "id": "q-sig-broken-yellow-1",
       "item": "sig-broken-yellow",
       "part": 2,
-      "prompt": "A broken yellow center line means:",
+      "prompt": "What does a broken yellow center line mean?",
       "image": "mark-broken-yellow",
       "choices": [
         "Passing is not allowed",
@@ -2459,21 +2459,21 @@
       "id": "q-sig-broken-yellow-2",
       "item": "sig-broken-yellow",
       "part": 2,
-      "prompt": "Yellow center lines separate:",
+      "prompt": "What do yellow center lines separate?",
       "choices": [
-        "Traffic going the same direction",
+        "Traffic going in the same direction",
         "Bicycles from cars",
         "Traffic flowing in opposite directions",
         "Parking spaces"
       ],
       "answer": 2,
-      "explain": "Yellow center lines mean two-way traffic, flowing in opposite directions."
+      "explain": "Yellow center lines mean two-way traffic, so they separate traffic flowing in opposite directions."
     },
     {
       "id": "q-sig-solid-broken-yellow-1",
       "item": "sig-solid-broken-yellow",
       "part": 2,
-      "prompt": "When a solid yellow line is next to a broken yellow line, passing is allowed:",
+      "prompt": "A solid yellow line is next to a broken yellow line. From which side is passing allowed?",
       "image": "mark-solid-broken-yellow",
       "choices": [
         "From the side of the broken line only",
@@ -2488,27 +2488,27 @@
       "id": "q-sig-solid-broken-yellow-2",
       "item": "sig-solid-broken-yellow",
       "part": 2,
-      "prompt": "If the solid yellow line is on your side of the center, you may cross it only to:",
+      "prompt": "The solid yellow line is on your side of the center. What is the only reason you may cross it?",
       "choices": [
-        "Pass a slow-moving car",
-        "Pass a truck",
-        "Make up lost time",
-        "Pass a pedestrian, bicyclist, or scooter or skateboard rider when the opposite lane is clear"
+        "To pass a slow-moving car",
+        "To pass a truck",
+        "To make up lost time",
+        "To pass a pedestrian, a bicyclist, or a scooter or skateboard rider when the opposite lane is clear"
       ],
       "answer": 3,
-      "explain": "From the solid line side, you may only cross to pass pedestrians, bicyclists, and scooter or skateboard riders when it is safe."
+      "explain": "On the solid line side, you may cross only to pass pedestrians, bicyclists, and scooter or skateboard riders when it is safe."
     },
     {
       "id": "q-sig-double-solid-yellow-1",
       "item": "sig-double-solid-yellow",
       "part": 2,
-      "prompt": "Double solid yellow lines mean:",
+      "prompt": "What do double solid yellow lines mean?",
       "image": "mark-double-solid-yellow",
       "choices": [
         "Passing is allowed with care",
-        "No passing in either direction",
+        "Passing is not allowed in either direction",
         "Passing is allowed from the left lane only",
-        "Both lanes go the same direction"
+        "Both lanes go in the same direction"
       ],
       "answer": 1,
       "explain": "Double solid yellow lines mean passing is not allowed in either direction."
@@ -2517,21 +2517,21 @@
       "id": "q-sig-double-solid-yellow-2",
       "item": "sig-double-solid-yellow",
       "part": 2,
-      "prompt": "You may cross double solid yellow lines to:",
+      "prompt": "For which of these reasons may you cross double solid yellow lines?",
       "choices": [
-        "Make a left turn",
-        "Pass a slow car",
-        "Pass a truck on a hill",
-        "Get ahead in heavy traffic"
+        "To make a left turn",
+        "To pass a slow car",
+        "To pass a truck on a hill",
+        "To get ahead in heavy traffic"
       ],
       "answer": 0,
-      "explain": "You may cross double solid yellow lines only to turn left or to safely pass pedestrians, bicyclists, scooters or skateboards."
+      "explain": "You may cross double solid yellow lines only to turn left, or to pass pedestrians, bicyclists, and scooter or skateboard riders safely."
     },
     {
       "id": "q-sig-double-solid-yellow-3",
       "item": "sig-double-solid-yellow",
       "part": 2,
-      "prompt": "On a road with double solid yellow lines, you may cross the lines to pass a bicyclist only when:",
+      "prompt": "On a road with double solid yellow lines, which of these must be true before you cross to pass a bicyclist?",
       "choices": [
         "You honk first",
         "The opposite lane is clear and you can pass safely",
@@ -2539,76 +2539,76 @@
         "It is daytime"
       ],
       "answer": 1,
-      "explain": "You may cross double solid yellow lines to pass a bicyclist when the opposite lane is clear and you can pass safely."
+      "explain": "You may cross double solid yellow lines to pass a bicyclist only when the opposite lane is clear and you can pass safely."
     },
     {
       "id": "q-sig-broken-white-1",
       "item": "sig-broken-white",
       "part": 2,
-      "prompt": "Broken white lines:",
+      "prompt": "What do broken white lines do?",
       "image": "mark-broken-white",
       "choices": [
-        "Separate traffic going in opposite directions",
-        "Mark the edge of the road",
-        "Mark no-passing zones",
-        "Separate lanes of traffic going in the same direction"
+        "They separate traffic going in opposite directions",
+        "They mark the edge of the road",
+        "They mark no-passing zones",
+        "They separate lanes of traffic going in the same direction"
       ],
       "answer": 3,
-      "explain": "Broken white lines separate lanes of traffic going in the same direction."
+      "explain": "Broken white lines separate lanes of traffic that are going in the same direction."
     },
     {
       "id": "q-sig-broken-white-2",
       "item": "sig-broken-white",
       "part": 2,
-      "prompt": "When lanes are separated by a broken white line, you:",
+      "prompt": "What is true when a broken white line separates two lanes?",
       "choices": [
-        "May never change lanes",
-        "Must turn at the next corner",
-        "May change lanes with caution",
-        "Must stay in the left lane"
+        "You may never change lanes",
+        "You must turn at the next corner",
+        "You may change lanes with caution",
+        "You must stay in the left lane"
       ],
       "answer": 2,
-      "explain": "Across a broken white line, you may change lanes with caution."
+      "explain": "When a broken white line separates the lanes, you may change lanes with caution."
     },
     {
       "id": "q-sig-dotted-white-1",
       "item": "sig-dotted-white",
       "part": 2,
-      "prompt": "Dotted white lines are used to:",
+      "prompt": "What are dotted white lines used for?",
       "image": "mark-dotted-white",
       "choices": [
-        "Mark no-passing zones",
-        "Show lane assignment through intersections and interchanges",
-        "Separate traffic going in opposite directions",
-        "Show where to park"
+        "To mark no-passing zones",
+        "To show lane assignment through intersections and interchanges",
+        "To separate traffic going in opposite directions",
+        "To show where to park"
       ],
       "answer": 1,
-      "explain": "Dotted white lines show lane assignment in intersections and interchanges."
+      "explain": "Dotted white lines show lane assignment in intersections and interchanges. This helps drivers stay in their lane."
     },
     {
       "id": "q-sig-dotted-white-2",
       "item": "sig-dotted-white",
       "part": 2,
-      "prompt": "Dotted white lines may also show:",
+      "prompt": "What else may dotted white lines show?",
       "choices": [
         "A school zone",
         "A railroad crossing",
-        "The opening of a turn lane or entrance/exit lanes at interchanges",
+        "Where a turn lane, entrance lane or exit lane begins",
         "Where you may pass on the left"
       ],
       "answer": 2,
-      "explain": "Dotted white lines mark the opening of a turn lane and entrance or exit lanes at interchanges."
+      "explain": "Dotted white lines also show where a turn lane begins and where entrance and exit lanes begin at interchanges."
     },
     {
       "id": "q-sig-unmarked-road-1",
       "item": "sig-unmarked-road",
       "part": 2,
-      "prompt": "On an unmarked two-lane road, you may pass a slow-moving vehicle:",
+      "prompt": "What is true about passing a slow-moving vehicle on an unmarked two-lane road?",
       "choices": [
-        "On the right side",
-        "Never",
-        "Only if the driver waves you by",
-        "On the left side if no signs prohibit passing and the way is clear"
+        "You may pass on the right side",
+        "You may never pass",
+        "You may pass only if the driver waves you by",
+        "You may pass on the left if no signs prohibit passing and the way is clear"
       ],
       "answer": 3,
       "explain": "On an unmarked two-lane road, you may pass on the left if no signs prohibit passing and the way is clear."
@@ -2617,21 +2617,21 @@
       "id": "q-sig-unmarked-road-2",
       "item": "sig-unmarked-road",
       "part": 2,
-      "prompt": "You are on a two-lane road with no lane markings and no signs about passing. To pass a slow vehicle, you should:",
+      "prompt": "You are on a two-lane road with no lane markings and no signs about passing. What should you do to pass a slow vehicle?",
       "choices": [
         "Make sure the way is clear and pass on the left",
         "Pass on the right shoulder",
         "Never pass",
-        "Honk until it pulls over"
+        "Honk until the vehicle pulls over"
       ],
       "answer": 0,
-      "explain": "On an unmarked two-lane road, pass on the left only when the way is clear."
+      "explain": "On an unmarked two-lane road, you may pass on the left only when the way is clear."
     },
     {
       "id": "q-sig-yield-line-1",
       "item": "sig-yield-line",
       "part": 2,
-      "prompt": "This line of triangles across the road shows:",
+      "prompt": "What does this line of triangles across the road show?",
       "image": "mark-yield-line",
       "choices": [
         "A speed bump",
@@ -2640,42 +2640,42 @@
         "A bike lane"
       ],
       "answer": 2,
-      "explain": "A yield line shows the point at which you must yield or stop, if necessary."
+      "explain": "A line of triangles across the road is a yield line. It shows where you must yield, or stop if necessary."
     },
     {
       "id": "q-sig-yield-line-2",
       "item": "sig-yield-line",
       "part": 2,
-      "prompt": "A yield line is often seen at:",
+      "prompt": "Where is a yield line often seen?",
       "choices": [
-        "Railroad crossings",
-        "School zones",
-        "Toll plazas",
-        "The entrance of a roundabout"
+        "At railroad crossings",
+        "In school zones",
+        "At toll plazas",
+        "At the entrance to a roundabout"
       ],
       "answer": 3,
-      "explain": "A yield line is often seen at the entrance of a roundabout."
+      "explain": "A yield line is often seen at the entrance to a roundabout."
     },
     {
       "id": "q-sig-center-lane-1",
       "item": "sig-center-lane",
       "part": 2,
-      "prompt": "In a center lane marked by a solid and a broken yellow line on both sides, you may:",
+      "prompt": "What may you do in a center lane that has a solid yellow line and a broken yellow line on each side?",
       "image": "mark-center-turn-lane",
       "choices": [
         "Pass slower traffic",
-        "Make left turns, traveling no more than 150 feet in the lane",
+        "Make left turns and travel no more than 150 feet in the lane",
         "Drive as far as you want",
         "Park"
       ],
       "answer": 1,
-      "explain": "This center lane is for left turns, and you may not travel further than 150 feet in it."
+      "explain": "This center lane is for left turns. You may not travel further than 150 feet in it."
     },
     {
       "id": "q-sig-center-lane-2",
       "item": "sig-center-lane",
       "part": 2,
-      "prompt": "In a shared center left-turn lane, you may not travel further than:",
+      "prompt": "What is the longest distance you may travel in a shared center left-turn lane?",
       "choices": [
         "150 feet",
         "50 feet",
@@ -2689,40 +2689,40 @@
       "id": "q-sig-center-lane-3",
       "item": "sig-center-lane",
       "part": 2,
-      "prompt": "On a three-lane road, if the center lane is marked by a single broken yellow line on both sides, drivers:",
+      "prompt": "On a three-lane road, the center lane has a single broken yellow line on both sides. Which statement is true?",
       "choices": [
-        "May use it only for left turns",
-        "May never enter it",
-        "Going only one direction may use it",
-        "Traveling in either direction may use it for passing"
+        "Drivers may use it only for left turns",
+        "Drivers may never enter it",
+        "Only drivers going in one direction may use it",
+        "Drivers going in either direction may use it for passing"
       ],
       "answer": 3,
-      "explain": "A center lane with a broken yellow line on both sides may be used for passing by drivers in either direction."
+      "explain": "Drivers going in either direction may use a center lane with a broken yellow line on both sides for passing."
     },
     {
       "id": "q-sig-sharrow-1",
       "item": "sig-sharrow",
       "part": 2,
-      "prompt": "This shared lane marking (sharrow) means:",
+      "prompt": "What does this shared lane marking, called a sharrow, mean?",
       "image": "mark-sharrow",
       "choices": [
         "Bicycles are not allowed",
-        "Bicyclists may ride in the lane; expect them on the road",
+        "Bicyclists may ride in the lane, so expect them",
         "This is a bike-only lane",
-        "Bike parking ahead"
+        "Bike parking is ahead"
       ],
       "answer": 1,
-      "explain": "Sharrows show where bicyclists are encouraged to ride in the lane and remind drivers to expect them."
+      "explain": "Sharrows show where bicyclists are encouraged to ride in the lane. They also remind drivers to expect bicyclists."
     },
     {
       "id": "q-sig-sharrow-2",
       "item": "sig-sharrow",
       "part": 2,
-      "prompt": "A sharrow is a bicycle symbol with:",
+      "prompt": "Besides the bicycle symbol, what does a sharrow have?",
       "choices": [
         "A red circle and slash",
         "A white diamond",
-        "A double chevron arrow above it",
+        "A double chevron arrow above the symbol",
         "The word ONLY"
       ],
       "answer": 2,
@@ -2732,22 +2732,22 @@
       "id": "q-sig-bike-lane-1",
       "item": "sig-bike-lane",
       "part": 2,
-      "prompt": "You may drive in a bicycle lane only:",
+      "prompt": "When may you drive in a bicycle lane?",
       "image": "mark-bike-lane",
       "choices": [
-        "When necessary to turn left or right",
+        "When it is necessary to turn left or right",
         "When traffic is slow",
-        "To pass a car on the right",
-        "To park"
+        "When you want to pass a car on the right",
+        "When you want to park"
       ],
       "answer": 0,
-      "explain": "Drivers should not drive in a bicycle lane except when necessary to turn left or right."
+      "explain": "Drivers should not drive in a bicycle lane except when it is necessary to turn left or right."
     },
     {
       "id": "q-sig-bike-lane-2",
       "item": "sig-bike-lane",
       "part": 2,
-      "prompt": "Before turning across a bicycle lane, you should:",
+      "prompt": "What should you do before turning across a bicycle lane?",
       "choices": [
         "Check your mirrors and yield to bicycles in the lane",
         "Speed up to get ahead of bicyclists",
@@ -2755,28 +2755,28 @@
         "Turn from the left lane"
       ],
       "answer": 0,
-      "explain": "Before turning, check your mirrors for bicyclists behind you and yield to bicycles in the lane."
+      "explain": "Before turning, check your mirrors for bicyclists behind you. Then yield to bicycles in the lane."
     },
     {
       "id": "q-sig-solid-white-1",
       "item": "sig-solid-white",
       "part": 2,
-      "prompt": "Solid white lines between lanes:",
+      "prompt": "What do solid white lines between lanes do?",
       "image": "mark-solid-white",
       "choices": [
-        "Separate traffic going in opposite directions",
-        "Discourage lane changes near intersections and ramps",
-        "Mean passing is encouraged",
-        "Mark a bus lane"
+        "They separate traffic going in opposite directions",
+        "They discourage lane changes near intersections and ramps",
+        "They mean that passing is encouraged",
+        "They mark a bus lane"
       ],
       "answer": 1,
-      "explain": "Solid white lines discourage lane changes where they might be dangerous, such as near intersections and ramps."
+      "explain": "Solid white lines discourage lane changes in places where changing lanes might be dangerous, such as near intersections and ramps."
     },
     {
       "id": "q-sig-solid-white-2",
       "item": "sig-solid-white",
       "part": 2,
-      "prompt": "Stop lines, crosswalks and parking spaces are marked by:",
+      "prompt": "Stop lines, crosswalks and parking spaces are marked with which kind of lines?",
       "choices": [
         "Yellow lines",
         "Red lines",
@@ -2784,13 +2784,13 @@
         "Green lines"
       ],
       "answer": 2,
-      "explain": "Stop lines, crosswalks and parking spaces are marked by white lines."
+      "explain": "Stop lines, crosswalks and parking spaces are marked with white lines."
     },
     {
       "id": "q-sig-solid-white-3",
       "item": "sig-solid-white",
       "part": 2,
-      "prompt": "A solid white line along the side of the road marks:",
+      "prompt": "What does a solid white line along the side of the road mark?",
       "choices": [
         "The center of a two-way road",
         "A no-parking zone",
@@ -2798,41 +2798,41 @@
         "The right edge of the pavement"
       ],
       "answer": 3,
-      "explain": "Solid white lines also mark the right edge of pavement."
+      "explain": "A solid white line along the side of the road marks the right edge of the pavement."
     },
     {
       "id": "q-sig-lane-arrows-1",
       "item": "sig-lane-arrows",
       "part": 2,
-      "prompt": "Your lane is marked with a curved arrow and the word ONLY. You:",
+      "prompt": "Your lane is marked with a curved arrow and the word ONLY. What does this marking mean for you?",
       "choices": [
-        "May go straight or turn",
-        "May turn in either direction",
-        "Must turn in the direction of the arrow",
-        "Must stop"
+        "You may go straight or turn",
+        "You may turn in either direction",
+        "You must turn in the direction of the arrow",
+        "You must stop"
       ],
       "answer": 2,
-      "explain": "In a lane marked with a curved arrow and ONLY, you must turn in the direction of the arrow."
+      "explain": "In a lane marked with a curved arrow and the word ONLY, you must turn in the direction of the arrow."
     },
     {
       "id": "q-sig-lane-arrows-2",
       "item": "sig-lane-arrows",
       "part": 2,
-      "prompt": "Your lane is marked with both a curved arrow and a straight arrow. You:",
+      "prompt": "Your lane is marked with both a curved arrow and a straight arrow. What does this marking mean for you?",
       "choices": [
-        "May turn or go straight",
-        "Must turn",
-        "Must go straight",
-        "Must change lanes"
+        "You may turn or go straight",
+        "You must turn",
+        "You must go straight",
+        "You must change lanes"
       ],
       "answer": 0,
-      "explain": "If your lane has both a curved and a straight arrow, you may turn or go straight."
+      "explain": "If your lane has both a curved arrow and a straight arrow, you may turn or go straight."
     },
     {
       "id": "q-sig-wrong-way-arrows-1",
       "item": "sig-wrong-way-arrows",
       "part": 2,
-      "prompt": "These white arrows painted in the lane show:",
+      "prompt": "What do these white arrows painted in the lane show?",
       "image": "mark-wrong-way-arrow",
       "choices": [
         "A bike lane",
@@ -2841,33 +2841,33 @@
         "The direction traffic must move"
       ],
       "answer": 3,
-      "explain": "Wrong-way arrows show that traffic only moves in the direction of the arrow."
+      "explain": "Wrong-way arrows show that traffic moves only in the direction of the arrow."
     },
     {
       "id": "q-sig-wrong-way-arrows-2",
       "item": "sig-wrong-way-arrows",
       "part": 2,
-      "prompt": "If you find yourself driving against wrong-way arrows, you should:",
+      "prompt": "What should you do if you find yourself driving against wrong-way arrows?",
       "choices": [
         "Speed up to find an exit",
-        "Immediately slow down and pull over",
+        "Slow down and pull over right away",
         "Flash your headlights",
         "Keep driving"
       ],
       "answer": 1,
-      "explain": "If you drive against wrong-way arrows, immediately slow down and pull over."
+      "explain": "If you drive against wrong-way arrows, you could crash head-on. Slow down and pull over right away."
     },
     {
       "id": "q-sig-double-white-1",
       "item": "sig-double-white",
       "part": 2,
-      "prompt": "Double solid white lines:",
+      "prompt": "What is true about double solid white lines?",
       "image": "mark-double-white",
       "choices": [
-        "May not be crossed",
-        "May be crossed with caution",
-        "Separate traffic going opposite directions",
-        "Mark a parking area"
+        "They may not be crossed",
+        "They may be crossed with caution",
+        "They separate traffic going in opposite directions",
+        "They mark a parking area"
       ],
       "answer": 0,
       "explain": "You may not cross double solid white lines."
@@ -2876,21 +2876,21 @@
       "id": "q-sig-double-white-2",
       "item": "sig-double-white",
       "part": 2,
-      "prompt": "You may enter a special use lane separated by double solid white lines:",
+      "prompt": "A special use lane is separated by double solid white lines. What is the rule for entering it?",
       "choices": [
-        "Anywhere along the lane",
-        "Only at night",
-        "Only where signs and markings allow",
-        "Whenever traffic is heavy"
+        "You may enter it anywhere along the lane",
+        "You may enter it only at night",
+        "You may enter it only where signs and markings allow",
+        "You may enter it whenever traffic is heavy"
       ],
       "answer": 2,
-      "explain": "You may enter the designated special use lane only where signs and markings allow."
+      "explain": "You may enter the special use lane only where signs and markings allow."
     },
     {
       "id": "q-sig-bike-box-1",
       "item": "sig-bike-box",
       "part": 2,
-      "prompt": "At a red light at an intersection with a bicycle box, you must stop:",
+      "prompt": "At a red light at an intersection with a bicycle box, where must you stop?",
       "image": "mark-bike-box",
       "choices": [
         "Inside the box",
@@ -2899,18 +2899,18 @@
         "Anywhere you like"
       ],
       "answer": 1,
-      "explain": "Drivers must stop for a red signal behind all bicycle boxes, not inside the box."
+      "explain": "Drivers must stop behind a bicycle box at a red light, not inside the box."
     },
     {
       "id": "q-sig-bike-box-2",
       "item": "sig-bike-box",
       "part": 2,
-      "prompt": "At intersections with bicycle boxes, right turns on red are:",
+      "prompt": "At an intersection with a bicycle box, what is the rule about right turns on red?",
       "choices": [
-        "Allowed after a full stop",
-        "Allowed only if no bicyclists are present",
-        "Allowed only at night",
-        "Not allowed"
+        "They are allowed after a full stop",
+        "They are allowed only if no bicyclists are present",
+        "They are allowed only at night",
+        "They are not allowed"
       ],
       "answer": 3,
       "explain": "Right turns on red are not allowed at intersections with bicycle boxes."
@@ -2919,21 +2919,21 @@
       "id": "q-sig-bike-box-3",
       "item": "sig-bike-box",
       "part": 2,
-      "prompt": "Turning right on a green light at an intersection with a bike box, you must:",
+      "prompt": "What must you do when turning right on a green light at an intersection with a bike box?",
       "choices": [
         "Signal and yield to bicycles on the right",
-        "Speed up ahead of bicycles",
+        "Speed up to get ahead of the bicycles",
         "Turn from inside the bike box",
         "Sound your horn"
       ],
       "answer": 0,
-      "explain": "If turning right on green at a bike box, signal and yield to bicycles on the right."
+      "explain": "If you turn right on green at a bike box, you must signal and yield to bicycles on the right."
     },
     {
       "id": "q-sig-bus-only-1",
       "item": "sig-bus-only",
       "part": 2,
-      "prompt": "This red lane marked BUS ONLY is:",
+      "prompt": "This red lane is marked BUS ONLY. What kind of lane is it?",
       "image": "mark-bus-only",
       "choices": [
         "A passing lane",
@@ -2942,13 +2942,13 @@
         "A lane reserved for buses"
       ],
       "answer": 3,
-      "explain": "Bus-only lanes are shown by BUS ONLY markings and/or red-colored pavement."
+      "explain": "A lane marked BUS ONLY or with red pavement is reserved for buses."
     },
     {
       "id": "q-sig-bus-only-2",
       "item": "sig-bus-only",
       "part": 2,
-      "prompt": "Bus-only lanes may be shown by BUS ONLY markings and/or:",
+      "prompt": "Besides BUS ONLY markings, what else may show that a lane is bus-only?",
       "choices": [
         "Yellow curbs",
         "Red-colored pavement",
@@ -2956,13 +2956,13 @@
         "Blue reflectors"
       ],
       "answer": 1,
-      "explain": "Bus-only lanes are indicated by BUS ONLY markings and/or red-colored pavement."
+      "explain": "Bus-only lanes are shown by BUS ONLY markings or red-colored pavement."
     },
     {
       "id": "q-sig-hov-diamond-1",
       "item": "sig-hov-diamond",
       "part": 2,
-      "prompt": "A diamond shape marked in the center of a lane shows:",
+      "prompt": "What does a diamond shape in the center of a lane show?",
       "image": "mark-double-white",
       "choices": [
         "A school zone",
@@ -2971,13 +2971,13 @@
         "A railroad crossing"
       ],
       "answer": 2,
-      "explain": "HOV lanes are marked on highways by a diamond shape in the center of the lane."
+      "explain": "A diamond shape in the center of a lane marks a high occupancy vehicle (HOV) lane."
     },
     {
       "id": "q-sig-hov-diamond-2",
       "item": "sig-hov-diamond",
       "part": 2,
-      "prompt": "HOV lanes separated by a barrier are reversible, which means:",
+      "prompt": "HOV lanes separated by a barrier are reversible. What does reversible mean?",
       "choices": [
         "They are closed on weekends",
         "You may drive in either direction at any time",
@@ -2985,27 +2985,27 @@
         "Traffic flows one way at some times of day and the opposite way at other times"
       ],
       "answer": 3,
-      "explain": "Barrier-separated HOV lanes are reversible: traffic flows one way at certain times and the other way at others."
+      "explain": "Barrier-separated HOV lanes are reversible. Traffic flows one way at certain times of day and the opposite way at other times."
     },
     {
       "id": "q-sig-hov-diamond-3",
       "item": "sig-hov-diamond",
       "part": 2,
-      "prompt": "The minimum number of passengers needed to use an HOV lane is shown:",
+      "prompt": "Where do you find the minimum number of passengers needed to use an HOV lane?",
       "choices": [
         "On your driver's license",
         "On road signs",
         "Only on the pavement",
-        "Nowhere; it is always the same"
+        "Nowhere, because it is always the same"
       ],
       "answer": 1,
-      "explain": "Road signs show the minimum number of passengers and the times HOV restrictions are in effect."
+      "explain": "Road signs show the minimum number of passengers and the times when the HOV restrictions are in effect."
     },
     {
       "id": "q-sig-hov-diamond-4",
       "item": "sig-hov-diamond",
       "part": 2,
-      "prompt": "During heavy traffic, HOV lanes are reserved for:",
+      "prompt": "During heavy traffic, HOV lanes are reserved for which vehicles?",
       "choices": [
         "Buses and vanpools",
         "Carpools",
@@ -3013,13 +3013,13 @@
         "All of these"
       ],
       "answer": 3,
-      "explain": "During heavy traffic periods, HOV lanes are reserved for buses, vanpools, carpools, motorcycles and other high occupancy vehicles."
+      "explain": "During heavy traffic, HOV lanes are reserved for buses, vanpools, carpools, motorcycles and other high occupancy vehicles."
     },
     {
       "id": "q-sig-hov-diamond-5",
       "item": "sig-hov-diamond",
       "part": 2,
-      "prompt": "Besides an HOV lane, a diamond-shaped marking in a lane may also show:",
+      "prompt": "Besides an HOV lane, what else may a diamond-shaped marking in a lane show?",
       "choices": [
         "A bike lane",
         "A bus lane",
@@ -3027,27 +3027,27 @@
         "A no-passing zone"
       ],
       "answer": 1,
-      "explain": "A diamond-shaped marking may also indicate that the lane is reserved for use as a bus lane."
+      "explain": "A diamond-shaped marking may also show that a lane is reserved for buses."
     },
     {
       "id": "q-sig-toll-plazas-1",
       "item": "sig-toll-plazas",
       "part": 2,
-      "prompt": "If you enter an E-ZPass-only high speed lane by mistake, you should:",
+      "prompt": "What should you do if you enter an E-ZPass-only high-speed lane by mistake?",
       "choices": [
         "Stop and back up",
         "Stop and wait for a toll worker",
-        "Not stop; the vehicle owner will be billed for the toll",
+        "Do not stop, and let the vehicle owner be billed for the toll",
         "Turn around"
       ],
       "answer": 2,
-      "explain": "Do not stop; stopping could cause a rear-end crash, and the registered owner will be billed."
+      "explain": "Do not stop, because stopping could cause a rear-end crash. The registered owner will be billed."
     },
     {
       "id": "q-sig-toll-plazas-2",
       "item": "sig-toll-plazas",
       "part": 2,
-      "prompt": "If you do not have an E-ZPass transponder, as you approach a toll plaza you should:",
+      "prompt": "You do not have an E-ZPass transponder. What should you do as you approach a toll plaza?",
       "choices": [
         "Follow signs for cash only lanes",
         "Use any lane",
@@ -3055,80 +3055,80 @@
         "Stop on the shoulder"
       ],
       "answer": 0,
-      "explain": "Without a transponder, look for and follow signs for cash only lanes."
+      "explain": "Without a transponder, you should look for and follow the signs for cash only lanes."
     },
     {
       "id": "q-sig-toll-plazas-3",
       "item": "sig-toll-plazas",
       "part": 2,
-      "prompt": "When approaching, entering and leaving a toll plaza, you should:",
+      "prompt": "What should you do as you approach, enter and leave a toll plaza?",
       "choices": [
-        "Slow down and be extra cautious; toll employees may be crossing",
+        "Slow down and be extra cautious, because toll employees may be crossing",
         "Speed up to get through",
         "Change lanes quickly",
         "Use your horn"
       ],
       "answer": 0,
-      "explain": "Slow down and be extra cautious at toll plazas; drivers may change lanes and employees may cross."
+      "explain": "Slow down and be extra cautious at toll plazas. Drivers may change lanes, and toll employees may cross."
     },
     {
       "id": "q-sig-toll-plazas-4",
       "item": "sig-toll-plazas",
       "part": 2,
-      "prompt": "Some toll roads have high speed lanes reserved for E-ZPass. If you do not have a transponder, you should:",
+      "prompt": "Some toll roads have high-speed lanes reserved for E-ZPass. What should you do if you do not have a transponder?",
       "choices": [
-        "Use the lane and pay later",
-        "Not enter those lanes",
-        "Stop in the lane to pay cash",
-        "Use the lane only at night"
+        "Use those lanes and pay later",
+        "Do not enter those lanes",
+        "Stop in those lanes and pay cash",
+        "Use those lanes only at night"
       ],
       "answer": 1,
-      "explain": "Do not enter E-ZPass-only high speed lanes unless you have a transponder."
+      "explain": "Those lanes are reserved for E-ZPass. Without a transponder, you should not enter them."
     },
     {
       "id": "q-sig-painted-curbs-1",
       "item": "sig-painted-curbs",
       "part": 2,
-      "prompt": "A curb painted red means:",
+      "prompt": "What does a curb painted red mean?",
       "image": "curb-red",
       "choices": [
-        "Loading only",
-        "Passenger pick-up only",
-        "Do not stop, stand or park",
-        "Parking only at night"
+        "You may stop only to load or unload",
+        "You may stop only to pick up passengers",
+        "You may not stop, stand or park",
+        "You may park only at night"
       ],
       "answer": 2,
-      "explain": "A red curb means do not stop, stand or park."
+      "explain": "A red curb means that you must not stop, stand or park."
     },
     {
       "id": "q-sig-painted-curbs-2",
       "item": "sig-painted-curbs",
       "part": 2,
-      "prompt": "A curb painted yellow generally means:",
+      "prompt": "What does a curb painted yellow generally mean?",
       "image": "curb-yellow",
       "choices": [
-        "Do not stop at all",
-        "Stop only to pick up or drop off passengers",
-        "Park any time",
-        "Stop only long enough to load or unload, and stay with your car"
+        "You may not stop at all",
+        "You may stop only to pick up or drop off passengers",
+        "You may park at any time",
+        "You may stop only long enough to load or unload, and you must stay with your car"
       ],
       "answer": 3,
-      "explain": "A yellow curb means stop only long enough to load or unload; stay with your car."
+      "explain": "A yellow curb means you may stop only long enough to load or unload. You must stay with your car."
     },
     {
       "id": "q-sig-painted-curbs-3",
       "item": "sig-painted-curbs",
       "part": 2,
-      "prompt": "A curb painted white generally means:",
+      "prompt": "What does a curb painted white generally mean?",
       "image": "curb-white",
       "choices": [
-        "Do not stop, stand or park",
-        "Stop only long enough to pick up or drop off passengers",
-        "Load and unload freight only",
-        "Disabled parking only"
+        "You may not stop, stand or park",
+        "You may stop only long enough to pick up or drop off passengers",
+        "You may stop only to load and unload freight",
+        "You may park there only if you are disabled"
       ],
       "answer": 1,
-      "explain": "A white curb means stop only long enough to pick up or drop off passengers."
+      "explain": "A white curb means you may stop only long enough to pick up or drop off passengers."
     }
   ]
 }

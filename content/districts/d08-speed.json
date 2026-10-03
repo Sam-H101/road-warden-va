@@ -17,7 +17,7 @@
       "district": "d08-speed",
       "kind": "rule",
       "title": "Must slow for zones and weather",
-      "simple": "Slow down when a school zone or work zone speed limit is on. The law says so. Also slow down when road work or bad weather makes the posted speed unsafe.",
+      "simple": "By law, you must slow down when a school zone or work zone speed limit is in effect. You must also slow down when road work or bad weather makes the posted speed unsafe.",
       "official": "By law you must drive slower where signs indicate a school zone speed limit or work zone speed limit is in effect, and/or if conditions such as road construction or bad weather make the posted speed unsafe.",
       "manualRef": "Section 3, p. 14"
     },
@@ -26,7 +26,7 @@
       "district": "d08-speed",
       "kind": "number",
       "title": "Reckless: 20+ over or 85+",
-      "simple": "Going 20 MPH or more over the limit? Police can charge you with reckless driving. Going over 85 MPH? Same thing, no matter what the limit is.",
+      "simple": "If you drive 20 MPH or more over the speed limit, police can charge you with reckless driving. They can also charge you if you drive over 85 MPH, no matter what the limit is.",
       "official": "If you are driving 20 or more miles per hour (MPH) above the speed limit, or over 85 MPH, a law enforcement officer may charge you with reckless driving, regardless of the speed limit.",
       "mnemonic": "20 over, or over 85: reckless.",
       "manualRef": "Section 3, p. 14"
@@ -36,7 +36,7 @@
       "district": "d08-speed",
       "kind": "rule",
       "title": "Reckless driving is a crime",
-      "simple": "Reckless driving is a crime called a misdemeanor. A judge can fine you, take away your license, or put you in jail. If someone dies while your license is suspended or revoked, it may be a felony.",
+      "simple": "Reckless driving is a crime called a misdemeanor. A judge can fine you, take away your license, or put you in jail. If reckless driving causes a death while your license is suspended or revoked, it may be a felony.",
       "official": "It is considered a misdemeanor criminal offense if convicted of reckless driving. The court may require a fine, suspend your driving privilege and/or impose a jail sentence. If the violation results in death and the operator's license was suspended or revoked at the time of the offense, it may be considered a felony.",
       "manualRef": "Section 3, p. 14"
     },
@@ -64,7 +64,7 @@
       "district": "d08-speed",
       "kind": "number",
       "title": "25 MPH: school, business, homes",
-      "simple": "No speed sign? In school, business and home areas, the top speed is 25 MPH.",
+      "simple": "If there is no speed limit sign, the top speed in school, business and home areas is 25 MPH.",
       "official": "Unless there is a speed limit sign stating otherwise, the maximum speed limit for passenger vehicles and motorcycles is 25 MPH for school, business and residential areas.",
       "mnemonic": "Homes, shops, schools: 25.",
       "manualRef": "Section 3, p. 15"
@@ -74,7 +74,7 @@
       "district": "d08-speed",
       "kind": "number",
       "title": "35 MPH: unpaved roads",
-      "simple": "No speed sign? On an unpaved road, the top speed is 35 MPH.",
+      "simple": "If there is no speed limit sign, the top speed on an unpaved road is 35 MPH.",
       "official": "Unless there is a speed limit sign stating otherwise, the maximum speed limit for passenger vehicles and motorcycles is 35 MPH for unpaved roads.",
       "mnemonic": "Dirt is 35.",
       "manualRef": "Section 3, p. 15"
@@ -84,7 +84,7 @@
       "district": "d08-speed",
       "kind": "number",
       "title": "55 MPH: all other roads",
-      "simple": "No speed sign? On all other roads, the top speed is 55 MPH. Other roads means not school, business, home or unpaved.",
+      "simple": "If there is no speed limit sign, the top speed on all other roads is 55 MPH. Other roads are all roads except unpaved roads and roads in school, business or home areas.",
       "official": "Unless there is a speed limit sign stating otherwise, the maximum speed limit for passenger vehicles and motorcycles is 55 MPH for all other roads.",
       "mnemonic": "Homes 25, dirt 35, the rest 55.",
       "manualRef": "Section 3, p. 15"
@@ -113,7 +113,7 @@
       "district": "d08-speed",
       "kind": "rule",
       "title": "Reaction distance",
-      "simple": "You spot a problem. Then your foot moves to the brake. The distance your car travels in between is reaction distance.",
+      "simple": "You spot a problem. Then your foot moves to the brake. The distance your car travels in between is called reaction distance.",
       "official": "Reaction distance: The distance your vehicle travels between the time you recognize a problem and the time you apply the brakes.",
       "manualRef": "Section 3, p. 15",
       "mnemonic": "Reaction distance: before the brake. Braking distance: after."
@@ -123,7 +123,7 @@
       "district": "d08-speed",
       "kind": "rule",
       "title": "Braking distance",
-      "simple": "Braking distance is how far your car moves after you press the brake. Higher speed, worn brakes or tires, and bad pavement make it longer.",
+      "simple": "Braking distance is how far your car moves after you press the brake. It gets longer when you drive faster, when your brakes or tires are worn, or when the pavement is bad.",
       "official": "Braking distance: The distance your car travels after you apply the brakes. Braking distance is also affected by how fast your vehicle is traveling, the condition of your brakes and tires, and the pavement condition.",
       "manualRef": "Section 3, p. 15",
       "mnemonic": "Braking distance starts when your foot hits the brake."
@@ -133,7 +133,7 @@
       "district": "d08-speed",
       "kind": "rule",
       "title": "What changes your stopping distance",
-      "simple": "Weather changes how fast you can stop. So does how well you can see and how you feel. Speed, road conditions, how alert you are, and your car's weight matter too.",
+      "simple": "Your stopping distance changes with the weather, how well you can see, and how you feel. It also changes with your speed, the road conditions, how alert you are and your car's weight.",
       "official": "Perception time, reaction distance and braking distance are affected by weather, visibility, and your mental and physical condition. Road conditions, speed, driver alertness, and the weight of the vehicle you are driving all change the ability to stop.",
       "manualRef": "Section 3, p. 15"
     },
@@ -142,7 +142,7 @@
       "district": "d08-speed",
       "kind": "number",
       "title": "Wet pavement doubles braking",
-      "simple": "Wet pavement can double your braking distance. It can take twice as far to stop in the rain.",
+      "simple": "Wet pavement can double your braking distance. In the rain, you may need twice as much distance to stop.",
       "official": "Braking distance is also affected by ... the pavement condition. For example, wet pavement can double your braking distance.",
       "mnemonic": "Wet = double.",
       "manualRef": "Section 3, p. 15"
@@ -162,7 +162,7 @@
       "district": "d08-speed",
       "kind": "rule",
       "title": "Keep a space cushion",
-      "simple": "Keep space all around your car. It gives you room to react and avoid a crash. Stay in the middle of your lane. Leave room ahead and behind.",
+      "simple": "Keep space all around your car. The space gives you room to react and avoid a crash. Stay in the middle of your lane. Leave room ahead of your car and behind it.",
       "official": "Space around your vehicle gives you distance to react in emergencies and avoid a crash. Create a space cushion around your vehicle by staying in the middle of your lane. Make sure there is enough room ahead of your vehicle and behind it for other vehicles to pass or stop safely.",
       "manualRef": "Section 3, p. 19"
     },
@@ -171,7 +171,7 @@
       "district": "d08-speed",
       "kind": "number",
       "title": "Under 35 MPH: 2 seconds",
-      "simple": "Driving under 35 MPH on a dry road? Stay at least 2 seconds behind the car ahead.",
+      "simple": "If you drive under 35 MPH on a dry road, stay at least 2 seconds behind the car ahead.",
       "official": "Following Distance: 2 seconds Under 35 MPH. At these speeds and on dry surfaces, this distance, in seconds, allows the driver to steer and brake out of a problem area.",
       "image": "diagram-following-distance",
       "mnemonic": "2 under 35.",
@@ -182,7 +182,7 @@
       "district": "d08-speed",
       "kind": "number",
       "title": "35-45 MPH: 3 seconds",
-      "simple": "Driving 35 to 45 MPH on a dry road? Stay at least 3 seconds behind the car ahead.",
+      "simple": "If you drive 35 to 45 MPH on a dry road, stay at least 3 seconds behind the car ahead.",
       "official": "Following Distance: 3 seconds 35-45 MPH. At these speeds and on dry surfaces, this distance, in seconds, allows the driver to steer and brake out of a problem area.",
       "mnemonic": "3 for 35 to 45.",
       "manualRef": "Section 3, p. 19"
@@ -192,7 +192,7 @@
       "district": "d08-speed",
       "kind": "number",
       "title": "46-70 MPH: 4 seconds",
-      "simple": "Driving 46 to 70 MPH on a dry road? Stay at least 4 seconds behind the car ahead. If you speed over 70 MPH, these rules do not work.",
+      "simple": "If you drive 46 to 70 MPH on a dry road, stay at least 4 seconds behind the car ahead. If you speed over 70 MPH, these following distances do not work.",
       "official": "Following Distance: 4 seconds 46-70 MPH. The space cushions above do not work if you're speeding over 70.",
       "mnemonic": "2 under 35, 3 to 45, 4 to 70.",
       "manualRef": "Section 3, p. 19"
@@ -211,7 +211,7 @@
       "district": "d08-speed",
       "kind": "rule",
       "title": "Add seconds when conditions are bad",
-      "simple": "Add extra seconds to your following distance in bad weather or heavy traffic. Add more on poor pavement, or if your car is in poor shape.",
+      "simple": "Add extra seconds to your following distance in bad weather or heavy traffic. Also add extra seconds on poor pavement or when your car is in poor condition.",
       "official": "For bad weather conditions, heavy traffic, poor pavement or if your vehicle is in poor condition, add extra seconds to increase your following distance. Drivers need to change following distance when speed or road conditions change.",
       "manualRef": "Section 3, p. 19",
       "mnemonic": "Worse road, more seconds."
@@ -221,7 +221,7 @@
       "district": "d08-speed",
       "kind": "number",
       "title": "Hand 1/2 second, foot 3/4",
-      "simple": "Your hands react in about half a second. Your foot takes about three-quarters of a second. Being tired, on medicine or distracted slows you down even more.",
+      "simple": "Your hands react in about half a second. Your foot reacts in about three-quarters of a second. If you are tired, taking medicine or distracted, you react even more slowly.",
       "official": "Hand response time is close to a half second. Foot response time is normally three-quarters of a second. This does not take into account any delay in perception time as a result of the driver being tired, on medication, distracted, etc.",
       "manualRef": "Section 3, p. 19",
       "mnemonic": "Hand and Half both start with H. Foot is slower: 3/4."
@@ -231,7 +231,7 @@
       "district": "d08-speed",
       "kind": "rule",
       "title": "When to leave extra space",
-      "simple": "Leave extra space behind a big vehicle that blocks your view. Leave extra space behind a motorcycle or bike. Also add space in bad weather, heavy traffic, leaving an expressway, or when tailgated.",
+      "simple": "Leave extra space behind a big vehicle that blocks your view. Leave extra space behind a motorcycle or bike. Also add space in bad weather, in heavy traffic, when you leave an expressway, and when someone is tailgating you.",
       "official": "Increase your following distance when driving: behind a large vehicle that blocks your vision; in bad weather or heavy traffic; when exiting an expressway; behind a motorcycle or bicycle; when being tailgated.",
       "manualRef": "Section 3, p. 19"
     },
@@ -240,7 +240,7 @@
       "district": "d08-speed",
       "kind": "rule",
       "title": "Being tailgated: no sudden braking",
-      "simple": "A tailgater follows you too closely. Do not slam on your brakes. Move to another lane if you can. Or tap your brakes gently and slow down. Then they can pass or back off.",
+      "simple": "A tailgater follows you too closely. Do not slam on your brakes. If you can, move to another lane. You can also tap your brakes gently and slow down. Then the tailgater can pass or back off.",
       "official": "Tailgating is when one driver follows another too closely. If you find yourself in this situation, do not brake suddenly. If possible, move over to another lane, or gently tap your brakes to flash your brake lights and slow down. This should encourage the tailgater to pass you or slow down. Help the driver behind you by maintaining a safe following distance and a steady speed. Tap your brakes to warn the driver behind you when you plan to slow down or stop.",
       "manualRef": "Section 3, p. 19",
       "mnemonic": "Tailgater? Tap, don't slam."
@@ -250,7 +250,7 @@
       "district": "d08-speed",
       "kind": "number",
       "title": "Look 20-30 seconds ahead",
-      "simple": "Look far ahead, 20 to 30 seconds. In the city, that is about one block. Keep your eyes moving. Do not stare at one thing or at the middle of the road.",
+      "simple": "Look far down the road, 20 to 30 seconds ahead of your car. In the city, that is about one block. Keep your eyes moving. Do not stare at one thing or at the middle of the road.",
       "official": "Searching means looking at the entire scene for anything that might come into your path. As you search the road, avoid staring at one thing. Expert drivers try to focus their eyes 20 to 30 seconds ahead. In the city, that equals approximately one block. Avoid staring at the middle of the road. Scan from side to side.",
       "mnemonic": "20 to 30 seconds ahead = about one city block.",
       "manualRef": "Section 3, p. 19"
@@ -270,7 +270,7 @@
       "district": "d08-speed",
       "kind": "rule",
       "title": "Look both ways where paths cross",
-      "simple": "Look both ways anywhere cars, people or animals may cross your path. This means intersections, crosswalks, shopping centers, work areas and playgrounds.",
+      "simple": "Look both ways anywhere cars, people or animals may cross your path. Such places include intersections, crosswalks, shopping centers, work areas and playgrounds.",
       "official": "Whenever you reach a place in the road where other cars, people or animals may cross your path, look both ways to be sure it is clear. These include intersections, crosswalks, shopping centers, construction areas and playgrounds.",
       "mnemonic": "Paths cross? Look both ways.",
       "manualRef": "Section 3, p. 19"
@@ -280,7 +280,7 @@
       "district": "d08-speed",
       "kind": "number",
       "title": "Check mirror every 10 seconds",
-      "simple": "Check your rearview mirror often, about every 10 seconds. It shows if someone is coming up too fast or tailgating. Also check before changing lanes, backing up, or slowing down quickly.",
+      "simple": "Check your rearview mirror often, about every 10 seconds. It shows if someone is coming up too fast or tailgating you. Also check it before you change lanes, back up or slow down quickly.",
       "official": "Use your rearview mirror to check the traffic behind you frequently, about every 10 seconds. This will alert you if someone is moving up too quickly or tailgating you. Check the traffic behind you when changing lanes, backing up, slowing down quickly or driving down a long, steep hill.",
       "mnemonic": "Every 10 seconds, peek back.",
       "manualRef": "Section 3, p. 19"
@@ -301,12 +301,12 @@
       "id": "ev-spd-max-ideal-1",
       "item": "spd-max-ideal",
       "kind": "gates",
-      "prompt": "The speed limit is the top speed for:",
+      "prompt": "Under which conditions is the speed limit the top legal speed?",
       "image": "sign-speed-limit",
       "choices": [
         "Ideal conditions",
         "Any weather",
-        "Night only"
+        "Only at night"
       ],
       "answer": 0,
       "missLine": "The speed limit is the top legal speed under ideal conditions."
@@ -318,7 +318,7 @@
       "prompt": "Can a driver legally go slower than the limit?",
       "choices": [
         "No, never",
-        "Yes, if not blocking traffic",
+        "Yes, without blocking traffic",
         "Only on dirt roads"
       ],
       "answer": 1,
@@ -331,17 +331,17 @@
       "prompt": "Can a driver legally go faster than the limit?",
       "choices": [
         "Yes, to pass a car",
-        "Yes, if roads are empty",
+        "Yes, if the roads are empty",
         "No, it is illegal"
       ],
       "answer": 2,
-      "missLine": "The limit is the top. Driving any faster is illegal."
+      "missLine": "The limit is the top speed. Driving any faster is illegal."
     },
     {
       "id": "ev-spd-must-slow-zones-1",
       "item": "spd-must-slow-zones",
       "kind": "action",
-      "prompt": "Heavy rain on a 55 MPH road",
+      "prompt": "Heavy rain is falling on a road with a 55 MPH speed limit.",
       "sign": "sign-speed-limit",
       "weather": "rain",
       "action": "slow",
@@ -351,7 +351,7 @@
       "id": "ev-spd-must-slow-zones-2",
       "item": "spd-must-slow-zones",
       "kind": "action",
-      "prompt": "School zone speed limit in effect!",
+      "prompt": "A school zone speed limit is in effect!",
       "sign": "sign-school-zone",
       "action": "slow",
       "missLine": "Obey the school zone speed limit. Slow down."
@@ -360,7 +360,7 @@
       "id": "ev-spd-must-slow-zones-3",
       "item": "spd-must-slow-zones",
       "kind": "action",
-      "prompt": "Work zone speed limit in effect!",
+      "prompt": "A work zone speed limit is in effect!",
       "prop": "work-zone-cones",
       "action": "slow",
       "missLine": "Obey the work zone speed limit. Slow down."
@@ -369,47 +369,47 @@
       "id": "ev-spd-must-slow-zones-4",
       "item": "spd-must-slow-zones",
       "kind": "gates",
-      "prompt": "Posted 55, but thick fog. What speed?",
+      "prompt": "How fast should you drive in thick fog when the posted limit is 55 MPH?",
       "image": "sign-speed-limit",
       "choices": [
-        "Slower than 55",
-        "Exactly 55",
-        "Up to 60"
+        "Slower than 55 MPH",
+        "Exactly 55 MPH",
+        "Up to 60 MPH"
       ],
       "answer": 0,
-      "missLine": "Fog makes 55 unsafe. When conditions are bad, you must drive slower."
+      "missLine": "Fog makes 55 MPH unsafe. When conditions are bad, you must drive slower."
     },
     {
       "id": "ev-spd-reckless-speeds-1",
       "item": "spd-reckless-speeds",
       "kind": "gates",
-      "prompt": "How far over the limit is reckless?",
+      "prompt": "How many MPH over the speed limit counts as reckless driving?",
       "choices": [
         "10 MPH or more",
         "15 MPH or more",
         "20 MPH or more"
       ],
       "answer": 2,
-      "missLine": "20 MPH or more over the limit can be reckless driving."
+      "missLine": "Going 20 MPH or more over the limit can be reckless driving."
     },
     {
       "id": "ev-spd-reckless-speeds-2",
       "item": "spd-reckless-speeds",
       "kind": "gates",
-      "prompt": "On any road, reckless is over what speed?",
+      "prompt": "No matter the limit, over what speed can police charge you with reckless driving?",
       "choices": [
         "75 MPH",
         "85 MPH",
         "95 MPH"
       ],
       "answer": 1,
-      "missLine": "Over 85 MPH, police can charge you with reckless driving, at any limit."
+      "missLine": "Police can charge you with reckless driving for going over 85 MPH, whatever the limit is."
     },
     {
       "id": "ev-spd-reckless-speeds-3",
       "item": "spd-reckless-speeds",
       "kind": "gates",
-      "prompt": "Limit is 45. Reckless starts at what speed?",
+      "prompt": "If the limit is 45 MPH, at what speed does reckless driving begin?",
       "image": "sign-speed-limit",
       "choices": [
         "50 MPH",
@@ -417,17 +417,17 @@
         "65 MPH"
       ],
       "answer": 2,
-      "missLine": "20 MPH over the limit is reckless. 45 plus 20 is 65."
+      "missLine": "Going 20 MPH over the limit is reckless driving. Here, 45 plus 20 is 65 MPH."
     },
     {
       "id": "ev-spd-reckless-penalty-1",
       "item": "spd-reckless-penalty",
       "kind": "gates",
-      "prompt": "Reckless driving is what kind of offense?",
+      "prompt": "What kind of offense is reckless driving?",
       "choices": [
-        "Parking ticket",
-        "Misdemeanor crime",
-        "Warning only"
+        "A parking ticket",
+        "A misdemeanor crime",
+        "Only a warning"
       ],
       "answer": 1,
       "missLine": "Reckless driving is a crime called a misdemeanor."
@@ -436,7 +436,7 @@
       "id": "ev-spd-reckless-penalty-2",
       "item": "spd-reckless-penalty",
       "kind": "gates",
-      "prompt": "Can a court jail a driver for reckless driving?",
+      "prompt": "Can a court send a driver to jail for reckless driving?",
       "choices": [
         "No, only a fine",
         "No, only demerit points",
@@ -449,11 +449,11 @@
       "id": "ev-spd-reckless-penalty-3",
       "item": "spd-reckless-penalty",
       "kind": "gates",
-      "prompt": "Reckless driving kills someone. License was suspended. It may be a:",
+      "prompt": "If your reckless driving kills someone while your license is suspended, what may it be?",
       "choices": [
-        "Felony",
-        "Warning",
-        "Parking fine"
+        "A felony",
+        "A warning",
+        "A parking fine"
       ],
       "answer": 0,
       "missLine": "If someone dies and your license was suspended or revoked, it may be a felony."
@@ -462,37 +462,37 @@
       "id": "ev-spd-extra-100-fine-1",
       "item": "spd-extra-100-fine",
       "kind": "gates",
-      "prompt": "81-85 MPH in a 65 zone: extra fine?",
+      "prompt": "What extra fine applies to driving 81 to 85 MPH in a 65 MPH zone?",
       "choices": [
         "$50",
         "$100",
         "$250"
       ],
       "answer": 1,
-      "missLine": "Driving 81 to 85 MPH in a 65 zone adds a $100 fine."
+      "missLine": "Driving 81 to 85 MPH in a 65 MPH zone adds an extra $100 fine."
     },
     {
       "id": "ev-spd-extra-100-fine-2",
       "item": "spd-extra-100-fine",
       "kind": "gates",
-      "prompt": "Extra $100 fine: what speed in a 65 zone?",
+      "prompt": "Which speeds in a 65 MPH zone bring an extra $100 fine?",
       "choices": [
         "66 to 70 MPH",
         "71 to 75 MPH",
         "81 to 85 MPH"
       ],
       "answer": 2,
-      "missLine": "The extra $100 fine is for 81 to 85 MPH in a 65 zone."
+      "missLine": "The extra $100 fine is for 81 to 85 MPH in a 65 MPH zone."
     },
     {
       "id": "ev-spd-extra-100-fine-3",
       "item": "spd-extra-100-fine",
       "kind": "gates",
-      "prompt": "The extra $100 fine applies in which zone?",
+      "prompt": "In which zone does the extra $100 fine apply?",
       "choices": [
-        "25 MPH zone",
-        "35 MPH zone",
-        "65 MPH zone"
+        "A 25 MPH zone",
+        "A 35 MPH zone",
+        "A 65 MPH zone"
       ],
       "answer": 2,
       "missLine": "The extra $100 fine is for 81 to 85 MPH in a 65 MPH zone."
@@ -501,7 +501,7 @@
       "id": "ev-spd-radar-illegal-1",
       "item": "spd-radar-illegal",
       "kind": "gates",
-      "prompt": "Radar detectors in Virginia are:",
+      "prompt": "Are radar detectors legal or illegal in Virginia?",
       "choices": [
         "Legal",
         "Illegal",
@@ -527,123 +527,123 @@
       "id": "ev-spd-default-25-1",
       "item": "spd-default-25",
       "kind": "gates",
-      "prompt": "No sign, residential street. Top speed?",
+      "prompt": "What is the top speed on a residential street with no speed limit sign?",
       "choices": [
         "25 MPH",
         "35 MPH",
         "45 MPH"
       ],
       "answer": 0,
-      "missLine": "With no sign, the limit in residential areas is 25 MPH."
+      "missLine": "When no sign says otherwise, the limit in residential areas is 25 MPH."
     },
     {
       "id": "ev-spd-default-25-2",
       "item": "spd-default-25",
       "kind": "gates",
-      "prompt": "No sign, business district. Top speed?",
+      "prompt": "What is the top speed in a business district with no speed limit sign?",
       "choices": [
         "15 MPH",
         "25 MPH",
         "35 MPH"
       ],
       "answer": 1,
-      "missLine": "With no sign, the limit in business areas is 25 MPH."
+      "missLine": "When no sign says otherwise, the limit in business areas is 25 MPH."
     },
     {
       "id": "ev-spd-default-25-3",
       "item": "spd-default-25",
       "kind": "action",
-      "prompt": "School area, no speed sign posted",
+      "prompt": "You are in a school area, and no speed sign is posted.",
       "sign": "sign-school-zone",
       "action": "slow",
-      "missLine": "With no sign, school areas are 25 MPH. Slow down."
+      "missLine": "With no speed sign, the speed limit in a school area is 25 MPH. Slow down."
     },
     {
       "id": "ev-spd-default-35-1",
       "item": "spd-default-35",
       "kind": "gates",
-      "prompt": "No sign, dirt road. Top speed?",
+      "prompt": "What is the top speed on a dirt road with no speed limit sign?",
       "choices": [
         "25 MPH",
         "35 MPH",
         "55 MPH"
       ],
       "answer": 1,
-      "missLine": "With no sign, the limit on unpaved roads is 35 MPH."
+      "missLine": "When no sign says otherwise, the limit on unpaved roads is 35 MPH."
     },
     {
       "id": "ev-spd-default-35-2",
       "item": "spd-default-35",
       "kind": "gates",
-      "prompt": "Unpaved road limit, if not posted?",
+      "prompt": "What is the speed limit on an unpaved road if no limit is posted?",
       "choices": [
         "35 MPH",
         "45 MPH",
         "55 MPH"
       ],
       "answer": 0,
-      "missLine": "Unpaved roads are 35 MPH unless a sign says otherwise."
+      "missLine": "The limit on unpaved roads is 35 MPH unless a sign says otherwise."
     },
     {
       "id": "ev-spd-default-55-1",
       "item": "spd-default-55",
       "kind": "gates",
-      "prompt": "No sign, open paved highway. Top speed?",
+      "prompt": "What is the top speed on an open paved highway with no speed limit sign?",
       "choices": [
         "45 MPH",
         "55 MPH",
         "65 MPH"
       ],
       "answer": 1,
-      "missLine": "With no sign, all other roads are 55 MPH."
+      "missLine": "When no sign says otherwise, the limit on all other roads is 55 MPH."
     },
     {
       "id": "ev-spd-default-55-2",
       "item": "spd-default-55",
       "kind": "gates",
-      "prompt": "No sign. Not homes, not dirt. Top speed?",
+      "prompt": "With no sign, what is the limit on a road that is not residential or unpaved?",
       "choices": [
         "25 MPH",
         "35 MPH",
         "55 MPH"
       ],
       "answer": 2,
-      "missLine": "Unless posted, all other roads are 55 MPH."
+      "missLine": "Unless a sign says otherwise, the limit on all other roads is 55 MPH."
     },
     {
       "id": "ev-spd-default-55-3",
       "item": "spd-default-55",
       "kind": "gates",
-      "prompt": "No sign: school 25, dirt 35. All other roads?",
+      "prompt": "With no sign, what limit applies outside school, business and home areas and unpaved roads?",
       "choices": [
         "55 MPH",
         "65 MPH",
         "70 MPH"
       ],
       "answer": 0,
-      "missLine": "Homes, schools, business 25. Dirt 35. All other roads 55."
+      "missLine": "School, business and home areas are 25 MPH, and dirt roads are 35 MPH. All other roads are 55 MPH."
     },
     {
       "id": "ev-spd-photo-school-zone-1",
       "item": "spd-photo-school-zone",
       "kind": "action",
-      "prompt": "School zone: SPEED PHOTO ENFORCED",
+      "prompt": "A school zone sign says SPEED PHOTO ENFORCED.",
       "sign": "sign-school-zone",
       "action": "slow",
-      "missLine": "Cameras may check your speed here. Obey the school zone limit."
+      "missLine": "Cameras may check your speed here. Obey the school zone speed limit."
     },
     {
       "id": "ev-spd-photo-school-zone-2",
       "item": "spd-photo-school-zone",
       "kind": "gates",
-      "prompt": "SPEED PHOTO ENFORCED means:",
+      "prompt": "What does a SPEED PHOTO ENFORCED sign mean?",
       "choices": [
         "Cameras check your speed",
-        "No speed limit here",
-        "Photo spot ahead"
+        "There is no speed limit here",
+        "A photo spot is ahead"
       ],
       "answer": 0,
-      "missLine": "Speed Photo Enforced means cameras check your speed."
+      "missLine": "A Speed Photo Enforced sign means cameras check your speed."
     },
     {
       "id": "ev-spd-photo-school-zone-3",
@@ -651,18 +651,18 @@
       "kind": "gates",
       "prompt": "Where can automated speed cameras be used?",
       "choices": [
-        "Driveways",
-        "School zones",
-        "Parking lots"
+        "In driveways",
+        "In school zones",
+        "In parking lots"
       ],
       "answer": 1,
-      "missLine": "Some school zones have automated photo speed enforcement."
+      "missLine": "Some school zones use cameras to check your speed."
     },
     {
       "id": "ev-spd-stop-three-factors-1",
       "item": "spd-stop-three-factors",
       "kind": "gates",
-      "prompt": "Time to spot a danger is called:",
+      "prompt": "What is the time it takes you to spot a danger called?",
       "choices": [
         "Braking distance",
         "Following distance",
@@ -675,50 +675,50 @@
       "id": "ev-spd-stop-three-factors-2",
       "item": "spd-stop-three-factors",
       "kind": "gates",
-      "prompt": "Which is part of stopping distance?",
+      "prompt": "Which of these is part of stopping distance?",
       "choices": [
         "Reaction distance",
         "Following distance",
         "Lane width"
       ],
       "answer": 0,
-      "missLine": "Stopping distance: perception time, reaction distance and braking distance."
+      "missLine": "Perception time, reaction distance and braking distance make up stopping distance."
     },
     {
       "id": "ev-spd-stop-three-factors-3",
       "item": "spd-stop-three-factors",
       "kind": "gates",
-      "prompt": "Stopping distance has how many factors?",
+      "prompt": "How many factors make up stopping distance?",
       "choices": [
         "2",
         "3",
         "4"
       ],
       "answer": 1,
-      "missLine": "Three factors: perception time, reaction distance, braking distance."
+      "missLine": "Stopping distance has three factors. They are perception time, reaction distance and braking distance."
     },
     {
       "id": "ev-spd-reaction-distance-1",
       "item": "spd-reaction-distance",
       "kind": "gates",
-      "prompt": "Distance from seeing danger to hitting the brake?",
+      "prompt": "What is the distance from seeing danger to pressing the brake called?",
       "choices": [
         "Braking distance",
         "Reaction distance",
         "Space cushion"
       ],
       "answer": 1,
-      "missLine": "Reaction distance is how far you go from spotting a problem to braking."
+      "missLine": "Reaction distance is how far you travel from spotting a problem to pressing the brake."
     },
     {
       "id": "ev-spd-reaction-distance-2",
       "item": "spd-reaction-distance",
       "kind": "gates",
-      "prompt": "Reaction distance ends when you:",
+      "prompt": "When does reaction distance end?",
       "choices": [
-        "Come to a stop",
-        "Turn the wheel",
-        "Press the brake"
+        "When you come to a stop",
+        "When you turn the wheel",
+        "When you press the brake"
       ],
       "answer": 2,
       "missLine": "Reaction distance ends when your foot presses the brake."
@@ -727,7 +727,7 @@
       "id": "ev-spd-braking-distance-1",
       "item": "spd-braking-distance",
       "kind": "gates",
-      "prompt": "Distance traveled after you press the brake?",
+      "prompt": "What is the distance you travel after you press the brake called?",
       "choices": [
         "Braking distance",
         "Reaction distance",
@@ -747,58 +747,58 @@
         "Using your mirrors"
       ],
       "answer": 1,
-      "missLine": "Brakes, tires, speed and pavement all affect braking distance."
+      "missLine": "Worn brakes or tires, higher speed and bad pavement all make braking distance longer."
     },
     {
       "id": "ev-spd-braking-distance-3",
       "item": "spd-braking-distance",
       "kind": "action",
-      "prompt": "Reduced speed limit ahead",
+      "prompt": "A reduced speed limit sign is ahead.",
       "sign": "sign-reduced-speed-ahead",
       "action": "slow",
-      "missLine": "Slow down. Higher speed means a longer braking distance."
+      "missLine": "Slow down. A higher speed means a longer braking distance."
     },
     {
       "id": "ev-spd-stop-conditions-1",
       "item": "spd-stop-conditions",
       "kind": "gates",
-      "prompt": "Which changes your stopping distance?",
+      "prompt": "Which of these changes your stopping distance?",
       "choices": [
-        "Radio station",
-        "Weather",
-        "Car color"
+        "The radio station",
+        "The weather",
+        "The color of your car"
       ],
       "answer": 1,
-      "missLine": "Weather, visibility and your condition all affect stopping distance."
+      "missLine": "Weather, how well you can see, and how you feel all change your stopping distance."
     },
     {
       "id": "ev-spd-stop-conditions-2",
       "item": "spd-stop-conditions",
       "kind": "action",
-      "prompt": "Fog! Hard to see ahead",
+      "prompt": "There is fog, and it is hard to see ahead!",
       "weather": "fog",
       "prop": "truck-ahead",
       "action": "slow",
-      "missLine": "Poor visibility makes stopping take longer. Slow down."
+      "missLine": "Poor visibility means it takes longer to stop. Slow down."
     },
     {
       "id": "ev-spd-stop-conditions-3",
       "item": "spd-stop-conditions",
       "kind": "gates",
-      "prompt": "A heavier vehicle changes your:",
+      "prompt": "What does a heavier vehicle change?",
       "choices": [
-        "Ability to stop",
-        "Speed limit",
-        "Mirror angle"
+        "Your ability to stop",
+        "The speed limit",
+        "The angle of your mirror"
       ],
       "answer": 0,
-      "missLine": "Road, speed, alertness and vehicle weight all change how you stop."
+      "missLine": "A heavier vehicle changes your ability to stop. Road conditions, your speed and how alert you are change it too."
     },
     {
       "id": "ev-spd-wet-doubles-1",
       "item": "spd-wet-doubles",
       "kind": "action",
-      "prompt": "Rain! Wet pavement ahead",
+      "prompt": "It is raining, and the pavement ahead is wet!",
       "prop": "ponded-water",
       "weather": "rain",
       "action": "slow",
@@ -808,10 +808,10 @@
       "id": "ev-spd-wet-doubles-2",
       "item": "spd-wet-doubles",
       "kind": "gates",
-      "prompt": "Wet pavement can do what to braking distance?",
+      "prompt": "What can wet pavement do to your braking distance?",
       "choices": [
         "Cut it in half",
-        "No change",
+        "Leave it the same",
         "Double it"
       ],
       "answer": 2,
@@ -821,62 +821,62 @@
       "id": "ev-spd-wet-doubles-3",
       "item": "spd-wet-doubles",
       "kind": "gates",
-      "prompt": "Braking takes 100 feet dry. Wet, it could take?",
+      "prompt": "If braking distance is 100 feet on dry pavement, what could it be on wet pavement?",
       "choices": [
         "50 feet",
         "100 feet",
         "200 feet"
       ],
       "answer": 2,
-      "missLine": "Wet pavement can double braking distance: twice as far."
+      "missLine": "Wet pavement can double your braking distance, so 100 feet can become 200 feet."
     },
     {
       "id": "ev-spd-antilock-no-pump-1",
       "item": "spd-antilock-no-pump",
       "kind": "gates",
-      "prompt": "Antilock brakes: should you pump them?",
+      "prompt": "When should you pump antilock brakes?",
       "choices": [
         "Never",
         "Always",
         "Only on ice"
       ],
       "answer": 0,
-      "missLine": "Never pump antilock brakes."
+      "missLine": "You should never pump antilock brakes."
     },
     {
       "id": "ev-spd-antilock-no-pump-2",
       "item": "spd-antilock-no-pump",
       "kind": "gates",
-      "prompt": "Learn your antilock brakes from the:",
+      "prompt": "Which source should you use to learn how your antilock brakes work?",
       "choices": [
-        "Radio ads",
-        "Owner's manual",
-        "Other drivers"
+        "Ads on the radio",
+        "Your owner's manual",
+        "Advice from other drivers"
       ],
       "answer": 1,
-      "missLine": "Read your owner's manual and practice braking before you drive."
+      "missLine": "Read your owner's manual and practice braking before you drive on the road."
     },
     {
       "id": "ev-spd-antilock-no-pump-3",
       "item": "spd-antilock-no-pump",
       "kind": "gates",
-      "prompt": "Hard stop with antilock brakes. Do what?",
+      "prompt": "What should you do with antilock brakes during a hard stop?",
       "choices": [
         "Pump them fast",
         "Pump them slowly",
         "Never pump them"
       ],
       "answer": 2,
-      "missLine": "Never pump antilock brakes. Just press."
+      "missLine": "Never pump antilock brakes, even in a hard stop."
     },
     {
       "id": "ev-spd-space-cushion-1",
       "item": "spd-space-cushion",
       "kind": "gates",
-      "prompt": "Space cushion: where in your lane?",
+      "prompt": "Where in your lane should you stay to keep a space cushion?",
       "choices": [
-        "Middle of the lane",
-        "Edge of the lane",
+        "In the middle",
+        "At the edge",
         "On the lane line"
       ],
       "answer": 0,
@@ -886,20 +886,20 @@
       "id": "ev-spd-space-cushion-2",
       "item": "spd-space-cushion",
       "kind": "gates",
-      "prompt": "A space cushion gives you what?",
+      "prompt": "What does a space cushion give you?",
       "choices": [
         "Better gas mileage",
         "Room to react",
         "A faster trip"
       ],
       "answer": 1,
-      "missLine": "Space around you gives you distance to react and avoid a crash."
+      "missLine": "Space around your car gives you room to react and avoid a crash."
     },
     {
       "id": "ev-spd-space-cushion-3",
       "item": "spd-space-cushion",
       "kind": "action",
-      "prompt": "Truck close ahead. Make space!",
+      "prompt": "A truck is close ahead. Give yourself more space!",
       "prop": "truck-ahead",
       "action": "slow",
       "missLine": "Leave room ahead so you have time to react."
@@ -908,7 +908,7 @@
       "id": "ev-spd-follow-2-sec-1",
       "item": "spd-follow-2-sec",
       "kind": "gates",
-      "prompt": "Under 35 MPH: following distance?",
+      "prompt": "What following distance should you keep when driving under 35 MPH?",
       "image": "diagram-following-distance",
       "choices": [
         "2 seconds",
@@ -916,35 +916,35 @@
         "4 seconds"
       ],
       "answer": 0,
-      "missLine": "Under 35 MPH, follow at least 2 seconds behind."
+      "missLine": "Under 35 MPH, stay at least 2 seconds behind the car ahead."
     },
     {
       "id": "ev-spd-follow-2-sec-2",
       "item": "spd-follow-2-sec",
       "kind": "gates",
-      "prompt": "At 25 MPH on a dry road, follow how far back?",
+      "prompt": "How far back should you follow at 25 MPH on a dry road?",
       "choices": [
         "2 seconds",
         "3 seconds",
         "4 seconds"
       ],
       "answer": 0,
-      "missLine": "Under 35 MPH, stay at least 2 seconds back."
+      "missLine": "At speeds under 35 MPH, stay at least 2 seconds behind the car ahead."
     },
     {
       "id": "ev-spd-follow-2-sec-3",
       "item": "spd-follow-2-sec",
       "kind": "action",
-      "prompt": "Slow city street, truck ahead too close",
+      "prompt": "You are driving slowly on a city street. The truck ahead is too close.",
       "prop": "truck-ahead",
       "action": "slow",
-      "missLine": "Under 35 MPH, keep at least 2 seconds back."
+      "missLine": "When you drive under 35 MPH, stay at least 2 seconds behind the vehicle ahead."
     },
     {
       "id": "ev-spd-follow-3-sec-1",
       "item": "spd-follow-3-sec",
       "kind": "gates",
-      "prompt": "35 to 45 MPH: following distance?",
+      "prompt": "What following distance should you keep when driving 35 to 45 MPH?",
       "image": "diagram-following-distance",
       "choices": [
         "2 seconds",
@@ -952,39 +952,39 @@
         "4 seconds"
       ],
       "answer": 1,
-      "missLine": "From 35 to 45 MPH, follow 3 seconds behind."
+      "missLine": "At 35 to 45 MPH, stay at least 3 seconds behind the car ahead."
     },
     {
       "id": "ev-spd-follow-3-sec-2",
       "item": "spd-follow-3-sec",
       "kind": "gates",
-      "prompt": "At 40 MPH on a dry road, follow how far back?",
+      "prompt": "How far back should you follow at 40 MPH on a dry road?",
       "choices": [
         "2 seconds",
         "3 seconds",
         "4 seconds"
       ],
       "answer": 1,
-      "missLine": "From 35 to 45 MPH, stay 3 seconds back."
+      "missLine": "At speeds from 35 to 45 MPH, stay at least 3 seconds behind the car ahead."
     },
     {
       "id": "ev-spd-follow-3-sec-3",
       "item": "spd-follow-3-sec",
       "kind": "gates",
-      "prompt": "3 seconds back fits which speed?",
+      "prompt": "Which speed calls for a following distance of 3 seconds?",
       "choices": [
         "25 MPH",
         "40 MPH",
         "60 MPH"
       ],
       "answer": 1,
-      "missLine": "3 seconds is for 35 to 45 MPH."
+      "missLine": "Use a following distance of 3 seconds at speeds from 35 to 45 MPH."
     },
     {
       "id": "ev-spd-follow-4-sec-1",
       "item": "spd-follow-4-sec",
       "kind": "gates",
-      "prompt": "46 to 70 MPH: following distance?",
+      "prompt": "What following distance should you keep when driving 46 to 70 MPH?",
       "image": "diagram-following-distance",
       "choices": [
         "2 seconds",
@@ -992,89 +992,89 @@
         "4 seconds"
       ],
       "answer": 2,
-      "missLine": "From 46 to 70 MPH, follow 4 seconds behind."
+      "missLine": "At 46 to 70 MPH, stay at least 4 seconds behind the car ahead."
     },
     {
       "id": "ev-spd-follow-4-sec-2",
       "item": "spd-follow-4-sec",
       "kind": "gates",
-      "prompt": "Highway at 60 MPH. Follow how far back?",
+      "prompt": "How far back should you follow on a highway at 60 MPH?",
       "choices": [
         "2 seconds",
         "3 seconds",
         "4 seconds"
       ],
       "answer": 2,
-      "missLine": "From 46 to 70 MPH, stay 4 seconds back."
+      "missLine": "At speeds from 46 to 70 MPH, stay at least 4 seconds behind the car ahead."
     },
     {
       "id": "ev-spd-follow-4-sec-3",
       "item": "spd-follow-4-sec",
       "kind": "gates",
-      "prompt": "The 2-3-4 second rules stop working over what speed?",
+      "prompt": "Over what speed do the 2-second, 3-second and 4-second rules stop working?",
       "choices": [
         "45 MPH",
         "55 MPH",
         "70 MPH"
       ],
       "answer": 2,
-      "missLine": "The seconds rules do not work if you speed over 70 MPH."
+      "missLine": "These following-distance rules do not work if you are speeding over 70 MPH."
     },
     {
       "id": "ev-spd-follow-count-1",
       "item": "spd-follow-count",
       "kind": "gates",
-      "prompt": "To count following distance, watch for a:",
+      "prompt": "What do you watch for when you count your following distance?",
       "image": "diagram-following-distance",
       "choices": [
-        "Moving car",
-        "Radio clock",
-        "Fixed object"
+        "A moving car",
+        "A radio clock",
+        "A fixed object"
       ],
       "answer": 2,
-      "missLine": "Count from when the car ahead passes a fixed object, like a sign."
+      "missLine": "Start counting when the car ahead passes a fixed object, such as a sign."
     },
     {
       "id": "ev-spd-follow-count-2",
       "item": "spd-follow-count",
       "kind": "gates",
-      "prompt": "Car ahead passes a sign. You reach it 1 second later:",
+      "prompt": "If you pass a sign 1 second after the car ahead does, what should you do?",
       "choices": [
         "Slow down",
         "Speed up",
-        "Keep same speed"
+        "Keep the same speed"
       ],
       "answer": 0,
-      "missLine": "Reaching the sign before counting 2 means you are too close. Slow down."
+      "missLine": "If you reach the sign before you count 2 seconds, you are too close, so slow down."
     },
     {
       "id": "ev-spd-follow-count-3",
       "item": "spd-follow-count",
       "kind": "action",
-      "prompt": "You reach the sign too soon. Too close!",
+      "prompt": "You reach the sign too soon after the truck. You are too close!",
       "prop": "truck-ahead",
       "action": "slow",
-      "missLine": "Reaching the mark early means you are too close. Slow down."
+      "missLine": "If you reach a fixed mark too soon after the vehicle ahead passes it, you are too close. Slow down."
     },
     {
       "id": "ev-spd-follow-add-seconds-1",
       "item": "spd-follow-add-seconds",
       "kind": "action",
-      "prompt": "Snowy road, truck ahead",
+      "prompt": "The road is snowy, and there is a truck ahead.",
       "prop": "truck-ahead",
       "weather": "snow",
       "action": "slow",
-      "missLine": "In bad weather, add extra seconds of following distance."
+      "missLine": "In bad weather, add extra seconds to your following distance."
     },
     {
       "id": "ev-spd-follow-add-seconds-2",
       "item": "spd-follow-add-seconds",
       "kind": "gates",
-      "prompt": "Bad weather: following distance?",
+      "prompt": "What should you do with your following distance in bad weather?",
       "choices": [
         "Use fewer seconds",
         "Add extra seconds",
-        "Keep the same"
+        "Keep it the same"
       ],
       "answer": 1,
       "missLine": "In bad weather, add extra seconds to your following distance."
@@ -1083,59 +1083,59 @@
       "id": "ev-spd-follow-add-seconds-3",
       "item": "spd-follow-add-seconds",
       "kind": "gates",
-      "prompt": "When should you add seconds of following distance?",
+      "prompt": "When should you add seconds to your following distance?",
       "choices": [
-        "Dry, clear road",
-        "Empty highway",
-        "Poor pavement"
+        "On a dry, clear road",
+        "On an empty highway",
+        "On poor pavement"
       ],
       "answer": 2,
-      "missLine": "Add seconds for bad weather, heavy traffic, poor pavement or a car in poor shape."
+      "missLine": "Add seconds in bad weather or heavy traffic, on poor pavement, or when your car is in poor shape."
     },
     {
       "id": "ev-spd-response-times-1",
       "item": "spd-response-times",
       "kind": "gates",
-      "prompt": "Hand response time is about:",
+      "prompt": "About how long does it take your hands to react?",
       "choices": [
         "1/2 second",
         "3/4 second",
         "2 seconds"
       ],
       "answer": 0,
-      "missLine": "Hand and half both start with H. Hands take about half a second."
+      "missLine": "Hand and half both start with H. Your hands take about half a second."
     },
     {
       "id": "ev-spd-response-times-2",
       "item": "spd-response-times",
       "kind": "gates",
-      "prompt": "Foot response time is about:",
+      "prompt": "About how long does it take your foot to react?",
       "choices": [
         "1/4 second",
         "1/2 second",
         "3/4 second"
       ],
       "answer": 2,
-      "missLine": "Your foot is a bit slower than your hand: about 3/4 of a second."
+      "missLine": "Your foot is a bit slower than your hand. It takes about 3/4 of a second."
     },
     {
       "id": "ev-spd-response-times-3",
       "item": "spd-response-times",
       "kind": "gates",
-      "prompt": "Which reacts faster, a driver's hands or foot?",
+      "prompt": "Which reacts faster, your hands or your foot?",
       "choices": [
-        "Hands on the wheel",
-        "Foot on the pedal",
-        "Both the same"
+        "Your hands",
+        "Your foot",
+        "They react the same"
       ],
       "answer": 0,
-      "missLine": "Hands: about 1/2 second. Foot: about 3/4 second."
+      "missLine": "Your hands react faster, in about 1/2 second. Your foot takes about 3/4 second."
     },
     {
       "id": "ev-spd-increase-following-1",
       "item": "spd-increase-following",
       "kind": "action",
-      "prompt": "Big truck blocks your view ahead",
+      "prompt": "A big truck blocks your view ahead.",
       "prop": "truck-ahead",
       "action": "slow",
       "missLine": "Leave extra space behind a big vehicle that blocks your view."
@@ -1144,7 +1144,7 @@
       "id": "ev-spd-increase-following-2",
       "item": "spd-increase-following",
       "kind": "action",
-      "prompt": "Motorcycle ahead in your lane",
+      "prompt": "A motorcycle is ahead in your lane.",
       "prop": "motorcycle-ahead",
       "action": "slow",
       "missLine": "Leave extra space behind a motorcycle."
@@ -1153,7 +1153,7 @@
       "id": "ev-spd-increase-following-3",
       "item": "spd-increase-following",
       "kind": "action",
-      "prompt": "Bicycle ahead in your lane",
+      "prompt": "A bicycle is ahead in your lane.",
       "prop": "cyclist-ahead",
       "action": "slow",
       "missLine": "Leave extra space behind a bicycle."
@@ -1162,7 +1162,7 @@
       "id": "ev-spd-increase-following-4",
       "item": "spd-increase-following",
       "kind": "gates",
-      "prompt": "Leaving an expressway. Following distance?",
+      "prompt": "What should you do with your following distance when you leave an expressway?",
       "choices": [
         "Decrease it",
         "Increase it",
@@ -1175,29 +1175,29 @@
       "id": "ev-spd-tailgater-1",
       "item": "spd-tailgater",
       "kind": "action",
-      "prompt": "Tailgater close behind you!",
+      "prompt": "A tailgater is close behind you!",
       "prop": "tailgater-behind",
       "action": "slow",
-      "missLine": "Tap, don't slam. Move over, or tap your brakes gently and slow down."
+      "missLine": "Do not slam on your brakes. Move to another lane if you can, or tap your brakes gently and slow down."
     },
     {
       "id": "ev-spd-tailgater-2",
       "item": "spd-tailgater",
       "kind": "gates",
-      "prompt": "A tailgater is close behind you. What is safest?",
+      "prompt": "What is the safest thing to do when a tailgater is close behind you?",
       "choices": [
-        "Slam on brakes",
+        "Slam on the brakes",
         "Speed up a lot",
         "Move to another lane"
       ],
       "answer": 2,
-      "missLine": "Move to another lane if you can. Never brake suddenly."
+      "missLine": "Move to another lane if you can. Do not brake suddenly."
     },
     {
       "id": "ev-spd-tailgater-3",
       "item": "spd-tailgater",
       "kind": "gates",
-      "prompt": "Tailgating means:",
+      "prompt": "What does tailgating mean?",
       "choices": [
         "Following too closely",
         "Passing on the right",
@@ -1210,50 +1210,50 @@
       "id": "ev-spd-tailgater-4",
       "item": "spd-tailgater",
       "kind": "gates",
-      "prompt": "About to stop? Warn drivers behind by:",
+      "prompt": "How should you warn the drivers behind you when you are about to stop?",
       "choices": [
-        "Honking twice",
-        "Tapping your brakes",
-        "Flashing headlights"
+        "By honking twice",
+        "By tapping your brakes",
+        "By flashing your headlights"
       ],
       "answer": 1,
-      "missLine": "Tap your brakes to warn the driver behind before you slow or stop."
+      "missLine": "Tap your brakes to warn the driver behind you before you slow down or stop."
     },
     {
       "id": "ev-spd-search-ahead-1",
       "item": "spd-search-ahead",
       "kind": "gates",
-      "prompt": "Expert drivers look how far ahead?",
+      "prompt": "How far ahead do expert drivers look?",
       "choices": [
-        "1-2 seconds",
-        "5-10 seconds",
-        "20-30 seconds"
+        "1 to 2 seconds",
+        "5 to 10 seconds",
+        "20 to 30 seconds"
       ],
       "answer": 2,
-      "missLine": "Expert drivers focus 20 to 30 seconds ahead."
+      "missLine": "Expert drivers focus their eyes 20 to 30 seconds ahead."
     },
     {
       "id": "ev-spd-search-ahead-2",
       "item": "spd-search-ahead",
       "kind": "gates",
-      "prompt": "In the city, 20-30 seconds ahead is about:",
+      "prompt": "In the city, about how far is 20 to 30 seconds ahead?",
       "choices": [
         "One block",
         "One car length",
         "One mile"
       ],
       "answer": 0,
-      "missLine": "In the city, 20 to 30 seconds is about one block."
+      "missLine": "In the city, 20 to 30 seconds ahead is about one block."
     },
     {
       "id": "ev-spd-search-ahead-3",
       "item": "spd-search-ahead",
       "kind": "gates",
-      "prompt": "Searching the road, your eyes should:",
+      "prompt": "What should your eyes do while you search the road?",
       "choices": [
-        "Lock on one car",
+        "Lock onto one car",
         "Keep moving",
-        "Stare at the center"
+        "Stare at the road's center"
       ],
       "answer": 1,
       "missLine": "Keep your eyes moving and scan side to side."
@@ -1262,21 +1262,21 @@
       "id": "ev-spd-left-right-left-1",
       "item": "spd-left-right-left",
       "kind": "action",
-      "prompt": "Stop sign at a crossroad. Stop, then look.",
+      "prompt": "A stop sign is at a crossroad. Stop, then look.",
       "prop": "stop-line",
       "action": "stop",
-      "missLine": "Stop, then look left, right, then left again before you go.",
+      "missLine": "Stop, then look left, then right, then left again before you go.",
       "sign": "sign-stop"
     },
     {
       "id": "ev-spd-left-right-left-2",
       "item": "spd-left-right-left",
       "kind": "gates",
-      "prompt": "At an intersection, look which way first?",
+      "prompt": "At an intersection, which way should you look first?",
       "choices": [
-        "Right",
-        "Left",
-        "Behind"
+        "To the right",
+        "To the left",
+        "Behind you"
       ],
       "answer": 1,
       "missLine": "Look left first. Cars from the left are closer to you."
@@ -1285,10 +1285,10 @@
       "id": "ev-spd-left-right-left-3",
       "item": "spd-left-right-left",
       "kind": "gates",
-      "prompt": "Before an intersection, look in what order?",
+      "prompt": "In what order should you look before you enter an intersection?",
       "choices": [
-        "Left, right, left",
-        "Right, left, right",
+        "Left, then right, then left",
+        "Right, then left, then right",
         "Right, then left"
       ],
       "answer": 0,
@@ -1298,9 +1298,9 @@
       "id": "ev-spd-look-both-ways-1",
       "item": "spd-look-both-ways",
       "kind": "gates",
-      "prompt": "Shopping center lot. Cars may cross your path. You should:",
+      "prompt": "What should you do in a shopping center lot where cars may cross your path?",
       "choices": [
-        "Look straight only",
+        "Look straight ahead only",
         "Speed up",
         "Look both ways"
       ],
@@ -1313,9 +1313,9 @@
       "kind": "gates",
       "prompt": "Where should you look both ways?",
       "choices": [
-        "Playgrounds",
+        "At a playground",
         "Inside your garage",
-        "Your own driveway only"
+        "Only in your own driveway"
       ],
       "answer": 0,
       "missLine": "Look both ways at intersections, crosswalks, shopping centers, work areas and playgrounds."
@@ -1324,7 +1324,7 @@
       "id": "ev-spd-look-both-ways-3",
       "item": "spd-look-both-ways",
       "kind": "action",
-      "prompt": "Crosswalk ahead. People may cross.",
+      "prompt": "A crosswalk is ahead. People may cross it.",
       "missLine": "Where people may cross, slow down and look both ways.",
       "prop": "pedestrian-crosswalk",
       "action": "slow"
@@ -1333,11 +1333,11 @@
       "id": "ev-spd-mirror-10-sec-1",
       "item": "spd-mirror-10-sec",
       "kind": "gates",
-      "prompt": "Drivers should check the rearview mirror about every:",
+      "prompt": "How often should you check your rearview mirror?",
       "choices": [
-        "2 seconds",
-        "10 seconds",
-        "60 seconds"
+        "About every 2 seconds",
+        "About every 10 seconds",
+        "About every 60 seconds"
       ],
       "answer": 1,
       "missLine": "Check your rearview mirror about every 10 seconds."
@@ -1346,14 +1346,14 @@
       "id": "ev-spd-mirror-10-sec-2",
       "item": "spd-mirror-10-sec",
       "kind": "gates",
-      "prompt": "Mirror checks warn you about:",
+      "prompt": "What can a mirror check warn you about?",
       "choices": [
-        "Tailgaters",
-        "Potholes ahead",
-        "Speed limit signs"
+        "A car tailgating you",
+        "A pothole ahead of you",
+        "A speed limit sign"
       ],
       "answer": 0,
-      "missLine": "Mirror checks show you someone coming up too fast or tailgating."
+      "missLine": "A mirror check shows you when a car is coming up too fast or is tailgating you."
     },
     {
       "id": "ev-spd-mirror-10-sec-3",
@@ -1362,46 +1362,46 @@
       "prompt": "When should you check behind you?",
       "choices": [
         "At every green light",
-        "Before changing lanes",
-        "Only when parked"
+        "Before you change lanes",
+        "Only when you are parked"
       ],
       "answer": 1,
-      "missLine": "Check behind when changing lanes, backing, slowing quickly or going down long hills."
+      "missLine": "Check behind you when you change lanes, back up, slow down quickly or go down a long hill."
     },
     {
       "id": "ev-spd-road-clues-1",
       "item": "spd-road-clues",
       "kind": "action",
-      "prompt": "Car in driveway: smoke, back-up lights on",
+      "prompt": "Exhaust smoke comes from a car in a driveway. Its back-up lights are on.",
       "prop": "driveway-exit",
       "action": "slow",
-      "missLine": "Smoke and back-up lights warn a car may pull out. Slow down."
+      "missLine": "Exhaust smoke and back-up lights warn that a car may pull out. Slow down."
     },
     {
       "id": "ev-spd-road-clues-2",
       "item": "spd-road-clues",
       "kind": "gates",
-      "prompt": "Which clue warns a car may pull out?",
+      "prompt": "Which clue warns you that a car may pull out?",
       "choices": [
-        "Clean windshield",
-        "Nobody inside",
-        "Back-up lights on"
+        "The windshield is clean",
+        "No one is inside",
+        "Back-up lights are on"
       ],
       "answer": 2,
-      "missLine": "Exhaust smoke, brake or back-up lights, and turned wheels are warning clues."
+      "missLine": "Exhaust smoke, brake lights, back-up lights and turned wheels are clues that a car may pull out."
     },
     {
       "id": "ev-spd-road-clues-3",
       "item": "spd-road-clues",
       "kind": "gates",
-      "prompt": "Parked car, wheels turned out. It may:",
+      "prompt": "If a parked car has its wheels turned out, what may it do?",
       "choices": [
         "Pull into your path",
         "Stay parked all day",
-        "Be out of gas"
+        "Run out of gas"
       ],
       "answer": 0,
-      "missLine": "Turned wheels warn a vehicle may pull into your path."
+      "missLine": "Turned wheels warn you that a vehicle may pull into your path."
     }
   ],
   "questions": [
@@ -1409,64 +1409,64 @@
       "id": "q-spd-max-ideal-1",
       "item": "spd-max-ideal",
       "part": 1,
-      "prompt": "This sign shows:",
+      "prompt": "What does this sign show?",
       "image": "sign-speed-limit",
       "choices": [
         "The maximum legal speed under ideal conditions",
         "The minimum speed you must drive",
-        "A suggested speed you may go over",
-        "The speed for bad weather"
+        "A suggested speed that you may go over",
+        "The speed to drive in bad weather"
       ],
       "answer": 0,
-      "explain": "A speed limit is the maximum legal speed under ideal conditions."
+      "explain": "A speed limit sign shows the maximum legal speed under ideal conditions."
     },
     {
       "id": "q-spd-max-ideal-2",
       "item": "spd-max-ideal",
       "part": 2,
-      "prompt": "You may drive slower than the posted speed limit:",
+      "prompt": "When may you drive slower than the posted speed limit?",
       "choices": [
         "Never",
-        "As long as you do not impede the normal movement of traffic",
+        "As long as you do not hold up the normal movement of traffic",
         "Only in a school zone",
         "Only at night"
       ],
       "answer": 1,
-      "explain": "You may drive slower than the limit as long as you do not impede normal traffic."
+      "explain": "You may drive slower than the limit as long as you do not hold up the normal movement of traffic."
     },
     {
       "id": "q-spd-max-ideal-3",
       "item": "spd-max-ideal",
       "part": 2,
-      "prompt": "A speed limit is:",
+      "prompt": "What is a speed limit?",
       "choices": [
         "The speed most drivers go",
         "The minimum legal speed",
         "The maximum legal speed under ideal conditions",
-        "A speed you may go 5 MPH over"
+        "A speed that you may go 5 MPH over"
       ],
       "answer": 2,
-      "explain": "A speed limit is the maximum legal speed under ideal conditions, and going faster is illegal."
+      "explain": "A speed limit is the maximum legal speed under ideal conditions. Driving faster than the limit is illegal."
     },
     {
       "id": "q-spd-must-slow-zones-1",
       "item": "spd-must-slow-zones",
       "part": 2,
-      "prompt": "By law, you must drive slower than the normal speed limit when:",
+      "prompt": "By law, when must you drive slower than the normal speed limit?",
       "choices": [
-        "A school zone speed limit is in effect",
-        "A work zone speed limit is in effect",
-        "Bad weather makes the posted speed unsafe",
-        "All of these"
+        "When a school zone speed limit is in effect",
+        "When a work zone speed limit is in effect",
+        "When bad weather makes the posted speed unsafe",
+        "In all of these situations"
       ],
       "answer": 3,
-      "explain": "You must slow for school and work zone limits and when conditions make the posted speed unsafe."
+      "explain": "You must slow down for school zone and work zone limits. You must also slow down when conditions make the posted speed unsafe."
     },
     {
       "id": "q-spd-must-slow-zones-2",
       "item": "spd-must-slow-zones",
       "part": 2,
-      "prompt": "The posted speed limit is 55 MPH, but it is raining hard. You should:",
+      "prompt": "The posted speed limit is 55 MPH, but it is raining hard. What should you do?",
       "choices": [
         "Drive slower than 55 MPH",
         "Drive exactly 55 MPH",
@@ -1480,7 +1480,7 @@
       "id": "q-spd-must-slow-zones-3",
       "item": "spd-must-slow-zones",
       "part": 2,
-      "prompt": "Road construction makes the posted speed unsafe. You must:",
+      "prompt": "Road construction makes the posted speed unsafe. What must you do?",
       "choices": [
         "Drive slower than the posted speed",
         "Keep the posted speed",
@@ -1488,13 +1488,13 @@
         "Use your horn"
       ],
       "answer": 0,
-      "explain": "Construction or bad weather can make the posted speed unsafe, so you must slow down."
+      "explain": "Road construction or bad weather can make the posted speed unsafe, so you must slow down."
     },
     {
       "id": "q-spd-must-slow-zones-4",
       "item": "spd-must-slow-zones",
       "part": 1,
-      "prompt": "You see this sign and a school zone speed limit is in effect. You must:",
+      "prompt": "You see this sign, and a school zone speed limit is in effect. What must you do?",
       "image": "sign-school-zone",
       "choices": [
         "Keep the normal posted speed",
@@ -1503,41 +1503,41 @@
         "Speed up to clear the zone"
       ],
       "answer": 1,
-      "explain": "By law you must drive slower where a school zone speed limit is in effect."
+      "explain": "By law, you must drive slower where a school zone speed limit is in effect."
     },
     {
       "id": "q-spd-reckless-speeds-1",
       "item": "spd-reckless-speeds",
       "part": 2,
-      "prompt": "You may be charged with reckless driving if you drive:",
+      "prompt": "When may you be charged with reckless driving?",
       "choices": [
-        "5 MPH above the speed limit",
-        "10 MPH above the speed limit",
-        "20 MPH or more above the speed limit, or over 85 MPH",
-        "Over 75 MPH only on interstates"
+        "When you drive 5 MPH above the speed limit",
+        "When you drive 10 MPH above the speed limit",
+        "When you drive 20 MPH or more above the speed limit, or over 85 MPH",
+        "When you drive over 75 MPH, but only on interstates"
       ],
       "answer": 2,
-      "explain": "Driving 20 or more MPH over the limit, or over 85 MPH, can be charged as reckless driving."
+      "explain": "You may be charged with reckless driving for driving 20 or more MPH over the limit, or over 85 MPH."
     },
     {
       "id": "q-spd-reckless-speeds-2",
       "item": "spd-reckless-speeds",
       "part": 2,
-      "prompt": "In Virginia, you may be charged with reckless driving for driving over ___ MPH, regardless of the speed limit.",
+      "prompt": "In Virginia, over what speed can you be charged with reckless driving, no matter what the speed limit is?",
       "choices": [
-        "70",
-        "75",
-        "85",
-        "95"
+        "70 MPH",
+        "75 MPH",
+        "85 MPH",
+        "95 MPH"
       ],
       "answer": 2,
-      "explain": "Driving over 85 MPH can be charged as reckless driving regardless of the posted limit."
+      "explain": "Driving over 85 MPH can get you charged with reckless driving, no matter what the posted limit is."
     },
     {
       "id": "q-spd-reckless-speeds-3",
       "item": "spd-reckless-speeds",
       "part": 2,
-      "prompt": "The speed limit is 35 MPH. You could be charged with reckless driving at:",
+      "prompt": "The speed limit is 35 MPH. At which speed could you be charged with reckless driving?",
       "choices": [
         "40 MPH",
         "45 MPH",
@@ -1545,13 +1545,13 @@
         "55 MPH"
       ],
       "answer": 3,
-      "explain": "Driving 20 or more MPH above the speed limit can be charged as reckless driving."
+      "explain": "Driving at 55 MPH is 20 MPH over the 35 MPH limit. Driving 20 or more MPH over the limit can get you charged with reckless driving."
     },
     {
       "id": "q-spd-reckless-penalty-1",
       "item": "spd-reckless-penalty",
       "part": 2,
-      "prompt": "A conviction for reckless driving is considered:",
+      "prompt": "What is a conviction for reckless driving considered to be?",
       "choices": [
         "A misdemeanor criminal offense",
         "A minor traffic warning",
@@ -1559,41 +1559,41 @@
         "Not an offense if no one is hurt"
       ],
       "answer": 0,
-      "explain": "Reckless driving is a misdemeanor criminal offense."
+      "explain": "A conviction for reckless driving is a misdemeanor criminal offense."
     },
     {
       "id": "q-spd-reckless-penalty-2",
       "item": "spd-reckless-penalty",
       "part": 2,
-      "prompt": "If you are convicted of reckless driving, the court may:",
+      "prompt": "What may the court do if you are convicted of reckless driving?",
       "choices": [
         "Require a fine",
         "Suspend your driving privilege",
         "Impose a jail sentence",
-        "All of these"
+        "Do all of these"
       ],
       "answer": 3,
-      "explain": "The court may require a fine, suspend your driving privilege and/or impose a jail sentence."
+      "explain": "The court may require a fine, suspend your driving privilege, or impose a jail sentence. It may do all three."
     },
     {
       "id": "q-spd-reckless-penalty-3",
       "item": "spd-reckless-penalty",
       "part": 2,
-      "prompt": "Reckless driving may be considered a felony if:",
+      "prompt": "When may reckless driving be considered a felony?",
       "choices": [
-        "It results in death and your license was suspended or revoked at the time",
-        "It is your first offense",
-        "It happens at night",
-        "You were driving 5 MPH over the limit"
+        "When it results in death and your license was suspended or revoked at the time",
+        "When it is your first offense",
+        "When it happens at night",
+        "When you were driving 5 MPH over the limit"
       ],
       "answer": 0,
-      "explain": "If the violation results in death while the license was suspended or revoked, it may be a felony."
+      "explain": "If the violation results in death while your license is suspended or revoked, reckless driving may be a felony."
     },
     {
       "id": "q-spd-extra-100-fine-1",
       "item": "spd-extra-100-fine",
       "part": 2,
-      "prompt": "If convicted of driving between 81 and 85 MPH in a 65-MPH zone, you will pay an additional fine of:",
+      "prompt": "What additional fine will you pay if you are convicted of driving between 81 and 85 MPH in a 65-MPH zone?",
       "choices": [
         "$25",
         "$50",
@@ -1607,7 +1607,7 @@
       "id": "q-spd-extra-100-fine-2",
       "item": "spd-extra-100-fine",
       "part": 2,
-      "prompt": "An additional $100 fine applies if you are convicted of driving in a 65-MPH zone at:",
+      "prompt": "In a 65-MPH zone, which speeds bring an additional $100 fine if you are convicted?",
       "choices": [
         "Between 66 and 70 MPH",
         "Between 71 and 75 MPH",
@@ -1621,15 +1621,15 @@
       "id": "q-spd-radar-illegal-1",
       "item": "spd-radar-illegal",
       "part": 2,
-      "prompt": "In Virginia, using a radar detector is:",
+      "prompt": "What does Virginia law say about using a radar detector?",
       "choices": [
-        "Legal for all drivers",
-        "Illegal",
-        "Legal only on interstates",
-        "Legal if it is turned off in school zones"
+        "It is legal for all drivers",
+        "It is illegal",
+        "It is legal only on interstates",
+        "It is legal if the detector is turned off in school zones"
       ],
       "answer": 1,
-      "explain": "It is illegal to use radar detectors in Virginia."
+      "explain": "It is illegal to use a radar detector in Virginia."
     },
     {
       "id": "q-spd-radar-illegal-2",
@@ -1643,13 +1643,13 @@
         "Turn signals"
       ],
       "answer": 2,
-      "explain": "It is illegal to use radar detectors in Virginia."
+      "explain": "It is illegal to use a radar detector in Virginia."
     },
     {
       "id": "q-spd-default-25-1",
       "item": "spd-default-25",
       "part": 2,
-      "prompt": "Unless a sign says otherwise, the speed limit in school, business and residential areas is:",
+      "prompt": "Unless a sign says otherwise, what is the speed limit in school, business, and residential areas?",
       "choices": [
         "25 MPH",
         "30 MPH",
@@ -1657,13 +1657,13 @@
         "45 MPH"
       ],
       "answer": 0,
-      "explain": "The default limit is 25 MPH in school, business and residential areas."
+      "explain": "The default speed limit is 25 MPH in school, business, and residential areas."
     },
     {
       "id": "q-spd-default-25-2",
       "item": "spd-default-25",
       "part": 2,
-      "prompt": "If no speed limit sign is posted, the maximum speed in a residential area is:",
+      "prompt": "If no speed limit sign is posted, what is the maximum speed in a residential area?",
       "choices": [
         "20 MPH",
         "25 MPH",
@@ -1671,27 +1671,27 @@
         "35 MPH"
       ],
       "answer": 1,
-      "explain": "With no sign, the maximum is 25 MPH in residential areas."
+      "explain": "When no sign is posted, the maximum speed in a residential area is 25 MPH."
     },
     {
       "id": "q-spd-default-25-3",
       "item": "spd-default-25",
       "part": 2,
-      "prompt": "A speed limit of 25 MPH applies, unless posted otherwise, in:",
+      "prompt": "Unless a sign says otherwise, where does a speed limit of 25 MPH apply?",
       "choices": [
-        "School areas",
-        "Business areas",
-        "Residential areas",
-        "All of these"
+        "In school areas",
+        "In business areas",
+        "In residential areas",
+        "In all of these areas"
       ],
       "answer": 3,
-      "explain": "The 25 MPH default limit covers school, business and residential areas."
+      "explain": "A 25 MPH limit applies in school, business, and residential areas unless a sign says otherwise."
     },
     {
       "id": "q-spd-default-35-1",
       "item": "spd-default-35",
       "part": 2,
-      "prompt": "Unless a sign says otherwise, the maximum speed limit on unpaved roads is:",
+      "prompt": "Unless a sign says otherwise, what is the maximum speed limit on unpaved roads?",
       "choices": [
         "35 MPH",
         "45 MPH",
@@ -1699,18 +1699,18 @@
         "65 MPH"
       ],
       "answer": 0,
-      "explain": "The default limit on unpaved roads is 35 MPH."
+      "explain": "The default speed limit on unpaved roads is 35 MPH."
     },
     {
       "id": "q-spd-default-35-2",
       "item": "spd-default-35",
       "part": 2,
-      "prompt": "A 35 MPH speed limit applies, unless posted otherwise, on:",
+      "prompt": "Unless a sign says otherwise, where does a 35 MPH speed limit apply?",
       "choices": [
-        "Interstates",
-        "Residential streets",
-        "Business districts",
-        "Unpaved roads"
+        "On interstates",
+        "On residential streets",
+        "In business districts",
+        "On unpaved roads"
       ],
       "answer": 3,
       "explain": "Unpaved roads have a 35 MPH limit unless a sign says otherwise."
@@ -1719,7 +1719,7 @@
       "id": "q-spd-default-55-1",
       "item": "spd-default-55",
       "part": 2,
-      "prompt": "Unless a sign says otherwise, the maximum speed limit on roads other than school, business, residential or unpaved roads is:",
+      "prompt": "Unless a sign says otherwise, what is the maximum speed limit on every road except unpaved roads and roads in school, business, or residential areas?",
       "choices": [
         "45 MPH",
         "55 MPH",
@@ -1727,41 +1727,41 @@
         "65 MPH"
       ],
       "answer": 1,
-      "explain": "The default limit is 55 MPH for all other roads."
+      "explain": "The default speed limit is 55 MPH on all other roads."
     },
     {
       "id": "q-spd-default-55-2",
       "item": "spd-default-55",
       "part": 2,
-      "prompt": "Which default speed limits are correct when no sign is posted?",
+      "prompt": "Which set of default speed limits is correct when no speed limit sign is posted?",
       "choices": [
-        "35 MPH residential, 25 MPH unpaved, 55 MPH all other roads",
-        "25 MPH residential, 45 MPH unpaved, 65 MPH all other roads",
-        "25 MPH residential, 35 MPH unpaved, 55 MPH all other roads",
-        "15 MPH residential, 35 MPH unpaved, 45 MPH all other roads"
+        "35 MPH in residential areas, 25 MPH on unpaved roads and 55 MPH on all other roads",
+        "25 MPH in residential areas, 45 MPH on unpaved roads and 65 MPH on all other roads",
+        "25 MPH in residential areas, 35 MPH on unpaved roads and 55 MPH on all other roads",
+        "15 MPH in residential areas, 35 MPH on unpaved roads and 45 MPH on all other roads"
       ],
       "answer": 2,
-      "explain": "Default limits are 25 for school, business and residential areas, 35 for unpaved roads and 55 for all other roads."
+      "explain": "The default limits are 25 MPH in school, business and residential areas, 35 MPH on unpaved roads and 55 MPH on all other roads."
     },
     {
       "id": "q-spd-photo-school-zone-1",
       "item": "spd-photo-school-zone",
       "part": 2,
-      "prompt": "In some school zones, a sign with the message SPEED PHOTO ENFORCED means:",
+      "prompt": "What does a sign that says SPEED PHOTO ENFORCED mean in a school zone?",
       "choices": [
-        "You may take photos while driving",
+        "You may take photos while you drive",
         "Cameras are used to enforce the speed limit",
         "There is no speed limit",
         "A scenic area is ahead"
       ],
       "answer": 1,
-      "explain": "Some school zones have automated photo enforcement, shown by Speed Photo Enforced signs."
+      "explain": "Some school zones use cameras to check your speed. A sign that says Speed Photo Enforced tells you cameras are in use there."
     },
     {
       "id": "q-spd-photo-school-zone-2",
       "item": "spd-photo-school-zone",
       "part": 2,
-      "prompt": "Some school zones may have:",
+      "prompt": "Which of these do some school zones have?",
       "choices": [
         "No speed limits",
         "Higher speed limits during school hours",
@@ -1769,13 +1769,13 @@
         "Radar detectors for drivers"
       ],
       "answer": 2,
-      "explain": "Some school zones have automated photo enforcement, shown by Speed Photo Enforced signs."
+      "explain": "Some school zones use automated photo enforcement, and signs that say Speed Photo Enforced tell drivers about it."
     },
     {
       "id": "q-spd-stop-three-factors-1",
       "item": "spd-stop-three-factors",
       "part": 2,
-      "prompt": "The three factors that determine your stopping distance are:",
+      "prompt": "What are the three factors that determine your stopping distance?",
       "choices": [
         "Perception time, reaction distance and braking distance",
         "Speed limit, lane width and traffic signs",
@@ -1783,13 +1783,13 @@
         "Engine size, fuel level and tire color"
       ],
       "answer": 0,
-      "explain": "Perception time, reaction distance and braking distance determine how far it takes to stop."
+      "explain": "Your stopping distance is made up of perception time, reaction distance and braking distance."
     },
     {
       "id": "q-spd-stop-three-factors-2",
       "item": "spd-stop-three-factors",
       "part": 2,
-      "prompt": "Perception time is:",
+      "prompt": "What is perception time?",
       "choices": [
         "The time it takes you to recognize a hazard",
         "The distance your car travels after you brake",
@@ -1803,7 +1803,7 @@
       "id": "q-spd-stop-conditions-1",
       "item": "spd-stop-conditions",
       "part": 2,
-      "prompt": "Perception time, reaction distance and braking distance are affected by:",
+      "prompt": "Which of these affects perception time, reaction distance and braking distance?",
       "choices": [
         "Weather",
         "Visibility",
@@ -1811,7 +1811,7 @@
         "All of these"
       ],
       "answer": 3,
-      "explain": "All three are affected by weather, visibility and your mental and physical condition."
+      "explain": "Perception time, reaction distance and braking distance are all affected by weather, visibility, and your mental and physical condition."
     },
     {
       "id": "q-spd-stop-conditions-2",
@@ -1831,7 +1831,7 @@
       "id": "q-spd-reaction-distance-1",
       "item": "spd-reaction-distance",
       "part": 2,
-      "prompt": "The distance your vehicle travels between the time you recognize a problem and the time you apply the brakes is called:",
+      "prompt": "What do we call the distance your vehicle travels between the time you recognize a problem and the time you apply the brakes?",
       "choices": [
         "Reaction distance",
         "Braking distance",
@@ -1839,31 +1839,31 @@
         "Perception time"
       ],
       "answer": 0,
-      "explain": "Reaction distance is the distance traveled from recognizing a problem to applying the brakes."
+      "explain": "Reaction distance is how far your vehicle travels from the time you recognize a problem to the time you apply the brakes."
     },
     {
       "id": "q-spd-reaction-distance-2",
       "item": "spd-reaction-distance",
       "part": 2,
-      "prompt": "Reaction distance is:",
+      "prompt": "What is reaction distance?",
       "choices": [
-        "The distance traveled after you apply the brakes",
-        "The time it takes to recognize a hazard",
-        "The distance traveled from when you recognize a problem until you apply the brakes",
+        "The distance your car travels after you apply the brakes",
+        "The time it takes you to recognize a hazard",
+        "The distance your car travels from recognizing a problem to applying the brakes",
         "The space between your car and the curb"
       ],
       "answer": 2,
-      "explain": "Reaction distance is measured from recognizing a problem until you apply the brakes."
+      "explain": "Reaction distance is the distance your car travels from the time you recognize a problem until you apply the brakes."
     },
     {
       "id": "q-spd-braking-distance-1",
       "item": "spd-braking-distance",
       "part": 2,
-      "prompt": "Braking distance is:",
+      "prompt": "What is braking distance?",
       "choices": [
         "The distance your car travels after you apply the brakes",
-        "The distance traveled before you apply the brakes",
-        "The time it takes to see a hazard",
+        "The distance your car travels before you apply the brakes",
+        "The time it takes you to see a hazard",
         "The distance you should follow behind a truck"
       ],
       "answer": 0,
@@ -1873,7 +1873,7 @@
       "id": "q-spd-braking-distance-2",
       "item": "spd-braking-distance",
       "part": 2,
-      "prompt": "Braking distance is affected by:",
+      "prompt": "Which of these affects your braking distance?",
       "choices": [
         "How fast you are traveling",
         "The condition of your brakes and tires",
@@ -1881,7 +1881,7 @@
         "All of these"
       ],
       "answer": 3,
-      "explain": "Speed, brakes and tires, and pavement condition all affect braking distance."
+      "explain": "Your speed, the condition of your brakes and tires, and the pavement condition all affect braking distance."
     },
     {
       "id": "q-spd-braking-distance-3",
@@ -1890,23 +1890,23 @@
       "prompt": "Which of these will make your braking distance longer?",
       "choices": [
         "Driving faster",
-        "Driving with headlights on",
+        "Driving with your headlights on",
         "Checking your mirrors",
         "Wearing a seat belt"
       ],
       "answer": 0,
-      "explain": "Braking distance is affected by how fast your vehicle is traveling."
+      "explain": "A higher speed makes your braking distance longer."
     },
     {
       "id": "q-spd-wet-doubles-1",
       "item": "spd-wet-doubles",
       "part": 2,
-      "prompt": "Wet pavement can:",
+      "prompt": "What can wet pavement do?",
       "choices": [
-        "Cut your braking distance in half",
-        "Double your braking distance",
-        "Have no effect on braking distance",
-        "Make antilock brakes stop working"
+        "It can cut your braking distance in half",
+        "It can double your braking distance",
+        "It can have no effect on your braking distance",
+        "It can make antilock brakes stop working"
       ],
       "answer": 1,
       "explain": "Wet pavement can double your braking distance."
@@ -1915,15 +1915,15 @@
       "id": "q-spd-wet-doubles-2",
       "item": "spd-wet-doubles",
       "part": 2,
-      "prompt": "Compared to dry pavement, your braking distance on wet pavement can be:",
+      "prompt": "Compared to dry pavement, how long can your braking distance be on wet pavement?",
       "choices": [
         "Half as long",
-        "The same",
+        "The same length",
         "Twice as long",
         "A few feet shorter"
       ],
       "answer": 2,
-      "explain": "Wet pavement can double your braking distance."
+      "explain": "Wet pavement can double your braking distance, so it can be twice as long."
     },
     {
       "id": "q-spd-wet-doubles-3",
@@ -1931,19 +1931,19 @@
       "part": 2,
       "prompt": "It is raining. What should you do to allow for a longer braking distance?",
       "choices": [
-        "Drive the same speed",
-        "Follow closer to see brake lights",
+        "Drive at the same speed",
+        "Follow closer so you can see the brake lights",
         "Pump your antilock brakes",
         "Slow down and leave more space"
       ],
       "answer": 3,
-      "explain": "Wet pavement can double braking distance, so slow down and add following distance."
+      "explain": "Wet pavement can double your braking distance, so you should slow down and leave more space."
     },
     {
       "id": "q-spd-antilock-no-pump-1",
       "item": "spd-antilock-no-pump",
       "part": 2,
-      "prompt": "If your vehicle has antilock brakes, you should:",
+      "prompt": "What should you do if your vehicle has antilock brakes?",
       "choices": [
         "Pump the brakes quickly in a hard stop",
         "Pump the brakes slowly on wet roads",
@@ -1951,13 +1951,13 @@
         "Use only the parking brake"
       ],
       "answer": 2,
-      "explain": "Never pump antilock brakes."
+      "explain": "With antilock brakes, you should never pump the brakes."
     },
     {
       "id": "q-spd-antilock-no-pump-2",
       "item": "spd-antilock-no-pump",
       "part": 2,
-      "prompt": "Before driving a vehicle with antilock brakes, you should:",
+      "prompt": "What should you do before you drive a vehicle with antilock brakes?",
       "choices": [
         "Disconnect the antilock system",
         "Check the owner's manual and practice braking",
@@ -1979,13 +1979,13 @@
         "They double your braking distance"
       ],
       "answer": 2,
-      "explain": "Never pump antilock brakes."
+      "explain": "You should never pump antilock brakes."
     },
     {
       "id": "q-spd-space-cushion-1",
       "item": "spd-space-cushion",
       "part": 2,
-      "prompt": "To create a space cushion around your vehicle, you should:",
+      "prompt": "What should you do to create a space cushion around your vehicle?",
       "choices": [
         "Drive on the lane line",
         "Stay close to the car ahead",
@@ -1993,18 +1993,18 @@
         "Stay in the middle of your lane"
       ],
       "answer": 3,
-      "explain": "Create a space cushion by staying in the middle of your lane."
+      "explain": "You create a space cushion by staying in the middle of your lane."
     },
     {
       "id": "q-spd-space-cushion-2",
       "item": "spd-space-cushion",
       "part": 2,
-      "prompt": "A space cushion around your vehicle:",
+      "prompt": "Which statement about a space cushion around your vehicle is correct?",
       "choices": [
-        "Lets you drive faster",
-        "Is only needed on unpaved roads",
-        "Gives you distance to react in emergencies and avoid a crash",
-        "Is the same as your blind spot"
+        "It lets you drive faster",
+        "It is needed only on unpaved roads",
+        "It gives you room to react and avoid a crash",
+        "It is the same as your blind spot"
       ],
       "answer": 2,
       "explain": "Space around your vehicle gives you distance to react in emergencies and avoid a crash."
@@ -2013,7 +2013,7 @@
       "id": "q-spd-follow-2-sec-1",
       "item": "spd-follow-2-sec",
       "part": 2,
-      "prompt": "When driving under 35 MPH on a dry road, you should follow at least ___ behind the vehicle ahead.",
+      "prompt": "When you drive under 35 MPH on a dry road, what is the shortest following distance you should keep behind the vehicle ahead?",
       "image": "diagram-following-distance",
       "choices": [
         "1 second",
@@ -2022,13 +2022,13 @@
         "5 seconds"
       ],
       "answer": 1,
-      "explain": "Under 35 MPH, the following distance is 2 seconds."
+      "explain": "Under 35 MPH, you should stay at least 2 seconds behind the vehicle ahead."
     },
     {
       "id": "q-spd-follow-2-sec-2",
       "item": "spd-follow-2-sec",
       "part": 2,
-      "prompt": "You are driving 30 MPH on a dry road. The safe following distance is:",
+      "prompt": "You are driving 30 MPH on a dry road. What is the safe following distance behind the vehicle ahead?",
       "choices": [
         "2 seconds",
         "3 seconds",
@@ -2036,13 +2036,13 @@
         "5 seconds"
       ],
       "answer": 0,
-      "explain": "Under 35 MPH, use at least 2 seconds following distance."
+      "explain": "Under 35 MPH, you should use a following distance of at least 2 seconds."
     },
     {
       "id": "q-spd-follow-3-sec-1",
       "item": "spd-follow-3-sec",
       "part": 2,
-      "prompt": "At speeds of 35 to 45 MPH on a dry road, your following distance should be:",
+      "prompt": "What should your following distance be at speeds of 35 to 45 MPH on a dry road?",
       "image": "diagram-following-distance",
       "choices": [
         "1 second",
@@ -2051,7 +2051,7 @@
         "5 seconds"
       ],
       "answer": 2,
-      "explain": "From 35 to 45 MPH, use a 3-second following distance."
+      "explain": "At 35 to 45 MPH, you should stay at least 3 seconds behind the vehicle ahead."
     },
     {
       "id": "q-spd-follow-3-sec-2",
@@ -2065,56 +2065,56 @@
         "6 seconds"
       ],
       "answer": 2,
-      "explain": "From 35 to 45 MPH, follow at least 3 seconds behind."
+      "explain": "From 35 to 45 MPH, you should follow at least 3 seconds behind the vehicle ahead."
     },
     {
       "id": "q-spd-follow-4-sec-1",
       "item": "spd-follow-4-sec",
       "part": 2,
-      "prompt": "At speeds of 46 to 70 MPH on a dry road, you should follow at least:",
+      "prompt": "When you drive 46 to 70 MPH on a dry road, what is the shortest following distance you should keep behind the vehicle ahead?",
       "image": "diagram-following-distance",
       "choices": [
-        "1 second behind",
-        "2 seconds behind",
-        "3 seconds behind",
-        "4 seconds behind"
+        "1 second",
+        "2 seconds",
+        "3 seconds",
+        "4 seconds"
       ],
       "answer": 3,
-      "explain": "From 46 to 70 MPH, use a 4-second following distance."
+      "explain": "At 46 to 70 MPH, you should stay at least 4 seconds behind the vehicle ahead."
     },
     {
       "id": "q-spd-follow-4-sec-2",
       "item": "spd-follow-4-sec",
       "part": 2,
-      "prompt": "The two-, three- and four-second following distance rules do not work if you are:",
+      "prompt": "When do the rules for staying two, three or four seconds behind another car not work?",
       "choices": [
-        "Driving under 35 MPH",
-        "Speeding over 70 MPH",
-        "Driving 35 to 45 MPH",
-        "Driving on a dry road"
+        "When you drive under 35 MPH",
+        "When you speed over 70 MPH",
+        "When you drive 35 to 45 MPH",
+        "When you drive on a dry road"
       ],
       "answer": 1,
-      "explain": "The space cushions do not work if you are speeding over 70 MPH."
+      "explain": "The rules for staying two, three or four seconds behind another car do not work when you speed over 70 MPH."
     },
     {
       "id": "q-spd-follow-4-sec-3",
       "item": "spd-follow-4-sec",
       "part": 2,
-      "prompt": "Which following distances match these speeds on dry roads?",
+      "prompt": "Which set of following distances is correct for each speed range on a dry road?",
       "choices": [
-        "Under 35: 1 sec; 35-45: 2 sec; 46-70: 3 sec",
-        "Under 35: 3 sec; 35-45: 4 sec; 46-70: 5 sec",
-        "Under 35: 2 sec; 35-45: 3 sec; 46-70: 4 sec",
-        "Under 35: 2 sec; 35-45: 4 sec; 46-70: 6 sec"
+        "1 second under 35 MPH, 2 seconds at 35 to 45 MPH and 3 seconds at 46 to 70 MPH",
+        "3 seconds under 35 MPH, 4 seconds at 35 to 45 MPH and 5 seconds at 46 to 70 MPH",
+        "2 seconds under 35 MPH, 3 seconds at 35 to 45 MPH and 4 seconds at 46 to 70 MPH",
+        "2 seconds under 35 MPH, 4 seconds at 35 to 45 MPH and 6 seconds at 46 to 70 MPH"
       ],
       "answer": 2,
-      "explain": "Use 2 seconds under 35 MPH, 3 seconds at 35-45 MPH and 4 seconds at 46-70 MPH."
+      "explain": "Use 2 seconds under 35 MPH, 3 seconds at 35 to 45 MPH and 4 seconds at 46 to 70 MPH."
     },
     {
       "id": "q-spd-follow-count-1",
       "item": "spd-follow-count",
       "part": 2,
-      "prompt": "To check your following distance, you should count the seconds it takes you to reach:",
+      "prompt": "To check your following distance, you count the seconds it takes you to reach something. What is it?",
       "image": "diagram-following-distance",
       "choices": [
         "The vehicle ahead",
@@ -2123,13 +2123,13 @@
         "A fixed object that the vehicle ahead just passed"
       ],
       "answer": 3,
-      "explain": "Glance at the vehicle ahead as it passes a fixed object, then count the seconds until you reach it."
+      "explain": "Watch the vehicle ahead pass a fixed object. Then count the seconds it takes you to reach that same object."
     },
     {
       "id": "q-spd-follow-count-2",
       "item": "spd-follow-count",
       "part": 2,
-      "prompt": "You are driving 40 MPH. The car ahead passes a sign. You reach the sign after counting only two seconds. You should:",
+      "prompt": "You are driving 40 MPH. The car ahead passes a sign. You reach the sign after counting only two seconds. What should you do?",
       "choices": [
         "Slow down and increase your following distance",
         "Keep the same distance",
@@ -2137,13 +2137,13 @@
         "Move closer to the car ahead"
       ],
       "answer": 0,
-      "explain": "If you reach the mark before counting the right number of seconds, you are too close, so slow down."
+      "explain": "If you reach the sign before you count the right number of seconds, you are following too closely, so slow down."
     },
     {
       "id": "q-spd-follow-count-3",
       "item": "spd-follow-count",
       "part": 2,
-      "prompt": "Which can be used as a fixed object when counting following distance?",
+      "prompt": "Which of these can you use as a fixed object when you count your following distance?",
       "choices": [
         "An overpass",
         "A sign",
@@ -2151,18 +2151,18 @@
         "All of these"
       ],
       "answer": 3,
-      "explain": "Use a fixed mark such as an overpass, sign, fence or corner."
+      "explain": "You can use any fixed mark, such as an overpass, sign, fence or corner."
     },
     {
       "id": "q-spd-follow-add-seconds-1",
       "item": "spd-follow-add-seconds",
       "part": 2,
-      "prompt": "You should add extra seconds to your following distance when:",
+      "prompt": "When should you add extra seconds to your following distance?",
       "choices": [
-        "The weather is bad",
-        "Traffic is heavy",
-        "Your vehicle is in poor condition",
-        "All of these"
+        "When the weather is bad",
+        "When traffic is heavy",
+        "When your vehicle is in poor condition",
+        "In all of these situations"
       ],
       "answer": 3,
       "explain": "Add extra seconds for bad weather, heavy traffic, poor pavement or a vehicle in poor condition."
@@ -2171,7 +2171,7 @@
       "id": "q-spd-follow-add-seconds-2",
       "item": "spd-follow-add-seconds",
       "part": 2,
-      "prompt": "When speed or road conditions change, you should:",
+      "prompt": "What should you do when speed or road conditions change?",
       "choices": [
         "Keep the same following distance",
         "Change your following distance",
@@ -2179,27 +2179,27 @@
         "Use your horn"
       ],
       "answer": 1,
-      "explain": "Drivers need to change following distance when speed or road conditions change."
+      "explain": "Drivers need to change their following distance when speed or road conditions change."
     },
     {
       "id": "q-spd-follow-add-seconds-3",
       "item": "spd-follow-add-seconds",
       "part": 2,
-      "prompt": "The road surface is in poor condition. Your following distance should be:",
+      "prompt": "The road surface is in poor condition. What should your following distance be?",
       "choices": [
         "Shorter than usual",
         "Exactly 2 seconds at any speed",
-        "Longer than the usual 2-, 3- or 4-second rule",
+        "Longer than the usual 2, 3 or 4 seconds",
         "The same as on a dry road"
       ],
       "answer": 2,
-      "explain": "For poor pavement, add extra seconds to your following distance."
+      "explain": "On poor pavement, you should add extra seconds to your following distance."
     },
     {
       "id": "q-spd-response-times-1",
       "item": "spd-response-times",
       "part": 2,
-      "prompt": "Foot response time is normally:",
+      "prompt": "Normally, how long is a driver's foot response time?",
       "choices": [
         "One-quarter of a second",
         "Two seconds",
@@ -2213,7 +2213,7 @@
       "id": "q-spd-response-times-2",
       "item": "spd-response-times",
       "part": 2,
-      "prompt": "Hand response time is close to:",
+      "prompt": "About how long is a driver's hand response time?",
       "choices": [
         "A half second",
         "Two seconds",
@@ -2227,7 +2227,7 @@
       "id": "q-spd-response-times-3",
       "item": "spd-response-times",
       "part": 2,
-      "prompt": "Which can add delay to your perception time?",
+      "prompt": "Which of these can delay your perception time?",
       "choices": [
         "Being tired",
         "Being on medication",
@@ -2235,35 +2235,35 @@
         "All of these"
       ],
       "answer": 3,
-      "explain": "Being tired, on medication or distracted can delay perception time."
+      "explain": "Being tired, on medication or distracted can delay your perception time."
     },
     {
       "id": "q-spd-increase-following-1",
       "item": "spd-increase-following",
       "part": 2,
-      "prompt": "You should increase your following distance when driving:",
+      "prompt": "When should you increase your following distance?",
       "choices": [
-        "Behind a large vehicle that blocks your vision",
-        "Behind a motorcycle or bicycle",
-        "When exiting an expressway",
+        "When you drive behind a large vehicle that blocks your view",
+        "When you drive behind a motorcycle or bicycle",
+        "When you exit an expressway",
         "All of these"
       ],
       "answer": 3,
-      "explain": "Increase following distance behind large vehicles, motorcycles or bicycles, and when exiting an expressway."
+      "explain": "You should increase your following distance behind large vehicles, motorcycles and bicycles, and when you exit an expressway."
     },
     {
       "id": "q-spd-increase-following-2",
       "item": "spd-increase-following",
       "part": 2,
-      "prompt": "Which situation calls for a larger following distance?",
+      "prompt": "Which of these situations calls for a larger following distance?",
       "choices": [
-        "When driving on a dry, empty road",
-        "When you are being tailgated",
-        "When the car ahead is far away",
-        "When you are parked"
+        "You are driving on a dry, empty road",
+        "You are being tailgated",
+        "The car ahead is far away",
+        "You are parked"
       ],
       "answer": 1,
-      "explain": "Increase your following distance when being tailgated."
+      "explain": "You should increase your following distance when someone is tailgating you."
     },
     {
       "id": "q-spd-increase-following-3",
@@ -2271,33 +2271,33 @@
       "part": 2,
       "prompt": "Why should you increase your following distance behind a large truck?",
       "choices": [
-        "Trucks always drive faster",
-        "Trucks never use brake lights",
-        "It blocks your vision of the road ahead",
-        "It is required only at night"
+        "Large trucks always drive faster than cars",
+        "Large trucks never use their brake lights",
+        "A large truck blocks your view of the road ahead",
+        "The extra space is required only at night"
       ],
       "answer": 2,
-      "explain": "Increase following distance behind a large vehicle that blocks your vision."
+      "explain": "You should increase your following distance behind a large vehicle that blocks your view."
     },
     {
       "id": "q-spd-tailgater-1",
       "item": "spd-tailgater",
       "part": 2,
-      "prompt": "If you are being tailgated, you should:",
+      "prompt": "What should you do if you are being tailgated?",
       "choices": [
-        "Brake suddenly to warn the driver",
-        "Speed up to get away",
-        "Stop in the road",
-        "Move to another lane if possible, or gently tap your brakes and slow down"
+        "Brake suddenly to warn the driver behind you",
+        "Speed up to get away from the driver behind you",
+        "Stop in the middle of the road",
+        "Move to another lane if you can, or gently tap your brakes and slow down"
       ],
       "answer": 3,
-      "explain": "Do not brake suddenly; move over or gently tap your brakes and slow down."
+      "explain": "Do not brake suddenly. Move to another lane if you can, or gently tap your brakes and slow down."
     },
     {
       "id": "q-spd-tailgater-2",
       "item": "spd-tailgater",
       "part": 2,
-      "prompt": "Tailgating is:",
+      "prompt": "What is tailgating?",
       "choices": [
         "Passing on the shoulder",
         "Following another vehicle too closely",
@@ -2305,31 +2305,31 @@
         "Parking too close to a hydrant"
       ],
       "answer": 1,
-      "explain": "Tailgating is when one driver follows another too closely."
+      "explain": "Tailgating is when one driver follows another driver too closely."
     },
     {
       "id": "q-spd-tailgater-3",
       "item": "spd-tailgater",
       "part": 2,
-      "prompt": "To help the driver behind you, you should:",
+      "prompt": "What should you do to help the driver behind you?",
       "choices": [
-        "Brake hard without warning",
-        "Keep a steady speed and tap your brakes before slowing down",
-        "Change speeds often",
-        "Drive in their blind spot"
+        "Brake hard without giving any warning",
+        "Keep a steady speed and tap your brakes before you slow down",
+        "Change your speed often",
+        "Drive in the blind spot of the driver behind you"
       ],
       "answer": 1,
-      "explain": "Keep a safe following distance and steady speed, and tap your brakes before you slow or stop."
+      "explain": "Keep a safe following distance and a steady speed. Tap your brakes before you slow down or stop."
     },
     {
       "id": "q-spd-search-ahead-1",
       "item": "spd-search-ahead",
       "part": 2,
-      "prompt": "Expert drivers try to focus their eyes:",
+      "prompt": "Where do expert drivers try to focus their eyes?",
       "choices": [
-        "2 to 3 seconds ahead",
-        "5 to 10 seconds ahead",
-        "20 to 30 seconds ahead",
+        "On the road 2 to 3 seconds ahead",
+        "On the road 5 to 10 seconds ahead",
+        "On the road 20 to 30 seconds ahead",
         "On the middle of the road"
       ],
       "answer": 2,
@@ -2339,7 +2339,7 @@
       "id": "q-spd-search-ahead-2",
       "item": "spd-search-ahead",
       "part": 2,
-      "prompt": "In the city, looking 20 to 30 seconds ahead equals about:",
+      "prompt": "In the city, looking 20 to 30 seconds ahead means looking about how far?",
       "choices": [
         "One car length",
         "Half a mile",
@@ -2347,55 +2347,55 @@
         "One block"
       ],
       "answer": 3,
-      "explain": "In the city, 20 to 30 seconds ahead is approximately one block."
+      "explain": "In the city, 20 to 30 seconds ahead is about one block."
     },
     {
       "id": "q-spd-search-ahead-3",
       "item": "spd-search-ahead",
       "part": 2,
-      "prompt": "When searching the road ahead, you should:",
+      "prompt": "What should you do when you search the road ahead?",
       "choices": [
         "Keep your eyes moving and scan from side to side",
         "Stare at the middle of the road",
-        "Watch only the car ahead",
+        "Watch only the car that is ahead of you",
         "Look only at your speedometer"
       ],
       "answer": 0,
-      "explain": "Avoid staring at one thing; keep your eyes moving and scan from side to side."
+      "explain": "Do not stare at one thing. Keep your eyes moving and scan from side to side."
     },
     {
       "id": "q-spd-left-right-left-1",
       "item": "spd-left-right-left",
       "part": 2,
-      "prompt": "Before entering an intersection, you should look:",
+      "prompt": "What should you do before you enter an intersection?",
       "choices": [
-        "Left, then right, then left again",
-        "Right, then left, then right again",
-        "Straight ahead only",
-        "Left only"
+        "Look left, then right, then left again",
+        "Look right, then left, then right again",
+        "Look straight ahead only",
+        "Look left only"
       ],
       "answer": 0,
-      "explain": "Check left, then right, then left again before entering an intersection."
+      "explain": "Look left, then right, then left again before you enter an intersection."
     },
     {
       "id": "q-spd-left-right-left-2",
       "item": "spd-left-right-left",
       "part": 2,
-      "prompt": "At an intersection, you should look to the left first because:",
+      "prompt": "Why should you look to the left first at an intersection?",
       "choices": [
         "Cars from the right always yield",
-        "Signs are on the left",
+        "The signs are on the left",
         "Cars coming from the left will be closer to you",
-        "Left lanes are faster"
+        "The left lanes are faster"
       ],
       "answer": 2,
-      "explain": "Look left first since cars coming from the left will be closer to you."
+      "explain": "You look left first because cars coming from the left will be closer to you."
     },
     {
       "id": "q-spd-look-both-ways-1",
       "item": "spd-look-both-ways",
       "part": 2,
-      "prompt": "You should look both ways to be sure it is clear at:",
+      "prompt": "At which places should you look both ways to be sure the way is clear?",
       "choices": [
         "Intersections and crosswalks",
         "Shopping centers and construction areas",
@@ -2403,69 +2403,69 @@
         "All of these"
       ],
       "answer": 3,
-      "explain": "Look both ways wherever cars, people or animals may cross your path."
+      "explain": "Look both ways at any place where cars, people or animals may cross your path."
     },
     {
       "id": "q-spd-look-both-ways-2",
       "item": "spd-look-both-ways",
       "part": 2,
-      "prompt": "When you reach a place where cars, people or animals may cross your path, you should:",
+      "prompt": "What should you do when you reach a place where cars, people or animals may cross your path?",
       "choices": [
         "Speed up to get through",
-        "Look both ways to be sure it is clear",
+        "Look both ways to be sure the way is clear",
         "Sound your horn",
         "Look only to the right"
       ],
       "answer": 1,
-      "explain": "Look both ways wherever other cars, people or animals may cross your path."
+      "explain": "You should look both ways wherever other cars, people or animals may cross your path."
     },
     {
       "id": "q-spd-mirror-10-sec-1",
       "item": "spd-mirror-10-sec",
       "part": 2,
-      "prompt": "You should check your rearview mirror about every:",
+      "prompt": "About how often should you check your rearview mirror?",
       "choices": [
-        "2 seconds",
-        "10 seconds",
-        "30 seconds",
-        "60 seconds"
+        "Every 2 seconds",
+        "Every 10 seconds",
+        "Every 30 seconds",
+        "Every 60 seconds"
       ],
       "answer": 1,
-      "explain": "Check traffic behind you frequently, about every 10 seconds."
+      "explain": "You should check the traffic behind you often, about every 10 seconds."
     },
     {
       "id": "q-spd-mirror-10-sec-2",
       "item": "spd-mirror-10-sec",
       "part": 2,
-      "prompt": "You should check the traffic behind you when:",
+      "prompt": "When should you check the traffic behind you?",
       "choices": [
-        "Changing lanes",
-        "Backing up or slowing down quickly",
-        "Driving down a long, steep hill",
+        "When you change lanes",
+        "When you back up or slow down quickly",
+        "When you drive down a long, steep hill",
         "All of these"
       ],
       "answer": 3,
-      "explain": "Check behind when changing lanes, backing up, slowing quickly or driving down a long, steep hill."
+      "explain": "You should check behind you when you change lanes, back up, slow down quickly or drive down a long, steep hill."
     },
     {
       "id": "q-spd-mirror-10-sec-3",
       "item": "spd-mirror-10-sec",
       "part": 2,
-      "prompt": "Checking your rearview mirror often will:",
+      "prompt": "What does checking your rearview mirror often do for you?",
       "choices": [
-        "Make your following distance longer",
-        "Help you see 20 seconds ahead",
-        "Replace checking your blind spot",
-        "Alert you if someone is moving up too quickly or tailgating"
+        "It makes your following distance longer",
+        "It helps you see 20 seconds ahead of your car",
+        "It replaces the need to check your blind spot",
+        "It alerts you if someone is moving up too quickly or tailgating you"
       ],
       "answer": 3,
-      "explain": "Frequent mirror checks alert you if someone is moving up too quickly or tailgating."
+      "explain": "Checking your mirror often alerts you if someone is moving up too quickly or tailgating you."
     },
     {
       "id": "q-spd-road-clues-1",
       "item": "spd-road-clues",
       "part": 2,
-      "prompt": "Which clue warns that a parked vehicle may pull into your path?",
+      "prompt": "Which of these clues warn you that a parked vehicle may pull into your path?",
       "choices": [
         "Exhaust smoke",
         "Brake or back-up lights",
@@ -2473,27 +2473,27 @@
         "All of these"
       ],
       "answer": 3,
-      "explain": "Exhaust smoke, brake or back-up lights and turned wheels warn a vehicle may pull into your path."
+      "explain": "Exhaust smoke, brake or back-up lights, and turned wheels all warn that a vehicle may pull into your path."
     },
     {
       "id": "q-spd-road-clues-2",
       "item": "spd-road-clues",
       "part": 2,
-      "prompt": "You see exhaust smoke coming from a parked car ahead. This means:",
+      "prompt": "You see exhaust smoke coming from a parked car ahead. What does this mean?",
       "choices": [
         "The car may pull into your path",
-        "The car is broken down for good",
+        "The car is broken down and will never move again",
         "You may pass it at any speed",
         "The driver is signaling you to go"
       ],
       "answer": 0,
-      "explain": "Exhaust smoke is a clue that a vehicle may pull into your path."
+      "explain": "Exhaust smoke is a clue that the car may pull into your path."
     },
     {
       "id": "q-spd-road-clues-3",
       "item": "spd-road-clues",
       "part": 2,
-      "prompt": "When driving in rural areas, you should watch for:",
+      "prompt": "What should you watch for when you drive in rural areas?",
       "choices": [
         "Parking meters",
         "Hidden intersections and driveways, curves and hills",
@@ -2501,7 +2501,7 @@
         "Toll plazas on every road"
       ],
       "answer": 1,
-      "explain": "In rural areas, watch for hidden intersections and driveways, curves, hills and different road conditions."
+      "explain": "In rural areas, you should watch for hidden intersections and driveways, curves, hills and different road conditions."
     }
   ]
 }
