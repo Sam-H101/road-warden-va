@@ -102,7 +102,7 @@ export const PromptCard = memo(function PromptCard({
           {prompt.status === 'correct' && <p className="text-good font-bold text-base mt-0.5">✓ {prompt.note ?? 'Nice!'}</p>}
           {prompt.status === 'miss' && <p className="text-bad font-bold text-base mt-0.5">Almost! Replay next.</p>}
           {prompt.status === 'live' && prompt.note && <p className="text-gold font-bold text-base mt-0.5">{prompt.note}</p>}
-          {prompt.status === 'live' && slowRoll && etaSec !== undefined && (
+          {prompt.status === 'live' && !prompt.note && slowRoll && etaSec !== undefined && (
             <p className="text-text/90 font-bold text-base mt-1 tabular-nums" aria-live="off">
               {going ? (
                 <span className="text-good">GO! Here in {etaSec}s</span>

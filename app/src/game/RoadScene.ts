@@ -14,7 +14,7 @@ import { BASE_WINDOW_MS, RunDirector, type Queued, type Resolution, BEHIND_WINDO
 import { LANE_COLORS, type Command, type HudState, type Lane, type Phase, type PromptInfo, type ReplayInfo } from './protocol'
 import { FX, ensureFxTextures } from './scene/fxTextures'
 import { Projection, Z_DRAW, Z_FAR } from './scene/projection'
-import { PX_PER_LANE, RoadView, type RoadLine } from './scene/RoadView'
+import { PX_PER_LANE, RoadView, type RoadLine, type StopGuide } from './scene/RoadView'
 import { WeatherFx } from './scene/WeatherFx'
 import { ACTION_CONTROLS, correctText, eventImage, isPoliceBehind, propEmoji } from './words'
 
@@ -68,6 +68,10 @@ const BRAKE_STRAIGHT_MAX = 0.6
 const STUCK_NOTE_MS = 1800
 const STUCK_NOTE = 'Let go of BRAKE to keep rolling.'
 const STOP_FAR_NOTE = 'Let go of BRAKE. Roll closer, then stop at the line.'
+/** Stop guide: shown once the stop line is this close. */
+const GUIDE_SHOW_Z = 26
+const BRAKE_NOW_NOTE = 'Brake now! Stop in the green box.'
+const BRAKE_LATE_NOTE = 'Brake hard!'
 const GO_FX_MS = 1100
 const FONT = 'Lexend, "Segoe UI", system-ui, sans-serif'
 
@@ -148,6 +152,8 @@ interface ActiveEvent {
   /** Time the car has been standing still while the event is live (for the coaching note). */
   stillMs: number
   stuckNote: boolean
+  /** Last braking cue shown for a stop event. */
+  brakeCue?: 'early' | 'now' | 'late'
   /** The car has rolled since this event appeared (a held-over stop never counts as a reaction). */
   moved: boolean
 }
@@ -1654,6 +1660,52 @@ export class RoadScene extends Phaser.Scene {
     return this.proj.xOf(this.carPos.lane - 1, 1)
   }
 
+  /**
+   * Depth the car will still travel if the player holds BRAKE from this moment.
+   * Simulates the same speed model as update() (GO is cancelled by braking).
+   */
+  private predictStopDistance(): number {
+    let s = this.speed
+    let b = this.boost
+    let d = 0
+    const step = 16
+    for (let i = 0; i < 400 && s > 0; i++) {
+      s = Math.max(0, s - step / BRAKE_MS)
+      b += (1 - b) * Math.min(1, step / GO_RAMP_MS)
+      d += this.V * s * b * step
+    }
+    return d
+  }
+
+  /** Braking guide for a live stop event: the green stop box and where the car would stop. */
+  private stopGuide(): StopGuide | null {
+    const e = this.cur
+    if (!e || e.decided || e.ev.kind !== 'action' || e.ev.action !== 'stop' || e.stopState !== 'approach') return null
+    if (e.z > GUIDE_SHOW_Z || this.phase !== 'drive') return null
+    const zoneDepth = (this.director.slowRoll ? STOP_ZONE_Z : 6) - STOP_Z
+    // The car's nose ends up STOP_Z in front of the camera; the line must still be ahead of it.
+    const marker = STOP_Z + this.predictStopDistance()
+    const boxTo = e.z
+    const boxFrom = Math.max(STOP_Z, e.z - zoneDepth)
+    const state: StopGuide['state'] = marker >= boxTo ? 'late' : marker >= boxFrom ? 'good' : 'early'
+    const pulse = this.reduced ? 0.5 : 0.5 + 0.5 * Math.sin(this.flashPhase / 260)
+    this.updateBrakeCue(e, state)
+    return { boxFrom, boxTo, marker, state, pulse }
+  }
+
+  /** One short coaching line at the right moment; never clobbers other notes. */
+  private updateBrakeCue(e: ActiveEvent, state: 'early' | 'good' | 'late'): void {
+    const braking = this.brakeInput() || this.hold
+    const cue: 'early' | 'now' | 'late' = braking || this.speed < 0.05 ? 'early' : state === 'good' ? 'now' : state
+    if (cue === e.brakeCue) return
+    const prevText = e.brakeCue === 'now' ? BRAKE_NOW_NOTE : e.brakeCue === 'late' ? BRAKE_LATE_NOTE : undefined
+    e.brakeCue = cue
+    if (e.note && e.note !== prevText) return
+    e.note = cue === 'now' ? BRAKE_NOW_NOTE : cue === 'late' ? BRAKE_LATE_NOTE : undefined
+    if (cue === 'now') vibrate(15, this.settings.haptics)
+    this.bus.emit('prompt', this.promptFor(e))
+  }
+
   private render(realDt: number): void {
     const p = this.proj
     const lanePos = this.carPos.lane - 1
@@ -1666,7 +1718,7 @@ export class RoadScene extends Phaser.Scene {
     this.car.setPosition(carX, carY).setScale(carS)
     this.car.setAngle(this.carPos.tilt)
 
-    this.road.draw(this.visDist, this.lines, { x: carX, y: p.baseY - 2, w: this.carW * carS * 1.05 })
+    this.road.draw(this.visDist, this.lines, { x: carX, y: p.baseY - 2, w: this.carW * carS * 1.05 }, this.stopGuide())
 
     // Brake lights.
     const fx = this.carFx

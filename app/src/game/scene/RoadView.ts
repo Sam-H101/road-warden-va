@@ -18,6 +18,19 @@ export interface RoadLine {
   kind: 'stop' | 'finish'
 }
 
+/**
+ * Braking guide for stop events. `boxFrom..boxTo` is the green stop box just
+ * before the line (depths); `marker` is where the car will stop if the player
+ * holds BRAKE now. `state` colors the marker.
+ */
+export interface StopGuide {
+  boxFrom: number
+  boxTo: number
+  marker: number
+  state: 'early' | 'good' | 'late'
+  pulse: number // 0..1 for a gentle glow
+}
+
 interface Scenery {
   img: Phaser.GameObjects.Image
   x: number
@@ -97,7 +110,7 @@ export class RoadView {
   }
 
   /** Redraw the road for the current distance. */
-  draw(visDist: number, lines: readonly RoadLine[], shadow: { x: number; y: number; w: number } | null): void {
+  draw(visDist: number, lines: readonly RoadLine[], shadow: { x: number; y: number; w: number } | null, guide?: StopGuide | null): void {
     const p = this.proj
     const t = this.theme
     const g = this.g
@@ -165,6 +178,7 @@ export class RoadView {
       if (n % 3 === 0 && zA < 22) this.posts(zA, a)
     }
 
+    if (guide) this.stopGuide(guide)
     for (const l of lines) this.line(l)
 
     if (shadow) {
@@ -220,6 +234,34 @@ export class RoadView {
       this.g.fillRect(x - w / 2, y - h, w, h)
       this.g.fillStyle(0xef4444, a)
       this.g.fillRect(x - w / 2, y - h, w, h * 0.22)
+    }
+  }
+
+  /** Green stop box before the line, plus a chevron where the car will stop if braking now. */
+  private stopGuide(gd: StopGuide): void {
+    const zNear = this.proj.zNear * 0.7
+    const from = Math.max(zNear, gd.boxFrom)
+    const to = Math.min(Z_DRAW, gd.boxTo)
+    if (to > from) {
+      const a = fadeAlpha(from)
+      this.quad(-1.5, 1.5, from, to, 0x22c55e, 0.16 * a + 0.1 * gd.pulse * a)
+      this.quad(-1.5, -1.44, from, to, 0x4ade80, 0.8 * a)
+      this.quad(1.44, 1.5, from, to, 0x4ade80, 0.8 * a)
+    }
+    const z = gd.marker
+    if (z < zNear || z > Z_DRAW) return
+    const a = fadeAlpha(z)
+    const color = gd.state === 'good' ? 0x4ade80 : gd.state === 'late' ? 0xf43f5e : 0xfacc15
+    // A bar across the road with three arrow notches: "your car stops here".
+    this.quad(-1.5, 1.5, z, z + 0.22, color, (0.75 + 0.25 * gd.pulse) * a)
+    const g = this.g
+    const p = this.proj
+    g.fillStyle(color, 0.9 * a)
+    for (const x of [-1, 0, 1]) {
+      const yBar = p.yOf(z + 0.22)
+      const yTip = p.yOf(z + 0.75)
+      const w = (p.xOf(x + 0.16, z + 0.22) - p.xOf(x - 0.16, z + 0.22)) / 2
+      g.fillTriangle(p.xOf(x, z + 0.22) - w, yBar, p.xOf(x, z + 0.22) + w, yBar, p.xOf(x, z + 0.75), yTip)
     }
   }
 
