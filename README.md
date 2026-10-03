@@ -7,7 +7,11 @@ feedback, and a real exam rehearsal mode.
 
 ## Play it
 
-**Windows, easiest:** double-click `play.bat`. It installs, builds and opens the
+**Online (no install):** https://sam-h101.github.io/road-warden-va/
+Works on a PC or phone. On a phone, use the browser's "Add to Home Screen" to
+install it like an app; it then works offline.
+
+**Windows, offline copy:** double-click `play.bat`. It installs, builds and opens the
 game in your browser at http://localhost:4173.
 
 **Windows or WSL, from a terminal:**
