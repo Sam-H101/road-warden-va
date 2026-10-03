@@ -645,7 +645,7 @@ function QuestionCard({
               <ReadAloudButton
                 text={`${LETTERS[i]}: ${c}`}
                 label={`Read answer ${LETTERS[i]}`}
-                className={`self-center ${calm ? '!bg-transparent !text-slate-500 hover:!bg-slate-200' : '!bg-transparent'}`}
+                className={`self-center ${calm ? '!bg-transparent !text-[#1f3a5f] hover:!bg-slate-200' : '!bg-transparent'}`}
               />
             </li>
           )
@@ -662,15 +662,25 @@ function BossHud({ paper, answers, index, district }: { paper: ExamPaper; answer
   const need = Math.ceil(total * BOSS_PASS_PCT)
   const hits = answers.filter((a) => a.correct).length
   const color = (district && districtById.get(district)?.color) || '#fbbf24'
-  const broken = hits >= need
+  // Like the DMV: every sign question must be right, whatever the score.
+  const hasSigns = paper.part1.length > 0
+  const signMiss = answers.some((a) => a.part === 1 && !a.correct)
+  const broken = hits >= need && !signMiss
   return (
     <div className="max-w-2xl mx-auto mb-4">
       <div className="flex items-center justify-between text-sm font-bold">
         <span className="text-dim">
           Question {index + 1} of {total}
         </span>
-        <span className={broken ? 'text-good' : 'text-text'}>{broken ? 'Shield broken!' : `Shield: ${need - hits} hits left`}</span>
+        <span className={broken ? 'text-good' : 'text-text'}>
+          {broken ? 'Shield broken!' : hits >= need ? 'Shield holds: a sign was missed' : `Shield: ${need - hits} hits left`}
+        </span>
       </div>
+      {hasSigns && (
+        <div className={`mt-1 text-sm font-bold ${signMiss ? 'text-bad' : 'text-good'}`}>
+          {signMiss ? 'One sign missed. Every sign must be right to win.' : 'Signs: all right so far ✓ (every sign must be right)'}
+        </div>
+      )}
       <div className="mt-2 flex gap-1" aria-hidden>
         {Array.from({ length: need }, (_, i) => (
           <div

@@ -242,15 +242,15 @@ describe('store: recordRun', () => {
 })
 
 describe('store: recordExam', () => {
-  it('a ready exam is recorded and clears Exam Day once', () => {
+  it('a ready exam is recorded, but one ready day does not clear Exam Day', () => {
     const paper = fakePaper('exam', 10, 30)
     const s1 = useGame.getState().recordExam(paper, answers(paper, 10, 30))
     expect(s1.result.passed).toBe(true)
     expect(s1.result.ready).toBe(true)
-    expect(s1.bossNewlyCleared).toBe(true)
+    expect(s1.bossNewlyCleared).toBe(false)
     expect(s1.examReadyDays).toBe(1)
     expect(s1.xpGained).toBeGreaterThan(0)
-    expect(useGame.getState().bossesCleared).toContain('d16-examday')
+    expect(useGame.getState().bossesCleared).not.toContain('d16-examday')
     expect(useGame.getState().examHistory).toEqual([{ day: key(DAY1), part1Correct: 10, part2Correct: 30, passed: true, ready: true }])
 
     const s2 = useGame.getState().recordExam(paper, answers(paper, 10, 28))
@@ -265,8 +265,10 @@ describe('store: recordExam', () => {
       vi.setSystemTime(nextDay(DAY1, d))
       const s = useGame.getState().recordExam(paper, answers(paper, 10, 27))
       expect(s.examReadyDays).toBe(d + 1)
+      expect(s.bossNewlyCleared).toBe(d === 2)
     }
     expect(isExamReady(useGame.getState().examHistory)).toBe(true)
+    expect(useGame.getState().bossesCleared).toContain('d16-examday')
     expect(useGame.getState().playDays).toHaveLength(3)
   })
 
@@ -334,12 +336,28 @@ describe('store: save files', () => {
     expect(useGame.getState().xp).toBe(0)
     expect(useGame.getState().importSave(json)).toEqual({ ok: true })
     expect(useGame.getState().xp).toBe(xp)
-    expect(useGame.getState().bossesCleared).toContain('d16-examday')
+    expect(useGame.getState().examHistory).toHaveLength(1)
   })
 
   it('rejects files that are not saves', () => {
     expect(useGame.getState().importSave('not json').ok).toBe(false)
     expect(useGame.getState().importSave('{"app":"other"}').ok).toBe(false)
+    expect(useGame.getState().importSave('{"app":"road-warden-va","data":{"version":1,"items":null}}').ok).toBe(false)
+  })
+
+  it('a damaged save keeps only well-typed fields and never replaces actions', () => {
+    const json = JSON.stringify({
+      app: 'road-warden-va',
+      data: { version: 1, items: {}, xp: 120, contracts: { daily: null }, equipped: { car: 'x' }, recordRun: 'nope', stats: 5, playerName: 7 },
+    })
+    expect(useGame.getState().importSave(json).ok).toBe(true)
+    const s = useGame.getState()
+    expect(s.xp).toBe(120)
+    expect(typeof s.recordRun).toBe('function')
+    expect(Array.isArray(s.contracts.daily)).toBe(true)
+    expect(s.equipped.paint).toBeTruthy()
+    expect(s.stats.runs).toBe(0)
+    expect(s.playerName).toBe('')
   })
 })
 

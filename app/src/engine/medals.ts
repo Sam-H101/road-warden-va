@@ -14,7 +14,7 @@ export const MEDALS: MedalDef[] = [
   { id: 'sign-sniper', name: 'Sign Sniper', icon: '🎯', description: 'Read 5 or more signs in a run with no sign misses.' },
   { id: 'iron-nerves', name: 'Iron Nerves', icon: '🔥', description: 'Hit a 10 streak.' },
   { id: 'unstoppable', name: 'Unstoppable', icon: '⚡', description: 'Hit a 20 streak.' },
-  { id: 'quick-draw', name: 'Quick Draw', icon: '⏱️', description: 'Average reaction under 40% of the time window (5+ answers).' },
+  { id: 'quick-draw', name: 'Quick Draw', icon: '⏱️', description: 'Answer fast and right in Sign Sniper, Numbers or Hazard Rush (5 or more).' },
   { id: 'comeback', name: 'Comeback Kid', icon: '💪', description: 'Get 5 right in a row after a miss.' },
   { id: 'brake-master', name: 'Brake Master', icon: '🛑', description: 'Nail 3 or more stop situations with no stop misses.' },
   { id: 'zero-tolerance', name: 'Zero Tolerance', icon: '🚫', description: 'Get 3 or more alcohol and distraction facts right with no misses.' },
@@ -48,8 +48,10 @@ export function awardMedals(result: RunResult, weatherEventIds: Set<string>): st
   if (result.maxStreak >= 10) out.push('iron-nerves')
   if (result.maxStreak >= 20) out.push('unstoppable')
 
+  // Only timed modes: learning roads are about taking your time, so speed is not a medal there.
+  const timedMode = result.plan.mode === 'sniper' || result.plan.mode === 'numbers' || result.plan.mode === 'hazard'
   const answered = o.filter((x) => x.correct)
-  if (answered.length >= 5) {
+  if (timedMode && answered.length >= 5) {
     const avg = answered.reduce((s, x) => s + x.reactionMs / Math.max(1, x.windowMs), 0) / answered.length
     if (avg < 0.4) out.push('quick-draw')
   }

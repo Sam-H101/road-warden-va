@@ -16,6 +16,12 @@ import type { DistrictId, GameEvent, Item } from './types'
 
 type States = Record<string, ItemState>
 
+/**
+ * Most never-seen items one run may bring. The briefing shows (at most) this many
+ * intel cards, so every new fact on the road had its card first. One shared limit.
+ */
+export const MAX_NEW_PER_RUN = 5
+
 export interface BuildCtx {
   states: States
   today: string
@@ -107,7 +113,9 @@ export function buildMission(district: DistrictId, missionIndex: number, ctx: Bu
   // mastered items to keep them alive.
   const missionIds = new Set(items.map((i) => i.id))
   const review = dueItems(ctx, (i) => !missionIds.has(i.id)).slice(0, 4)
-  const keepAlive = shuffle(masteredItems(ctx).filter((i) => !missionIds.has(i.id)), rng).slice(0, 2)
+  const reviewIds = new Set(review.map((i) => i.id))
+  // A mastered item that is also due is already in `review`: never two slots for one item.
+  const keepAlive = shuffle(masteredItems(ctx).filter((i) => !missionIds.has(i.id) && !reviewIds.has(i.id)), rng).slice(0, 2)
   const reviewEvents = [...review, ...keepAlive]
     .map((i) => pickEventFor(i.id, rng, used))
     .filter((e): e is GameEvent => !!e)
@@ -128,15 +136,19 @@ export function buildMission(district: DistrictId, missionIndex: number, ctx: Bu
     ramp: 0,
     perksAllowed: true,
     ghostScore: opts.ghost,
-    newItemIds: items.filter((i) => !ctx.states[i.id]?.seen).map((i) => i.id),
+    // Every mission item: the briefing skips the ones already briefed, so a card
+    // skipped once (or held back on a busy first day) still shows next time.
+    newItemIds: items.map((i) => i.id),
   }
 }
 
-export function buildQuick(ctx: BuildCtx, size = 14): RunPlan {
+/** Quick Play is short on purpose: at the calm slow-roll pace 8 stops is a few minutes. */
+export function buildQuick(ctx: BuildCtx, size = 8): RunPlan {
   const rng = ctx.rng ?? defaultRng
   const due = dueItems(ctx).slice(0, size - 3)
-  const fresh = unseenItems(ctx).slice(0, Math.max(2, size - due.length - 2))
-  const alive = shuffle(masteredItems(ctx), rng).slice(0, 2)
+  const fresh = unseenItems(ctx).slice(0, Math.min(MAX_NEW_PER_RUN, Math.max(2, size - due.length - 2)))
+  const dueIds = new Set(due.map((i) => i.id))
+  const alive = shuffle(masteredItems(ctx).filter((i) => !dueIds.has(i.id)), rng).slice(0, 2)
   let items = [...due, ...fresh, ...alive]
   if (items.length < size) {
     // Early game: fill with anything seen in unlocked districts.

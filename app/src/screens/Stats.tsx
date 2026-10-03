@@ -33,7 +33,10 @@ export function StatsScreen() {
   const accuracy = answered ? Math.round((stats.correct / answered) * 100) : 0
   const overallPct = Math.round(r.overall * 100)
 
-  const readText = `Exam readiness ${overallPct} percent. Signs mastered: ${r.masteredSigns} of ${r.totalSigns}. Rules mastered: ${r.masteredGeneral} of ${r.totalGeneral}. Ready exam days: ${Math.min(ready, READY_RUNS_NEEDED)} of ${READY_RUNS_NEEDED}.`
+  // Same exam-scaled framing as Home: "3 of 10 signs ready", "8 of 30 rules ready".
+  const signsReady = Math.round(r.signPct * 10)
+  const rulesReady = Math.round(r.generalPct * 30)
+  const readText = `Exam readiness ${overallPct} percent. Signs: ${signsReady} of 10 ready. You need all 10. Rules: ${rulesReady} of 30 ready. You need 24. Ready exam days: ${Math.min(ready, READY_RUNS_NEEDED)} of ${READY_RUNS_NEEDED}.`
 
   return (
     <Screen title="Progress" onBack={() => nav.back()}>
@@ -48,8 +51,20 @@ export function StatsScreen() {
         </div>
         <ProgressBar value={r.overall} max={1} className="mt-3" label="Exam readiness" />
         <div className="grid grid-cols-1 min-[440px]:grid-cols-3 gap-3 mt-4">
-          <Meter label="Signs mastered" value={r.masteredSigns} max={r.totalSigns} color="bg-bad" note="Part 1: all 10 must be right" />
-          <Meter label="Rules mastered" value={r.masteredGeneral} max={r.totalGeneral} color="bg-info" note="Part 2: need 24 of 30" />
+          <Meter
+            label="Signs ready"
+            value={signsReady}
+            max={10}
+            color="bg-bad"
+            note={`Part 1: need all 10. Locked in so far: ${r.masteredSigns} of ${r.totalSigns} signs.`}
+          />
+          <Meter
+            label="Rules ready"
+            value={rulesReady}
+            max={30}
+            color="bg-info"
+            note={`Part 2: need 24 of 30. Locked in so far: ${r.masteredGeneral} of ${r.totalGeneral} rules.`}
+          />
           <Meter label="Ready exam days" value={Math.min(ready, READY_RUNS_NEEDED)} max={READY_RUNS_NEEDED} color="bg-good" note="10/10 signs + 27/30, 3 days" />
         </div>
       </Panel>
@@ -200,7 +215,7 @@ function Meter({ label, value, max, color, note }: { label: string; value: numbe
         <span className="text-base text-dim"> / {max}</span>
       </p>
       <ProgressBar value={value} max={max || 1} color={color} className="mt-1" label={label} />
-      <p className="text-xs text-dim mt-1">{note}</p>
+      <p className="text-sm text-dim mt-1">{note}</p>
     </div>
   )
 }

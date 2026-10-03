@@ -176,6 +176,8 @@ function BossCard({
   isPrimary: boolean
 }) {
   const intro = storyFor(d.id)?.bossIntro ?? `${d.boss} is waiting.`
+  // Sign districts: like the DMV, every sign question must be right.
+  const hasSigns = itemsIn(d.id).some((i) => (questionsByItem.get(i.id) ?? []).some((q) => q.part === 1))
   return (
     <section
       aria-label="Boss"
@@ -198,7 +200,8 @@ function BossCard({
             <ReadAloudButton text={intro} />
           </div>
           <p className="text-sm text-dim mt-1">
-            {BOSS_QUESTION_COUNT} questions, just like the DMV test. Get {Math.ceil(BOSS_QUESTION_COUNT * BOSS_PASS_PCT)} right to win.
+            Up to {BOSS_QUESTION_COUNT} questions, just like the DMV test. Get {Math.round(BOSS_PASS_PCT * 10)} out of every 10 right to win
+            {hasSigns ? ', and every sign question must be right.' : '.'}
           </p>
           {!isPrimary && (
             <Button className="mt-3 w-full" onClick={onFight}>

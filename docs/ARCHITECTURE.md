@@ -127,6 +127,24 @@ The learner found the original pace too fast and distracting. Current design:
 - **Timed/survival modes** (sniper, numbers, hazard): base window 6.5 s ×
   reaction scale, min 3 s, with ramp; GO still works (×2).
 - Keep visuals calm: no busy flashing, modest scenery, effects short.
+- **No reward for rushing in slow roll**: a correct answer gets a flat calm
+  bonus (`CALM_BONUS_FRAC`), not a speed bonus, and the Quick Draw medal is
+  only awarded in the timed modes. Pull-over is scored against its siren window.
+- **Stops must be a reaction**: a `stop` counts only after the car has rolled
+  since the event appeared (a BRAKE held over from the last event never counts)
+  and, in slow roll, only within `STOP_ZONE_Z` (12) of the line. Stopping
+  farther away shows "Let go of BRAKE. Roll closer, then stop at the line."
+- GO is greyed out while BRAKE is held; the ETA ("Take your time: Ns") is
+  measured at cruise speed so it never jumps while braking. For stop / slow /
+  brake-straight hazards the line reads "GO brings it closer" (GO is not the answer).
+- **Replay card**: learning modes never auto-continue (the learner presses
+  Got it); timed modes continue after 9 s × reaction scale unless the learner
+  interacts, reads aloud, or leaves the tab. Held keys never close it.
+- **Radar perk**: ×1.3 on timed windows and on the emergency-vehicle window
+  (so it also helps in slow roll). The Reaction-time setting likewise affects
+  timed modes and the siren window only; the pause menu says so in slow roll.
+- Quick Play is 8 events; at most `MAX_NEW_PER_RUN` (5) never-seen facts per
+  run, which is also the briefing's card limit (the very first briefing shows 2).
 
 ### Events
 The run queue is `plan.events`. Spawn one event at a time at z = far (~40).

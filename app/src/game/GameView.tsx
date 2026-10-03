@@ -1,5 +1,7 @@
 // The drive screen: mounts the Phaser road scene and layers the React HUD on top.
 import { useCallback, useEffect, useMemo, useRef, useState, type PointerEvent as RPointerEvent } from 'react'
+import { useReducedMotion } from '../app/effects'
+import { setBackInterceptor } from '../app/nav'
 import { cosmeticById } from '../engine/loadout'
 import type { PerkId, RunPlan, RunResult } from '../engine/run'
 import { stopSpeaking } from '../services/speech'
@@ -11,7 +13,7 @@ import { Controls } from './hud/Controls'
 import { HudScore, HudStatus } from './hud/HudTop'
 import { Banner, Countdown, EdgeFx, LoadingCover } from './hud/Overlays'
 import { PauseMenu } from './hud/PauseMenu'
-import { PromptCard } from './hud/PromptCard'
+import { FinishCard, PromptCard } from './hud/PromptCard'
 import { ReplayCard } from './hud/ReplayCard'
 import type { BannerInfo, Command, HudState, Lane, PromptInfo, ReplayInfo } from './protocol'
 import type { CarLook } from './RoadScene'
@@ -19,6 +21,14 @@ import type { CarLook } from './RoadScene'
 const SWIPE_PX = 34
 const TAP_PX = 14
 const TAP_MS = 350
+/** Still loading after this long: offer a way back so the learner is never stuck. */
+const SLOW_LOAD_MS = 10000
+
+/** Side padding that clears the notch in landscape. */
+const SIDE_PAD = {
+  paddingLeft: 'max(0.75rem, env(safe-area-inset-left))',
+  paddingRight: 'max(0.75rem, env(safe-area-inset-right))',
+} as const
 
 function initialHud(plan: RunPlan): HudState {
   return {
@@ -78,7 +88,8 @@ export function GameView({
   onFinishRef.current = onFinish
   onQuitRef.current = onQuit
 
-  const reduced = useGame((s) => s.settings.reducedMotion)
+  // The in-app Calm mode setting or the device's reduced-motion setting.
+  const reduced = useReducedMotion()
   const empty = useMemo(() => !runHasEvents(plan), [plan])
 
   const [hud, setHud] = useState<HudState>(() => initialHud(plan))
@@ -88,6 +99,7 @@ export function GameView({
   const [countdown, setCountdown] = useState<number | 'GO' | null>(null)
   const [paused, setPaused] = useState(false)
   const [failed, setFailed] = useState(false)
+  const [slowLoad, setSlowLoad] = useState(false)
 
   const send = useCallback((c: Command) => handleRef.current?.send(c), [])
 
@@ -112,6 +124,7 @@ export function GameView({
       bus.on('banner', setBanner),
       bus.on('countdown', setCountdown),
       bus.on('paused', setPaused),
+      bus.on('failed', () => setFailed(true)),
       bus.on('finish', (r) => {
         if (finishedRef.current) return
         finishedRef.current = true
@@ -138,6 +151,14 @@ export function GameView({
     }
   }, [plan, empty])
 
+  // Watchdog: if the road is still loading after a while, show a Back button.
+  const loadingNow = hud.phase === 'loading'
+  useEffect(() => {
+    if (!loadingNow || empty) return
+    const t = window.setTimeout(() => setSlowLoad(true), SLOW_LOAD_MS)
+    return () => window.clearTimeout(t)
+  }, [loadingNow, empty])
+
   // Banners hide on their own.
   useEffect(() => {
     if (!banner) return
@@ -161,6 +182,12 @@ export function GameView({
       document.removeEventListener('touchmove', block)
     }
   }, [])
+
+  // The phone's Back button opens the pause menu instead of dropping the run.
+  useEffect(() => {
+    setBackInterceptor(() => send({ type: 'pause' }))
+    return () => setBackInterceptor(null)
+  }, [send])
 
   // Leaving the tab pauses the run.
   useEffect(() => {
@@ -236,40 +263,48 @@ export function GameView({
     >
       <div ref={hostRef} className="absolute inset-0" />
 
-      {/* HUD: transparent to touches except for its controls. */}
-      <div className="absolute inset-0 pointer-events-none flex flex-col">
-        <EdgeFx nitro={hud.nitro} siren={hud.siren} slowMo={hud.slowMo} reduced={reduced} />
+      {/* HUD: transparent to touches except for its controls. Inert while a dialog is open. */}
+      <div className="absolute inset-0 pointer-events-none" inert={paused || !!replay}>
+        <EdgeFx nitro={hud.nitro} siren={hud.siren} slowMo={hud.slowMo} reduced={reduced} calm={hud.slowRoll} />
         {/* Top: score left, status right, prompt below (inline between them on short landscape screens). */}
-        <div className="px-3 sm:px-5" style={{ paddingTop: 'max(0.6rem, env(safe-area-inset-top))' }}>
+        {/* relative: paints above the absolutely positioned edge glows. */}
+        <div className="relative" style={{ paddingTop: 'max(0.6rem, env(safe-area-inset-top))', ...SIDE_PAD }}>
           <div className="flex flex-wrap items-start gap-x-2 gap-y-2 sm:gap-y-3 [@media(max-height:520px)]:flex-nowrap">
             <HudScore hud={hud} onPause={pause} />
             <div className="flex-1 [@media(max-height:520px)]:hidden" />
             {prompt && (
               <div className="order-last basis-full min-w-0 [@media(max-height:520px)]:order-none [@media(max-height:520px)]:basis-auto [@media(max-height:520px)]:flex-1">
-                <PromptCard prompt={prompt} lane={hud.lane} reduced={reduced} onPickLane={pickLane} etaSec={hud.etaSec} going={hud.going} slowRoll={hud.slowRoll} />
+                <PromptCard prompt={prompt} lane={hud.lane} reduced={reduced} onPickLane={pickLane} etaSec={hud.etaSec} going={hud.going} goAvailable={hud.goAvailable} slowRoll={hud.slowRoll} />
               </div>
             )}
-            {!prompt && <div className="hidden [@media(max-height:520px)]:block flex-1" />}
+            {!prompt && hud.finishAhead && (
+              <div className="order-last basis-full min-w-0 [@media(max-height:520px)]:order-none [@media(max-height:520px)]:basis-auto [@media(max-height:520px)]:flex-1">
+                <FinishCard etaSec={hud.etaSec} going={hud.going} slowRoll={hud.slowRoll} reduced={reduced} />
+              </div>
+            )}
+            {!prompt && !hud.finishAhead && <div className="hidden [@media(max-height:520px)]:block flex-1" />}
             <HudStatus hud={hud} reduced={reduced} />
           </div>
         </div>
-        <div className="flex-1" />
-        <div className="px-3 sm:px-5" style={{ paddingBottom: 'max(0.75rem, env(safe-area-inset-bottom))' }}>
-          <Controls hud={hud} send={send} />
-          <p className="mt-1 text-center text-xs font-semibold text-dim/90 hidden sm:[@media(pointer:fine)]:block">
-            ← → change lane · ↑ or Enter GO · hold ↓ or Space to brake · K horn · Esc pause
+        {/* Bottom controls are pinned to the bottom edge so a tall prompt can never push them off screen. */}
+        <div className="absolute inset-x-0 bottom-0" style={{ paddingBottom: 'max(0.75rem, env(safe-area-inset-bottom))', ...SIDE_PAD }}>
+          <Controls hud={hud} send={send} reduced={reduced} />
+          <p className="mt-1 text-center hidden sm:[@media(pointer:fine)]:block">
+            <span className="inline-block rounded-full bg-ink/70 px-3 py-0.5 text-xs font-semibold text-text/85">
+              ← → change lane · ↑ or Enter GO · hold ↓ or Space to brake · K horn · Esc pause
+            </span>
           </p>
         </div>
-        {banner && <Banner banner={banner} reduced={reduced} />}
+        {banner && <Banner banner={banner} reduced={reduced} calm={hud.slowRoll} />}
         {countdown !== null && <Countdown value={countdown} reduced={reduced} />}
       </div>
 
-      {replay && <ReplayCard info={replay} reduced={reduced} onDone={() => send({ type: 'replay-done' })} />}
-      {paused && !replay && <PauseMenu title={plan.title} onResume={() => send({ type: 'resume' })} onQuit={quit} />}
+      {replay && <ReplayCard info={replay} reduced={reduced} slowRoll={hud.slowRoll} onDone={() => send({ type: 'replay-done' })} />}
+      {paused && !replay && <PauseMenu title={plan.title} slowRoll={hud.slowRoll} onResume={() => send({ type: 'resume' })} onQuit={quit} />}
       {(loading || failed) && (
         <div className="absolute inset-0 z-30">
           <LoadingCover title={failed ? 'The road could not load.' : plan.title} />
-          {failed && (
+          {(failed || slowLoad) && (
             <div className="absolute inset-x-0 bottom-10 flex justify-center">
               <button type="button" onClick={quit} className="rounded-2xl bg-gold text-ink font-extrabold px-8 py-4 text-xl">
                 Back

@@ -64,8 +64,14 @@ export function eventImage(ev: GameEvent): string | undefined {
   return ev.kind === 'gates' ? ev.image : ev.sign
 }
 
+/** The generic "emergency vehicle behind" is an ambulance; a prompt about police gets a police car. */
+export function isPoliceBehind(ev: GameEvent): boolean {
+  return ev.kind === 'action' && (ev.prop === 'emergency-behind' || (!ev.prop && ev.action === 'pull-over')) && /\b(police|officer|trooper)/i.test(ev.prompt)
+}
+
 export function propEmoji(ev: GameEvent): string | undefined {
   if (ev.kind !== 'action') return undefined
+  if (isPoliceBehind(ev)) return '🚓'
   if (ev.prop && PROP_EMOJI[ev.prop]) return PROP_EMOJI[ev.prop]
   if (ev.action === 'pull-over') return '🚑'
   if (ev.action === 'brake-straight') return '🦌'

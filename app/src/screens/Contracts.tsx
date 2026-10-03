@@ -197,7 +197,7 @@ function iconFor(c: Contract): string {
     case 'streak':
       return '🔥'
     case 'correct':
-      return '✔️'
+      return '🎯'
     case 'signs':
       return '🪧'
     case 'numbers':

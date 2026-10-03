@@ -19,7 +19,7 @@ const CARDS: HowCard[] = [
   {
     title: 'Steer into the right answer',
     body: 'A question pops up. Three gates show three answers. Take your time. Press the green GO when you are ready, then drive through the right one.',
-    keys: 'Keys: ← →   Phone: swipe or tap a side',
+    keys: 'Keys: ← → to steer, ↑ or Enter for GO. Phone: swipe or tap a side, tap GO.',
     art: <GatesArt />,
   },
   {
@@ -40,6 +40,8 @@ export function IntroScreen() {
   const savedName = useGame((s) => s.playerName)
   const setName = useGame((s) => s.setName)
   const setSeenIntro = useGame((s) => s.setSeenIntro)
+  const readAloud = useGame((s) => s.settings.readAloud)
+  const updateSettings = useGame((s) => s.updateSettings)
   const [step, setStep] = useState<'name' | 'cards'>('name')
   const [name, setLocalName] = useState(savedName)
   const [card, setCard] = useState(0)
@@ -83,6 +85,29 @@ export function IntroScreen() {
               maxLength={24}
               className="w-full px-5 py-4 text-2xl font-bold rounded-2xl bg-panel2 border-2 border-line focus:border-gold outline-none placeholder:text-dim/60"
             />
+            <fieldset className="mt-2">
+              <legend className="text-xl font-extrabold">Read things out loud to me?</legend>
+              <div className="grid grid-cols-2 gap-3 mt-2" role="radiogroup" aria-label="Read things out loud to me?">
+                {(
+                  [
+                    { id: 'auto', label: '🔊 Yes, please' },
+                    { id: 'tap', label: 'No, thanks' },
+                  ] as const
+                ).map((o) => (
+                  <button
+                    key={o.id}
+                    type="button"
+                    role="radio"
+                    aria-checked={readAloud === o.id}
+                    onClick={() => updateSettings({ readAloud: o.id })}
+                    className={`min-h-14 rounded-2xl border-2 text-lg font-extrabold ${readAloud === o.id ? 'bg-info/25 border-info text-text' : 'bg-panel2 border-line text-dim'}`}
+                  >
+                    {o.label}
+                  </button>
+                ))}
+              </div>
+              <p className="text-dim text-base mt-2">You can change this any time in Settings.</p>
+            </fieldset>
             <Button type="submit" variant="primary" size="lg" disabled={!trimmed} className="w-full mt-2">
               NEXT →
             </Button>
@@ -172,13 +197,13 @@ function GatesArt() {
       <rect x="40" y="86" width="6" height="40" fill="#a5b0d0" />
       <rect x="274" y="86" width="6" height="40" fill="#a5b0d0" />
       {[
-        { x: 50, t: 'Speed up', c: '#1c2440' },
-        { x: 124, t: 'Stop', c: '#15803d' },
-        { x: 198, t: 'Honk', c: '#1c2440' },
+        { x: 48, t: 'Speed up', c: '#1c2440' },
+        { x: 125, t: 'Stop', c: '#15803d' },
+        { x: 202, t: 'Honk', c: '#1c2440' },
       ].map((g) => (
         <g key={g.t}>
           <rect x={g.x} y="96" width="70" height="28" rx="6" fill={g.c} stroke="#eef2ff" strokeWidth="2" />
-          <text x={g.x + 35} y="115" textAnchor="middle" fontSize="14" fontWeight="800" fill="#eef2ff" fontFamily="Lexend, sans-serif">
+          <text x={g.x + 35} y="115" textAnchor="middle" fontSize="12.5" fontWeight="800" fill="#eef2ff" fontFamily="Lexend, sans-serif">
             {g.t}
           </text>
         </g>

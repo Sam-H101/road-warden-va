@@ -136,19 +136,25 @@ export function ensureFxTextures(scene: Phaser.Scene): void {
     ctx.fillStyle = 'rgba(2,6,23,0.82)'
     ctx.fillRect(0, 0, 512, 512)
     // Headlight cone: from the car (bottom center) widening up the road.
+    // Layered cones (widest first, each removing a little more darkness) give the
+    // beam a soft edge instead of a hard diagonal line.
     ctx.globalCompositeOperation = 'destination-out'
-    const g = ctx.createRadialGradient(256, 470, 10, 256, 330, 300)
-    g.addColorStop(0, 'rgba(0,0,0,1)')
-    g.addColorStop(0.55, 'rgba(0,0,0,0.85)')
-    g.addColorStop(1, 'rgba(0,0,0,0)')
-    ctx.fillStyle = g
-    ctx.beginPath()
-    ctx.moveTo(206, 500)
-    ctx.lineTo(306, 500)
-    ctx.lineTo(470, 120)
-    ctx.lineTo(42, 120)
-    ctx.closePath()
-    ctx.fill()
+    const layers = 14
+    for (let i = 0; i < layers; i++) {
+      const spread = (layers - 1 - i) * 7
+      const g = ctx.createRadialGradient(256, 470, 10, 256, 330, 300)
+      g.addColorStop(0, 'rgba(0,0,0,0.2)')
+      g.addColorStop(0.55, 'rgba(0,0,0,0.16)')
+      g.addColorStop(1, 'rgba(0,0,0,0)')
+      ctx.fillStyle = g
+      ctx.beginPath()
+      ctx.moveTo(214 - spread * 0.5, 500)
+      ctx.lineTo(298 + spread * 0.5, 500)
+      ctx.lineTo(452 + spread * 1.6, 120)
+      ctx.lineTo(60 - spread * 1.6, 120)
+      ctx.closePath()
+      ctx.fill()
+    }
     ctx.globalCompositeOperation = 'source-over'
   })
   canvasTex(scene, FX.vignette, 256, 256, (ctx) => {

@@ -1,8 +1,9 @@
 // Intel cards for new items before a drive. One fact per card.
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { useNav } from '../app/nav'
 import { itemById } from '../engine/content'
 import type { RunPlan } from '../engine/run'
+import { MAX_NEW_PER_RUN } from '../engine/runBuilder'
 import type { Item } from '../engine/types'
 import { useGame } from '../store/gameStore'
 import { Button, ReadAloudButton, Screen, SignImage, useAutoRead } from '../ui/kit'
@@ -10,24 +11,29 @@ import { MentorAvatar } from '../ui/Mentor'
 import { unbriefedItems } from '../ui/play'
 import { Swiper } from '../ui/Swiper'
 
-const MAX_CARDS = 6
+/** Cards per briefing (shared with the run builder's new-item limit). */
+const MAX_CARDS = MAX_NEW_PER_RUN
+/** The very first briefing stays short: the learner has just read the how-to cards. */
+const FIRST_CARDS = 2
 
 export function BriefingScreen({ plan }: { plan: RunPlan }) {
   const nav = useNav()
   const markBriefed = useGame((s) => s.markBriefed)
   // Freeze the list on mount so marking items briefed does not reshuffle the deck.
-  const items = useMemo(
-    () =>
-      unbriefedItems(plan)
-        .slice(0, MAX_CARDS)
-        .map((id) => itemById.get(id))
-        .filter((i): i is Item => !!i),
-    [plan],
-  )
+  const items = useMemo(() => {
+    const first = useGame.getState().briefedItems.length === 0
+    return unbriefedItems(plan)
+      .slice(0, first ? FIRST_CARDS : MAX_CARDS)
+      .map((id) => itemById.get(id))
+      .filter((i): i is Item => !!i)
+  }, [plan])
   const [index, setIndex] = useState(0)
+  const seenUpTo = useRef(0)
+  seenUpTo.current = Math.max(seenUpTo.current, index)
 
   const startDrive = () => {
-    markBriefed(items.map((i) => i.id))
+    // Only the cards the learner actually saw: skipped ones come back next time.
+    markBriefed(items.slice(0, seenUpTo.current + 1).map((i) => i.id))
     nav.replace({ name: 'drive', plan })
   }
 
@@ -87,16 +93,19 @@ function IntelCard({ item, active }: { item: Item; active: boolean }) {
   useAutoRead(active ? speech : undefined)
   return (
     <article className="bg-panel border-2 border-line rounded-3xl p-5 flex flex-col gap-3 select-none h-full">
-      <div className="flex items-center justify-center rounded-2xl bg-ink/60 border border-line min-h-44 py-4">
-        {item.image ? (
+      {item.image ? (
+        <div className="flex items-center justify-center rounded-2xl bg-ink/60 border border-line min-h-44 py-4">
           <SignImage id={item.image} size={168} />
-        ) : (
-          <span className="text-8xl" aria-hidden>
+        </div>
+      ) : null}
+      <div className="flex items-center gap-2 text-sm font-extrabold tracking-widest uppercase text-info">
+        {!item.image && (
+          <span className="text-4xl leading-none" aria-hidden>
             {KIND_ICON[item.kind]}
           </span>
         )}
+        {KIND_LABEL[item.kind]}
       </div>
-      <div className="text-xs font-extrabold tracking-widest uppercase text-info">{KIND_LABEL[item.kind]}</div>
       <div className="flex items-start gap-2">
         <h2 className="flex-1 text-3xl font-extrabold leading-tight">{item.title}</h2>
         <ReadAloudButton text={speech} />

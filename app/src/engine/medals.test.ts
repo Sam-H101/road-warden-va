@@ -87,9 +87,12 @@ describe('awardMedals', () => {
   })
 
   it('quick draw needs fast average reactions on 5+ answers', () => {
-    expect(awardMedals(run(right(5, { reactionMs: 1000 })), new Set())).toContain('quick-draw')
+    expect(awardMedals(run(right(5, { reactionMs: 1000 })), new Set())).not.toContain('quick-draw') // learning mode: never
+    const timed = (r: ReturnType<typeof run>) => ({ ...r, plan: { ...r.plan, mode: 'sniper' as const } })
+    expect(awardMedals(timed(run(right(5, { reactionMs: 1000 }))), new Set())).toContain('quick-draw')
+    expect(awardMedals(timed(run(right(4, { reactionMs: 1000 }))), new Set())).not.toContain('quick-draw')
     expect(awardMedals(run(right(4, { reactionMs: 1000 })), new Set())).not.toContain('quick-draw')
-    expect(awardMedals(run(right(5, { reactionMs: 2000 })), new Set())).not.toContain('quick-draw')
+    expect(awardMedals(timed(run(right(5, { reactionMs: 2000 }))), new Set())).not.toContain('quick-draw')
   })
 
   it('brake master: 3+ stops with no stop misses', () => {

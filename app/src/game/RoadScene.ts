@@ -6,8 +6,9 @@ import type { PerkId, RunPlan, RunResult } from '../engine/run'
 import { multiplierFor } from '../engine/run'
 import type { ActionEvent, GameEvent, GateEvent, SceneProp, Weather } from '../engine/types'
 import { playHorn, playSfx, vibrate } from '../services/sfx'
+import { osPrefersReduced } from '../app/effects'
 import { useGame } from '../store/gameStore'
-import { carTextureKey, ensureTextures, PROP_INFO, propTextureKey, sceneryKeys } from './art/textures'
+import { carTextureKey, ensureTextures, PROP_INFO, propTextureKey, sceneryKeys, WALKER_BLIND_KEY, WALKER_KEY } from './art/textures'
 import type { GameBus } from './bus'
 import { BASE_WINDOW_MS, RunDirector, type Queued, type Resolution, BEHIND_WINDOW_MS } from './director'
 import { LANE_COLORS, type Command, type HudState, type Lane, type Phase, type PromptInfo, type ReplayInfo } from './protocol'
@@ -15,7 +16,7 @@ import { FX, ensureFxTextures } from './scene/fxTextures'
 import { Projection, Z_DRAW, Z_FAR } from './scene/projection'
 import { PX_PER_LANE, RoadView, type RoadLine } from './scene/RoadView'
 import { WeatherFx } from './scene/WeatherFx'
-import { ACTION_CONTROLS, correctText, eventImage, propEmoji } from './words'
+import { ACTION_CONTROLS, correctText, eventImage, isPoliceBehind, propEmoji } from './words'
 
 export interface CarLook {
   style: string
@@ -35,6 +36,8 @@ export interface SceneInit {
 // ---------- tuning ----------
 const CRUISE_MPH = 15 // calm slow roll
 const GO_MPH = 45 // top speed shown while GO is on
+const TIMED_CRUISE_MPH = 35 // timed / survival modes roll faster
+const TIMED_GO_MPH = 55
 const GO_RAMP_MS = 350 // how fast GO spins up or down
 const BRAKE_MS = 1200 // full speed to 0
 const ACCEL_MS = 1500 // 0 to full speed
@@ -46,6 +49,26 @@ const REPLAY_DELAY_MS = 550
 const NITRO_MS = 4000
 const GATE_Z = 1.05
 const STOP_Z = 1.3
+/** Slow roll: GO eases off to NEAR_BOOST when an action hazard gets this close, so it never arrives too fast to react. */
+const ACTION_EASE_Z = 9
+const NEAR_BOOST = 2
+/** Slow / brake-straight count once you are slow enough inside this depth (you are "approaching" it). */
+const NEAR_ZONE_Z = 6
+/** Brake-straight: braking (without swerving) counts once the deer is this close. */
+const BRAKE_ZONE_Z = 10
+/** Slow roll: stopping for a stop event counts only this close to the stop line (you reacted to it). */
+const STOP_ZONE_Z = 12
+/** Go events: stalling counts as a miss only this close to the green light. */
+const GO_STALL_Z = 10
+/** Leftover visuals of a finished event farther than this fade out so they never overlap the next one. */
+const LEFTOVER_Z = 7
+const SLOW_MAX = 0.52
+const BRAKE_STRAIGHT_MAX = 0.6
+/** Stopped while something is still far away: after this long, coach "let go of BRAKE". */
+const STUCK_NOTE_MS = 1800
+const STUCK_NOTE = 'Let go of BRAKE to keep rolling.'
+const STOP_FAR_NOTE = 'Let go of BRAKE. Roll closer, then stop at the line.'
+const GO_FX_MS = 1100
 const FONT = 'Lexend, "Segoe UI", system-ui, sans-serif'
 
 const FLAT_PROPS: ReadonlySet<SceneProp> = new Set(['ponded-water', 'icy-bridge', 'stop-line', 'driveway-exit'])
@@ -119,6 +142,14 @@ interface ActiveEvent {
   bolted: boolean
   trainStarted: boolean
   behind?: Behind
+  /** Visuals this event added to the road (faded out if still far away when it ends). */
+  owned: WorldObj[]
+  ownLines: RoadLine[]
+  /** Time the car has been standing still while the event is live (for the coaching note). */
+  stillMs: number
+  stuckNote: boolean
+  /** The car has rolled since this event appeared (a held-over stop never counts as a reaction). */
+  moved: boolean
 }
 
 function clamp01(v: number) {
@@ -226,6 +257,14 @@ export class RoadScene extends Phaser.Scene {
   private goMode = false
   /** Current road speed multiplier from GO (1 = calm cruise). */
   private boost = 1
+  /** Speed-line spin-up after pressing GO (ms left). */
+  private goFxMs = 0
+  /** Car "lunge" forward when GO kicks in (0..1, tweened). */
+  private readonly lunge = { v: 0 }
+  /** Keys pressed before this time (e.g. the Enter that closed the Replay card) are ignored. */
+  private keysAfter = 0
+  /** A pause asked for while the Replay card was open (e.g. the tab was hidden); applied when it closes. */
+  private pauseAfterReplay = false
   private trailColor: string
   private flashPhase = 0
   private offs: (() => void)[] = []
@@ -249,7 +288,7 @@ export class RoadScene extends Phaser.Scene {
   }
 
   private get reduced(): boolean {
-    return !!this.settings.reducedMotion
+    return !!this.settings.reducedMotion || osPrefersReduced()
   }
 
   // ---------- lifecycle ----------
@@ -265,6 +304,15 @@ export class RoadScene extends Phaser.Scene {
 
   create(): void {
     try {
+      this.createScene()
+    } catch (err) {
+      console.error('[road] scene failed to start', err)
+      this.bus.emit('failed', String(err))
+    }
+  }
+
+  private createScene(): void {
+    try {
       ensureTextures(this)
     } catch (err) {
       console.warn('[road] art textures failed, using fallbacks', err)
@@ -278,7 +326,7 @@ export class RoadScene extends Phaser.Scene {
     } catch {
       scenery = []
     }
-    this.road = new RoadView(this, this.proj, scenery)
+    this.road = new RoadView(this, this.proj, scenery, this.director.slowRoll ? 12 : 22)
     this.weather = new WeatherFx(this, this.proj)
 
     // Player car.
@@ -363,12 +411,17 @@ export class RoadScene extends Phaser.Scene {
 
   private onKeyDown(e: KeyboardEvent): void {
     const k = e.key
+    // Enter on a focused button or field belongs to that control, not to GO.
+    if (k === 'Enter' && e.target instanceof Element && e.target.closest('button, input, select, textarea, a, [role="dialog"]')) return
+    if (this.phase === 'replay') return
     if (k === 'Escape' || k === 'p' || k === 'P') {
       if (this.paused) this.setPaused(false)
       else this.setPaused(true)
       return
     }
     if (this.paused) return
+    // A key that closed the Replay card must not also fire GO or a lane change.
+    if (e.timeStamp > 0 && e.timeStamp <= this.keysAfter) return
     if (this.phase === 'countdown') {
       if (!['Shift', 'Control', 'Alt', 'Meta', 'Tab'].includes(k)) this.go()
       return
@@ -451,7 +504,10 @@ export class RoadScene extends Phaser.Scene {
 
   private brakeInput(): boolean {
     if (this.touchBrake) return true
-    for (const k of this.brakeKeys) if (k.isDown) return true
+    for (const k of this.brakeKeys) {
+      // Space that closed the Replay card is not a brake press: ignore keys pressed before the card closed.
+      if (k.isDown && !(k.timeDown > 0 && k.timeDown <= this.keysAfter)) return true
+    }
     return false
   }
 
@@ -483,12 +539,27 @@ export class RoadScene extends Phaser.Scene {
 
   /** Green GO: speed up toward the next gate when the player is ready. */
   private pressGo(): void {
-    if (this.paused || (this.phase !== 'drive' && this.phase !== 'ending')) return
-    if (this.goMode || this.hold) return
+    if (!this.canGo()) return
     this.goMode = true
     playSfx('whoosh')
     vibrate(12, this.settings.haptics)
+    // Juice: a short speed-line spin-up, a little forward lunge and a green "GO!".
+    this.goFxMs = GO_FX_MS
+    this.floatText('GO!', this.carScreenX(), this.proj.baseY - this.carH() * 1.35, '#4ade80', 0)
+    if (!this.reduced) {
+      this.tweens.killTweensOf(this.lunge)
+      this.lunge.v = 0
+      this.tweens.add({ targets: this.lunge, v: 1, duration: 140, ease: 'Quad.easeOut', yoyo: true, hold: 120 })
+    }
     this.emitHud()
+  }
+
+  /** GO works while something is on its way to the car (not while held, pulled over or stopped at a light). */
+  private canGo(): boolean {
+    if (this.paused || this.phase !== 'drive' || this.goMode || this.hold || this.brakeInput()) return false
+    const e = this.cur
+    if (e && !e.done) return !(e.ev.kind === 'action' && e.ev.action === 'pull-over')
+    return !!this.finishLine
   }
 
   private horn(): void {
@@ -497,7 +568,10 @@ export class RoadScene extends Phaser.Scene {
     playHorn(this.cfg.car.horn)
     const e = this.cur
     // The horn scares deer off early. Brake-straight still needs no swerve and a slow pass.
-    if (e && e.ev.kind === 'action' && e.hazard && !e.bolted && (e.ev.prop === 'deer-on-road' || e.ev.action === 'brake-straight')) this.boltDeer(e)
+    // Only a deer close enough to hear it (it then bolts; you still brake straight).
+    if (e && e.ev.kind === 'action' && e.hazard && !e.bolted && e.hazard.z <= BRAKE_ZONE_Z && (e.ev.prop === 'deer-on-road' || e.ev.action === 'brake-straight')) {
+      this.boltDeer(e)
+    }
     this.floatText('HONK!', this.carScreenX(), this.proj.baseY - this.carH() * 1.4, '#fde68a', 0)
   }
 
@@ -505,7 +579,12 @@ export class RoadScene extends Phaser.Scene {
 
   private setPaused(on: boolean): void {
     if (on === this.paused) return
-    if (on && (this.phase === 'done' || this.phase === 'loading' || this.phase === 'replay')) return
+    if (this.phase === 'replay') {
+      // The Replay card is open: pause as soon as it closes (e.g. the tab was hidden).
+      this.pauseAfterReplay = on
+      return
+    }
+    if (on && (this.phase === 'done' || this.phase === 'loading')) return
     this.paused = on
     const kb = this.input.keyboard
     if (on) kb?.disableGlobalCapture()
@@ -571,6 +650,8 @@ export class RoadScene extends Phaser.Scene {
     if (this.phase === 'ending' || this.phase === 'done') return
     this.phase = 'ending'
     this.hold = false
+    // Roll through the finish at calm cruise, not at GO speed.
+    this.goMode = false
     if (this.slowMo) this.endSlowMo()
     if (this.cur && !this.cur.decided) this.cur.done = true
     this.cur = null
@@ -618,6 +699,8 @@ export class RoadScene extends Phaser.Scene {
     this.nitroMs = Math.max(0, this.nitroMs - realDt)
     this.hornCooldown = Math.max(0, this.hornCooldown - realDt)
     this.flashPhase += realDt
+    this.goFxMs = Math.max(0, this.goFxMs - realDt)
+    if (this.cur && this.speed > 0.05) this.cur.moved = true
 
     // Speed model: cruise when free, brake to 0 in ~1.2 s, re-accelerate in ~1.5 s.
     const braking = (this.phase === 'drive' && this.brakeInput()) || false
@@ -629,7 +712,13 @@ export class RoadScene extends Phaser.Scene {
 
     // Braking or a forced hold cancels GO. GO spins the road up smoothly.
     if (this.goMode && (braking || this.hold)) this.goMode = false
-    const boostTarget = this.goMode ? this.director.goMultiplier : 1
+    let boostTarget = this.goMode ? this.director.goMultiplier : 1
+    // Slow roll: GO skips the waiting, never the reaction. Near an action hazard
+    // the road eases to a readable pace so stopping or slowing stays fair.
+    const near = this.cur
+    if (this.goMode && this.director.slowRoll && near && !near.decided && near.ev.kind === 'action' && near.z <= ACTION_EASE_Z) {
+      boostTarget = Math.min(boostTarget, NEAR_BOOST)
+    }
     this.boost += (boostTarget - this.boost) * Math.min(1, dt / GO_RAMP_MS)
 
     this.V += (this.targetV - this.V) * Math.min(1, dt / 250)
@@ -736,16 +825,27 @@ export class RoadScene extends Phaser.Scene {
       lockLane: null,
       bolted: false,
       trainStarted: false,
+      owned: [],
+      ownLines: [],
+      stillMs: 0,
+      stuckNote: false,
+      moved: this.speed > 0.05,
     }
+    // Every new gate or hazard starts calm; the player chooses when to GO.
+    this.goMode = false
     const weather: Weather = ev.kind === 'action' && ev.weather ? ev.weather : 'clear'
     this.weather.set(weather, this.reduced)
     this.road.setWeather(weather)
+    const worldBefore = this.world.length
+    const linesBefore = this.lines.length
     try {
       if (ev.kind === 'gates') this.buildGates(e, ev)
       else this.buildAction(e, ev)
     } catch (err) {
       console.warn('[road] could not build event visuals', ev.id, err)
     }
+    e.owned = this.world.slice(worldBefore).filter((o) => !o.pinned)
+    e.ownLines = this.lines.slice(linesBefore)
     this.cur = e
     this.bus.emit('prompt', this.promptFor(e))
     this.emitHud()
@@ -756,11 +856,26 @@ export class RoadScene extends Phaser.Scene {
     if (!e) return
     this.cur = null
     this.gapMs = GAP_MS
+    this.fadeLeftovers(e)
     const key = e.key
     this.time.delayedCall(e.correct ? 700 : 300, () => {
       if (!this.cur && this.phase === 'drive') this.bus.emit('prompt', null)
       else if (this.cur && this.cur.key === key) this.bus.emit('prompt', null)
     })
+  }
+
+  /**
+   * In slow roll the player may stop for a red light while it is still far down
+   * the road. Once that event is over, its far-away props quietly fade so they
+   * never sit on top of the next gate. Near ones simply roll past.
+   */
+  private fadeLeftovers(e: ActiveEvent): void {
+    for (const o of e.owned) {
+      if (o.dead || o.z <= LEFTOVER_Z) continue
+      this.tweens.add({ targets: o, alphaMul: 0, duration: this.reduced ? 1 : 450, onComplete: () => (o.dead = true) })
+    }
+    const far = new Set(e.ownLines.filter((l) => l.z > LEFTOVER_Z))
+    if (far.size) this.lines = this.lines.filter((l) => !far.has(l))
   }
 
   private conditionMet(e: ActiveEvent): boolean {
@@ -770,7 +885,7 @@ export class RoadScene extends Phaser.Scene {
       case 'stop':
         return this.speed <= 0.001
       case 'slow':
-        return this.speed <= 0.52
+        return this.speed <= SLOW_MAX
       case 'go':
         return this.speed >= 0.4
       case 'move-left':
@@ -780,9 +895,45 @@ export class RoadScene extends Phaser.Scene {
       case 'pull-over':
         return this.lane === 2 && this.speed <= 0.01
       case 'brake-straight':
-        return this.speed <= 0.6 && (e.lockLane === null || this.lane === e.lockLane)
+        return this.speed <= BRAKE_STRAIGHT_MAX && (e.lockLane === null || this.lane === e.lockLane)
     }
     return false
+  }
+
+  /** How close (depth) a live action event must be before braking for it counts. */
+  private zoneFor(e: ActiveEvent): number {
+    const ev = e.ev
+    if (ev.kind !== 'action') return 0
+    if (ev.action === 'slow') return NEAR_ZONE_Z
+    if (ev.action === 'brake-straight') return BRAKE_ZONE_Z
+    if (ev.action === 'stop') return this.stopZone(e)
+    if (ev.action === 'pull-over') return Infinity
+    if (ev.action === 'go') return GO_STALL_Z
+    return 0
+  }
+
+  /** Depth at which stopping for a stop event counts (0 until the car has rolled since it appeared). */
+  private stopZone(e: ActiveEvent): number {
+    if (!e.moved) return 0
+    return this.director.slowRoll ? STOP_ZONE_Z : Infinity
+  }
+
+  /** Gentle coaching when the car is parked while the gate or hazard is still far off. */
+  private updateStuckNote(e: ActiveEvent, dt: number): void {
+    if (e.decided) return
+    const stopped = this.speed < 0.02 && !this.hold
+    if (stopped && e.z > this.zoneFor(e)) e.stillMs += dt
+    else e.stillMs = 0
+    const want = e.stillMs >= STUCK_NOTE_MS
+    if (want && !e.stuckNote) {
+      e.stuckNote = true
+      e.note = e.ev.kind === 'action' && e.ev.action === 'stop' && e.moved ? STOP_FAR_NOTE : STUCK_NOTE
+      this.bus.emit('prompt', this.promptFor(e))
+    } else if (!want && e.stuckNote && this.speed > 0.08) {
+      e.stuckNote = false
+      e.note = undefined
+      this.bus.emit('prompt', this.promptFor(e))
+    }
   }
 
   private updateEvent(e: ActiveEvent, dt: number): void {
@@ -792,6 +943,7 @@ export class RoadScene extends Phaser.Scene {
         if (e.metAt === null) e.metAt = this.clock
       } else e.metAt = null
     }
+    if (ev.kind === 'gates' || ev.action !== 'pull-over') this.updateStuckNote(e, dt)
 
     if (ev.kind === 'gates') {
       if (!e.decided && e.z <= GATE_Z) this.decide(e, this.lane === e.correctLane)
@@ -802,7 +954,10 @@ export class RoadScene extends Phaser.Scene {
     switch (ev.action) {
       case 'stop':
         if (e.stopState === 'approach' && !e.decided) {
-          if (this.speed <= 0.001 && e.z > STOP_Z) {
+          // Only a stop the learner made for THIS light counts: they rolled since it
+          // appeared and stopped close enough to the line (not a held-over BRAKE).
+          if (this.speed <= 0.001 && e.z > STOP_Z && e.z <= this.stopZone(e)) {
+            e.stuckNote = false
             e.stopState = 'holding'
             this.hold = true
             e.note = 'Stopped. Wait for it…'
@@ -827,35 +982,30 @@ export class RoadScene extends Phaser.Scene {
         }
         break
       case 'slow':
-        if (!e.decided && e.z <= GATE_Z) {
-          this.decide(e, this.speed <= 0.52)
-          e.done = true
+        // Slowing to half speed (or less) as you approach counts right away; the
+        // hazard then simply rolls past while the next one is on its way.
+        if (!e.decided) {
+          if (e.z <= NEAR_ZONE_Z && this.speed <= SLOW_MAX) this.decide(e, true)
+          else if (e.z <= GATE_Z) this.decide(e, false)
         }
+        if (e.decided) e.done = true
         break
       case 'go':
         if (!e.decided) {
-          if (this.speed < 0.15) e.stoppedMs += dt
+          if (this.speed < 0.15 && e.z <= GO_STALL_Z) e.stoppedMs += dt
           else e.stoppedMs = 0
-          if (e.stoppedMs >= 1500) {
-            this.decide(e, false)
-            e.done = true
-          } else if (e.z <= GATE_Z) {
-            this.decide(e, this.speed >= 0.4)
-            e.done = true
-          }
+          if (e.stoppedMs >= 1500) this.decide(e, false)
+          else if (e.z <= GATE_Z) this.decide(e, this.speed >= 0.4)
         }
+        if (e.decided) e.done = true
         break
       case 'move-left':
-        if (!e.decided && e.z <= GATE_Z) {
-          this.decide(e, this.lane <= 1)
-          e.done = true
-        }
+        if (!e.decided && e.z <= GATE_Z) this.decide(e, this.lane <= 1)
+        if (e.decided) e.done = true
         break
       case 'move-right':
-        if (!e.decided && e.z <= GATE_Z) {
-          this.decide(e, this.lane >= 1)
-          e.done = true
-        }
+        if (!e.decided && e.z <= GATE_Z) this.decide(e, this.lane >= 1)
+        if (e.decided) e.done = true
         break
       case 'pull-over':
         this.updatePullOver(e, dt)
@@ -863,22 +1013,25 @@ export class RoadScene extends Phaser.Scene {
       case 'brake-straight': {
         const h = e.hazard
         if (e.lockLane === null) {
+          // Until it is close, the deer wanders into whatever lane you are in.
           if (h && !e.bolted) h.x += (this.lane - 1 - h.x) * Math.min(1, dt / 120)
           if (e.z < 14) {
             e.lockLane = this.lane
             if (h && !e.bolted) h.x = this.lane - 1
           }
         } else if (!e.decided && this.lane !== e.lockLane) {
+          // Swerving is the mistake this event teaches.
           this.decide(e, false)
           if (!e.bolted) this.boltDeer(e)
-          e.done = true
-          break
         }
-        if (!e.decided && e.z <= STOP_Z) {
-          this.decide(e, this.speed <= 0.6 && (e.lockLane === null || this.lane === e.lockLane))
+        if (!e.decided && e.lockLane !== null && e.z <= BRAKE_ZONE_Z && this.speed <= BRAKE_STRAIGHT_MAX && this.lane === e.lockLane) {
+          this.decide(e, true)
           if (!e.bolted) this.boltDeer(e)
-          e.done = true
+        } else if (!e.decided && e.z <= STOP_Z) {
+          this.decide(e, false)
+          if (!e.bolted) this.boltDeer(e)
         }
+        if (e.decided) e.done = true
         break
       }
     }
@@ -930,7 +1083,10 @@ export class RoadScene extends Phaser.Scene {
     // Each new gate starts calm again; the player chooses when to GO.
     this.goMode = false
     const at = correct && e.metAt !== null ? e.metAt : this.clock
-    const res = this.director.resolve(e.q, correct, at - e.spawnClock, e.windowMs, e.usedPerk)
+    // Pull-over is timed by the siren; everything else in slow roll has no real time pressure.
+    const behindWin = e.ev.kind === 'action' && e.ev.action === 'pull-over' && e.behind ? e.behind.windowMs : undefined
+    const calm = this.director.slowRoll && behindWin === undefined
+    const res = this.director.resolve(e.q, correct, at - e.spawnClock, behindWin ?? e.windowMs, e.usedPerk, calm)
     if (this.slowMo) this.endSlowMo()
     if (correct) this.onCorrect(e, res)
     else this.onMiss(e, res)
@@ -945,7 +1101,8 @@ export class RoadScene extends Phaser.Scene {
     const y = this.proj.baseY - this.carH() * 0.6
     this.sparks.explode(this.reduced ? 8 : 22, x, y)
     this.floatText(`+${res.points}`, x, this.proj.baseY - this.carH() * 1.3, '#fbbf24', 0)
-    if (res.mult > 1) this.floatText(`×${res.mult}`, x + this.proj.laneW * 0.45, this.proj.baseY - this.carH() * 1.05, '#c4b5fd', 120)
+    // Slow roll shows one reward cue at a time: the streak badge already shows the multiplier.
+    if (res.mult > 1 && !this.director.slowRoll) this.floatText(`×${res.mult}`, x + this.proj.laneW * 0.45, this.proj.baseY - this.carH() * 1.05, '#c4b5fd', 120)
     if (e.ev.kind === 'gates') this.markBanner(e, e.correctLane, 'correct')
 
     const line = pickLine(story.streakLines)
@@ -959,7 +1116,8 @@ export class RoadScene extends Phaser.Scene {
         this.nitroMs = NITRO_MS
         playSfx('nitro')
         this.banner('NITRO!', line ?? `Streak ${res.streak}!`, 'nitro', NITRO_MS)
-        if (!this.reduced) this.cameras.main.flash(180, 167, 139, 250)
+        // A full-screen flash is too busy for slow roll; keep it for the fast modes only.
+        if (!this.reduced && !this.director.slowRoll) this.cameras.main.flash(160, 167, 139, 250)
         break
       case 'slow-mo-charge':
         playSfx('streak')
@@ -983,7 +1141,7 @@ export class RoadScene extends Phaser.Scene {
     playSfx('miss')
     vibrate([50, 40, 50], this.settings.haptics)
     if (!this.reduced) {
-      this.cameras.main.shake(220, 0.006)
+      this.cameras.main.shake(this.director.slowRoll ? 160 : 220, this.director.slowRoll ? 0.003 : 0.006)
       this.tweens.killTweensOf(this.vignette)
       this.vignette.setAlpha(0)
       this.tweens.add({ targets: this.vignette, alpha: 0.6, duration: 120, yoyo: true, hold: 160 })
@@ -1008,9 +1166,14 @@ export class RoadScene extends Phaser.Scene {
     if (this.phase !== 'replay') return
     this.bus.emit('replay', null)
     this.phase = 'drive'
+    this.keysAfter = performance.now()
     this.applyFreeze()
     if (this.director.outOfLives) this.ending('GREAT RUN!', 'You made it far.')
     else if (this.director.timed && this.timeLeftMs <= 0) this.ending("TIME'S UP!", 'Nice driving.')
+    if (this.pauseAfterReplay) {
+      this.pauseAfterReplay = false
+      this.setPaused(true)
+    }
     this.emitHud()
   }
 
@@ -1254,7 +1417,7 @@ export class RoadScene extends Phaser.Scene {
     if (action === 'pull-over' && this.lane === 2) this.drift(1, '↖')
 
     const behindProp = action === 'pull-over' ? (prop && info?.side === 'behind' ? prop : 'emergency-behind') : prop && info?.side === 'behind' ? prop : undefined
-    if (behindProp) this.spawnBehind(e, behindProp)
+    if (behindProp) this.spawnBehind(e, behindProp === 'emergency-behind' && isPoliceBehind(ev) ? 'emergency-stopped' : behindProp)
 
     if (prop && prop !== 'stop-line' && prop !== behindProp) {
       const { obj, w, key } = this.makeProp(prop)
@@ -1327,7 +1490,7 @@ export class RoadScene extends Phaser.Scene {
       flashKey: key && flashKey && this.textures.exists(flashKey) ? flashKey : undefined,
     })
     const mode = prop === 'tailgater-behind' ? 'tailgate' : 'emergency'
-    const behindMs = Math.min(e.windowMs, BEHIND_WINDOW_MS * Math.max(1, Math.min(2, this.settings.reactionScale || 1)))
+    const behindMs = Math.min(e.windowMs, BEHIND_WINDOW_MS * Math.max(1, Math.min(2, this.settings.reactionScale || 1)) * this.director.radarScale)
     const b: Behind = { w, mode, state: 'approach', t: 0, windowMs: behindMs, sirenAt: 1700 }
     e.behind = b
     this.behinds.push(b)
@@ -1352,7 +1515,10 @@ export class RoadScene extends Phaser.Scene {
       if (b.state === 'approach') {
         w.vz = 0
         if (b.mode === 'emergency') {
-          w.z = 0.5 + 0.34 * clamp01(b.t / Math.max(1, b.windowMs))
+          // Close in over the first few seconds, then sit right behind so it is in view
+          // above the bottom controls (on phones they cover the lowest ~120 px).
+          const k = clamp01(b.t / Math.max(1, Math.min(b.windowMs, 4000)))
+          w.z = 0.5 + 0.38 * (1 - (1 - k) * (1 - k))
           b.sirenAt -= dt
           if (b.sirenAt <= 0) {
             playSfx('siren')
@@ -1406,8 +1572,13 @@ export class RoadScene extends Phaser.Scene {
     const info = PROP_INFO[prop]
     const onRoad = Math.abs(h.x) < 1.5
     if (instant && !onRoad) return
-    const cleared = info?.clearedKey
+    const cleared = info?.clearedKey ?? (prop === 'traffic-light-yellow' ? propTextureKey('traffic-light-green') : undefined)
     if (cleared && this.textures.exists(cleared) && h.obj instanceof Phaser.GameObjects.Image) {
+      // The people or cars that were in the way leave the scene instead of vanishing.
+      if (!instant) {
+        if (prop === 'pedestrian-crosswalk' || prop === 'blind-pedestrian') this.walkOff(h, prop === 'blind-pedestrian')
+        else if (prop === 'funeral-procession' && h.baseKey) this.slideOff(h, h.baseKey)
+      }
       h.obj.setTexture(cleared)
       h.baseKey = cleared
       h.flashKey = undefined
@@ -1419,6 +1590,24 @@ export class RoadScene extends Phaser.Scene {
       if (instant) this.tweens.add({ targets: h, alphaMul: 0, duration: 200 })
       else this.driveOff(h)
     }
+  }
+
+  /** The pedestrian finishes crossing: a standalone walker steps off to the right. */
+  private walkOff(h: WorldObj, blind: boolean): void {
+    const key = blind ? WALKER_BLIND_KEY : WALKER_KEY
+    if (!this.textures.exists(key)) return
+    const img = this.add.image(0, 0, key).setOrigin(0.5, 1)
+    // Same art scale as the crosswalk; the figure stood at x = 140 (120 blind) of the 300 px texture.
+    const offPx = (blind ? 120 : 140) - 150
+    const w = this.addWorld(img, h.x + offPx * h.size, h.z - 0.01, h.size, { vx: blind ? 0.0007 : 0.001 })
+    this.tweens.add({ targets: w, alphaMul: 0, duration: 700, delay: this.reduced ? 0 : 1100, onComplete: () => (w.dead = true) })
+  }
+
+  /** The procession rolls on through the intersection. */
+  private slideOff(h: WorldObj, key: string): void {
+    const img = this.add.image(0, 0, key).setOrigin(0.5, 1)
+    const w = this.addWorld(img, h.x, h.z - 0.01, h.size, { vx: 0.0016 })
+    this.tweens.add({ targets: w, alphaMul: 0, duration: 600, delay: this.reduced ? 0 : 600, onComplete: () => (w.dead = true) })
   }
 
   private driveOff(h: WorldObj): void {
@@ -1470,8 +1659,10 @@ export class RoadScene extends Phaser.Scene {
     const lanePos = this.carPos.lane - 1
     const carX = this.carScreenX()
     const bob = this.reduced ? 0 : Math.sin(this.visDist * 2.2) * p.dpr * 0.8 * this.speed
-    const carY = p.baseY + bob
-    const carS = this.carScale()
+    // GO lunge: the car squats and pulls a touch forward (smaller = farther away).
+    const lunge = this.lunge.v
+    const carY = p.baseY + bob - lunge * p.laneW * 0.05
+    const carS = this.carScale() * (1 - lunge * 0.035)
     this.car.setPosition(carX, carY).setScale(carS)
     this.car.setAngle(this.carPos.tilt)
 
@@ -1493,7 +1684,9 @@ export class RoadScene extends Phaser.Scene {
     }
 
     // World objects.
-    const flashOn = !this.reduced && Math.floor(this.flashPhase / 350) % 2 === 1
+    // Slow roll keeps flashing lights slow and soft so the scene stays calm.
+    const calm = this.director.slowRoll
+    const flashOn = !this.reduced && Math.floor(this.flashPhase / (calm ? 700 : 350)) % 2 === 1
     for (const o of this.world) this.place(o, lanePos, flashOn)
 
     // Emergency lights glow on top of the vehicle behind.
@@ -1504,10 +1697,11 @@ export class RoadScene extends Phaser.Scene {
       const x = p.xOf(b.w.x, z)
       const top = p.yOf(z) - ((b.w.obj.height || 140) * b.w.size * p.laneW) / z
       const r = p.lanePx(z) * 0.07
-      const phase = this.reduced ? 0 : Math.floor(this.flashPhase / 160) % 2
-      this.sirenG.fillStyle(phase === 0 ? 0xff1744 : 0x3b82f6, 0.55)
+      const phase = this.reduced ? 0 : Math.floor(this.flashPhase / (calm ? 450 : 160)) % 2
+      const glow = calm ? 0.4 : 0.55
+      this.sirenG.fillStyle(phase === 0 ? 0xff1744 : 0x3b82f6, glow)
       this.sirenG.fillCircle(x - r * 1.2, top + r * 0.6, r * 1.4)
-      this.sirenG.fillStyle(phase === 0 ? 0x3b82f6 : 0xff1744, 0.55)
+      this.sirenG.fillStyle(phase === 0 ? 0x3b82f6 : 0xff1744, glow)
       this.sirenG.fillCircle(x + r * 1.2, top + r * 0.6, r * 1.4)
     }
 
@@ -1544,26 +1738,43 @@ export class RoadScene extends Phaser.Scene {
     }
   }
 
+  /** Envelope of the GO spin-up: quick rise, longer fade (0..1). */
+  private goFxLevel(): number {
+    if (this.goFxMs <= 0) return 0
+    const t = 1 - this.goFxMs / GO_FX_MS
+    return t < 0.15 ? t / 0.15 : Math.max(0, 1 - (t - 0.15) / 0.85)
+  }
+
+  /** Radial speed lines: a short burst when GO kicks in, and during NITRO. */
   private drawSpeedLines(realDt: number): void {
     const g = this.speedLines
     g.clear()
-    if (this.nitroMs <= 0 || this.reduced || this.frozen) return
+    if (this.reduced || this.frozen) return
+    const go = this.goFxLevel()
+    // NITRO is a reward, but in slow roll it stays soft.
+    const nitro = this.nitroMs > 0 ? Math.min(1, this.nitroMs / 600) * (this.director.slowRoll ? 0.55 : 1) : 0
+    const level = Math.max(go, nitro)
+    if (level <= 0.01) return
     const p = this.proj
     const cx = p.vpX
     const cy = p.horizonY
     const maxR = Math.hypot(p.W, p.H)
-    const fade = Math.min(1, this.nitroMs / 600)
-    g.lineStyle(Math.max(2, p.dpr * 2.5), 0xe9d5ff, 0.55 * fade)
+    const goWins = go >= nitro
+    const color = goWins ? 0xdcfce7 : 0xe9d5ff
+    const rate = goWins ? 3.2 : 1.8
+    g.lineStyle(Math.max(2, p.dpr * 2.5), color, 0.6 * level)
     for (const s of this.speedLineSeeds) {
-      s.r += (realDt / 1000) * s.v * 1.8
+      s.r += (realDt / 1000) * s.v * rate
       if (s.r > 1) {
         s.r = 0.15
         s.a = Math.random() * Math.PI * 2
       }
-      const r0 = s.r * maxR
-      const r1 = r0 + maxR * 0.12
-      const ca = Math.cos(s.a)
+      // Keep the lines off the middle of the road ahead so gate labels stay clear.
       const sa = Math.sin(s.a)
+      if (sa < -0.15 && Math.abs(Math.cos(s.a)) < 0.5) continue
+      const r0 = s.r * maxR
+      const r1 = r0 + maxR * (goWins ? 0.16 : 0.12)
+      const ca = Math.cos(s.a)
       g.lineBetween(cx + ca * r0, cy + sa * r0, cx + ca * r1, cy + sa * r1)
     }
   }
@@ -1654,7 +1865,7 @@ export class RoadScene extends Phaser.Scene {
       })
       return { ...base, lanes: [lane(0), lane(1), lane(2)] }
     }
-    return { ...base, prop: ev.prop, weather: ev.weather, action: ev.action }
+    return { ...base, prop: ev.prop, emoji: propEmoji(ev), weather: ev.weather, action: ev.action }
   }
 
   private replayFor(e: ActiveEvent, res: Resolution): ReplayInfo {
@@ -1676,11 +1887,24 @@ export class RoadScene extends Phaser.Scene {
   /** Seconds until the live gate or hazard reaches the car at the current speed. */
   private etaSec(): number | undefined {
     const e = this.cur
+    // Pull over: the siren has its own short window.
+    const b = e && !e.decided && e.ev.kind === 'action' && e.ev.action === 'pull-over' ? e.behind : undefined
+    if (b && b.state === 'approach') return Math.max(0, Math.ceil((b.windowMs - b.t) / 1000))
     const zTarget = e && !e.decided ? e.z : this.finishLine ? this.finishLine.z : undefined
     if (zTarget === undefined) return undefined
-    const rate = this.V * Math.max(this.speed, 0.05) * this.boost // z per ms
+    // Measured at cruise speed so the number stays steady while braking or stopped.
+    const rate = this.V * this.boost // z per ms
     if (rate <= 0) return undefined
     return Math.max(0, Math.round((zTarget - GATE_Z) / rate / 1000))
+  }
+
+  /** Speedometer reading: calm cruise, rising toward the GO top speed as the boost spins up. */
+  private mph(): number {
+    const d = this.director
+    const lo = d.slowRoll ? CRUISE_MPH : TIMED_CRUISE_MPH
+    const hi = d.slowRoll ? GO_MPH : TIMED_GO_MPH
+    const t = clamp01((this.boost - 1) / Math.max(0.001, d.goMultiplier - 1))
+    return Math.round(this.speed * (lo + (hi - lo) * t))
   }
 
   private emitHud(): void {
@@ -1707,9 +1931,10 @@ export class RoadScene extends Phaser.Scene {
       lives: d.survival ? { left: d.livesLeft, max: d.maxMisses } : undefined,
       ghostDelta,
       speed: this.speed,
-      mph: Math.round(this.speed * (CRUISE_MPH + (GO_MPH - CRUISE_MPH) * clamp01((this.boost - 1) / Math.max(0.001, d.goMultiplier - 1)))),
+      mph: this.mph(),
       going: this.goMode,
-      goAvailable: (this.phase === 'drive' || this.phase === 'ending') && !this.goMode && !this.hold && !this.paused,
+      goAvailable: this.canGo(),
+      finishAhead: this.phase === 'drive' && !!this.finishLine && !this.cur,
       etaSec: this.etaSec(),
       slowRoll: d.slowRoll,
       braking: this.phase === 'drive' && this.brakeInput(),

@@ -290,7 +290,7 @@ function buildHeadline(
     return {
       icon: '💪',
       title: gap <= 4 ? 'Not yet — you are close' : 'Not yet — keep training',
-      sub: `Signs: all right! Part 2: ${r.part2Correct} of ${EXAM_PART2_COUNT}. You need ${EXAM_PART2_PASS}. ${gap === 1 ? 'Just one more!' : `${gap} more to go.`}`,
+      sub: `Signs: all right! Part 2: ${r.part2Correct} of ${EXAM_PART2_COUNT}. You need ${EXAM_PART2_PASS} to pass. ${gap === 1 ? 'Just one more!' : `${gap} more to go.`}`,
     }
   }
   if (mode === 'signs') {
@@ -309,7 +309,7 @@ function buildHeadline(
   return {
     icon: '🛡️',
     title: gap <= 2 ? 'Not yet — you are close' : 'Not yet — round 2 will go better',
-    sub: `${n.correctAll} of ${n.total} right. You need ${n.bossNeed}. ${gap === 1 ? 'Just one more!' : `${gap} more to go.`}`,
+    sub: `${n.correctAll} of ${n.total} right. You need ${n.bossNeed} to win. ${gap === 1 ? 'Just one more!' : `${gap} more to go.`}`,
   }
 }
 

@@ -7,6 +7,7 @@ import {
   buildNumbers,
   buildQuick,
   buildReplay,
+  MAX_NEW_PER_RUN,
   buildSniper,
   pickEventFor,
   recentMissItems,
@@ -242,7 +243,9 @@ describe('other modes', () => {
   it('quick play introduces fresh items for a new player', () => {
     const plan = buildQuick(ctx())
     expect(plan.mode).toBe('quick')
-    expect(plan.events.length).toBeLessThanOrEqual(14)
+    expect(plan.events.length).toBeLessThanOrEqual(8)
+    // Never more new facts than the briefing can show.
+    expect(plan.newItemIds.length).toBeLessThanOrEqual(MAX_NEW_PER_RUN)
     if (allItems.some((i) => (eventsByItem.get(i.id) ?? []).length)) expect(plan.events.length).toBeGreaterThan(0)
   })
 

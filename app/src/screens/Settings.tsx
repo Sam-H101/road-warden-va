@@ -90,7 +90,7 @@ export function SettingsScreen() {
   return (
     <Screen title="Settings" onBack={() => nav.back()}>
       {/* Driving */}
-      <SectionTitle read="Reaction time. Slide right to get more time to react to signs and hazards on the road.">Driving</SectionTitle>
+      <SectionTitle read="Reaction time. Slide right to get more time in Sign Sniper, Numbers, Hazard Rush, and when an emergency vehicle comes up behind you. Learning roads always give you up to 60 seconds. Press GO when you are ready.">Driving</SectionTitle>
       <Panel>
         <Slider
           label="Reaction time"
@@ -101,9 +101,12 @@ export function SettingsScreen() {
           onChange={(v) => set({ reactionScale: Math.round(v * 100) / 100 })}
           left="Normal"
           right="Extra time"
-          display={`${reactionWord(settings.reactionScale)} (${settings.reactionScale.toFixed(2)}×)`}
+          display={reactionWord(settings.reactionScale)}
         />
-        <p className="text-sm text-dim mt-2">More time never lowers your score or XP. Use what feels good.</p>
+        <p className="text-sm text-dim mt-2">
+          Changes the timed modes (Sign Sniper, Numbers, Hazard Rush) and the time to pull over for a siren. Learning roads always give you up to 60 seconds:
+          press GO when you are ready. More time never lowers your score or XP.
+        </p>
       </Panel>
 
       {/* Reading and voice */}
@@ -168,8 +171,8 @@ export function SettingsScreen() {
             ]}
           />
         </SettingRow>
-        <SettingRow label="Reduced motion" hint="No shaking, flashing or big animations.">
-          <Toggle label="Reduced motion" checked={settings.reducedMotion} onChange={(v) => set({ reducedMotion: v })} />
+        <SettingRow label="Calm mode (less motion)" hint="No shaking, flashing or zooming.">
+          <Toggle label="Calm mode (less motion)" checked={settings.reducedMotion} onChange={(v) => set({ reducedMotion: v })} />
         </SettingRow>
       </Panel>
 
@@ -326,7 +329,9 @@ export function SettingsScreen() {
                 resetAll()
                 setResetStep(0)
                 setNameDraft('')
+                // A fresh start: name and how-to again, with no way "back" into the old save.
                 nav.home()
+                nav.replace({ name: 'intro' })
               }}
             />
           )}

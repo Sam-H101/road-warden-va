@@ -72,7 +72,8 @@ function subscribeMotion(cb: () => void) {
   return () => mq.removeEventListener('change', cb)
 }
 
-function osPrefersReduced(): boolean {
+/** The OS asks for reduced motion. */
+export function osPrefersReduced(): boolean {
   return typeof window !== 'undefined' && !!window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches
 }
 

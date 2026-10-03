@@ -11,6 +11,9 @@ export interface Queued {
   isRequeue: boolean
 }
 
+/** Slow roll: a flat calm bonus instead of a speed bonus, so waiting is never punished. */
+export const CALM_BONUS_FRAC = 0.5
+
 export interface Resolution {
   correct: boolean
   points: number
@@ -87,6 +90,8 @@ export class RunDirector {
   secondChanceReady: boolean
 
   private queue: Queued[]
+  /** Endless modes: requeues wait this many pool spawns so the retry is spaced, not instant. */
+  private pending: { q: Queued; after: number }[] = []
   private readonly poolSrc: GameEvent[]
   private poolIdx = 0
   private recentItems: string[] = []
@@ -124,12 +129,16 @@ export class RunDirector {
   }
 
   get hasEvents(): boolean {
-    return this.queue.length > 0 || this.poolSrc.length > 0
+    return this.queue.length > 0 || this.poolSrc.length > 0 || this.pending.length > 0
   }
 
   /** Next event to spawn, or undefined when a finite run is out of events. */
   next(): Queued | undefined {
     let q = this.queue.shift()
+    if (!q && this.endless) {
+      const ready = this.pending.findIndex((p) => p.after <= 0)
+      if (ready >= 0) q = this.pending.splice(ready, 1)[0].q
+    }
     if (!q && this.endless && this.poolSrc.length) {
       const n = this.poolSrc.length
       // Cycle the pool, skipping items seen in the last two spawns when we can.
@@ -141,6 +150,7 @@ export class RunDirector {
           break
         }
       }
+      if (q) for (const p of this.pending) p.after--
     }
     if (!q) return undefined
     this.spawned++
@@ -163,11 +173,16 @@ export class RunDirector {
     return this.slowRoll ? SLOW_ROLL_WINDOW_MS / GO_ARRIVE_MS : 2
   }
 
+  /** Radar perk: 30% more time (timed windows and the emergency-vehicle window). */
+  get radarScale(): number {
+    return this.perks.has('radar') ? 1.3 : 1
+  }
+
   /** Time from spawn to the player at cruise. */
   windowMs(reactionScale: number): number {
     if (this.slowRoll) return SLOW_ROLL_WINDOW_MS
     const scale = Math.max(0.5, Math.min(3, reactionScale || 1))
-    const radar = this.perks.has('radar') ? 1.3 : 1
+    const radar = this.radarScale
     const ramp = Math.max(0, this.plan.ramp || 0)
     const eventsSoFar = Math.max(0, this.spawned - 1)
     const raw = (BASE_WINDOW_MS * scale * radar) / (1 + ramp * eventsSoFar)
@@ -187,7 +202,12 @@ export class RunDirector {
     return true
   }
 
-  resolve(q: Queued, correct: boolean, reactionMs: number, windowMs: number, usedPerk?: PerkId): Resolution {
+  /**
+   * Score one decision. `windowMs` is the real window for this event (the siren
+   * window for a pull-over). `calm` (slow roll, no real time pressure) swaps the
+   * speed bonus for a flat bonus so waiting calmly scores the same as rushing.
+   */
+  resolve(q: Queued, correct: boolean, reactionMs: number, windowMs: number, usedPerk?: PerkId, calm = false): Resolution {
     const ev = q.ev
     const reaction = Math.max(0, Math.min(windowMs, Math.round(reactionMs)))
     let points = 0
@@ -198,7 +218,7 @@ export class RunDirector {
     const multBefore = multiplierFor(this.streak)
 
     if (correct) {
-      points = pointsFor(this.streak, reaction, windowMs)
+      points = calm ? pointsFor(this.streak, windowMs * (1 - CALM_BONUS_FRAC), windowMs) : pointsFor(this.streak, reaction, windowMs)
       this.streak++
       this.score += points
       this.maxStreak = Math.max(this.maxStreak, this.streak)
@@ -217,8 +237,13 @@ export class RunDirector {
         this.requeued.add(ev.item)
         const picked = requeueEventFor(ev.item, ev.id, this.rng)
         const again = isPlayable(picked) ? picked : ev
-        const at = Math.min(this.queue.length, 2 + Math.floor(this.rng() * 2))
-        this.queue.splice(at, 0, { ev: again, isRequeue: true })
+        const gap = 2 + Math.floor(this.rng() * 2)
+        if (this.endless) {
+          // The pool never empties the queue, so hold the retry for a few spawns.
+          this.pending.push({ q: { ev: again, isRequeue: true }, after: gap })
+        } else {
+          this.queue.splice(Math.min(this.queue.length, gap), 0, { ev: again, isRequeue: true })
+        }
         this.total++
         requeued = true
       }

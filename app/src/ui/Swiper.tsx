@@ -40,6 +40,10 @@ export function Swiper({
       <div
         className="overflow-hidden rounded-3xl"
         style={{ touchAction: 'pan-y' }}
+        // Safety net: focus must never scroll the clipped track sideways.
+        onScroll={(e) => {
+          if (e.currentTarget.scrollLeft !== 0) e.currentTarget.scrollLeft = 0
+        }}
         onPointerDown={(e) => {
           if (e.pointerType === 'mouse' && e.button !== 0) return
           start.current = { x: e.clientX, y: e.clientY, id: e.pointerId }
@@ -82,7 +86,7 @@ export function Swiper({
           }}
         >
           {slides.map((s, i) => (
-            <div key={i} className="w-full shrink-0 px-1" aria-hidden={i !== index} role="group" aria-label={`${i + 1} of ${count}`}>
+            <div key={i} className="w-full shrink-0 px-1" inert={i !== index} role="group" aria-label={`${i + 1} of ${count}`}>
               {s}
             </div>
           ))}

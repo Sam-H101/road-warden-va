@@ -2,9 +2,9 @@
 // lets the learner move a save between devices.
 import { create } from 'zustand'
 import { createJSONStorage, persist } from 'zustand/middleware'
-import { campaignDistricts, districtById, eventById, isSignItem, itemById, missionCount, districts } from '../engine/content'
+import { campaignDistricts, districtById, eventById, finalDistrict, isSignItem, itemById, missionCount, districts } from '../engine/content'
 import { advanceContract, dailyContracts, weeklyContracts, type Contract, type ContractContext } from '../engine/contracts'
-import { gradeExam, type ExamRecord, type ExamResult } from '../engine/exam'
+import { gradeExam, isExamReady, type ExamRecord, type ExamResult } from '../engine/exam'
 import { COSMETICS, DEFAULT_EQUIPPED, MAX_EQUIPPED_PERKS, PERKS, type CosmeticSlot } from '../engine/loadout'
 import { awardMedals } from '../engine/medals'
 import { MODE_UNLOCK_RANK, rankForXp, seasonTier } from '../engine/ranks'
@@ -55,7 +55,13 @@ export interface Stats {
 }
 
 export interface RunSummary {
+  /** All XP this run gave, contract bonuses included. */
   xpGained: number
+  /** XP before and after this run (frozen here so the Debrief never reads live state). */
+  xpBefore: number
+  xpAfter: number
+  /** Finished contracts are claimed automatically; this part of xpGained came from them. */
+  contractXp: number
   rankBefore: number
   rankAfter: number
   medals: string[]
@@ -195,7 +201,8 @@ export function hasClearedMission(s: Pick<GameState, 'missionsCleared'>): boolea
 
 export function isModeUnlocked(s: GameState, mode: RunMode): boolean {
   const rank = rankOf(s)
-  if (rank < MODE_UNLOCK_RANK[mode]) return false
+  // Prestige resets XP but keeps every unlock.
+  if (s.prestige === 0 && rank < MODE_UNLOCK_RANK[mode]) return false
   if (mode === 'replay') return hasAnyMiss(s)
   if (mode === 'ghost') return hasClearedMission(s)
   return true
@@ -228,6 +235,59 @@ function withFreshContracts(s: GameState): GameState['contracts'] {
     week,
     weekly: c.week === week ? c.weekly : weeklyContracts(week, ctx),
   }
+}
+
+/** Finished contracts pay out right away: no extra Claim step to miss. */
+function autoClaim(s: GameState): { state: GameState; xp: number } {
+  let xp = 0
+  const claim = (list: Contract[]) =>
+    list.map((c) => {
+      if (c.done && !c.claimed) {
+        xp += c.rewardXp
+        return { ...c, claimed: true }
+      }
+      return c
+    })
+  const contracts = { ...s.contracts, daily: claim(s.contracts.daily), weekly: claim(s.contracts.weekly) }
+  if (!xp) return { state: s, xp: 0 }
+  return { state: { ...s, contracts, xp: s.xp + xp, seasonXp: s.seasonXp + xp }, xp }
+}
+
+const isObj = (v: unknown): v is Record<string, unknown> => !!v && typeof v === 'object' && !Array.isArray(v)
+
+/**
+ * Keep only known fields with the right basic type, merged over defaults, so a
+ * broken or hand-edited save can never crash a screen or replace store actions.
+ */
+export function sanitizeSave(raw: unknown): GameState {
+  const base = initialState()
+  if (!isObj(raw)) return base
+  const out = { ...base } as Record<string, unknown>
+  for (const k of Object.keys(base) as (keyof GameState)[]) {
+    const want: unknown = base[k]
+    const got = raw[k]
+    if (got === undefined) continue
+    if (Array.isArray(want)) {
+      if (Array.isArray(got)) out[k] = got
+    } else if (isObj(want)) {
+      if (isObj(got)) out[k] = got
+    } else if (typeof got === typeof want) out[k] = got
+  }
+  const s = out as unknown as GameState
+  s.version = 1
+  s.settings = { ...DEFAULT_SETTINGS, ...(isObj(raw.settings) ? (raw.settings as Partial<Settings>) : {}) }
+  s.stats = { ...base.stats, ...(isObj(raw.stats) ? (raw.stats as Partial<Stats>) : {}) }
+  s.equipped = { ...DEFAULT_EQUIPPED, ...(isObj(raw.equipped) ? (raw.equipped as Partial<GameState['equipped']>) : {}) }
+  const c = raw.contracts
+  s.contracts =
+    isObj(c) && Array.isArray(c.daily) && Array.isArray(c.weekly) && typeof c.day === 'string' && typeof c.week === 'string'
+      ? (c as unknown as GameState['contracts'])
+      : base.contracts
+  // Older versions cleared Exam Day after one ready run; the done rule needs 3 ready days.
+  if (s.bossesCleared.includes(finalDistrict.id) && !isExamReady(s.examHistory)) {
+    s.bossesCleared = s.bossesCleared.filter((d) => d !== finalDistrict.id)
+  }
+  return s
 }
 
 function cosmeticUnlocked(s: GameState, id: string): boolean {
@@ -317,7 +377,9 @@ export const useGame = create<Store>()(
           missionsCleared[p.district] = [...list].sort((a, b) => a - b)
         }
         const unlockedAfter = unlockedDistricts({ missionsCleared })
-        const districtUnlocked = unlockedAfter.find((d) => !unlockedBefore.includes(d))
+        let districtUnlocked = unlockedAfter.find((d) => !unlockedBefore.includes(d))
+        // Clearing the last campaign mission opens Exam Day: that gets its own celebration.
+        if (!districtUnlocked && finalDistrict && !isExamDayUnlocked(s0) && isExamDayUnlocked({ missionsCleared })) districtUnlocked = finalDistrict.id
 
         const previousBest = s0.bestScores[p.key] ?? 0
         const newBest = result.completed && result.score > previousBest
@@ -374,6 +436,8 @@ export const useGame = create<Store>()(
         contracts.weekly = contracts.weekly.map((c) => advanceContract(c, facts))
         const contractsCompleted = [...contracts.daily, ...contracts.weekly].filter((c) => c.done && !before.has(c.id))
         s1 = { ...s1, contracts }
+        const claimed = autoClaim(s1)
+        s1 = claimed.state
 
         // 6. Cosmetics.
         const { owned, fresh } = grantCosmetics(s1)
@@ -389,7 +453,10 @@ export const useGame = create<Store>()(
         })
 
         return {
-          xpGained,
+          xpGained: xpGained + claimed.xp,
+          xpBefore: s0.xp,
+          xpAfter: s1.xp,
+          contractXp: claimed.xp,
           rankBefore,
           rankAfter: rankOf(s1),
           medals,
@@ -429,10 +496,6 @@ export const useGame = create<Store>()(
           bossesCleared = [...bossesCleared, paper.district]
           bossNewlyCleared = true
         }
-        if (paper.kind === 'exam' && result.ready && !bossesCleared.includes('d16-examday')) {
-          bossesCleared = [...bossesCleared, 'd16-examday']
-          bossNewlyCleared = true
-        }
         const examHistory =
           paper.kind === 'exam'
             ? [
@@ -440,6 +503,11 @@ export const useGame = create<Store>()(
                 { day: today, part1Correct: result.part1Correct, part2Correct: result.part2Correct, passed: result.passed, ready: result.ready },
               ]
             : s0.examHistory
+        // Exam Day is cleared by the done rule: ready on 3 different days (not one good run).
+        if (paper.kind === 'exam' && isExamReady(examHistory) && !bossesCleared.includes(finalDistrict.id)) {
+          bossesCleared = [...bossesCleared, finalDistrict.id]
+          bossNewlyCleared = true
+        }
 
         const correct = answers.filter((a) => a.correct).length
         const xpGained = 30 + correct * 10 + (result.passed ? 150 : 0) + (bossNewlyCleared ? 200 : 0)
@@ -478,6 +546,8 @@ export const useGame = create<Store>()(
         contracts.daily = contracts.daily.map((c) => advanceContract(c, facts))
         contracts.weekly = contracts.weekly.map((c) => advanceContract(c, facts))
         s1 = { ...s1, contracts }
+        const claimed = autoClaim(s1)
+        s1 = claimed.state
 
         const { owned, fresh } = grantCosmetics(s1)
         s1 = { ...s1, owned }
@@ -485,7 +555,7 @@ export const useGame = create<Store>()(
 
         return {
           result,
-          xpGained,
+          xpGained: xpGained + claimed.xp,
           rankBefore,
           rankAfter: rankOf(s1),
           bossNewlyCleared,
@@ -531,7 +601,10 @@ export const useGame = create<Store>()(
 
       refreshContracts: () => {
         const s = get()
-        set({ contracts: withFreshContracts(s) })
+        // Also pays out any finished contract left unclaimed by an older version.
+        let s1: GameState = autoClaim({ ...s, contracts: withFreshContracts(s) }).state
+        s1 = { ...s1, owned: grantCosmetics(s1).owned }
+        set({ contracts: s1.contracts, xp: s1.xp, seasonXp: s1.seasonXp, owned: s1.owned })
       },
 
       updateSettings: (patch) => set((s) => ({ settings: { ...s.settings, ...patch } })),
@@ -556,17 +629,20 @@ export const useGame = create<Store>()(
           if (parsed?.app !== 'road-warden-va' || typeof parsed.data !== 'object') {
             return { ok: false, error: 'This file is not a Road Warden save.' }
           }
-          const base = initialState()
-          const data = parsed.data as Partial<GameState>
+          const data = parsed.data as Record<string, unknown>
           if (data.version !== 1) return { ok: false, error: 'This save is from a different version.' }
-          set({ ...base, ...data, settings: { ...DEFAULT_SETTINGS, ...(data.settings ?? {}) } })
+          if (!isObj(data.items)) return { ok: false, error: 'This save file is damaged.' }
+          set(sanitizeSave(data))
           return { ok: true }
         } catch {
           return { ok: false, error: 'Could not read that file.' }
         }
       },
 
-      resetAll: () => set(initialState()),
+      resetAll: () => {
+        set(initialState())
+        get().refreshContracts()
+      },
     }),
     {
       name: 'road-warden-va',
@@ -580,8 +656,7 @@ export const useGame = create<Store>()(
         return out
       },
       merge: (persisted, current) => {
-        const p = (persisted ?? {}) as Partial<GameState>
-        return { ...current, ...p, settings: { ...DEFAULT_SETTINGS, ...(p.settings ?? {}) } }
+        return { ...current, ...sanitizeSave(persisted) }
       },
     },
   ),

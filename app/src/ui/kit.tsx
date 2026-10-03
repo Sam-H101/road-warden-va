@@ -76,8 +76,18 @@ export function ReadAloudButton({ text, className = '', label = 'Read aloud' }: 
       }}
       className={`inline-flex items-center justify-center w-11 h-11 rounded-full bg-info/20 text-info hover:bg-info/30 text-xl shrink-0 ${className}`}
     >
-      🔊
+      <SpeakerIcon />
     </button>
+  )
+}
+
+/** Speaker glyph drawn in currentColor, so it stays crisp and high-contrast on light and dark cards. */
+export function SpeakerIcon({ size = 22 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" aria-hidden focusable="false">
+      <path d="M4 9.5h3.5L12.5 5v14l-5-4.5H4z" fill="currentColor" />
+      <path d="M15.5 9a4.2 4.2 0 0 1 0 6M18 6.5a7.8 7.8 0 0 1 0 11" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+    </svg>
   )
 }
 

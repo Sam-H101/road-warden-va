@@ -54,6 +54,15 @@ html.reduced-motion *::after {
   animation-iteration-count: 1 !important;
   transition-duration: 0.001ms !important;
 }
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
 
 body {
   margin: 0;
@@ -64,6 +73,9 @@ body {
 
 #root {
   min-height: 100dvh;
+  /* viewport-fit=cover: keep screens clear of the notch in landscape. */
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
 }
 
 button {

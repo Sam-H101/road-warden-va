@@ -73,6 +73,10 @@ export function createGame(parent: HTMLElement, init: SceneInit): GameHandle {
       cancelAnimationFrame(raf)
       ro?.disconnect()
       window.removeEventListener('orientationchange', resize)
+      if (import.meta.env.DEV) {
+        const w = window as unknown as { __roadScene?: RoadScene }
+        if (w.__roadScene === scene) delete w.__roadScene
+      }
       try {
         game.destroy(true)
       } catch (err) {

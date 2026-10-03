@@ -3,10 +3,11 @@ import { useMemo, useState } from 'react'
 import { useNav } from '../app/nav'
 import { districtById, missionCount, missionItems } from '../engine/content'
 import type { Contract } from '../engine/contracts'
-import { rankProgress, SEASON_TIERS, SEASON_XP_PER_TIER, seasonTier } from '../engine/ranks'
+import { rankProgress, SEASON_TIERS, seasonTier } from '../engine/ranks'
 import { readiness } from '../engine/readiness'
 import { buildQuick } from '../engine/runBuilder'
 import { playSfx } from '../services/sfx'
+import { isExamReady } from '../engine/exam'
 import { isExamDayUnlocked, useGame } from '../store/gameStore'
 import { RankBadge } from '../ui/badges'
 import { Button, Panel, ProgressBar, ReadAloudButton, Stars } from '../ui/kit'
@@ -61,7 +62,7 @@ export function HomeScreen() {
 
   const name = s.playerName || 'Warden'
   const mentorText = (() => {
-    if (examOpen && !s.bossesCleared.includes('d16-examday')) return `${name}, Exam Day is open. You trained for this. Ready when you are.`
+    if (examOpen && !isExamReady(s.examHistory)) return `${name}, Exam Day is open. You trained for this. Ready when you are.`
     if (!today && streak >= 1) return `${greeting()}, ${name}! Play today to make it ${streak + 1} days in a row.`
     if (due >= DUE_FOR_QUICK) return `${due} facts are ready to review. A Quick Play locks them in.`
     if (nextDistrict) return `${greeting()}, ${name}. ${nextDistrict.name} is waiting for you.`
@@ -123,8 +124,7 @@ export function HomeScreen() {
             hasSigns={ready.totalSigns > 0}
             hasRules={ready.totalGeneral > 0}
           />
-          <ContractsCard contracts={s.contracts.daily} />
-          <SeasonCard seasonXp={s.seasonXp} />
+          <RewardsTile contracts={s.contracts.daily} seasonXp={s.seasonXp} />
         </div>
 
         <nav aria-label="More" className="grid grid-cols-2 sm:grid-cols-4 gap-3">
@@ -178,7 +178,7 @@ function CampaignCard() {
   const done = clearedSet(s, d).size
   const next = campaignNext(s)
   const nextIdx = next && next.district === d ? next.missionIndex : undefined
-  const topics = nextIdx !== undefined ? missionItems(d, nextIdx).slice(0, 2).map((i) => i.title) : []
+  const topic = nextIdx !== undefined ? missionItems(d, nextIdx)[0]?.title : undefined
   const bossDone = s.bossesCleared.includes(d)
   return (
     <button
@@ -209,7 +209,7 @@ function CampaignCard() {
             </>
           )}
         </div>
-        {topics.length > 0 && <div className="text-dim text-sm mt-1 truncate">{topics.join(' · ')}</div>}
+        {topic && <div className="text-dim text-base mt-1">First up: {topic}</div>}
         <ProgressBar value={done} max={n || 1} color="bg-info" className="mt-3" label="Missions cleared" />
       </div>
     </button>
@@ -267,78 +267,33 @@ function ReadinessCard({ signs, rules, overall, hasSigns, hasRules }: { signs: n
   )
 }
 
-function ContractsCard({ contracts }: { contracts: Contract[] }) {
-  const claim = useGame((s) => s.claimContract)
+/** One compact tile for contracts and the season track (full details on the Contracts screen). */
+function RewardsTile({ contracts, seasonXp }: { contracts: Contract[]; seasonXp: number }) {
   const go = useNav((n) => n.go)
-  const [flash, setFlash] = useState<{ id: string; xp: number } | null>(null)
-  return (
-    <Panel>
-      <div className="flex items-center">
-        <div className="flex-1 text-sm font-bold text-dim uppercase tracking-wider">Today's contracts</div>
-        <button onClick={() => go({ name: 'contracts' })} className="text-info font-bold min-h-11 px-2">
-          All →
-        </button>
-      </div>
-      {contracts.length === 0 ? (
-        <p className="text-dim mt-1">New contracts arrive tomorrow.</p>
-      ) : (
-        <ul className="mt-1 space-y-3">
-          {contracts.map((c) => (
-            <li key={c.id} className="flex items-center gap-3">
-              <span className="text-xl w-7 text-center" aria-hidden>
-                {c.claimed ? '✅' : c.done ? '🎁' : '🎯'}
-              </span>
-              <div className="flex-1 min-w-0">
-                <div className={`font-bold leading-tight ${c.claimed ? 'text-dim line-through' : ''}`}>{c.title}</div>
-                {!c.done && <ProgressBar value={c.progress} max={c.goal} color="bg-info" className="mt-1" label={`${c.progress} of ${c.goal}`} />}
-                {!c.done && (
-                  <div className="text-xs text-dim mt-0.5">
-                    {c.progress} / {c.goal} · +{c.rewardXp} XP
-                  </div>
-                )}
-              </div>
-              {c.done && !c.claimed && (
-                <Button
-                  variant="good"
-                  size="sm"
-                  className="min-h-11 px-4"
-                  onClick={() => {
-                    const xp = claim(c.id)
-                    if (xp) {
-                      playSfx('unlock')
-                      setFlash({ id: c.id, xp })
-                    }
-                  }}
-                >
-                  Claim +{c.rewardXp}
-                </Button>
-              )}
-              {flash?.id === c.id && (
-                <span className="text-good font-extrabold animate-pop" role="status">
-                  +{flash.xp} XP
-                </span>
-              )}
-            </li>
-          ))}
-        </ul>
-      )}
-    </Panel>
-  )
-}
-
-function SeasonCard({ seasonXp }: { seasonXp: number }) {
+  const done = contracts.filter((c) => c.done).length
   const tier = seasonTier(seasonXp)
-  const maxed = tier >= SEASON_TIERS
-  const into = seasonXp % SEASON_XP_PER_TIER
+  const contractLine = contracts.length ? `${done} of ${contracts.length} contracts done today` : 'New contracts arrive soon'
   return (
-    <Panel>
-      <div className="text-sm font-bold text-dim uppercase tracking-wider">Season track</div>
-      <div className="flex items-baseline gap-2 mt-1">
-        <span className="text-3xl font-extrabold text-nitro">Tier {tier}</span>
-        <span className="text-dim">of {SEASON_TIERS}</span>
-      </div>
-      <ProgressBar value={maxed ? 1 : into} max={maxed ? 1 : SEASON_XP_PER_TIER} color="bg-nitro" className="mt-2" label="Season tier progress" />
-      <div className="text-sm text-dim mt-1">{maxed ? 'Season complete! Legend status.' : `${SEASON_XP_PER_TIER - into} XP to tier ${tier + 1}`}</div>
-    </Panel>
+    <button
+      onClick={() => {
+        playSfx('click')
+        go({ name: 'contracts' })
+      }}
+      className="md:col-span-2 text-left bg-panel border-2 border-line rounded-2xl p-4 hover:border-info transition flex items-center gap-3"
+      aria-label={`Rewards: ${contractLine}. Season tier ${tier}. Open contracts`}
+    >
+      <span className="text-3xl" aria-hidden>
+        🎁
+      </span>
+      <span className="flex-1 min-w-0">
+        <span className="block text-lg font-extrabold leading-tight">{contractLine}</span>
+        <span className="block text-base text-dim">
+          Season tier <b className="text-nitro">{Math.min(tier, SEASON_TIERS)}</b>. Finished contracts pay out by themselves.
+        </span>
+      </span>
+      <span className="text-info font-bold" aria-hidden>
+        →
+      </span>
+    </button>
   )
 }

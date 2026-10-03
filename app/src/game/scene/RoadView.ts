@@ -38,7 +38,8 @@ export class RoadView {
   theme: RoadTheme = THEMES.clear
   private weather: Weather = 'clear'
 
-  constructor(scene: Phaser.Scene, proj: Projection, sceneryKeys: string[]) {
+  /** `density` = roadside props kept on screen (slow roll uses fewer so the scene stays calm). */
+  constructor(scene: Phaser.Scene, proj: Projection, sceneryKeys: string[], density = 26) {
     this.scene = scene
     this.proj = proj
     this.sky = scene.add.image(0, 0, skyKey('clear')).setOrigin(0, 0).setDepth(-100)
@@ -47,7 +48,7 @@ export class RoadView {
     this.g = scene.add.graphics().setDepth(-50)
     this.haze = scene.add.image(0, 0, FX.haze).setOrigin(0, 0).setDepth(-45)
     this.sceneryKeys = sceneryKeys.filter((k) => scene.textures.exists(k))
-    const count = this.sceneryKeys.length ? 26 : 0
+    const count = this.sceneryKeys.length ? Math.max(0, Math.round(density)) : 0
     for (let i = 0; i < count; i++) {
       const img = scene.add.image(0, 0, this.sceneryKeys[i % this.sceneryKeys.length]).setOrigin(0.5, 1)
       const s: Scenery = { img, x: 0, p: 0, size: 1 }

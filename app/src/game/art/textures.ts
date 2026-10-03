@@ -15,6 +15,7 @@ import { propDefs } from './props'
 import type { TexDef } from './props'
 import { BILLBOARD_KEY, SCENERY_KEYS, sceneryDefs } from './scenery'
 import { CAR_H, CAR_W, drawPlayerCar, isCarStyle, playerCarLabels, trafficDefs } from './vehicles'
+import { drawWalker } from './figures'
 
 export { PROP_INFO } from './propInfo'
 export type { PropInfo } from './propInfo'
@@ -23,8 +24,34 @@ export { CAR_W, CAR_H, CAR_STYLES } from './vehicles'
 
 const DEFAULT_PAINT = 0x38bdf8
 
+/**
+ * Standalone pedestrians that walk off after a crosswalk clears. Same scale and
+ * feet line as the figure inside the crosswalk prop (300 x 160, feet at y 144).
+ */
+export const WALKER_KEY = 'fig-walker'
+export const WALKER_BLIND_KEY = 'fig-walker-blind'
+const WALKER_W = 160
+const WALKER_H = 160
+
+function walkerDefs(): TexDef[] {
+  return [
+    {
+      key: WALKER_KEY,
+      w: WALKER_W,
+      h: WALKER_H,
+      draw: (g) => drawWalker(g, WALKER_W / 2, WALKER_H - 16, 1.15, { shirt: 0xec4899, pants: 0x1e3a8a, hair: 0x3f2a1d }),
+    },
+    {
+      key: WALKER_BLIND_KEY,
+      w: WALKER_W,
+      h: WALKER_H,
+      draw: (g) => drawWalker(g, WALKER_W / 2, WALKER_H - 16, 1.15, { shirt: 0x0d9488, pants: 0x374151, hair: 0x9ca3af, blind: true }),
+    },
+  ]
+}
+
 function allDefs(): TexDef[] {
-  return [...propDefs(), ...sceneryDefs(), ...trafficDefs()]
+  return [...propDefs(), ...sceneryDefs(), ...trafficDefs(), ...walkerDefs()]
 }
 
 /** Generate every static texture once (safe to call on every scene create). */

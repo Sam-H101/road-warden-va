@@ -4,11 +4,18 @@ import { registerSW } from 'virtual:pwa-register'
 import './index.css'
 import App from './App.tsx'
 
-// Offline play: install / update the service worker quietly in the background.
-registerSW({ immediate: true })
+const root = document.getElementById('root')!
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+if (import.meta.env.DEV && new URLSearchParams(window.location.search).has('artsheet')) {
+  // Dev only: every procedural texture in one labeled grid, for visual review.
+  void import('./game/art/artSheetPage').then(({ mountArtSheet }) => mountArtSheet(root))
+} else {
+  // Offline play: install / update the service worker quietly in the background.
+  registerSW({ immediate: true })
+
+  createRoot(root).render(
+    <StrictMode>
+      <App />
+    </StrictMode>,
+  )
+}

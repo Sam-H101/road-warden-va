@@ -28,6 +28,8 @@ export interface PromptInfo {
   text: string
   image?: string
   prop?: SceneProp
+  /** Emoji for the prop in the prompt card (may differ from the prop's default, e.g. police vs ambulance). */
+  emoji?: string
   weather?: Weather
   action?: RequiredAction
   /** Gates only: what is written on each lane's gate (index = lane). */
@@ -67,6 +69,8 @@ export interface HudState {
   goAvailable: boolean
   /** Seconds until the current gate or hazard reaches the car, while it is live. */
   etaSec?: number
+  /** The finish line is on its way (finite runs, after the last event). */
+  finishAhead?: boolean
   /** Learning modes: slow roll with up to a minute per gate. */
   slowRoll: boolean
   lane: Lane
@@ -121,5 +125,7 @@ export interface BusEvents {
   countdown: number | 'GO' | null
   paused: boolean
   finish: RunResult
+  /** The scene could not start (the HUD then offers a way back). */
+  failed: string
   cmd: Command
 }

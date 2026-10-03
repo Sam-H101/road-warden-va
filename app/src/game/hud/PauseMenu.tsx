@@ -9,7 +9,14 @@ const READ_MODES: { id: ReadAloudMode; label: string }[] = [
   { id: 'auto', label: 'Auto' },
 ]
 
-export function PauseMenu({ title, onResume, onQuit }: { title: string; onResume: () => void; onQuit: () => void }) {
+function reactionWord(v: number): string {
+  if (v <= 1.05) return 'Normal'
+  if (v <= 1.35) return 'A bit more time'
+  if (v <= 1.7) return 'More time'
+  return 'Extra time'
+}
+
+export function PauseMenu({ title, slowRoll, onResume, onQuit }: { title: string; slowRoll: boolean; onResume: () => void; onQuit: () => void }) {
   const settings = useGame((s) => s.settings)
   const update = useGame((s) => s.updateSettings)
   const [confirm, setConfirm] = useState(false)
@@ -41,14 +48,19 @@ export function PauseMenu({ title, onResume, onQuit }: { title: string; onResume
             </Button>
 
             <div className="mt-6 space-y-5">
+              {slowRoll ? (
+                <p className="rounded-2xl bg-panel2 border border-line p-3 text-base font-semibold leading-snug">
+                  ⏳ This road gives you up to 60 seconds for each question. Press <span className="text-good font-extrabold">GO</span> when you are ready.
+                </p>
+              ) : (
               <label className="block">
                 <div className="flex items-baseline justify-between gap-2">
                   <span className="font-bold">Reaction time</span>
-                  <span className="text-gold font-extrabold tabular-nums">×{settings.reactionScale.toFixed(2)}</span>
+                  <span className="text-gold font-extrabold">{reactionWord(settings.reactionScale)}</span>
                 </div>
                 <input
                   type="range"
-                  min={0.75}
+                  min={1}
                   max={2}
                   step={0.25}
                   value={settings.reactionScale}
@@ -56,11 +68,12 @@ export function PauseMenu({ title, onResume, onQuit }: { title: string; onResume
                   className="w-full h-11 accent-[#fbbf24] cursor-pointer"
                   aria-label="Reaction time"
                 />
-                <div className="flex justify-between text-xs text-dim font-semibold -mt-1">
-                  <span>Faster</span>
+                <div className="flex justify-between text-sm text-dim font-semibold -mt-1">
+                  <span>Normal</span>
                   <span>More time</span>
                 </div>
               </label>
+              )}
 
               <div>
                 <div className="font-bold mb-1.5">Read aloud</div>
@@ -88,7 +101,7 @@ export function PauseMenu({ title, onResume, onQuit }: { title: string; onResume
                 className="w-full flex items-center justify-between gap-3 min-h-11"
               >
                 <span className="text-left">
-                  <span className="block font-bold">Calm mode</span>
+                  <span className="block font-bold">Calm mode (less motion)</span>
                   <span className="block text-xs text-dim">No shaking, flashing or zooming</span>
                 </span>
                 <span className={`relative w-14 h-8 rounded-full transition ${settings.reducedMotion ? 'bg-good' : 'bg-panel2 border-2 border-line'}`}>

@@ -46,6 +46,9 @@ interface NextAction {
   run: () => void
 }
 
+/** Runs whose Debrief already played its timeline (coming back from the Garage must not replay it). */
+const celebrated = new WeakSet<RunResult>()
+
 function pickLine(lines: string[]): string {
   return lines.length ? lines[Math.floor(Math.random() * lines.length)] : ''
 }
@@ -56,12 +59,18 @@ export function DebriefScreen({ result, summary }: { result: RunResult; summary:
   const plan = result.plan
   const breakMin = useGame((s) => s.settings.breakReminderMin)
 
-  // Freeze "after" values at mount so later claims do not jump the animation.
-  const [xpAfter] = useState(() => useGame.getState().xp)
-  const xpBefore = Math.max(0, xpAfter - summary.xpGained)
+  // XP before/after come from the run record, never from live state.
+  const xpAfter = summary.xpAfter
+  const xpBefore = summary.xpBefore
   const rankUp = summary.rankAfter > summary.rankBefore
-  const [showBreak] = useState(() => isBreakDue(breakMin))
+  const [again] = useState(() => celebrated.has(result))
+  const [showBreak] = useState(() => !again && isBreakDue(breakMin))
   const [breakState, setBreakState] = useState<'ask' | 'resting' | 'dismissed'>('ask')
+  const breakAsk = showBreak && breakState === 'ask'
+  const takeBreak = () => {
+    resetSession()
+    setBreakState('resting')
+  }
 
   // ---------- celebrations queue ----------
   const celebrations = useMemo<CelebrationDef[]>(() => {
@@ -108,12 +117,14 @@ export function DebriefScreen({ result, summary }: { result: RunResult; summary:
   }, [rankUp, summary])
 
   // ---------- timeline ----------
-  const [phase, setPhase] = useState<Phase>(reduced ? 'done' : 'score')
-  const [celebIdx, setCelebIdx] = useState(reduced && celebrations.length ? 0 : -1)
+  const [phase, setPhase] = useState<Phase>(reduced || again ? 'done' : 'score')
+  const [celebIdx, setCelebIdx] = useState(reduced && !again && celebrations.length ? 0 : -1)
 
   useEffect(() => {
+    if (celebrated.has(result)) return
+    celebrated.add(result)
     playSfx(result.completed ? 'win' : 'whoosh')
-  }, [result.completed])
+  }, [result])
 
   useEffect(() => {
     if (phase === 'score') {
@@ -158,12 +169,14 @@ export function DebriefScreen({ result, summary }: { result: RunResult; summary:
     } else setPhase('medals')
   }
 
-  const scoreShown = useCountUp(result.score, { duration: 1200, delay: 250 })
-  const xpShown = useCountUp(xpAfter, { from: xpBefore, duration: 1400, run: phase !== 'score' })
+  const scoreShown = useCountUp(result.score, { from: again ? result.score : 0, duration: 1200, delay: 250 })
+  const xpShown = useCountUp(xpAfter, { from: again ? xpAfter : xpBefore, duration: 1400, run: phase !== 'score' })
   const medalsShown = useStagger(summary.medals.length, {
     run: phase === 'medals' || phase === 'done',
     stepMs: 450,
-    onStep: () => playSfx('medal'),
+    onStep: () => {
+      if (!again) playSfx('medal')
+    },
   })
   const restVisible = phase === 'done' || phase === 'medals'
 
@@ -221,6 +234,17 @@ export function DebriefScreen({ result, summary }: { result: RunResult; summary:
             )}
           </div>
         </section>
+
+        {/* Break first, when it is due: it is this screen's main action then. */}
+        {showBreak && breakState !== 'dismissed' && (
+          <BreakCard
+            state={breakState}
+            onKeepGoing={() => {
+              resetSession()
+              setBreakState('dismissed')
+            }}
+          />
+        )}
 
         {/* XP + rank */}
         <Panel className={phase === 'score' ? 'opacity-40' : 'animate-rise'}>
@@ -281,19 +305,6 @@ export function DebriefScreen({ result, summary }: { result: RunResult; summary:
             <MissesSection misses={summary.misses} plan={plan} />
             {summary.newCosmetics.length > 0 && <CosmeticsSection ids={summary.newCosmetics} />}
             {summary.contractsCompleted.length > 0 && <ContractsSection contracts={summary.contractsCompleted} />}
-            {showBreak && breakState !== 'dismissed' && (
-              <BreakCard
-                state={breakState}
-                onRest={() => {
-                  resetSession()
-                  setBreakState('resting')
-                }}
-                onKeepGoing={() => {
-                  resetSession()
-                  setBreakState('dismissed')
-                }}
-              />
-            )}
           </>
         )}
       </main>
@@ -312,8 +323,8 @@ export function DebriefScreen({ result, summary }: { result: RunResult; summary:
           >
             🗺️<span className="hidden sm:inline"> Map</span>
           </Button>
-          <Button variant="primary" size="lg" className="flex-1 min-w-0 truncate" onClick={next.run}>
-            {next.label}
+          <Button variant="primary" size="lg" className="flex-1 min-w-0 px-3! sm:px-7! text-lg! sm:text-xl! leading-tight" onClick={breakAsk ? takeBreak : next.run}>
+            {breakAsk ? 'TAKE A BREAK ☕' : next.label}
           </Button>
           <Button variant="secondary" className="min-h-14 px-4" onClick={nav.home} aria-label="Home">
             🏠<span className="hidden sm:inline"> Home</span>
@@ -502,11 +513,8 @@ function CosmeticSwatch({ c }: { c: CosmeticDef }) {
   return <span aria-hidden>{icon}</span>
 }
 
+/** Finished contracts are paid out automatically when the run is recorded: just celebrate them. */
 function ContractsSection({ contracts }: { contracts: Contract[] }) {
-  const claim = useGame((s) => s.claimContract)
-  const live = useGame((s) => s.contracts)
-  const [claimed, setClaimed] = useState<Record<string, number>>({})
-  const isClaimed = (id: string) => [...live.daily, ...live.weekly].some((c) => c.id === id && c.claimed)
   return (
     <section aria-label="Contracts completed" className="rounded-2xl border-2 border-good bg-good/10 p-4">
       <h2 className="text-lg font-extrabold uppercase tracking-wider text-good">📋 Contract complete</h2>
@@ -514,24 +522,7 @@ function ContractsSection({ contracts }: { contracts: Contract[] }) {
         {contracts.map((c) => (
           <li key={c.id} className="flex items-center gap-3">
             <span className="flex-1 text-lg font-bold">{c.title}</span>
-            {isClaimed(c.id) ? (
-              <span className="font-extrabold text-good">{claimed[c.id] ? `+${claimed[c.id]} XP` : 'Claimed ✓'}</span>
-            ) : (
-              <Button
-                variant="good"
-                size="sm"
-                className="min-h-11 px-4"
-                onClick={() => {
-                  const xp = claim(c.id)
-                  if (xp) {
-                    playSfx('unlock')
-                    setClaimed((m) => ({ ...m, [c.id]: xp }))
-                  }
-                }}
-              >
-                Claim +{c.rewardXp}
-              </Button>
-            )}
+            <span className="font-extrabold text-good whitespace-nowrap">+{c.rewardXp} XP bonus</span>
           </li>
         ))}
       </ul>
@@ -539,7 +530,7 @@ function ContractsSection({ contracts }: { contracts: Contract[] }) {
   )
 }
 
-function BreakCard({ state, onRest, onKeepGoing }: { state: 'ask' | 'resting'; onRest: () => void; onKeepGoing: () => void }) {
+function BreakCard({ state, onKeepGoing }: { state: 'ask' | 'resting'; onKeepGoing: () => void }) {
   const text =
     state === 'ask'
       ? 'Great work! Your brain learns best with breaks. Take a 5-minute break?'
@@ -554,11 +545,9 @@ function BreakCard({ state, onRest, onKeepGoing }: { state: 'ask' | 'resting'; o
         <ReadAloudButton text={text} />
       </div>
       {state === 'ask' && (
-        <div className="flex flex-wrap gap-2 mt-3">
-          <Button className="flex-1 min-h-12" onClick={onRest}>
-            Take a break
-          </Button>
-          <Button variant="ghost" className="flex-1 min-h-12" onClick={onKeepGoing}>
+        <div className="flex flex-wrap items-center gap-2 mt-3">
+          <p className="flex-1 text-base text-dim">Press the big button below for a break.</p>
+          <Button variant="ghost" className="min-h-12" onClick={onKeepGoing}>
             Keep going
           </Button>
         </div>

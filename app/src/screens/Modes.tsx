@@ -1,5 +1,5 @@
 // Every way to play, with plain-words lock reasons.
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useNav } from '../app/nav'
 import { districtById } from '../engine/content'
 import { MODE_UNLOCK_RANK } from '../engine/ranks'
@@ -22,7 +22,8 @@ interface Tile {
 
 function rankLock(s: GameState, mode: RunMode): string | null {
   const need = MODE_UNLOCK_RANK[mode]
-  return rankOf(s) < need ? `Reach rank ${need}` : null
+  // Prestige keeps every unlock.
+  return s.prestige === 0 && rankOf(s) < need ? `Reach rank ${need}` : null
 }
 
 export function ModesScreen() {
@@ -45,7 +46,7 @@ export function ModesScreen() {
       icon: '🗺️',
       name: 'Campaign',
       blurb: 'Story missions across Virginia. Learn new rules.',
-      length: '3-5 min',
+      length: 'About 5-10 min · faster with GO',
       locked: null,
       run: () => nav.go({ name: 'map' }),
     },
@@ -54,7 +55,7 @@ export function ModesScreen() {
       icon: '⚡',
       name: 'Quick Play',
       blurb: due > 0 ? `Reviews what you need most. ${due} due now.` : 'A mixed drive picked just for you.',
-      length: '3 min',
+      length: 'About 3-6 min · faster with GO',
       locked: null,
       run: () => launch(() => buildQuick(buildCtx()), 'Nothing to review yet. Start the campaign first!'),
     },
@@ -99,7 +100,7 @@ export function ModesScreen() {
       icon: '👻',
       name: 'Ghost Race',
       blurb: 'Race your own best score on a mission.',
-      length: '3-5 min',
+      length: 'About 5-10 min · faster with GO',
       locked: rankLock(s, 'ghost') ?? (isModeUnlocked(s, 'ghost') ? null : 'Clear a mission first'),
       run: () => setGhostOpen(true),
     },
@@ -180,6 +181,14 @@ function GhostPicker({ onClose, onNotice }: { onClose: () => void; onNotice: (m:
   const s = useGame()
   // Most advanced cleared mission first: that is the freshest one to race.
   const list = allClearedMissions(s).reverse()
+  // Escape closes the picker, like the other dialogs.
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose()
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [onClose])
   const race = (d: (typeof list)[number]) => {
     const best = s.bestScores[missionKey(d.district, d.missionIndex)] ?? 0
     onClose()
@@ -196,7 +205,7 @@ function GhostPicker({ onClose, onNotice }: { onClose: () => void; onNotice: (m:
               ✕
             </button>
           </div>
-          <p className="text-dim mt-1">Same road as your best run. Beat your own score!</p>
+          <p className="text-dim mt-1">Race your best score on this mission. Beat your own ghost!</p>
           <ul className="mt-3 flex flex-col gap-2 overflow-y-auto">
             {list.map((m, i) => {
               const d = districtById.get(m.district)
@@ -204,6 +213,7 @@ function GhostPicker({ onClose, onNotice }: { onClose: () => void; onNotice: (m:
               return (
                 <li key={`${m.district}:${m.missionIndex}`}>
                   <button
+                    autoFocus={i === 0}
                     onClick={() => race(m)}
                     className={`w-full min-h-14 flex items-center gap-3 rounded-xl border-2 px-3 py-2 text-left hover:border-nitro ${i === 0 ? 'border-nitro bg-nitro/10' : 'border-line bg-panel2'}`}
                   >
@@ -221,7 +231,7 @@ function GhostPicker({ onClose, onNotice }: { onClose: () => void; onNotice: (m:
             })}
           </ul>
           {list.length === 0 && <p className="mt-3 text-lg">Clear a mission first, then race your ghost here.</p>}
-          <Button className="mt-3" variant="ghost" onClick={onClose}>
+          <Button className="mt-3" variant="ghost" onClick={onClose} autoFocus={list.length === 0}>
             Cancel
           </Button>
         </div>
