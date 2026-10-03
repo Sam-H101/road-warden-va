@@ -113,11 +113,25 @@ Flow:
 Speed: cruise speed when not braking; braking decelerates to 0 in ~1.2 s;
 releasing re-accelerates to cruise in ~1.5 s. Show a speedometer.
 
+### Pacing: slow roll + green GO (player-tested requirement, do not undo)
+The learner found the original pace too fast and distracting. Current design:
+- **Learning modes** (mission, quick, replay, ghost): the car cruises at a calm
+  15 mph and each gate or hazard takes **up to 60 s** to reach the car
+  (`SLOW_ROLL_WINDOW_MS` in `game/director.ts`). The prompt card shows
+  "Take your time: 52s · Ready? Press GO".
+- **Green GO button** (also ↑, W, G, Enter): speeds the road up so the gate
+  arrives in ~4.5 s (`GO_ARRIVE_MS`). Braking cancels GO. GO resets after each
+  decision, so every gate starts calm. Horn is K.
+- **Emergency vehicle from behind** keeps its own short window
+  (`BEHIND_WINDOW_MS` = 12 s × reaction scale) so the siren never lasts a minute.
+- **Timed/survival modes** (sniper, numbers, hazard): base window 6.5 s ×
+  reaction scale, min 3 s, with ramp; GO still works (×2).
+- Keep visuals calm: no busy flashing, modest scenery, effects short.
+
 ### Events
 The run queue is `plan.events`. Spawn one event at a time at z = far (~40).
-Travel time to the player at cruise = `windowMs = 3500 * settings.reactionScale
-* (radar perk ? 1.3 : 1) / (1 + ramp * eventsSoFar)` (ramp from plan). Gap
-between events ~1.2 s of free cruising (ambient traffic/scenery).
+Travel time to the player at cruise is `RunDirector.windowMs()` (see Pacing).
+Gap between events ~1.2 s of free cruising.
 The prompt for the current event is shown in the React HUD at the top in big
 text with a read-aloud button (auto-read if setting is `auto`). If the event has
 an image, show it big on a roadside billboard in the scene AND as a thumbnail
