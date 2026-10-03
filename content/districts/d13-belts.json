@@ -370,9 +370,9 @@
       "id": "ev-belt-driver-under-18-3",
       "item": "belt-driver-under-18",
       "kind": "gates",
-      "prompt": "Rider under 18 sits in back. Your job?",
+      "prompt": "A rider under 18 sits in back. The driver must:",
       "choices": [
-        "Rider's choice",
+        "Let the rider decide",
         "Check front seat only",
         "Make sure they buckle"
       ],
@@ -446,7 +446,7 @@
       "id": "ev-belt-shoulder-chest-2",
       "item": "belt-shoulder-chest",
       "kind": "gates",
-      "prompt": "Shoulder belt behind your back. Is that OK?",
+      "prompt": "Can a driver wear the shoulder belt behind their back?",
       "choices": [
         "Yes, on short trips",
         "Yes, if lap belt is on",
@@ -459,7 +459,7 @@
       "id": "ev-belt-shoulder-chest-3",
       "item": "belt-shoulder-chest",
       "kind": "gates",
-      "prompt": "Shoulder belt is under your arm. Fix it:",
+      "prompt": "Your shoulder belt is under your arm. What should you do?",
       "choices": [
         "Move it across chest",
         "Leave it there",
@@ -472,11 +472,11 @@
       "id": "ev-belt-pregnant-1",
       "item": "belt-pregnant",
       "kind": "gates",
-      "prompt": "Pregnant? Where does the belt go?",
+      "prompt": "Where should a pregnant woman wear her seat belt?",
       "choices": [
         "Low on the pelvis",
         "Over the belly",
-        "Skip the belt"
+        "No belt at all"
       ],
       "answer": 0,
       "missLine": "Pregnant women should wear the belt as low on the pelvis as possible."
@@ -485,7 +485,7 @@
       "id": "ev-belt-pregnant-2",
       "item": "belt-pregnant",
       "kind": "gates",
-      "prompt": "Pregnant rider. Buckle up?",
+      "prompt": "Should a pregnant rider wear a seat belt?",
       "choices": [
         "No, it's unsafe",
         "Only the lap belt",
@@ -511,10 +511,10 @@
       "id": "ev-belt-medical-waiver-2",
       "item": "belt-medical-waiver",
       "kind": "gates",
-      "prompt": "Seat belt waiver? You must carry:",
+      "prompt": "A person with a seat belt waiver must carry:",
       "choices": [
         "Nothing",
-        "Your birth certificate",
+        "A birth certificate",
         "Doctor's signed statement"
       ],
       "answer": 2,
@@ -589,7 +589,7 @@
       "id": "ev-belt-airbag-10-inches-2",
       "item": "belt-airbag-10-inches",
       "kind": "gates",
-      "prompt": "Too close to the wheel. Fix it:",
+      "prompt": "A driver sits too close to the steering wheel. They should:",
       "choices": [
         "Move seat back",
         "Move seat forward",
@@ -602,7 +602,7 @@
       "id": "ev-belt-airbag-10-inches-3",
       "item": "belt-airbag-10-inches",
       "kind": "gates",
-      "prompt": "Air bag car: stay at least this far back:",
+      "prompt": "With air bags, sit at least this far from the wheel:",
       "choices": [
         "5 inches",
         "10 inches",
@@ -615,7 +615,7 @@
       "id": "ev-belt-airbag-tilt-wheel-1",
       "item": "belt-airbag-tilt-wheel",
       "kind": "gates",
-      "prompt": "Wheel can tilt? Which way do you tilt it?",
+      "prompt": "With air bags, which way should you tilt the steering wheel?",
       "choices": [
         "Up, toward your face",
         "Down, toward your chest",
@@ -715,7 +715,7 @@
       "id": "ev-belt-rear-facing-2-1",
       "item": "belt-rear-facing-2",
       "kind": "gates",
-      "prompt": "Rear facing from birth until what age?",
+      "prompt": "Babies ride rear facing from birth until what age?",
       "choices": [
         "2 years",
         "6 months",
@@ -741,7 +741,7 @@
       "id": "ev-belt-rear-facing-2-3",
       "item": "belt-rear-facing-2",
       "kind": "gates",
-      "prompt": "Rear facing past 2 is OK if the...",
+      "prompt": "A child can ride rear facing past age 2 if the...",
       "choices": [
         "Baby is asleep",
         "Trip is short",
@@ -754,7 +754,7 @@
       "id": "ev-belt-rear-facing-front-1",
       "item": "belt-rear-facing-front",
       "kind": "gates",
-      "prompt": "No back seat. Rear-facing seat up front only if...",
+      "prompt": "Car has no back seat. Rear-facing child seat up front only if...",
       "choices": [
         "Air bag off or not there",
         "The trip is short",
@@ -767,9 +767,9 @@
       "id": "ev-belt-rear-facing-front-2",
       "item": "belt-rear-facing-front",
       "kind": "gates",
-      "prompt": "Passenger air bag is ON. Rear-facing seat up front?",
+      "prompt": "Passenger air bag is on. Can a rear-facing seat go up front?",
       "choices": [
-        "Yes, it's fine",
+        "Yes, any time",
         "No, not allowed",
         "Yes, if belted"
       ],
@@ -780,7 +780,7 @@
       "id": "ev-belt-forward-until-8-1",
       "item": "belt-forward-until-8",
       "kind": "gates",
-      "prompt": "Face forward in a seat or booster until age...",
+      "prompt": "Kids face forward in a child seat or booster until age...",
       "choices": [
         "4",
         "6",
@@ -793,20 +793,20 @@
       "id": "ev-belt-forward-until-8-2",
       "item": "belt-forward-until-8",
       "kind": "gates",
-      "prompt": "Keep the booster until age 8, or until the...",
+      "prompt": "A child uses a booster until age 8, or until the...",
       "choices": [
         "Child starts school",
         "Belt fits right",
         "Child asks to stop"
       ],
       "answer": 1,
-      "missLine": "Keep the booster until at least age 8, or until the belt fits right."
+      "missLine": "Kids use a booster until at least age 8, or until the belt fits right."
     },
     {
       "id": "ev-belt-booster-belt-fit-1",
       "item": "belt-booster-belt-fit",
       "kind": "gates",
-      "prompt": "No booster: the lap belt lies across the...",
+      "prompt": "A child riding without a booster: lap belt lies across the...",
       "choices": [
         "Stomach",
         "Upper thighs",
@@ -819,7 +819,7 @@
       "id": "ev-belt-booster-belt-fit-2",
       "item": "belt-booster-belt-fit",
       "kind": "gates",
-      "prompt": "No booster: the shoulder belt crosses the...",
+      "prompt": "A child riding without a booster: shoulder belt crosses the...",
       "choices": [
         "Neck and face",
         "Upper arm",
@@ -832,33 +832,33 @@
       "id": "ev-belt-booster-sitting-1",
       "item": "belt-booster-sitting",
       "kind": "gates",
-      "prompt": "No booster: where do the child's feet go?",
+      "prompt": "To ride without a booster, where do a child's feet go?",
       "choices": [
         "Flat on the floor",
         "Dangling in the air",
         "Up on the seat"
       ],
       "answer": 0,
-      "missLine": "To skip the booster, the child keeps feet flat on the floor."
+      "missLine": "To ride without a booster, a child keeps feet flat on the floor."
     },
     {
       "id": "ev-belt-booster-sitting-2",
       "item": "belt-booster-sitting",
       "kind": "gates",
-      "prompt": "No booster: where do the knees bend?",
+      "prompt": "To ride without a booster, where do the knees bend?",
       "choices": [
         "Up on the seat",
         "Against the door",
         "Over the seat edge"
       ],
       "answer": 2,
-      "missLine": "To skip the booster, the child's knees bend over the seat edge."
+      "missLine": "To ride without a booster, a child's knees bend over the seat edge."
     },
     {
       "id": "ev-belt-booster-sitting-3",
       "item": "belt-booster-sitting",
       "kind": "gates",
-      "prompt": "No booster: child must sit this way how long?",
+      "prompt": "Without a booster, how long must a child sit correctly?",
       "choices": [
         "First 10 minutes",
         "The entire trip",
@@ -950,10 +950,10 @@
       "id": "ev-belt-center-back-seat-2",
       "item": "belt-center-back-seat",
       "kind": "gates",
-      "prompt": "Not sure the child seat is in right? You:",
+      "prompt": "A parent is unsure the child seat is in right. They should:",
       "choices": [
         "Go to a seat check",
-        "Guess and go",
+        "Drive and hope it's fine",
         "Move it up front"
       ],
       "answer": 0,
@@ -998,7 +998,7 @@
       "id": "ev-belt-doors-child-locks-1",
       "item": "belt-doors-child-locks",
       "kind": "gates",
-      "prompt": "Child needs a door opened. What do you do?",
+      "prompt": "While driving, a child needs a door opened. You should:",
       "choices": [
         "Pull off road and stop",
         "Open it while rolling",
@@ -1011,7 +1011,7 @@
       "id": "ev-belt-doors-child-locks-2",
       "item": "belt-doors-child-locks",
       "kind": "gates",
-      "prompt": "Car has child safety locks. Use them?",
+      "prompt": "A car has child safety locks. Should the driver use them?",
       "choices": [
         "No, never",
         "Yes, turn them on",
@@ -1050,11 +1050,11 @@
       "id": "ev-belt-no-cargo-area-2",
       "item": "belt-no-cargo-area",
       "kind": "gates",
-      "prompt": "Child in the back seat. Hatchback is open?",
+      "prompt": "A child rides in back. The hatchback is open. You should:",
       "choices": [
-        "Close it first",
-        "Fine if you go slow",
-        "Fine on back roads"
+        "Close the hatchback first",
+        "Drive slowly with it open",
+        "Leave it open on back roads"
       ],
       "answer": 0,
       "missLine": "Never leave a hatchback open when a child rides in the back seat."
@@ -1085,7 +1085,7 @@
       "id": "ev-belt-pickup-bed-16-2",
       "item": "belt-pickup-bed-16",
       "kind": "gates",
-      "prompt": "Camper shell on the bed. Kids under 16 okay?",
+      "prompt": "Pickup has a camper shell. Can kids under 16 ride back there?",
       "choices": [
         "No, still illegal",
         "Yes, it's covered",
@@ -1147,7 +1147,7 @@
       "id": "ev-belt-airbag-on-off-switch-1",
       "item": "belt-airbag-on-off-switch",
       "kind": "gates",
-      "prompt": "Need an air bag on/off switch? Contact:",
+      "prompt": "To apply for a car's air bag on/off switch, contact:",
       "choices": [
         "Your insurance company",
         "The local police",
@@ -1160,7 +1160,7 @@
       "id": "ev-belt-airbag-on-off-switch-2",
       "item": "belt-airbag-on-off-switch",
       "kind": "gates",
-      "prompt": "Who has more info about air bags?",
+      "prompt": "Which agency has more facts about car air bags?",
       "choices": [
         "Your doctor",
         "NHTSA",
@@ -1619,7 +1619,7 @@
         "On an adult's lap"
       ],
       "answer": 0,
-      "explain": "Next comes a forward-facing child safety seat or booster seat."
+      "explain": "After rear facing, a child rides facing forward in a child safety seat or booster seat."
     },
     {
       "id": "q-belt-booster-belt-fit-1",
@@ -1654,7 +1654,7 @@
       "id": "q-belt-booster-sitting-1",
       "item": "belt-booster-sitting",
       "part": 2,
-      "prompt": "To ride without a booster seat, a child must be able to:",
+      "prompt": "Which is a requirement for a child to ride without a booster seat?",
       "choices": [
         "Age 5 or older",
         "Can buckle the belt alone",
@@ -1785,7 +1785,7 @@
       "choices": [
         "Install it in the front seat",
         "Ask your passenger to hold it",
-        "Skip the instructions",
+        "Guess how to install it",
         "Attend a child safety seat check"
       ],
       "answer": 3,
@@ -1939,7 +1939,7 @@
       "choices": [
         "So the child can reach the door locks",
         "So the child can ride in the luggage area",
-        "So the driver can skip wearing a seat belt",
+        "So the driver can go without a seat belt",
         "It can significantly reduce the possibility of death or injury"
       ],
       "answer": 3,

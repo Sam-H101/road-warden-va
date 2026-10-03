@@ -233,10 +233,10 @@
       "id": "ev-work-orange-color-3",
       "item": "work-orange-color",
       "kind": "gates",
-      "prompt": "Orange on a sign tells you to:",
+      "prompt": "Orange on a road sign tells drivers to:",
       "choices": [
         "Slow down, stay alert",
-        "Speed up to get past",
+        "Speed up through it",
         "Look for gas"
       ],
       "answer": 0,
@@ -283,7 +283,7 @@
       "id": "ev-work-handheld-fine-1",
       "item": "work-handheld-fine",
       "kind": "gates",
-      "prompt": "Phone in hand in a work zone. The fine?",
+      "prompt": "Work zone fine for holding a phone while driving?",
       "image": "sign-road-work-ahead",
       "choices": [
         "$250",
@@ -297,7 +297,7 @@
       "id": "ev-work-handheld-fine-2",
       "item": "work-handheld-fine",
       "kind": "gates",
-      "prompt": "Phone in hand, work zone. How much?",
+      "prompt": "Holding a phone while driving in a work zone costs:",
       "choices": [
         "$100",
         "$1,000",
@@ -382,10 +382,10 @@
       "id": "ev-work-detour-3",
       "item": "work-detour",
       "kind": "gates",
-      "prompt": "Road Construction Ahead sign. You should:",
+      "prompt": "A driver sees Road Construction Ahead. The driver should:",
       "choices": [
-        "Speed up",
-        "Change lanes now",
+        "Speed up through it",
+        "Change lanes right away",
         "Slow down"
       ],
       "answer": 2,
@@ -419,11 +419,11 @@
       "id": "ev-work-arrow-board-3",
       "item": "work-arrow-board",
       "kind": "gates",
-      "prompt": "Arrow board points right. You should:",
+      "prompt": "A work zone arrow board points right. Drivers should:",
       "choices": [
-        "Move left",
-        "Stay in your lane",
-        "Move right"
+        "Merge left",
+        "Stay in the same lane",
+        "Merge right"
       ],
       "answer": 2,
       "missLine": "Follow the arrow. It moves you out of the closed lane."
@@ -509,7 +509,7 @@
       "id": "ev-work-photo-enforced-2",
       "item": "work-photo-enforced",
       "kind": "gates",
-      "prompt": "Cameras in this work zone check your:",
+      "prompt": "Work zones with this sign use cameras to check:",
       "image": "sign-photo-enforced",
       "choices": [
         "Seat belt",
@@ -558,7 +558,7 @@
       "id": "ev-work-leaving-zone-1",
       "item": "work-leaving-zone",
       "kind": "gates",
-      "prompt": "Leaving a work zone. Change lanes when?",
+      "prompt": "Leaving a work zone, a driver may change lanes:",
       "choices": [
         "Right away",
         "Once fully clear",
@@ -571,7 +571,7 @@
       "id": "ev-work-leaving-zone-2",
       "item": "work-leaving-zone",
       "kind": "gates",
-      "prompt": "Leaving a work zone, you should:",
+      "prompt": "Leaving a work zone, a driver should:",
       "choices": [
         "Change lanes fast",
         "Stop on the shoulder",
@@ -593,7 +593,7 @@
       "id": "ev-work-message-boards-1",
       "item": "work-message-boards",
       "kind": "gates",
-      "prompt": "A message board tells you what to do. You:",
+      "prompt": "A roadside message board gives a direction. Drivers should:",
       "choices": [
         "Ignore it",
         "Obey it",
@@ -610,7 +610,7 @@
       "choices": [
         "Traffic, road, weather",
         "Gas prices",
-        "Sports scores"
+        "Sports news"
       ],
       "answer": 0,
       "missLine": "Message boards warn about traffic, road, weather or other dangers."
@@ -637,7 +637,7 @@
       "id": "ev-work-rumble-strips-2",
       "item": "work-rumble-strips",
       "kind": "gates",
-      "prompt": "Rumble strips across your lane. You should:",
+      "prompt": "Rumble strips cross a driver's lane. The driver should:",
       "choices": [
         "Swerve around them",
         "Drive over slowly",
@@ -740,7 +740,7 @@
       "prompt": "Black and white sign in a work zone. It is:",
       "choices": [
         "A rule to obey",
-        "Just a tip",
+        "Only a suggestion",
         "Gas and food ahead"
       ],
       "answer": 0,
@@ -766,7 +766,7 @@
       "prompt": "Speed limit sign in a work zone. It is:",
       "image": "sign-speed-limit",
       "choices": [
-        "Just a tip",
+        "Only a suggestion",
         "For trucks only",
         "The law"
       ],
@@ -831,7 +831,7 @@
       "id": "ev-work-services-blue-2",
       "item": "work-services-blue",
       "kind": "gates",
-      "prompt": "Need gas? Look for this sign color:",
+      "prompt": "Drivers who need gas look for signs colored:",
       "choices": [
         "Brown",
         "Green",

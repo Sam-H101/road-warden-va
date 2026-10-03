@@ -136,384 +136,384 @@
       "id": "ev-rook-exam-two-parts-1",
       "item": "rook-exam-two-parts",
       "kind": "gates",
-      "prompt": "How many parts does the exam have?",
+      "prompt": "How many parts does the DMV knowledge exam have?",
       "choices": [
         "One part",
         "Two parts",
         "Three parts"
       ],
       "answer": 1,
-      "missLine": "The knowledge exam has two parts: signs first, then general knowledge."
+      "missLine": "The DMV knowledge exam has two parts: signs first, then general knowledge."
     },
     {
       "id": "ev-rook-exam-two-parts-2",
       "item": "rook-exam-two-parts",
       "kind": "gates",
-      "prompt": "Part one of the exam is about...",
+      "prompt": "Part one of the DMV exam is about...",
       "choices": [
         "Traffic signs",
         "Parking skills",
         "Car repair"
       ],
       "answer": 0,
-      "missLine": "Part one is all traffic sign questions."
+      "missLine": "Part one of the DMV exam is all traffic sign questions."
     },
     {
       "id": "ev-rook-exam-two-parts-3",
       "item": "rook-exam-two-parts",
       "kind": "gates",
-      "prompt": "Where do the exam questions come from?",
+      "prompt": "Where do DMV exam questions come from?",
       "choices": [
         "The police",
         "Car owner's manual",
         "Virginia Driver's Manual"
       ],
       "answer": 2,
-      "missLine": "Every exam question comes from the Virginia Driver's Manual."
+      "missLine": "Every DMV exam question comes from the Virginia Driver's Manual."
     },
     {
       "id": "ev-rook-ten-sign-questions-1",
       "item": "rook-ten-sign-questions",
       "kind": "gates",
-      "prompt": "How many sign questions are in part one?",
+      "prompt": "DMV exam part one: how many sign questions?",
       "choices": [
         "5 questions",
         "10 questions",
         "20 questions"
       ],
       "answer": 1,
-      "missLine": "Part one has 10 traffic sign questions."
+      "missLine": "DMV exam part one has 10 traffic sign questions."
     },
     {
       "id": "ev-rook-ten-sign-questions-2",
       "item": "rook-ten-sign-questions",
       "kind": "gates",
-      "prompt": "How many sign questions must you get right?",
+      "prompt": "DMV exam: how many sign questions must be right?",
       "choices": [
         "All 10",
         "9 of 10",
         "8 of 10"
       ],
       "answer": 0,
-      "missLine": "You must get all 10 sign questions right to reach part two."
+      "missLine": "On the DMV exam, all 10 sign questions must be right to reach part two."
     },
     {
       "id": "ev-rook-ten-sign-questions-3",
       "item": "rook-ten-sign-questions",
       "kind": "gates",
-      "prompt": "You missed 1 sign question. Start part two?",
+      "prompt": "DMV exam: a driver misses 1 sign question. Is part two allowed?",
       "choices": [
-        "Yes, go on",
-        "No, not yet",
-        "Yes, with help"
+        "Yes, right away",
+        "No, not allowed",
+        "Only with help"
       ],
       "answer": 1,
-      "missLine": "You need all 10 sign questions right before part two."
+      "missLine": "On the DMV exam, all 10 sign questions must be right before part two."
     },
     {
       "id": "ev-rook-part-two-80-percent-1",
       "item": "rook-part-two-80-percent",
       "kind": "gates",
-      "prompt": "What score passes part two?",
+      "prompt": "DMV exam part two: what percent must be right?",
       "choices": [
         "50 percent",
         "70 percent",
         "80 percent"
       ],
       "answer": 2,
-      "missLine": "You need at least 80 percent right to pass part two."
+      "missLine": "DMV exam part two needs at least 80 percent right to pass."
     },
     {
       "id": "ev-rook-part-two-80-percent-2",
       "item": "rook-part-two-80-percent",
       "kind": "gates",
-      "prompt": "Part two: how many right out of every 10?",
+      "prompt": "DMV exam part two: how many right of every 10?",
       "choices": [
         "6 of 10",
         "8 of 10",
         "10 of 10"
       ],
       "answer": 1,
-      "missLine": "Part two needs 80 percent. That is at least 8 of every 10."
+      "missLine": "DMV exam part two needs 80 percent, at least 8 of every 10."
     },
     {
       "id": "ev-rook-part-two-80-percent-3",
       "item": "rook-part-two-80-percent",
       "kind": "gates",
-      "prompt": "Which part needs 80 percent to pass?",
+      "prompt": "Which DMV exam part needs 80 percent to pass?",
       "choices": [
         "Part two (general)",
         "Part one (signs)",
         "Both parts"
       ],
       "answer": 0,
-      "missLine": "Part two needs 80 percent. Part one needs all 10 right."
+      "missLine": "On the DMV exam, part two needs 80 percent and part one needs all 10 right."
     },
     {
       "id": "ev-rook-once-per-day-1",
       "item": "rook-once-per-day",
       "kind": "gates",
-      "prompt": "How often can you take the exam?",
+      "prompt": "How often can you take the DMV knowledge exam?",
       "choices": [
         "Once a business day",
         "Twice a day",
         "Any time you like"
       ],
       "answer": 0,
-      "missLine": "You get one exam try each business day."
+      "missLine": "You get one DMV exam try each business day."
     },
     {
       "id": "ev-rook-once-per-day-2",
       "item": "rook-once-per-day",
       "kind": "gates",
-      "prompt": "Failed this morning. Retake it this afternoon?",
+      "prompt": "Failed the DMV exam this morning. Retake it this afternoon?",
       "choices": [
         "Yes, right away",
         "Yes, with a note",
         "No, not today"
       ],
       "answer": 2,
-      "missLine": "One try per business day. Come back on another day."
+      "missLine": "The DMV exam allows one try per business day, so return another day."
     },
     {
       "id": "ev-rook-once-per-day-3",
       "item": "rook-once-per-day",
       "kind": "gates",
-      "prompt": "How many exam tries per business day?",
+      "prompt": "How many DMV exam tries per business day?",
       "choices": [
         "1 try",
         "2 tries",
         "3 tries"
       ],
       "answer": 0,
-      "missLine": "You may take the knowledge exam once per business day."
+      "missLine": "You may take the DMV knowledge exam once per business day."
     },
     {
       "id": "ev-rook-under-18-wait-15-1",
       "item": "rook-under-18-wait-15",
       "kind": "gates",
-      "prompt": "Under 18 and failed. How long do you wait?",
+      "prompt": "A driver under 18 fails the DMV exam. How long to wait?",
       "choices": [
         "7 days",
         "15 days",
         "30 days"
       ],
       "answer": 1,
-      "missLine": "Under 18? After a fail, wait a full 15 days to retest."
+      "missLine": "Under 18? After failing the DMV exam, wait a full 15 days to retest."
     },
     {
       "id": "ev-rook-under-18-wait-15-2",
       "item": "rook-under-18-wait-15",
       "kind": "gates",
-      "prompt": "Under 18, failed January 1. Earliest retest?",
+      "prompt": "Under 18, failed the DMV exam on January 1. Earliest retest?",
       "choices": [
         "January 2",
         "January 8",
         "January 17"
       ],
       "answer": 2,
-      "missLine": "Under 18 and fail on January 1? The earliest retest is January 17."
+      "missLine": "Under 18 and fail the DMV exam on January 1? Earliest retest is January 17."
     },
     {
       "id": "ev-rook-under-18-wait-15-3",
       "item": "rook-under-18-wait-15",
       "kind": "gates",
-      "prompt": "Who must wait 15 days after a fail?",
+      "prompt": "Who must wait 15 days after failing the DMV exam?",
       "choices": [
         "18 and older",
         "Under 18",
         "Everyone"
       ],
       "answer": 1,
-      "missLine": "If you are under 18, you must wait a full 15 days after a fail."
+      "missLine": "If you are under 18, wait a full 15 days after failing the DMV exam."
     },
     {
       "id": "ev-rook-three-fails-1",
       "item": "rook-three-fails",
       "kind": "gates",
-      "prompt": "Failed the exam 3 times. What comes next?",
+      "prompt": "Failed the DMV exam 3 times. What is required next?",
       "choices": [
         "Retake it tomorrow",
         "Classroom driver ed",
         "Bring a translator"
       ],
       "answer": 1,
-      "missLine": "After 3 fails, pass classroom driver ed before a 4th try."
+      "missLine": "After 3 DMV exam fails, pass classroom driver ed before a 4th try."
     },
     {
       "id": "ev-rook-three-fails-2",
       "item": "rook-three-fails",
       "kind": "gates",
-      "prompt": "How many fails until you need driver ed?",
+      "prompt": "How many DMV exam fails until driver ed is required?",
       "choices": [
         "1 fail",
         "2 fails",
         "3 fails"
       ],
       "answer": 2,
-      "missLine": "Fail 3 times, and you need driver ed before you try again."
+      "missLine": "Fail the DMV exam 3 times, and you need driver ed before retesting."
     },
     {
       "id": "ev-rook-three-fails-3",
       "item": "rook-three-fails",
       "kind": "gates",
-      "prompt": "3 fails. Which DMV-approved course may count?",
+      "prompt": "After 3 DMV exam fails, which DMV-approved course may count?",
       "choices": [
         "2-hour course",
         "4-hour course",
         "8-hour course"
       ],
       "answer": 2,
-      "missLine": "After 3 fails, you may be able to take a DMV-approved 8-hour course."
+      "missLine": "After 3 DMV exam fails, you may be able to take a DMV-approved 8-hour course."
     },
     {
       "id": "ev-rook-exam-languages-1",
       "item": "rook-exam-languages",
       "kind": "gates",
-      "prompt": "Exam is in your language. Bring a translator?",
+      "prompt": "The DMV exam is in your language. Bring a translator?",
       "choices": [
         "Yes, bring one",
         "No, not allowed",
         "Only for part two"
       ],
       "answer": 1,
-      "missLine": "Your language is offered, so you cannot use a translator."
+      "missLine": "The DMV exam offers your language, so you cannot use a translator."
     },
     {
       "id": "ev-rook-exam-languages-2",
       "item": "rook-exam-languages",
       "kind": "gates",
-      "prompt": "Want the questions read aloud?",
+      "prompt": "At the DMV exam, how can questions be read aloud?",
       "choices": [
         "Use the audio version",
         "Ask a friend to read",
         "Bring a translator"
       ],
       "answer": 0,
-      "missLine": "You can use the audio version of the exam."
+      "missLine": "You can use the audio version of the DMV exam."
     },
     {
       "id": "ev-rook-exam-languages-3",
       "item": "rook-exam-languages",
       "kind": "gates",
-      "prompt": "The exam comes in...",
+      "prompt": "The DMV exam comes in...",
       "choices": [
         "English only",
         "Paper form only",
         "Many languages and ASL"
       ],
       "answer": 2,
-      "missLine": "The exam comes in many languages and American Sign Language."
+      "missLine": "The DMV exam comes in many languages and American Sign Language."
     },
     {
       "id": "ev-rook-no-cell-phone-1",
       "item": "rook-no-cell-phone",
       "kind": "gates",
-      "prompt": "During the exam, your phone is...",
+      "prompt": "During the DMV exam, your phone is...",
       "choices": [
         "In your hand",
         "Put away",
         "On the desk"
       ],
       "answer": 1,
-      "missLine": "No cell phone during the exam. Put it away."
+      "missLine": "No cell phone during the DMV exam, so put it away."
     },
     {
       "id": "ev-rook-no-cell-phone-2",
       "item": "rook-no-cell-phone",
       "kind": "gates",
-      "prompt": "Can you use a cell phone during the exam?",
+      "prompt": "Can you use a cell phone during the DMV exam?",
       "choices": [
         "Yes, for a quick look",
         "Yes, as a calculator",
         "No, never"
       ],
       "answer": 2,
-      "missLine": "You cannot use a cell phone during the exam."
+      "missLine": "You cannot use a cell phone during the DMV exam."
     },
     {
       "id": "ev-rook-no-cell-phone-3",
       "item": "rook-no-cell-phone",
       "kind": "gates",
-      "prompt": "Your phone buzzes during the exam. You...",
+      "prompt": "Your phone buzzes during the DMV exam. You...",
       "choices": [
         "Leave it alone",
         "Check it fast",
         "Text back"
       ],
       "answer": 0,
-      "missLine": "Leave your phone alone. No cell phone during the exam."
+      "missLine": "Leave your phone alone, since no cell phone is allowed during the DMV exam."
     },
     {
       "id": "ev-rook-no-help-1",
       "item": "rook-no-help",
       "kind": "gates",
-      "prompt": "A friend offers you exam answers. You...",
+      "prompt": "A friend offers you DMV exam answers. You...",
       "choices": [
         "Take them",
         "Say no",
         "Share them"
       ],
       "answer": 1,
-      "missLine": "Say no. You cannot get exam questions or answers before the exam."
+      "missLine": "Say no, because you cannot get DMV exam questions or answers early."
     },
     {
       "id": "ev-rook-no-help-2",
       "item": "rook-no-help",
       "kind": "gates",
-      "prompt": "The person next to you is stuck. You...",
+      "prompt": "DMV exam: the person next to you is stuck. You...",
       "choices": [
         "Whisper the answer",
         "Point at the answer",
         "Do your own exam"
       ],
       "answer": 2,
-      "missLine": "Do your own exam. You cannot help another person."
+      "missLine": "Do your own DMV exam, because you cannot help another person."
     },
     {
       "id": "ev-rook-no-help-3",
       "item": "rook-no-help",
       "kind": "gates",
-      "prompt": "Can a friend help you during the exam?",
+      "prompt": "Can a friend help you during the DMV exam?",
       "choices": [
         "No, never",
         "Yes, a little",
         "Only on part two"
       ],
       "answer": 0,
-      "missLine": "You cannot get help during the exam. You do it on your own."
+      "missLine": "You cannot get help during the DMV exam, so do it on your own."
     },
     {
       "id": "ev-rook-hand-position-1",
       "item": "rook-hand-position",
       "kind": "gates",
-      "prompt": "The wheel is a clock. Where do hands go?",
+      "prompt": "Picture a real steering wheel as a clock. Where do hands go?",
       "choices": [
         "8 and 4",
         "10 and 2",
         "12 and 6"
       ],
       "answer": 0,
-      "missLine": "Picture a clock. Your hands go at 8 and 4."
+      "missLine": "On a real steering wheel, picture a clock: hands go at 8 and 4."
     },
     {
       "id": "ev-rook-hand-position-2",
       "item": "rook-hand-position",
       "kind": "gates",
-      "prompt": "Hands on the wheel: which clock spots?",
+      "prompt": "In a real car, hands go at which clock spots?",
       "choices": [
         "9 and 3",
         "7 and 5",
         "8 and 4"
       ],
       "answer": 2,
-      "missLine": "Your hands go at 8 o'clock and 4 o'clock."
+      "missLine": "In a real car, your hands go at 8 o'clock and 4 o'clock."
     },
     {
       "id": "ev-rook-hand-position-3",
       "item": "rook-hand-position",
       "kind": "gates",
-      "prompt": "How should you sit to drive?",
+      "prompt": "In a real car, how should you sit to drive?",
       "choices": [
         "Straight but relaxed",
         "Leaning far back",
@@ -526,7 +526,7 @@
       "id": "ev-rook-grip-fingers-1",
       "item": "rook-grip-fingers",
       "kind": "gates",
-      "prompt": "Hold the steering wheel with your...",
+      "prompt": "In a real car, hold the steering wheel with your...",
       "choices": [
         "Fingers and thumbs",
         "Palms",
@@ -539,7 +539,7 @@
       "id": "ev-rook-grip-fingers-2",
       "item": "rook-grip-fingers",
       "kind": "gates",
-      "prompt": "Pick the right grip.",
+      "prompt": "In a real car, which steering wheel grip is right?",
       "choices": [
         "Palms wrapped tight",
         "One hand at 12",
@@ -659,7 +659,7 @@
       "id": "q-rook-exam-two-parts-2",
       "item": "rook-exam-two-parts",
       "part": 2,
-      "prompt": "The knowledge exam tests your knowledge of:",
+      "prompt": "The DMV knowledge exam tests your knowledge of:",
       "choices": [
         "Traffic signs",
         "Motor vehicle laws",
@@ -667,13 +667,13 @@
         "All of these"
       ],
       "answer": 3,
-      "explain": "The knowledge exam tests traffic signs, motor vehicle laws and safe driving."
+      "explain": "The DMV knowledge exam tests traffic signs, motor vehicle laws and safe driving."
     },
     {
       "id": "q-rook-exam-two-parts-3",
       "item": "rook-exam-two-parts",
       "part": 2,
-      "prompt": "Questions on the knowledge exam are taken from:",
+      "prompt": "Questions on the DMV knowledge exam are taken from:",
       "choices": [
         "Information in the Virginia Driver's Manual",
         "Your car owner's manual",
@@ -681,13 +681,13 @@
         "Traffic court cases"
       ],
       "answer": 0,
-      "explain": "Exam questions are taken from information in the Virginia Driver's Manual."
+      "explain": "DMV exam questions are taken from information in the Virginia Driver's Manual."
     },
     {
       "id": "q-rook-ten-sign-questions-1",
       "item": "rook-ten-sign-questions",
       "part": 2,
-      "prompt": "To move on to part two of the knowledge exam, you must:",
+      "prompt": "To be allowed to take part two of the DMV knowledge exam, you must:",
       "choices": [
         "Answer all 10 traffic sign questions correctly",
         "Answer at least 8 of the 10 sign questions correctly",
@@ -695,13 +695,13 @@
         "Answer half of the sign questions correctly"
       ],
       "answer": 0,
-      "explain": "You must correctly answer all ten traffic sign questions before you can take part two."
+      "explain": "On the DMV exam, you must correctly answer all ten traffic sign questions before you can take part two."
     },
     {
       "id": "q-rook-ten-sign-questions-2",
       "item": "rook-ten-sign-questions",
       "part": 2,
-      "prompt": "Part one of the knowledge exam has how many traffic sign questions?",
+      "prompt": "Part one of the DMV knowledge exam has how many traffic sign questions?",
       "choices": [
         "Twenty",
         "Five",
@@ -709,27 +709,27 @@
         "Ten"
       ],
       "answer": 3,
-      "explain": "Part one has ten traffic sign questions, and you must get all ten right."
+      "explain": "Part one of the DMV exam has ten traffic sign questions, and you must get all ten right."
     },
     {
       "id": "q-rook-ten-sign-questions-3",
       "item": "rook-ten-sign-questions",
       "part": 2,
-      "prompt": "If you answer one traffic sign question wrong in part one, you:",
+      "prompt": "On the DMV knowledge exam, a driver who misses one sign question in part one:",
       "choices": [
         "Can still take part two",
-        "Lose a few points but keep going",
+        "Gets a lower score but still takes part two",
         "Cannot take part two",
-        "Only retake that one question"
+        "Only retakes that one question"
       ],
       "answer": 2,
-      "explain": "All ten sign questions must be correct before you can take part two."
+      "explain": "On the DMV exam, all ten sign questions must be correct before you can take part two."
     },
     {
       "id": "q-rook-part-two-80-percent-1",
       "item": "rook-part-two-80-percent",
       "part": 2,
-      "prompt": "To pass part two of the knowledge exam, you must answer at least what percent of the questions correctly?",
+      "prompt": "To pass part two of the DMV knowledge exam, you must answer at least what percent of the questions correctly?",
       "choices": [
         "70 percent",
         "75 percent",
@@ -737,13 +737,13 @@
         "90 percent"
       ],
       "answer": 2,
-      "explain": "You must answer at least 80 percent of part two questions correctly to pass."
+      "explain": "You must answer at least 80 percent of DMV exam part two questions correctly to pass."
     },
     {
       "id": "q-rook-part-two-80-percent-2",
       "item": "rook-part-two-80-percent",
       "part": 2,
-      "prompt": "Part two of the knowledge exam is made up of:",
+      "prompt": "Part two of the DMV knowledge exam is made up of:",
       "choices": [
         "Multiple choice general knowledge questions",
         "Traffic sign questions only",
@@ -751,13 +751,13 @@
         "A vision screening"
       ],
       "answer": 0,
-      "explain": "Part two tests your general knowledge with multiple choice questions."
+      "explain": "Part two of the DMV exam tests your general knowledge with multiple choice questions."
     },
     {
       "id": "q-rook-part-two-80-percent-3",
       "item": "rook-part-two-80-percent",
       "part": 2,
-      "prompt": "Which statement about the knowledge exam is true?",
+      "prompt": "Which statement about the DMV knowledge exam is true?",
       "choices": [
         "Part one needs 80 percent; part two needs every answer right",
         "Part one needs all 10 sign questions right; part two needs at least 80 percent",
@@ -765,13 +765,13 @@
         "Only part two counts toward passing"
       ],
       "answer": 1,
-      "explain": "Part one needs all ten sign questions right, and part two needs at least 80 percent."
+      "explain": "On the DMV exam, part one needs all ten sign questions right, and part two needs at least 80 percent."
     },
     {
       "id": "q-rook-once-per-day-1",
       "item": "rook-once-per-day",
       "part": 2,
-      "prompt": "The knowledge exam may be taken:",
+      "prompt": "The DMV knowledge exam may be taken:",
       "choices": [
         "Up to three times a day",
         "Only once per week",
@@ -779,13 +779,13 @@
         "Only once per business day"
       ],
       "answer": 3,
-      "explain": "The knowledge exam may be taken only once per business day."
+      "explain": "The DMV knowledge exam may be taken only once per business day."
     },
     {
       "id": "q-rook-once-per-day-2",
       "item": "rook-once-per-day",
       "part": 2,
-      "prompt": "If you fail the knowledge exam in the morning, you:",
+      "prompt": "If you fail the DMV knowledge exam in the morning, you:",
       "choices": [
         "May retake it that afternoon",
         "May not retake it that same business day",
@@ -793,13 +793,13 @@
         "May retake it the same day if a parent signs"
       ],
       "answer": 1,
-      "explain": "The exam may be taken only once per business day."
+      "explain": "The DMV exam may be taken only once per business day."
     },
     {
       "id": "q-rook-under-18-wait-15-1",
       "item": "rook-under-18-wait-15",
       "part": 2,
-      "prompt": "If you are under age 18 and fail the knowledge exam, you must:",
+      "prompt": "If you are under age 18 and fail the DMV knowledge exam, you must:",
       "choices": [
         "Wait until the next business day",
         "Wait until you turn 18",
@@ -807,13 +807,13 @@
         "Retake it right away"
       ],
       "answer": 2,
-      "explain": "By law, if you are under 18 and fail, you must wait a full 15 days before retaking the exam."
+      "explain": "By law, if you are under 18 and fail the DMV exam, you must wait a full 15 days before retaking it."
     },
     {
       "id": "q-rook-under-18-wait-15-2",
       "item": "rook-under-18-wait-15",
       "part": 2,
-      "prompt": "You are 16 and fail the knowledge exam on January 1. The earliest you can take it again is:",
+      "prompt": "A 16-year-old fails the DMV knowledge exam on January 1. The earliest they can take it again is:",
       "choices": [
         "January 2",
         "January 8",
@@ -821,13 +821,13 @@
         "January 17"
       ],
       "answer": 3,
-      "explain": "Under 18, you must wait a full 15 days, so a January 1 fail means January 17 at the earliest."
+      "explain": "Under 18, you must wait a full 15 days after failing the DMV exam, so a January 1 fail means January 17 at the earliest."
     },
     {
       "id": "q-rook-three-fails-1",
       "item": "rook-three-fails",
       "part": 2,
-      "prompt": "If you fail the knowledge exam three times, you:",
+      "prompt": "If you fail the DMV knowledge exam three times, you:",
       "choices": [
         "May take it again the next business day",
         "Must pass the classroom part of driver education before a fourth try",
@@ -835,27 +835,27 @@
         "Must pass the road skills test first"
       ],
       "answer": 1,
-      "explain": "After three fails, you must complete and pass classroom driver education before a fourth try."
+      "explain": "After three DMV exam fails, you must complete and pass classroom driver education before a fourth try."
     },
     {
       "id": "q-rook-three-fails-2",
       "item": "rook-three-fails",
       "part": 2,
-      "prompt": "If you are 18 or older and have failed the knowledge exam three times, you may:",
+      "prompt": "If you are 18 or older and have failed the DMV knowledge exam three times, you may:",
       "choices": [
         "Complete a DMV-approved 8-hour course on the manual, then retest",
         "Retake the exam the next business day",
         "Use a translator on the next try",
-        "Skip part one of the exam"
+        "Take only part two of the exam"
       ],
       "answer": 0,
-      "explain": "Adults who fail three times may complete a DMV-approved 8-hour course based on the manual."
+      "explain": "Adults who fail the DMV exam three times may complete a DMV-approved 8-hour course based on the manual."
     },
     {
       "id": "q-rook-exam-languages-1",
       "item": "rook-exam-languages",
       "part": 2,
-      "prompt": "Which statement about the knowledge exam is true?",
+      "prompt": "Which statement about the DMV knowledge exam is true?",
       "choices": [
         "It is offered only in English",
         "You may bring your own translator for any language",
@@ -863,13 +863,13 @@
         "An audio version is available"
       ],
       "answer": 3,
-      "explain": "An audio version of the exam is available."
+      "explain": "An audio version of the DMV exam is available."
     },
     {
       "id": "q-rook-exam-languages-2",
       "item": "rook-exam-languages",
       "part": 2,
-      "prompt": "Translators may not be used for knowledge tests in offered languages because:",
+      "prompt": "Translators may not be used for DMV knowledge tests in offered languages because:",
       "choices": [
         "Translators cost too much",
         "The exam is offered in many languages and American Sign Language",
@@ -877,13 +877,13 @@
         "An examiner reads every question out loud"
       ],
       "answer": 1,
-      "explain": "The exam comes in many languages and ASL, so translators are not allowed for offered languages."
+      "explain": "The DMV exam comes in many languages and ASL, so translators are not allowed for offered languages."
     },
     {
       "id": "q-rook-no-cell-phone-1",
       "item": "rook-no-cell-phone",
       "part": 2,
-      "prompt": "While taking the knowledge exam, you:",
+      "prompt": "While taking the DMV knowledge exam, you:",
       "choices": [
         "May use a cell phone to look up answers",
         "May text a friend for help",
@@ -891,13 +891,13 @@
         "May use a cell phone on part two only"
       ],
       "answer": 2,
-      "explain": "You cannot use a cell phone during the exam."
+      "explain": "You cannot use a cell phone during the DMV exam."
     },
     {
       "id": "q-rook-no-cell-phone-2",
       "item": "rook-no-cell-phone",
       "part": 2,
-      "prompt": "Which of these is against the rules during the knowledge exam?",
+      "prompt": "Which of these is against the rules during the DMV knowledge exam?",
       "choices": [
         "Using a cell phone",
         "Using the audio version of the exam",
@@ -905,13 +905,13 @@
         "Reading each question carefully"
       ],
       "answer": 0,
-      "explain": "Using a cell phone during the exam is not allowed."
+      "explain": "Using a cell phone during the DMV exam is not allowed."
     },
     {
       "id": "q-rook-no-help-1",
       "item": "rook-no-help",
       "part": 2,
-      "prompt": "When taking the knowledge exam, you cannot:",
+      "prompt": "When taking the DMV knowledge exam, you cannot:",
       "choices": [
         "Get help while taking the exam",
         "Help another person taking the exam",
@@ -919,13 +919,13 @@
         "All of these"
       ],
       "answer": 3,
-      "explain": "You cannot get help, give help, or try to get questions or answers before the exam."
+      "explain": "You cannot get help, give help, or try to get questions or answers before the DMV exam."
     },
     {
       "id": "q-rook-no-help-2",
       "item": "rook-no-help",
       "part": 2,
-      "prompt": "A friend who already took the exam offers you the questions and answers. You should:",
+      "prompt": "A friend who already took the DMV exam offers you its questions and answers. You should:",
       "choices": [
         "Study them the night before",
         "Say no; this is not allowed",
@@ -933,7 +933,7 @@
         "Bring them with you to the exam"
       ],
       "answer": 1,
-      "explain": "You cannot try to get test questions or answers before the exam."
+      "explain": "You cannot try to get DMV exam questions or answers before the exam."
     },
     {
       "id": "q-rook-hand-position-1",

@@ -315,7 +315,7 @@
       "id": "ev-spd-max-ideal-2",
       "item": "spd-max-ideal",
       "kind": "gates",
-      "prompt": "Can you drive slower than the limit?",
+      "prompt": "Can a driver legally go slower than the limit?",
       "choices": [
         "No, never",
         "Yes, if not blocking traffic",
@@ -328,9 +328,9 @@
       "id": "ev-spd-max-ideal-3",
       "item": "spd-max-ideal",
       "kind": "gates",
-      "prompt": "Can you drive faster than the limit?",
+      "prompt": "Can a driver legally go faster than the limit?",
       "choices": [
-        "Yes, to pass",
+        "Yes, to pass a car",
         "Yes, if roads are empty",
         "No, it is illegal"
       ],
@@ -436,11 +436,11 @@
       "id": "ev-spd-reckless-penalty-2",
       "item": "spd-reckless-penalty",
       "kind": "gates",
-      "prompt": "Can a court jail you for reckless driving?",
+      "prompt": "Can a court jail a driver for reckless driving?",
       "choices": [
         "No, only a fine",
-        "No, only points",
-        "Yes, it can"
+        "No, only demerit points",
+        "Yes, jail is possible"
       ],
       "answer": 2,
       "missLine": "A court can fine you, suspend your license, or put you in jail."
@@ -514,11 +514,11 @@
       "id": "ev-spd-radar-illegal-2",
       "item": "spd-radar-illegal",
       "kind": "gates",
-      "prompt": "Can you use a radar detector in Virginia?",
+      "prompt": "In Virginia, may a driver use a radar detector?",
       "choices": [
-        "Yes",
+        "Yes, it is legal",
         "Only at night",
-        "No"
+        "No, it is illegal"
       ],
       "answer": 2,
       "missLine": "Radar detectors are illegal in Virginia."
@@ -614,7 +614,7 @@
       "id": "ev-spd-default-55-3",
       "item": "spd-default-55",
       "kind": "gates",
-      "prompt": "School 25, dirt 35. All other roads?",
+      "prompt": "No sign: school 25, dirt 35. All other roads?",
       "choices": [
         "55 MPH",
         "65 MPH",
@@ -922,7 +922,7 @@
       "id": "ev-spd-follow-2-sec-2",
       "item": "spd-follow-2-sec",
       "kind": "gates",
-      "prompt": "Driving 25 MPH. Follow how far back?",
+      "prompt": "At 25 MPH on a dry road, follow how far back?",
       "choices": [
         "2 seconds",
         "3 seconds",
@@ -958,7 +958,7 @@
       "id": "ev-spd-follow-3-sec-2",
       "item": "spd-follow-3-sec",
       "kind": "gates",
-      "prompt": "Driving 40 MPH. Follow how far back?",
+      "prompt": "At 40 MPH on a dry road, follow how far back?",
       "choices": [
         "2 seconds",
         "3 seconds",
@@ -1011,7 +1011,7 @@
       "id": "ev-spd-follow-4-sec-3",
       "item": "spd-follow-4-sec",
       "kind": "gates",
-      "prompt": "The 2-3-4 second rules fail over what speed?",
+      "prompt": "The 2-3-4 second rules stop working over what speed?",
       "choices": [
         "45 MPH",
         "55 MPH",
@@ -1038,14 +1038,14 @@
       "id": "ev-spd-follow-count-2",
       "item": "spd-follow-count",
       "kind": "gates",
-      "prompt": "You reach the mark before counting 2. Do what?",
+      "prompt": "Car ahead passes a sign. You reach it 1 second later:",
       "choices": [
         "Slow down",
         "Speed up",
         "Keep same speed"
       ],
       "answer": 0,
-      "missLine": "If you reach the mark too soon, you are too close. Slow down."
+      "missLine": "Reaching the sign before counting 2 means you are too close. Slow down."
     },
     {
       "id": "ev-spd-follow-count-3",
@@ -1083,7 +1083,7 @@
       "id": "ev-spd-follow-add-seconds-3",
       "item": "spd-follow-add-seconds",
       "kind": "gates",
-      "prompt": "When should you add seconds?",
+      "prompt": "When should you add seconds of following distance?",
       "choices": [
         "Dry, clear road",
         "Empty highway",
@@ -1122,10 +1122,10 @@
       "id": "ev-spd-response-times-3",
       "item": "spd-response-times",
       "kind": "gates",
-      "prompt": "Which reacts faster?",
+      "prompt": "Which reacts faster, a driver's hands or foot?",
       "choices": [
-        "Your hands",
-        "Your foot",
+        "Hands on the wheel",
+        "Foot on the pedal",
         "Both the same"
       ],
       "answer": 0,
@@ -1184,11 +1184,11 @@
       "id": "ev-spd-tailgater-2",
       "item": "spd-tailgater",
       "kind": "gates",
-      "prompt": "A tailgater is behind you. Best move?",
+      "prompt": "A tailgater is close behind you. What is safest?",
       "choices": [
         "Slam on brakes",
         "Speed up a lot",
-        "Change lanes"
+        "Move to another lane"
       ],
       "answer": 2,
       "missLine": "Move to another lane if you can. Never brake suddenly."
@@ -1298,7 +1298,7 @@
       "id": "ev-spd-look-both-ways-1",
       "item": "spd-look-both-ways",
       "kind": "gates",
-      "prompt": "Shopping center lot. Before you cross a lane:",
+      "prompt": "Shopping center lot. Cars may cross your path. You should:",
       "choices": [
         "Look straight only",
         "Speed up",
@@ -1333,7 +1333,7 @@
       "id": "ev-spd-mirror-10-sec-1",
       "item": "spd-mirror-10-sec",
       "kind": "gates",
-      "prompt": "Check your rearview mirror about every:",
+      "prompt": "Drivers should check the rearview mirror about every:",
       "choices": [
         "2 seconds",
         "10 seconds",

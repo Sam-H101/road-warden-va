@@ -335,7 +335,7 @@
       "id": "ev-lic-knowledge-exam-who-1",
       "item": "lic-knowledge-exam-who",
       "kind": "gates",
-      "prompt": "Where do you take the knowledge exam?",
+      "prompt": "How is the DMV knowledge exam given?",
       "choices": [
         "On paper",
         "Out loud",
@@ -348,22 +348,22 @@
       "id": "ev-lic-knowledge-exam-who-2",
       "item": "lic-knowledge-exam-who",
       "kind": "gates",
-      "prompt": "First license ever. Knowledge exam needed?",
+      "prompt": "First license ever: is the DMV knowledge exam required?",
       "choices": [
-        "No",
-        "Yes",
-        "Only part two"
+        "No, not required",
+        "Yes, required",
+        "Only half of it"
       ],
       "answer": 1,
-      "missLine": "No valid license from elsewhere? Then you take the knowledge exam."
+      "missLine": "No valid license from elsewhere? Then you must take the DMV knowledge exam."
     },
     {
       "id": "ev-lic-knowledge-exam-who-3",
       "item": "lic-knowledge-exam-who",
       "kind": "gates",
-      "prompt": "Exam questions come from where?",
+      "prompt": "Virginia DMV exam questions come from where?",
       "choices": [
-        "This driver's manual",
+        "Virginia Driver's Manual",
         "Practice websites",
         "Other states' tests"
       ],
@@ -374,7 +374,7 @@
       "id": "ev-lic-under-18-wait-15-1",
       "item": "lic-under-18-wait-15",
       "kind": "gates",
-      "prompt": "Under 18, failed the exam. Days to wait?",
+      "prompt": "Under 18, failed the DMV knowledge exam. Days to wait?",
       "choices": [
         "15 days",
         "30 days",
@@ -387,20 +387,20 @@
       "id": "ev-lic-under-18-wait-15-2",
       "item": "lic-under-18-wait-15",
       "kind": "gates",
-      "prompt": "Age 16, failed on January 1. Earliest retake?",
+      "prompt": "Age 16, fails DMV exam January 1. Earliest date to test again?",
       "choices": [
         "January 2",
         "January 16",
         "January 17"
       ],
       "answer": 2,
-      "missLine": "Fail on January 1 and you are under 18? The earliest retake is January 17."
+      "missLine": "Under 18 and fail the DMV exam January 1? The earliest retake is January 17."
     },
     {
       "id": "ev-lic-under-18-wait-15-3",
       "item": "lic-under-18-wait-15",
       "kind": "gates",
-      "prompt": "Who must wait 15 days after failing?",
+      "prompt": "Who waits 15 days after failing the DMV knowledge exam?",
       "choices": [
         "People 18 and older",
         "Everyone",
@@ -413,20 +413,20 @@
       "id": "ev-lic-one-test-per-day-1",
       "item": "lic-one-test-per-day",
       "kind": "gates",
-      "prompt": "Age 20, failed the exam this morning. Retry?",
+      "prompt": "Age 20, failed DMV exam this morning. When can they test again?",
       "choices": [
         "This afternoon",
         "Twice more today",
         "Next business day"
       ],
       "answer": 2,
-      "missLine": "You can take the knowledge exam only once per business day."
+      "missLine": "The DMV knowledge exam may be taken only once per business day."
     },
     {
       "id": "ev-lic-one-test-per-day-2",
       "item": "lic-one-test-per-day",
       "kind": "gates",
-      "prompt": "How often can you take the road test?",
+      "prompt": "How often can someone take the DMV road skills test?",
       "choices": [
         "Twice a day",
         "Once per business day",
@@ -439,33 +439,33 @@
       "id": "ev-lic-exam-languages-1",
       "item": "lic-exam-languages",
       "kind": "gates",
-      "prompt": "Exam comes in your language. Translator allowed?",
+      "prompt": "DMV exam is offered in your language. Translator allowed?",
       "choices": [
-        "Yes",
-        "No",
-        "Only for part two"
+        "Yes, allowed",
+        "No, not allowed",
+        "Only for some questions"
       ],
       "answer": 1,
-      "missLine": "The exam comes in many languages, so translators may not be used for them."
+      "missLine": "The DMV exam comes in many languages, so translators are not allowed for those languages."
     },
     {
       "id": "ev-lic-exam-languages-2",
       "item": "lic-exam-languages",
       "kind": "gates",
-      "prompt": "Reading is hard for you. The exam has:",
+      "prompt": "Reading is hard? The DMV knowledge exam offers:",
       "choices": [
         "A shorter version",
         "An audio version",
         "An open-book version"
       ],
       "answer": 1,
-      "missLine": "An audio version of the knowledge exam is available."
+      "missLine": "An audio version of the DMV knowledge exam is available."
     },
     {
       "id": "ev-lic-exam-languages-3",
       "item": "lic-exam-languages",
       "kind": "gates",
-      "prompt": "Need special help with testing? Tell who?",
+      "prompt": "A DMV test taker needs special help. Who should they tell?",
       "choices": [
         "Another test taker",
         "Nobody",
@@ -478,7 +478,7 @@
       "id": "ev-lic-three-fails-knowledge-1",
       "item": "lic-three-fails-knowledge",
       "kind": "gates",
-      "prompt": "Failed knowledge exam 3 times. What next?",
+      "prompt": "Failed the DMV knowledge exam 3 times. Needed before taking it again?",
       "choices": [
         "Wait 2 days",
         "Classroom driver ed",
@@ -491,7 +491,7 @@
       "id": "ev-lic-three-fails-knowledge-2",
       "item": "lic-three-fails-knowledge",
       "kind": "gates",
-      "prompt": "How many fails before driver ed is required?",
+      "prompt": "How many DMV knowledge exam fails require driver ed?",
       "choices": [
         "2 fails",
         "3 fails",
@@ -504,7 +504,7 @@
       "id": "ev-lic-8-hour-course-1",
       "item": "lic-8-hour-course",
       "kind": "gates",
-      "prompt": "Course option after 3 fails: how long?",
+      "prompt": "How long is the DMV-approved course after 3 knowledge exam fails?",
       "choices": [
         "4 hours",
         "8 hours",
@@ -517,7 +517,7 @@
       "id": "ev-lic-8-hour-course-2",
       "item": "lic-8-hour-course",
       "kind": "gates",
-      "prompt": "Where can you take the 8-hour course?",
+      "prompt": "Where is the 8-hour driver's manual course offered?",
       "choices": [
         "Only at DMV",
         "Only in a car",
@@ -543,24 +543,24 @@
       "id": "ev-lic-test-honesty-1",
       "item": "lic-test-honesty",
       "kind": "gates",
-      "prompt": "Phone buzzes during the exam. You:",
+      "prompt": "Phone buzzes during your DMV exam. You:",
       "choices": [
         "Check it fast",
         "Text back fast",
         "Leave it alone"
       ],
       "answer": 2,
-      "missLine": "You cannot use a cell phone during the exam."
+      "missLine": "You cannot use a cell phone during the DMV exam."
     },
     {
       "id": "ev-lic-test-honesty-2",
       "item": "lic-test-honesty",
       "kind": "gates",
-      "prompt": "Friend asks for exam questions. You:",
+      "prompt": "Friend asks for DMV exam questions. You:",
       "choices": [
         "Say no",
         "Share them",
-        "Share part one only"
+        "Share just a few"
       ],
       "answer": 0,
       "missLine": "You cannot give another person exam questions or answers."
@@ -569,37 +569,37 @@
       "id": "ev-lic-test-honesty-3",
       "item": "lic-test-honesty",
       "kind": "gates",
-      "prompt": "Can someone help you during the exam?",
+      "prompt": "At the DMV, may someone help you during the exam?",
       "choices": [
         "Yes, if quiet",
-        "Only on part two",
-        "No"
+        "Only on some questions",
+        "No, not allowed"
       ],
       "answer": 2,
-      "missLine": "You cannot get help while taking the exam."
+      "missLine": "You cannot get help while taking the DMV exam."
     },
     {
       "id": "ev-lic-road-test-who-1",
       "item": "lic-road-test-who",
       "kind": "gates",
-      "prompt": "First license ever. Road skills test needed?",
+      "prompt": "First license ever: is the DMV road skills test required?",
       "choices": [
-        "No",
+        "No, not required",
         "Only if over 65",
-        "Yes"
+        "Yes, required"
       ],
       "answer": 2,
-      "missLine": "No valid license from elsewhere? Then you take the road skills test."
+      "missLine": "No valid license from elsewhere? Then you must take the DMV road skills test."
     },
     {
       "id": "ev-lic-road-test-who-2",
       "item": "lic-road-test-who",
       "kind": "gates",
-      "prompt": "Valid Canada license. Road test needed?",
+      "prompt": "New resident with valid Canada license. DMV road test required?",
       "choices": [
-        "No",
-        "Yes",
-        "Yes, twice"
+        "No, not required",
+        "Yes, required",
+        "Yes, taken twice"
       ],
       "answer": 0,
       "missLine": "A valid license from Canada means you do not need the road skills test."
@@ -608,23 +608,23 @@
       "id": "ev-lic-road-test-who-3",
       "item": "lic-road-test-who",
       "kind": "gates",
-      "prompt": "Valid Taiwan license. Knowledge exam needed?",
+      "prompt": "New resident with valid Taiwan license. DMV knowledge exam required?",
       "choices": [
-        "No",
-        "Yes",
-        "Only part one"
+        "No, not required",
+        "Yes, required",
+        "Only some of it"
       ],
       "answer": 1,
-      "missLine": "Taiwan skips only the road test. You still take the knowledge exam."
+      "missLine": "A Taiwan license skips only the road test. The DMV knowledge exam is still required."
     },
     {
       "id": "ev-lic-road-test-vehicle-1",
       "item": "lic-road-test-vehicle",
       "kind": "gates",
-      "prompt": "Who provides the car for the road test?",
+      "prompt": "Who provides the car for the DMV road skills test?",
       "choices": [
         "DMV does",
-        "You do",
+        "The test taker",
         "The examiner"
       ],
       "answer": 1,
@@ -634,7 +634,7 @@
       "id": "ev-lic-road-test-vehicle-2",
       "item": "lic-road-test-vehicle",
       "kind": "gates",
-      "prompt": "Road test: which vehicle is banned?",
+      "prompt": "DMV road skills test: which vehicle is not allowed?",
       "choices": [
         "An autocycle",
         "A sedan",
@@ -647,7 +647,7 @@
       "id": "ev-lic-road-test-vehicle-3",
       "item": "lic-road-test-vehicle",
       "kind": "gates",
-      "prompt": "Car's horn is broken. Use it for road test?",
+      "prompt": "Car horn is broken. Allowed for a DMV road test?",
       "choices": [
         "Yes, horn is optional",
         "No, horn must work",
@@ -660,7 +660,7 @@
       "id": "ev-lic-road-test-checklist-1",
       "item": "lic-road-test-checklist",
       "kind": "gates",
-      "prompt": "Road test needs a driver ed certificate or:",
+      "prompt": "DMV road test needs a driver ed certificate or:",
       "choices": [
         "A school ID",
         "Behind-the-wheel checklist",
@@ -686,7 +686,7 @@
       "id": "ev-lic-road-test-under-18-1",
       "item": "lic-road-test-under-18",
       "kind": "gates",
-      "prompt": "Age 16: where is your road test given?",
+      "prompt": "Age 16 in Virginia: where is the road skills test given?",
       "choices": [
         "At DMV only",
         "In your driver ed course",
@@ -699,7 +699,7 @@
       "id": "ev-lic-road-test-under-18-2",
       "item": "lic-road-test-under-18",
       "kind": "gates",
-      "prompt": "Under 18, the road test is part of:",
+      "prompt": "Under 18 in Virginia, the road skills test is part of:",
       "choices": [
         "Driver education",
         "The knowledge exam",
@@ -712,7 +712,7 @@
       "id": "ev-lic-road-test-18-plus-1",
       "item": "lic-road-test-18-plus",
       "kind": "gates",
-      "prompt": "Age 18+, no driver ed. Permit days before road test?",
+      "prompt": "Age 18+, no driver ed. Permit days before the DMV road test?",
       "choices": [
         "30 days",
         "60 days",
@@ -725,7 +725,7 @@
       "id": "ev-lic-road-test-18-plus-2",
       "item": "lic-road-test-18-plus",
       "kind": "gates",
-      "prompt": "Age 18+, held permit 60 days. Who tests you?",
+      "prompt": "Age 18+, held permit 60 days. Who gives the road test?",
       "choices": [
         "Driving school",
         "Your parent",
@@ -738,7 +738,7 @@
       "id": "ev-lic-road-test-18-plus-3",
       "item": "lic-road-test-18-plus",
       "kind": "gates",
-      "prompt": "Age 18+, finished driver ed. Who tests you?",
+      "prompt": "Age 18+, finished driver ed. Who gives the road test?",
       "choices": [
         "Driver training school",
         "Your parent",
@@ -751,7 +751,7 @@
       "id": "ev-lic-road-test-fails-1",
       "item": "lic-road-test-fails",
       "kind": "gates",
-      "prompt": "Failed the road test. Wait how long?",
+      "prompt": "Failed the DMV road skills test. Days before taking it again?",
       "choices": [
         "2 days",
         "7 days",
@@ -764,7 +764,7 @@
       "id": "ev-lic-road-test-fails-2",
       "item": "lic-road-test-fails",
       "kind": "gates",
-      "prompt": "Failed DMV road test 3 times. Next?",
+      "prompt": "Failed the DMV road test 3 times. Needed before taking it again?",
       "choices": [
         "In-car driver ed",
         "8-hour manual course",
@@ -777,20 +777,20 @@
       "id": "ev-lic-vision-screening-1",
       "item": "lic-vision-screening",
       "kind": "gates",
-      "prompt": "Which test is always included?",
+      "prompt": "Which DMV license test is always included?",
       "choices": [
         "Vision screening",
         "Road skills test",
         "Knowledge exam"
       ],
       "answer": 0,
-      "missLine": "Every test visit includes a vision screening. The other tests depend on you."
+      "missLine": "Every DMV test visit includes a vision screening. Other tests depend on your situation."
     },
     {
       "id": "ev-lic-vision-screening-2",
       "item": "lic-vision-screening",
       "kind": "gates",
-      "prompt": "Failed vision screening? You may need to visit:",
+      "prompt": "Failed the DMV vision screening? You may need to visit:",
       "choices": [
         "An eye care professional",
         "A driving school",
@@ -825,7 +825,7 @@
       "id": "ev-lic-restriction-c-3",
       "item": "lic-restriction-c",
       "kind": "gates",
-      "prompt": "Need glasses to pass the screening? Then:",
+      "prompt": "Needed glasses to pass the DMV vision screening? Then:",
       "choices": [
         "Wear them at night only",
         "Wear them to drive",
@@ -1023,10 +1023,10 @@
       "id": "ev-lic-permit-supervisor-3",
       "item": "lic-permit-supervisor",
       "kind": "gates",
-      "prompt": "Licensed sister, age 19, can supervise you?",
+      "prompt": "Learner's permit: may a licensed sister, age 19, supervise?",
       "choices": [
-        "Yes",
-        "No",
+        "Yes, she may",
+        "No, she may not",
         "Only at night"
       ],
       "answer": 0,
@@ -1036,9 +1036,9 @@
       "id": "ev-lic-permit-supervisor-4",
       "item": "lic-permit-supervisor",
       "kind": "gates",
-      "prompt": "Licensed friend, age 19, can supervise you?",
+      "prompt": "Learner's permit: may a licensed friend, age 19, supervise?",
       "choices": [
-        "Yes",
+        "Yes, a friend may",
         "Only on weekends",
         "No, must be 21+"
       ],
@@ -1080,7 +1080,7 @@
       "id": "ev-lic-permit-60-days-19-2",
       "item": "lic-permit-60-days-19",
       "kind": "gates",
-      "prompt": "Age 19+: skip the 60-day wait with:",
+      "prompt": "Age 19+: what replaces the 60-day permit wait?",
       "choices": [
         "Driver ed certificate",
         "A parent's note",
@@ -1223,7 +1223,7 @@
       "id": "ev-lic-license-mail-address-1",
       "item": "lic-license-mail-address",
       "kind": "gates",
-      "prompt": "How do you get your new license?",
+      "prompt": "How does a new Virginia license arrive?",
       "choices": [
         "At the DMV counter",
         "From driving school",
@@ -1251,8 +1251,8 @@
       "kind": "gates",
       "prompt": "Will the post office forward your license?",
       "choices": [
-        "No",
-        "Yes",
+        "No, it will not",
+        "Yes, it will",
         "Only inside Virginia"
       ],
       "answer": 0,
@@ -1388,7 +1388,7 @@
       "id": "ev-lic-safety-inspection-3",
       "item": "lic-safety-inspection",
       "kind": "action",
-      "prompt": "Inspection sticker expired. Time to drive?",
+      "prompt": "Your car's inspection sticker has expired!",
       "prop": "driveway-exit",
       "action": "stop",
       "missLine": "Your vehicle must pass a yearly safety inspection and show a valid sticker."
@@ -1425,7 +1425,7 @@
       "id": "ev-lic-penny-test-3",
       "item": "lic-penny-test",
       "kind": "gates",
-      "prompt": "Where on the tire do you test?",
+      "prompt": "Penny test: where on the tire do you check?",
       "image": "diagram-penny-test",
       "choices": [
         "Where tread looks deepest",
@@ -1491,7 +1491,7 @@
       "id": "ev-lic-voter-registration-2",
       "item": "lic-voter-registration",
       "kind": "gates",
-      "prompt": "To register, be 18 by the next:",
+      "prompt": "To register to vote, be 18 by the next:",
       "choices": [
         "General election",
         "Birthday",
@@ -1504,7 +1504,7 @@
       "id": "ev-lic-organ-donor-1",
       "item": "lic-organ-donor",
       "kind": "gates",
-      "prompt": "Want to be an organ donor? You:",
+      "prompt": "To become an organ donor in Virginia, you:",
       "choices": [
         "Tell a police officer",
         "Check yes on application",
@@ -1560,7 +1560,7 @@
       "id": "q-lic-knowledge-exam-who-3",
       "item": "lic-knowledge-exam-who",
       "part": 2,
-      "prompt": "Questions on the knowledge exam are taken from:",
+      "prompt": "Questions on the Virginia DMV knowledge exam are taken from:",
       "choices": [
         "Your driving record",
         "Practice test websites",
@@ -1574,7 +1574,7 @@
       "id": "q-lic-under-18-wait-15-1",
       "item": "lic-under-18-wait-15",
       "part": 2,
-      "prompt": "If you are under 18 and fail the knowledge exam, you must wait how long before you retake it?",
+      "prompt": "If you are under 18 and fail the DMV knowledge exam, you must wait how long before you retake it?",
       "choices": [
         "2 days",
         "7 days",
@@ -1588,7 +1588,7 @@
       "id": "q-lic-under-18-wait-15-2",
       "item": "lic-under-18-wait-15",
       "part": 2,
-      "prompt": "You are 17 and fail the knowledge exam on January 1. The earliest you can take it again is:",
+      "prompt": "You are 17 and fail the DMV knowledge exam on January 1. The earliest you can take it again is:",
       "choices": [
         "January 2",
         "January 15",
@@ -1602,7 +1602,7 @@
       "id": "q-lic-under-18-wait-15-3",
       "item": "lic-under-18-wait-15",
       "part": 2,
-      "prompt": "The 15-day wait to retake a failed knowledge exam applies to people:",
+      "prompt": "The 15-day wait to retake a failed DMV knowledge exam applies to people:",
       "choices": [
         "Under age 18",
         "Age 18 and older",
@@ -1616,7 +1616,7 @@
       "id": "q-lic-one-test-per-day-1",
       "item": "lic-one-test-per-day",
       "part": 2,
-      "prompt": "The knowledge exam may be taken:",
+      "prompt": "The DMV knowledge exam may be taken:",
       "choices": [
         "Up to three times a day",
         "As many times as you want in one day",
@@ -1630,7 +1630,7 @@
       "id": "q-lic-one-test-per-day-2",
       "item": "lic-one-test-per-day",
       "part": 2,
-      "prompt": "How often may you take the road skills test?",
+      "prompt": "How often may you take the DMV road skills test?",
       "choices": [
         "Twice per business day",
         "Up to three times a day",
@@ -1644,7 +1644,7 @@
       "id": "q-lic-exam-languages-1",
       "item": "lic-exam-languages",
       "part": 2,
-      "prompt": "Translators may not be used for the knowledge exam because:",
+      "prompt": "Translators may not be used for the DMV knowledge exam because:",
       "choices": [
         "The exam is only given in English",
         "The exam is offered in many languages and American Sign Language",
@@ -1658,7 +1658,7 @@
       "id": "q-lic-exam-languages-2",
       "item": "lic-exam-languages",
       "part": 2,
-      "prompt": "Which is available for the knowledge exam?",
+      "prompt": "Which is available for the DMV knowledge exam?",
       "choices": [
         "An audio version",
         "A take-home version",
@@ -1672,12 +1672,12 @@
       "id": "q-lic-exam-languages-3",
       "item": "lic-exam-languages",
       "part": 2,
-      "prompt": "If you need special help with testing, you should:",
+      "prompt": "If you need special help with DMV testing, you should:",
       "choices": [
         "Bring a translator",
         "Bring a friend to help you",
         "Tell a DMV staff member",
-        "Skip part one"
+        "Skip half of the exam"
       ],
       "answer": 2,
       "explain": "Customers who need special help with testing should tell a DMV staff member."
@@ -1686,7 +1686,7 @@
       "id": "q-lic-three-fails-knowledge-1",
       "item": "lic-three-fails-knowledge",
       "part": 2,
-      "prompt": "If you fail the knowledge exam three times, before you can take it a fourth time you must:",
+      "prompt": "If you fail the DMV knowledge exam three times, before you can take it a fourth time you must:",
       "choices": [
         "Wait 15 days",
         "Complete and pass the classroom component of driver education",
@@ -1700,7 +1700,7 @@
       "id": "q-lic-three-fails-knowledge-2",
       "item": "lic-three-fails-knowledge",
       "part": 2,
-      "prompt": "After how many failed knowledge exams must you pass classroom driver education before trying again?",
+      "prompt": "After how many failed DMV knowledge exams must you pass classroom driver education before taking it again?",
       "choices": [
         "Two",
         "Three",
@@ -1756,7 +1756,7 @@
       "id": "q-lic-test-honesty-1",
       "item": "lic-test-honesty",
       "part": 2,
-      "prompt": "While taking the knowledge exam, you cannot:",
+      "prompt": "While taking the DMV knowledge exam, you cannot:",
       "choices": [
         "Use a cell phone",
         "Get help from another person",
@@ -1770,7 +1770,7 @@
       "id": "q-lic-test-honesty-2",
       "item": "lic-test-honesty",
       "part": 2,
-      "prompt": "Which of these is allowed when you take the knowledge exam?",
+      "prompt": "Which of these is allowed when you take the DMV knowledge exam?",
       "choices": [
         "Using the audio version of the exam",
         "Getting exam answers before the exam",
@@ -1784,11 +1784,11 @@
       "id": "q-lic-test-honesty-3",
       "item": "lic-test-honesty",
       "part": 2,
-      "prompt": "Giving another person exam questions or answers is:",
+      "prompt": "Giving another person DMV exam questions or answers is:",
       "choices": [
         "Allowed after you finish",
         "Allowed if they are family",
-        "Allowed for part one only",
+        "Allowed for some questions",
         "Not allowed"
       ],
       "answer": 3,
@@ -1966,7 +1966,7 @@
       "id": "q-lic-road-test-fails-1",
       "item": "lic-road-test-fails",
       "part": 2,
-      "prompt": "If you fail the road skills test, you must wait how long before taking it again?",
+      "prompt": "If you fail the DMV road skills test, you must wait how long before taking it again?",
       "choices": [
         "Two days",
         "15 days",

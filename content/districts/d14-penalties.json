@@ -296,9 +296,9 @@
       "id": "ev-pen-suspension-meaning-2",
       "item": "pen-suspension-meaning",
       "kind": "gates",
-      "prompt": "Suspension is over. How do you drive again?",
+      "prompt": "A license suspension ends. How can the driver drive again?",
       "choices": [
-        "Just start driving",
+        "No steps needed",
         "Pay fees and reinstate",
         "Buy new plates"
       ],
@@ -322,14 +322,14 @@
       "id": "ev-pen-suspension-reinstate-1",
       "item": "pen-suspension-reinstate",
       "kind": "gates",
-      "prompt": "Suspended and expired. Retest after how long?",
+      "prompt": "A suspended license expires. DMV exams are needed if expired:",
       "choices": [
         "30 days or more",
         "1 year or more",
         "5 years or more"
       ],
       "answer": 1,
-      "missLine": "Expired one year or more during a suspension? You must pass the exams again."
+      "missLine": "Expired one year or more during a suspension? You must pass the DMV exams again."
     },
     {
       "id": "ev-pen-suspension-reinstate-2",
@@ -348,7 +348,7 @@
       "id": "ev-pen-suspension-reinstate-3",
       "item": "pen-suspension-reinstate",
       "kind": "gates",
-      "prompt": "Expired 1+ year while suspended. Which exams?",
+      "prompt": "Suspended license expired 1+ year. DMV requires which exams?",
       "choices": [
         "Vision only",
         "Knowledge only",
@@ -363,9 +363,9 @@
       "kind": "gates",
       "prompt": "A revoked license means:",
       "choices": [
-        "Paused for a while",
-        "Ended",
-        "Points added"
+        "Taken away for a while",
+        "Ended; must re-apply",
+        "Demerit points added"
       ],
       "answer": 1,
       "missLine": "Revoked means your right to drive is ended. You must re-apply."
@@ -374,10 +374,10 @@
       "id": "ev-pen-revocation-meaning-2",
       "item": "pen-revocation-meaning",
       "kind": "gates",
-      "prompt": "Revocation time is over. What now?",
+      "prompt": "A revocation period ends. How can the driver drive again?",
       "choices": [
-        "Re-apply and retest",
-        "Just start driving",
+        "Re-apply and pass tests",
+        "No steps needed",
         "It comes back by mail"
       ],
       "answer": 0,
@@ -387,7 +387,7 @@
       "id": "ev-pen-revocation-meaning-3",
       "item": "pen-revocation-meaning",
       "kind": "gates",
-      "prompt": "After revocation, which tests do you take?",
+      "prompt": "After a revocation, which tests must a driver pass?",
       "choices": [
         "Knowledge only",
         "Vision only",
@@ -400,10 +400,10 @@
       "id": "ev-pen-must-dui-1",
       "item": "pen-must-dui",
       "kind": "gates",
-      "prompt": "Convicted of DUI. Your license?",
+      "prompt": "A driver is convicted of DUI. The license is:",
       "choices": [
         "Suspended or revoked",
-        "Points only",
+        "Demerit points only",
         "A warning"
       ],
       "answer": 0,
@@ -413,11 +413,11 @@
       "id": "ev-pen-must-dui-2",
       "item": "pen-must-dui",
       "kind": "gates",
-      "prompt": "Drive while suspended for DUI. Your license?",
+      "prompt": "A driver suspended for DUI drives anyway. The license is:",
       "choices": [
         "A warning",
         "Suspended or revoked",
-        "Points only"
+        "Demerit points only"
       ],
       "answer": 1,
       "missLine": "Driving while suspended for DUI means your license will be suspended or revoked."
@@ -426,9 +426,9 @@
       "id": "ev-pen-must-dui-3",
       "item": "pen-must-dui",
       "kind": "gates",
-      "prompt": "No required ignition interlock. Your license?",
+      "prompt": "Driving without a required ignition interlock means the license is:",
       "choices": [
-        "Points only",
+        "Demerit points only",
         "A fine only",
         "Suspended or revoked"
       ],
@@ -439,9 +439,9 @@
       "id": "ev-pen-must-false-statement-1",
       "item": "pen-must-false-statement",
       "kind": "gates",
-      "prompt": "You lie on a DMV form. Your license?",
+      "prompt": "A driver lies on a DMV form. The license is:",
       "choices": [
-        "Redo the form",
+        "Form corrected, no penalty",
         "Suspended or revoked",
         "A fine only"
       ],
@@ -452,11 +452,11 @@
       "id": "ev-pen-must-false-statement-2",
       "item": "pen-must-false-statement",
       "kind": "gates",
-      "prompt": "Take a friend's license exam for them?",
+      "prompt": "Taking a friend's license exam for them is:",
       "choices": [
-        "Never: license lost",
-        "OK if they are sick",
-        "OK if they pay you"
+        "Not allowed: license lost",
+        "Allowed if they are sick",
+        "Allowed if they pay you"
       ],
       "answer": 0,
       "missLine": "Taking a license exam for someone else costs you your license."
@@ -465,11 +465,11 @@
       "id": "ev-pen-must-false-statement-3",
       "item": "pen-must-false-statement",
       "kind": "gates",
-      "prompt": "Show up to renew someone else's license?",
+      "prompt": "Showing up to renew someone else's license is:",
       "choices": [
-        "Fine for family",
-        "Fine with a note",
-        "Never: license lost"
+        "Allowed for family",
+        "Allowed with a note",
+        "Not allowed: license lost"
       ],
       "answer": 2,
       "missLine": "Appearing for another person to renew a license costs you your license."
@@ -478,9 +478,9 @@
       "id": "ev-pen-must-hit-and-run-1",
       "item": "pen-must-hit-and-run",
       "kind": "gates",
-      "prompt": "You crash. Someone is hurt. What do you do?",
+      "prompt": "In real life, your crash hurts someone. You must:",
       "choices": [
-        "Drive away fast",
+        "Leave the scene fast",
         "Stop and say who you are",
         "Call in later from home"
       ],
@@ -491,10 +491,10 @@
       "id": "ev-pen-must-hit-and-run-2",
       "item": "pen-must-hit-and-run",
       "kind": "gates",
-      "prompt": "Leave an injury crash without stopping. Your license?",
+      "prompt": "A driver leaves an injury crash without stopping. The license is:",
       "choices": [
         "Suspended or revoked",
-        "Points only",
+        "Demerit points only",
         "A warning"
       ],
       "answer": 0,
@@ -504,9 +504,9 @@
       "id": "ev-pen-must-felony-1",
       "item": "pen-must-felony",
       "kind": "gates",
-      "prompt": "Felony using a vehicle. Your license?",
+      "prompt": "A felony using a vehicle means the license is:",
       "choices": [
-        "Court may skip it",
+        "Court may let it go",
         "A fine only",
         "Suspended or revoked"
       ],
@@ -517,10 +517,10 @@
       "id": "ev-pen-must-felony-2",
       "item": "pen-must-felony",
       "kind": "gates",
-      "prompt": "Drug offense involving a vehicle. Your license?",
+      "prompt": "A drug crime involving a vehicle means the license is:",
       "choices": [
         "Suspended or revoked",
-        "Points only",
+        "Demerit points only",
         "A warning"
       ],
       "answer": 0,
@@ -530,11 +530,11 @@
       "id": "ev-pen-must-felony-3",
       "item": "pen-must-felony",
       "kind": "gates",
-      "prompt": "Manslaughter from driving. Your license?",
+      "prompt": "Manslaughter from driving means the license is:",
       "choices": [
         "A clinic only",
         "Suspended or revoked",
-        "Court may skip it"
+        "Court may let it go"
       ],
       "answer": 1,
       "missLine": "Manslaughter from driving means your license will be suspended or revoked."
@@ -562,10 +562,10 @@
       "id": "ev-pen-must-eluding-3",
       "item": "pen-must-eluding",
       "kind": "gates",
-      "prompt": "Convicted of eluding police. Your license?",
+      "prompt": "An eluding police conviction means the license is:",
       "choices": [
-        "Court may skip it",
-        "Points only",
+        "Court may let it go",
+        "Demerit points only",
         "Suspended or revoked"
       ],
       "answer": 2,
@@ -578,7 +578,7 @@
       "prompt": "Reckless driving conviction. The court:",
       "choices": [
         "May suspend or revoke",
-        "Must add points only",
+        "Only adds demerit points",
         "Can only warn you"
       ],
       "answer": 0,
@@ -597,7 +597,7 @@
       "id": "ev-pen-may-reckless-3",
       "item": "pen-may-reckless",
       "kind": "gates",
-      "prompt": "The court MAY act for which one?",
+      "prompt": "For which offense MAY the court choose to act?",
       "choices": [
         "DUI",
         "Aggressive driving",
@@ -612,7 +612,7 @@
       "kind": "gates",
       "prompt": "Convicted of driving with no valid license. Court may:",
       "choices": [
-        "Give you a license",
+        "Issue a new license",
         "Suspend or revoke",
         "Warn your parents"
       ],
@@ -623,10 +623,10 @@
       "id": "ev-pen-may-no-license-2",
       "item": "pen-may-no-license",
       "kind": "gates",
-      "prompt": "Suspended for non-DUI, but you drive. Result?",
+      "prompt": "A driver suspended for non-DUI drives anyway. Result?",
       "choices": [
         "Court may suspend/revoke",
-        "OK on short trips",
+        "Allowed on short trips",
         "Nothing happens"
       ],
       "answer": 0,
@@ -636,10 +636,10 @@
       "id": "ev-pen-may-refuse-test-1",
       "item": "pen-may-refuse-test",
       "kind": "gates",
-      "prompt": "Charged with DUI, you refuse a breath test. Court may:",
+      "prompt": "A driver charged with DUI refuses a breath test. Court may:",
       "choices": [
         "Drop the charges",
-        "Do nothing",
+        "Take no action",
         "Suspend or revoke"
       ],
       "answer": 2,
@@ -651,9 +651,9 @@
       "kind": "gates",
       "prompt": "Charged with DUI. Refusing a blood test can:",
       "choices": [
-        "Clear your record",
+        "Clear the DUI charge",
         "Cost you your license",
-        "Earn a parking fine"
+        "Lead to a parking fine"
       ],
       "answer": 1,
       "missLine": "Refusing a blood or breath test when charged with DUI can cost you your license."
@@ -662,7 +662,7 @@
       "id": "ev-pen-demerit-points-1",
       "item": "pen-demerit-points",
       "kind": "gates",
-      "prompt": "One conviction can add how many points?",
+      "prompt": "One traffic conviction adds how many demerit points?",
       "choices": [
         "3, 4 or 6",
         "1, 2 or 3",
@@ -675,7 +675,7 @@
       "id": "ev-pen-demerit-points-2",
       "item": "pen-demerit-points",
       "kind": "gates",
-      "prompt": "DMV counts your points over:",
+      "prompt": "DMV counts your demerit points over:",
       "choices": [
         "6 and 9 months",
         "12 and 24 months",
@@ -688,7 +688,7 @@
       "id": "ev-pen-demerit-points-3",
       "item": "pen-demerit-points",
       "kind": "action",
-      "prompt": "Red light ahead. No points today!",
+      "prompt": "Red light ahead! Running it adds demerit points.",
       "prop": "traffic-light-red",
       "action": "stop",
       "missLine": "Stop at red. Moving violations add demerit points to your record."
@@ -697,7 +697,7 @@
       "id": "ev-pen-demerit-points-4",
       "item": "pen-demerit-points",
       "kind": "gates",
-      "prompt": "Who adds demerit points to your record?",
+      "prompt": "Who adds demerit points to your driving record?",
       "choices": [
         "Your insurer",
         "Your school",
@@ -710,9 +710,9 @@
       "id": "ev-pen-under18-clinic-1",
       "item": "pen-under18-clinic",
       "kind": "gates",
-      "prompt": "Under 18, first point ticket. DMV requires:",
+      "prompt": "Under 18, first demerit point ticket. DMV requires:",
       "choices": [
-        "Nothing yet",
+        "No action on first ticket",
         "Driver improvement clinic",
         "A 1-year revocation"
       ],
@@ -723,7 +723,7 @@
       "id": "ev-pen-under18-clinic-2",
       "item": "pen-under18-clinic",
       "kind": "gates",
-      "prompt": "How many days to finish the clinic?",
+      "prompt": "A driver improvement clinic must be done within:",
       "choices": [
         "30 days",
         "60 days",
@@ -736,10 +736,10 @@
       "id": "ev-pen-under18-clinic-3",
       "item": "pen-under18-clinic",
       "kind": "gates",
-      "prompt": "Under 18, seat belt ticket. Clinic too?",
+      "prompt": "Under 18, seat belt ticket. Is a clinic required?",
       "choices": [
-        "Yes, clinic required",
-        "No, belts don't count",
+        "Clinic is required",
+        "Belt tickets don't count",
         "Only if over 18"
       ],
       "answer": 0,
@@ -762,7 +762,7 @@
       "id": "ev-pen-under18-second-2",
       "item": "pen-under18-second",
       "kind": "gates",
-      "prompt": "Under 18, second point ticket. DMV will:",
+      "prompt": "Under 18, second demerit point ticket. DMV will:",
       "choices": [
         "Send a warning",
         "Require a clinic only",
@@ -814,7 +814,7 @@
       "id": "ev-pen-age-18-19-clinic-1",
       "item": "pen-age-18-19-clinic",
       "kind": "gates",
-      "prompt": "Age 19, one point ticket. DMV requires:",
+      "prompt": "Age 19, one demerit point ticket. DMV requires:",
       "choices": [
         "Nothing until 12 points",
         "A 1-year revocation",
@@ -840,7 +840,7 @@
       "id": "ev-pen-adult-clinic-1",
       "item": "pen-adult-clinic",
       "kind": "gates",
-      "prompt": "Age 18+. Clinic at how many points in 12 months?",
+      "prompt": "Age 18+. Clinic at how many demerit points in 12 months?",
       "choices": [
         "6 points",
         "12 points",
@@ -853,7 +853,7 @@
       "id": "ev-pen-adult-clinic-2",
       "item": "pen-adult-clinic",
       "kind": "gates",
-      "prompt": "Age 18+. Clinic at how many points in 24 months?",
+      "prompt": "Age 18+. Clinic at how many demerit points in 24 months?",
       "choices": [
         "12 points",
         "24 points",
@@ -866,10 +866,10 @@
       "id": "ev-pen-adult-clinic-3",
       "item": "pen-adult-clinic",
       "kind": "gates",
-      "prompt": "Clinic not finished in 90 days. Result?",
+      "prompt": "Driver improvement clinic not done in 90 days. Result?",
       "choices": [
         "License suspended",
-        "Points erased",
+        "Demerit points erased",
         "30 more days"
       ],
       "answer": 0,
@@ -879,7 +879,7 @@
       "id": "ev-pen-adult-suspension-1",
       "item": "pen-adult-suspension",
       "kind": "gates",
-      "prompt": "18 points in 12 months means:",
+      "prompt": "18 demerit points in 12 months means:",
       "choices": [
         "90-day suspension",
         "A clinic only",
@@ -892,7 +892,7 @@
       "id": "ev-pen-adult-suspension-2",
       "item": "pen-adult-suspension",
       "kind": "gates",
-      "prompt": "24 points within how long means suspension?",
+      "prompt": "24 demerit points within how long means suspension?",
       "choices": [
         "12 months",
         "24 months",
@@ -905,7 +905,7 @@
       "id": "ev-pen-adult-suspension-3",
       "item": "pen-adult-suspension",
       "kind": "gates",
-      "prompt": "Point suspension for adults lasts:",
+      "prompt": "An adult's demerit point suspension lasts:",
       "choices": [
         "1 year",
         "30 days",
@@ -960,7 +960,7 @@
       "prompt": "After a medical review, DMV may:",
       "choices": [
         "Restrict your license",
-        "Add 6 points",
+        "Add 6 demerit points",
         "Charge a $600 fee"
       ],
       "answer": 0,
@@ -970,9 +970,9 @@
       "id": "ev-pen-medical-outcomes-2",
       "item": "pen-medical-outcomes",
       "kind": "gates",
-      "prompt": "Medical suspension. Need legal presence proof?",
+      "prompt": "After a medical suspension, legal presence proof is needed:",
       "choices": [
-        "Yes, always",
+        "Always",
         "Only if expired",
         "Only if under 21"
       ],
@@ -1022,11 +1022,11 @@
       "id": "ev-pen-fee-not-insurance-1",
       "item": "pen-fee-not-insurance",
       "kind": "gates",
-      "prompt": "Does the $500 fee give you insurance?",
+      "prompt": "The $500 uninsured motor vehicle fee gives you:",
       "choices": [
-        "Yes, basic coverage",
-        "No, it is not insurance",
-        "Only property damage"
+        "Basic insurance coverage",
+        "No insurance at all",
+        "Property damage only"
       ],
       "answer": 1,
       "missLine": "The uninsured motor vehicle fee does not provide insurance coverage."
@@ -1065,7 +1065,7 @@
       "choices": [
         "License suspended",
         "Nothing happens",
-        "Points only"
+        "Demerit points only"
       ],
       "answer": 0,
       "missLine": "Insurance stops? Return the plates to DMV, or DMV suspends your license."
@@ -1087,10 +1087,10 @@
       "id": "ev-pen-insure-whole-period-2",
       "item": "pen-insure-whole-period",
       "kind": "gates",
-      "prompt": "Car is registered but never driven. Insure it?",
+      "prompt": "A registered car is never driven. Insurance is needed:",
       "choices": [
-        "Yes, the whole time",
-        "No, not needed",
+        "The whole time",
+        "Not at all",
         "Only in winter"
       ],
       "answer": 0,
@@ -1126,11 +1126,11 @@
       "id": "ev-pen-caught-uninsured-3",
       "item": "pen-caught-uninsured",
       "kind": "gates",
-      "prompt": "Caught driving uninsured, no fee paid. License?",
+      "prompt": "Caught driving uninsured, no fee paid. The license is:",
       "choices": [
         "Suspended",
         "Just a warning",
-        "Points only"
+        "Demerit points only"
       ],
       "answer": 0,
       "missLine": "Driving uninsured without paying the fee means DMV suspends your license."
@@ -1204,7 +1204,7 @@
       "id": "ev-pen-child-support-3",
       "item": "pen-child-support",
       "kind": "gates",
-      "prompt": "Skip a child support court date. Result?",
+      "prompt": "Missing a child support court date leads to:",
       "choices": [
         "Nothing happens",
         "License suspended",
@@ -1256,10 +1256,10 @@
       "id": "ev-pen-may-refuse-test-3",
       "item": "pen-may-refuse-test",
       "kind": "gates",
-      "prompt": "Charged with DUI, you refuse a breath test. License?",
+      "prompt": "Charged with DUI, a driver refuses a breath test. The license is:",
       "choices": [
         "Suspended automatically",
-        "Points only",
+        "Demerit points only",
         "A warning"
       ],
       "answer": 0,
@@ -1269,7 +1269,7 @@
       "id": "ev-pen-must-hit-and-run-3",
       "item": "pen-must-hit-and-run",
       "kind": "gates",
-      "prompt": "Injury crash. The other driver caused it. You:",
+      "prompt": "Injury crash. The other driver caused it. You must:",
       "choices": [
         "Leave the scene",
         "Go home and call",

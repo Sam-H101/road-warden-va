@@ -132,7 +132,7 @@
       "title": "Same time: left yields to right",
       "simple": "Two cars reach an intersection at the same time. There are no signs or signals. The driver on the left lets the driver on the right go first.",
       "official": "When vehicles from different directions arrive at the same time at an intersection with no signs or signals, the driver on the left must allow the driver on the right to go first.",
-      "mnemonic": "A tie? The right goes first.",
+      "mnemonic": "Same time? The right goes first.",
       "manualRef": "Section 3, p. 16"
     },
     {
@@ -465,7 +465,7 @@
       "kind": "gates",
       "prompt": "An officer signals you to stop. You...",
       "choices": [
-        "Keep driving",
+        "Ignore the signal",
         "Stop",
         "Turn away"
       ],
@@ -498,7 +498,7 @@
       "id": "ev-row-stop-crash-scene-1",
       "item": "row-stop-crash-scene",
       "kind": "gates",
-      "prompt": "You are in a crash. What must you do?",
+      "prompt": "A driver is involved in a crash. What must they do?",
       "choices": [
         "Stop at the scene",
         "Drive home first",
@@ -511,7 +511,7 @@
       "id": "ev-row-stop-crash-scene-2",
       "item": "row-stop-crash-scene",
       "kind": "gates",
-      "prompt": "When must you stop at a crash scene?",
+      "prompt": "In Virginia, when must you stop at a crash scene?",
       "choices": [
         "Only if police come",
         "When you are involved",
@@ -567,7 +567,7 @@
       "id": "ev-row-school-bus-stop-3",
       "item": "row-school-bus-stop",
       "kind": "gates",
-      "prompt": "Kids are clear. Bus is still stopped. You...",
+      "prompt": "Kids have crossed. School bus still stopped, lights flashing. You...",
       "image": "diagram-school-bus-stop",
       "choices": [
         "Go around",
@@ -581,7 +581,7 @@
       "id": "ev-row-school-bus-no-lights-1",
       "item": "row-school-bus-no-lights",
       "kind": "gates",
-      "prompt": "Bus loading. Lights off. Do you stop?",
+      "prompt": "School bus loading kids, warning lights off. Must you stop?",
       "missLine": "Stop for a school bus loading or unloading, even with its signals off.",
       "choices": [
         "Only if lights flash",
@@ -594,7 +594,7 @@
       "id": "ev-row-school-bus-no-lights-2",
       "item": "row-school-bus-no-lights",
       "kind": "gates",
-      "prompt": "Bus is loading kids. Its lights are off. You...",
+      "prompt": "School bus loading kids. Its lights are off. You...",
       "choices": [
         "Stop",
         "Pass slowly",
@@ -607,7 +607,7 @@
       "id": "ev-row-school-bus-median-1",
       "item": "row-school-bus-median",
       "kind": "gates",
-      "prompt": "Median between you and the bus. You...",
+      "prompt": "Median between you and a stopped school bus. You...",
       "image": "diagram-school-bus-median",
       "choices": [
         "Stop",
@@ -621,7 +621,7 @@
       "id": "ev-row-school-bus-median-2",
       "item": "row-school-bus-median",
       "kind": "gates",
-      "prompt": "No median. Bus stopped in the opposite lane. You...",
+      "prompt": "No median. School bus stopped facing you, red lights on. You...",
       "choices": [
         "Go with care",
         "Speed past",
@@ -634,7 +634,7 @@
       "id": "ev-row-school-bus-median-3",
       "item": "row-school-bus-median",
       "kind": "gates",
-      "prompt": "Across a median from the bus, watch for...",
+      "prompt": "Across a median from a stopped school bus, watch for...",
       "choices": [
         "People leaving the bus",
         "Deer",
@@ -670,7 +670,7 @@
       "id": "ev-row-first-to-arrive-1",
       "item": "row-first-to-arrive",
       "kind": "gates",
-      "prompt": "You arrive first. Who goes first?",
+      "prompt": "At an intersection, you arrive first. Who goes first?",
       "choices": [
         "You do",
         "Car on your right",
@@ -683,7 +683,7 @@
       "id": "ev-row-first-to-arrive-2",
       "item": "row-first-to-arrive",
       "kind": "gates",
-      "prompt": "The other car arrives first. Who goes first?",
+      "prompt": "At an intersection, another car arrives first. Who goes first?",
       "choices": [
         "You do",
         "The other car",
@@ -696,20 +696,20 @@
       "id": "ev-row-left-yields-right-1",
       "item": "row-left-yields-right",
       "kind": "gates",
-      "prompt": "Two cars arrive together. No signs. Who goes first?",
+      "prompt": "Two cars arrive together at an intersection. No signs. Who goes first?",
       "choices": [
         "Driver on the left",
         "Driver on the right",
         "Driver going faster"
       ],
       "answer": 1,
-      "missLine": "In a tie, the driver on the right goes first."
+      "missLine": "Arrive at the same time? The driver on the right goes first."
     },
     {
       "id": "ev-row-left-yields-right-2",
       "item": "row-left-yields-right",
       "kind": "gates",
-      "prompt": "No signs, same time. Car on your right. You...",
+      "prompt": "Intersection, no signs. Car on your right arrives with you. You...",
       "choices": [
         "Go first",
         "Honk and go",
@@ -722,7 +722,7 @@
       "id": "ev-row-left-yields-right-3",
       "item": "row-left-yields-right",
       "kind": "gates",
-      "prompt": "Tie, no signs. Car on your left. Who goes?",
+      "prompt": "Intersection, no signs. Car on your left arrives with you. Who goes?",
       "choices": [
         "You go first",
         "Car on your left",
@@ -754,7 +754,7 @@
       "id": "ev-row-signals-out-3",
       "item": "row-signals-out",
       "kind": "gates",
-      "prompt": "Lights out. Two cars tie. Who goes first?",
+      "prompt": "Traffic lights out. Two cars arrive together. Who goes first?",
       "image": "signal-out",
       "choices": [
         "Driver on the right",
@@ -889,7 +889,7 @@
       "id": "ev-row-funeral-procession-3",
       "item": "row-funeral-procession",
       "kind": "gates",
-      "prompt": "No police escort. Who obeys every signal?",
+      "prompt": "Funeral procession, no police escort. Who obeys every signal?",
       "choices": [
         "The lead vehicle",
         "The last vehicle",
@@ -915,7 +915,7 @@
       "id": "ev-row-military-convoy-2",
       "item": "row-military-convoy",
       "kind": "gates",
-      "prompt": "Gap in a military convoy. Can you cut through?",
+      "prompt": "Gap in a military convoy. May drivers cut through?",
       "choices": [
         "Yes, if quick",
         "Yes, with flashers",
@@ -947,7 +947,7 @@
       "id": "ev-row-move-over-stopped-3",
       "item": "row-move-over-stopped",
       "kind": "gates",
-      "prompt": "Stopped ambulance, lights on. You can't change lanes. You...",
+      "prompt": "Stopped ambulance, lights on. No safe lane change. You...",
       "choices": [
         "Slow down, use care",
         "Keep your speed",
@@ -963,7 +963,7 @@
       "prompt": "Breaking the move-over law can bring...",
       "choices": [
         "A warning only",
-        "Suspension and points",
+        "Suspension, demerit points",
         "No penalty at all"
       ],
       "answer": 1,
@@ -1004,7 +1004,7 @@
       "id": "ev-row-trash-truck-4",
       "item": "row-trash-truck",
       "kind": "gates",
-      "prompt": "Can't move over. Pass a trash truck by at least...",
+      "prompt": "Stopped trash truck. No room to change lanes. Pass at least...",
       "choices": [
         "2 feet",
         "3 feet",
@@ -1095,7 +1095,7 @@
       "id": "ev-row-fire-truck-parking-2",
       "item": "row-fire-truck-parking",
       "kind": "gates",
-      "prompt": "Park 200 feet from fire trucks at an alarm?",
+      "prompt": "Can you park 200 feet from fire trucks at an alarm?",
       "choices": [
         "No, too close",
         "Yes, it is fine",
@@ -1125,7 +1125,7 @@
       "choices": [
         "Drop back",
         "Stay close",
-        "Pass it"
+        "Pass the fire truck"
       ],
       "answer": 0,
       "missLine": "Stay at least 500 feet behind an emergency vehicle with flashing lights."
@@ -1179,7 +1179,7 @@
       "id": "ev-row-pull-over-emergency-4",
       "item": "row-pull-over-emergency",
       "kind": "gates",
-      "prompt": "You pulled over for a siren. Go again...",
+      "prompt": "You pulled over for a siren. When may you pull back out?",
       "choices": [
         "When the siren stops",
         "Right away",
@@ -1194,7 +1194,7 @@
       "kind": "gates",
       "prompt": "Ambulance coming toward you. Road has no median. You...",
       "choices": [
-        "Keep driving",
+        "Keep your speed",
         "Speed up",
         "Pull over and stop"
       ],
@@ -1218,11 +1218,11 @@
       "id": "ev-row-work-zone-exception-1",
       "item": "row-work-zone-exception",
       "kind": "gates",
-      "prompt": "The pull-over rules have one exception. Where?",
+      "prompt": "Emergency vehicle pull-over rules don't apply where?",
       "choices": [
         "School zones",
         "Highway work zones",
-        "Parking lots"
+        "Interstates"
       ],
       "answer": 1,
       "missLine": "The pull-over rules for emergency vehicles do not apply in highway work zones."
@@ -1355,7 +1355,7 @@
       "id": "ev-row-roundabout-exit-1",
       "item": "row-roundabout-exit",
       "kind": "gates",
-      "prompt": "Ready to leave the roundabout. Which signal?",
+      "prompt": "Exiting a roundabout. Which turn signal do you use?",
       "choices": [
         "Left signal",
         "Right signal",
@@ -1375,7 +1375,7 @@
         "Weave past cars"
       ],
       "answer": 0,
-      "missLine": "Stay in your lane until you are ready to exit."
+      "missLine": "Inside a roundabout, stay in your lane until you are ready to exit."
     },
     {
       "id": "ev-row-roundabout-exit-3",
@@ -1397,7 +1397,7 @@
       "prompt": "Nearing a roundabout. Direction signs help you pick...",
       "choices": [
         "Your parking spot",
-        "Your exit",
+        "Which exit to take",
         "Your radio station"
       ],
       "answer": 1,
@@ -2530,7 +2530,7 @@
         "Find a place to park",
         "Know which exit to take",
         "Know how fast other cars are going",
-        "Skip using your turn signals"
+        "Drive without turn signals"
       ],
       "answer": 1,
       "explain": "Looking for street and direction signs helps you know which exit to take."

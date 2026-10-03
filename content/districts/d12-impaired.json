@@ -386,7 +386,7 @@
       "id": "ev-imp-aggr-what-3",
       "item": "imp-aggr-what",
       "kind": "action",
-      "prompt": "Light turns red. You are running late.",
+      "prompt": "Light turns red. You're late for work.",
       "prop": "traffic-light-red",
       "action": "stop",
       "missLine": "Running red lights is aggressive driving. Stop at the red light."
@@ -482,7 +482,7 @@
       "id": "ev-imp-dist-hold-law-1",
       "item": "imp-dist-hold-law",
       "kind": "gates",
-      "prompt": "Can you hold your phone while driving?",
+      "prompt": "In Virginia, may a driver hold a phone while driving?",
       "choices": [
         "Yes, at low speed",
         "No, it is illegal",
@@ -495,7 +495,7 @@
       "id": "ev-imp-dist-hold-law-2",
       "item": "imp-dist-hold-law",
       "kind": "gates",
-      "prompt": "You may hold your phone only when:",
+      "prompt": "A Virginia driver may hold a phone only when:",
       "choices": [
         "Driving slowly",
         "Merging onto a highway",
@@ -517,9 +517,9 @@
       "id": "ev-imp-dist-navigation-1",
       "item": "imp-dist-navigation",
       "kind": "gates",
-      "prompt": "Phone GPS while driving is OK if it is:",
+      "prompt": "In Virginia, phone GPS while driving is OK if it is:",
       "choices": [
-        "In your hand",
+        "Held in the driver's hand",
         "Hands-free, no typing",
         "Used at low speed"
       ],
@@ -530,7 +530,7 @@
       "id": "ev-imp-dist-navigation-2",
       "item": "imp-dist-navigation",
       "kind": "gates",
-      "prompt": "Want to type a new address in GPS? You:",
+      "prompt": "A driver wants a new GPS address. They should:",
       "choices": [
         "Pull over and stop first",
         "Type it while driving",
@@ -591,10 +591,10 @@
       "id": "ev-imp-dist-precautions-1",
       "item": "imp-dist-precautions",
       "kind": "action",
-      "prompt": "Phone rings. Your light is green.",
+      "prompt": "Phone rings in your car. Light is green.",
       "prop": "traffic-light-green",
       "action": "go",
-      "missLine": "Ignore the phone. Keep your eyes on the road and hands on the wheel."
+      "missLine": "Let the phone ring. Keep your eyes on the road and hands on the wheel."
     },
     {
       "id": "ev-imp-dist-precautions-2",
@@ -645,7 +645,7 @@
       "id": "ev-imp-drowsy-signs-3",
       "item": "imp-drowsy-signs",
       "kind": "gates",
-      "prompt": "Can't remember the last few miles? You are:",
+      "prompt": "A driver can't remember the last few miles. They may be:",
       "choices": [
         "Fully alert",
         "Drowsy",
@@ -693,7 +693,7 @@
       "id": "ev-imp-drowsy-two-hours-1",
       "item": "imp-drowsy-two-hours",
       "kind": "action",
-      "prompt": "Two hours of driving. Services exit ahead.",
+      "prompt": "You've driven for two hours. Services exit ahead.",
       "sign": "sign-services",
       "action": "pull-over",
       "missLine": "Stop at least every two hours for rest."
@@ -738,7 +738,7 @@
       "id": "ev-imp-drowsy-late-hours-1",
       "item": "imp-drowsy-late-hours",
       "kind": "gates",
-      "prompt": "Try not to drive during these sleepy hours:",
+      "prompt": "Which hours should drivers avoid to prevent drowsiness?",
       "choices": [
         "10 p.m. to 6 a.m.",
         "6 a.m. to 10 a.m.",
@@ -819,7 +819,7 @@
       "id": "ev-imp-drowsy-report-3",
       "item": "imp-drowsy-report",
       "kind": "gates",
-      "prompt": "When you report, be ready to describe:",
+      "prompt": "When reporting a drowsy driver, be ready to describe:",
       "choices": [
         "Your own speed",
         "Where, what car, what it did",
@@ -858,11 +858,11 @@
       "id": "ev-imp-bac-impaired-below-1",
       "item": "imp-bac-impaired-below",
       "kind": "gates",
-      "prompt": "BAC is .06 and your driving is impaired. DUI?",
+      "prompt": "A driver's BAC is .06 and their driving is impaired. DUI?",
       "choices": [
         "No, it is under .08",
-        "Yes, it can be",
-        "Only if you crash"
+        "Yes, it can be DUI",
+        "Only if they crash"
       ],
       "answer": 1,
       "missLine": "If your driving is impaired, you can get a DUI below .08."
@@ -897,7 +897,7 @@
       "id": "ev-imp-bac-under-21-2",
       "item": "imp-bac-under-21",
       "kind": "gates",
-      "prompt": "You are 20. Your BAC is .08. What can happen?",
+      "prompt": "A driver age 20 has a .08 BAC. What can happen?",
       "choices": [
         "A warning only",
         "No charge",
@@ -975,7 +975,7 @@
       "id": "ev-imp-seven-times-1",
       "item": "imp-seven-times",
       "kind": "gates",
-      "prompt": "Drink, then drive. Your crash risk goes up:",
+      "prompt": "Driving after drinking raises crash risk by:",
       "choices": [
         "2 times",
         "7 times",
@@ -1040,7 +1040,7 @@
       "id": "ev-imp-only-time-2",
       "item": "imp-only-time",
       "kind": "gates",
-      "prompt": "You had a few drinks. How do you sober up?",
+      "prompt": "A person had a few drinks. How do they sober up?",
       "choices": [
         "Go for a run",
         "Wait it out",
@@ -1053,7 +1053,7 @@
       "id": "ev-imp-decide-before-1",
       "item": "imp-decide-before",
       "kind": "gates",
-      "prompt": "When do you decide not to drive tonight?",
+      "prompt": "When should you decide you won't drive after drinking?",
       "choices": [
         "After two drinks",
         "Before drinking",
@@ -1157,7 +1157,7 @@
       "id": "ev-imp-drug-dui-1",
       "item": "imp-drug-dui",
       "kind": "gates",
-      "prompt": "You are over 21. Driving high on marijuana is:",
+      "prompt": "For adults over 21, driving high on marijuana is:",
       "choices": [
         "Legal",
         "Illegal",
@@ -1222,48 +1222,48 @@
       "id": "ev-imp-admin-suspension-1",
       "item": "imp-admin-suspension",
       "kind": "gates",
-      "prompt": "First offense, breath test refused. License suspended:",
+      "prompt": "DUI law: first offense, breath test refused. License suspended:",
       "choices": [
         "7 days",
         "60 days",
         "1 year"
       ],
       "answer": 0,
-      "missLine": "First offense: your license is automatically suspended for seven days."
+      "missLine": "A first offense brings an automatic seven-day license suspension."
     },
     {
       "id": "ev-imp-admin-suspension-2",
       "item": "imp-admin-suspension",
       "kind": "gates",
-      "prompt": "Second offense: automatic suspension lasts:",
+      "prompt": "DUI law: second offense. Automatic suspension lasts:",
       "choices": [
         "7 days",
         "60 days or till trial",
         "6 months"
       ],
       "answer": 1,
-      "missLine": "Second offense: suspended 60 days or until trial, whichever comes first."
+      "missLine": "A second DUI offense: suspended 60 days or until trial, whichever comes first."
     },
     {
       "id": "ev-imp-admin-suspension-3",
       "item": "imp-admin-suspension",
       "kind": "gates",
-      "prompt": "Third offense: license suspended until when?",
+      "prompt": "DUI law: third offense. License suspended until when?",
       "choices": [
         "For 7 days",
         "For 30 days",
         "Until the trial"
       ],
       "answer": 2,
-      "missLine": "Third offense: your license is suspended until the trial."
+      "missLine": "A third DUI offense means the license is suspended until the trial."
     },
     {
       "id": "ev-imp-open-container-1",
       "item": "imp-open-container",
       "kind": "gates",
-      "prompt": "Unlocked glove box: part of the passenger area?",
+      "prompt": "Open container law: is an unlocked glove box in the passenger area?",
       "choices": [
-        "Yes",
+        "Yes, it counts",
         "Only if it is open",
         "Only with a passenger"
       ],
@@ -1274,7 +1274,7 @@
       "id": "ev-imp-open-container-2",
       "item": "imp-open-container",
       "kind": "gates",
-      "prompt": "The passenger area includes:",
+      "prompt": "For open container law, the passenger area includes:",
       "choices": [
         "The locked trunk",
         "Outside the car",
@@ -1313,7 +1313,7 @@
       "id": "ev-imp-juvenile-passenger-3",
       "item": "imp-juvenile-passenger",
       "kind": "gates",
-      "prompt": "A juvenile passenger is how old?",
+      "prompt": "In DUI law, a juvenile passenger is how old?",
       "choices": [
         "17 or younger",
         "12 or younger",
@@ -1326,7 +1326,7 @@
       "id": "ev-imp-impound-1",
       "item": "imp-impound",
       "kind": "gates",
-      "prompt": "Drive on an alcohol suspension? Car impounded for:",
+      "prompt": "Driving on an alcohol suspension? Car impounded for:",
       "choices": [
         "3 days",
         "30 days",
@@ -1339,7 +1339,7 @@
       "id": "ev-imp-impound-2",
       "item": "imp-impound",
       "kind": "gates",
-      "prompt": "Convicted? The court can add impound days:",
+      "prompt": "Convicted of driving on an alcohol suspension? Court can add:",
       "choices": [
         "5 days",
         "10 days",
@@ -1430,7 +1430,7 @@
       "id": "ev-imp-provide-alcohol-2",
       "item": "imp-provide-alcohol",
       "kind": "gates",
-      "prompt": "Give alcohol to someone under 21: license lost up to:",
+      "prompt": "Giving alcohol to someone under 21: license lost up to:",
       "choices": [
         "10 days",
         "1 year",
@@ -2506,7 +2506,7 @@
       "id": "q-imp-open-container-2",
       "item": "imp-open-container",
       "part": 2,
-      "prompt": "You may be charged with drinking while operating a motor vehicle if you are stopped and:",
+      "prompt": "You may be charged with drinking while operating a motor vehicle if police stop you and:",
       "choices": [
         "A sealed container is in the locked trunk",
         "An open alcohol container in the passenger area is partly empty and you show signs of drinking",

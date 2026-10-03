@@ -511,11 +511,11 @@
       "id": "ev-sig-left-on-red-3",
       "item": "sig-left-on-red",
       "kind": "gates",
-      "prompt": "Red light on a two-way street. Turning left?",
+      "prompt": "Red light on a two-way street. May you turn left?",
       "choices": [
-        "Turn after stopping",
-        "Wait for green",
-        "Turn if you honk"
+        "Yes, after stopping",
+        "No, wait for green",
+        "Yes, if you honk"
       ],
       "answer": 1,
       "missLine": "Left on red works only from a one-way street onto another one-way street."
@@ -573,7 +573,7 @@
       "image": "signal-flashing-red",
       "choices": [
         "Stop, then go when clear",
-        "Slow down, keep going",
+        "Slow down, drive through",
         "Stop until it turns green"
       ],
       "answer": 0,
@@ -605,7 +605,7 @@
       "id": "ev-sig-flashing-red-arrow-2",
       "item": "sig-flashing-red-arrow",
       "kind": "gates",
-      "prompt": "No signs. Which red arrow lets you turn after stopping?",
+      "prompt": "No special sign posted. Which red arrow allows a turn after stopping?",
       "choices": [
         "Solid red arrow",
         "Flashing red arrow",
@@ -627,7 +627,7 @@
       "id": "ev-sig-yellow-light-2",
       "item": "sig-yellow-light",
       "kind": "gates",
-      "prompt": "Already in the intersection. Light turns yellow.",
+      "prompt": "You are already in the intersection. Light turns yellow. You:",
       "choices": [
         "Go through carefully",
         "Stop right there",
@@ -677,7 +677,7 @@
       "id": "ev-sig-flashing-yellow-3",
       "item": "sig-flashing-yellow",
       "kind": "gates",
-      "prompt": "Why put a flashing yellow light here?",
+      "prompt": "Why does a road get a flashing yellow light?",
       "choices": [
         "More danger than normal",
         "A toll booth is ahead",
@@ -797,7 +797,7 @@
       "prompt": "Green light, but a walker is still crossing. You:",
       "choices": [
         "Let them cross first",
-        "Turn right away",
+        "Turn now",
         "Honk and go"
       ],
       "answer": 0,
@@ -874,14 +874,14 @@
       "id": "ev-sig-obey-officer-3",
       "item": "sig-obey-officer",
       "kind": "gates",
-      "prompt": "Cutting through a lot to skip a light is:",
+      "prompt": "Cutting through a lot to avoid a light is:",
       "choices": [
-        "OK if the lot is empty",
-        "OK at night",
+        "Legal if the lot is empty",
+        "Legal at night",
         "Against the law"
       ],
       "answer": 2,
-      "missLine": "Cutting through a parking lot or field to skip a signal is against the law."
+      "missLine": "Cutting through a parking lot or field to avoid a signal is against the law."
     },
     {
       "id": "ev-sig-lane-red-x-1",
@@ -899,8 +899,8 @@
       "prompt": "A red X over your lane means:",
       "image": "signal-lane-red-x",
       "choices": [
-        "Exit this lane soon",
-        "Never drive here",
+        "Leave this lane soon",
+        "Never drive in it",
         "Lane is open"
       ],
       "answer": 1,
@@ -964,7 +964,7 @@
       "id": "ev-sig-lane-green-arrow-2",
       "item": "sig-lane-green-arrow",
       "kind": "gates",
-      "prompt": "Green down arrow over this lane. You:",
+      "prompt": "Green down arrow over a lane. You:",
       "image": "signal-lane-green-arrow",
       "choices": [
         "Must leave it",
@@ -992,7 +992,7 @@
       "id": "ev-sig-lane-turn-arrow-2",
       "item": "sig-lane-turn-arrow",
       "kind": "gates",
-      "prompt": "Can you drive straight in a left-turn arrow lane?",
+      "prompt": "May a driver go straight in a left-turn arrow lane?",
       "choices": [
         "Yes, any time",
         "Yes, at night",
@@ -1054,11 +1054,11 @@
       "id": "ev-sig-red-reflectors-2",
       "item": "sig-red-reflectors",
       "kind": "gates",
-      "prompt": "Red reflectors on the pavement mark areas to:",
+      "prompt": "Red reflectors on the pavement mark areas that are:",
       "choices": [
-        "Park in",
-        "Stay out of",
-        "Pass in"
+        "Open for parking",
+        "Not to be entered",
+        "Open for passing"
       ],
       "answer": 1,
       "missLine": "Red reflectors mark areas you must not enter or use."
@@ -1107,7 +1107,7 @@
       "id": "ev-sig-solid-broken-yellow-1",
       "item": "sig-solid-broken-yellow",
       "kind": "gates",
-      "prompt": "Broken line on your side, solid on theirs. Pass?",
+      "prompt": "Broken yellow on your side, solid on theirs. May you pass?",
       "image": "mark-solid-broken-yellow",
       "choices": [
         "Yes, when clear",
@@ -1121,7 +1121,7 @@
       "id": "ev-sig-solid-broken-yellow-2",
       "item": "sig-solid-broken-yellow",
       "kind": "gates",
-      "prompt": "Solid line on your side. Pass a slow car?",
+      "prompt": "Solid yellow on your side. May you pass a slow car?",
       "image": "mark-solid-broken-yellow",
       "choices": [
         "Yes, if clear",
@@ -1135,7 +1135,7 @@
       "id": "ev-sig-solid-broken-yellow-3",
       "item": "sig-solid-broken-yellow",
       "kind": "gates",
-      "prompt": "Solid line on your side. You may cross to pass:",
+      "prompt": "Solid yellow on your side. You may cross to pass:",
       "choices": [
         "A slow car",
         "A bicyclist, if clear",
@@ -1167,7 +1167,7 @@
       "id": "ev-sig-double-solid-yellow-2",
       "item": "sig-double-solid-yellow",
       "kind": "gates",
-      "prompt": "Double solid yellow. When may you cross?",
+      "prompt": "Double solid yellow lines. When may you cross them?",
       "image": "mark-double-solid-yellow",
       "choices": [
         "To pass a slow car",
@@ -1208,7 +1208,7 @@
       "id": "ev-sig-broken-white-2",
       "item": "sig-broken-white",
       "kind": "gates",
-      "prompt": "Broken white line. Can you change lanes?",
+      "prompt": "Can a driver change lanes across a broken white line?",
       "choices": [
         "Yes, with caution",
         "No, never",
@@ -1350,7 +1350,7 @@
       "id": "ev-sig-center-lane-3",
       "item": "sig-center-lane",
       "kind": "gates",
-      "prompt": "Solid and broken yellow on both sides. The lane is for:",
+      "prompt": "Center lane with solid and broken yellow on both sides is for:",
       "image": "mark-center-turn-lane",
       "choices": [
         "Passing",
@@ -1441,7 +1441,7 @@
       "choices": [
         "Avoid changing lanes",
         "Change lanes freely",
-        "Pass other cars here"
+        "Pass other cars freely"
       ],
       "answer": 0,
       "missLine": "Solid white lines discourage lane changes near intersections and ramps."
@@ -1476,7 +1476,7 @@
       "id": "ev-sig-lane-arrows-1",
       "item": "sig-lane-arrows",
       "kind": "gates",
-      "prompt": "Your lane has a curved arrow and ONLY. You:",
+      "prompt": "Your lane has a painted curved arrow and ONLY. You:",
       "choices": [
         "May go straight",
         "Must turn that way",
@@ -1489,7 +1489,7 @@
       "id": "ev-sig-lane-arrows-2",
       "item": "sig-lane-arrows",
       "kind": "gates",
-      "prompt": "Lane has curved and straight arrows. You may:",
+      "prompt": "Lane has painted curved and straight arrows. You may:",
       "choices": [
         "Turn or go straight",
         "Turn only",
@@ -1515,11 +1515,11 @@
       "id": "ev-sig-wrong-way-arrows-2",
       "item": "sig-wrong-way-arrows",
       "kind": "gates",
-      "prompt": "Driving against wrong-way arrows. What now?",
+      "prompt": "You are driving against wrong-way arrows. You should:",
       "choices": [
         "Slow down, pull over",
         "Speed up",
-        "Keep going"
+        "Keep driving"
       ],
       "answer": 0,
       "missLine": "If you are against wrong-way arrows, immediately slow down and pull over."
@@ -1528,7 +1528,7 @@
       "id": "ev-sig-double-white-1",
       "item": "sig-double-white",
       "kind": "gates",
-      "prompt": "Double solid white lines. Can you cross?",
+      "prompt": "Can a driver cross double solid white lines?",
       "image": "mark-double-white",
       "choices": [
         "Yes, with care",
@@ -1555,7 +1555,7 @@
       "id": "ev-sig-double-white-3",
       "item": "sig-double-white",
       "kind": "gates",
-      "prompt": "Special lane behind double white. You may enter:",
+      "prompt": "Special use lane behind double white lines. You may enter it:",
       "choices": [
         "Anywhere you like",
         "Where signs allow",
@@ -1577,7 +1577,7 @@
       "id": "ev-sig-bike-box-2",
       "item": "sig-bike-box",
       "kind": "gates",
-      "prompt": "Bike box intersection, red light. Turn right?",
+      "prompt": "Red light at a bike box intersection. May you turn right?",
       "image": "mark-bike-box",
       "choices": [
         "Yes, after stopping",
@@ -1671,14 +1671,14 @@
       "id": "ev-sig-toll-plazas-1",
       "item": "sig-toll-plazas",
       "kind": "gates",
-      "prompt": "In an E-ZPass-only lane by mistake. You:",
+      "prompt": "You enter an E-ZPass-only toll lane by mistake. You:",
       "choices": [
         "Stop and back up",
         "Stop and wait",
-        "Keep going"
+        "Drive on through"
       ],
       "answer": 2,
-      "missLine": "In the wrong toll lane? Keep going. Stopping could cause a crash. The owner gets billed."
+      "missLine": "In an E-ZPass-only lane by mistake? Do not stop. Stopping could cause a crash. The owner gets billed."
     },
     {
       "id": "ev-sig-toll-plazas-2",
@@ -2190,7 +2190,7 @@
         "Drive through if no cars are close",
         "Stop and proceed as if it were an all-way stop",
         "Yield only to cars on your left",
-        "Slow down and keep going"
+        "Slow down and keep driving"
       ],
       "answer": 1,
       "explain": "When a signal is not displaying any lights, stop and proceed as though it were an all-way stop."

@@ -55,7 +55,7 @@
       "title": "Not stopping: Class 1 misdemeanor",
       "simple": "You must come to a full stop for people crossing the road legally. If you don't stop, you could badly hurt or kill someone. That can be a Class 1 misdemeanor.",
       "official": "Drivers are required to come to a full stop for pedestrians who are lawfully crossing a roadway. Failing to stop and causing serious bodily damage or death can result in a Class 1 misdemeanor.",
-      "mnemonic": "Walkers come first. Skip the stop and hurt someone: Class 1.",
+      "mnemonic": "Walkers come first. Not stopping and hurting someone: Class 1.",
       "manualRef": "Section 3, p. 20"
     },
     {
@@ -369,7 +369,7 @@
       "prompt": "Turning left, a person is crossing. Who goes first?",
       "choices": [
         "The person walking",
-        "You do",
+        "The turning driver",
         "Whoever is faster"
       ],
       "answer": 0,
@@ -379,7 +379,7 @@
       "id": "ev-share-ped-turning-3",
       "item": "share-ped-turning",
       "kind": "gates",
-      "prompt": "A walker is crossing as you turn. When do you go?",
+      "prompt": "A walker is crossing where you turn. When may you turn?",
       "choices": [
         "When they're halfway",
         "Right after you honk",
@@ -494,7 +494,7 @@
       "id": "ev-share-ped-class1-1",
       "item": "share-ped-class1",
       "kind": "gates",
-      "prompt": "Skip the stop and badly hurt a walker. That can be:",
+      "prompt": "A driver doesn't stop and badly hurts a walker. That can be:",
       "choices": [
         "A parking ticket",
         "A Class 1 misdemeanor",
@@ -634,7 +634,7 @@
       "id": "ev-share-bike-lane-off-limits-1",
       "item": "share-bike-lane-off-limits",
       "kind": "gates",
-      "prompt": "Can you drive in this lane to pass?",
+      "prompt": "May a car drive in this lane to pass another car?",
       "image": "mark-bike-lane",
       "choices": [
         "Yes, if it is empty",
@@ -648,7 +648,7 @@
       "id": "ev-share-bike-lane-off-limits-2",
       "item": "share-bike-lane-off-limits",
       "kind": "gates",
-      "prompt": "Slow car ahead. Pass using the bike lane?",
+      "prompt": "Slow car ahead. May a driver pass it in the bike lane?",
       "choices": [
         "Yes, if no bikes",
         "No, never",
@@ -824,7 +824,7 @@
       "id": "ev-share-moto-same-lane-1",
       "item": "share-moto-same-lane",
       "kind": "gates",
-      "prompt": "Drive beside a motorcycle in its lane?",
+      "prompt": "May a car drive beside a motorcycle in its lane?",
       "choices": [
         "Yes, it is narrow",
         "Only to pass",
@@ -916,7 +916,7 @@
       "choices": [
         "Fine for a moment",
         "Fine if traffic is stuck",
-        "Never OK"
+        "Never allowed"
       ],
       "answer": 2,
       "missLine": "Never stop, pass or shift gears on train tracks."
@@ -953,9 +953,9 @@
       "kind": "gates",
       "prompt": "How many wheels does a low speed vehicle have?",
       "choices": [
-        "4",
-        "3",
-        "2"
+        "4 wheels",
+        "3 wheels",
+        "2 wheels"
       ],
       "answer": 0,
       "missLine": "A low speed vehicle has four wheels."
@@ -992,8 +992,8 @@
       "kind": "gates",
       "prompt": "Must a low speed vehicle be registered and insured?",
       "choices": [
-        "Yes",
-        "No",
+        "Yes, in Virginia",
+        "No, they are exempt",
         "Only if gas powered"
       ],
       "answer": 0,
@@ -1005,8 +1005,8 @@
       "kind": "gates",
       "prompt": "Is a golf cart a low speed vehicle?",
       "choices": [
-        "Yes",
-        "No",
+        "Yes, it is an LSV",
+        "No, it is not an LSV",
         "Only if electric"
       ],
       "answer": 1,
@@ -1069,7 +1069,7 @@
       "id": "ev-share-truck-mirror-1",
       "item": "share-truck-mirror",
       "kind": "gates",
-      "prompt": "You can't see the driver's face in the truck mirror. So:",
+      "prompt": "You can't see the truck driver's face in his mirror. So:",
       "choices": [
         "He can't see you",
         "He sees you fine",
@@ -1139,7 +1139,7 @@
       "id": "ev-share-truck-pass-front-1",
       "item": "share-truck-pass-front",
       "kind": "gates",
-      "prompt": "Passed a truck. When can you pull in front?",
+      "prompt": "After passing a truck, when may you pull in front?",
       "choices": [
         "Whole front in your mirror",
         "Once your bumper clears",
@@ -1418,11 +1418,11 @@
       "id": "ev-share-trailer-backing-2",
       "item": "share-trailer-backing",
       "kind": "gates",
-      "prompt": "Hand at the bottom. To back the trailer left, turn:",
+      "prompt": "Hand at wheel bottom, backing a trailer left. Move the wheel:",
       "choices": [
-        "Left",
-        "Right",
-        "Not at all"
+        "Same way as the trailer",
+        "The opposite way",
+        "Keep it straight"
       ],
       "answer": 0,
       "missLine": "With your hand at the bottom, move the wheel left to back the trailer left."
@@ -1461,7 +1461,7 @@
       "choices": [
         "No, only trucks",
         "Only buses",
-        "Yes"
+        "Yes, all three do"
       ],
       "answer": 2,
       "missLine": "Trucks, buses and RVs all have No-Zones."
@@ -2551,7 +2551,7 @@
         "Allow for the added length of the trailer",
         "Change lanes faster than usual",
         "Use less space than usual",
-        "Skip your turn signal"
+        "Don't use your turn signal"
       ],
       "answer": 0,
       "explain": "Always allow for the added length of the trailer when you change lanes."

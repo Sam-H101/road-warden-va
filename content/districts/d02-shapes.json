@@ -247,7 +247,7 @@
       "id": "ev-shape-fog-shape-first-3",
       "item": "shape-fog-shape-first",
       "kind": "gates",
-      "prompt": "Heavy fog. What part of a sign can you see?",
+      "prompt": "Heavy fog. Which part of a road sign can you see?",
       "choices": [
         "The words",
         "The shape",
@@ -260,7 +260,7 @@
       "id": "ev-shape-fog-shape-first-4",
       "item": "shape-fog-shape-first",
       "kind": "gates",
-      "prompt": "From far away, what do you see first?",
+      "prompt": "Far away, which part of a road sign do you see first?",
       "choices": [
         "The color",
         "The words",
@@ -454,7 +454,7 @@
       "prompt": "Green city sign. The road is clear.",
       "sign": "sign-guide-destination",
       "action": "go",
-      "missLine": "A green sign only gives helpful information. Keep driving."
+      "missLine": "A green sign only gives helpful information. It does not tell you to stop."
     },
     {
       "id": "ev-shape-blue-services-1",
@@ -490,7 +490,7 @@
       "prompt": "Blue services sign. The road is clear.",
       "sign": "sign-services",
       "action": "go",
-      "missLine": "A blue sign only gives helpful information. Keep driving."
+      "missLine": "A blue sign only gives helpful information. It does not tell you to stop."
     },
     {
       "id": "ev-shape-brown-recreation-1",
@@ -658,9 +658,9 @@
       "kind": "gates",
       "prompt": "At a yield sign, who goes first?",
       "choices": [
-        "You do",
+        "The driver at the sign",
         "Only trucks",
-        "Cars, walkers and bikes"
+        "Other cars, walkers, bikes"
       ],
       "answer": 2,
       "missLine": "At a yield sign, let cars, people walking and bikes pass first."
@@ -749,7 +749,7 @@
       "kind": "gates",
       "prompt": "At a diamond sign, what should you do?",
       "choices": [
-        "Slow down, be ready",
+        "Slow down, be ready to stop",
         "Speed up",
         "Honk your horn"
       ],
@@ -852,7 +852,7 @@
       "id": "ev-shape-pennant-2",
       "item": "shape-pennant",
       "kind": "gates",
-      "prompt": "No passing zone, but the road looks clear. Pass?",
+      "prompt": "No passing zone, clear road. Are you allowed to pass the car?",
       "choices": [
         "No, stay behind",
         "Yes, if it is clear",
@@ -950,7 +950,7 @@
       "prompt": "Brown historic site sign. The road is clear.",
       "sign": "sign-recreation",
       "action": "go",
-      "missLine": "A brown sign only gives helpful information. Keep driving."
+      "missLine": "A brown sign only gives helpful information. It does not tell you to stop."
     },
     {
       "id": "ev-shape-rect-vertical-3",
@@ -973,9 +973,9 @@
       "prompt": "Wide sign with city names. What does it do?",
       "image": "sign-guide-destination",
       "choices": [
-        "Giving directions",
-        "Warning of a hazard",
-        "Telling you to stop"
+        "Gives directions",
+        "Warns of a hazard",
+        "Tells you to stop"
       ],
       "answer": 0,
       "missLine": "Wide rectangle signs may give directions or information."
@@ -1346,7 +1346,7 @@
       "part": 2,
       "prompt": "The color orange on a sign means:",
       "choices": [
-        "Speed up to clear the area",
+        "Speed up and get through fast",
         "A rest area",
         "A railroad crossing",
         "A work zone, so slow down and be alert"

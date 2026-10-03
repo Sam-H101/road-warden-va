@@ -402,7 +402,7 @@
       "id": "ev-lane-change-steps-1",
       "item": "lane-change-steps",
       "kind": "gates",
-      "prompt": "Changing lanes. What do you check first?",
+      "prompt": "Before changing lanes, what do you check first?",
       "choices": [
         "Your mirrors",
         "Your radio",
@@ -415,7 +415,7 @@
       "id": "ev-lane-change-steps-2",
       "item": "lane-change-steps",
       "kind": "gates",
-      "prompt": "Last check just before you move over?",
+      "prompt": "Changing lanes. What is your last check before moving over?",
       "choices": [
         "Honk your horn",
         "Tap your brakes",
@@ -451,7 +451,7 @@
       "id": "ev-lane-keep-right-2",
       "item": "lane-keep-right",
       "kind": "gates",
-      "prompt": "What is the left lane for?",
+      "prompt": "On a highway, what is the left lane for?",
       "choices": [
         "Passing only",
         "Cruising",
@@ -464,7 +464,7 @@
       "id": "ev-lane-keep-right-3",
       "item": "lane-keep-right",
       "kind": "gates",
-      "prompt": "Slower than traffic? Which lane?",
+      "prompt": "You're slower than highway traffic. Which lane should you drive in?",
       "choices": [
         "Left lane",
         "Any lane",
@@ -503,7 +503,7 @@
       "id": "ev-lane-pass-steps-3",
       "item": "lane-pass-steps",
       "kind": "gates",
-      "prompt": "Passing. What is the correct order?",
+      "prompt": "Passing another car. What is the correct order?",
       "choices": [
         "Speed up, then signal",
         "Pass, then signal",
@@ -516,7 +516,7 @@
       "id": "ev-lane-pass-speed-limit-1",
       "item": "lane-pass-speed-limit",
       "kind": "gates",
-      "prompt": "Passing a slow car. Can you go over the limit?",
+      "prompt": "Passing a slow car. Can you go over the speed limit?",
       "choices": [
         "Yes, by 5 MPH",
         "Yes, for a short time",
@@ -529,7 +529,7 @@
       "id": "ev-lane-pass-speed-limit-2",
       "item": "lane-pass-speed-limit",
       "kind": "gates",
-      "prompt": "What is your top speed while passing?",
+      "prompt": "Passing a car. What is the highest legal speed?",
       "choices": [
         "The speed limit",
         "10 MPH over the limit",
@@ -542,7 +542,7 @@
       "id": "ev-lane-pass-before-zone-1",
       "item": "lane-pass-before-zone",
       "kind": "gates",
-      "prompt": "Still in the left lane at this sign? That is:",
+      "prompt": "Still passing in the left lane at this sign? That is:",
       "image": "sign-no-passing-zone",
       "choices": [
         "Legal",
@@ -556,7 +556,7 @@
       "id": "ev-lane-pass-before-zone-2",
       "item": "lane-pass-before-zone",
       "kind": "gates",
-      "prompt": "When must your pass be done?",
+      "prompt": "Passing a car with this sign ahead. Finish passing by when?",
       "image": "sign-no-passing-zone",
       "choices": [
         "Before the zone starts",
@@ -667,7 +667,7 @@
       "id": "ev-lane-no-pass-hills-1",
       "item": "lane-no-pass-hills",
       "kind": "gates",
-      "prompt": "Two-lane road, hill ahead. Pass now?",
+      "prompt": "Two-lane road, hill ahead. Pass the car in front?",
       "image": "sign-hill",
       "choices": [
         "Yes, quickly",
@@ -694,7 +694,7 @@
       "id": "ev-lane-no-pass-hills-3",
       "item": "lane-no-pass-hills",
       "kind": "gates",
-      "prompt": "Curve ahead on a two-lane road. Pass?",
+      "prompt": "Curve ahead on a two-lane road. Pass the car in front?",
       "image": "sign-sharp-right",
       "choices": [
         "Honk and pass",
@@ -731,21 +731,21 @@
       "id": "ev-lane-no-pass-school-bus-3",
       "item": "lane-no-pass-school-bus",
       "kind": "gates",
-      "prompt": "Bus is across an unpaved median. What do you do?",
+      "prompt": "School bus stopped across an unpaved median. What do you do?",
       "image": "diagram-school-bus-median",
       "choices": [
         "Stop and wait",
-        "You may go on",
+        "You may drive past",
         "Stop if lights flash"
       ],
       "answer": 1,
-      "missLine": "An unpaved median or barrier between you and the bus means you may go on."
+      "missLine": "An unpaved median or barrier between you and the bus means you may drive past."
     },
     {
       "id": "ev-lane-no-pass-solid-line-1",
       "item": "lane-no-pass-solid-line",
       "kind": "gates",
-      "prompt": "Solid yellow line on your left. Pass?",
+      "prompt": "Solid yellow line on your left. Pass the car ahead?",
       "image": "mark-double-solid-yellow",
       "choices": [
         "Stay in your lane",
@@ -804,7 +804,7 @@
       "id": "ev-lane-overcorrect-2",
       "item": "lane-overcorrect",
       "kind": "gates",
-      "prompt": "Wheels drift off the road. First move?",
+      "prompt": "Your wheels drift off the road. What do you do first?",
       "choices": [
         "Jerk the wheel back",
         "Slam the brakes",
@@ -830,7 +830,7 @@
       "id": "ev-lane-opposing-left-1",
       "item": "lane-opposing-left",
       "kind": "gates",
-      "prompt": "Facing car turns left too. Which sides pass?",
+      "prompt": "You and an oncoming car both turn left. Which sides pass?",
       "image": "diagram-left-turns-facing",
       "choices": [
         "Driver to driver",
@@ -844,7 +844,7 @@
       "id": "ev-lane-opposing-left-2",
       "item": "lane-opposing-left",
       "kind": "gates",
-      "prompt": "Facing car also turns left. How do you turn?",
+      "prompt": "You and an oncoming car both turn left. The cars turn:",
       "choices": [
         "In front of each other",
         "Behind each other",
@@ -860,7 +860,7 @@
       "prompt": "You want to U-turn here.",
       "sign": "sign-no-u-turn",
       "action": "go",
-      "missLine": "This sign means no U-turns here, so keep going."
+      "missLine": "A No U-Turn sign means you may not make a U-turn here. Keep driving."
     },
     {
       "id": "ev-lane-u-turn-2",
@@ -905,7 +905,7 @@
       "id": "ev-lane-turn-signal-law-1",
       "item": "lane-turn-signal-law",
       "kind": "gates",
-      "prompt": "No other cars around. Signal your turn?",
+      "prompt": "No other cars around. Should you still signal a turn?",
       "choices": [
         "Yes, always",
         "No need",
@@ -918,7 +918,7 @@
       "id": "ev-lane-turn-signal-law-2",
       "item": "lane-turn-signal-law",
       "kind": "gates",
-      "prompt": "Turn is done, but your signal still blinks. Do what?",
+      "prompt": "After a turn, your turn signal keeps blinking. You should:",
       "choices": [
         "Leave it on",
         "Use hazard lights",
@@ -1097,7 +1097,7 @@
       "id": "ev-lane-right-turn-2",
       "item": "lane-right-turn",
       "kind": "gates",
-      "prompt": "Turning right. Which lane do you end in?",
+      "prompt": "After a right turn, which lane do you end in?",
       "choices": [
         "Far left lane",
         "Lane closest to the curb",
@@ -1110,7 +1110,7 @@
       "id": "ev-lane-right-turn-3",
       "item": "lane-right-turn",
       "kind": "gates",
-      "prompt": "To turn right, start in which lane?",
+      "prompt": "Before a right turn at a corner, be in which lane?",
       "choices": [
         "Farthest right lane",
         "Center lane",
@@ -1132,7 +1132,7 @@
       "id": "ev-lane-left-turn-1",
       "item": "lane-left-turn",
       "kind": "gates",
-      "prompt": "To turn left, start in which lane?",
+      "prompt": "Before a left turn at a corner, be in which lane?",
       "choices": [
         "Farthest right",
         "Farthest left",
@@ -1145,7 +1145,7 @@
       "id": "ev-lane-left-turn-2",
       "item": "lane-left-turn",
       "kind": "gates",
-      "prompt": "Turning left. Which lane do you enter?",
+      "prompt": "After a left turn, which lane do you enter?",
       "choices": [
         "Rightmost lane",
         "Any open lane",
@@ -1171,7 +1171,7 @@
       "id": "ev-lane-left-turn-wheels-2",
       "item": "lane-left-turn-wheels",
       "kind": "gates",
-      "prompt": "Why keep wheels straight while waiting?",
+      "prompt": "Waiting to turn left. Why keep your wheels straight?",
       "choices": [
         "Saves gas",
         "Helps your signal",
@@ -1206,7 +1206,7 @@
       "id": "ev-lane-mirror-adjust-2",
       "item": "lane-mirror-adjust",
       "kind": "gates",
-      "prompt": "Side mirrors set right. How much of your car?",
+      "prompt": "Side mirrors set correctly. How much of your car shows?",
       "choices": [
         "About half the mirror",
         "Just barely the side",
@@ -1232,7 +1232,7 @@
       "id": "ev-lane-avoid-blind-spot-1",
       "item": "lane-avoid-blind-spot",
       "kind": "gates",
-      "prompt": "You're in a car's blind spot. Do what?",
+      "prompt": "You're in a car's blind spot. What do you do?",
       "choices": [
         "Stay beside it",
         "Speed up or drop back",
@@ -1271,7 +1271,7 @@
       "id": "ev-lane-backing-2",
       "item": "lane-backing",
       "kind": "gates",
-      "prompt": "Most common backing mistake?",
+      "prompt": "What is the most common mistake when backing up?",
       "choices": [
         "Backing too slowly",
         "Not looking both ways",
@@ -1336,7 +1336,7 @@
       "id": "ev-lane-park-uphill-curb-1",
       "item": "lane-park-uphill-curb",
       "kind": "gates",
-      "prompt": "Uphill with a curb. Turn wheels which way?",
+      "prompt": "Parking uphill with a curb. Turn wheels which way?",
       "image": "diagram-uphill-curb",
       "choices": [
         "Left",
@@ -1350,7 +1350,7 @@
       "id": "ev-lane-park-uphill-curb-2",
       "item": "lane-park-uphill-curb",
       "kind": "gates",
-      "prompt": "Uphill at a curb. Wheels point:",
+      "prompt": "Parking uphill at a curb. Wheels point:",
       "choices": [
         "Toward the curb",
         "Away from the curb",
@@ -1363,7 +1363,7 @@
       "id": "ev-lane-park-downhill-curb-1",
       "item": "lane-park-downhill-curb",
       "kind": "gates",
-      "prompt": "Downhill with a curb. Turn wheels which way?",
+      "prompt": "Parking downhill with a curb. Turn wheels which way?",
       "image": "diagram-downhill-curb",
       "choices": [
         "Left",
@@ -1377,7 +1377,7 @@
       "id": "ev-lane-park-downhill-curb-2",
       "item": "lane-park-downhill-curb",
       "kind": "gates",
-      "prompt": "Downhill at a curb. Wheels point:",
+      "prompt": "Parking downhill at a curb. Wheels point:",
       "choices": [
         "Away from the curb",
         "Toward the curb",
@@ -1390,7 +1390,7 @@
       "id": "ev-lane-park-hill-no-curb-1",
       "item": "lane-park-hill-no-curb",
       "kind": "gates",
-      "prompt": "Hill with no curb. Turn wheels which way?",
+      "prompt": "Parking on a hill with no curb. Turn wheels which way?",
       "image": "diagram-hill-no-curb",
       "choices": [
         "Right",
@@ -1417,7 +1417,7 @@
       "id": "ev-lane-park-hill-no-curb-3",
       "item": "lane-park-hill-no-curb",
       "kind": "gates",
-      "prompt": "Why turn wheels right with no curb?",
+      "prompt": "Parked on a hill, no curb. Why turn wheels right?",
       "choices": [
         "Saves the brakes",
         "Car rolls away from traffic",
@@ -1443,7 +1443,7 @@
       "id": "ev-lane-park-open-door-2",
       "item": "lane-park-open-door",
       "kind": "gates",
-      "prompt": "Bike coming as you open your door. Do what?",
+      "prompt": "Bike coming as you open your door. What do you do?",
       "choices": [
         "Open it quickly",
         "Wave it around you",
@@ -1628,7 +1628,7 @@
       "id": "ev-lane-change-steps-4",
       "item": "lane-change-steps",
       "kind": "gates",
-      "prompt": "Signal is on. Who else may move into that lane?",
+      "prompt": "You signal a lane change. Who else may move into that lane?",
       "choices": [
         "Nobody, you signaled",
         "Other drivers",
@@ -1707,7 +1707,7 @@
       "kind": "gates",
       "prompt": "Can you park so you block a traffic lane?",
       "choices": [
-        "No",
+        "No, not allowed",
         "Yes, with hazards on",
         "Yes, for 5 minutes"
       ],

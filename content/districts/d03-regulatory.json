@@ -247,7 +247,7 @@
       "image": "sign-no-u-turn",
       "choices": [
         "Caution",
-        "NO",
+        "NO (not allowed)",
         "Yield"
       ],
       "answer": 1,
@@ -342,7 +342,7 @@
       "id": "ev-reg-all-way-stop-2",
       "item": "reg-all-way-stop",
       "kind": "gates",
-      "prompt": "Two cars arrive at once. Who goes first?",
+      "prompt": "All Way stop: two cars arrive together. Who goes first?",
       "image": "diagram-four-way-stop",
       "choices": [
         "Driver on the left",
@@ -370,7 +370,7 @@
       "id": "ev-reg-all-way-stop-4",
       "item": "reg-all-way-stop",
       "kind": "gates",
-      "prompt": "You both arrive at once. Who must yield?",
+      "prompt": "You and another car arrive at once. Who must yield?",
       "image": "sign-all-way",
       "choices": [
         "Driver on the right",
@@ -476,7 +476,7 @@
       "id": "ev-reg-too-fast-conditions-1",
       "item": "reg-too-fast-conditions",
       "kind": "action",
-      "prompt": "Snow falling. You are at the limit.",
+      "prompt": "Snow falling. You drive at the speed limit.",
       "sign": "sign-speed-limit",
       "weather": "snow",
       "action": "slow",
@@ -537,7 +537,7 @@
       "id": "ev-reg-do-not-enter-3",
       "item": "reg-do-not-enter",
       "kind": "action",
-      "prompt": "You drove past DO NOT ENTER!",
+      "prompt": "You just drove past a DO NOT ENTER sign.",
       "sign": "sign-do-not-enter",
       "action": "pull-over",
       "missLine": "Past this sign? Slow down, pull over, then carefully turn around."
@@ -555,11 +555,11 @@
       "id": "ev-reg-wrong-way-2",
       "item": "reg-wrong-way",
       "kind": "gates",
-      "prompt": "You passed this sign. What do you do first?",
+      "prompt": "You drove by this sign. What do you do first?",
       "image": "sign-wrong-way",
       "choices": [
-        "Speed up to exit",
-        "Honk and keep going",
+        "Speed up to get off road",
+        "Honk and drive on",
         "Slow down, pull over"
       ],
       "answer": 2,
@@ -569,7 +569,7 @@
       "id": "ev-reg-wrong-way-3",
       "item": "reg-wrong-way",
       "kind": "gates",
-      "prompt": "Wrong way. You pulled over. What next?",
+      "prompt": "Driving the wrong way, you pull over. Then you:",
       "image": "sign-wrong-way",
       "choices": [
         "Carefully turn around",
@@ -625,7 +625,7 @@
       "id": "ev-reg-no-left-turn-2",
       "item": "reg-no-left-turn",
       "kind": "gates",
-      "prompt": "You want to turn left here. Can you?",
+      "prompt": "You want to turn left here. Is it legal?",
       "image": "sign-no-left-turn",
       "choices": [
         "Yes, if it is clear",
@@ -639,10 +639,10 @@
       "id": "ev-reg-u-turn-two-lefts-1",
       "item": "reg-u-turn-two-lefts",
       "kind": "gates",
-      "prompt": "Can you make a U-turn here?",
+      "prompt": "Is a U-turn legal at this sign?",
       "image": "sign-no-left-turn",
       "choices": [
-        "Yes, U-turns are OK",
+        "Yes, U-turns are legal",
         "No, it counts as 2 lefts",
         "Only on a green light"
       ],
@@ -693,7 +693,7 @@
       "id": "ev-reg-no-right-turn-2",
       "item": "reg-no-right-turn",
       "kind": "gates",
-      "prompt": "You want to turn right here. Can you?",
+      "prompt": "You want to turn right here. Is it legal?",
       "image": "sign-no-right-turn",
       "choices": [
         "Yes, after stopping",
@@ -721,7 +721,7 @@
       "id": "ev-reg-no-u-turn-2",
       "item": "reg-no-u-turn",
       "kind": "gates",
-      "prompt": "Missed your street. Turn around here?",
+      "prompt": "You drove past your street. Is a U-turn legal here?",
       "image": "sign-no-u-turn",
       "choices": [
         "Yes, a U-turn is fine",
@@ -729,13 +729,13 @@
         "Yes, if it is clear"
       ],
       "answer": 1,
-      "missLine": "This sign means no U-turns. Keep going instead."
+      "missLine": "This sign means no U-turns. Do not turn around here."
     },
     {
       "id": "ev-reg-no-u-turn-3",
       "item": "reg-no-u-turn",
       "kind": "action",
-      "prompt": "Missed your turn. No U-Turn sign here.",
+      "prompt": "Drove past your street. No U-Turn sign here.",
       "sign": "sign-no-u-turn",
       "action": "go",
       "missLine": "No U-turns here. Keep driving. Do not turn around at this sign."
@@ -782,7 +782,7 @@
       "id": "ev-reg-do-not-pass-1",
       "item": "reg-do-not-pass",
       "kind": "gates",
-      "prompt": "Slow car ahead, road clear. Pass?",
+      "prompt": "Slow car ahead, road looks clear. Is passing legal?",
       "image": "sign-do-not-pass",
       "choices": [
         "Yes, road is clear",
@@ -830,10 +830,10 @@
       "id": "ev-reg-left-turn-yield-green-2",
       "item": "reg-left-turn-yield-green",
       "kind": "gates",
-      "prompt": "Turning left on green. Who goes first?",
+      "prompt": "You turn left on a green light. Who goes first?",
       "image": "sign-left-turn-yield-green",
       "choices": [
-        "You do",
+        "You, the turning driver",
         "Oncoming traffic",
         "Cars behind you"
       ],
@@ -954,7 +954,7 @@
       "prompt": "What tells you how many riders you need?",
       "image": "sign-hov",
       "choices": [
-        "You decide",
+        "The driver decides",
         "Your car's size",
         "The HOV sign"
       ],
@@ -979,7 +979,7 @@
       "id": "ev-reg-disabled-parking-2",
       "item": "reg-disabled-parking",
       "kind": "gates",
-      "prompt": "No disabled permit. Can you park here?",
+      "prompt": "You have no disabled permit. May you park here?",
       "image": "sign-disabled-parking",
       "choices": [
         "Yes, if quick",
@@ -993,7 +993,7 @@
       "id": "ev-reg-reduced-speed-ahead-1",
       "item": "reg-reduced-speed-ahead",
       "kind": "action",
-      "prompt": "Reduced Speed Limit Ahead!",
+      "prompt": "Sign: Reduced Speed Limit Ahead.",
       "sign": "sign-reduced-speed-ahead",
       "action": "slow",
       "missLine": "The speed limit drops ahead. Get ready to slow down."
@@ -1002,7 +1002,7 @@
       "id": "ev-reg-reduced-speed-ahead-2",
       "item": "reg-reduced-speed-ahead",
       "kind": "gates",
-      "prompt": "What should you get ready to do?",
+      "prompt": "At this sign, a driver should get ready to:",
       "image": "sign-reduced-speed-ahead",
       "choices": [
         "Slow down",
@@ -1595,7 +1595,7 @@
       "id": "q-reg-do-not-pass-2",
       "item": "reg-do-not-pass",
       "part": 1,
-      "prompt": "After you pass this sign, you may pass the car ahead of you in your lane:",
+      "prompt": "After you drive by this sign, you may pass the car ahead of you in your lane:",
       "image": "sign-do-not-pass",
       "choices": [
         "Only if the way is clear",
@@ -1795,7 +1795,7 @@
         "Keep your speed until the next sign",
         "Pass slower cars before the limit drops",
         "Get ready to slow down for a lower limit",
-        "Stop at the sign, then continue"
+        "Stop at the sign, then drive on"
       ],
       "answer": 2,
       "explain": "Get ready to slow down because a lower speed limit is coming."
