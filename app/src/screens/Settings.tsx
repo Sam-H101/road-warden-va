@@ -5,6 +5,7 @@ import { playHorn, playSfx, setSfxVolume, vibrate } from '../services/sfx'
 import { canSpeak, configureSpeech, speak } from '../services/speech'
 import { DEFAULT_SETTINGS, useGame, type ReadAloudMode, type Settings } from '../store/gameStore'
 import { Button, Panel, Screen } from '../ui/kit'
+import { OnlineSavePanel, StatePanel } from '../ui/AccountPanels'
 import { BottomAction, InlineConfirm, SectionTitle, Segmented, SettingRow, Slider, Toggle } from '../ui/b-controls'
 
 function reactionWord(v: number): string {
@@ -276,6 +277,9 @@ export function SettingsScreen() {
       </Panel>
 
       {/* Save */}
+      <StatePanel />
+      <OnlineSavePanel />
+
       <SectionTitle read="Your progress lives on this device. Export makes a save file. Import loads a save file, for example from another device.">
         Your save
       </SectionTitle>

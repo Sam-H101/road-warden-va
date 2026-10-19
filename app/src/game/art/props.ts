@@ -1,5 +1,6 @@
 // Scene props: every SceneProp plus cleared and flash frames.
 import type { SceneProp } from '../../engine/types'
+import { PLATE } from '../../engine/states'
 import type { G, Label } from './draw'
 import { COLORS, INK, box, circle, fill, lamp, line, poly, shadow, stripes } from './draw'
 import { PROP_INFO } from './propInfo'
@@ -310,7 +311,7 @@ export function propDefs(): TexDef[] {
     d('pedestrian-crosswalk', (g) => crosswalk(g, null), undefined, 'prop-crosswalk-empty'),
 
     d('cyclist-ahead', drawCyclist),
-    d('motorcycle-ahead', drawMotorcycle, [{ text: 'VA', x: 56, y: 104.5, size: 7, color: '#1e3a8a' }]),
+    d('motorcycle-ahead', drawMotorcycle, [{ text: PLATE, x: 56, y: 104.5, size: 7, color: '#1e3a8a' }]),
     d('deer-on-road', drawDeer),
 
     d('emergency-behind', (g) => drawAmbulance(g, 0), ambulanceLabels),

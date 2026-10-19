@@ -1,0 +1,19 @@
+# Road Warden progress sync: a Cloudflare Worker.
+# It checks a Google sign-in, then reads and writes each player's progress as
+# JSON files in a private GitHub repository (the "database").
+# Setup steps are in server/README.md.
+name = "road-warden-sync"
+main = "src/worker.ts"
+compatibility_date = "2026-09-01"
+
+[vars]
+# Where the game is hosted. Comma separated. Requests from other sites are refused.
+ALLOWED_ORIGINS = "https://sam-h101.github.io,http://localhost:5173,http://localhost:4173"
+# The private repository that stores progress, as owner/name, and its branch.
+DATA_REPO = "Sam-H101/road-warden-data"
+DATA_BRANCH = "main"
+
+# Secrets (set with `npx wrangler secret put NAME`, never commit them):
+#   GOOGLE_CLIENT_ID  the OAuth web client ID (also used by the game build)
+#   GITHUB_TOKEN      fine-grained token with Contents: read and write on DATA_REPO only
+#   SESSION_SECRET    a long random string used to sign session tokens

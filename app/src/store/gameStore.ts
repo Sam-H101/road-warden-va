@@ -2,7 +2,7 @@
 // lets the learner move a save between devices.
 import { create } from 'zustand'
 import { createJSONStorage, persist } from 'zustand/middleware'
-import { campaignDistricts, districtById, eventById, finalDistrict, isSignItem, itemById, missionCount, districts } from '../engine/content'
+import { campaignDistricts, districtById, isPreviewState, eventById, finalDistrict, isSignItem, itemById, missionCount, districts } from '../engine/content'
 import { advanceContract, dailyContracts, weeklyContracts, type Contract, type ContractContext } from '../engine/contracts'
 import { gradeExam, isExamReady, type ExamRecord, type ExamResult } from '../engine/exam'
 import { COSMETICS, DEFAULT_EQUIPPED, MAX_EQUIPPED_PERKS, PERKS, type CosmeticSlot } from '../engine/loadout'
@@ -13,6 +13,7 @@ import { dayKey, weekKey } from '../engine/rng'
 import type { EventOutcome, PerkId, RunMode, RunResult } from '../engine/run'
 import { xpForRun } from '../engine/run'
 import { review, type ItemState } from '../engine/scheduler'
+import { activeState, saveKeyFor } from '../engine/states'
 import type { DistrictId } from '../engine/types'
 import type { ExamAnswer, ExamPaper } from '../engine/exam'
 
@@ -179,6 +180,8 @@ export function unlockedDistricts(s: Pick<GameState, 'missionsCleared'>): Distri
 }
 
 export function isExamDayUnlocked(s: Pick<GameState, 'missionsCleared'>): boolean {
+  // Exam Day is a full rehearsal of the state's test, so it needs the state's own manual.
+  if (isPreviewState) return false
   return campaignDistricts.every((d) => isDistrictComplete(s, d.id))
 }
 
@@ -288,6 +291,13 @@ export function sanitizeSave(raw: unknown): GameState {
     s.bossesCleared = s.bossesCleared.filter((d) => d !== finalDistrict.id)
   }
   return s
+}
+
+/** Just the saved fields of the store (no actions), as written to a save file. */
+export function snapshotSave(s: GameState): GameState {
+  const out: Record<string, unknown> = {}
+  for (const k of Object.keys(initialState()) as (keyof GameState)[]) out[k] = s[k]
+  return out as unknown as GameState
 }
 
 function cosmeticUnlocked(s: GameState, id: string): boolean {
@@ -617,10 +627,8 @@ export const useGame = create<Store>()(
       },
 
       exportSave: () => {
-        const s = get()
-        const data: Record<string, unknown> = {}
-        for (const k of Object.keys(initialState()) as (keyof GameState)[]) data[k] = s[k]
-        return JSON.stringify({ app: 'road-warden-va', exportedAt: new Date().toISOString(), data }, null, 2)
+        const data = snapshotSave(get())
+        return JSON.stringify({ app: 'road-warden-va', state: activeState.code, exportedAt: new Date().toISOString(), data }, null, 2)
       },
 
       importSave: (json) => {
@@ -629,6 +637,9 @@ export const useGame = create<Store>()(
           if (parsed?.app !== 'road-warden-va' || typeof parsed.data !== 'object') {
             return { ok: false, error: 'This file is not a Road Warden save.' }
           }
+          // Saves from before states existed have no state and are Virginia saves.
+          const from = typeof parsed.state === 'string' ? parsed.state : 'va'
+          if (from !== activeState.code) return { ok: false, error: 'This save is for a different state. Switch state first.' }
           const data = parsed.data as Record<string, unknown>
           if (data.version !== 1) return { ok: false, error: 'This save is from a different version.' }
           if (!isObj(data.items)) return { ok: false, error: 'This save file is damaged.' }
@@ -645,7 +656,7 @@ export const useGame = create<Store>()(
       },
     }),
     {
-      name: 'road-warden-va',
+      name: saveKeyFor(activeState.code),
       version: 1,
       storage: createJSONStorage(() => localStorage),
       partialize: (s) => {

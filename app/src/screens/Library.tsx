@@ -1,6 +1,7 @@
 // Study guide: every fact from the manual, in plain words, searchable.
 import { useDeferredValue, useEffect, useMemo, useState, type ReactNode } from 'react'
-import { districtById, districts, isSignItem, itemsIn, signRegistry } from '../engine/content'
+import { districtById, districts, isPreviewState, isSignItem, itemsIn, signRegistry } from '../engine/content'
+import { NATIONAL_SOURCE } from '../engine/states'
 import { isMastered, type ItemState } from '../engine/scheduler'
 import type { DistrictId, Item } from '../engine/types'
 import { useNav } from '../app/nav'
@@ -266,7 +267,7 @@ function ItemCard({ item, status, showDistrict }: { item: Item; status: Status; 
         >
           {official ? 'Hide official wording' : 'Show official wording'}
         </button>
-        <span className="text-sm text-dim ml-auto">📖 {item.manualRef}</span>
+        <span className="text-sm text-dim ml-auto">📖 {isPreviewState ? `Same in every state (${NATIONAL_SOURCE.toUpperCase()} manual, ${item.manualRef})` : item.manualRef}</span>
       </div>
       {official && (
         <blockquote className="mt-3 border-l-4 border-info pl-3 text-dim italic flex gap-2">

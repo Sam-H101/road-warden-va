@@ -1,5 +1,6 @@
 // DOM/SVG preview of the player's car (back view, like in the game). No Phaser.
 import { useId } from 'react'
+import { PLATE } from '../engine/states'
 
 interface Shape {
   bodyW: number // width of the lower body
@@ -192,7 +193,7 @@ export function CarPreview({
         {/* License plate */}
         <rect x={CX - 18} y={BOTTOM - 26} width={36} height={14} rx={2} fill="#f8fafc" stroke="#1e3a8a" strokeWidth={1.5} />
         <text x={CX} y={BOTTOM - 15.5} textAnchor="middle" fontSize="8" fontWeight="800" fill="#1e3a8a" fontFamily="ui-sans-serif, system-ui, sans-serif">
-          VA
+          {PLATE}
         </text>
 
         {/* Bumper */}

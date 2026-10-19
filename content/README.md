@@ -5,12 +5,34 @@ The TypeScript contract is `app/src/engine/types.ts`. The validator is
 `tools/validate.py` (run `python tools/validate.py`). Content that fails
 validation does not ship.
 
+## States
+
+The game covers all 50 states. `states/states.json` lists them; each has a
+`status`:
+
+- `ready`: the state has a full course in `states/<code>/` written from its own
+  manual. Virginia (`va`) is the first.
+- `preview`: no course yet. The game plays the facts tagged
+  `"scope": "national"` from Virginia's course (sign shapes, colors, signal and
+  marking meanings: the federal MUTCD, the same everywhere). Exam Day stays
+  locked because the state's exam format and laws are not written yet.
+
+### Adding a state
+
+1. Download the official manual PDF to `states/<code>/manual/manual.pdf` and run
+   `python tools/extract.py <code>`.
+2. Copy `states/va/districts/` and `states/va/story.json` as a template, then
+   rewrite every fact from the new manual (the rules below still apply). Keep
+   `scope: "national"` only on facts that are the same in every state.
+3. Run `python tools/validate.py` until it passes, then set the state's
+   `status` to `ready` in `states/states.json`.
+
 ## Source of truth
 
-Every fact must come from the Virginia Driver's Manual (DMV 39). The extracted
-text is in `content/manual/manual.txt` with `===== PAGE N =====` markers. Manual
-printed page numbers (e.g. "| 15") differ from PDF page numbers; cite the
-printed page, e.g. `"Section 3, p. 15"`.
+Every fact must come from the state's own driver's manual (Virginia: DMV 39).
+The extracted text is in `states/<code>/manual/manual.txt` with
+`===== PAGE N =====` markers. Manual printed page numbers (e.g. "| 15") differ
+from PDF page numbers; cite the printed page, e.g. `"Section 3, p. 15"`.
 
 Never invent numbers, fines, ages, distances or rules. If the manual does not say
 it, do not write it. Do not copy commercial practice-test sites.
@@ -36,11 +58,13 @@ The player has ADHD and reading comprehension difficulties. Therefore:
 
 ```
 content/
-  districts.json          16 districts (fixed; do not edit ids)
-  signs/registry.json     every image id that content may reference
+  districts.json          16 districts (fixed; do not edit ids), shared by all states
+  signs/registry.json     every image id that content may reference (national art)
   signs/<id>.svg          the art, one file per registry id
-  districts/<district-id>.json   items, events, questions for one district
-  story.json              mentor dialogue
+  states/states.json      all 50 states: status, agency, manual link, exam format
+  states/<code>/districts/<district-id>.json   items, events, questions for one district
+  states/<code>/story.json                     mentor dialogue
+  states/<code>/manual/                        the source manual and its extracted text
 ```
 
 ### districts/<district-id>.json
@@ -73,6 +97,8 @@ content/
 - `id`: kebab-case, globally unique. Prefix with a district short code
   (`rook-`, `shape-`, `reg-`, `warn-`, `work-`, `sig-`, `row-`, `spd-`, `lane-`,
   `share-`, `cond-`, `imp-`, `belt-`, `pen-`, `lic-`).
+- `scope` (optional): `national` when the fact and all its events and questions
+  are true in every US state and never name a state. Preview states play these.
 - `kind`: `sign` (about a sign/signal/marking image), `number` (the key fact is a
   number: feet, seconds, MPH, days, dollars, points, ages, BAC), or `rule`.
 - `image`: must be an id from `signs/registry.json`. Required for `kind: sign`.

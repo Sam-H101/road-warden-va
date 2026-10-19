@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { registerSW } from 'virtual:pwa-register'
 import './index.css'
 import App from './App.tsx'
+import { startSync } from './services/sync'
 
 const root = document.getElementById('root')!
 
@@ -12,6 +13,8 @@ if (import.meta.env.DEV && new URLSearchParams(window.location.search).has('arts
 } else {
   // Offline play: install / update the service worker quietly in the background.
   registerSW({ immediate: true })
+  // Online saves (only when this build has a Google client ID and sync URL).
+  startSync()
 
   createRoot(root).render(
     <StrictMode>

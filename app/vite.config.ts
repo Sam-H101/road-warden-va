@@ -16,9 +16,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['icon.svg', 'icon-180.png', 'icon-192.png', 'icon-512.png', 'icon-maskable-512.png'],
       manifest: {
-        name: 'Road Warden: Virginia',
+        name: 'Road Warden: DMV Permit Practice',
         short_name: 'Road Warden',
-        description: 'Learn the Virginia Driver Manual by playing. Pass the DMV knowledge exam.',
+        description: 'Learn your state driver manual by playing. Pass the DMV knowledge exam.',
         theme_color: '#0b1020',
         background_color: '#0b1020',
         display: 'standalone',

@@ -43,8 +43,19 @@ jobs:
         working-directory: app
         run: npx vitest run
 
+      - name: Sync server tests
+        working-directory: server
+        run: |
+          npm ci
+          npx tsc --noEmit
+          npx vitest run
+
       - name: Build
         working-directory: app
+        # Online saves turn on when both repository variables are set (see server/README.md).
+        env:
+          VITE_GOOGLE_CLIENT_ID: ${{ vars.GOOGLE_CLIENT_ID }}
+          VITE_SYNC_URL: ${{ vars.SYNC_URL }}
         run: npm run build
 
       - uses: actions/upload-pages-artifact@v3

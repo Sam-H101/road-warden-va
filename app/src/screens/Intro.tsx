@@ -1,10 +1,12 @@
-// First launch: name, then three swipeable "how to play" cards, then mission 1.
+// First launch: state, then name, then three swipeable "how to play" cards, then mission 1.
 import { useState, type ReactNode } from 'react'
 import { useNav } from '../app/nav'
 import { storyFor } from '../engine/content'
+import { activeState, chooseFirstState, hasChosenState, stateCoverage } from '../engine/states'
 import { useGame } from '../store/gameStore'
 import { Button, ReadAloudButton, useAutoRead } from '../ui/kit'
 import { MentorAvatar, MentorLine } from '../ui/Mentor'
+import { StatePicker } from '../ui/StatePicker'
 import { missionPlan, startPlan } from '../ui/play'
 import { Swiper } from '../ui/Swiper'
 
@@ -42,7 +44,7 @@ export function IntroScreen() {
   const setSeenIntro = useGame((s) => s.setSeenIntro)
   const readAloud = useGame((s) => s.settings.readAloud)
   const updateSettings = useGame((s) => s.updateSettings)
-  const [step, setStep] = useState<'name' | 'cards'>('name')
+  const [step, setStep] = useState<'state' | 'name' | 'cards'>(hasChosenState ? 'name' : 'state')
   const [name, setLocalName] = useState(savedName)
   const [card, setCard] = useState(0)
   const welcome = storyFor('d01-rookie')?.intro[0] ?? "Welcome to the squad, rookie! I'm Captain Rae."
@@ -55,16 +57,38 @@ export function IntroScreen() {
     if (!startPlan(missionPlan('d01-rookie', 0), 'replace')) useNav.getState().home()
   }
 
+  if (step === 'state') {
+    return (
+      <div className="min-h-dvh flex flex-col" style={{ paddingTop: 'env(safe-area-inset-top)' }}>
+        <main className="flex-1 w-full max-w-lg mx-auto px-4 py-8 flex flex-col gap-5 justify-center">
+          <div className="text-center">
+            <h1 className="text-5xl font-extrabold glow leading-none">ROAD WARDEN</h1>
+            <p className="text-dim mt-2 text-lg">Drive. Learn the rules. Pass the DMV test.</p>
+          </div>
+          <MentorLine text="Which state are you getting your permit in?" auto />
+          <StatePicker
+            onPick={(st) => {
+              // Picking a state other than the one loaded reloads the app for that state.
+              chooseFirstState(st.code)
+              if (st.code === activeState.code) setStep('name')
+            }}
+          />
+        </main>
+      </div>
+    )
+  }
+
   if (step === 'name') {
     return (
       <div className="min-h-dvh flex flex-col" style={{ paddingTop: 'env(safe-area-inset-top)' }}>
         <main className="flex-1 w-full max-w-lg mx-auto px-4 py-8 flex flex-col gap-6 justify-center">
           <div className="text-center">
-            <div className="text-sm font-extrabold tracking-[0.3em] text-info uppercase">Virginia</div>
+            <div className="text-sm font-extrabold tracking-[0.3em] text-info uppercase">{activeState.name}</div>
             <h1 className="text-5xl font-extrabold glow leading-none mt-1">ROAD WARDEN</h1>
             <p className="text-dim mt-2 text-lg">Drive. Learn the rules. Pass the DMV test.</p>
           </div>
           <MentorLine text={welcome} auto />
+          {activeState.status !== 'ready' && <p className="text-lg text-dim">{stateCoverage(activeState)}</p>}
           <form
             className="flex flex-col gap-3"
             onSubmit={(e) => {
