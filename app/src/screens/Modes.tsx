@@ -1,7 +1,8 @@
 // Every way to play, with plain-words lock reasons.
 import { useEffect, useState } from 'react'
 import { useNav } from '../app/nav'
-import { districtById } from '../engine/content'
+import { districtById, isPreviewState } from '../engine/content'
+import { activeState } from '../engine/states'
 import { MODE_UNLOCK_RANK } from '../engine/ranks'
 import type { RunMode, RunPlan } from '../engine/run'
 import { buildHazard, buildNumbers, buildQuick, buildReplay, buildSniper } from '../engine/runBuilder'
@@ -45,7 +46,7 @@ export function ModesScreen() {
       id: 'campaign',
       icon: '🗺️',
       name: 'Campaign',
-      blurb: 'Story missions across Virginia. Learn new rules.',
+      blurb: `Story missions across ${activeState.name}. Learn new rules.`,
       length: 'About 5-10 min · faster with GO',
       locked: null,
       run: () => nav.go({ name: 'map' }),
@@ -108,7 +109,7 @@ export function ModesScreen() {
       id: 'signs',
       icon: '🛑',
       name: 'Sign Test',
-      blurb: '10 sign questions. Like the DMV, you need all 10.',
+      blurb: isPreviewState ? '10 sign questions. Try to get all 10.' : '10 sign questions. Like the DMV, you need all 10.',
       length: '5 min',
       locked: isSignTestUnlocked(s) ? null : 'Clear districts 1 to 6',
       run: () => nav.go({ name: 'exam', kind: 'signs' }),
@@ -119,7 +120,7 @@ export function ModesScreen() {
       name: 'Exam Day',
       blurb: 'The real test: 10 signs, then 30 questions.',
       length: '~10 min',
-      locked: isExamDayUnlocked(s) ? null : 'Clear every district',
+      locked: isExamDayUnlocked(s) ? null : isPreviewState ? `Needs the ${activeState.name} manual` : 'Clear every district',
       run: () => nav.go({ name: 'district', district: 'd16-examday' }),
     },
   ]

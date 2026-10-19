@@ -1,4 +1,6 @@
-// Loads all content JSON at build time and builds lookup indexes.
+// Loads all content JSON at build time and builds lookup indexes for the
+// player's state (see ./states.ts). A state whose manual is not written yet
+// ("preview") plays the national sign facts from NATIONAL_SOURCE only.
 import type {
   District,
   DistrictContent,
@@ -11,25 +13,47 @@ import type {
 } from './types'
 import districtsJson from '@content/districts.json'
 import registryJson from '@content/signs/registry.json'
+import { activeState, NATIONAL_SOURCE } from './states'
 
-const districtFiles = import.meta.glob<DistrictContent>('@content/districts/*.json', {
+const districtFiles = import.meta.glob<DistrictContent>('@content/states/*/districts/*.json', {
   eager: true,
   import: 'default',
 })
-const storyFiles = import.meta.glob<Story>('@content/story.json', { eager: true, import: 'default' })
+const storyFiles = import.meta.glob<Story>('@content/states/*/story.json', { eager: true, import: 'default' })
 const signUrls = import.meta.glob<string>('@content/signs/*.svg', {
   eager: true,
   query: '?url',
   import: 'default',
 })
 
+/** State code from a content path such as ".../states/va/districts/d01.json". */
+function stateOf(path: string): string {
+  return path.match(/states\/([a-z]{2})\//)?.[1] ?? ''
+}
+
 export const districts: District[] = (districtsJson as District[]).slice().sort((a, b) => a.order - b.order)
 export const districtById = new Map<DistrictId, District>(districts.map((d) => [d.id, d]))
 export const signRegistry: SignInfo[] = registryJson as SignInfo[]
 
+/** Only the national facts (and their events and questions) from a district. */
+function nationalOnly(c: DistrictContent): DistrictContent {
+  const items = c.items.filter((i) => i.scope === 'national')
+  const ids = new Set(items.map((i) => i.id))
+  return {
+    district: c.district,
+    items,
+    events: c.events.filter((e) => ids.has(e.item)),
+    questions: c.questions.filter((q) => ids.has(q.item)),
+  }
+}
+
+export const isPreviewState = activeState.status !== 'ready'
+const sourceState = isPreviewState ? NATIONAL_SOURCE : activeState.code
+
 const contentByDistrict = new Map<DistrictId, DistrictContent>()
-for (const file of Object.values(districtFiles)) {
-  if (file && file.district) contentByDistrict.set(file.district, file)
+for (const [path, file] of Object.entries(districtFiles)) {
+  if (!file || !file.district || stateOf(path) !== sourceState) continue
+  contentByDistrict.set(file.district, isPreviewState ? nationalOnly(file) : file)
 }
 
 export const allItems: Item[] = []
@@ -101,7 +125,17 @@ const fallbackStory: Story = {
   examDayPepTalk: ['Breathe. Read every word. You trained for this.'],
 }
 
-export const story: Story = Object.values(storyFiles)[0] ?? fallbackStory
+function storyForState(): Story {
+  const byState = new Map(Object.entries(storyFiles).map(([p, st]) => [stateOf(p), st]))
+  const own = byState.get(activeState.code)
+  if (own) return own
+  const base = byState.get(NATIONAL_SOURCE)
+  if (!base) return fallbackStory
+  // Borrow the mentor's lines, with the player's state named instead.
+  return JSON.parse(JSON.stringify(base).replace(/\bVirginia\b/g, activeState.name)) as Story
+}
+
+export const story: Story = storyForState()
 
 export function storyFor(district: DistrictId) {
   return story.districts.find((s) => s.district === district)

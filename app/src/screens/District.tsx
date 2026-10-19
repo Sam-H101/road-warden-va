@@ -1,7 +1,8 @@
 // One district: mentor intro, missions, boss, study cards.
 import { useState } from 'react'
 import { useNav } from '../app/nav'
-import { campaignDistricts, districtById, itemsIn, missionCount, missionItems, questionsByItem, story, storyFor } from '../engine/content'
+import { activeState } from '../engine/states'
+import { campaignDistricts, districtById, isPreviewState, itemsIn, missionCount, missionItems, questionsByItem, story, storyFor } from '../engine/content'
 import { BOSS_PASS_PCT, BOSS_QUESTION_COUNT, EXAM_PART1_COUNT, EXAM_PART2_COUNT, EXAM_PART2_PASS, READY_PART2, READY_RUNS_NEEDED } from '../engine/exam'
 import type { District, DistrictId } from '../engine/types'
 import { isExamDayUnlocked, isSignTestUnlocked, unlockedDistricts, useGame } from '../store/gameStore'
@@ -246,7 +247,16 @@ function ExamDayDistrict({ d }: { d: District }) {
   return (
     <Screen title={d.name} onBack={nav.back}>
       <div className="flex flex-col gap-4 pb-28">
-        <MentorLine text={open ? pep : 'Exam Day is the final boss. Clear every district first, then come back here.'} auto />
+        <MentorLine
+          text={
+            open
+              ? pep
+              : isPreviewState
+                ? `Exam Day copies the real ${activeState.name} test, so it opens when the ${activeState.name} manual is added. Practice your signs until then.`
+                : 'Exam Day is the final boss. Clear every district first, then come back here.'
+          }
+          auto
+        />
 
         <Panel>
           <div className="flex items-start gap-2">

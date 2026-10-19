@@ -37,6 +37,8 @@ export interface Item {
   id: string // globally unique, kebab-case, e.g. "reg-stop-sign"
   district: DistrictId
   kind: 'sign' | 'rule' | 'number'
+  /** national = the same in every US state (MUTCD sign meanings); shared with states not written yet. */
+  scope?: 'national' | 'state'
   title: string // <= 6 words
   simple: string // <= 40 words, ~5th grade reading level
   official: string // short quote or close paraphrase from the manual

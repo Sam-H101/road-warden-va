@@ -1,6 +1,7 @@
 // Vehicles: the player's car styles (rear view), ambient traffic, and the
 // special vehicles used by scene props (police, ambulance, tow, trash, school
 // bus, semi, tailgater, funeral procession).
+import { PLATE } from '../../engine/states'
 import type { G, Label } from './draw'
 import {
   COLORS,
@@ -379,7 +380,7 @@ export function drawPlayerCar(g: G, style: CarStyle, paint: number, withDecal: b
 
 export function playerCarLabels(style: CarStyle, decal: string): Label[] {
   const geo = rearGeom(STYLE_SPECS[style])
-  const out: Label[] = [{ text: 'VA', x: geo.cx, y: geo.plateY + 0.5, size: 9, color: '#1e3a8a', weight: '900' }]
+  const out: Label[] = [{ text: PLATE, x: geo.cx, y: geo.plateY + 0.5, size: 9, color: '#1e3a8a', weight: '900' }]
   if (decal) out.push({ text: decal, x: geo.winCx, y: geo.winCy + 1, size: 18, font: EMOJI_FONT, weight: '400' })
   return out
 }
@@ -399,7 +400,7 @@ const VAN: RearSpec = { w: 160, h: 120, bodyW: 142, beltY: 62, bottomY: 108, roo
 
 function plateLabel(spec: RearSpec): Label {
   const geo = rearGeom(spec)
-  return { text: 'VA', x: geo.cx, y: geo.plateY + 0.5, size: 9, color: '#1e3a8a' }
+  return { text: PLATE, x: geo.cx, y: geo.plateY + 0.5, size: 9, color: '#1e3a8a' }
 }
 
 export function trafficDefs(): VehicleDef[] {
@@ -491,7 +492,7 @@ export function policeLabels(): Label[] {
   const geo = rearGeom(POLICE)
   return [
     { text: 'POLICE', x: geo.cx, y: POLICE.beltY + 14, size: 12, color: '#1e3a8a' },
-    { text: 'VA', x: geo.cx, y: geo.plateY + 0.5, size: 9, color: '#1e3a8a' },
+    { text: PLATE, x: geo.cx, y: geo.plateY + 0.5, size: 9, color: '#1e3a8a' },
   ]
 }
 
@@ -718,7 +719,7 @@ export function busLabels(arm: boolean): Label[] {
   const cx = BUS_W / 2
   const out: Label[] = [
     { text: 'SCHOOL BUS', x: cx, y: 56.5, size: 15, color: '#15151f', maxWidth: 124 },
-    { text: 'VA', x: cx, y: 167, size: 9, color: '#1e3a8a' },
+    { text: PLATE, x: cx, y: 167, size: 9, color: '#1e3a8a' },
   ]
   if (arm) out.push({ text: 'STOP', x: 26, y: 107.5, size: 11, color: '#ffffff', maxWidth: 34 })
   return out
@@ -822,7 +823,7 @@ export function drawTailgater(g: G): void {
 }
 
 export function tailgaterLabels(): Label[] {
-  return [{ text: 'VA', x: TAILGATER_W / 2, y: 111, size: 9, color: '#1e3a8a' }]
+  return [{ text: PLATE, x: TAILGATER_W / 2, y: 111, size: 9, color: '#1e3a8a' }]
 }
 
 // ---------------------------------------------------------------- funeral procession

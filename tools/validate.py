@@ -16,6 +16,9 @@ from pydantic import BaseModel, Field, ValidationError, field_validator
 
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
+STATES = CONTENT / "states"
+# Sign facts tagged scope "national" in this state are shared with states not yet written.
+NATIONAL_SOURCE = "va"
 
 DISTRICT_IDS = [
     "d01-rookie", "d02-shapes", "d03-regulatory", "d04-warning", "d05-workzone",
@@ -33,6 +36,7 @@ SCENE_PROPS = {
     "work-zone-cones", "truck-ahead", "tailgater-behind", "ponded-water", "icy-bridge",
     "stop-line", "driveway-exit",
 }
+STATE_NAME_RE = re.compile(r"\bVirginia\b|\bVA\b")
 ID_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 REF_RE = re.compile(r"^Section [1-8](, p\. \d+(-\d+)?)?$")
 
@@ -69,6 +73,7 @@ class Item(BaseModel):
     id: str
     district: Literal[tuple(DISTRICT_IDS)]  # type: ignore[valid-type]
     kind: Literal["sign", "rule", "number"]
+    scope: Optional[Literal["national", "state"]] = None
     title: str = Field(min_length=2)
     simple: str = Field(min_length=10)
     official: str = Field(min_length=10)
@@ -125,6 +130,23 @@ class Question(BaseModel):
     explain: str
 
 
+class StateExam(BaseModel):
+    questions: Optional[int] = None
+    passPercent: Optional[int] = None
+    note: Optional[str] = None
+
+
+class StateInfo(BaseModel):
+    code: str = Field(pattern=r"^[a-z]{2}$")
+    name: str = Field(min_length=4)
+    status: Literal["ready", "preview"]
+    agency: Optional[str] = None
+    manualTitle: Optional[str] = None
+    manualUrl: Optional[str] = None
+    exam: StateExam = StateExam()
+    sources: list[str] = []
+
+
 class DistrictFile(BaseModel):
     district: Literal[tuple(DISTRICT_IDS)]  # type: ignore[valid-type]
     items: list[Item]
@@ -132,23 +154,9 @@ class DistrictFile(BaseModel):
     questions: list[Question]
 
 
-def main() -> int:
-    strict = "--strict" in sys.argv
-    errors: list[str] = []
-    warnings: list[str] = []
-
-    registry = json.loads((CONTENT / "signs" / "registry.json").read_text(encoding="utf-8"))
-    image_ids = {r["id"] for r in registry}
-    for r in registry:
-        if not (CONTENT / "signs" / f"{r['id']}.svg").exists():
-            errors.append(f"[art] missing SVG for registry id {r['id']}")
-    for svg in (CONTENT / "signs").glob("*.svg"):
-        if svg.stem not in image_ids:
-            warnings.append(f"[art] SVG not in registry: {svg.name}")
-        text = svg.read_text(encoding="utf-8", errors="replace")
-        if "<svg" not in text or "viewBox" not in text:
-            errors.append(f"[art] {svg.name} is not a valid SVG with a viewBox")
-
+def validate_state(code: str, ready: bool, image_ids: set[str], errors: list[str], warnings: list[str]) -> None:
+    """Validate one state's course in content/states/<code>/."""
+    state_dir = STATES / code
     all_ids: Counter[str] = Counter()
     item_district: dict[str, str] = {}
     totals = Counter()
@@ -156,12 +164,12 @@ def main() -> int:
     per_item_questions: dict[str, int] = defaultdict(int)
     answer_dist = Counter()
 
-    files = sorted((CONTENT / "districts").glob("*.json"))
+    files = sorted((state_dir / "districts").glob("*.json"))
     if not files:
-        errors.append("no district files found in content/districts/")
+        errors.append(f"no district files found in {state_dir.relative_to(ROOT)}/districts/")
     seen_districts = set()
     for f in files:
-        where = f.name
+        where = f"{code}/{f.name}"
         try:
             raw = json.loads(f.read_text(encoding="utf-8"))
             df = DistrictFile.model_validate(raw)
@@ -192,6 +200,13 @@ def main() -> int:
             totals[f"kind:{it.kind}"] += 1
 
         item_ids = {it.id for it in df.items}
+        # National facts are shown to every state, so they must not name one.
+        national = {it.id for it in df.items if it.scope == "national"}
+        for raw_any in [*(it.model_dump() for it in df.items if it.id in national),
+                        *(e for e in df.events if e.get("item") in national),
+                        *(q.model_dump() for q in df.questions if q.item in national)]:
+            if STATE_NAME_RE.search(json.dumps(raw_any, ensure_ascii=False)):
+                errors.append(f"[{where}] national fact {raw_any.get('id')} names a state; tag it scope state")
         for raw_ev in df.events:
             kind = raw_ev.get("kind")
             try:
@@ -271,23 +286,68 @@ def main() -> int:
         if n > 1:
             errors.append(f"duplicate id across content: {i} x{n}")
 
+    # A "ready" state is the full course; a state still being written may be partial.
     for d in DISTRICT_IDS:
         if d != "d16-examday" and d not in seen_districts:
-            errors.append(f"missing district file for {d}")
+            (errors if ready else warnings).append(f"[{code}] missing district file for {d}")
 
-    if totals["part1"] < 40:
-        warnings.append(f"only {totals['part1']} part-1 sign questions; want 40+ for varied Exam Days")
+    if ready and totals["part1"] < 40:
+        warnings.append(f"[{code}] only {totals['part1']} part-1 sign questions; want 40+ for varied Exam Days")
 
-    story = CONTENT / "story.json"
-    if not story.exists():
-        errors.append("missing content/story.json")
+    if ready and not (state_dir / "story.json").exists():
+        errors.append(f"[{code}] missing {state_dir.relative_to(ROOT)}/story.json")
+
+    print(f"[{code}] totals:", dict(totals))
+    print(f"[{code}] answer index spread:", dict(sorted(answer_dist.items())))
+
+
+
+def main() -> int:
+    strict = "--strict" in sys.argv
+    errors: list[str] = []
+    warnings: list[str] = []
+
+    registry = json.loads((CONTENT / "signs" / "registry.json").read_text(encoding="utf-8"))
+    image_ids = {r["id"] for r in registry}
+    for r in registry:
+        if not (CONTENT / "signs" / f"{r['id']}.svg").exists():
+            errors.append(f"[art] missing SVG for registry id {r['id']}")
+    for svg in (CONTENT / "signs").glob("*.svg"):
+        if svg.stem not in image_ids:
+            warnings.append(f"[art] SVG not in registry: {svg.name}")
+        text = svg.read_text(encoding="utf-8", errors="replace")
+        if "<svg" not in text or "viewBox" not in text:
+            errors.append(f"[art] {svg.name} is not a valid SVG with a viewBox")
+
+    states_file = STATES / "states.json"
+    try:
+        states = [StateInfo.model_validate(x) for x in json.loads(states_file.read_text(encoding="utf-8"))]
+    except (OSError, json.JSONDecodeError, ValidationError) as e:
+        errors.append(f"[states.json] {e}")
+        states = []
+    codes = Counter(s.code for s in states)
+    for c, n in codes.items():
+        if n > 1:
+            errors.append(f"[states.json] duplicate state code {c}")
+    if len(codes) != 50:
+        errors.append(f"[states.json] expected 50 states, found {len(codes)}")
+    by_code = {s.code: s for s in states}
+    if NATIONAL_SOURCE not in by_code or by_code[NATIONAL_SOURCE].status != "ready":
+        errors.append(f"[states.json] the national sign pack comes from {NATIONAL_SOURCE!r}, which must be ready")
+
+    for d in sorted(p for p in STATES.iterdir() if p.is_dir()):
+        if d.name not in by_code:
+            errors.append(f"[states] folder content/states/{d.name} is not in states.json")
+            continue
+        validate_state(d.name, by_code[d.name].status == "ready", image_ids, errors, warnings)
+    for s in states:
+        if s.status == "ready" and not (STATES / s.code / "districts").is_dir():
+            errors.append(f"[{s.code}] marked ready but content/states/{s.code}/districts is missing")
 
     for w in warnings:
         print("WARN ", w)
     for e in errors:
         print("ERROR", e)
-    print("\nTotals:", dict(totals))
-    print("Answer index spread:", dict(sorted(answer_dist.items())))
     print(f"\n{len(errors)} errors, {len(warnings)} warnings")
     if errors or (strict and warnings):
         return 1

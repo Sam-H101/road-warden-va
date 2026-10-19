@@ -2,7 +2,8 @@
 import { useEffect, useMemo, useRef, useState, type Ref } from 'react'
 import { useReducedMotion } from '../app/effects'
 import { useNav } from '../app/nav'
-import { campaignDistricts, finalDistrict, missionCount } from '../engine/content'
+import { campaignDistricts, finalDistrict, isPreviewState, missionCount } from '../engine/content'
+import { activeState } from '../engine/states'
 import type { District } from '../engine/types'
 import { isDistrictComplete, isExamDayUnlocked, unlockedDistricts, useGame } from '../store/gameStore'
 import { Screen, Stars } from '../ui/kit'
@@ -69,11 +70,17 @@ export function MapScreen() {
   const open = (n: MapNode, idx: number) => {
     if (n.state === 'locked') {
       const prev = nodes[idx - 1]
-      setNotice(n.final ? 'Exam Day opens when every district is cleared.' : `Clear every mission in ${prev?.d.name ?? 'the last district'} to unlock this.`)
+      setNotice(
+        n.final
+          ? isPreviewState
+            ? `Exam Day opens when the ${activeState.name} manual is added.`
+            : 'Exam Day opens when every district is cleared.'
+          : `Clear every mission in ${prev?.d.name ?? 'the last district'} to unlock this.`,
+      )
       return
     }
     if (n.state === 'soon') {
-      setNotice(`${n.d.name} is still being built. Coming soon!`)
+      setNotice(isPreviewState ? `${n.d.name} needs the ${activeState.name} manual. Coming soon!` : `${n.d.name} is still being built. Coming soon!`)
       return
     }
     nav.go({ name: 'district', district: n.d.id })

@@ -1,0 +1,16 @@
+{
+  "name": "road-warden-sync",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npx wrangler@4 dev",
+    "deploy": "npx wrangler@4 deploy",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.2",
+    "vitest": "^4.1.12"
+  }
+}
