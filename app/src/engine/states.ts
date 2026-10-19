@@ -82,6 +82,16 @@ export function chooseFirstState(code: string) {
   if (code !== activeState.code && typeof location !== 'undefined') location.reload()
 }
 
+/** The state's knowledge test in one plain sentence, or '' when it is not confirmed. */
+export function examSummary(s: StateInfo): string {
+  const q = s.exam?.questions
+  const p = s.exam?.passPercent
+  if (q && p) return `The ${s.name} test has ${q} questions. You need ${p}% to pass.`
+  if (q) return `The ${s.name} test has ${q} questions.`
+  if (p) return `You need ${p}% to pass the ${s.name} test.`
+  return ''
+}
+
 /** One plain sentence about what a state's course covers. */
 export function stateCoverage(s: StateInfo): string {
   return s.status === 'ready'

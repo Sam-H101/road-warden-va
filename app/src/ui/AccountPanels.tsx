@@ -1,6 +1,6 @@
 // Settings panels for the player's state and for online saves (Google sign-in).
 import { useEffect, useRef, useState } from 'react'
-import { activeState, stateCoverage, switchState } from '../engine/states'
+import { activeState, examSummary, stateCoverage, switchState } from '../engine/states'
 import { renderGoogleButton, signOut, syncConfigured, syncNow, useSync } from '../services/sync'
 import { useGame } from '../store/gameStore'
 import { Button, Panel } from './kit'
@@ -20,6 +20,7 @@ export function StatePanel() {
           <div className="flex-1 min-w-[10rem]">
             <div className="text-xl font-extrabold">{activeState.name}</div>
             <p className="text-sm text-dim">{stateCoverage(activeState)}</p>
+            {examSummary(activeState) && <p className="text-sm text-dim mt-1">{examSummary(activeState)} Check with your DMV, since rules change.</p>}
             {activeState.manualUrl && (
               <a href={activeState.manualUrl} target="_blank" rel="noreferrer" className="text-sm text-info font-bold underline">
                 Open the official {activeState.name} manual
